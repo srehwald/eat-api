@@ -1,0 +1,1 @@
+# stwm-mensa-api
