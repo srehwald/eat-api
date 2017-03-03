@@ -2,7 +2,6 @@
 
 import cli
 import menu_parser
-from datetime import date
 
 import util
 
