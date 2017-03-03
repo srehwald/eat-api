@@ -35,4 +35,4 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         self.assertEqual(self.menu2, self.studentenwerk_menu_parser.get_menus(self.menu_html)[self.menu2_date])
 
     def test_should_return_none(self):
-        self.assertEqual(None, self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format))
+        self.assertEqual(18, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))

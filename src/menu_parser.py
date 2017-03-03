@@ -46,8 +46,6 @@ class MenuParser:
 
 
 class StudentenwerkMenuParser(MenuParser):
-    # format for date used in the Studentenwerk menu
-    date_format = "%d.%m.%Y"
     prices = {
         "Tagesgericht 1": 1, "Tagesgericht 2": 1.55, "Tagesgericht 3": 1.9, "Tagesgericht 4": 2.4,
         "Aktionsessen 1": 1.55, "Aktionsessen 2": 1.9, "Aktionsessen 3": 2.4, "Aktionsessen 4": 2.6,
@@ -86,9 +84,9 @@ class StudentenwerkMenuParser(MenuParser):
             try:
                 current_menu_date = util.parse_date(current_menu_date_str)
             except ValueError as e:
-                print("Error during parsing date from html page. Problematic date: %s" % current_menu_date_str)
-                print("Expected pattern: %s" % util.date_pattern)
-                return
+                print("Warning: Error during parsing date from html page. Problematic date: %s" % current_menu_date_str)
+                # continue and parse subsequent menus
+                continue
             # parse dishes of current menu
             dishes = self.__parse_dishes(menu_html)
             # create menu object

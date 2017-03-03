@@ -38,7 +38,7 @@ def main():
             menu_date = util.parse_date(args.date)
         except ValueError as e:
             print("Error during parsing date from command line: %s" % args.date)
-            print("Required format: %s" % util.format)
+            print("Required format: %s" % util.cli_date_format)
             return
 
     # print menu

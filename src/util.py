@@ -3,7 +3,7 @@
 from datetime import datetime
 
 date_pattern = "%d.%m.%Y"
-format = "dd.mm.yyyy"
+cli_date_format = "dd.mm.yyyy"
 
 
 def parse_date(date_str):
