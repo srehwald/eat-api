@@ -1,23 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from io import BytesIO
 from lxml import html
 import requests
 from datetime import datetime
-
-from pdfminer.pdfdocument import PDFDocument
-from pdfminer.pdfparser import PDFParser
-from tabulate import tabulate
-import re
-
-from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
-from pdfminer.pdfpage import PDFPage
-from pdfminer.converter import TextConverter
-from pdfminer.layout import LAParams
-
-from io import StringIO
-
-import urllib.request
 
 
 class Dish:
