@@ -3,6 +3,7 @@
 from lxml import html
 import requests
 import util
+import json
 
 
 class Dish:
@@ -27,6 +28,11 @@ class Menu:
     def __init__(self, menu_date, dishes):
         self.menu_date = menu_date
         self.dishes = dishes
+
+    def to_json(self):
+        json_str = json.dumps({"date": str(self.menu_date), "dishes": [dish.__dict__ for dish in self.dishes]},
+                              ensure_ascii=False, indent=4)
+        return json_str
 
     def __repr__(self):
         menu_str = str(self.menu_date) + ": " + str(self.dishes)
