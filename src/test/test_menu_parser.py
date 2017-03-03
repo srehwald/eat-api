@@ -4,7 +4,7 @@ import unittest
 
 from lxml import html
 from datetime import date
-from src.menu_parser import Menu, Dish, StudentenwerkMenuParser
+from menu_parser import Menu, Dish, StudentenwerkMenuParser
 
 
 class StudentenwerkMenuParserTest(unittest.TestCase):
