@@ -2,7 +2,7 @@
 
 from lxml import html
 import requests
-from datetime import datetime
+import util
 
 
 class Dish:
@@ -46,8 +46,6 @@ class MenuParser:
 
 
 class StudentenwerkMenuParser(MenuParser):
-    # format for date used in the Studentenwerk menu
-    date_format = "%d.%m.%Y"
     prices = {
         "Tagesgericht 1": 1, "Tagesgericht 2": 1.55, "Tagesgericht 3": 1.9, "Tagesgericht 4": 2.4,
         "Aktionsessen 1": 1.55, "Aktionsessen 2": 1.9, "Aktionsessen 3": 2.4, "Aktionsessen 4": 2.6,
@@ -82,13 +80,17 @@ class StudentenwerkMenuParser(MenuParser):
             menu_html = html.fromstring(html.tostring(daily_menu))
             # get the date of the current menu; some string modifications are necessary
             current_menu_date_str = menu_html.xpath("//table/tr[1]/td[2]/span[1]/a[1]/strong/text()")[0].split()[1]
-
-            #TODO handle parsing error
-            current_menu_date = datetime.strptime(current_menu_date_str, '%d.%m.%Y').date()
+            # parse date
+            try:
+                current_menu_date = util.parse_date(current_menu_date_str)
+            except ValueError as e:
+                print("Warning: Error during parsing date from html page. Problematic date: %s" % current_menu_date_str)
+                # continue and parse subsequent menus
+                continue
             # parse dishes of current menu
             dishes = self.__parse_dishes(menu_html)
             # create menu object
-            menu = Menu(datetime.strptime(current_menu_date_str, self.date_format).date(), dishes)
+            menu = Menu(current_menu_date, dishes)
             # add menu object to dictionary using the date as key
             menus[current_menu_date] = menu
 
