@@ -2,7 +2,9 @@
 
 import cli
 import menu_parser
-from datetime import date, datetime
+from datetime import date
+
+import util
 
 
 def get_menu_parsing_strategy(location):
@@ -29,19 +31,19 @@ def main():
     # parse menu
     menus = parser.parse(location)
 
-    # date is by default today's date
-    menu_date = date.today()
     # if date has been explicitly specified, try to parse it
+    menu_date = None
     if args.date is not None:
         try:
-            menu_date = datetime.strptime(args.date, '%d.%m.%Y').date()
-        except ValueError:
-            print("Incorrect date format; should be DD.MM.YYYY!")
+            menu_date = util.parse_date(args.date)
+        except ValueError as e:
+            print("Error during parsing date from command line: %s" % args.date)
+            print("Required format: %s" % util.format)
             return
 
-    # print menu if available
+    # print menu
     if menus is None:
-        print("Parsing error.")
+        print("Error. Could not retrieve menu(s)")
     elif args.date is not None:
         if menu_date not in menus:
             print("There is no menu for '%s' on %s!" % (location, menu_date))

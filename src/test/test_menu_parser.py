@@ -11,6 +11,8 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
     studentenwerk_menu_parser = StudentenwerkMenuParser()
 
     menu_html = html.fromstring(open("src/test/assets/speiseplan_garching.htm").read())
+    menu_html_wrong_date_format = html.fromstring(
+        open("src/test/assets/speiseplan_garching_wrong_date_format.htm").read())
 
     dish1_1 = Dish("Linseneintopf mit Gemüse (v)", 1)
     dish1_2 = Dish("Pfannkuchen mit Apfelmus (f) (3)", 1.55)
@@ -31,3 +33,6 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
     def test_should_return_menu(self):
         self.assertEqual(self.menu1, self.studentenwerk_menu_parser.get_menus(self.menu_html)[self.menu1_date])
         self.assertEqual(self.menu2, self.studentenwerk_menu_parser.get_menus(self.menu_html)[self.menu2_date])
+
+    def test_should_return_none(self):
+        self.assertEqual(None, self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format))
