@@ -4,6 +4,7 @@ import cli
 import menu_parser
 
 import util
+from entities import Week
 
 
 def get_menu_parsing_strategy(location):
@@ -14,6 +15,10 @@ def get_menu_parsing_strategy(location):
         parser = menu_parser.StudentenwerkMenuParser()
 
     return parser
+
+
+def jsonify(weeks):
+    pass
 
 
 def main():
@@ -43,6 +48,8 @@ def main():
     # print menu
     if menus is None:
         print("Error. Could not retrieve menu(s)")
+    elif args.jsonify is True:
+        pass
     elif args.date is not None:
         if menu_date not in menus:
             print("There is no menu for '%s' on %s!" % (location, menu_date))
@@ -50,8 +57,9 @@ def main():
         menu = menus[menu_date]
         print(menu)
     else:
-        for menu in menus:
-            print(menus[menu])
+        weeks = Week.to_weeks(menus)
+        for calendar_week in weeks:
+            print(weeks[calendar_week])
 
 
 if __name__ == "__main__":

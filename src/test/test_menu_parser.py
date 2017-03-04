@@ -4,8 +4,8 @@ import unittest
 
 from lxml import html
 from datetime import date
-from menu_parser import Menu, StudentenwerkMenuParser
-from entities import Dish, Menu
+from menu_parser import StudentenwerkMenuParser
+from entities import Dish, Menu, Week
 import json
 
 
@@ -41,3 +41,12 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
     def test_should_return_json(self):
         pass
+
+    def test_should_return_weeks(self):
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
+        weeks_actual = Week.to_weeks(menus)
+
+        self.assertEqual(4, len(weeks_actual))
+        for calendar_week in weeks_actual:
+            week = weeks_actual[calendar_week]
+            self.assertEqual(5, len(week.days))

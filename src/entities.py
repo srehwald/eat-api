@@ -31,3 +31,36 @@ class Menu:
             date_equal = self.menu_date == other.menu_date
             return dishes_equal and date_equal
         return False
+
+
+class Week:
+    def __init__(self, calendar_week, year, days):
+        self.calendar_week = calendar_week
+        self.year = year
+        self.days = days
+
+    def __repr__(self):
+        week_str = "Week %s-%s" % (self.year, self.calendar_week)
+        for day in self.days:
+            week_str += "\n %s" % day
+        return week_str
+
+    @staticmethod
+    def to_weeks(menus):
+        weeks = {}
+        for menu_key in menus:
+            menu = menus[menu_key]
+            menu_date = menu.menu_date
+            # get calendar week
+            calendar_week = menu_date.isocalendar()[1]
+            # get year of the calendar week. watch out that for instance jan 01 can still be in week 52 of the
+            # previous year
+            year_of_calendar_week = menu_date.year - 1 \
+                if calendar_week == 52 and menu_date.month == 1 else menu_date.year
+
+            # append menus to respective week
+            week = weeks.get(calendar_week, Week(calendar_week, year_of_calendar_week, []))
+            week.days.append(menu)
+            weeks[calendar_week] = week
+
+        return weeks
