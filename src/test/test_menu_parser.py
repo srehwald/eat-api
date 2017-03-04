@@ -4,7 +4,9 @@ import unittest
 
 from lxml import html
 from datetime import date
-from menu_parser import Menu, Dish, StudentenwerkMenuParser
+from menu_parser import Menu, StudentenwerkMenuParser
+from entities import Dish, Menu
+import json
 
 
 class StudentenwerkMenuParserTest(unittest.TestCase):
@@ -36,3 +38,6 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
     def test_should_return_none(self):
         self.assertEqual(18, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))
+
+    def test_should_return_json(self):
+        pass
