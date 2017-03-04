@@ -40,7 +40,27 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         self.assertEqual(18, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))
 
     def test_should_return_json(self):
-        pass
+        with open('src/test/assets/speiseplan_garching_kw2016-51.json') as data_file:
+            week_2016_51 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2016-51.json') as data_file:
+            week_2017_02 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2016-51.json') as data_file:
+            week_2017_03 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2016-51.json') as data_file:
+            week_2017_04 = json.load(data_file)
+
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
+        weeks = Week.to_weeks(menus)
+        week_2016_51_actual = json.loads(weeks[51].to_json())
+        week_2017_02_actual = json.loads(weeks[2].to_json())
+        week_2017_03_actual = json.loads(weeks[3].to_json())
+        week_2017_04_actual = json.loads(weeks[4].to_json())
+
+        self.assertEqual(sorted(week_2016_51_actual.items()), sorted(week_2016_51.items()))
+        # TODO add correct prices to test json
+        # self.assertEqual(sorted(week_2017_02_actual.items()), sorted(week_2017_02.items()))
+        # self.assertEqual(sorted(week_2017_03_actual.items()), sorted(week_2017_03.items()))
+        # self.assertEqual(sorted(week_2017_04_actual.items()), sorted(week_2017_04.items()))
 
     def test_should_return_weeks(self):
         menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
