@@ -2,7 +2,6 @@
 
 # adopted from https://github.com/timwis/static-api
 set -ev && \
-cd ./dist && \
 mkdir gh-pages && \
 cd ./gh-pages && \
 remote_repo="https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" && \
