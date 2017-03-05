@@ -6,8 +6,10 @@ mkdir gh-pages && \
 cd ./gh-pages && \
 remote_repo="https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" && \
 remote_branch="gh-pages" && \
-git clone $remote_repo && \
-git checkout $remote_branch
+git init && \
+git remote add origin $remote_repo && \
+git fetch && \
+git checkout -t origin/$remote_branch && \
 git config user.name "Travis CI" && \
 git config user.email "travis@srehwald.github.io" && \
 cp -R ../dist/ ./ && \
