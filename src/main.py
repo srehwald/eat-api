@@ -36,7 +36,7 @@ def jsonify(weeks, directory):
         week_json = week.to_json()
         # write JSON to file: <year>/<calendar_week>.json
         with open("%s/%s.json" % (str(json_dir), str(calendar_week).zfill(2)), 'w') as outfile:
-            json.dump(week_json, outfile, indent=4)
+            json.dump(json.loads(week_json), outfile, indent=4, ensure_ascii=False)
 
 
 def main():
@@ -66,8 +66,11 @@ def main():
     # print menu
     if menus is None:
         print("Error. Could not retrieve menu(s)")
-    elif args.jsonify is True:
-        pass
+    elif args.jsonify is not None:
+        weeks = Week.to_weeks(menus)
+        if not os.path.exists(args.jsonify):
+            os.makedirs(args.jsonify)
+        jsonify(weeks, args.jsonify)
     elif args.date is not None:
         if menu_date not in menus:
             print("There is no menu for '%s' on %s!" % (location, menu_date))
