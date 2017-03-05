@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
-
+import os
+import tempfile
 import unittest
 
 from lxml import html
 from datetime import date
-from menu_parser import Menu, Dish, StudentenwerkMenuParser
+
+import main
+from menu_parser import StudentenwerkMenuParser
+from entities import Dish, Menu, Week
+import json
 
 
 class StudentenwerkMenuParserTest(unittest.TestCase):
@@ -36,3 +41,60 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
     def test_should_return_none(self):
         self.assertEqual(18, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))
+
+    def test_should_return_json(self):
+        with open('src/test/assets/speiseplan_garching_kw2016-51.json') as data_file:
+            week_2016_51 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2017-02.json') as data_file:
+            week_2017_02 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2017-03.json') as data_file:
+            week_2017_03 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2017-04.json') as data_file:
+            week_2017_04 = json.load(data_file)
+
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
+        weeks = Week.to_weeks(menus)
+        week_2016_51_actual = json.loads(weeks[51].to_json())
+        week_2017_02_actual = json.loads(weeks[2].to_json())
+        week_2017_03_actual = json.loads(weeks[3].to_json())
+        week_2017_04_actual = json.loads(weeks[4].to_json())
+
+        self.assertEqual(sorted(week_2016_51_actual.items()), sorted(week_2016_51.items()))
+        self.assertEqual(sorted(week_2017_02_actual.items()), sorted(week_2017_02.items()))
+        self.assertEqual(sorted(week_2017_03_actual.items()), sorted(week_2017_03.items()))
+        self.assertEqual(sorted(week_2017_04_actual.items()), sorted(week_2017_04.items()))
+
+    def test_should_return_weeks(self):
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
+        weeks_actual = Week.to_weeks(menus)
+
+        self.assertEqual(4, len(weeks_actual))
+        for calendar_week in weeks_actual:
+            week = weeks_actual[calendar_week]
+            self.assertEqual(5, len(week.days))
+
+    def test_jsonify(self):
+        # parse menu
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
+        # get weeks
+        weeks = Week.to_weeks(menus)
+
+        # create temp dir for testing
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # store output in the tempdir
+            main.jsonify(weeks, temp_dir)
+
+            # check if two directories are created (one for 2016 and 2017)
+            created_dirs = [name for name in os.listdir(temp_dir) if os.path.isdir(os.path.join(temp_dir, name))]
+            print(created_dirs)
+            self.assertEqual(2, len(created_dirs))
+            self.assertEqual("2016", created_dirs[0])
+            self.assertEqual("2017", created_dirs[1])
+
+            # check if the created directories contain the JSON files
+            dir_2016 = "%s/2016" % temp_dir
+            dir_2017 = "%s/2017" % temp_dir
+            files_in_2016 = [name for name in os.listdir(dir_2016) if os.path.isfile(os.path.join(dir_2016, name))]
+            files_in_2017 = [name for name in os.listdir(dir_2017) if os.path.isfile(os.path.join(dir_2017, name))]
+            self.assertEqual(["51.json"], files_in_2016)
+            self.assertEqual(["02.json", "03.json", "04.json"], files_in_2017)
