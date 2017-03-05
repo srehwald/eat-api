@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import json
+import os
 
 import cli
 import menu_parser
@@ -17,8 +19,24 @@ def get_menu_parsing_strategy(location):
     return parser
 
 
-def jsonify(weeks):
-    pass
+def jsonify(weeks, directory):
+    # iterate through weeks
+    for calendar_week in weeks:
+        # get Week object
+        week = weeks[calendar_week]
+        # get year of calendar week
+        year = week.year
+
+        # create dir: <year>/
+        json_dir = "%s/%s" % (str(directory), str(year))
+        if not os.path.exists(json_dir):
+            os.makedirs("%s/%s" % (str(directory), str(year)))
+
+        # convert Week object to JSON
+        week_json = week.to_json()
+        # write JSON to file: <year>/<calendar_week>.json
+        with open("%s/%s.json" % (str(json_dir), str(calendar_week).zfill(2)), 'w') as outfile:
+            json.dump(week_json, outfile, indent=4)
 
 
 def main():

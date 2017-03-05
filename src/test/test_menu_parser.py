@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
-
+import os
+import tempfile
 import unittest
 
 from lxml import html
 from datetime import date
+
+import main
 from menu_parser import StudentenwerkMenuParser
 from entities import Dish, Menu, Week
 import json
@@ -69,3 +72,29 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         for calendar_week in weeks_actual:
             week = weeks_actual[calendar_week]
             self.assertEqual(5, len(week.days))
+
+    def test_jsonify(self):
+        # parse menu
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
+        # get weeks
+        weeks = Week.to_weeks(menus)
+
+        # create temp dir for testing
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # store output in the tempdir
+            main.jsonify(weeks, temp_dir)
+
+            # check if two directories are created (one for 2016 and 2017)
+            created_dirs = [name for name in os.listdir(temp_dir) if os.path.isdir(os.path.join(temp_dir, name))]
+            print(created_dirs)
+            self.assertEqual(2, len(created_dirs))
+            self.assertEqual("2016", created_dirs[0])
+            self.assertEqual("2017", created_dirs[1])
+
+            # check if the created directories contain the JSON files
+            dir_2016 = "%s/2016" % temp_dir
+            dir_2017 = "%s/2017" % temp_dir
+            files_in_2016 = [name for name in os.listdir(dir_2016) if os.path.isfile(os.path.join(dir_2016, name))]
+            files_in_2017 = [name for name in os.listdir(dir_2017) if os.path.isfile(os.path.join(dir_2017, name))]
+            self.assertEqual(["51.json"], files_in_2016)
+            self.assertEqual(["02.json", "03.json", "04.json"], files_in_2017)
