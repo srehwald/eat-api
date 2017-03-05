@@ -1,3 +1,3 @@
 #!/bin/sh
-./parse.sh
-./deploy.sh
+scripts/parse.sh
+scripts/deploy.sh
