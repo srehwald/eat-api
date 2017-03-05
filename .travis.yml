@@ -1,7 +1,23 @@
 language: python
 python:
   - "3.6"
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y tree
+
 # command to install dependencies
 install: "pip install -r requirements.txt"
 # command to run tests
 script: PYTHONPATH=src/ pytest
+
+before_deploy:
+  - chmod +x parse.sh
+  - chmod +x deploy.sh
+
+deploy:
+  provider: script
+  script:
+    - ./parse.sh
+    # - ./deploy.sh
+  skip_cleanup: true
