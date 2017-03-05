@@ -15,5 +15,5 @@ git config user.email "travis@srehwald.github.io" && \
 cp -R ../dist/. ./ && \
 git add . && \
 git commit -m'build' && \
-git push origin $remote_branch && \
+git push --quiet origin $remote_branch > /dev/null 2>&1 && \
 rm -fr .git
