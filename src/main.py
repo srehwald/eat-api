@@ -66,17 +66,20 @@ def main():
     # print menu
     if menus is None:
         print("Error. Could not retrieve menu(s)")
+    # jsonify argument is set
     elif args.jsonify is not None:
         weeks = Week.to_weeks(menus)
         if not os.path.exists(args.jsonify):
             os.makedirs(args.jsonify)
         jsonify(weeks, args.jsonify)
+    # date argument is set
     elif args.date is not None:
         if menu_date not in menus:
             print("There is no menu for '%s' on %s!" % (location, menu_date))
             return
         menu = menus[menu_date]
         print(menu)
+    # else, print weeks
     else:
         weeks = Week.to_weeks(menus)
         for calendar_week in weeks:
