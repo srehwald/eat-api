@@ -12,13 +12,13 @@ install: "pip install -r requirements.txt"
 script: PYTHONPATH=src/ pytest
 
 before_deploy:
-  - chmod +x wrapper.sh
-  - chmod +x parse.sh
-  - chmod +x deploy.sh
+  - chmod +x scripts/wrapper.sh
+  - chmod +x scripts/parse.sh
+  - chmod +x scripts/deploy.sh
 
 deploy:
   provider: script
-  script: ./wrapper.sh
+  script: scripts/wrapper.sh
   skip_cleanup: true
   on:
     all_branches: true
