@@ -12,7 +12,7 @@ git fetch && \
 git checkout -t origin/$remote_branch && \
 git config user.name "Travis CI" && \
 git config user.email "travis@srehwald.github.io" && \
-cp -R ../dist/ ./ && \
+cp -R ../dist/. ./ && \
 git add . && \
 git commit -m'build' && \
 git push origin $remote_branch && \
