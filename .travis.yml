@@ -22,4 +22,4 @@ deploy:
     # - ./deploy.sh
   skip_cleanup: true
   on:
-    branch: **
+    all_branches: true
