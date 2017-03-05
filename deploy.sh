@@ -14,6 +14,6 @@ git config user.name "Travis CI" && \
 git config user.email "travis@srehwald.github.io" && \
 cp -R ../dist/. ./ && \
 git add . && \
-git commit -m'build' && \
+git diff-index --quiet HEAD || git commit -m 'build' && \
 git push --quiet origin $remote_branch > /dev/null 2>&1 && \
 rm -fr .git
