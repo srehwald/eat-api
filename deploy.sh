@@ -10,7 +10,7 @@ remote_branch="gh-pages" && \
 git clone -b $remote_branch $remote_repo && \
 git config user.name "Travis CI" && \
 git config user.email "travis@srehwald.github.io" && \
-git cp -R ../dist/ ./ && \
+cp -R ../dist/ ./ && \
 git add . && \
 git commit -m'build' && \
 git push --quiet origin $remote_branch > /dev/null 2>&1 && \
