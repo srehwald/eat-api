@@ -86,7 +86,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
             # check if two directories are created (one for 2016 and 2017)
             created_dirs = [name for name in os.listdir(temp_dir) if os.path.isdir(os.path.join(temp_dir, name))]
-            print(created_dirs)
+            created_dirs.sort()
             self.assertEqual(2, len(created_dirs))
             self.assertEqual("2016", created_dirs[0])
             self.assertEqual("2017", created_dirs[1])
@@ -96,5 +96,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
             dir_2017 = "%s/2017" % temp_dir
             files_in_2016 = [name for name in os.listdir(dir_2016) if os.path.isfile(os.path.join(dir_2016, name))]
             files_in_2017 = [name for name in os.listdir(dir_2017) if os.path.isfile(os.path.join(dir_2017, name))]
+            files_in_2016.sort()
+            files_in_2017.sort()
             self.assertEqual(["51.json"], files_in_2016)
             self.assertEqual(["02.json", "03.json", "04.json"], files_in_2017)
