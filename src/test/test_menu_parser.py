@@ -18,7 +18,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
     menu_html = html.fromstring(
         open("src/test/assets/speiseplan_garching.html").read())
     menu_html_wrong_date_format = html.fromstring(
-        open("src/test/assets/speiseplan_garching_wrong_date_format.htm").read())
+        open("src/test/assets/speiseplan_garching_wrong_date_format.html").read())
 
     dish1_1 = Dish("Kartoffelgulasch mit Paprika", 1)
     dish1_2 = Dish("Hackfleischbällchen mit Champignonrahmsauce", 1.9)
@@ -39,9 +39,8 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         self.assertEqual(self.menu1, self.studentenwerk_menu_parser.get_menus(self.menu_html)[self.menu1_date])
         self.assertEqual(self.menu2, self.studentenwerk_menu_parser.get_menus(self.menu_html)[self.menu2_date])
 
-    @unittest.skip("adaptions to new website necessary")
-    def test_Should_ReturnNone_When_(self):
-        self.assertEqual(18, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))
+    def test_Should_IgnoreDay_When_DateOfTheDayIsInAWrongFormat(self):
+        self.assertEqual(22, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))
 
     @unittest.skip("adaptions to new website necessary")
     def test_should_return_json(self):
