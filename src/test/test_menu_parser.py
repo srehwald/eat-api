@@ -42,6 +42,21 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
     def test_Should_IgnoreDay_When_DateOfTheDayIsInAWrongFormat(self):
         self.assertEqual(22, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))
 
+    def test_Should_ReturnWeeks_When_ConvertingMenuToWeekObjects(self):
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
+        weeks_actual = Week.to_weeks(menus)
+        length_weeks_actual = len(weeks_actual)
+
+        self.assertEqual(5, length_weeks_actual)
+        for calendar_week in weeks_actual:
+            week = weeks_actual[calendar_week]
+            week_length = len(week.days)
+            # calendar weeks 15 and 16 have one day less, because of a holiday
+            if calendar_week == 15 or calendar_week == 16:
+                self.assertEqual(4, week_length)
+            else:
+                self.assertEqual(5, week_length)
+
     @unittest.skip("adaptions to new website necessary")
     def test_should_return_json(self):
         with open('src/test/assets/speiseplan_garching_kw2016-51.json') as data_file:
@@ -64,16 +79,6 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         self.assertEqual(sorted(week_2017_02_actual.items()), sorted(week_2017_02.items()))
         self.assertEqual(sorted(week_2017_03_actual.items()), sorted(week_2017_03.items()))
         self.assertEqual(sorted(week_2017_04_actual.items()), sorted(week_2017_04.items()))
-
-    @unittest.skip("adaptions to new website necessary")
-    def test_should_return_weeks(self):
-        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
-        weeks_actual = Week.to_weeks(menus)
-
-        self.assertEqual(4, len(weeks_actual))
-        for calendar_week in weeks_actual:
-            week = weeks_actual[calendar_week]
-            self.assertEqual(5, len(week.days))
 
     @unittest.skip("adaptions to new website necessary")
     def test_jsonify(self):
