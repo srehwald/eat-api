@@ -19,10 +19,11 @@ class StudentenwerkMenuParser(MenuParser):
         "Aktionsessen 5": 2.8, "Aktionsessen 6": 3.0, "Aktionsessen 7": 3.2, "Aktionsessen 8": 3.5, "Aktionsessen 9": 4,
         "Aktionsessen 10": 4.5, "Biogericht 1": 1.55, "Biogericht 2": 1.9, "Biogericht 3": 2.4, "Biogericht 4": 2.6,
         "Biogericht 5": 2.8, "Biogericht 6": 3.0, "Biogericht 7": 3.2, "Biogericht 8": 3.5, "Biogericht 9": 4,
-        "Biogericht 10": 4.5,
+        "Biogericht 10": 4.5, "Self-Service": "Self-Service"
     }
     links = {
-        "mensa-garching": 'http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html'
+        "mensa-garching": 'http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html',
+        "mensa-arcisstrasse": "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_421_-de.html"
     }
 
     def parse(self, location):
@@ -73,6 +74,8 @@ class StudentenwerkMenuParser(MenuParser):
     @staticmethod
     def __parse_dishes(menu_html):
         # obtain the names of all dishes in a passed menu
+
+        # TODO make duplicates unique by adding ('), ('') etc.
         dish_names = menu_html.xpath("//table/tr/td[@class='beschreibung']/span[1]/text()")
         # obtain the types of the dishes (e.g. 'Tagesgericht 1')
         dish_types = menu_html.xpath("//table/tr/td[@class='gericht']/span[1]/text()")

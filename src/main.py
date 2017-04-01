@@ -13,7 +13,7 @@ def get_menu_parsing_strategy(location):
     parser = None
 
     # set parsing strategy based on location
-    if location == "mensa-garching":
+    if location in ["mensa-garching", "mensa-arcisstrasse"]:
         parser = menu_parser.StudentenwerkMenuParser()
 
     return parser
