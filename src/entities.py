@@ -7,7 +7,12 @@ class Dish:
         self.price = price
 
     def __repr__(self):
-        return "%s: %d€" % (self.name, self.price)
+        if type(self.price) is not str:
+            return "%s: %d€" % (self.name, self.price)
+        elif type(self.price) is str and self.price == "Self-Service":
+            return "%s: %s" % (self.name, self.price)
+        else:
+            return "%s: NA" % self.name
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
