@@ -80,8 +80,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         self.assertEqual(sorted(week_2017_03_actual.items()), sorted(week_2017_03.items()))
         self.assertEqual(sorted(week_2017_04_actual.items()), sorted(week_2017_04.items()))
 
-    @unittest.skip("adaptions to new website necessary")
-    def test_jsonify(self):
+    def test_Should_CreateCorrectDirectoriesAndJSONFiles_When_CallingJsonifyMethod(self):
         # parse menu
         menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
         # get weeks
@@ -95,16 +94,11 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
             # check if two directories are created (one for 2016 and 2017)
             created_dirs = [name for name in os.listdir(temp_dir) if os.path.isdir(os.path.join(temp_dir, name))]
             created_dirs.sort()
-            self.assertEqual(2, len(created_dirs))
-            self.assertEqual("2016", created_dirs[0])
-            self.assertEqual("2017", created_dirs[1])
+            self.assertEqual(1, len(created_dirs))
+            self.assertEqual("2017", created_dirs[0])
 
             # check if the created directories contain the JSON files
-            dir_2016 = "%s/2016" % temp_dir
             dir_2017 = "%s/2017" % temp_dir
-            files_in_2016 = [name for name in os.listdir(dir_2016) if os.path.isfile(os.path.join(dir_2016, name))]
             files_in_2017 = [name for name in os.listdir(dir_2017) if os.path.isfile(os.path.join(dir_2017, name))]
-            files_in_2016.sort()
             files_in_2017.sort()
-            self.assertEqual(["51.json"], files_in_2016)
-            self.assertEqual(["02.json", "03.json", "04.json"], files_in_2017)
+            self.assertEqual(["13.json", "14.json", "15.json", "16.json", "17.json"], files_in_2017)
