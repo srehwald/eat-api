@@ -23,7 +23,8 @@ class StudentenwerkMenuParser(MenuParser):
     }
     links = {
         "mensa-garching": 'http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html',
-        "mensa-arcisstrasse": "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_421_-de.html"
+        "mensa-arcisstrasse": "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_421_-de.html",
+        "stubistro-grosshadern": "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_414_-de.html"
     }
 
     def parse(self, location):

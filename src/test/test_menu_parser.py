@@ -19,8 +19,14 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         open("src/test/assets/speiseplan_garching.html").read())
     menu_html_arcisstrasse = html.fromstring(
         open("src/test/assets/speiseplan_arcisstrasse.html").read())
+    menu_html_großhadern = html.fromstring(
+        open("src/test/assets/speiseplan_großhadern.html").read())
     menu_html_wrong_date_format = html.fromstring(
         open("src/test/assets/speiseplan_garching_wrong_date_format.html").read())
+
+    menu1_date = date(2017, 3, 27)
+    menu2_date = date(2017, 4, 3)
+    menu3_date = date(2017, 4, 4)
 
     # dishes in Garching
     dish1_1_garching = Dish("Kartoffelgulasch mit Paprika", 1)
@@ -32,6 +38,9 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
     dish2_2_garching = Dish("Gulasch vom Schwein", 1.9)
     dish2_3_garching = Dish("Paniertes Hähnchenschnitzel", 2.4)
 
+    menu1_garching = Menu(menu1_date, [dish1_1_garching, dish1_2_garching, dish1_3_garching, dish1_4_garching])
+    menu2_garching = Menu(menu2_date, [dish2_1_garching, dish2_2_garching, dish2_3_garching])
+
     # dishes in Arcisstrasse
     dish1_1_arcisstrasse = Dish("Kartoffelgulasch mit Paprika", 1)
     dish1_2_arcisstrasse = Dish("Hackfleischbällchen mit Champignonrahmsauce", 1.55)
@@ -42,16 +51,14 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
     dish1_7_arcisstrasse = Dish("Pasta Pomodori (2)", "Self-Service")
     dish1_8_arcisstrasse = Dish("Kartoffelgulasch mit Paprika (2)", "Self-Service")
     dish1_9_arcisstrasse = Dish("Pasta mit Sojabolognese", "Self-Service")
-
-    menu1_date = date(2017, 3, 27)
-    menu2_date = date(2017, 4, 3)
-
-    menu1_garching = Menu(menu1_date, [dish1_1_garching, dish1_2_garching, dish1_3_garching, dish1_4_garching])
-    menu2_garching = Menu(menu2_date, [dish2_1_garching, dish2_2_garching, dish2_3_garching])
-
     menu1_arcisstrasse = Menu(menu1_date, [dish1_1_arcisstrasse, dish1_2_arcisstrasse, dish1_3_arcisstrasse,
                                            dish1_4_arcisstrasse, dish1_5_arcisstrasse, dish1_6_arcisstrasse,
                                            dish1_7_arcisstrasse, dish1_8_arcisstrasse, dish1_9_arcisstrasse])
+
+    # dishes in Großhadern
+    dish1_1_großhadern = Dish("Pasta-Gemüse-Auflauf mit Tomatensauce", 1.9)
+    dish1_2_großhadern = Dish("Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce", 3)
+    menu1_großhadern = Menu(menu3_date, [dish1_1_großhadern, dish1_2_großhadern])
 
     def test_Should_ReturnMenu_When_PassedDateIsCorrect(self):
         self.assertEqual(self.menu1_garching,
@@ -61,6 +68,9 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
         self.assertEqual(self.menu1_arcisstrasse,
                          self.studentenwerk_menu_parser.get_menus(self.menu_html_arcisstrasse)[self.menu1_date])
+
+        self.assertEqual(self.menu1_großhadern,
+                         self.studentenwerk_menu_parser.get_menus(self.menu_html_großhadern)[self.menu3_date])
 
     def test_Should_IgnoreDay_When_DateOfTheDayIsInAWrongFormat(self):
         self.assertEqual(22, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))
