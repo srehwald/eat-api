@@ -46,7 +46,7 @@ class StudentenwerkMenuParser(MenuParser):
             # get html representation of current menu
             menu_html = html.fromstring(html.tostring(daily_menu))
             # get the date of the current menu; some string modifications are necessary
-            current_menu_date_str = menu_html.xpath("//table/tr[1]/td[2]/span[1]/a[1]/strong/text()")[0].split()[1]
+            current_menu_date_str = menu_html.xpath("//strong/text()")[0]
             # parse date
             try:
                 current_menu_date = util.parse_date(current_menu_date_str)
@@ -67,17 +67,17 @@ class StudentenwerkMenuParser(MenuParser):
     @staticmethod
     def __get_daily_menus_as_html(page):
         # obtain all daily menus found in the passed html page by xpath query
-        daily_menus = page.xpath("//table[@class='menu']")
+        daily_menus = page.xpath("//div[@class='c-schedule__item']")
         return daily_menus
 
     @staticmethod
     def __parse_dishes(menu_html):
         # obtain the names of all dishes in a passed menu
-        dish_names = menu_html.xpath("//table/tr/td[@class='beschreibung']/span[1]/text()")
+        dish_names = menu_html.xpath("//p[@class='js-schedule-dish-description']/text()")
         # obtain the types of the dishes (e.g. 'Tagesgericht 1')
-        dish_types = menu_html.xpath("//table/tr/td[@class='gericht']/span[1]/text()")
+        dish_types = menu_html.xpath("//span[@class='stwm-artname']/text()")
         # create dictionary out of dish name and dish type
         dishes_dict = {dish_name: dish_type for dish_name, dish_type in zip(dish_names, dish_types)}
         # create Dish objects with correct prices; if price is not available, -1 is used instead
-        dishes = [Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], -1)) for name in dishes_dict]
+        dishes = [Dish(name.rstrip(), StudentenwerkMenuParser.prices.get(dishes_dict[name], -1)) for name in dishes_dict]
         return dishes
