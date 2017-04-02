@@ -57,30 +57,33 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
             else:
                 self.assertEqual(5, week_length)
 
-    @unittest.skip("adaptions to new website necessary")
-    def test_should_return_json(self):
-        with open('src/test/assets/speiseplan_garching_kw2016-51.json') as data_file:
-            week_2016_51 = json.load(data_file)
-        with open('src/test/assets/speiseplan_garching_kw2017-02.json') as data_file:
-            week_2017_02 = json.load(data_file)
-        with open('src/test/assets/speiseplan_garching_kw2017-03.json') as data_file:
-            week_2017_03 = json.load(data_file)
-        with open('src/test/assets/speiseplan_garching_kw2017-04.json') as data_file:
-            week_2017_04 = json.load(data_file)
+    def test_Should_ConvertWeekToJSON(self):
+        with open('src/test/assets/speiseplan_garching_kw2017-13.json') as data_file:
+            week_2017_13 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2017-14.json') as data_file:
+            week_2017_14 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2017-15.json') as data_file:
+            week_2017_15 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2017-16.json') as data_file:
+            week_2017_16 = json.load(data_file)
+        with open('src/test/assets/speiseplan_garching_kw2017-17.json') as data_file:
+            week_2017_17 = json.load(data_file)
 
         menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
         weeks = Week.to_weeks(menus)
-        week_2016_51_actual = json.loads(weeks[51].to_json())
-        week_2017_02_actual = json.loads(weeks[2].to_json())
-        week_2017_03_actual = json.loads(weeks[3].to_json())
-        week_2017_04_actual = json.loads(weeks[4].to_json())
+        week_2017_13_actual = json.loads(weeks[13].to_json())
+        week_2017_14_actual = json.loads(weeks[14].to_json())
+        week_2017_15_actual = json.loads(weeks[15].to_json())
+        week_2017_16_actual = json.loads(weeks[16].to_json())
+        week_2017_17_actual = json.loads(weeks[17].to_json())
 
-        self.assertEqual(sorted(week_2016_51_actual.items()), sorted(week_2016_51.items()))
-        self.assertEqual(sorted(week_2017_02_actual.items()), sorted(week_2017_02.items()))
-        self.assertEqual(sorted(week_2017_03_actual.items()), sorted(week_2017_03.items()))
-        self.assertEqual(sorted(week_2017_04_actual.items()), sorted(week_2017_04.items()))
+        self.assertEqual(sorted(week_2017_13_actual.items()), sorted(week_2017_13.items()))
+        self.assertEqual(sorted(week_2017_14_actual.items()), sorted(week_2017_14.items()))
+        self.assertEqual(sorted(week_2017_15_actual.items()), sorted(week_2017_15.items()))
+        self.assertEqual(sorted(week_2017_16_actual.items()), sorted(week_2017_16.items()))
+        self.assertEqual(sorted(week_2017_17_actual.items()), sorted(week_2017_17.items()))
 
-    def test_Should_CreateCorrectDirectoriesAndJSONFiles_When_CallingJsonifyMethod(self):
+    def test_Should_CreateCorrectDirectoriesAndJSONFiles(self):
         # parse menu
         menus = self.studentenwerk_menu_parser.get_menus(self.menu_html)
         # get weeks
