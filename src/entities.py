@@ -8,7 +8,7 @@ class Dish:
 
     def __repr__(self):
         if type(self.price) is not str:
-            return "%s: %d€" % (self.name, self.price)
+            return "%s: %.2f€" % (self.name, self.price)
         elif type(self.price) is str and self.price == "Self-Service":
             return "%s: %s" % (self.name, self.price)
         else:
