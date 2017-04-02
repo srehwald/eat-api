@@ -74,12 +74,13 @@ class StudentenwerkMenuParser(MenuParser):
     @staticmethod
     def __parse_dishes(menu_html):
         # obtain the names of all dishes in a passed menu
-        # TODO make duplicates unique by adding ('), ('') etc.
-        dish_names = menu_html.xpath("//p[@class='js-schedule-dish-description']/text()")
+        dish_names = [dish.rstrip() for dish in menu_html.xpath("//p[@class='js-schedule-dish-description']/text()")]
+        # make duplicates unique by adding (2), (3) etc. to the names
+        dish_names = util.make_duplicates_unique(dish_names)
         # obtain the types of the dishes (e.g. 'Tagesgericht 1')
         dish_types = menu_html.xpath("//span[@class='stwm-artname']/text()")
         # create dictionary out of dish name and dish type
         dishes_dict = {dish_name: dish_type for dish_name, dish_type in zip(dish_names, dish_types)}
         # create Dish objects with correct prices; if price is not available, -1 is used instead
-        dishes = [Dish(name.rstrip(), StudentenwerkMenuParser.prices.get(dishes_dict[name], -1)) for name in dishes_dict]
+        dishes = [Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], -1)) for name in dishes_dict]
         return dishes
