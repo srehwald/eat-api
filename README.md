@@ -13,7 +13,6 @@ Simple static API for the canteens of the [Studentenwerk München](http://www.st
 The actual API is provided by static JSON files, which can be found in the gh-pages branch of this repository. These files are created through automatic travis builds. You need to structure a link as follows in order to access the API:
 ```
 https://srehwald.github.io/stwm-mensa-api/<location>/<year>/<week-number>.json
-
 ```
 
 #### Example
