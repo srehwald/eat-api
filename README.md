@@ -51,5 +51,3 @@ $ python src/main.py mensa-garching
 # Get the menu for April 2 at mensa-arcisstrasse
 $ python src/main.py mensa-arcisstrasse -d 02.04.2017
 ```
-
-# License
