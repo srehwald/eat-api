@@ -21,4 +21,4 @@ deploy:
   script: scripts/wrapper.sh
   skip_cleanup: true
   on:
-    branch: develop
+    branch: master
