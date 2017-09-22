@@ -6,6 +6,10 @@
             "date": "2017-09-18",
             "dishes": [
                 {
+                    "name": "Knöpflepfanne mit buntem Gemüse",
+                    "price": 1.9
+                },
+                {
                     "name": "Deftiges Bauerngulasch (GQB)",
                     "price": 2.6
                 },
@@ -18,7 +22,15 @@
                     "price": 3.5
                 },
                 {
-                    "name": "Rigatoni mit Lachs-Sahne-Sauce",
+                    "name": "Gebratene Currynudeln mit Gemüsestreifen",
+                    "price": "Self-Service"
+                },
+                {
+                    "name": "Joghurt mit Pfirsichen",
+                    "price": "Self-Service"
+                },
+                {
+                    "name": "Kartoffelgulasch mit Paprika",
                     "price": "Self-Service"
                 },
                 {
@@ -34,7 +46,7 @@
                     "price": "Self-Service"
                 },
                 {
-                    "name": "Saisonale Beilagensalate",
+                    "name": "Rote Grütze mit Vanillesauce",
                     "price": "Self-Service"
                 }
             ]
@@ -43,23 +55,31 @@
             "date": "2017-09-19",
             "dishes": [
                 {
-                    "name": "Wiener Backhendlbrust mit Kartoffel(GQB)-Gurken-Salat",
-                    "price": 2.8
+                    "name": "Fränkische Bratwurst auf Kartoffel- Gurkensalat, Kartoffel(GQB)-Gurken-Salat",
+                    "price": 1.9
                 },
                 {
-                    "name": "Pizza Vegetariana mit Mozarella und Grillgemüse",
-                    "price": 3.5
+                    "name": "Deftiges Bauerngulasch (GQB)",
+                    "price": 2.4
+                },
+                {
+                    "name": "Wiener Backhendlbrust mit Kartoffel(GQB)-Gurken-Salat",
+                    "price": 2.8
                 },
                 {
                     "name": "Pizza Rucola Pomodoro mit Cocktailtomaten, Rucola und Parmigiano",
                     "price": 3.5
                 },
                 {
-                    "name": "Pasta mit Würstelgulasch",
+                    "name": "Pizza Vegetariana mit Mozarella und Grillgemüse",
+                    "price": 3.5
+                },
+                {
+                    "name": "Saisonale Beilagensalate",
                     "price": "Self-Service"
                 },
                 {
-                    "name": "Wokgemüse mit Erdnüssen und Mini-Frühlingsrollen",
+                    "name": "Pasta mit Würstelgulasch",
                     "price": "Self-Service"
                 },
                 {
@@ -67,7 +87,11 @@
                     "price": "Self-Service"
                 },
                 {
-                    "name": "Saisonale Beilagensalate",
+                    "name": "Wokgemüse mit Erdnüssen und Mini-Frühlingsrollen",
+                    "price": "Self-Service"
+                },
+                {
+                    "name": "Joghurt mit Pfirsichen",
                     "price": "Self-Service"
                 },
                 {
@@ -80,19 +104,27 @@
             "date": "2017-09-20",
             "dishes": [
                 {
+                    "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
+                    "price": 1
+                },
+                {
+                    "name": "Pizza Margherita mit Mozzarella und frischem Basilikum",
+                    "price": 2.6
+                },
+                {
                     "name": "Münchner Wiesn Schweinebraten mit Biersauce",
                     "price": 2.6
                 },
                 {
-                    "name": "Pizza Verdura Mexicana mit Mozzarella",
-                    "price": 3.5
+                    "name": "Pizza Margherita mit Mozzarella und frischem Basilikum (2)",
+                    "price": 3.0
                 },
                 {
                     "name": "Pizza Hawaii mit Schinken und Ananas",
                     "price": 3.5
                 },
                 {
-                    "name": "Saisonale Beilagensalate",
+                    "name": "Penne mit Zucchini und Hackfleisch",
                     "price": "Self-Service"
                 },
                 {
@@ -100,15 +132,15 @@
                     "price": "Self-Service"
                 },
                 {
-                    "name": "Putensteak mit Kräuterbutter",
+                    "name": "Saisonale Beilagensalate",
                     "price": "Self-Service"
                 },
                 {
-                    "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
+                    "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais (2)",
                     "price": "Self-Service"
                 },
                 {
-                    "name": "Penne mit Zucchini und Hackfleisch",
+                    "name": "Putensteak mit Kräuterbutter und Grilltomate",
                     "price": "Self-Service"
                 }
             ]
@@ -116,6 +148,10 @@
         {
             "date": "2017-09-21",
             "dishes": [
+                {
+                    "name": "Gebratenes Truthahnsteak, Mexikanischer Reistopf mit Bohnen, Paprika und Mais, Weiße Bohnensuppe",
+                    "price": 2.4
+                },
                 {
                     "name": "Hackbraten mit Rahmsauce",
                     "price": 2.6
@@ -125,27 +161,31 @@
                     "price": 3.0
                 },
                 {
-                    "name": "Pizza Frutti di Mare mit Meeresfrüchten",
+                    "name": "Pizza Tonno mit Thunfisch und Zwiebel",
                     "price": 3.5
                 },
                 {
+                    "name": "Pizza Regina mit Schinken und Champignons",
+                    "price": 3.5
+                },
+                {
+                    "name": "Knöpfle mit Schinken und Erbsen",
+                    "price": "Self-Service"
+                },
+                {
+                    "name": "Stracciatellacreme",
+                    "price": "Self-Service"
+                },
+                {
+                    "name": "Bio-Schokopudding mit Bio-Sahne",
+                    "price": "Self-Service"
+                },
+                {
+                    "name": "Quark Honig-Nuss-Knusper",
+                    "price": "Self-Service"
+                },
+                {
                     "name": "Saisonale Beilagensalate",
-                    "price": "Self-Service"
-                },
-                {
-                    "name": "Frisches Grillgemüse",
-                    "price": "Self-Service"
-                },
-                {
-                    "name": "Gegrillter Maiskolben aus dem Butterfond",
-                    "price": "Self-Service"
-                },
-                {
-                    "name": "Zartweizen mit Tomaten, Zucchini und Auberginen",
-                    "price": "Self-Service"
-                },
-                {
-                    "name": "Fleckerl mit Schinken und Erbsen",
                     "price": "Self-Service"
                 }
             ]
@@ -166,15 +206,15 @@
                     "price": "Self-Service"
                 },
                 {
+                    "name": "Pasta mit Schweinefleisch süß-sauer",
+                    "price": "Self-Service"
+                },
+                {
                     "name": "Pasta mit buntem Marktgemüse",
                     "price": "Self-Service"
                 },
                 {
                     "name": "Saisonale Beilagensalate",
-                    "price": "Self-Service"
-                },
-                {
-                    "name": "Pasta mit Schweinefleisch süß-sauer",
                     "price": "Self-Service"
                 }
             ]
