@@ -7,7 +7,7 @@ from lxml import html
 from datetime import date
 
 import main
-from menu_parser import StudentenwerkMenuParser
+from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser
 from entities import Dish, Menu, Week
 import json
 
@@ -138,3 +138,13 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
             files_in_2017 = [name for name in os.listdir(dir_2017) if os.path.isfile(os.path.join(dir_2017, name))]
             files_in_2017.sort()
             self.assertEqual(["13.json", "14.json", "15.json", "16.json", "17.json"], files_in_2017)
+
+
+class FMIBistroParserTest(unittest.TestCase):
+    bistro_parser = FMIBistroMenuParser()
+    test_menu = open('src/test/assets/fmi/Garching-Speiseplan_KW44_2017.txt', 'r').read()
+    year = 2017
+    week_number = 44
+
+    def test_Should_Return_Menu(self):
+        self.assertEqual(3, len(self.bistro_parser.get_menus(self.test_menu, self.year, self.week_number)))
