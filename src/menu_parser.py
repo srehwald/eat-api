@@ -118,6 +118,8 @@ class FMIBistroMenuParser(MenuParser):
         pos_thu = lines[0].find("Donnerstag")
         pos_fri = lines[0].find("Freitag")
 
+        # The text is formatted as table using whitespaces. Hence, we need to get those parts of each line that refer
+        #  to the respective week day
         lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
         for line in lines:
             lines_weekdays["mon"] += line[pos_mon:pos_tue].replace("\n", " ").replace("Montag", "")
@@ -138,17 +140,21 @@ class FMIBistroMenuParser(MenuParser):
             for allergen in self.allergens:
                 lines_weekdays[key] = lines_weekdays[key].replace(allergen, "")
 
+            # get all dish including name and price
             dish_names = re.findall(self.dish_regex, lines_weekdays[key])
+            # get dish prices
             prices = re.findall(self.price_regex, ' '.join(dish_names))
             # convert prices to float
             prices = [float(price.replace("€", "").replace(",", ".").strip()) for price in prices]
-            # remove price and commas
+            # remove price and commas from dish names
             dish_names = [re.sub(self.price_regex, "", dish).replace("," ,"").strip() for dish in dish_names]
             # create list of Dish objects
             dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))]
+            # get date from year, week number and current weekday
             # https://stackoverflow.com/questions/17087314/get-date-from-week-number
             date_str = "%d-W%d-%d" % (year, week_number, self.weekday_positions[key])
             date = datetime.strptime(date_str, "%Y-W%W-%w").date()
+            # create new Menu object and add it to dict
             menu = Menu(date, dishes)
             menus[date] = menu
 
