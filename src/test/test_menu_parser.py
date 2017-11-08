@@ -146,5 +146,28 @@ class FMIBistroParserTest(unittest.TestCase):
     year = 2017
     week_number = 44
 
+    date_mon = date(2017, 10, 30)
+    date_thu = date(2017, 11, 2)
+    date_fri = date(2017, 11, 3)
+    dish1_mon = Dish("Kurkumareis mit Asia Wokgemüse", 3.6)
+    dish2_mon = Dish("Kartoffel „Cordon Bleu“ mit Frischkäse gefüllt dazu Blattsalate", 4.3)
+    dish3_mon = Dish("Putenschnitzel natur mit Paprikarahmsoße dazu Ebly Gemüseweizen", 5.3)
+    dish1_thu = Dish("Süßkartoffel Gemüsepfanne", 3.6)
+    dish2_thu = Dish("Gemüse Nudelauflauf", 4.3)
+    dish3_thu = Dish("Hähnchenspieß in Kokos Currysoße dazu Früchtereis", 5.3)
+    dish1_fri = Dish("Antipasti Rosmarinkartoffeln", 3.6)
+    dish2_fri = Dish("Schlemmerfilet auf Antipasti Rosmarinkartoffeln", 4.5)
+    dish3_fri = Dish("Kaiserschmarrn mit Zwetschenröster", 3)
+    menu_mon = Menu(date_mon, [dish1_mon, dish2_mon, dish3_mon])
+    menu_thu = Menu(date_thu, [dish1_thu, dish2_thu, dish3_thu])
+    menu_fri = Menu(date_fri, [dish1_fri, dish2_fri, dish3_fri])
+
     def test_Should_Return_Menu(self):
+        # TODO extend test case using real menu data
+        menus_actual = self.bistro_parser.get_menus(self.test_menu, self.year, self.week_number)
         self.assertEqual(3, len(self.bistro_parser.get_menus(self.test_menu, self.year, self.week_number)))
+        self.assertEqual(Dish("as",1), Dish("as",1))
+        # TODO remove wrong umlauts
+        self.assertEqual(self.menu_mon, menus_actual[self.date_mon])
+        self.assertEqual(self.menu_thu, menus_actual[self.date_thu])
+        self.assertEqual(self.menu_fri, menus_actual[self.date_fri])

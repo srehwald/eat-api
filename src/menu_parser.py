@@ -2,6 +2,7 @@
 
 import requests
 import re
+import unicodedata
 from datetime import datetime
 from lxml import html
 
@@ -122,11 +123,11 @@ class FMIBistroMenuParser(MenuParser):
         #  to the respective week day
         lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
         for line in lines:
-            lines_weekdays["mon"] += line[pos_mon:pos_tue].replace("\n", " ").replace("Montag", "")
-            lines_weekdays["tue"] += line[pos_tue:pos_wed].replace("\n", " ").replace("Dienstag", "")
-            lines_weekdays["wed"] += line[pos_wed:pos_thu].replace("\n", " ").replace("Mittwoch", "")
-            lines_weekdays["thu"] += line[pos_thu:pos_fri].replace("\n", " ").replace("Donnerstag", "")
-            lines_weekdays["fri"] += line[pos_fri:].replace("\n", " ").replace("Freitag", "")
+            lines_weekdays["mon"] += " " + line[pos_mon:pos_tue].replace("\n", " ").replace("Montag", "")
+            lines_weekdays["tue"] += " " + line[pos_tue:pos_wed].replace("\n", " ").replace("Dienstag", "")
+            lines_weekdays["wed"] += " " + line[pos_wed:pos_thu].replace("\n", " ").replace("Mittwoch", "")
+            lines_weekdays["thu"] += " " + line[pos_thu:pos_fri].replace("\n", " ").replace("Donnerstag", "")
+            lines_weekdays["fri"] += " " + line[pos_fri:].replace("\n", " ").replace("Freitag", "")
 
         for key in lines_weekdays:
             # stop parsing day when bistro is closed at that day
@@ -134,6 +135,8 @@ class FMIBistroMenuParser(MenuParser):
                 continue
 
             lines_weekdays[key] = lines_weekdays[key].replace("Allergene:", "")
+            # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
+            lines_weekdays[key] = unicodedata.normalize("NFKD", lines_weekdays[key])
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
             # remove allergnes
