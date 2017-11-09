@@ -142,32 +142,60 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
 class FMIBistroParserTest(unittest.TestCase):
     bistro_parser = FMIBistroMenuParser()
-    test_menu = open('src/test/assets/fmi/Garching-Speiseplan_KW44_2017.txt', 'r').read()
-    year = 2017
-    week_number = 44
+    test_menu1 = open('src/test/assets/fmi/Garching-Speiseplan_KW44_2017.txt', 'r').read()
+    year1 = 2017
+    week_number1 = 44
+    test_menu2 = open('src/test/assets/fmi/Garching-Speiseplan_KW45_2017.txt', 'r').read()
+    year2 = 2017
+    week_number2 = 45
 
-    date_mon = date(2017, 10, 30)
-    date_thu = date(2017, 11, 2)
-    date_fri = date(2017, 11, 3)
-    dish1_mon = Dish("Kurkumareis mit Asia Wokgemüse", 3.6)
-    dish2_mon = Dish("Kartoffel „Cordon Bleu“ mit Frischkäse gefüllt dazu Blattsalate", 4.3)
-    dish3_mon = Dish("Putenschnitzel natur mit Paprikarahmsoße dazu Ebly Gemüseweizen", 5.3)
-    dish1_thu = Dish("Süßkartoffel Gemüsepfanne", 3.6)
-    dish2_thu = Dish("Gemüse Nudelauflauf", 4.3)
-    dish3_thu = Dish("Hähnchenspieß in Kokos Currysoße dazu Früchtereis", 5.3)
-    dish1_fri = Dish("Antipasti Rosmarinkartoffeln", 3.6)
-    dish2_fri = Dish("Schlemmerfilet auf Antipasti Rosmarinkartoffeln", 4.5)
-    dish3_fri = Dish("Kaiserschmarrn mit Zwetschenröster", 3)
-    menu_mon = Menu(date_mon, [dish1_mon, dish2_mon, dish3_mon])
-    menu_thu = Menu(date_thu, [dish1_thu, dish2_thu, dish3_thu])
-    menu_fri = Menu(date_fri, [dish1_fri, dish2_fri, dish3_fri])
+    date_mon1 = date(2017, 10, 30)
+    date_thu1 = date(2017, 11, 2)
+    date_fri1 = date(2017, 11, 3)
+    dish1_mon1 = Dish("Kurkumareis mit Asia Wokgemüse", 3.6)
+    dish2_mon1 = Dish("Kartoffel „Cordon Bleu“ mit Frischkäse gefüllt dazu Blattsalate", 4.3)
+    dish3_mon1 = Dish("Putenschnitzel natur mit Paprikarahmsoße dazu Ebly Gemüseweizen", 5.3)
+    dish1_thu1 = Dish("Süßkartoffel Gemüsepfanne", 3.6)
+    dish2_thu1 = Dish("Gemüse Nudelauflauf", 4.3)
+    dish3_thu1 = Dish("Hähnchenspieß in Kokos Currysoße dazu Früchtereis", 5.3)
+    dish1_fri1 = Dish("Antipasti Rosmarinkartoffeln", 3.6)
+    dish2_fri1 = Dish("Schlemmerfilet auf Antipasti Rosmarinkartoffeln", 4.5)
+    dish3_fri1 = Dish("Kaiserschmarrn mit Zwetschenröster", 3)
+    menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1])
+    menu_thu1 = Menu(date_thu1, [dish1_thu1, dish2_thu1, dish3_thu1])
+    menu_fri1 = Menu(date_fri1, [dish1_fri1, dish2_fri1, dish3_fri1])
+
+    date_mon2 = date(2017, 11, 6)
+    date_tue2 = date(2017, 11, 7)
+    date_wed2 = date(2017, 11, 8)
+    date_thu2 = date(2017, 11, 9)
+    date_fri2 = date(2017, 11, 10)
+    dish1_mon2 = Dish("Dampfkartoffeln mit Zucchinigemüse", 3.6)
+    dish2_mon2 = Dish("Valess-Schnitzel mit Tomaten-Couscous", 4.3)
+    dish3_mon2 = Dish("Kasslerpfanne mit frischen Champignons und Spätzle", 4.9)
+    dish1_tue2 = Dish("Gemüsereispfanne mit geräuchertem Tofu", 3.6)
+    dish2_tue2 = Dish("Gemüsereispfanne mit geräuchertem Tofu", 3.6)
+    dish3_tue2 = Dish("Schweineschnitzel in Karottenpanade mit Rosmarin- Risoleekartoffeln", 5.3)
+    dish1_wed2 = Dish("Spaghetti al Pomodoro", 3.6)
+    dish2_wed2 = Dish("Spaghetti al Pomodoro", 3.6)
+    dish3_wed2 = Dish("Krustenbraten vom Schwein mit Kartoffelknödel und Krautsalat", 5.3)
+    menu_mon2 = Menu(date_mon2, [dish1_mon2, dish2_mon2, dish3_mon2])
+    menu_tue2 = Menu(date_tue2, [dish1_tue2, dish2_tue2, dish3_tue2])
+    menu_wed2 = Menu(date_wed2, [dish1_wed2, dish2_wed2, dish3_wed2])
+    menu_thu2 = Menu(date_thu2, [dish1_thu1, dish2_thu1, dish3_thu1])
+    menu_fri2 = Menu(date_fri2, [dish1_fri1, dish2_fri1, dish3_fri1])
 
     def test_Should_Return_Menu(self):
-        # TODO extend test case using real menu data
-        menus_actual = self.bistro_parser.get_menus(self.test_menu, self.year, self.week_number)
-        self.assertEqual(3, len(self.bistro_parser.get_menus(self.test_menu, self.year, self.week_number)))
-        self.assertEqual(Dish("as",1), Dish("as",1))
-        # TODO remove wrong umlauts
-        self.assertEqual(self.menu_mon, menus_actual[self.date_mon])
-        self.assertEqual(self.menu_thu, menus_actual[self.date_thu])
-        self.assertEqual(self.menu_fri, menus_actual[self.date_fri])
+        menus_actual1 = self.bistro_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
+        menus_actual2 = self.bistro_parser.get_menus(self.test_menu2, self.year2, self.week_number2)
+
+        self.assertEqual(3, len(menus_actual1))
+        self.assertEqual(self.menu_mon1, menus_actual1[self.date_mon1])
+        self.assertEqual(self.menu_thu1, menus_actual1[self.date_thu1])
+        self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
+
+        self.assertEqual(5, len(menus_actual2))
+        self.assertEqual(self.menu_mon2, menus_actual2[self.date_mon2])
+        self.assertEqual(self.menu_tue2, menus_actual2[self.date_tue2])
+        self.assertEqual(self.menu_wed2, menus_actual2[self.date_wed2])
+        # TODO Thu and Fri
