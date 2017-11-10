@@ -179,11 +179,17 @@ class FMIBistroParserTest(unittest.TestCase):
     dish1_wed2 = Dish("Spaghetti al Pomodoro", 3.6)
     dish2_wed2 = Dish("Spaghetti al Pomodoro", 3.6)
     dish3_wed2 = Dish("Krustenbraten vom Schwein mit Kartoffelknödel und Krautsalat", 5.3)
+    dish1_thu2 = Dish("Red-Thaicurrysuppe mit Gemüse und Kokosmilch", 2.9)
+    dish2_thu2 = Dish("Senf-Eier mit Salzkartoffeln", 3.8)
+    dish3_thu2 = Dish("Putengyros mit Zaziki und Tomatenreis", 5.3)
+    dish1_fri2 = Dish("Spiralnudeln mit Ratatouillegemüse", 3.6)
+    dish2_fri2 = Dish("Milchreis mit warmen Sauerkirschen", 3)
+    dish3_fri2 = Dish("Lasagne aus Seelachs und Blattspinat", 5.3)
     menu_mon2 = Menu(date_mon2, [dish1_mon2, dish2_mon2, dish3_mon2])
     menu_tue2 = Menu(date_tue2, [dish1_tue2, dish2_tue2, dish3_tue2])
     menu_wed2 = Menu(date_wed2, [dish1_wed2, dish2_wed2, dish3_wed2])
-    menu_thu2 = Menu(date_thu2, [dish1_thu1, dish2_thu1, dish3_thu1])
-    menu_fri2 = Menu(date_fri2, [dish1_fri1, dish2_fri1, dish3_fri1])
+    menu_thu2 = Menu(date_thu2, [dish1_thu2, dish2_thu2, dish3_thu2])
+    menu_fri2 = Menu(date_fri2, [dish1_fri2, dish2_fri2, dish3_fri2])
 
     def test_Should_Return_Menu(self):
         menus_actual1 = self.bistro_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
@@ -198,4 +204,5 @@ class FMIBistroParserTest(unittest.TestCase):
         self.assertEqual(self.menu_mon2, menus_actual2[self.date_mon2])
         self.assertEqual(self.menu_tue2, menus_actual2[self.date_tue2])
         self.assertEqual(self.menu_wed2, menus_actual2[self.date_wed2])
-        # TODO Thu and Fri
+        self.assertEqual(self.menu_thu2, menus_actual2[self.date_thu2])
+        self.assertEqual(self.menu_fri2, menus_actual2[self.date_fri2])

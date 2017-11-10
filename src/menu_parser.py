@@ -141,7 +141,8 @@ class FMIBistroMenuParser(MenuParser):
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
             # remove allergnes
             for allergen in self.allergens:
-                lines_weekdays[key] = lines_weekdays[key].replace(allergen, "")
+                # only replace "whole word matches" not followed by a hyphen (e.g. some dishes include "Senf-")
+                lines_weekdays[key] = re.sub(r"\b%s\b(?![\w-])" % allergen, "", lines_weekdays[key])
 
             # get all dish including name and price
             dish_names = re.findall(self.dish_regex, lines_weekdays[key])
