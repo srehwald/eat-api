@@ -2,10 +2,11 @@
 
 [![Build Status](https://travis-ci.com/srehwald/stwm-mensa-api.svg?token=YUmexXqP9AGj9wNMuDhx&branch=master)](https://travis-ci.com/srehwald/stwm-mensa-api)
 
-Simple static API for the canteens of the [Studentenwerk München](http://www.studentenwerk-muenchen.de). By now, the following locations are supported:
+Simple static API for the canteens of the [Studentenwerk München](http://www.studentenwerk-muenchen.de) as well as some other locations. By now, the following locations are supported:
 - Mensa Garching (mensa-garching)
 - Mensa Arcisstraße (mensa-arcisstrasse)
 - StuBistro Großhadern (stubistro-grosshadern)
+- FMI Bistro Garching (fmi-bistro)
 
 ## Usage
 
@@ -26,7 +27,7 @@ The JSON files are produced by the tool shown in this repository. Hence, it is e
 ```
 $ python src/main.py -h
 usage: main.py [-h] [-d DATE] [-j PATH]
-               {mensa-garching,mensa-arcisstrasse,stubistro-grosshadern}
+               {mensa-garching,mensa-arcisstrasse,stubistro-grosshadern,fmi-bistro}
 
 positional arguments:
   {mensa-garching,mensa-arcisstrasse,stubistro-grosshadern}

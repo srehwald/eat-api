@@ -15,6 +15,8 @@ def get_menu_parsing_strategy(location):
     # set parsing strategy based on location
     if location in ["mensa-garching", "mensa-arcisstrasse", "stubistro-grosshadern"]:
         parser = menu_parser.StudentenwerkMenuParser()
+    elif location == "fmi-bistro":
+        parser = menu_parser.FMIBistroMenuParser()
 
     return parser
 
