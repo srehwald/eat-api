@@ -166,7 +166,7 @@ class FMIBistroMenuParser(MenuParser):
 
             lines_weekdays[key] = lines_weekdays[key].replace("Allergene:", "")
             # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
-            lines_weekdays[key] = unicodedata.normalize("NFKD", lines_weekdays[key])
+            lines_weekdays[key] = unicodedata.normalize("NFKC", lines_weekdays[key])
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
             # remove allergnes
