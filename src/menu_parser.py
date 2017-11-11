@@ -125,7 +125,6 @@ class FMIBistroMenuParser(MenuParser):
                 with open(temp_txt.name, 'r') as myfile:
                     # read generated text file
                     data = myfile.read()
-                    # TODO parse week number and year
                     menus = self.get_menus(data, year, week_number)
 
         return menus
