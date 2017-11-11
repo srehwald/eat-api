@@ -3,8 +3,10 @@
 import requests
 import re
 import unicodedata
+import tempfile
 from datetime import datetime
 from lxml import html
+from subprocess import call
 
 import util
 from entities import Dish, Menu
@@ -90,6 +92,7 @@ class StudentenwerkMenuParser(MenuParser):
         return dishes
 
 class FMIBistroMenuParser(MenuParser):
+    url = "http://www.wilhelm-gastronomie.de/tum-garching"
     allergens = ["Gluten", "Laktose", "Milcheiweiß", "Hühnerei", "Soja", "Nüsse", "Erdnuss", "Sellerie", "Fisch",
                  "Krebstiere", "Weichtiere", "Sesam", "Senf", "Milch", "Ei"]
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
@@ -97,8 +100,31 @@ class FMIBistroMenuParser(MenuParser):
     dish_regex = r".+?\€\s\d+,\d+"
 
     def parse(self, location):
-        # TODO
-        return None
+        menus = {}
+        # get web page of bistro
+        page = requests.get(self.url)
+        tree = html.fromstring(page.content)
+        # get url of current pdf menu
+        xpath_query = tree.xpath("//a[contains(text(), 'Garching-Speiseplan')]/@href")
+        pdf_url = xpath_query[0] if len(xpath_query) == 1 else None
+
+        if pdf_url is None:
+            return None
+
+        with tempfile.NamedTemporaryFile() as temp_pdf:
+            # download pdf
+            response = requests.get(pdf_url)
+            temp_pdf.write(response.content)
+            with tempfile.NamedTemporaryFile() as temp_txt:
+                # convert pdf to text by callinf pdftotext
+                call(["pdftotext", "-layout", temp_pdf.name, temp_txt.name])
+                with open(temp_txt.name, 'r') as myfile:
+                    # read generated text file
+                    data = myfile.read()
+                    # TODO parse week number and year
+                    menus = self.get_menus(data, 2017, 46)
+
+        return menus
 
     def get_menus(self, text, year, week_number):
         menus = {}
