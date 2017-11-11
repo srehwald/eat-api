@@ -100,9 +100,10 @@ class FMIBistroMenuParser(MenuParser):
     dish_regex = r".+?\€\s\d+,\d+"
 
     def parse(self, location):
-        menus = {}
+        menus = None
         # get web page of bistro
         page = requests.get(self.url)
+        # get html tree
         tree = html.fromstring(page.content)
         # get url of current pdf menu
         xpath_query = tree.xpath("//a[contains(text(), 'Garching-Speiseplan')]/@href")
@@ -110,6 +111,7 @@ class FMIBistroMenuParser(MenuParser):
 
         if pdf_url is None:
             return None
+
         # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
         pdf_name = pdf_url.split("/")[-1]
         year = int(pdf_name.split("_")[-1].split(".")[0])
