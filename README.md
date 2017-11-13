@@ -1,6 +1,6 @@
-# stwm-mensa-api
+# eat-api
 
-[![Build Status](https://travis-ci.org/srehwald/stwm-mensa-api.svg?branch=master)](https://travis-ci.org/srehwald/stwm-mensa-api)
+[![Build Status](https://travis-ci.org/srehwald/eat-api.svg?branch=master)](https://travis-ci.org/srehwald/eat-api)
 
 Simple static API for the canteens of the [Studentenwerk München](http://www.studentenwerk-muenchen.de) as well as some other locations. By now, the following locations are supported:
 - Mensa Garching (mensa-garching)
@@ -13,13 +13,13 @@ Simple static API for the canteens of the [Studentenwerk München](http://www.st
 ### API
 The actual API is provided by static JSON files, which can be found in the gh-pages branch of this repository. These files are created through automatic travis builds. You need to structure a link as follows in order to access the API:
 ```
-https://srehwald.github.io/stwm-mensa-api/<location>/<year>/<week-number>.json
+https://srehwald.github.io/eat-api/<location>/<year>/<week-number>.json
 ```
 
 #### Example
 The following link would give you the menu of Mensa Garching for week 9 in 2017:
 ```
-https://srehwald.github.io/stwm-mensa-api/mensa-garching/2017/09.json
+https://srehwald.github.io/eat-api/mensa-garching/2017/09.json
 ```
 
 ### CLI
