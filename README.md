@@ -1,6 +1,6 @@
-# stwm-mensa-api
+# eat-api
 
-[![Build Status](https://travis-ci.org/srehwald/stwm-mensa-api.svg?branch=master)](https://travis-ci.org/srehwald/stwm-mensa-api)
+[![Build Status](https://travis-ci.org/srehwald/eat-api.svg?branch=master)](https://travis-ci.org/srehwald/eat-api)
 
 Simple static API for the canteens of the [Studentenwerk München](http://www.studentenwerk-muenchen.de) as well as some other locations. By now, the following locations are supported:
 - Mensa Garching (mensa-garching)
