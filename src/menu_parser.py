@@ -24,7 +24,8 @@ class StudentenwerkMenuParser(MenuParser):
         "Aktionsessen 5": 2.8, "Aktionsessen 6": 3.0, "Aktionsessen 7": 3.2, "Aktionsessen 8": 3.5, "Aktionsessen 9": 4,
         "Aktionsessen 10": 4.5, "Biogericht 1": 1.55, "Biogericht 2": 1.9, "Biogericht 3": 2.4, "Biogericht 4": 2.6,
         "Biogericht 5": 2.8, "Biogericht 6": 3.0, "Biogericht 7": 3.2, "Biogericht 8": 3.5, "Biogericht 9": 4,
-        "Biogericht 10": 4.5, "Self-Service": "Self-Service"
+        "Biogericht 10": 4.5, "Self-Service": "Self-Service", "Self-Service Grüne Mensa": "Self-Service Grüne Mensa",
+        "Baustellenteller": "Baustellenteller (2.40€ - 3.45€)", "Fast Lane": "Fast Lane (3.50€ - 5.20€)"
     }
     links = {
         "mensa-garching": 'http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html',
@@ -84,11 +85,11 @@ class StudentenwerkMenuParser(MenuParser):
         # make duplicates unique by adding (2), (3) etc. to the names
         dish_names = util.make_duplicates_unique(dish_names)
         # obtain the types of the dishes (e.g. 'Tagesgericht 1')
-        dish_types = menu_html.xpath("//span[@class='stwm-artname']/text()")
+        dish_types = [type.text if type.text else '' for type in menu_html.xpath("//span[@class='stwm-artname']")]
         # create dictionary out of dish name and dish type
         dishes_dict = {dish_name: dish_type for dish_name, dish_type in zip(dish_names, dish_types)}
         # create Dish objects with correct prices; if price is not available, -1 is used instead
-        dishes = [Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], -1)) for name in dishes_dict]
+        dishes = [Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], "N/A")) for name in dishes_dict]
         return dishes
 
 class FMIBistroMenuParser(MenuParser):
