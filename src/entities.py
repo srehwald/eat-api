@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import json
 
 
@@ -9,10 +11,8 @@ class Dish:
     def __repr__(self):
         if type(self.price) is not str:
             return "%s: %.2f€" % (self.name, self.price)
-        elif type(self.price) is str and self.price == "Self-Service":
-            return "%s: %s" % (self.name, self.price)
         else:
-            return "%s: NA" % self.name
+            return "%s: %s" % (self.name, self.price)
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
