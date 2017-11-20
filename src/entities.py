@@ -40,6 +40,17 @@ class Menu:
             return dishes_equal and date_equal
         return False
 
+    def remove_duplicates(self):
+        unique = []
+        seen = set()
+
+        for d in self.dishes:
+            if d not in seen:
+                unique.append(d)
+                seen.add(d)
+
+        self.dishes = unique
+
 
 class Week:
     def __init__(self, calendar_week, year, days):

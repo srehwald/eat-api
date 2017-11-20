@@ -192,6 +192,8 @@ class FMIBistroMenuParser(MenuParser):
             date = datetime.strptime(date_str, "%Y-W%W-%w").date()
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
+            # remove duplicates
+            menu.remove_duplicates()
             menus[date] = menu
 
         return menus
