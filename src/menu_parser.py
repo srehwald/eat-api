@@ -195,3 +195,12 @@ class FMIBistroMenuParser(MenuParser):
             menus[date] = menu
 
         return menus
+
+
+class IPPBistroMenuParser(MenuParser):
+
+    def parse(self, location):
+        return None
+
+    def get_menus(self):
+        return None

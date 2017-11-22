@@ -7,7 +7,7 @@ from lxml import html
 from datetime import date
 
 import main
-from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser
+from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser, IPPBistroMenuParser
 from entities import Dish, Menu, Week
 import json
 
@@ -206,3 +206,11 @@ class FMIBistroParserTest(unittest.TestCase):
         self.assertEqual(self.menu_wed2, menus_actual2[self.date_wed2])
         self.assertEqual(self.menu_thu2, menus_actual2[self.date_thu2])
         self.assertEqual(self.menu_fri2, menus_actual2[self.date_fri2])
+
+
+class FMIBistroParserTest(unittest.TestCase):
+    ipp_parser = IPPBistroMenuParser()
+
+    def test_Should_Return_Menu(self):
+        self.assertEqual(None, self.ipp_parser.get_menus())
+
