@@ -206,9 +206,13 @@ class FMIBistroParserTest(unittest.TestCase):
         self.assertEqual(self.menu_fri2, menus_actual2[self.date_fri2])
 
 
-class FMIBistroParserTest(unittest.TestCase):
+class IPPBistroParserTest(unittest.TestCase):
     ipp_parser = IPPBistroMenuParser()
+    test_menu1 = open('src/test/assets/ipp/KW-47_20.11-24.11.2017-1.txt', 'r').read()
+    year1 = 2017
+    week_number1 = 47
 
     def test_Should_Return_Menu(self):
-        self.assertEqual(None, self.ipp_parser.get_menus())
+        menus_actual1  = self.ipp_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
+        self.assertEqual(5, len(menus_actual1))
 

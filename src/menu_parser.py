@@ -200,9 +200,70 @@ class FMIBistroMenuParser(MenuParser):
 
 
 class IPPBistroMenuParser(MenuParser):
+    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
+    price_regex = r"\d+,\d+\s\€"
+    dish_regex = r".+?\d+,\d+\s\€"
 
     def parse(self, location):
         return None
 
-    def get_menus(self):
-        return None
+    def get_menus(self, text, year, week_number):
+        menus = {}
+        lines = text.splitlines()
+        count = 0
+        # remove headline etc.
+        for line in lines:
+            if line.replace(" ", "").replace("\n", "").lower() == "montagdienstagmittwochdonnerstagfreitag":
+                break
+
+            count += 1
+
+        lines = lines[count:]
+        weekdays = lines[0]
+        lines = lines[3:]
+
+        positions = [(a.start(), a.end()) for a in list(re.finditer('Tagessuppe siehe Aushang', lines[0]))]
+        if len(positions) != 5:
+            # TODO handle special cases (e.g. that bistro is closed)
+            return None
+
+        pos_mon = positions[0][0]
+        pos_tue = positions[1][0]
+        pos_wed = positions[2][0]
+        pos_thu = positions[3][0]
+        pos_fri = positions[4][0]
+
+        lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
+        for line in lines[2:]:
+            lines_weekdays["mon"] += " " + line[pos_mon:pos_tue].replace("\n", " ")
+            lines_weekdays["tue"] += " " + line[pos_tue:pos_wed].replace("\n", " ")
+            lines_weekdays["wed"] += " " + line[pos_wed:pos_thu].replace("\n", " ")
+            lines_weekdays["thu"] += " " + line[pos_thu:pos_fri].replace("\n", " ")
+            lines_weekdays["fri"] += " " + line[pos_fri:].replace("\n", " ")
+
+        for key in lines_weekdays:
+            # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
+            lines_weekdays[key] = unicodedata.normalize("NFKC", lines_weekdays[key])
+            # remove multi-whitespaces
+            lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
+            # get all dish including name and price
+            dish_names = re.findall(self.dish_regex, lines_weekdays[key])
+            # get dish prices
+            prices = re.findall(self.price_regex, ' '.join(dish_names))
+            # convert prices to float
+            prices = [float(price.replace("€", "").replace(",", ".").strip()) for price in prices]
+            # remove price and commas from dish names
+            dish_names = [re.sub(self.price_regex, "", dish).replace("," ,"").strip() for dish in dish_names]
+            # create list of Dish objects; only take first 3 as the following dishes are corrupt and not necessary
+            dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))][:3]
+            # get date from year, week number and current weekday
+            # https://stackoverflow.com/questions/17087314/get-date-from-week-number
+            date_str = "%d-W%d-%d" % (year, week_number, self.weekday_positions[key])
+            date = datetime.strptime(date_str, "%Y-W%W-%w").date()
+            # create new Menu object and add it to dict
+            menu = Menu(date, dishes)
+            # remove duplicates
+            menu.remove_duplicates()
+            menus[date] = menu
+
+        return menus
