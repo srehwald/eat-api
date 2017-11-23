@@ -212,7 +212,49 @@ class IPPBistroParserTest(unittest.TestCase):
     year1 = 2017
     week_number1 = 47
 
+    date_mon1 = date(2017, 11, 20)
+    date_tue1 = date(2017, 11, 21)
+    date_wed1 = date(2017, 11, 22)
+    date_thu1 = date(2017, 11, 23)
+    date_fri1 = date(2017, 11, 24)
+    dish1_mon1 = Dish("Gefüllter Germknödel mit Vanillesauce", 3.5)
+    dish2_mon1 = Dish("Ofengulasch vom Rind mit Kürbis und Pflaumen, dazu Rigatoni", 5.5)
+    dish3_mon1 = Dish("\"Palek Tofu\" Gebratener Tofu mit Spinat, Ingwer, Curry-Sahnesauce und Basmatireis", 5.2)
+    dish4_mon1 = Dish("Gebratene Hähnchenbrust auf Fenchelgemüse, dazu Kräuterreis und Orangensauce", 6.9)
+    dish1_tue1 = Dish("Gebratene Weißkohl-Kartoffelpfanne mit gerösteten Sonnenblumenkernen", 3.5)
+    dish2_tue1 = Dish("Jägerschnitzel mit Spätzle oder Reis", 4.8)
+    dish3_tue1 = Dish("Vegetarisch gefüllte Tortelli mit leichter Zitronen-Buttersauce und gehobeltem Parmesan", 4.8)
+    dish4_tue1 = Dish("\"Bami Goreng\" indonesische Bratnudeln mit Gemüse, Huhn, Schweinefleisch und Pilzen, " \
+                                   "dazu Honig-Chili- Dip", 6.9)
+    dish1_wed1 = Dish("Erbseneintopf (mit Wienerle 4,20 €)", 3.5)
+    dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis", 4.8)
+    dish3_wed1 = Dish("\"Farfalle Rustico\"mit Champignons, Schinken Tomaten und Peperoni (auf Wunsch mit "
+                      "Reibekäse)", 4.6)
+    dish4_wed1 = Dish("Rumpsteak mit Balsamico Pilzen und Wedges", 7.9)
+    dish1_thu1 = Dish("Mediterrane Frittata mit Zucchini, Kartoffeln, Paprika, kleiner Salatbeilage und "
+                      "Joghurt-Limetten Dip", 3.5)
+    # TODO fix bug that B of Brett is missing -> rett
+    dish2_thu1 = Dish("Frischer Bayrischer Schweinenackenbraten vom rett geschnitten dazu Kartoffel- Gurkensalat", 4.5)
+    dish3_thu1 = Dish("\"Enchilada Verdura\", überbackene Weizentortilla, gefüllt mit Hähnchenfleisch, Sauerrahm, "
+                      "Kidneybohnen, Mais, dazu", 5.9)
+    dish4_thu1 = Dish("\"Lamm Palak\" mit Spinat und Curry (mittelscharf), dazu Reis", 6.9)
+    dish1_fri1 = Dish("Nudelpfanne mit Gemüsesauce (auf Wunsch mit Reibekäse)", 3.5)
+    dish2_fri1 = Dish("Matjes \"Hausfrauen Art\" mit Salzkartoffeln", 5.2)
+    dish3_fri1 = Dish("Currygeschnetzeltes von der Pute mit Früchten und Reis", 4.9)
+    dish4_fri1 = Dish("Honig-Kassler mit Apfel-Spitzkohl und Kartoffelspalten", 6.2)
+    menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1, dish4_mon1])
+    menu_tue1 = Menu(date_tue1, [dish1_tue1, dish2_tue1, dish3_tue1, dish4_tue1])
+    menu_wed1 = Menu(date_wed1, [dish1_wed1, dish2_wed1, dish3_wed1, dish4_wed1])
+    menu_thu1 = Menu(date_thu1, [dish1_thu1, dish2_thu1, dish3_thu1, dish4_thu1])
+    menu_fri1 = Menu(date_fri1, [dish1_fri1, dish2_fri1, dish3_fri1, dish4_fri1])
+
     def test_Should_Return_Menu(self):
         menus_actual1  = self.ipp_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
         self.assertEqual(5, len(menus_actual1))
+        self.assertEqual(self.menu_mon1, menus_actual1[self.date_mon1])
+        self.assertEqual(self.menu_tue1, menus_actual1[self.date_tue1])
+        # TODO fix Wienerle bug
+        #self.assertEqual(self.menu_wed1.dishes[0], menus_actual1[self.date_wed1].dishes[0])
+        self.assertEqual(self.menu_thu1, menus_actual1[self.date_thu1])
+        self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
 
