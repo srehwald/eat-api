@@ -201,8 +201,8 @@ class FMIBistroMenuParser(MenuParser):
 
 class IPPBistroMenuParser(MenuParser):
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
-    price_regex = r"\d+,\d+\s\€"
-    dish_regex = r".+?\d+,\d+\s\€"
+    price_regex = r"\d+,\d+\s\€[^\)]"
+    dish_regex = r".+?\d+,\d+\s\€[^\)]"
 
     def parse(self, location):
         return None
@@ -247,7 +247,7 @@ class IPPBistroMenuParser(MenuParser):
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
             # get all dish including name and price
-            dish_names = re.findall(self.dish_regex, lines_weekdays[key])
+            dish_names = re.findall(self.dish_regex, lines_weekdays[key] + " ")
             # get dish prices
             prices = re.findall(self.price_regex, ' '.join(dish_names))
             # convert prices to float

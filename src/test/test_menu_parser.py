@@ -227,9 +227,10 @@ class IPPBistroParserTest(unittest.TestCase):
     dish4_tue1 = Dish("\"Bami Goreng\" indonesische Bratnudeln mit Gemüse, Huhn, Schweinefleisch und Pilzen, " \
                                    "dazu Honig-Chili- Dip", 6.9)
     dish1_wed1 = Dish("Erbseneintopf (mit Wienerle 4,20 €)", 3.5)
-    dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis", 4.8)
-    dish3_wed1 = Dish("\"Farfalle Rustico\"mit Champignons, Schinken Tomaten und Peperoni (auf Wunsch mit "
-                      "Reibekäse)", 4.6)
+    # TODO fix "B"
+    dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis B", 4.8)
+    dish3_wed1 = Dish("\"Farfalle Rustico\" mit Champignons, Schinken Tomaten und Peperoni (auf Wunsch mit "
+                      "Reibekäse)", 4.6)
     dish4_wed1 = Dish("Rumpsteak mit Balsamico Pilzen und Wedges", 7.9)
     dish1_thu1 = Dish("Mediterrane Frittata mit Zucchini, Kartoffeln, Paprika, kleiner Salatbeilage und "
                       "Joghurt-Limetten Dip", 3.5)
@@ -253,8 +254,7 @@ class IPPBistroParserTest(unittest.TestCase):
         self.assertEqual(5, len(menus_actual1))
         self.assertEqual(self.menu_mon1, menus_actual1[self.date_mon1])
         self.assertEqual(self.menu_tue1, menus_actual1[self.date_tue1])
-        # TODO fix Wienerle bug
-        #self.assertEqual(self.menu_wed1.dishes[0], menus_actual1[self.date_wed1].dishes[0])
+        self.assertEqual(self.menu_wed1, menus_actual1[self.date_wed1])
         self.assertEqual(self.menu_thu1, menus_actual1[self.date_thu1])
         self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
 
