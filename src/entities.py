@@ -27,7 +27,7 @@ class Dish:
 class Menu:
     def __init__(self, menu_date, dishes):
         self.menu_date = menu_date
-        self.dishes = dishes
+        self.dishes = set(dishes)
 
     def __repr__(self):
         menu_str = str(self.menu_date) + ": " + str(self.dishes)
@@ -39,17 +39,6 @@ class Menu:
             date_equal = self.menu_date == other.menu_date
             return dishes_equal and date_equal
         return False
-
-    def remove_duplicates(self):
-        unique = []
-        seen = set()
-
-        for d in self.dishes:
-            if d not in seen:
-                unique.append(d)
-                seen.add(d)
-
-        self.dishes = unique
 
 
 class Week:
