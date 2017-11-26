@@ -7,7 +7,7 @@ from lxml import html
 from datetime import date
 
 import main
-from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser
+from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser, IPPBistroMenuParser
 from entities import Dish, Menu, Week
 import json
 
@@ -198,6 +198,107 @@ class FMIBistroParserTest(unittest.TestCase):
         self.assertEqual(self.menu_thu1, menus_actual1[self.date_thu1])
         self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
 
+        self.assertEqual(5, len(menus_actual2))
+        self.assertEqual(self.menu_mon2, menus_actual2[self.date_mon2])
+        self.assertEqual(self.menu_tue2, menus_actual2[self.date_tue2])
+        self.assertEqual(self.menu_wed2, menus_actual2[self.date_wed2])
+        self.assertEqual(self.menu_thu2, menus_actual2[self.date_thu2])
+        self.assertEqual(self.menu_fri2, menus_actual2[self.date_fri2])
+
+
+class IPPBistroParserTest(unittest.TestCase):
+    ipp_parser = IPPBistroMenuParser()
+    test_menu1 = open('src/test/assets/ipp/KW-47_20.11-24.11.2017-1.txt', 'r').read()
+    year1 = 2017
+    week_number1 = 47
+    test_menu2 = open('src/test/assets/ipp/KW-48_27.11-01.12.10.2017-3.txt', 'r').read()
+    year2 = 2017
+    week_number2 = 48
+
+    date_mon1 = date(2017, 11, 20)
+    date_tue1 = date(2017, 11, 21)
+    date_wed1 = date(2017, 11, 22)
+    date_thu1 = date(2017, 11, 23)
+    date_fri1 = date(2017, 11, 24)
+    dish1_mon1 = Dish("Gefüllter Germknödel mit Vanillesauce", 3.5)
+    dish2_mon1 = Dish("Ofengulasch vom Rind mit Kürbis und Pflaumen, dazu Rigatoni", 5.5)
+    dish3_mon1 = Dish("\"Palek Tofu\" Gebratener Tofu mit Spinat, Ingwer, Curry-Sahnesauce und Basmatireis", 5.2)
+    dish4_mon1 = Dish("Gebratene Hähnchenbrust auf Fenchelgemüse, dazu Kräuterreis und Orangensauce", 6.9)
+    dish1_tue1 = Dish("Gebratene Weißkohl-Kartoffelpfanne mit gerösteten Sonnenblumenkernen", 3.5)
+    dish2_tue1 = Dish("Jägerschnitzel mit Spätzle oder Reis", 4.8)
+    dish3_tue1 = Dish("Vegetarisch gefüllte Tortelli mit leichter Zitronen-Buttersauce und gehobeltem Parmesan", 4.8)
+    dish4_tue1 = Dish("\"Bami Goreng\" indonesische Bratnudeln mit Gemüse, Huhn, Schweinefleisch und Pilzen, " \
+                                   "dazu Honig-Chili- Dip", 6.9)
+    dish1_wed1 = Dish("Erbseneintopf (mit Wienerle 4,20 €)", 3.5)
+    # TODO fix "B"
+    dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis B", 4.8)
+    dish3_wed1 = Dish("\"Farfalle Rustico\" mit Champignons, Schinken Tomaten und Peperoni (auf Wunsch mit "
+                      "Reibekäse)", 4.6)
+    dish4_wed1 = Dish("Rumpsteak mit Balsamico Pilzen und Wedges", 7.9)
+    dish1_thu1 = Dish("Mediterrane Frittata mit Zucchini, Kartoffeln, Paprika, kleiner Salatbeilage und "
+                      "Joghurt-Limetten Dip", 3.5)
+    # TODO fix bug that B of Brett is missing -> rett
+    dish2_thu1 = Dish("Frischer Bayrischer Schweinenackenbraten vom rett geschnitten dazu Kartoffel- Gurkensalat", 4.5)
+    dish3_thu1 = Dish("\"Enchilada Verdura\", überbackene Weizentortilla, gefüllt mit Hähnchenfleisch, Sauerrahm, "
+                      "Kidneybohnen, Mais, dazu", 5.9)
+    dish4_thu1 = Dish("\"Lamm Palak\" mit Spinat und Curry (mittelscharf), dazu Reis", 6.9)
+    dish1_fri1 = Dish("Nudelpfanne mit Gemüsesauce (auf Wunsch mit Reibekäse)", 3.5)
+    dish2_fri1 = Dish("Matjes \"Hausfrauen Art\" mit Salzkartoffeln", 5.2)
+    dish3_fri1 = Dish("Currygeschnetzeltes von der Pute mit Früchten und Reis", 4.9)
+    dish4_fri1 = Dish("Honig-Kassler mit Apfel-Spitzkohl und Kartoffelspalten", 6.2)
+    menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1, dish4_mon1])
+    menu_tue1 = Menu(date_tue1, [dish1_tue1, dish2_tue1, dish3_tue1, dish4_tue1])
+    menu_wed1 = Menu(date_wed1, [dish1_wed1, dish2_wed1, dish3_wed1, dish4_wed1])
+    menu_thu1 = Menu(date_thu1, [dish1_thu1, dish2_thu1, dish3_thu1, dish4_thu1])
+    menu_fri1 = Menu(date_fri1, [dish1_fri1, dish2_fri1, dish3_fri1, dish4_fri1])
+
+    date_mon2 = date(2017, 11, 27)
+    date_tue2 = date(2017, 11, 28)
+    date_wed2 = date(2017, 11, 29)
+    date_thu2 = date(2017, 11, 30)
+    date_fri2 = date(2017, 12, 1)
+    dish1_mon2 = Dish("Wirsing-Kartoffelauflauf mit Bechamel und Käse", 3.5)
+    dish2_mon2 = Dish("Paprikarahm Geschnetzeltes mit Paprikamix und Nudeln", 4.8)
+    dish3_mon2 = Dish("\"Dal Curry\" mit Kartoffeln, Kokosmilch, Ingwer, Koriander, Reis und scharfem Chutney", 4.9)
+    # TODO fix missing "R" of "Rinderbraten"
+    dish4_mon2 = Dish("Deftiger Hüttenschmaus, inderrostbraten mit Zwiebeln, Semmelknödel und gebratenem Gemüse",
+                      7.9)
+    dish1_tue2 = Dish("Herbstliche Gemüse-Reis Pfanne mit pikantem Mango Dip", 3.5)
+    dish2_tue2 = Dish("Krautwickerl mit Speck-Zwieblsauce und Püree", 4.5)
+    dish3_tue2 = Dish("Rigatoni mit Rosenkohl und Schnittlauch", 4.6)
+    dish4_tue2 = Dish("Spanferkelrücken mit Knödel und Bayerisch Kraut", 6.8)
+    dish1_wed2 = Dish("Weißwurst Gröst ́l mit Knödel, Lauchzwiebeln, Karotten und Kräuter auf Wunsch mit "
+                      "Bratenjus", 3.5)
+    dish2_wed2 = Dish("Estragonrahmschnitzel mit Pommes frites oder Reis", 4.6)
+    dish3_wed2 = Dish("Gemüse Lasagne", 4.9)
+    dish4_wed2 = Dish("\"Tandoori Chicken\" mit Auberginen, Tomaten, Zucchini, Zitronenschale Minze und Reis", 6.9)
+    dish1_thu2 = Dish("Rote Beete Eintopf mit Kartoffeln, Nudeln und Dill", 3.5)
+    dish2_thu2 = Dish("Sauerbraten \"Nepal\" mit weißen Bohnen, getrockneten Tomaten und Pasta", 5.8)
+    dish3_thu2 = Dish("\"Kaku Chicken\" mit geröstetem Curry, Kokosraspel, Tomaten und Reis", 6.9)
+    dish4_thu2 = Dish("Leberkäs Burger special mit Pommes frites und Cole slaw", 4.8)
+    dish1_fri2 = Dish("Exotische Linsen-Spätzle Pfanne", 3.5)
+    dish2_fri2 = Dish("Seelachsfilet gebacken mit Sardellenmayonnaise und Pommes frites", 4.6)
+    dish3_fri2 = Dish("Gemüse-Linguini mit Pesto-Rahmsauce und Parmesankäse", 4.4)
+    dish4_fri2 = Dish("Schweinefilet Medaillons in grüner Pfefferrahmsauce mit Kroketten und karamellisierten "
+                      "Möhren", 7.2)
+
+    menu_mon2 = Menu(date_mon2, [dish1_mon2, dish2_mon2, dish3_mon2, dish4_mon2])
+    menu_tue2 = Menu(date_tue2, [dish1_tue2, dish2_tue2, dish3_tue2, dish4_tue2])
+    menu_wed2 = Menu(date_wed2, [dish1_wed2, dish2_wed2, dish3_wed2, dish4_wed2])
+    menu_thu2 = Menu(date_thu2, [dish1_thu2, dish2_thu2, dish3_thu2, dish4_thu2])
+    menu_fri2 = Menu(date_fri2, [dish1_fri2, dish2_fri2, dish3_fri2, dish4_fri2])
+
+    def test_Should_Return_Menu1(self):
+        menus_actual1  = self.ipp_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
+        self.assertEqual(5, len(menus_actual1))
+        self.assertEqual(self.menu_mon1, menus_actual1[self.date_mon1])
+        self.assertEqual(self.menu_tue1, menus_actual1[self.date_tue1])
+        self.assertEqual(self.menu_wed1, menus_actual1[self.date_wed1])
+        self.assertEqual(self.menu_thu1, menus_actual1[self.date_thu1])
+        self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
+
+    def test_Should_Return_Menu2(self):
+        menus_actual2  = self.ipp_parser.get_menus(self.test_menu2, self.year2, self.week_number2)
         self.assertEqual(5, len(menus_actual2))
         self.assertEqual(self.menu_mon2, menus_actual2[self.date_mon2])
         self.assertEqual(self.menu_tue2, menus_actual2[self.date_tue2])

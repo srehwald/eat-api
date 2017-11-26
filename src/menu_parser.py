@@ -197,3 +197,100 @@ class FMIBistroMenuParser(MenuParser):
             menus[date] = menu
 
         return menus
+
+
+class IPPBistroMenuParser(MenuParser):
+    url = "http://konradhof-catering.de/ipp/"
+    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
+    price_regex = r"\d+,\d+\s\€[^\)]"
+    dish_regex = r".+?\d+,\d+\s\€[^\)]"
+
+    def parse(self, location):
+        page = requests.get(self.url)
+        # get html tree
+        tree = html.fromstring(page.content)
+        # get url of current pdf menu
+        xpath_query = tree.xpath("//a[contains(text(), 'KW-')]/@href")
+        pdf_url = xpath_query[0] if len(xpath_query) >= 1 else None
+
+        if pdf_url is None:
+            return None
+
+        # Example PDF-name: KW-48_27.11-01.12.10.2017-3.pdf
+        pdf_name = pdf_url.split("/")[-1]
+        year = int(pdf_name.replace(".pdf","").split(".")[-1].split("-")[0])
+        week_number = int(pdf_name.split("_")[0].replace("KW-","").lstrip("0"))
+
+        with tempfile.NamedTemporaryFile() as temp_pdf:
+            # download pdf
+            response = requests.get(pdf_url)
+            temp_pdf.write(response.content)
+            with tempfile.NamedTemporaryFile() as temp_txt:
+                # convert pdf to text by calling pdftotext; only convert first page to txt (-l 1)
+                call(["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name])
+                with open(temp_txt.name, 'r') as myfile:
+                    # read generated text file
+                    data = myfile.read()
+                    menus = self.get_menus(data, year, week_number)
+                    return menus
+
+    def get_menus(self, text, year, week_number):
+        menus = {}
+        lines = text.splitlines()
+        count = 0
+        # remove headline etc.
+        for line in lines:
+            if line.replace(" ", "").replace("\n", "").lower() == "montagdienstagmittwochdonnerstagfreitag":
+                break
+
+            count += 1
+
+        lines = lines[count:]
+        weekdays = lines[0]
+        lines = lines[3:]
+
+        positions = [(a.start(), a.end()) for a in list(re.finditer('Tagessuppe siehe Aushang', lines[0]))]
+        if len(positions) != 5:
+            # TODO handle special cases (e.g. that bistro is closed)
+            return None
+
+        pos_mon = positions[0][0]
+        pos_tue = positions[1][0]
+        pos_wed = positions[2][0]
+        pos_thu = positions[3][0]
+        pos_fri = positions[4][0]
+
+        lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
+        for line in lines[2:]:
+            lines_weekdays["mon"] += " " + line[pos_mon:pos_tue].replace("\n", " ")
+            lines_weekdays["tue"] += " " + line[pos_tue:pos_wed].replace("\n", " ")
+            lines_weekdays["wed"] += " " + line[pos_wed:pos_thu].replace("\n", " ")
+            lines_weekdays["thu"] += " " + line[pos_thu:pos_fri].replace("\n", " ")
+            lines_weekdays["fri"] += " " + line[pos_fri:].replace("\n", " ")
+
+        for key in lines_weekdays:
+            # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
+            lines_weekdays[key] = unicodedata.normalize("NFKC", lines_weekdays[key])
+            # remove multi-whitespaces
+            lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
+            # get all dish including name and price
+            dish_names = re.findall(self.dish_regex, lines_weekdays[key] + " ")
+            # get dish prices
+            prices = re.findall(self.price_regex, ' '.join(dish_names))
+            # convert prices to float
+            prices = [float(price.replace("€", "").replace(",", ".").strip()) for price in prices]
+            # remove price and commas from dish names
+            dish_names = [re.sub(self.price_regex, "", dish).strip() for dish in dish_names]
+            # create list of Dish objects
+            dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))]
+            # get date from year, week number and current weekday
+            # https://stackoverflow.com/questions/17087314/get-date-from-week-number
+            date_str = "%d-W%d-%d" % (year, week_number, self.weekday_positions[key])
+            date = datetime.strptime(date_str, "%Y-W%W-%w").date()
+            # create new Menu object and add it to dict
+            menu = Menu(date, dishes)
+            # remove duplicates
+            menu.remove_duplicates()
+            menus[date] = menu
+
+        return menus

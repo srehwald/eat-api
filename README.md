@@ -7,6 +7,7 @@ Simple static API for the canteens of the [Studentenwerk München](http://www.st
 - Mensa Arcisstraße (mensa-arcisstrasse)
 - StuBistro Großhadern (stubistro-grosshadern)
 - FMI Bistro Garching (fmi-bistro)
+- IPP Bistro Garching (ipp-bistro)
 
 ## Usage
 
@@ -27,10 +28,10 @@ The JSON files are produced by the tool shown in this repository. Hence, it is e
 ```
 $ python src/main.py -h
 usage: main.py [-h] [-d DATE] [-j PATH]
-               {mensa-garching,mensa-arcisstrasse,stubistro-grosshadern,fmi-bistro}
+               {mensa-garching,mensa-arcisstrasse,stubistro-grosshadern,fmi-bistro,ipp-bistro}
 
 positional arguments:
-  {mensa-garching,mensa-arcisstrasse,stubistro-grosshadern}
+  {mensa-garching,mensa-arcisstrasse,stubistro-grosshadern,fmi-bistro,ipp-bistro}
                         the location you want to eat at
 
 optional arguments:
