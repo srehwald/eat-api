@@ -200,12 +200,39 @@ class FMIBistroMenuParser(MenuParser):
 
 
 class IPPBistroMenuParser(MenuParser):
+    url = "http://konradhof-catering.de/ipp/"
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
     price_regex = r"\d+,\d+\s\€[^\)]"
     dish_regex = r".+?\d+,\d+\s\€[^\)]"
 
     def parse(self, location):
-        return None
+        page = requests.get(self.url)
+        # get html tree
+        tree = html.fromstring(page.content)
+        # get url of current pdf menu
+        xpath_query = tree.xpath("//a[contains(text(), 'KW-')]/@href")
+        pdf_url = xpath_query[0] if len(xpath_query) >= 1 else None
+
+        if pdf_url is None:
+            return None
+
+        # Example PDF-name: KW-48_27.11-01.12.10.2017-3.pdf
+        pdf_name = pdf_url.split("/")[-1]
+        year = int(pdf_name.replace(".pdf","").split(".")[-1].split("-")[0])
+        week_number = int(pdf_name.split("_")[0].replace("KW-","").lstrip("0"))
+
+        with tempfile.NamedTemporaryFile() as temp_pdf:
+            # download pdf
+            response = requests.get(pdf_url)
+            temp_pdf.write(response.content)
+            with tempfile.NamedTemporaryFile() as temp_txt:
+                # convert pdf to text by calling pdftotext; only convert first page to txt (-l 1)
+                call(["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name])
+                with open(temp_txt.name, 'r') as myfile:
+                    # read generated text file
+                    data = myfile.read()
+                    menus = self.get_menus(data, year, week_number)
+                    return menus
 
     def get_menus(self, text, year, week_number):
         menus = {}

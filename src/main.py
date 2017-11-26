@@ -17,6 +17,8 @@ def get_menu_parsing_strategy(location):
         parser = menu_parser.StudentenwerkMenuParser()
     elif location == "fmi-bistro":
         parser = menu_parser.FMIBistroMenuParser()
+    elif location == "ipp-bistro":
+        parser = menu_parser.IPPBistroMenuParser()
 
     return parser
 
