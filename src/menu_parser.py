@@ -176,6 +176,8 @@ class FMIBistroMenuParser(MenuParser):
                 # only replace "whole word matches" not followed by a hyphen (e.g. some dishes include "Senf-")
                 lines_weekdays[key] = re.sub(r"\b%s\b(?![\w-])" % allergen, "", lines_weekdays[key])
 
+            # remove no allergenes indicator
+            lines_weekdays[key] = lines_weekdays[key].replace("./.", "")
             # get all dish including name and price
             dish_names = re.findall(self.dish_regex, lines_weekdays[key])
             # get dish prices
