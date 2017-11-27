@@ -213,28 +213,31 @@ class IPPBistroMenuParser(MenuParser):
         tree = html.fromstring(page.content)
         # get url of current pdf menu
         xpath_query = tree.xpath("//a[contains(text(), 'KW-')]/@href")
-        pdf_url = xpath_query[0] if len(xpath_query) >= 1 else None
 
-        if pdf_url is None:
+        if len(xpath_query) < 1:
             return None
 
-        # Example PDF-name: KW-48_27.11-01.12.10.2017-3.pdf
-        pdf_name = pdf_url.split("/")[-1]
-        year = int(pdf_name.replace(".pdf","").split(".")[-1].split("-")[0])
-        week_number = int(pdf_name.split("_")[0].replace("KW-","").lstrip("0"))
+        menus = {}
+        # consider first two pdfs found (i.e. run for current and next week)
+        for pdf_url in xpath_query[:2]:
+            # Example PDF-name: KW-48_27.11-01.12.10.2017-3.pdf
+            pdf_name = pdf_url.split("/")[-1]
+            year = int(pdf_name.replace(".pdf","").split(".")[-1].split("-")[0])
+            week_number = int(pdf_name.split("_")[0].replace("KW-","").lstrip("0"))
 
-        with tempfile.NamedTemporaryFile() as temp_pdf:
-            # download pdf
-            response = requests.get(pdf_url)
-            temp_pdf.write(response.content)
-            with tempfile.NamedTemporaryFile() as temp_txt:
-                # convert pdf to text by calling pdftotext; only convert first page to txt (-l 1)
-                call(["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name])
-                with open(temp_txt.name, 'r') as myfile:
-                    # read generated text file
-                    data = myfile.read()
-                    menus = self.get_menus(data, year, week_number)
-                    return menus
+            with tempfile.NamedTemporaryFile() as temp_pdf:
+                # download pdf
+                response = requests.get(pdf_url)
+                temp_pdf.write(response.content)
+                with tempfile.NamedTemporaryFile() as temp_txt:
+                    # convert pdf to text by calling pdftotext; only convert first page to txt (-l 1)
+                    call(["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name])
+                    with open(temp_txt.name, 'r') as myfile:
+                        # read generated text file
+                        data = myfile.read()
+                        menus.update(self.get_menus(data, year, week_number))
+
+        return menus
 
     def get_menus(self, text, year, week_number):
         menus = {}
