@@ -91,8 +91,19 @@ class StudentenwerkMenuParser(MenuParser):
         # create dictionary out of dish name and dish type
         dishes_dict = {dish_name: dish_type for dish_name, dish_type in zip(dish_names, dish_types)}
         # create Dish objects with correct prices; if price is not available, -1 is used instead
-        dishes = [Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], "N/A")) for name in dishes_dict]
+
+        dishes = []
+        for name in dishes_dict:
+            if not dishes_dict[name]:
+                # some dishes are multi-row. That means that for the same type the dish is written in multiple rows.
+                # From the second row on the type is then just empty. In that case, we just use the price of the
+                # previous dish.
+                dishes.append(Dish(name, dishes[-1].price))
+            else:
+                dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], "N/A")))
+
         return dishes
+
 
 class FMIBistroMenuParser(MenuParser):
     url = "http://www.wilhelm-gastronomie.de/tum-garching"
