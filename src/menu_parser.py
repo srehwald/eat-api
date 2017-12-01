@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 
-import requests
 import re
-import unicodedata
+import sys
 import tempfile
+import unicodedata
 from datetime import datetime
-from lxml import html
 from subprocess import call
+
+import requests
+from lxml import html
 
 import util
 from entities import Dish, Menu
@@ -29,20 +31,59 @@ class StudentenwerkMenuParser(MenuParser):
         "Länder-Mensa": "0.75€ / 100g", "Mensa Spezial Pasta": "0.60€ / 100g",
         "Mensa Spezial": "0.85€ / 100g (one-course dishes have individual prices)",
     }
-    links = {
-        "mensa-garching": 'http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html',
-        "mensa-arcisstrasse": "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_421_-de.html",
-        "stubistro-grosshadern": "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_414_-de.html"
+
+    # Some of the locations do not use the general Studentenwerk system and do not have a location id.
+    # It differs how they publish their menus — probably everyone needs an own parser.
+    # For documentation they are in the list but commented out.
+    location_id_mapping = {
+        "mensa-arcisstr": 421,
+        "mensa-arcisstrasse": 421,  # backwards compatibility
+        "mensa-garching": 422,
+        "mensa-leopoldstr": 411,
+        "mensa-lothstr": 431,
+        "mensa-martinsried": 412,
+        "mensa-pasing": 432,
+        "mensa-weihenstephan": 423,
+        "stubistro-arcisstr": 450,
+        # "stubistro-benediktbeuern": ,
+        "stubistro-goethestr": 418,
+        "stubistro-großhadern": 414,
+        "stubistro-grosshadern": 414,
+        "stubistro-rosenheim": 441,
+        "stubistro-schellingstr": 416,
+        # "stubistro-schillerstr": ,
+        "stucafe-adalbertstr": 512,
+        "stucafe-akademie-weihenstephan": 526,
+        # "stucafe-audimax" ,
+        "stucafe-boltzmannstr": 527,
+        "stucafe-garching": 524,
+        # "stucafe-heßstr": ,
+        "stucafe-karlstr": 532,
+        # "stucafe-leopoldstr": ,
+        # "stucafe-olympiapark": ,
+        "stucafe-pasing": 534,
+        # "stucafe-weihenstephan": ,
     }
 
+    base_url = "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_{}_-de.html"
+
     def parse(self, location):
-        page_link = self.links.get(location, "")
-        if page_link != "":
-            page = requests.get(page_link)
-            tree = html.fromstring(page.content)
-            return self.get_menus(tree)
-        else:
-            return None
+        """`location` can be either the numeric location id or its string alias as defined in `location_id_mapping`"""
+        try:
+            location_id = int(location)
+        except ValueError:
+            try:
+                location_id = self.location_id_mapping[location]
+            except KeyError:
+                print("Location {} not found. Choose one of {}.".format(
+                    location, ', '.join(self.location_id_mapping.keys())), file=sys.stderr)
+                return None
+
+        page_link = self.base_url.format(location_id)
+
+        page = requests.get(page_link)
+        tree = html.fromstring(page.content)
+        return self.get_menus(tree)
 
     def get_menus(self, page):
         # initialize empty dictionary
