@@ -3,11 +3,27 @@
 [![Build Status](https://travis-ci.org/srehwald/eat-api.svg?branch=master)](https://travis-ci.org/srehwald/eat-api)
 
 Simple static API for the canteens of the [Studentenwerk München](http://www.studentenwerk-muenchen.de) as well as some other locations. By now, the following locations are supported:
-- Mensa Garching (mensa-garching)
-- Mensa Arcisstraße (mensa-arcisstrasse)
-- StuBistro Großhadern (stubistro-grosshadern)
-- FMI Bistro Garching (fmi-bistro)
-- IPP Bistro Garching (ipp-bistro)
+
+ - Mensa Arcisstraße (mensa-arcisstr), Arcisstraße 17, München
+ - Mensa Garching (mensa-garching), Lichtenbergstraße 2, Garching
+ - Mensa Leopoldstraße (mensa-leopoldstr), Leopoldstraße 13a, München
+ - Mensa Lothstraße (mensa-lothstr), Lothstraße 13d, München
+ - Mensa Martinsried (mensa-martinsried), Großhaderner Straße 6, Planegg-Martinsried
+ - Mensa Pasing (mensa-pasing), Am Stadtpark 20, München
+ - Mensa Weihenstephan (mensa-weihenstephan), Maximus-von-Imhof-Forum 5, Freising
+ - StuBistro Arcisstraße (stubistro-arcisstr), Arcisstraße 12, München
+ - StuBistro Goethestraße (stubistro-goethestr), Goethestraße 70, München
+ - StuBistro Großhadern (stubistro-grosshadern), Butenandtstraße 13, Gebäude F, München
+ - StuBistro Rosenheim (stubistro-rosenheim), Hochschulstraße 1, Rosenheim
+ - StuBistro Schellingstraße (stubistro-schellingstr), Schellingstraße 3, München
+ - StuCafé Adalbertstraße (stucafe-adalbertstr), Adalbertstraße 5, München
+ - StuCafé Akademie Weihenstephan (stucafe-akademie-weihenstephan), Alte Akademie 1, Freising
+ - StuCafé Boltzmannstraße (stucafe-boltzmannstr), Boltzmannstraße 15, Garching
+ - StuCafé in der Mensa Garching (stucafe-garching), Lichtenbergstraße 2, Garching
+ - StuCafé Karlstraße (stucafe-karlstr), Karlstraße 6, München
+ - StuCafé Pasing (stucafe-pasing), Am Stadtpark 20, München
+ - FMI Bistro Garching (fmi-bistro), Boltzmannstraße 3, 85748 Garching
+ - IPP Bistro Garching (ipp-bistro), Boltzmannstraße 2, 85748 Garching
 
 ## Usage
 
