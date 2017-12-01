@@ -24,8 +24,10 @@ class StudentenwerkMenuParser(MenuParser):
         "Aktionsessen 5": 2.8, "Aktionsessen 6": 3.0, "Aktionsessen 7": 3.2, "Aktionsessen 8": 3.5, "Aktionsessen 9": 4,
         "Aktionsessen 10": 4.5, "Biogericht 1": 1.55, "Biogericht 2": 1.9, "Biogericht 3": 2.4, "Biogericht 4": 2.6,
         "Biogericht 5": 2.8, "Biogericht 6": 3.0, "Biogericht 7": 3.2, "Biogericht 8": 3.5, "Biogericht 9": 4,
-        "Biogericht 10": 4.5, "Self-Service": "Self-Service", "Self-Service Grüne Mensa": "Self-Service Grüne Mensa",
-        "Baustellenteller": "Baustellenteller (2.40€ - 3.45€)", "Fast Lane": "Fast Lane (3.50€ - 5.20€)"
+        "Biogericht 10": 4.5, "Self-Service": "0,68€ / 100g", "Self-Service Grüne Mensa": "0,33€ / 100g",
+        "Baustellenteller": "Baustellenteller (> 2.40€)", "Fast Lane": "Fast Lane (> 3.50€)",
+        "Länder-Mensa": "0.75€ / 100g", "Mensa Spezial Pasta": "0.60€ / 100g",
+        "Mensa Spezial": "0.85€ / 100g (one-course dishes have individual prices)",
     }
     links = {
         "mensa-garching": 'http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html',
