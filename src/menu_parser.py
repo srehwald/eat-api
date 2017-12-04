@@ -272,8 +272,7 @@ class IPPBistroMenuParser(MenuParser):
             return None
 
         menus = {}
-        # consider first two pdfs found (i.e. run for current and next week)
-        for pdf_url in xpath_query[:2]:
+        for pdf_url in xpath_query:
             # Example PDF-name: KW-48_27.11-01.12.10.2017-3.pdf
             pdf_name = pdf_url.split("/")[-1]
             year = int(pdf_name.replace(".pdf","").split(".")[-1].split("-")[0])
