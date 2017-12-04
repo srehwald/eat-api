@@ -29,7 +29,7 @@ class StudentenwerkMenuParser(MenuParser):
         "Biogericht 10": 4.5, "Self-Service": "0.68€ / 100g", "Self-Service Grüne Mensa": "0.33€ / 100g",
         "Baustellenteller": "Baustellenteller (> 2.40€)", "Fast Lane": "Fast Lane (> 3.50€)",
         "Länder-Mensa": "0.75€ / 100g", "Mensa Spezial Pasta": "0.60€ / 100g",
-        "Mensa Spezial": "0.85€ / 100g (one-course dishes have individual prices)",
+        "Mensa Spezial": "individual",  # 0.85€ / 100g (one-course dishes have individual prices)
     }
 
     # Some of the locations do not use the general Studentenwerk system and do not have a location id.
