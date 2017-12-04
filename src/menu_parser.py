@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 
-import requests
 import re
-import unicodedata
+import sys
 import tempfile
+import unicodedata
 from datetime import datetime
-from lxml import html
 from subprocess import call
+
+import requests
+from lxml import html
 
 import util
 from entities import Dish, Menu
@@ -24,23 +26,64 @@ class StudentenwerkMenuParser(MenuParser):
         "Aktionsessen 5": 2.8, "Aktionsessen 6": 3.0, "Aktionsessen 7": 3.2, "Aktionsessen 8": 3.5, "Aktionsessen 9": 4,
         "Aktionsessen 10": 4.5, "Biogericht 1": 1.55, "Biogericht 2": 1.9, "Biogericht 3": 2.4, "Biogericht 4": 2.6,
         "Biogericht 5": 2.8, "Biogericht 6": 3.0, "Biogericht 7": 3.2, "Biogericht 8": 3.5, "Biogericht 9": 4,
-        "Biogericht 10": 4.5, "Self-Service": "Self-Service", "Self-Service Grüne Mensa": "Self-Service Grüne Mensa",
-        "Baustellenteller": "Baustellenteller (2.40€ - 3.45€)", "Fast Lane": "Fast Lane (3.50€ - 5.20€)"
-    }
-    links = {
-        "mensa-garching": 'http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html',
-        "mensa-arcisstrasse": "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_421_-de.html",
-        "stubistro-grosshadern": "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_414_-de.html"
+        "Biogericht 10": 4.5, "Self-Service": "0.68€ / 100g", "Self-Service Grüne Mensa": "0.33€ / 100g",
+        "Baustellenteller": "Baustellenteller (> 2.40€)", "Fast Lane": "Fast Lane (> 3.50€)",
+        "Länder-Mensa": "0.75€ / 100g", "Mensa Spezial Pasta": "0.60€ / 100g",
+        "Mensa Spezial": "individual",  # 0.85€ / 100g (one-course dishes have individual prices)
     }
 
+    # Some of the locations do not use the general Studentenwerk system and do not have a location id.
+    # It differs how they publish their menus — probably everyone needs an own parser.
+    # For documentation they are in the list but commented out.
+    location_id_mapping = {
+        "mensa-arcisstr": 421,
+        "mensa-arcisstrasse": 421,  # backwards compatibility
+        "mensa-garching": 422,
+        "mensa-leopoldstr": 411,
+        "mensa-lothstr": 431,
+        "mensa-martinsried": 412,
+        "mensa-pasing": 432,
+        "mensa-weihenstephan": 423,
+        "stubistro-arcisstr": 450,
+        # "stubistro-benediktbeuern": ,
+        "stubistro-goethestr": 418,
+        "stubistro-großhadern": 414,
+        "stubistro-grosshadern": 414,
+        "stubistro-rosenheim": 441,
+        "stubistro-schellingstr": 416,
+        # "stubistro-schillerstr": ,
+        "stucafe-adalbertstr": 512,
+        "stucafe-akademie-weihenstephan": 526,
+        # "stucafe-audimax" ,
+        "stucafe-boltzmannstr": 527,
+        "stucafe-garching": 524,
+        # "stucafe-heßstr": ,
+        "stucafe-karlstr": 532,
+        # "stucafe-leopoldstr": ,
+        # "stucafe-olympiapark": ,
+        "stucafe-pasing": 534,
+        # "stucafe-weihenstephan": ,
+    }
+
+    base_url = "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_{}_-de.html"
+
     def parse(self, location):
-        page_link = self.links.get(location, "")
-        if page_link != "":
-            page = requests.get(page_link)
-            tree = html.fromstring(page.content)
-            return self.get_menus(tree)
-        else:
-            return None
+        """`location` can be either the numeric location id or its string alias as defined in `location_id_mapping`"""
+        try:
+            location_id = int(location)
+        except ValueError:
+            try:
+                location_id = self.location_id_mapping[location]
+            except KeyError:
+                print("Location {} not found. Choose one of {}.".format(
+                    location, ', '.join(self.location_id_mapping.keys())), file=sys.stderr)
+                return None
+
+        page_link = self.base_url.format(location_id)
+
+        page = requests.get(page_link)
+        tree = html.fromstring(page.content)
+        return self.get_menus(tree)
 
     def get_menus(self, page):
         # initialize empty dictionary
@@ -89,8 +132,19 @@ class StudentenwerkMenuParser(MenuParser):
         # create dictionary out of dish name and dish type
         dishes_dict = {dish_name: dish_type for dish_name, dish_type in zip(dish_names, dish_types)}
         # create Dish objects with correct prices; if price is not available, -1 is used instead
-        dishes = [Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], "N/A")) for name in dishes_dict]
+
+        dishes = []
+        for name in dishes_dict:
+            if not dishes_dict[name]:
+                # some dishes are multi-row. That means that for the same type the dish is written in multiple rows.
+                # From the second row on the type is then just empty. In that case, we just use the price of the
+                # previous dish.
+                dishes.append(Dish(name, dishes[-1].price))
+            else:
+                dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], "N/A")))
+
         return dishes
+
 
 class FMIBistroMenuParser(MenuParser):
     url = "http://www.wilhelm-gastronomie.de/tum-garching"

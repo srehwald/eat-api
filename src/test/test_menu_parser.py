@@ -48,9 +48,9 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
     dish1_4_arcisstrasse = Dish("Pasta Pomodori", 1.9)
     dish1_5_arcisstrasse = Dish("Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip", 2.6)
     dish1_6_arcisstrasse = Dish("Seelachsfilet (MSC) im Sesammantel mit Zitronen-Knoblauch-Dip", 2.6)
-    dish1_7_arcisstrasse = Dish("Pasta Pomodori (2)", "Self-Service")
-    dish1_8_arcisstrasse = Dish("Kartoffelgulasch mit Paprika (2)", "Self-Service")
-    dish1_9_arcisstrasse = Dish("Pasta mit Sojabolognese", "Self-Service")
+    dish1_7_arcisstrasse = Dish("Pasta Pomodori (2)", "0.68€ / 100g")
+    dish1_8_arcisstrasse = Dish("Kartoffelgulasch mit Paprika (2)", "0.68€ / 100g")
+    dish1_9_arcisstrasse = Dish("Pasta mit Sojabolognese", "0.68€ / 100g")
     menu1_arcisstrasse = Menu(menu1_date, [dish1_1_arcisstrasse, dish1_2_arcisstrasse, dish1_3_arcisstrasse,
                                            dish1_4_arcisstrasse, dish1_5_arcisstrasse, dish1_6_arcisstrasse,
                                            dish1_7_arcisstrasse, dish1_8_arcisstrasse, dish1_9_arcisstrasse])
