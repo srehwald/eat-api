@@ -52,7 +52,7 @@ var Menu = {
     view: function() {
         return MenuData.menu ? m("div", MenuData.menu.days.map(function(day) {
             return m("div", {style: "margin-bottom: 1em;"}, [
-                m("p", m("b", day.date)), 
+                m("p", m("b", getWeekday(new Date(day.date)) + ", " + day.date)), 
                 m(Day, {dishes: day.dishes})
             ]);
         })) : m("div", "Loading...")
@@ -74,6 +74,20 @@ m.mount(root, App);
 function setLocation(loc) {
     currentLocation = loc;
     MenuData.fetch();
+}
+
+function getWeekday(date) {
+    // adopted from https://www.w3schools.com/jsref/jsref_getday.asp
+    var weekday = new Array(7);
+    weekday[0] =  "Sunday";
+    weekday[1] = "Monday";
+    weekday[2] = "Tuesday";
+    weekday[3] = "Wednesday";
+    weekday[4] = "Thursday";
+    weekday[5] = "Friday";
+    weekday[6] = "Saturday";
+
+    return weekday[date.getDay()];
 }
 
 var dropdown = document.querySelector('.dropdown');
