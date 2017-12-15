@@ -18,6 +18,7 @@ var MenuData = {
             .then(function(menu) {
                 MenuData.menu = menu;
             })
+        // TODO error handling
         }
 }
 
@@ -38,11 +39,23 @@ var LocationsDropdown = {
     }
 }
 
+var Day = {
+    view: function(vnode) {
+        return [vnode.attrs.dishes.map(function(dish) {
+            return m("div", dish.name + ": " + dish.price);
+        })]
+    }
+}
+
 var Menu = {
     oninit: MenuData.fetch,
     view: function() {
-        // TODO display all dishes
-        return MenuData.menu ? m("div", MenuData.menu.days[0].dishes[0].name) : m("div", "Loading...")
+        return MenuData.menu ? m("div", MenuData.menu.days.map(function(day) {
+            return m("div", {style: "margin-bottom: 1em;"}, [
+                m("p", m("b", day.date)), 
+                m(Day, {dishes: day.dishes})
+            ]);
+        })) : m("div", "Loading...")
     }
 }
 
