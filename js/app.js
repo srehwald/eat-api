@@ -42,7 +42,7 @@ var LocationsDropdown = {
 var Day = {
     view: function(vnode) {
         return [vnode.attrs.dishes.map(function(dish) {
-            return m("div", dish.name + ": " + dish.price);
+            return m("div", dish.name + ": € " + dish.price);
         })]
     }
 }
