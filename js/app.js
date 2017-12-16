@@ -14,7 +14,6 @@ var MenuData = {
     fetch: function() {
             m.request({
                 method: "GET",
-                // TODO
                 url: currentLocation + "/2017/" + currentWeek + ".json"
             })
             .then(function(menu) {
