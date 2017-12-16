@@ -31,7 +31,7 @@ var LocationsDropdown = {
         return m("div", {class: "dropdown"}, [
                             m("div", {class: "dropdown-trigger"},
                             m("button", {class: "button"},[
-                                m("span", "Select Location"),
+                                m("span", currentLocation),
                                 m("span", {class: "icon icon-small"},
                                     m("i", {class: "fa fa-angle-down"}))
                             ])),
