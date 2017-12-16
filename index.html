@@ -3,11 +3,36 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello World</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <script src="js/mithril.min.js"></script>
+    <script src="js/moment.min.js"></script>
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <section class="hero is-link">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    eat-api
+                </h1>
+                <h2 class="subtitle">
+                    Simple static API for some (student) food places in Munich. <br>
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="notification is-warning has-text-centered">
+              <b>Important:</b> This page shows the menus of the current week in a human-readable format. If you are searching for how to use the API, please take a look at the <a href="https://github.com/srehwald/eat-api">README</a>.
+            </div>
+            <div id="app"></div>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
