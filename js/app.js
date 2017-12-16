@@ -46,7 +46,10 @@ var LocationsDropdown = {
 var Day = {
     view: function(vnode) {
         return [vnode.attrs.dishes.map(function(dish) {
-            return m("div", dish.name + ": € " + dish.price);
+            return m("tr", [
+                m("td", dish.name),
+                m("td", (!isNaN(parseFloat(dish.price)) && isFinite(dish.price)) ? dish.price.toFixed(2) + "€" : dish.price)
+            ])
         })]
     }
 }
@@ -56,12 +59,17 @@ var Menu = {
     view: function() {
         return MenuData.error ? [
             m("div", MenuData.error)
-        ] : MenuData.menu ? m("div", MenuData.menu.days.map(function(day) {
-            return m("div", {style: "margin-bottom: 1em;"}, [
-                m("p", m("b", getWeekday(new Date(day.date)) + ", " + day.date)), 
-                m(Day, {dishes: day.dishes})
-            ]);
-        })) : m("div", "Loading...")
+        ] : MenuData.menu ? m("div", 
+                              m("table", {class: "table is-hoverable", style: "margin: 0 auto;"}, [
+                                m("thead", m("tr", [m("th", "Dish"), m("th", "Price")])),
+                                m("tbody", MenuData.menu.days.map(function(day) {
+                                    return [
+                                        m("tr", m("td", {colspan: "2"}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))),
+                                        m(Day, {dishes: day.dishes})
+                                    ]
+                                }))
+        ])) 
+        : m("div", "Loading...")
     }
 }
 
