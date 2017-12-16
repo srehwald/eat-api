@@ -75,7 +75,6 @@ var Menu = {
 
 var App = {
     view: function() {
-        // TODO
         return m("div", [m(LocationsDropdown), 
                          m("div", {class: "has-text-centered"}, 
                             m("h1", {class: "title"}, currentLocation)), m(Menu)]);
