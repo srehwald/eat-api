@@ -64,7 +64,7 @@ var Menu = {
                                 m("thead", m("tr", [m("th", "Dish"), m("th", "Price")])),
                                 m("tbody", MenuData.menu.days.map(function(day) {
                                     return [
-                                        m("tr", m("td", {colspan: "2"}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))),
+                                        m("tr", m("td", {class: "is-link", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))),
                                         m(Day, {dishes: day.dishes})
                                     ]
                                 }))
