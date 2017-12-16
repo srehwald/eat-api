@@ -64,7 +64,11 @@ var Menu = {
                                 m("thead", m("tr", [m("th", "Dish"), m("th", "Price")])),
                                 m("tbody", MenuData.menu.days.map(function(day) {
                                     return [
-                                        m("tr", m("td", {class: "is-link", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))),
+                                        // add id 'today' to today's menu (if exists)
+                                        moment(new Date(day.date)).isSame(new Date(), "day") ?
+                                            m("tr", {id: "today"}, m("td", {class: "is-light", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))) :
+                                            // else
+                                            m("tr", m("td", {class: "is-light", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))),
                                         m(Day, {dishes: day.dishes})
                                     ]
                                 }))
@@ -75,9 +79,11 @@ var Menu = {
 
 var App = {
     view: function() {
-        return m("div", [m(LocationsDropdown), 
-                         m("div", {class: "has-text-centered"}, 
-                            m("h1", {class: "title"}, currentLocation)), m(Menu)]);
+        return m("div", [m("div", [m(LocationsDropdown), m("a", {class: "button", href: "#today"}, "Today")]), 
+                         m("div", {class: "has-text-centered"}, [
+                             m("h1", {class: "title"}, currentLocation),
+                             m(Menu)
+                         ])])
     }
 }
 
