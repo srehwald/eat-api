@@ -6,19 +6,24 @@ var locations = ["fmi-bistro", "ipp-bistro", "mensa-arcisstr", "mensa-garching",
 
 var root = document.getElementById("app");
 var currentLocation = locations[0];
+var currentWeek = moment(new Date()).week();
 
 var MenuData = {
     menu: null,
+    error: "",
     fetch: function() {
             m.request({
                 method: "GET",
                 // TODO
-                url: currentLocation + "/2017/49.json"
+                url: currentLocation + "/2017/" + currentWeek + ".json"
             })
             .then(function(menu) {
+                MenuData.error = "";
                 MenuData.menu = menu;
             })
-        // TODO error handling
+            .catch(function(e) {
+                MenuData.error = "Could not load menu."
+            })
         }
 }
 
@@ -50,7 +55,9 @@ var Day = {
 var Menu = {
     oninit: MenuData.fetch,
     view: function() {
-        return MenuData.menu ? m("div", MenuData.menu.days.map(function(day) {
+        return MenuData.error ? [
+            m("div", MenuData.error)
+        ] : MenuData.menu ? m("div", MenuData.menu.days.map(function(day) {
             return m("div", {style: "margin-bottom: 1em;"}, [
                 m("p", m("b", getWeekday(new Date(day.date)) + ", " + day.date)), 
                 m(Day, {dishes: day.dishes})
