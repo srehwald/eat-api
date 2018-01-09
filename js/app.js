@@ -14,7 +14,7 @@ var MenuData = {
     fetch: function() {
             m.request({
                 method: "GET",
-                url: currentLocation + "/2017/" + currentWeek + ".json"
+                url: currentLocation + "/" + (new Date()).getFullYear() + "/" + pad(currentWeek) + ".json"
             })
             .then(function(menu) {
                 MenuData.error = "";
