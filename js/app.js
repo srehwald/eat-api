@@ -109,6 +109,11 @@ function getWeekday(date) {
     return weekday[date.getDay()];
 }
 
+// https://stackoverflow.com/questions/8089875/show-a-leading-zero-if-a-number-is-less-than-10
+function pad(n) {
+    return (n < 10) ? ("0" + n) : n;
+}
+
 var dropdown = document.querySelector('.dropdown');
 dropdown.addEventListener('click', function(event) {
   event.stopPropagation();
