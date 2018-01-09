@@ -161,7 +161,7 @@ class FMIBistroMenuParser(MenuParser):
         # get html tree
         tree = html.fromstring(page.content)
         # get url of current pdf menu
-        xpath_query = tree.xpath("//a[contains(text(), 'Garching-Speiseplan')]/@href")
+        xpath_query = tree.xpath("//a[contains(text(), 'Garching_Speiseplan')]/@href")
         pdf_url = xpath_query[0] if len(xpath_query) == 1 else None
 
         if pdf_url is None:
@@ -170,7 +170,7 @@ class FMIBistroMenuParser(MenuParser):
         # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
         pdf_name = pdf_url.split("/")[-1]
         year = int(pdf_name.split("_")[-1].split(".")[0])
-        week_number = int(pdf_name.split("_")[1].replace("KW","").lstrip("0"))
+        week_number = int(pdf_name.split("_")[2].replace("KW","").lstrip("0"))
 
         with tempfile.NamedTemporaryFile() as temp_pdf:
             # download pdf
