@@ -135,7 +135,7 @@ class StudentenwerkMenuParser(MenuParser):
 
         dishes = []
         for name in dishes_dict:
-            if not dishes_dict[name]:
+            if not dishes_dict[name] and dishes:
                 # some dishes are multi-row. That means that for the same type the dish is written in multiple rows.
                 # From the second row on the type is then just empty. In that case, we just use the price of the
                 # previous dish.
