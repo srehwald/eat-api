@@ -167,10 +167,12 @@ class FMIBistroMenuParser(MenuParser):
         if pdf_url is None:
             return None
 
-        # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
         pdf_name = pdf_url.split("/")[-1]
         year = int(pdf_name.split("_")[-1].split(".")[0])
-        week_number = int(pdf_name.split("_")[2].replace("KW","").lstrip("0"))
+        # old naming scheme: Garching_Speiseplan_KW46_2017.pdf
+        # week_number = int(pdf_name.split("_")[2].replace("KW","").lstrip("0"))
+        # new naming scheme: Garching_Speiseplan_KW_46_2017.pdf
+        week_number = int(pdf_name.split("_")[3].replace("KW","").lstrip("0"))
 
         with tempfile.NamedTemporaryFile() as temp_pdf:
             # download pdf
