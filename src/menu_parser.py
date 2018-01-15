@@ -168,9 +168,11 @@ class FMIBistroMenuParser(MenuParser):
             return None
 
         # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
+        # more examples: https://regex101.com/r/ATOHj3/1/
         pdf_name = pdf_url.split("/")[-1]
-        year = int(pdf_name.split("_")[-1].split(".")[0])
-        week_number = int(pdf_name.split("_")[2].replace("KW","").lstrip("0"))
+        wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d*)", pdf_name, re.IGNORECASE)
+        week_number = int(wn_year_match.group(1)) if wn_year_match else None
+        year = int(wn_year_match.group(2)) if wn_year_match else None
 
         with tempfile.NamedTemporaryFile() as temp_pdf:
             # download pdf
