@@ -292,7 +292,9 @@ class IPPBistroMenuParser(MenuParser):
                     with open(temp_txt.name, 'r') as myfile:
                         # read generated text file
                         data = myfile.read()
-                        menus.update(self.get_menus(data, year, week_number))
+                        parsed_menus = self.get_menus(data, year, week_number)
+                        if not (parsed_menus is None):
+                            menus.update(parsed_menus)
 
         return menus
 
