@@ -277,8 +277,10 @@ class IPPBistroMenuParser(MenuParser):
         for pdf_url in xpath_query:
             # Example PDF-name: KW-48_27.11-01.12.10.2017-3.pdf
             pdf_name = pdf_url.split("/")[-1]
-            year = int(pdf_name.replace(".pdf","").split(".")[-1].split("-")[0])
-            week_number = int(pdf_name.split("_")[0].replace("KW-","").lstrip("0"))
+            # more examples: https://regex101.com/r/hwdpFx/1
+            wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*).*\d+\.\d+\.(\d+).*", pdf_name, re.IGNORECASE)
+            week_number = int(wn_year_match.group(1)) if wn_year_match else None
+            year = int(wn_year_match.group(2)) if wn_year_match else None
 
             with tempfile.NamedTemporaryFile() as temp_pdf:
                 # download pdf
