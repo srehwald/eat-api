@@ -260,6 +260,7 @@ class FMIBistroMenuParser(MenuParser):
 class IPPBistroMenuParser(MenuParser):
     url = "http://konradhof-catering.de/ipp/"
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
+    split_days_regex = r'(Tagessuppe siehe Aushang|Aschermittwoch)'
     price_regex = r"\d+,\d+\s\€[^\)]"
     dish_regex = r".+?\d+,\d+\s\€[^\)]"
 
@@ -313,7 +314,7 @@ class IPPBistroMenuParser(MenuParser):
         weekdays = lines[0]
         lines = lines[3:]
 
-        positions = [(a.start(), a.end()) for a in list(re.finditer('Tagessuppe siehe Aushang', lines[0]))]
+        positions = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, lines[0]))]
         if len(positions) != 5:
             # TODO handle special cases (e.g. that bistro is closed)
             return None
