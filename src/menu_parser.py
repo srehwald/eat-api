@@ -260,6 +260,7 @@ class FMIBistroMenuParser(MenuParser):
 class IPPBistroMenuParser(MenuParser):
     url = "http://konradhof-catering.de/ipp/"
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
+    split_days_regex = r'(Tagessuppe siehe Aushang|Aschermittwoch)'
     price_regex = r"\d+,\d+\s\€[^\)]"
     dish_regex = r".+?\d+,\d+\s\€[^\)]"
 
@@ -268,7 +269,7 @@ class IPPBistroMenuParser(MenuParser):
         # get html tree
         tree = html.fromstring(page.content)
         # get url of current pdf menu
-        xpath_query = tree.xpath("//a[contains(text(), 'KW-')]/@href")
+        xpath_query = tree.xpath("//a[contains(text(), 'KW-') and contains(@href, 'KW-')]/@href")
 
         if len(xpath_query) < 1:
             return None
@@ -292,7 +293,9 @@ class IPPBistroMenuParser(MenuParser):
                     with open(temp_txt.name, 'r') as myfile:
                         # read generated text file
                         data = myfile.read()
-                        menus.update(self.get_menus(data, year, week_number))
+                        parsed_menus = self.get_menus(data, year, week_number)
+                        if not (parsed_menus is None):
+                            menus.update(parsed_menus)
 
         return menus
 
@@ -311,7 +314,7 @@ class IPPBistroMenuParser(MenuParser):
         weekdays = lines[0]
         lines = lines[3:]
 
-        positions = [(a.start(), a.end()) for a in list(re.finditer('Tagessuppe siehe Aushang', lines[0]))]
+        positions = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, lines[0]))]
         if len(positions) != 5:
             # TODO handle special cases (e.g. that bistro is closed)
             return None
