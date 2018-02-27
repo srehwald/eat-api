@@ -226,7 +226,7 @@ class FMIBistroMenuParser(MenuParser):
             aktionsgericht = aktionsgericht \
                 .replace("Montag – Freitag", "") \
                 .replace("Tagessuppe täglich wechselndes Angebot", "") \
-                .replace("ab € 1,00", "")\
+                .replace("ab € 1,00", "") \
                 .replace("Aktion", "")
             num_dishes += aktionsgericht.count('€')
             for key in lines_weekdays:
@@ -261,7 +261,7 @@ class FMIBistroMenuParser(MenuParser):
             # create list of Dish objects; only take first 3/4 as the following dishes are corrupt and not necessary
             dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))][:num_dishes]
             # filter empty dishes
-            dishes = [x for x in dishes if x.name != ""]
+            dishes = list(filter(lambda x: x.name != "", dishes))
             # get date from year, week number and current weekday
             # https://stackoverflow.com/questions/17087314/get-date-from-week-number
             date_str = "%d-W%d-%d" % (year, week_number, self.weekday_positions[key])
