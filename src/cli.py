@@ -16,5 +16,8 @@ def parse_cli_args():
                         metavar="PATH")
     parser.add_argument('-c', '--combine', action='store_true',
                         help='creates a "combined.json" file containing all dishes for the location specified')
+    parser.add_argument('--openmensa', 
+                        help="directory for OpenMensa XML output (date parameter will be ignored if this argument is used)",
+                        metavar="PATH")
     args = parser.parse_args()
     return args
