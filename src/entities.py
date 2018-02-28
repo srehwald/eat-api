@@ -64,11 +64,14 @@ class Week:
             week_str += "\n %s" % day
         return week_str
 
+    def to_json_obj(self):
+        return {"number": self.calendar_week, "year": self.year,
+             "days": [{"date": str(menu.menu_date), "dishes": [dish.__dict__ for dish in menu.dishes]} for menu in
+                      self.days]}
+
     def to_json(self):
         week_json = json.dumps(
-            {"number": self.calendar_week, "year": self.year,
-             "days": [{"date": str(menu.menu_date), "dishes": [dish.__dict__ for dish in menu.dishes]} for menu in
-                      self.days]},
+            self.to_json_obj(),
             ensure_ascii=False, indent=4)
         return week_json
 
