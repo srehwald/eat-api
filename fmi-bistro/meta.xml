@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1"
+           xmlns="http://openmensa.org/open-mensa-v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Wilhelm Gastronomie im FMI Gebäude der TUM Garching</name>
+    <address>Boltzmannstraße 3, 85748 Garching bei München</address>
+    <city>Garching bei München</city>
+    <phone>+49 89 323 888 03</phone>
+    <location latitude="48.262420" longitude="11.668038" />
+    <availability>public</availability>
+    <times type="opening">
+      <monday open="07:00-19:00" />
+      <tuesday open="07:00-19:00" />
+      <wednesday open="07:00-19:00" />
+      <thursday open="07:00-19:00" />
+      <friday open="07:00-19:00" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1" hour="8" retry="60 5 1440" />
+      <url>http://srehwald.github.io/eat-api/fmi-bistro/feed.xml</url>
+      <source>http://www.wilhelm-gastronomie.de/tum-garching</source>
+    </feed>
+  </canteen>
+</openmensa>
