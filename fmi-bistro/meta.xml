@@ -21,7 +21,7 @@
     </times>
     <feed name="full" priority="1">
       <schedule dayOfMonth="*" dayOfWeek="1" hour="8" retry="60 5 1440" />
-      <url>http://srehwald.github.io/eat-api/fmi-bistro/feed.xml</url>
+      <url>https://srehwald.github.io/eat-api/fmi-bistro/feed.xml</url>
       <source>http://www.wilhelm-gastronomie.de/tum-garching</source>
     </feed>
   </canteen>
