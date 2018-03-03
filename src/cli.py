@@ -15,6 +15,6 @@ def parse_cli_args():
                         help="directory for JSON output (date parameter will be ignored if this argument is used)",
                         metavar="PATH")
     parser.add_argument('-c', '--combine', action='store_true',
-                        help='creates an "combined.json", containing all available dishes for the location')
+                        help='creates a "combined.json" file containing all dishes for the location specified')
     args = parser.parse_args()
     return args

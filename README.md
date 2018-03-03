@@ -58,8 +58,8 @@ optional arguments:
   -j PATH, --jsonify PATH
                         directory for JSON output (date parameter will be
                         ignored if this argument is used)
-  -c, --combine         creates an "combined.json", containing all available
-                        dishes for the location
+  -c, --combine         creates a "combined.json" file containing all dishes
+                        for the location specified
 
 ```
 

@@ -53,13 +53,13 @@ def jsonify(weeks, directory, location, combine_dishes):
     if not os.path.exists(json_dir):
         os.makedirs("%s/%s" % (str(directory), combined_df_name))
 
-    # convert all week objects to one JSON object
+    # convert all weeks to one JSON object
     weeks_json_all = json.dumps(
         {"canteen_id": location, "weeks": [weeks[calendar_week].to_json_obj() for calendar_week in weeks]}, 
         ensure_ascii=False, indent=4)
     
-    # write all JSON to file all/all.json
-    with open("%s/%s.json" % (str(json_dir), combined_df_name.zfill(2)), 'w') as outfile:
+    # write JSON object to file
+    with open("%s/%s.json" % (str(json_dir), combined_df_name), 'w') as outfile:
         json.dump(json.loads(weeks_json_all), outfile, indent=4, ensure_ascii=False)
 
 
