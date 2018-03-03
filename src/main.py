@@ -23,7 +23,7 @@ def get_menu_parsing_strategy(location):
     return parser
 
 
-def jsonify(weeks, directory):
+def jsonify(weeks, directory, location, combine_dishes):
     # iterate through weeks
     for calendar_week in weeks:
         # get Week object
@@ -41,6 +41,26 @@ def jsonify(weeks, directory):
         # write JSON to file: <year>/<calendar_week>.json
         with open("%s/%s.json" % (str(json_dir), str(calendar_week).zfill(2)), 'w') as outfile:
             json.dump(json.loads(week_json), outfile, indent=4, ensure_ascii=False)
+
+    # check if combien parameter got set
+    if not combine_dishes:
+        return
+    # the name of the output directory and file
+    combined_df_name = 'combined'
+
+    # create directory for combined output
+    json_dir = "%s/%s" % (str(directory), combined_df_name)
+    if not os.path.exists(json_dir):
+        os.makedirs("%s/%s" % (str(directory), combined_df_name))
+
+    # convert all weeks to one JSON object
+    weeks_json_all = json.dumps(
+        {"canteen_id": location, "weeks": [weeks[calendar_week].to_json_obj() for calendar_week in weeks]}, 
+        ensure_ascii=False, indent=4)
+    
+    # write JSON object to file
+    with open("%s/%s.json" % (str(json_dir), combined_df_name), 'w') as outfile:
+        json.dump(json.loads(weeks_json_all), outfile, indent=4, ensure_ascii=False)
 
 
 def main():
@@ -75,7 +95,7 @@ def main():
         weeks = Week.to_weeks(menus)
         if not os.path.exists(args.jsonify):
             os.makedirs(args.jsonify)
-        jsonify(weeks, args.jsonify)
+        jsonify(weeks, args.jsonify, location, args.combine)
     # date argument is set
     elif args.date is not None:
         if menu_date not in menus:

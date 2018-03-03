@@ -125,7 +125,8 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         # create temp dir for testing
         with tempfile.TemporaryDirectory() as temp_dir:
             # store output in the tempdir
-            main.jsonify(weeks, temp_dir)
+            # location can be an empty string because combination won't get tested (combine_dishes is False) here
+            main.jsonify(weeks, temp_dir, "", False)
 
             # check if two directories are created (one for 2016 and 2017)
             created_dirs = [name for name in os.listdir(temp_dir) if os.path.isdir(os.path.join(temp_dir, name))]
