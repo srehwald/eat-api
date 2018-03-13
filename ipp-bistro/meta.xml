@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1"
+           xmlns="http://openmensa.org/open-mensa-v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Konradhofer Catering - Betriebskantine IPP</name>
+    <address>Gießenbachstraße, 85748 Garching bei München</address>
+    <city>Garching bei München</city>
+    <phone>+49 89 820 404 88</phone>
+    <location latitude="48.262088" longitude="11.672730" />
+    <availability>public</availability>
+    <times type="opening">
+      <monday open="08:30-16:30" />
+      <tuesday open="08:30-16:30" />
+      <wednesday open="08:30-16:30" />
+      <thursday open="08:30-16:30" />
+      <friday open="08:30-13:30" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1" hour="8" retry="60 5 1440" />
+      <url>https://srehwald.github.io/eat-api/ipp-bistro/feed.xml</url>
+      <source>https://konradhof-catering.de/ipp/</source>
+    </feed>
+  </canteen>
+</openmensa>
