@@ -44,7 +44,7 @@ The JSON files are produced by the tool shown in this repository. Hence, it is e
 
 ```
 $ python src/main.py -h
-usage: main.py [-h] [-d DATE] [-j PATH] [-c]
+usage: main.py [-h] [-d DATE] [-j PATH] [-c] [--openmensa PATH]
                {fmi-bistro,ipp-bistro,mensa-garching,stucafe-karlstr,mensa-pasing,mensa-arcisstr,stucafe-boltzmannstr,stubistro-arcisstr,stucafe-garching,mensa-martinsried,mensa-weihenstephan,stubistro-grosshadern,stucafe-akademie-weihenstephan,mensa-lothstr,stubistro-goethestr,stubistro-großhadern,mensa-arcisstrasse,stucafe-pasing,stubistro-rosenheim,stucafe-adalbertstr,stubistro-schellingstr,mensa-leopoldstr}
 
 positional arguments:
@@ -60,7 +60,8 @@ optional arguments:
                         ignored if this argument is used)
   -c, --combine         creates a "combined.json" file containing all dishes
                         for the location specified
-
+  --openmensa PATH      directory for OpenMensa XML output (date parameter
+                        will be ignored if this argument is used)
 ```
 
 It is mandatory to specify the canteen (e.g. mensa-garching). Furthermore, you can specify a date, for which you would like to get the menu. If no date is provided, all the dishes for the current week will be printed to the command line. the `--jsonify` option is used for the API and produces some JSON files containing the menu data. 

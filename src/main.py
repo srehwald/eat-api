@@ -6,6 +6,7 @@ import cli
 import menu_parser
 
 import util
+from openmensa import openmensa
 from entities import Week
 
 
@@ -96,6 +97,11 @@ def main():
         if not os.path.exists(args.jsonify):
             os.makedirs(args.jsonify)
         jsonify(weeks, args.jsonify, location, args.combine)
+    elif args.openmensa is not None:
+        weeks = Week.to_weeks(menus)
+        if not os.path.exists(args.openmensa):
+            os.makedirs(args.openmensa)
+        openmensa(weeks, args.openmensa)
     # date argument is set
     elif args.date is not None:
         if menu_date not in menus:
