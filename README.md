@@ -76,3 +76,11 @@ $ python src/main.py mensa-garching
 # Get the menu for April 2 at mensa-arcisstrasse
 $ python src/main.py mensa-arcisstrasse -d 02.04.2017
 ```
+
+## Projects using `eat-api`
+
+- Parser for [OpenMensa](https://openmensa.org) ([GitHub](https://github.com/openmensa/openmensa))
+  - [Wilhelm Gastronomie im FMI Gebäude der TUM Garching](https://openmensa.org/c/773)
+  - [Konradhofer Catering - Betriebskantine IPP](https://openmensa.org/c/774)
+- [Hunger | TUM.sexy](http://tum.sexy/hunger/) ([Github](https://github.com/mammuth/TUM.sexy))
+- `FMeat.php` SDK ([GitHub](https://github.com/jpbernius/fmeat.php))
