@@ -125,7 +125,8 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         # create temp dir for testing
         with tempfile.TemporaryDirectory() as temp_dir:
             # store output in the tempdir
-            main.jsonify(weeks, temp_dir)
+            # location can be an empty string because combination won't get tested (combine_dishes is False) here
+            main.jsonify(weeks, temp_dir, "", False)
 
             # check if two directories are created (one for 2016 and 2017)
             created_dirs = [name for name in os.listdir(temp_dir) if os.path.isdir(os.path.join(temp_dir, name))]
@@ -152,6 +153,8 @@ class FMIBistroParserTest(unittest.TestCase):
     date_mon1 = date(2017, 10, 30)
     date_thu1 = date(2017, 11, 2)
     date_fri1 = date(2017, 11, 3)
+
+    dish_aktion1 = Dish("Tellerfleisch mit Bouillonkartoffeln und Sahnemeerrettich Kaiserschmarrn mit Zwetschenröster", 3.0)
     dish1_mon1 = Dish("Kurkumareis mit Asia Wokgemüse", 3.6)
     dish2_mon1 = Dish("Kartoffel „Cordon Bleu“ mit Frischkäse gefüllt dazu Blattsalate", 4.3)
     dish3_mon1 = Dish("Putenschnitzel natur mit Paprikarahmsoße dazu Ebly Gemüseweizen", 5.3)
@@ -161,15 +164,16 @@ class FMIBistroParserTest(unittest.TestCase):
     dish1_fri1 = Dish("Antipasti Rosmarinkartoffeln", 3.6)
     dish2_fri1 = Dish("Schlemmerfilet auf Antipasti Rosmarinkartoffeln", 4.5)
     dish3_fri1 = Dish("Kaiserschmarrn mit Zwetschenröster", 3)
-    menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1])
-    menu_thu1 = Menu(date_thu1, [dish1_thu1, dish2_thu1, dish3_thu1])
-    menu_fri1 = Menu(date_fri1, [dish1_fri1, dish2_fri1, dish3_fri1])
+    menu_mon1 = Menu(date_mon1, [dish_aktion1, dish1_mon1, dish2_mon1, dish3_mon1])
+    menu_thu1 = Menu(date_thu1, [dish_aktion1, dish1_thu1, dish2_thu1, dish3_thu1])
+    menu_fri1 = Menu(date_fri1, [dish_aktion1, dish1_fri1, dish2_fri1, dish3_fri1])
 
     date_mon2 = date(2017, 11, 6)
     date_tue2 = date(2017, 11, 7)
     date_wed2 = date(2017, 11, 8)
     date_thu2 = date(2017, 11, 9)
     date_fri2 = date(2017, 11, 10)
+    dish_aktion2 = Dish("Pochiertes Lachsfilet mit Dillsoße dazu Minze-Reis", 6.5)
     dish1_mon2 = Dish("Dampfkartoffeln mit Zucchinigemüse", 3.6)
     dish2_mon2 = Dish("Valess-Schnitzel mit Tomaten-Couscous", 4.3)
     dish3_mon2 = Dish("Kasslerpfanne mit frischen Champignons und Spätzle", 4.9)
@@ -183,11 +187,11 @@ class FMIBistroParserTest(unittest.TestCase):
     dish1_fri2 = Dish("Spiralnudeln mit Ratatouillegemüse", 3.6)
     dish2_fri2 = Dish("Milchreis mit warmen Sauerkirschen", 3)
     dish3_fri2 = Dish("Lasagne aus Seelachs und Blattspinat", 5.3)
-    menu_mon2 = Menu(date_mon2, [dish1_mon2, dish2_mon2, dish3_mon2])
-    menu_tue2 = Menu(date_tue2, [dish1_tue2, dish2_tue2])
-    menu_wed2 = Menu(date_wed2, [dish1_wed2, dish2_wed2])
-    menu_thu2 = Menu(date_thu2, [dish1_thu2, dish2_thu2, dish3_thu2])
-    menu_fri2 = Menu(date_fri2, [dish1_fri2, dish2_fri2, dish3_fri2])
+    menu_mon2 = Menu(date_mon2, [dish_aktion2, dish1_mon2, dish2_mon2, dish3_mon2])
+    menu_tue2 = Menu(date_tue2, [dish_aktion2, dish1_tue2, dish2_tue2])
+    menu_wed2 = Menu(date_wed2, [dish_aktion2, dish1_wed2, dish2_wed2])
+    menu_thu2 = Menu(date_thu2, [dish_aktion2, dish1_thu2, dish2_thu2, dish3_thu2])
+    menu_fri2 = Menu(date_fri2, [dish_aktion2, dish1_fri2, dish2_fri2, dish3_fri2])
 
     def test_Should_Return_Menu(self):
         menus_actual1 = self.bistro_parser.get_menus(self.test_menu1, self.year1, self.week_number1)

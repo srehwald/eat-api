@@ -44,18 +44,11 @@ The JSON files are produced by the tool shown in this repository. Hence, it is e
 
 ```
 $ python src/main.py -h
-usage: main.py [-h] [-d DATE] [-j PATH]
-               {fmi-bistro,ipp-bistro,mensa-arcisstr,mensa-arcisstrasse,mensa-garching,mensa-leopoldstr,mensa-lothstr,
-               mensa-martinsried,mensa-pasing,mensa-weihenstephan,stubistro-arcisstr,stubistro-goethestr,
-               stubistro-großhadern,stubistro-grosshadern,stubistro-rosenheim,stubistro-schellingstr,
-               stucafe-adalbertstr,stucafe-akademie-weihenstephan,stucafe-boltzmannstr,stucafe-garching,stucafe-karlstr,
-               stucafe-pasing}
+usage: main.py [-h] [-d DATE] [-j PATH] [-c] [--openmensa PATH]
+               {fmi-bistro,ipp-bistro,mensa-garching,stucafe-karlstr,mensa-pasing,mensa-arcisstr,stucafe-boltzmannstr,stubistro-arcisstr,stucafe-garching,mensa-martinsried,mensa-weihenstephan,stubistro-grosshadern,stucafe-akademie-weihenstephan,mensa-lothstr,stubistro-goethestr,stubistro-großhadern,mensa-arcisstrasse,stucafe-pasing,stubistro-rosenheim,stucafe-adalbertstr,stubistro-schellingstr,mensa-leopoldstr}
 
 positional arguments:
-  {fmi-bistro,ipp-bistro,mensa-arcisstr,mensa-arcisstrasse,mensa-garching,mensa-leopoldstr,mensa-lothstr,
-  mensa-martinsried,mensa-pasing,mensa-weihenstephan,stubistro-arcisstr,stubistro-goethestr,stubistro-großhadern,
-  stubistro-grosshadern,stubistro-rosenheim,stubistro-schellingstr,stucafe-adalbertstr,stucafe-akademie-weihenstephan,
-  stucafe-boltzmannstr,stucafe-garching,stucafe-karlstr,stucafe-pasing}
+  {fmi-bistro,ipp-bistro,mensa-garching,stucafe-karlstr,mensa-pasing,mensa-arcisstr,stucafe-boltzmannstr,stubistro-arcisstr,stucafe-garching,mensa-martinsried,mensa-weihenstephan,stubistro-grosshadern,stucafe-akademie-weihenstephan,mensa-lothstr,stubistro-goethestr,stubistro-großhadern,mensa-arcisstrasse,stucafe-pasing,stubistro-rosenheim,stucafe-adalbertstr,stubistro-schellingstr,mensa-leopoldstr}
                         the location you want to eat at
 
 optional arguments:
@@ -65,6 +58,10 @@ optional arguments:
   -j PATH, --jsonify PATH
                         directory for JSON output (date parameter will be
                         ignored if this argument is used)
+  -c, --combine         creates a "combined.json" file containing all dishes
+                        for the location specified
+  --openmensa PATH      directory for OpenMensa XML output (date parameter
+                        will be ignored if this argument is used)
 ```
 
 It is mandatory to specify the canteen (e.g. mensa-garching). Furthermore, you can specify a date, for which you would like to get the menu. If no date is provided, all the dishes for the current week will be printed to the command line. the `--jsonify` option is used for the API and produces some JSON files containing the menu data. 
@@ -79,3 +76,11 @@ $ python src/main.py mensa-garching
 # Get the menu for April 2 at mensa-arcisstrasse
 $ python src/main.py mensa-arcisstrasse -d 02.04.2017
 ```
+
+## Projects using `eat-api`
+
+- Parser for [OpenMensa](https://openmensa.org) ([GitHub](https://github.com/openmensa/openmensa))
+  - [Wilhelm Gastronomie im FMI Gebäude der TUM Garching](https://openmensa.org/c/773)
+  - [Konradhofer Catering - Betriebskantine IPP](https://openmensa.org/c/774)
+- [Hunger | TUM.sexy](http://tum.sexy/hunger/) ([Github](https://github.com/mammuth/TUM.sexy))
+- `FMeat.php` SDK ([GitHub](https://github.com/jpbernius/fmeat.php))

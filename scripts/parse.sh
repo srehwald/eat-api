@@ -13,4 +13,10 @@ for loc in "${loc_list[@]}"; do
     python src/main.py "$loc" --jsonify "./dist/$loc"
 done
 
+openmensa_list=( "ipp-bistro" "fmi-bistro" )
+
+for loc in "${openmensa_list[@]}"; do
+    python src/main.py "$loc" --openmensa "./dist/$loc"
+done
+
 tree dist/

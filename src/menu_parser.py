@@ -217,6 +217,22 @@ class FMIBistroMenuParser(MenuParser):
             lines_weekdays["thu"] += " " + line[pos_thu:pos_fri].replace("\n", " ").replace("Donnerstag", "")
             lines_weekdays["fri"] += " " + line[pos_fri:].replace("\n", " ").replace("Freitag", "")
 
+        # Add the aktionsgericht
+        line_aktion = [s for s in lines if "Aktion" in s]
+        num_dishes = 3
+        if len(line_aktion) == 1:
+            line_aktion_pos = lines.index(line_aktion[0]) - 2
+            aktionsgericht = ' '.join(lines[line_aktion_pos:line_aktion_pos + 3])
+            aktionsgericht = aktionsgericht \
+                .replace("Montag – Freitag", "") \
+                .replace("Tagessuppe täglich wechselndes Angebot", "") \
+                .replace("ab € 1,00", "") \
+                .replace("Aktion", "")
+            num_dishes += aktionsgericht.count('€')
+            for key in lines_weekdays:
+                lines_weekdays[key] = aktionsgericht + ", " + lines_weekdays[key]
+
+        # Process menus for each day
         for key in lines_weekdays:
             # stop parsing day when bistro is closed at that day
             if "geschlossen" in lines_weekdays[key].lower():
@@ -241,9 +257,11 @@ class FMIBistroMenuParser(MenuParser):
             # convert prices to float
             prices = [float(price.replace("€", "").replace(",", ".").strip()) for price in prices]
             # remove price and commas from dish names
-            dish_names = [re.sub(self.price_regex, "", dish).replace("," ,"").strip() for dish in dish_names]
-            # create list of Dish objects; only take first 3 as the following dishes are corrupt and not necessary
-            dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))][:3]
+            dish_names = [re.sub(self.price_regex, "", dish).replace(",", "").strip() for dish in dish_names]
+            # create list of Dish objects; only take first 3/4 as the following dishes are corrupt and not necessary
+            dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))][:num_dishes]
+            # filter empty dishes
+            dishes = list(filter(lambda x: x.name != "", dishes))
             # get date from year, week number and current weekday
             # https://stackoverflow.com/questions/17087314/get-date-from-week-number
             date_str = "%d-W%d-%d" % (year, week_number, self.weekday_positions[key])
