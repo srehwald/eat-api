@@ -86,3 +86,4 @@ $ python src/main.py mensa-arcisstrasse -d 02.04.2017
   - [Konradhofer Catering - Betriebskantine IPP](https://openmensa.org/c/774)
 - [Hunger | TUM.sexy](http://tum.sexy/hunger/) ([Github](https://github.com/mammuth/TUM.sexy))
 - `FMeat.php` SDK ([GitHub](https://github.com/jpbernius/fmeat.php))
+- [Telegram](https://telegram.org/) bot for [Channel t.me/lunchgfz](https://t.me/lunchgfz) ([GitLab](https://gitlab.com/raabf/lunchgfz-telegram))
