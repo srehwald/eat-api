@@ -25,7 +25,7 @@ Simple static API for the canteens of the [Studentenwerk München](http://www.st
 | StuCafé Karlstraße             | stucafe-karlstr                | [Karlstraße 6, München](https://www.google.com/maps?q=Karlstraße+6,+München)                                           |
 | StuCafé Pasing                 | stucafe-pasing                 | [Am Stadtpark 20, München](https://www.google.com/maps?q=Am%20Stadtpark+20,+München)                                     |
 | FMI Bistro Garching            | fmi-bistro                     | [Boltzmannstraße 3, Garching](https://www.google.com/maps?q=Boltzmannstraße+3,+Garching)                   |
-| IPP Bistro Garching            | ipp-bistro                     | [Boltzmannstraße 2, Garching](https://www.google.com/maps?q=Boltzmannstraße+2,+Garching)                   |
+| IPP Bistro Garching            | ipp-bistro                     | [Boltzmannstraße 2, Garching](https://goo.gl/maps/vYdsQhgxFvH2)                   |
 
 ## Usage
 
@@ -66,7 +66,7 @@ optional arguments:
                         will be ignored if this argument is used)
 ```
 
-It is mandatory to specify the canteen (e.g. mensa-garching). Furthermore, you can specify a date, for which you would like to get the menu. If no date is provided, all the dishes for the current week will be printed to the command line. the `--jsonify` option is used for the API and produces some JSON files containing the menu data. 
+It is mandatory to specify the canteen (e.g. mensa-garching). Furthermore, you can specify a date, for which you would like to get the menu. If no date is provided, all the dishes for the current week will be printed to the command line. the `--jsonify` option is used for the API and produces some JSON files containing the menu data.
 
 #### Example
 Here are some sample calls:
