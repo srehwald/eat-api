@@ -174,6 +174,15 @@ class FMIBistroMenuParser(MenuParser):
             week_number = int(wn_year_match.group(1)) if wn_year_match else None
             year = int(wn_year_match.group(2)) if wn_year_match else None
 
+            today = datetime.today()
+            # a hacky way to detect when something is appended or prepended to the year (like 20181 for year 2018)
+            # TODO probably replace year abnormality by a better method
+            if year != today.year and str(today.year) in str(year):
+                year = today.year
+            elif year != today.year + 1 and str(today.year + 1) in str(year + 1):
+                # checking also next year when it is december
+                year = today.year + 1
+
             with tempfile.NamedTemporaryFile() as temp_pdf:
                 # download pdf
                 response = requests.get(pdf_url)
