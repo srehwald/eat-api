@@ -155,36 +155,38 @@ class FMIBistroMenuParser(MenuParser):
     dish_regex = r".+?\€\s\d+,\d+"
 
     def parse(self, location):
-        menus = None
         # get web page of bistro
         page = requests.get(self.url)
         # get html tree
         tree = html.fromstring(page.content)
         # get url of current pdf menu
         xpath_query = tree.xpath("//a[contains(text(), 'Garching_Speiseplan')]/@href")
-        pdf_url = xpath_query[0] if len(xpath_query) == 1 else None
 
-        if pdf_url is None:
+        if len(xpath_query) < 1:
             return None
 
-        # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
-        # more examples: https://regex101.com/r/ATOHj3/1/
-        pdf_name = pdf_url.split("/")[-1]
-        wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d*)", pdf_name, re.IGNORECASE)
-        week_number = int(wn_year_match.group(1)) if wn_year_match else None
-        year = int(wn_year_match.group(2)) if wn_year_match else None
+        menus = {}
+        for pdf_url in xpath_query:
+            # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
+            # more examples: https://regex101.com/r/ATOHj3/1/
+            pdf_name = pdf_url.split("/")[-1]
+            wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d*)", pdf_name, re.IGNORECASE)
+            week_number = int(wn_year_match.group(1)) if wn_year_match else None
+            year = int(wn_year_match.group(2)) if wn_year_match else None
 
-        with tempfile.NamedTemporaryFile() as temp_pdf:
-            # download pdf
-            response = requests.get(pdf_url)
-            temp_pdf.write(response.content)
-            with tempfile.NamedTemporaryFile() as temp_txt:
-                # convert pdf to text by callinf pdftotext
-                call(["pdftotext", "-layout", temp_pdf.name, temp_txt.name])
-                with open(temp_txt.name, 'r') as myfile:
-                    # read generated text file
-                    data = myfile.read()
-                    menus = self.get_menus(data, year, week_number)
+            with tempfile.NamedTemporaryFile() as temp_pdf:
+                # download pdf
+                response = requests.get(pdf_url)
+                temp_pdf.write(response.content)
+                with tempfile.NamedTemporaryFile() as temp_txt:
+                    # convert pdf to text by calling pdftotext
+                    call(["pdftotext", "-layout", temp_pdf.name, temp_txt.name])
+                    with open(temp_txt.name, 'r') as myfile:
+                        # read generated text file
+                        data = myfile.read()
+                        parsed_menus = self.get_menus(data, year, week_number)
+                        if parsed_menus is not None:
+                            menus.update(parsed_menus)
 
         return menus
 
@@ -312,7 +314,7 @@ class IPPBistroMenuParser(MenuParser):
                         # read generated text file
                         data = myfile.read()
                         parsed_menus = self.get_menus(data, year, week_number)
-                        if not (parsed_menus is None):
+                        if parsed_menus is not None:
                             menus.update(parsed_menus)
 
         return menus
