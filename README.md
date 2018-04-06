@@ -45,10 +45,18 @@ The JSON files are produced by the tool shown in this repository. Hence, it is e
 ```
 $ python src/main.py -h
 usage: main.py [-h] [-d DATE] [-j PATH] [-c] [--openmensa PATH]
-               {fmi-bistro,ipp-bistro,mensa-garching,stucafe-karlstr,mensa-pasing,mensa-arcisstr,stucafe-boltzmannstr,stubistro-arcisstr,stucafe-garching,mensa-martinsried,mensa-weihenstephan,stubistro-grosshadern,stucafe-akademie-weihenstephan,mensa-lothstr,stubistro-goethestr,stubistro-großhadern,mensa-arcisstrasse,stucafe-pasing,stubistro-rosenheim,stucafe-adalbertstr,stubistro-schellingstr,mensa-leopoldstr}
+               {fmi-bistro,ipp-bistro,mensa-garching,stucafe-karlstr,mensa-pasing,mensa-arcisstr,
+               stucafe-boltzmannstr,stubistro-arcisstr,stucafe-garching,mensa-martinsried,
+               mensa-weihenstephan,stubistro-grosshadern,stucafe-akademie-weihenstephan,mensa-lothstr,
+               stubistro-goethestr,stubistro-großhadern,mensa-arcisstrasse,stucafe-pasing,
+               stubistro-rosenheim,stucafe-adalbertstr,stubistro-schellingstr,mensa-leopoldstr}
 
 positional arguments:
-  {fmi-bistro,ipp-bistro,mensa-garching,stucafe-karlstr,mensa-pasing,mensa-arcisstr,stucafe-boltzmannstr,stubistro-arcisstr,stucafe-garching,mensa-martinsried,mensa-weihenstephan,stubistro-grosshadern,stucafe-akademie-weihenstephan,mensa-lothstr,stubistro-goethestr,stubistro-großhadern,mensa-arcisstrasse,stucafe-pasing,stubistro-rosenheim,stucafe-adalbertstr,stubistro-schellingstr,mensa-leopoldstr}
+  {fmi-bistro,ipp-bistro,mensa-garching,stucafe-karlstr,mensa-pasing,mensa-arcisstr,
+  stucafe-boltzmannstr,stubistro-arcisstr,stucafe-garching,mensa-martinsried,
+  mensa-weihenstephan,stubistro-grosshadern,stucafe-akademie-weihenstephan,mensa-lothstr,
+  stubistro-goethestr,stubistro-großhadern,mensa-arcisstrasse,stucafe-pasing,
+  stubistro-rosenheim,stucafe-adalbertstr,stubistro-schellingstr,mensa-leopoldstr}
                         the location you want to eat at
 
 optional arguments:
@@ -84,3 +92,4 @@ $ python src/main.py mensa-arcisstrasse -d 02.04.2017
   - [Konradhofer Catering - Betriebskantine IPP](https://openmensa.org/c/774)
 - [Hunger | TUM.sexy](http://tum.sexy/hunger/) ([Github](https://github.com/mammuth/TUM.sexy))
 - `FMeat.php` SDK ([GitHub](https://github.com/jpbernius/fmeat.php))
+- UWP-TUM-Campus-App ([Github](https://github.com/COM8/UWP-TUM-Campus-App))
