@@ -179,9 +179,6 @@ class FMIBistroMenuParser(MenuParser):
             # TODO probably replace year abnormality by a better method
             if year != today.year and str(today.year) in str(year):
                 year = today.year
-            elif year != today.year + 1 and str(today.year + 1) in str(year + 1):
-                # checking also next year when it is december
-                year = today.year + 1
 
             with tempfile.NamedTemporaryFile() as temp_pdf:
                 # download pdf
@@ -311,6 +308,8 @@ class IPPBistroMenuParser(MenuParser):
             wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*).*\d+\.\d+\.(\d+).*", pdf_name, re.IGNORECASE)
             week_number = int(wn_year_match.group(1)) if wn_year_match else None
             year = int(wn_year_match.group(2)) if wn_year_match else None
+            # convert 2-digit year into 4-digit year
+            year = 2000 + year if year is not None and len(str(year)) == 2 else year
 
             with tempfile.NamedTemporaryFile() as temp_pdf:
                 # download pdf
