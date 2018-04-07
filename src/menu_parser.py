@@ -179,9 +179,6 @@ class FMIBistroMenuParser(MenuParser):
             # TODO probably replace year abnormality by a better method
             if year != today.year and str(today.year) in str(year):
                 year = today.year
-            elif year != today.year + 1 and str(today.year + 1) in str(year + 1):
-                # checking also next year when it is december
-                year = today.year + 1
 
             with tempfile.NamedTemporaryFile() as temp_pdf:
                 # download pdf
