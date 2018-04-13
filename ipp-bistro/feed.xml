@@ -1,103 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-09">
+    <day date="2018-04-16">
       <category name="Speiseplan">
         <meal>
-          <name>&quot;Baked Potatoe&quot; mit Sour Cream, Mais und Tomatenwürfel</name>
+          <name>Ofenkartoffel mit pikanter Tomatensauce, Oliven, Fetakäse und frischen Kräutern&quot;</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>Fleischpflanzerl S vom Konradhof mit Kartoffelpüree und Bratensauce</name>
-          <price role="other">4.80</price>
+          <name>Züricher Geschnetzeltes vom Konradhofer Freilandschwein, dazu Reis</name>
+          <price role="other">5.20</price>
         </meal>
         <meal>
-          <name>Rigatoni &quot;Emiliana&quot; it Erbsen, Sahne und Rucola oder mit Schinken</name>
-          <price role="other">4.90</price>
+          <name>Farfalle &quot;Mexiko&quot; mit Zwiebeln, Mais, Tomaten und Paprika auf Wunsch mit Reibekäse</name>
+          <price role="other">4.50</price>
         </meal>
         <meal>
-          <name>Hähnchengeschnetzeltes mit Broccoli, Karotten, Kräutersahnesauce und Nudeln</name>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-04-10">
-      <category name="Speiseplan">
-        <meal>
-          <name>Milchreis mit Sauerkirsch-Kompott</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Konradhofer chweinebraten und Wammerl mit Bayerisch Kraut und Speckknödel und Wacholderjus</name>
-          <price role="other">5.90</price>
-        </meal>
-        <meal>
-          <name>Vegetarisch gefüllte Frühlingsrolle auf Ratatouille mit Reis</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Putenmedaillions vom Grill, mit Estragonrahmsauce, Buttererbsen und Pommes frites</name>
+          <name>Mit Honig glasierte Hähnchenbrust, dazu Kartoffelspalten und Sesamspinat</name>
           <price role="other">7.20</price>
         </meal>
       </category>
     </day>
-    <day date="2018-04-11">
+    <day date="2018-04-17">
       <category name="Speiseplan">
         <meal>
-          <name>Krautfleckerl mit Sauerrahm-Dip (mit Speck 4,20 €)</name>
+          <name>Frühlings Reispfanne mit Gemüse, Frühlingszwiebeln und Paprika-Dip</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>Hähnchenkeulen Cacciatore mit Zwiebeln, Tomaten, Champignons und Rotwein, dazu Reis</name>
+          <name>Holzfällersteak mit Kräuterbutter, glasierten H Zwiebeln, Speck, Tomatenscheibe und Pommes frites</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Pilzragout mit Semmelknödel</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Ungarisches Rindergulasch mit Paprika und Majoran, dazu Hörnchennudeln</name>
+          <price role="other">6.10</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-18">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüseauflauf &quot;Mallorca&quot; mit Kartoffeln, Auberginen und Paprika, dazu mediterrane Tomatensauce&quot;</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>&quot;Pollo alla Diavolo&quot; ähnchenkeulen auf Teufelsart mit Cayennepfeffer und Rosmarin, dazu Pommes frites</name>
           <price role="other">5.80</price>
         </meal>
         <meal>
-          <name>Zitronenpasta mit Zucchinigemüse, frischer Minze, Oliven und Grana</name>
-          <price role="other">4.90</price>
+          <name>Dinkelpenne mit Sugo, Rucola und gehobeltem Grana</name>
+          <price role="other">4.80</price>
         </meal>
         <meal>
-          <name>Gulasch &quot;Burgunder Art&quot; vom Rind mit Möhren, Champignons und Semmelknödel</name>
+          <name>Gebratenes Lachsfilet auf Zitronen-Kohlrabi und Erbsenreis</name>
+          <price role="other">8.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-19">
+      <category name="Speiseplan">
+        <meal>
+          <name>Sahnegriesbrei mit Kompott</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Pikantes Putengulasch auf Italienische Art, mit Paprika, Tomaten, Zucchini, Balsamico und Farfalle</name>
           <price role="other">6.20</price>
         </meal>
-      </category>
-    </day>
-    <day date="2018-04-12">
-      <category name="Speiseplan">
         <meal>
-          <name>Farmerreispfanne mit Erbsen, Mais, Champignons und pikanter Tomatensalsa</name>
-          <price role="other">3.50</price>
+          <name>Vegetarische Enchiladas mit Bohnen, Paprika und Mais gefüllt, dazu Sauerrahmdip&quot;</name>
+          <price role="other">5.20</price>
         </meal>
         <meal>
-          <name>Rinderleber mit Kartoffelstampf und Zwiebelsauce</name>
-          <price role="other">5.90</price>
-        </meal>
-        <meal>
-          <name>Südtiroler Jägernudeln mit Zwiebeln, Speck, Sahne, Petersilie und Grana</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Pfefferrahmgeschnetzeltes vom Konradhofer Schwein mit Spätzle</name>
-          <price role="other">5.90</price>
+          <name>Schweinelendchen vom Grill, auf Weißweinjus, Gemüse und Risoléekartoffeln</name>
+          <price role="other">6.90</price>
         </meal>
       </category>
     </day>
-    <day date="2018-04-13">
+    <day date="2018-04-20">
       <category name="Speiseplan">
         <meal>
-          <name>Herzhaftes Kartoffel-Gemüse Gulasch mit Kräutern</name>
+          <name>Penne in Petersilien-Frischkäse Sahne</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>&quot;Fischfilet alla Pizzaiola&quot; mit Tomaten, Kapern, Basilikum und Reis&quot;</name>
+          <name>Konradhofer Currywurst mit Spezialsauce und Pommes frites</name>
+          <price role="other">4.80</price>
+        </meal>
+        <meal>
+          <name>Seelachsfilet in Nusspanade gebacken, dazu Petersilienkartoffeln und Buttersauce</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Kalbsschnitzel &quot;Schweizer Art&quot; mit Saftschinken und Emmentaler überbacken, mit Pommes frites und Preiselbeeren</name>
+          <price role="other">8.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Nudel-Spitzkohl Pfanne mit Kräutersauce</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Kohlrabi Auflauf mit gemischtem Hackfleisch und Käse überbacken</name>
+          <price role="other">4.80</price>
+        </meal>
+        <meal>
+          <name>Lammcurry mit Kartoffeln, Kokosmilch und Gemüse, dazu Basmatireis</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Putensteak &quot;California&quot; mit gebratenem Pfirsich, Ingwer- Zwiebelgemüse, Pommes frites und Mango-Chutney</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-24">
+      <category name="Speiseplan">
+        <meal>
+          <name>Zwiebelkuchen mit Speck, Schmand und Salatgarnitur</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Im Ganzen gebratener Schweinerücken mit BBQ-Sauce, Buttermais und Country-Potatoes&quot;</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Sizilianisches Putengeschnetzeltes mit Zucchini, Paprika, Sultaninen und Oliven, dazu Teigwaren</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>&quot;Alu Gobi&quot; Blumenkohl und Kartoffeln in pikanter Joghurtsauce</name>
+          <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-25">
+      <category name="Speiseplan">
+        <meal>
+          <name>Indisches Gemüsekorma mit Nüssen, dazu Basmatireis und Asia-Dip</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Allgäuer Käseschnitzel mit Röstiecken</name>
           <price role="other">5.90</price>
         </meal>
         <meal>
-          <name>Rinderhüftsteak mit Cognac-Pfeffersauce, Kroketten und Frühlingsgemüse</name>
-          <price role="other">8.50</price>
+          <name>Rigatoni Rustico mit Cabanossi, Peperoni, Paprika, Zucchini und Mais</name>
+          <price role="other">4.80</price>
         </meal>
         <meal>
-          <name>Hofbratwurst aus Unering mit Kartoffelsalat</name>
+          <name>Millirahmstrudel mit Vanillesauce</name>
+          <price role="other">3.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-26">
+      <category name="Speiseplan">
+        <meal>
+          <name>Pizzarösti, mit Tomate, Champignons und Käse überbacken, dazu Salat</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Konradhofer Schweinebraten mit Schwammerlsauce und Semmelknödel</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>&quot;Chicken Coconut&quot; Hähnchenfilets in Knusperpanade gebacken, dazu Pommes frites und Mango-Chili-Dip</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Hausgemachte Gemüse-Lasagne mit Tomaten-Basilikum Sauce</name>
           <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-27">
+      <category name="Speiseplan">
+        <meal>
+          <name>Nasi Goreng, indonesisches Reisgericht mit Gemüse, Pilzen, Knoblauch, Chili und Soja</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Fränkische Bratwurst vom Hof, dazu Püree und Sauerkraut</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Kalbsrahmbraten mit karamellisierten Karotten und Spätzle</name>
+          <price role="other">7.90</price>
+        </meal>
+        <meal>
+          <name>Gedünstetes Seelachsfilet mit Salzkartoffeln, Blattspinat und Weißweinsauce</name>
+          <price role="other">5.90</price>
         </meal>
       </category>
     </day>
