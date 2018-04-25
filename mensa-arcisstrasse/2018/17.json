@@ -6,7 +6,7 @@
             "date": "2018-04-23",
             "dishes": [
                 {
-                    "name": "Pizza mit Gorgonzola",
+                    "name": "Pizza mit (Vorder-)Schinken",
                     "price": 3.5
                 },
                 {
@@ -14,7 +14,15 @@
                     "price": "0.33€ / 100g"
                 },
                 {
-                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "name": "Joghurt mit Erdbeeren",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Latte Macchiato Creme",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Pfirsichkompott",
                     "price": "0.68€ / 100g"
                 },
                 {
@@ -26,11 +34,35 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Pasta mit Champignonrahmsauce",
+                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Schweinesteak mit Barbecuedip",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Hähnchenschnitzel mit Barbecuedip",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Veganes Nasi Goreng mit Sojasprossen",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Pasta mit Schwammerl",
                     "price": "0.68€ / 100g"
                 },
                 {
                     "name": "Penne all'amatriciana",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Gebratenes Gemüse Shang Hai mit Basmatireis",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Fischstäbchen (MSC)",
                     "price": "0.68€ / 100g"
                 },
                 {
@@ -42,11 +74,7 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Veganes Nasi Goreng mit Sojasprossen",
-                    "price": "0.68€ / 100g"
-                },
-                {
-                    "name": "Gebratenes Gemüse Shang Hai mit Basmatireis",
+                    "name": "Basmatireis",
                     "price": "0.68€ / 100g"
                 },
                 {
@@ -54,7 +82,7 @@
                     "price": "Baustellenteller (> 2.40€)"
                 },
                 {
-                    "name": "Scharfe Peppadew-Frischkäse-Kicks mit Pommes (GQB), Mischsalat und Barbecuedip",
+                    "name": "Scharfe Peppadew-Frischkäse-Kicks mit Wedjes, Mischsalat und Barbecuedip",
                     "price": "Fast Lane (> 3.50€)"
                 }
             ]
@@ -63,24 +91,12 @@
             "date": "2018-04-24",
             "dishes": [
                 {
-                    "name": "Pizza Capricciosa mit Schinken, Champignons, Artischocken und schwarzen Oliven",
+                    "name": "Pizza Capricciosa mit Salami, Champignons, Artischocken und schwarzen Oliven",
                     "price": 3.5
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "0.33€ / 100g"
-                },
-                {
-                    "name": "Pasta in Bolognese-Sauce",
-                    "price": "0.68€ / 100g"
-                },
-                {
-                    "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
-                    "price": "0.68€ / 100g"
-                },
-                {
-                    "name": "Countrykartoffeln mit Sahnequark und Petersilie",
-                    "price": "0.68€ / 100g"
                 },
                 {
                     "name": "Salzkartoffeln (GQB)",
@@ -91,11 +107,39 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Putensteak mit Frühlingsdip und Countrykartoffeln",
+                    "name": "Kartoffelknödel (GQB)",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Countrykartoffeln mit Quarkdip",
                     "price": "0.68€ / 100g"
                 },
                 {
                     "name": "Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Rinderbraten mit Senf-Gemüse-Sauce",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Joghurt mit Erdbeeren",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Latte Macchiato Creme",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Quark mit Himbeeren",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Schokopudding",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Pfirsichkompott",
                     "price": "0.68€ / 100g"
                 },
                 {
@@ -104,6 +148,22 @@
                 },
                 {
                     "name": "Saisonale Beilagensalate",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Pasta in Bolognese-Sauce",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Deftige Knöpflepfanne mit Schinken und Salami",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Putensteak mit Quarkdip und Countrykartoffeln",
                     "price": "0.68€ / 100g"
                 },
                 {
@@ -120,7 +180,7 @@
             "date": "2018-04-25",
             "dishes": [
                 {
-                    "name": "Pizza Romana mit Salami, Sardellen und Kapern",
+                    "name": "Pizza Vegetariana mit Mozzarella und Grillgemüse",
                     "price": 3.5
                 },
                 {
@@ -128,15 +188,19 @@
                     "price": "0.33€ / 100g"
                 },
                 {
-                    "name": "Grünkohl-Hanf-Bällchen",
+                    "name": "Wokgemüse mit Erdnüssen, Tofu und Basmatireis",
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Basmatireis",
+                    "name": "Müsli mit Mandeln und Äpfeln",
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Gelb-rote Karotten",
+                    "name": "Rabarber- Grütze",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Quark mit Himbeeren",
                     "price": "0.68€ / 100g"
                 },
                 {
@@ -152,7 +216,23 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Pasta mit Hackfleischbällchen in pikanter Sauce",
+                    "name": "Pasta mit Schweinefleisch in pikanter Sauce",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Basmatireis",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Gelb-rote Karotten",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Grünkohl-Hanf-Bällchen",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Sauerrahmdip",
                     "price": "0.68€ / 100g"
                 },
                 {
@@ -160,15 +240,11 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Wokgemüse mit Erdnüssen mit Basmatireis",
-                    "price": "0.68€ / 100g"
-                },
-                {
                     "name": "Fränkische Bratwurst mit Kartoffelbrei und Sauerkraut",
                     "price": "Baustellenteller (> 2.40€)"
                 },
                 {
-                    "name": "Süß-scharfe Chicken-Sticks mit Pommes (GQB), Mischsalat und Chilidip",
+                    "name": "Süß-scharfe Chicken-Sticks mit Wedges, Farmersalat und Chilidip",
                     "price": "Fast Lane (> 3.50€)"
                 }
             ]
@@ -181,7 +257,7 @@
                     "price": 3.0
                 },
                 {
-                    "name": "Asiatisches Gemüse mit Chinakohl (scharf)",
+                    "name": "Asiatisches Gemüse mit Reis (scharf)",
                     "price": "0.33€ / 100g"
                 },
                 {
@@ -193,6 +269,30 @@
                     "price": "0.68€ / 100g"
                 },
                 {
+                    "name": "Reis",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Grillnackensteak vom Schwein",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Barbecuesauce",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Countrykartoffeln",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Münchner Schweinsbraten mit Biersauce",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Biersauce",
+                    "price": "0.68€ / 100g"
+                },
+                {
                     "name": "Penne all'arrabiata",
                     "price": "0.68€ / 100g"
                 },
@@ -201,11 +301,11 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Kartoffelgratin",
+                    "name": "Quark mit Brombeeren",
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Münchner Krustenbraten mit Biersauce",
+                    "name": "Schokotrüffelmousse",
                     "price": "0.68€ / 100g"
                 },
                 {
@@ -217,15 +317,19 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Grillnackensteak vom Schwein",
-                    "price": "0.68€ / 100g"
-                },
-                {
-                    "name": "Countrykartoffeln",
+                    "name": "Kartoffelgratin",
                     "price": "0.68€ / 100g"
                 },
                 {
                     "name": "Putengulasch",
+                    "price": "Baustellenteller (> 2.40€)"
+                },
+                {
+                    "name": "Gemüseschmortopf (2)",
+                    "price": "Baustellenteller (> 2.40€)"
+                },
+                {
+                    "name": "Knöpfle",
                     "price": "Baustellenteller (> 2.40€)"
                 },
                 {
@@ -246,6 +350,14 @@
                     "price": "0.33€ / 100g"
                 },
                 {
+                    "name": "Knöpflepfanne mit Gemüse und Pilzen",
+                    "price": "0.68€ / 100g"
+                },
+                {
+                    "name": "Budapester Nudelpfanne",
+                    "price": "0.68€ / 100g"
+                },
+                {
                     "name": "Tomatenreis",
                     "price": "0.68€ / 100g"
                 },
@@ -258,14 +370,6 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
-                    "price": "0.68€ / 100g"
-                },
-                {
-                    "name": "Pfannkuchen mit Apfelmus",
-                    "price": "0.68€ / 100g"
-                },
-                {
                     "name": "Antipasti",
                     "price": "0.68€ / 100g"
                 },
@@ -274,11 +378,11 @@
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Knöpflepfanne mit Gemüse und Pilzen",
+                    "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "0.68€ / 100g"
                 },
                 {
-                    "name": "Budapester Nudelpfanne",
+                    "name": "Pfannkuchen mit Apfelmus",
                     "price": "0.68€ / 100g"
                 },
                 {
