@@ -160,7 +160,7 @@ class FMIBistroMenuParser(MenuParser):
         # get html tree
         tree = html.fromstring(page.content)
         # get url of current pdf menu
-        xpath_query = tree.xpath("//a[contains(text(), 'Garching_Speiseplan')]/@href")
+        xpath_query = tree.xpath("//a[contains(@href, 'Speiseplan')]/@href")
 
         if len(xpath_query) < 1:
             return None
