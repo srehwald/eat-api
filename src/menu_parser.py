@@ -354,8 +354,6 @@ class IPPBistroMenuParser(MenuParser):
         pos_thu = positions[3][0]
         pos_fri = positions[4][0]
 
-        print(pos_mon, pos_tue, pos_wed, pos_fri)
-
         lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
         # it must be lines[3:] instead of lines[2:] or else the menus would start with "Preis ab 0,90€" (from the
         # soups) instead of the first menu, if there is a day where the bistro is closed.
