@@ -154,8 +154,7 @@ class FMIBistroParserTest(unittest.TestCase):
     date_thu1 = date(2017, 11, 2)
     date_fri1 = date(2017, 11, 3)
 
-    dish_aktion1 = Dish("Tellerfleisch mit Bouillonkartoffeln und Sahnemeerrettich Kaiserschmarrn mit Zwetschenröster",
-                        3.0)
+    dish_aktion1 = Dish("Tellerfleisch mit Bouillonkartoffeln und Sahnemeerrettich Kaiserschmarrn mit Zwetschenröster", 3.0)
     dish1_mon1 = Dish("Kurkumareis mit Asia Wokgemüse", 3.6)
     dish2_mon1 = Dish("Kartoffel „Cordon Bleu“ mit Frischkäse gefüllt dazu Blattsalate", 4.3)
     dish3_mon1 = Dish("Putenschnitzel natur mit Paprikarahmsoße dazu Ebly Gemüseweizen", 5.3)
@@ -233,7 +232,7 @@ class IPPBistroParserTest(unittest.TestCase):
     dish2_tue1 = Dish("Jägerschnitzel mit Spätzle oder Reis", 4.8)
     dish3_tue1 = Dish("Vegetarisch gefüllte Tortelli mit leichter Zitronen-Buttersauce und gehobeltem Parmesan", 4.8)
     dish4_tue1 = Dish("\"Bami Goreng\" indonesische Bratnudeln mit Gemüse, Huhn, Schweinefleisch und Pilzen, " \
-                      "dazu Honig-Chili- Dip", 6.9)
+                                   "dazu Honig-Chili- Dip", 6.9)
     dish1_wed1 = Dish("Erbseneintopf (mit Wienerle 4,20 €)", 3.5)
     # TODO fix "B"
     dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis B", 4.8)
@@ -294,7 +293,7 @@ class IPPBistroParserTest(unittest.TestCase):
     menu_fri2 = Menu(date_fri2, [dish1_fri2, dish2_fri2, dish3_fri2, dish4_fri2])
 
     def test_Should_Return_Menu1(self):
-        menus_actual1 = self.ipp_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
+        menus_actual1  = self.ipp_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
         self.assertEqual(5, len(menus_actual1))
         self.assertEqual(self.menu_mon1, menus_actual1[self.date_mon1])
         self.assertEqual(self.menu_tue1, menus_actual1[self.date_tue1])
@@ -303,114 +302,10 @@ class IPPBistroParserTest(unittest.TestCase):
         self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
 
     def test_Should_Return_Menu2(self):
-        menus_actual2 = self.ipp_parser.get_menus(self.test_menu2, self.year2, self.week_number2)
+        menus_actual2  = self.ipp_parser.get_menus(self.test_menu2, self.year2, self.week_number2)
         self.assertEqual(5, len(menus_actual2))
         self.assertEqual(self.menu_mon2, menus_actual2[self.date_mon2])
         self.assertEqual(self.menu_tue2, menus_actual2[self.date_tue2])
         self.assertEqual(self.menu_wed2, menus_actual2[self.date_wed2])
         self.assertEqual(self.menu_thu2, menus_actual2[self.date_thu2])
         self.assertEqual(self.menu_fri2, menus_actual2[self.date_fri2])
-
-    ## Test Cases with holidays
-
-    ## Two holidays (Mon & Tue)
-
-    y18w18_date_mon = date(2018, 4, 30)
-    y18w18_date_tue = date(2018, 5, 1)
-    y18w18_date_wed = date(2018, 5, 2)
-    y18w18_date_thu = date(2018, 5, 3)
-    y18w18_date_fri = date(2018, 5, 4)
-
-    y18w18_dishes_wed = [
-        Dish("Kirschmichel mit Vanillesauce", 3.5),
-        Dish("Fitnessteak vom Grill, zu Zitrone oder Kräuterbutter, rilltomate und Ofenkartoffel mit "
-             "Sauerrahmdip oder bunter Salatauswahl", 8.2),
-        # TODO the correct Dish is the following, however this is a problem of the column width calculation.
-        # See https://github.com/srehwald/eat-api/issues/28
-        # Dish("Fitnessteak vom Grill, dazu Zitrone oder Kräuterbutter, Grilltomate und Ofenkartoffel mit "
-        #      "Sauerrahmdip oder bunter Salatauswahl", 8.2),
-        Dish("\"Chana Dal\" Kichererbsen, Kartoffeln, Kokosmilch, Curryblätter und Reis", 4.9),
-        Dish("Calamari alla Romana, gebackene Tintenfischringe mit Knoblauchmayonnaise und "
-             "gemischtem Blattsalat mit Tomate und Gurke", 6.2)
-    ]
-
-    y18w18_dishes_thu = [
-        Dish("Grenaillekartoffeln mit Apfel-Möhren-Quark, auf Wunsch mit gerösteten Sonnenblumenkernen", 3.5),
-        Dish("Böfflamott, gebeizter Rinderschmorbraten mit Rotwein, dazu Frühlingsgemüse und Semmelknödel", 6.8),
-        Dish("Fussili mit Lauch, Ricotta, Meerrettich und frischem Basilikum", 4.5),
-        Dish("Aus dem Wok Putengeschnetzeltes mit Mangold, Möhren, Frühlings- zwiebeln und Basmatireis", 6.9)]
-
-    y18w18_dishes_fri = [
-        Dish("Curryreispfanne mit Gemüse, Ananas, Kreuzkümmel, Koriander und Chili-Dip", 3.5),
-        Dish("Zitronen Seelachs auf Paprika-Champignon Gemüse, Petersilien- Kartoffeln und leichter Buttersauce", 5.90),
-        Dish("Paprikarahmgeschnetzeltes mit Hörnchennudeln", 5.2),
-        Dish("\"Pasta Arora\" italienische Nudeln mit Tomatensahne, Mozzarella und Basilikum", 4.5)]
-
-    y18w18_menu_mon = Menu(y18w18_date_mon, [])
-    y18w18_menu_tue = Menu(y18w18_date_tue, [])
-    y18w18_menu_wed = Menu(y18w18_date_wed, y18w18_dishes_wed)
-    y18w18_menu_thu = Menu(y18w18_date_thu, y18w18_dishes_thu)
-    y18w18_menu_fri = Menu(y18w18_date_fri, y18w18_dishes_fri)
-
-    y18w18_test_menu = open('src/test/assets/ipp/KW-18_30.04.-04.05.18.txt', 'r').read()
-
-    def test_Holiday_Should_Return_Menu_y18w18(self):
-        menus_actual = self.ipp_parser.get_menus(self.y18w18_test_menu, year=2018, week_number=18)
-        self.assertEqual(5, len(menus_actual))
-
-        self.assertEqual(self.y18w18_menu_mon, menus_actual[self.y18w18_date_mon])
-        self.assertEqual(self.y18w18_menu_tue, menus_actual[self.y18w18_date_tue])
-        self.assertEqual(self.y18w18_menu_wed, menus_actual[self.y18w18_date_wed])
-        self.assertEqual(self.y18w18_menu_thu, menus_actual[self.y18w18_date_thu])
-        self.assertEqual(self.y18w18_menu_fri, menus_actual[self.y18w18_date_fri])
-
-    ## One holiday (Thu)
-
-    y18w19_date_mon = date(2018, 5, 7)
-    y18w19_date_tue = date(2018, 5, 8)
-    y18w19_date_wed = date(2018, 5, 9)
-    y18w19_date_thu = date(2018, 5, 10)
-    y18w19_date_fri = date(2018, 5, 11)
-
-    y18w19_dishes_mon = [
-        Dish("Gemüse-Schupfnudeln dazu Sauerrahm-Dip", 3.5),
-        Dish("Würziger Putenbrustbraten mit Frühlingsgemüse m und Kroketten", 7.2),
-        Dish("Gnocchi-Lauch Gratin mit Käse überbacken", 4.8),
-        Dish("Schweinefleisch süß-sauer mit Ananas, Paprika, Tomaten und Reis", 6.9)]
-
-    y18w19_dishes_tue = [
-        Dish("Gebackener Edamer mit Rohkostsalat und Preiselbeeren", 4.9),
-        Dish("Köttbullar (Hackfleischbällchen) it Rahmsauce, Preiselbeeren und Petersilienkartoffeln", 4.8),
-        Dish("Burgunderbraten vom Rind mit Knödel und Blaukraut", 6.2),
-        Dish("Quarkknödel auf Erdbeer-Rhabarber Kompott", 3.5)]
-
-    y18w19_dishes_wed = [
-        Dish("Italienische Minestrone mit Reis", 3.5),
-        Dish("Gebackenes Schweineschnitzel mit Zitrone und Pommes frites", 5.9),
-        Dish("\"Vegetarian Vindaloo\" Kartoffeln und Tomaten in Currysauce, dazu Reis und frischer Koriander", 4.9),
-        # Note the " after the Basilikum is correct since it is part of the PDF
-        Dish("Farfalle \"al Tonno\" mit Thunfisch, Kapern, Oliven, Tomaten und Basilikum\"", 4.9)]
-
-    y18w19_dishes_fri = [
-        Dish("Spaghetti mit Tomatensauce und Reibekäse", 3.5),
-        Dish("2 Paar Schweinswürst ́l auf Sauerkraut und Püree", 4.8),
-        Dish("\"Chicken Padam Pasanda\" mit Nusssauce, Kokos- flocken und indischen Gewürzen, dazu Basmatireis", 6.9),
-        Dish("Kartoffeltasche, gefüllt mit Kräuterfrischkäse auf Paprikagemüse", 4.9)]
-
-    y18w19_menu_mon = Menu(y18w19_date_mon, y18w19_dishes_mon)
-    y18w19_menu_tue = Menu(y18w19_date_tue, y18w19_dishes_tue)
-    y18w19_menu_wed = Menu(y18w19_date_wed, y18w19_dishes_wed)
-    y18w19_menu_thu = Menu(y18w19_date_thu, [])
-    y18w19_menu_fri = Menu(y18w19_date_fri, y18w19_dishes_fri)
-
-    y18w19_test_menu = open('src/test/assets/ipp/KW-19_07.05.-11.05.18.txt', 'r').read()
-
-    def test_Holiday_Should_Return_Menu_y18w19(self):
-        menus_actual = self.ipp_parser.get_menus(self.y18w19_test_menu, year=2018, week_number=19)
-        self.assertEqual(5, len(menus_actual))
-
-        self.assertEqual(self.y18w19_menu_mon, menus_actual[self.y18w19_date_mon])
-        self.assertEqual(self.y18w19_menu_tue, menus_actual[self.y18w19_date_tue])
-        self.assertEqual(self.y18w19_menu_wed, menus_actual[self.y18w19_date_wed])
-        self.assertEqual(self.y18w19_menu_thu, menus_actual[self.y18w19_date_thu])
-        self.assertEqual(self.y18w19_menu_fri, menus_actual[self.y18w19_date_fri])
