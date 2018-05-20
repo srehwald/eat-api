@@ -286,7 +286,7 @@ class FMIBistroMenuParser(MenuParser):
 class IPPBistroMenuParser(MenuParser):
     url = "http://konradhof-catering.de/ipp/"
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
-    split_days_regex = r'(Tagessuppe siehe Aushang|Aschermittwoch)'
+    split_days_regex = r'(Tagessuppe siehe Aushang|Aschermittwoch|Feiertag|Geschlossen)'
     price_regex = r"\d+,\d+\s\€[^\)]"
     dish_regex = r".+?\d+,\d+\s\€[^\)]"
 
@@ -342,10 +342,11 @@ class IPPBistroMenuParser(MenuParser):
         weekdays = lines[0]
         lines = lines[3:]
 
-        positions = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, lines[0]))]
-        if len(positions) != 5:
-            # TODO handle special cases (e.g. that bistro is closed)
-            return None
+        positions1 = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, lines[0]))]
+        # In the second line there might be information about closed days ("Geschlossen", "Feiertag")
+        positions2 = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, lines[1]))]
+
+        positions = sorted(positions1 + positions2)
 
         pos_mon = positions[0][0]
         pos_tue = positions[1][0]
@@ -354,7 +355,9 @@ class IPPBistroMenuParser(MenuParser):
         pos_fri = positions[4][0]
 
         lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
-        for line in lines[2:]:
+        # it must be lines[3:] instead of lines[2:] or else the menus would start with "Preis ab 0,90€" (from the
+        # soups) instead of the first menu, if there is a day where the bistro is closed.
+        for line in lines[3:]:
             lines_weekdays["mon"] += " " + line[pos_mon:pos_tue].replace("\n", " ")
             lines_weekdays["tue"] += " " + line[pos_tue:pos_wed].replace("\n", " ")
             lines_weekdays["wed"] += " " + line[pos_wed:pos_thu].replace("\n", " ")
