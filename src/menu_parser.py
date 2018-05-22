@@ -6,6 +6,7 @@ import tempfile
 import unicodedata
 from datetime import datetime
 from subprocess import call
+from warnings import warn
 
 import requests
 from lxml import html
@@ -347,6 +348,11 @@ class IPPBistroMenuParser(MenuParser):
         positions2 = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, lines[1]))]
 
         positions = sorted(positions1 + positions2)
+
+        if len(positions) != 5:
+            warn("IPP PDF parsing of week {} in year {} failed. Only {} of 5 columns detected.".format(
+                 week_number, year, len(positions)))
+            return None
 
         pos_mon = positions[0][0]
         pos_tue = positions[1][0]
