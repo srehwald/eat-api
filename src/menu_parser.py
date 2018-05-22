@@ -286,9 +286,9 @@ class FMIBistroMenuParser(MenuParser):
 class IPPBistroMenuParser(MenuParser):
     url = "http://konradhof-catering.de/ipp/"
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
-    split_days_regex = r'(Tagessuppe siehe Aushang|Aschermittwoch|Feiertag|Geschlossen)'
-    price_regex = r"\d+,\d+\s\€[^\)]"
-    dish_regex = r".+?\d+,\d+\s\€[^\)]"
+    split_days_regex = re.compile('(Tagessuppe siehe Aushang|Aschermittwoch|Feiertag|Geschlossen)', re.IGNORECASE)
+    price_regex = re.compile("\d+,\d+\s\€[^\)]")
+    dish_regex = re.compile(".+?\d+,\d+\s\€[^\)]")
 
     def parse(self, location):
         page = requests.get(self.url)
