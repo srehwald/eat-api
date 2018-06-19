@@ -347,8 +347,8 @@ class IPPBistroMenuParser(MenuParser):
         # every column. However, due to center alignment the column do not begin at the 'T' character and broader
         # text in the column might be left of this character, which then gets truncated. But the gap between the 'T'
         # and the '€' character of the previous column¹ — the real beginning of the current column — is always three,
-        # is will be subtracted here. Monday is the second column, so the value should never become negative although
-        # it is handled here.
+        # which will be subtracted here. Monday is the second column, so the value should never become negative
+        # although it is handled here.
         # ¹or 'e' of "Internationale Küche" if it is the monday column
         positions1 = [(max(a.start() - 3, 0), a.end()) for a in list(re.finditer(self.split_days_regex, lines[0]))]
         # In the second line there might be information about closed days ("Geschlossen", "Feiertag")
