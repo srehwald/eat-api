@@ -236,14 +236,14 @@ class IPPBistroParserTest(unittest.TestCase):
                       "dazu Honig-Chili- Dip", 6.9)
     dish1_wed1 = Dish("Erbseneintopf (mit Wienerle 4,20 €)", 3.5)
     # TODO fix "B"
-    dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis B", 4.8)
+    dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis", 4.8)
     dish3_wed1 = Dish("\"Farfalle Rustico\" mit Champignons, Schinken Tomaten und Peperoni (auf Wunsch mit "
                       "Reibekäse)", 4.6)
     dish4_wed1 = Dish("Rumpsteak mit Balsamico Pilzen und Wedges", 7.9)
     dish1_thu1 = Dish("Mediterrane Frittata mit Zucchini, Kartoffeln, Paprika, kleiner Salatbeilage und "
                       "Joghurt-Limetten Dip", 3.5)
     # TODO fix bug that B of Brett is missing -> rett
-    dish2_thu1 = Dish("Frischer Bayrischer Schweinenackenbraten vom rett geschnitten dazu Kartoffel- Gurkensalat", 4.5)
+    dish2_thu1 = Dish("Frischer Bayrischer Schweinenackenbraten vom Brett geschnitten dazu Kartoffel- Gurkensalat", 4.5)
     dish3_thu1 = Dish("\"Enchilada Verdura\", überbackene Weizentortilla, gefüllt mit Hähnchenfleisch, Sauerrahm, "
                       "Kidneybohnen, Mais, dazu", 5.9)
     dish4_thu1 = Dish("\"Lamm Palak\" mit Spinat und Curry (mittelscharf), dazu Reis", 6.9)
@@ -266,7 +266,7 @@ class IPPBistroParserTest(unittest.TestCase):
     dish2_mon2 = Dish("Paprikarahm Geschnetzeltes mit Paprikamix und Nudeln", 4.8)
     dish3_mon2 = Dish("\"Dal Curry\" mit Kartoffeln, Kokosmilch, Ingwer, Koriander, Reis und scharfem Chutney", 4.9)
     # TODO fix missing "R" of "Rinderbraten"
-    dish4_mon2 = Dish("Deftiger Hüttenschmaus, inderrostbraten mit Zwiebeln, Semmelknödel und gebratenem Gemüse",
+    dish4_mon2 = Dish("Deftiger Hüttenschmaus, Rinderrostbraten mit Zwiebeln, Semmelknödel und gebratenem Gemüse",
                       7.9)
     dish1_tue2 = Dish("Herbstliche Gemüse-Reis Pfanne mit pikantem Mango Dip", 3.5)
     dish2_tue2 = Dish("Krautwickerl mit Speck-Zwieblsauce und Püree", 4.5)
@@ -323,12 +323,8 @@ class IPPBistroParserTest(unittest.TestCase):
 
     y18w18_dishes_wed = [
         Dish("Kirschmichel mit Vanillesauce", 3.5),
-        Dish("Fitnessteak vom Grill, zu Zitrone oder Kräuterbutter, rilltomate und Ofenkartoffel mit "
+        Dish("Fitnessteak vom Grill, dazu Zitrone oder Kräuterbutter, Grilltomate und Ofenkartoffel mit "
              "Sauerrahmdip oder bunter Salatauswahl", 8.2),
-        # TODO the correct Dish is the following, however this is a problem of the column width calculation.
-        # See https://github.com/srehwald/eat-api/issues/28
-        # Dish("Fitnessteak vom Grill, dazu Zitrone oder Kräuterbutter, Grilltomate und Ofenkartoffel mit "
-        #      "Sauerrahmdip oder bunter Salatauswahl", 8.2),
         Dish("\"Chana Dal\" Kichererbsen, Kartoffeln, Kokosmilch, Curryblätter und Reis", 4.9),
         Dish("Calamari alla Romana, gebackene Tintenfischringe mit Knoblauchmayonnaise und "
              "gemischtem Blattsalat mit Tomate und Gurke", 6.2)
@@ -374,13 +370,13 @@ class IPPBistroParserTest(unittest.TestCase):
 
     y18w19_dishes_mon = [
         Dish("Gemüse-Schupfnudeln dazu Sauerrahm-Dip", 3.5),
-        Dish("Würziger Putenbrustbraten mit Frühlingsgemüse m und Kroketten", 7.2),
+        Dish("Würziger Putenbrustbraten mit Frühlingsgemüse und Kroketten", 7.2),
         Dish("Gnocchi-Lauch Gratin mit Käse überbacken", 4.8),
         Dish("Schweinefleisch süß-sauer mit Ananas, Paprika, Tomaten und Reis", 6.9)]
 
     y18w19_dishes_tue = [
         Dish("Gebackener Edamer mit Rohkostsalat und Preiselbeeren", 4.9),
-        Dish("Köttbullar (Hackfleischbällchen) it Rahmsauce, Preiselbeeren und Petersilienkartoffeln", 4.8),
+        Dish("Köttbullar (Hackfleischbällchen) mit Rahmsauce, Preiselbeeren und Petersilienkartoffeln", 4.8),
         Dish("Burgunderbraten vom Rind mit Knödel und Blaukraut", 6.2),
         Dish("Quarkknödel auf Erdbeer-Rhabarber Kompott", 3.5)]
 
