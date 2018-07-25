@@ -1,4 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2018-07-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kraut-Schupfnudeln mit Sauerrahm-Dip (auf Wunsch mit Speck)</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Geflügelbällchen in Rahmsauce mit Püree</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Gelbes Gemüse Curry mit Kokosmilch und Thai-Basilikum</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Schweinerückensteak mit Gemüsereis oder Pommes frites und Pfeffersauce</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-07-24">
+      <category name="Speiseplan">
+        <meal>
+          <name>Eierpfannkuchen mit Blaubeerfüllung</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Rahmschwammerl mit Semmelknödel</name>
+          <price role="other">0.00</price>
+        </meal>
+        <meal>
+          <name>Hähnchenschenkel mit Limetten-Senfsauce und Gemüsereis</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Fischcurry, Fischfilets in Kokosmilch mit Tomaten, Zwiebeln, Gewürzen und Chili (leicht scharf), dazu Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-07-25">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mini-Frühlingsrollen auf P Wokgemüse mit Reis</name>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Estragonrahmgeschnetzeltes T mit Butterkartoffeln</name>
+          <price role="other">4.80</price>
+        </meal>
+        <meal>
+          <name>Farfalle Rustico mit Champignons, Schinken, K Tomaten und Pepperoni</name>
+          <price role="other">4.80</price>
+        </meal>
+        <meal>
+          <name>Bockwurst mit Kartoffelsalat A</name>
+          <price role="other">3.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-07-26">
+      <category name="Speiseplan">
+        <meal>
+          <name>Reispfanne &quot;Südstaaten&quot; mit aprika,Tomaten und Bohnen, dazu Sauerrahm-Dip</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Griechischer Schweinebraten mit omaten-Gemüsereis, Tzatziki und Schafskäse oder Pommes frites</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>&quot;Ravioli Formagio&quot; mit räutersahnesauce und Parmesan</name>
+          <price role="other">4.80</price>
+        </meal>
+        <meal>
+          <name>Aus dem Wok : Rinderstreifen mit Gemüse und Cashewnüssen in usternsauce, dazu Basmatireis und Sojasprossen</name>
+          <price role="other">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-07-27">
+      <category name="Speiseplan">
+        <meal>
+          <name>Herzhaftes Kartoffel-Gemüse- Gulasch mit Kräutern</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>&quot;Fischfilet alla Pizzaiola&quot; mit Tomaten, Kapern, Basilikum und Reis</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>&quot;Brasato&quot; al Borolo&quot;, eingelegter Rinderbraten mit Rotwein- Wurzelgemüse und Kräutern, dazu Gnocchi</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Hähnchengeschnetzeltes mit Broccoli, Karotten, Kräutersahnesauce und Nudeln</name>
+          <price role="other">6.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-07-30">
+      <category name="Speiseplan">
+        <meal>
+          <name>Nudelsuppe Pho Bo mit Reisnudeln</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Gulasch &quot;Burgunder Art&quot; mit Möhren und Champignons, dazu Salzkartoffeln</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Italienische Pasta mit Weißweinsahne und Räucherlachs</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>Marinierte Hähnchenbrust mit Karotten-Lauchgemüse, Kartoffelgratin und Kräutersauce</name>
+          <price role="other">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-07-31">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsemaultaschen mit Schnittlauchsauce</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Allgäuer Käseschnitzel mit Teigwaren</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>Hähnchen-Kokos-Curry mit Spinat und Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Sommerlicher Salatteller &quot;Nizza&quot;, gemischte Blattsalate mit Gurke, Tomaten, Thunfisch, Oliven, Zwiebeln und Vinaigrette</name>
+          <price role="other">5.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-08-01">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gelber Linseneintopf (mit Wienerle 4,50 €)</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Matjesfilet &quot;Hausfrauen Art&quot; mit Salzkartoffeln</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Italienische Gnocchi Aurora mit hausgemachtem Rucola Pesto und Grana</name>
+          <price role="other">4.80</price>
+        </meal>
+        <meal>
+          <name>&quot;Tandoori Beef&quot; auf asiatischem Kartoffel- Currygemüse, dazu Gewürzreis, auf Wunsch mit Sambal Olek</name>
+          <price role="other">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-08-02">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kartoffel-Spitzkohl-Pfanne mit Joghurt-Dip</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Bratwurstschnecke mit Püree, Sauerkraut und Bratenjus</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Hähnchenstreifen mit gebratenem Sesamgemüse, Basmatireis und Erdnusssauce</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Mit Gewürz-Tomatenkruste überbackene Schweinelende auf Kräuter-Portweinjus, dazu Tomatenspaghetti und Gemüse</name>
+          <price role="other">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-08-03">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mohnschupfnudeln mit Zwetschgenkompott</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Seelachsfilet gebacken mit Kräuterremoulade und Kartoffelsalat</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Bratnudeln auf &quot;Thaiart&quot; mit Weißkohl, Lauchzwiebeln, und Möhren (auf Wunsch mit gehackten Chilischoten)</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Geschmorte Rinderbeinscheibe mit Sommergemüse und gebratenen Gnocchi</name>
+          <price role="other">7.20</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>
