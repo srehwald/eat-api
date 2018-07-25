@@ -341,7 +341,6 @@ class IPPBistroMenuParser(MenuParser):
 
         lines = lines[count:]
         weekdays = lines[0]
-        lines = lines[3:]
 
         # The column detection is done through the string "Tagessuppe siehe Aushang" which is at the beginning of
         # every column. However, due to center alignment the column do not begin at the 'T' character and broader
@@ -350,15 +349,23 @@ class IPPBistroMenuParser(MenuParser):
         # which will be subtracted here. Monday is the second column, so the value should never become negative
         # although it is handled here.
         # ¹or 'e' of "Internationale Küche" if it is the monday column
-        positions1 = [(max(a.start() - 3, 0), a.end()) for a in list(re.finditer(self.split_days_regex, lines[0]))]
+
+        # find lines which match the regex
+        soup_lines_iter = (x for x in lines if self.split_days_regex.search(x))
+
+        soup_line1 = next(soup_lines_iter)
+        soup_line2 = next(soup_lines_iter, '')
+        soup_line_index = lines.index(soup_line1)
+
+        positions1 = [(max(a.start() - 3, 0), a.end()) for a in list(re.finditer(self.split_days_regex, soup_line1))]
         # In the second line there might be information about closed days ("Geschlossen", "Feiertag")
-        positions2 = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, lines[1]))]
+        positions2 = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, soup_line2))]
 
         positions = sorted(positions1 + positions2)
 
         if len(positions) != 5:
             warn("IPP PDF parsing of week {} in year {} failed. Only {} of 5 columns detected.".format(
-                 week_number, year, len(positions)))
+                week_number, year, len(positions)))
             return None
 
         pos_mon = positions[0][0]
@@ -370,7 +377,7 @@ class IPPBistroMenuParser(MenuParser):
         lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
         # it must be lines[3:] instead of lines[2:] or else the menus would start with "Preis ab 0,90€" (from the
         # soups) instead of the first menu, if there is a day where the bistro is closed.
-        for line in lines[3:]:
+        for line in lines[soup_line_index + 3:]:
             lines_weekdays["mon"] += " " + line[pos_mon:pos_tue].replace("\n", " ")
             lines_weekdays["tue"] += " " + line[pos_tue:pos_wed].replace("\n", " ")
             lines_weekdays["wed"] += " " + line[pos_wed:pos_thu].replace("\n", " ")
