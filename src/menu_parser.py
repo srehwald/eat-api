@@ -287,7 +287,11 @@ class FMIBistroMenuParser(MenuParser):
 class IPPBistroMenuParser(MenuParser):
     url = "http://konradhof-catering.de/ipp/"
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
-    split_days_regex = re.compile('(Tagessuppe siehe Aushang|Aschermittwoch|Feiertag|Geschlossen)', re.IGNORECASE)
+    split_days_regex = re.compile('(Tagessuppe siehe Aushang|Aushang|Aschermittwoch|Feiertag|Geschlossen)',
+                                  re.IGNORECASE)
+    split_days_regex_soup_one_line = re.compile('T agessuppe siehe Aushang|Tagessuppe siehe Aushang', re.IGNORECASE)
+    split_days_regex_soup_two_line = re.compile('Aushang', re.IGNORECASE)
+    split_days_regex_closed = re.compile('Aschermittwoch|Feiertag|Geschlossen', re.IGNORECASE)
     price_regex = re.compile("\d+,\d+\s\€[^\)]")
     dish_regex = re.compile(".+?\d+,\d+\s\€[^\)]")
 
@@ -355,13 +359,22 @@ class IPPBistroMenuParser(MenuParser):
 
         soup_line1 = next(soup_lines_iter)
         soup_line2 = next(soup_lines_iter, '')
-        soup_line_index = lines.index(soup_line1)
 
-        positions1 = [(max(a.start() - 3, 0), a.end()) for a in list(re.finditer(self.split_days_regex, soup_line1))]
-        # In the second line there might be information about closed days ("Geschlossen", "Feiertag")
-        positions2 = [(a.start(), a.end()) for a in list(re.finditer(self.split_days_regex, soup_line2))]
+        positions1 = [(max(a.start() - 3, 0), a.end()) for a in list(
+            re.finditer(self.split_days_regex_soup_one_line, soup_line1))]
+        # In the second line there is just 'Aushang' (two lines "Tagessuppe siehe Aushang" or
+        # closed days ("Geschlossen", "Feiertag")
+        positions2 = [(max(a.start() - 14, 0), a.end() + 3) for a in list(
+            re.finditer(self.split_days_regex_soup_two_line, soup_line2))]
+        positions3 = [(max(a.start() - 3, 0), a.end()) for a in list(
+            re.finditer(self.split_days_regex_closed, soup_line2))]
 
-        positions = sorted(positions1 + positions2)
+        if positions2: # Two lines "Tagessuppe siehe Aushang"
+            soup_line_index = lines.index(soup_line2)
+        else:
+            soup_line_index = lines.index(soup_line1)
+
+        positions = sorted(positions1 + positions2 + positions3)
 
         if len(positions) != 5:
             warn("IPP PDF parsing of week {} in year {} failed. Only {} of 5 columns detected.".format(
