@@ -2,7 +2,7 @@ appdirs==1.4.2
 argcomplete==1.7.0
 bson==0.4.8
 chardet==2.3.0
-Django==1.11.6
+Django>=1.11.15
 docopt==0.6.2
 lxml==3.7.1
 packaging==16.8
@@ -10,6 +10,7 @@ pdfminer.six==20160614
 pipreqs==0.4.6
 py==1.4.32
 pymongo==3.4.0
+pyopenmensa==0.95.0
 pyparsing==2.1.10
 pyPdf==1.13
 PyPDF2==1.26.0
@@ -19,4 +20,3 @@ requests==2.12.4
 six==1.10.0
 tabulate==0.7.7
 yarg==0.1.9
-pyopenmensa==0.95.0
