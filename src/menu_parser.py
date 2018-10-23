@@ -169,16 +169,16 @@ class FMIBistroMenuParser(MenuParser):
         menus = {}
         for pdf_url in xpath_query:
             # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
-            # more examples: https://regex101.com/r/ATOHj3/1/
+            # more examples: https://regex101.com/r/ATOHj3/2
             pdf_name = pdf_url.split("/")[-1]
-            wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d*)", pdf_name, re.IGNORECASE)
+            wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d*)?", pdf_name, re.IGNORECASE)
             week_number = int(wn_year_match.group(1)) if wn_year_match else None
-            year = int(wn_year_match.group(2)) if wn_year_match else None
+            year = int(wn_year_match.group(2)) if wn_year_match and wn_year_match.group(2) else None
 
             today = datetime.today()
             # a hacky way to detect when something is appended or prepended to the year (like 20181 for year 2018)
             # TODO probably replace year abnormality by a better method
-            if year != today.year and str(today.year) in str(year):
+            if (year != today.year and str(today.year) in str(year)) or year is None:
                 year = today.year
 
             with tempfile.NamedTemporaryFile() as temp_pdf:
@@ -226,20 +226,23 @@ class FMIBistroMenuParser(MenuParser):
             lines_weekdays["thu"] += " " + line[pos_thu:pos_fri].replace("\n", " ").replace("Donnerstag", "")
             lines_weekdays["fri"] += " " + line[pos_fri:].replace("\n", " ").replace("Freitag", "")
 
-        # Add the aktionsgericht
-        line_aktion = [s for s in lines if "Aktion" in s]
-        num_dishes = 3
-        if len(line_aktion) == 1:
-            line_aktion_pos = lines.index(line_aktion[0]) - 2
-            aktionsgericht = ' '.join(lines[line_aktion_pos:line_aktion_pos + 3])
-            aktionsgericht = aktionsgericht \
-                .replace("Montag – Freitag", "") \
-                .replace("Tagessuppe täglich wechselndes Angebot", "") \
-                .replace("ab € 1,00", "") \
-                .replace("Aktion", "")
-            num_dishes += aktionsgericht.count('€')
-            for key in lines_weekdays:
-                lines_weekdays[key] = aktionsgericht + ", " + lines_weekdays[key]
+        # currently, up to 5 dishes are on the menu
+        num_dishes = 5
+        if year < 2018:
+            # in older versions of the FMI Bistro menu, the Aktionsgericht was the same for the whole week
+            num_dishes = 3
+            line_aktion = [s for s in lines if "Aktion" in s]
+            if len(line_aktion) == 1:
+                line_aktion_pos = lines.index(line_aktion[0]) - 2
+                aktionsgericht = ' '.join(lines[line_aktion_pos:line_aktion_pos + 3])
+                aktionsgericht = aktionsgericht \
+                    .replace("Montag – Freitag", "") \
+                    .replace("Tagessuppe täglich wechselndes Angebot", "") \
+                    .replace("ab € 1,00", "") \
+                    .replace("Aktion", "")
+                num_dishes += aktionsgericht.count('€')
+                for key in lines_weekdays:
+                    lines_weekdays[key] = aktionsgericht + ", " + lines_weekdays[key]
 
         # Process menus for each day
         for key in lines_weekdays:
