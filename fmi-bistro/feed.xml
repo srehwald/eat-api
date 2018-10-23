@@ -1,150 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-09-03">
+    <day date="2018-10-22">
       <category name="Speiseplan">
         <meal>
-          <name>Kartoffel-Linsensuppe</name>
+          <name>Blumenkohlcremesuppe</name>
           <price role="other">1.00</price>
         </meal>
         <meal>
-          <name>Kartoffel-Gemüsepfanne</name>
+          <name>Kartoffel-Auberginen-Pfanne</name>
           <price role="other">3.90</price>
         </meal>
         <meal>
-          <name>Griechische Kartoffelpfanne</name>
+          <name>Kartoffelgratin mit Mediterranem Gemüse</name>
           <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Putenstreifen in Erdnuss- Bananensoße mit Früchtereis</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Saltimbocca von der Pute mit Rosmarinkartoffeln</name>
+          <price role="other">5.90</price>
         </meal>
       </category>
     </day>
-    <day date="2018-09-04">
+    <day date="2018-10-23">
       <category name="Speiseplan">
         <meal>
-          <name>Fädlesuppe</name>
+          <name>Linsen-Gemüsesuppe</name>
           <price role="other">1.00</price>
         </meal>
         <meal>
-          <name>Pilz-Paprikagyros in Fladenbrot</name>
-          <price role="other">4.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-09-05">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kräutersuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Süßkartoffel-Kichererbsen- Pfanne</name>
-          <price role="other">4.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-09-06">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kartoffelsamtsuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Bandnudeln mit jungem Spinat in Kokosmilch</name>
+          <name>Spitzkohl-Curry im Reisrand</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Gemüsestrudel gratiniert mit Salateck</name>
-          <price role="other">3.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-09-07">
-      <category name="Speiseplan">
-        <meal>
-          <name>Karotten- Orangensuppe</name>
+          <name>4 Stück Kartoffelrösti mit Kerbel- Sauerrahm</name>
           <price role="other">3.60</price>
         </meal>
         <meal>
-          <name>Germknödel mit Mohn- Vanillesoße</name>
-          <price role="other">3.20</price>
+          <name>Spaghetti “Carbonara“ ( Speck-Sahnesoße )</name>
+          <price role="other">4.90</price>
         </meal>
         <meal>
-          <name>Fischburger ”Alaska” mit Farmersalat und Pommes</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-09-10">
-      <category name="Speiseplan">
-        <meal>
-          <name>Karotten-Kokossuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Cous-Couspfanne mit Asiagemüse und Nüsse</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Nüsse Käsetortellini mit Andalusiengemüseragout</name>
-          <price role="other">4.30</price>
+          <name>Wiener Tafelspitz vom Rind mit Salzkartoffeln</name>
+          <price role="other">5.90</price>
         </meal>
       </category>
     </day>
-    <day date="2018-09-11">
+    <day date="2018-10-24">
       <category name="Speiseplan">
         <meal>
-          <name>Curry-Gemüsesuppe</name>
+          <name>Tomatensuppe mit Reis</name>
           <price role="other">1.00</price>
         </meal>
         <meal>
-          <name>Rote Linseneintopf mit Tofu</name>
+          <name>Champignon Ebly-Weizen- Pfanne</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Rote Linseneintopf mit Kartoffeln und Gemüse</name>
+          <name>Überbackene Süßkartoffel mit Blattspinat und Hirtenkäse</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Paprikaschnitzel vom Schwein mit Kroketten</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-10-25">
+      <category name="Speiseplan">
+        <meal>
+          <name>Spinatsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Broccoli-Pasta mit Tomatenstücke und Mandeln</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Veg. Maultaschen mit Lauch- Sahnesoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Italienischer Burger mit Tomate Mozzarella und Ruccola</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Currywurst mit Pommes</name>
           <price role="other">3.90</price>
         </meal>
       </category>
     </day>
-    <day date="2018-09-12">
+    <day date="2018-10-26">
       <category name="Speiseplan">
         <meal>
-          <name>Zwiebelsuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Kichererbsen in Curry- Kokosmilch im Reisrand</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Blätterteigtarte mit Tomaten und Mozzarella</name>
-          <price role="other">4.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-09-13">
-      <category name="Speiseplan">
-        <meal>
-          <name>Blumenkohlsuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Mienudeln mit Wokgemüse</name>
-          <price role="other">4.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-09-14">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kartoffel- Gemüsesuppe</name>
+          <name>Kichererbsen-Gemüse- suppe</name>
           <price role="other">3.60</price>
         </meal>
         <meal>
-          <name>Dampfnudel mit Vanillesoße</name>
+          <name>Quark-Mohnstrudel mit Vanillssoße</name>
           <price role="other">3.20</price>
         </meal>
         <meal>
-          <name>Fischfilet gebacken mit Sc. Remolade und Kartoffelsalat</name>
+          <name>Tintenfischringe gebacken mit Sc.Tatar und Zitronenkartoffeln</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-10-29">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsesuppe mit Reis</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Paprikaschote “Bollywood” mit Eblyweizen</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrust “Griechische Art” mit Hirtenreis</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Rinderhüftsteak mit Sc. Bernaise und Kartoffelkroketten</name>
+          <price role="other">5.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-10-30">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kohlrabisuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Geschmorte Gurken mit Kurkuma CousCous</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>Rahmspinat mit Spiegelei und Salzkartoffeln</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>Münchner Schweineschnitzel mit Kartoffel-Gurkensalat</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>EI Kabeljaufilet gebraten mit Prosecco-Dillsoße und RisiBisi</name>
+          <price role="other">5.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-10-31">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsebrühe mit Backerbsen</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Teufelsreis (Pikant) mit Kichererbsen Paprika und Mais dazu Soja-Joghurtdip</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>Spaghetti mit Gemüsebolognese</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hackbraten mit Rahmsoße dazu Kartoffelpüree</name>
+          <price role="other">4.70</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-02">
+      <category name="Speiseplan">
+        <meal>
+          <name>Süßkartoffel-Gemüse- Eintopf</name>
+          <price role="other">3.60</price>
+        </meal>
+        <meal>
+          <name>Gebackene Ananas mit Vanilleeis</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Spinat-Lachs-Lasagne</name>
           <price role="other">4.40</price>
         </meal>
       </category>
