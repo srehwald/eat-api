@@ -1,202 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-10-15">
+    <day date="2018-11-05">
       <category name="Speiseplan">
         <meal>
-          <name>Gebratene Thainudeln mit Gemüse, Süß-Sauer abgeschmeckt mit asiatischem Dip</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>15,19,21 Reiberdatschi mit Quark, Salatgarnitur oder süß mit Apfelmus</name>
+          <name>Gemüse-Reispfanne mit Kürbis- Ingwersauce</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>15,19 Chili non Carne mit Reis und Schmand</name>
+          <name>Wildpflanzerl mit Kartoffelstampf, kräftiger Jus und Preiselbeeren</name>
           <price role="other">4.80</price>
         </meal>
         <meal>
-          <name>19 Schweinegulasch mit Kürbis, Schmand und Thymian, dazu Kartoffeln</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-10-16">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kartoffel-Spitzkohlpfanne mit Dip</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Vegetarisch gefüllte Tortellini mit Gemüseragout und Grana Padano</name>
+          <name>Rigatoni Rustico mit Peperoni, Paprika und Zucchini, auf Wunsch mit Cabanossi</name>
           <price role="other">4.80</price>
         </meal>
         <meal>
-          <name>15,19,20,21 Estragonrahmschnitzel mit Pommes frites</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>18,19,20 Kürbisquiche mit Salat, Kürbiskernen und Honig- Senfdressing 19,19,31</name>
-          <price role="other">4.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-10-17">
-      <category name="Speiseplan">
-        <meal>
-          <name>Provenzalischer Eintopf mit Zucchini, Tomaten, Paprika, Ki Kartoffeln und frischen Kräutern</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Currygeschnetzeltes vom Schwein mit Gemüsereis</name>
-          <price role="other">5.20</price>
-        </meal>
-        <meal>
-          <name>15,19,20 Pizza &quot;Capriciosa&quot;, mit Ch Tomaten, Käse, Schinken, Ka Salami, Champignons, Artischocken und Oliven</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>6,14,15,19,20 Karamellisierte Gemüsepfanne mit Kürbis und Kartoffeln, Pas abgelöscht mit Balsamico, dazu Zitrone-Joghurt-Dip</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-10-18">
-      <category name="Speiseplan">
-        <meal>
-          <name>rschgermknödel mit Vanillesauce</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>15,19,20, Paniertes Schweineschnitzel mit Zitrone und Pommes</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>15,19,20,31 icken Vindaloo leicht Scharf, mit rtoffeln, Tomaten in Currysauce mit Basmatireis</name>
+          <name>&quot;Calypso Chicken&quot;, Hähnchenbrust mariniert in Orangenlikör und Zitrone, mit Ananas, Rosinen, Frühlingszwiebeln und Ingwer, dazu Basmatireis</name>
           <price role="other">6.90</price>
         </meal>
-        <meal>
-          <name>ta mit Kürbis-Marscarponesahne und gerösteten Kürbiskernen 15,19,20</name>
-          <price role="other">4.50</price>
-        </meal>
       </category>
     </day>
-    <day date="2018-10-19">
+    <day date="2018-11-06">
       <category name="Speiseplan">
         <meal>
-          <name>&quot;Chana Masala&quot;, Kichererbsen mit Zwiebeln und Ingwer, dazu Reis</name>
+          <name>Zwiebel-Lauchkuchen mit Schmand und Blattsalat</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>Gebratener Seelachs auf Wirsinggemüse und Petersilienkartoffeln</name>
+          <name>Frühlingsrolle auf Wokgemüse und Reis</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Hühnerfrikassee mit Erbsen und Reis</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Grillteller vom Schwein mit Bacon, grünen Bohnen und Kartoffelecken</name>
+          <price role="other">5.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-07">
+      <category name="Speiseplan">
+        <meal>
+          <name>Thymianpolenta mit gerösteter Paprika</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Spinatknödel und W Kasspressknödel mit Kräutersauce und Parmesan</name>
+          <price role="other">4.80</price>
+        </meal>
+        <meal>
+          <name>Schweineschnitzel &quot;Schweizer Art&quot; mit Schinken und Käse G überbacken, mit Pommes frites und Preiselbeeren</name>
           <price role="other">5.80</price>
         </meal>
         <meal>
-          <name>Rigatoni mit sahnigem Tomaten- Zucchiniragout und frischem Basilikum</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Kalifornisches Putensteak mit Pfirsich und Käse gratiniert, dazu Kürbis-Ingwer-Chutney und Pommes frites</name>
-          <price role="other">7.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-10-22">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kartoffel-Möhrenauflauf mit Kräuter-Quark-Dip</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Currywurst mit Spezialsauce und Pommes frites</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>&quot;Vegetable Biryani&quot;, Reisgericht mit Gemüse, Linsen, exotischen Gewürzen und Raita</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Calamari a la Romana, gebackene Tintenfischringe mit Knoblauchmayonnaise und Salat</name>
+          <name>Toskanisches Rindergulasch mit Teigwaren oder Reis</name>
           <price role="other">6.20</price>
         </meal>
       </category>
     </day>
-    <day date="2018-10-23">
+    <day date="2018-11-08">
       <category name="Speiseplan">
         <meal>
-          <name>Perlgraupeneintopf mit Gemüse (auf Wunsch mit grober Bratwurst 4,50€)</name>
+          <name>Veggi-Chili mit Bulgur</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>Schweinshaxe mit Dunkebiersauce, Bayrischkraut und Semmelknödel</name>
+          <name>eiße Bratwurst mit Kartoffelsalat und Senf</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>emüsecurry mit Basmatireis und frischem Koriander</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Hähnchengeschnetzeltes mit Broccoli, Karotten, Kräutersahne und Nudeln</name>
           <price role="other">6.50</price>
         </meal>
+      </category>
+    </day>
+    <day date="2018-11-09">
+      <category name="Speiseplan">
         <meal>
-          <name>Herbstliche Kartoffelpfanne mit Kürbis, Rosenkohl und gegrilltem Käse</name>
-          <price role="other">4.80</price>
+          <name>Penne in Petersilien- Frischkäsesauce</name>
+          <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>&quot;Sweet Chicken&quot; Hähnchenkeule aus dem Ofen in Honig Marinade mit Chilidip und Reis</name>
+          <name>Seelachs in Nusspanade mit Butterssauce und Petersilienkartoffeln</name>
           <price role="other">5.80</price>
         </meal>
-      </category>
-    </day>
-    <day date="2018-10-24">
-      <category name="Speiseplan">
         <meal>
-          <name>Wirsingrahmgemüse mit Kä Schupfnudeln</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Italienischer Schweinebraten mit Tomaten, Oliven und frischen Kräutern, mit Gnocchi</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>&quot;Pasta alla Norma&quot; mit Pu Auberginen, Tomaten, Ricotta und Peperoncini</name>
-          <price role="other">4.60</price>
-        </meal>
-        <meal>
-          <name>&quot;Tandoori Beef Curry&quot; mit Gemüse, Blumenkohl, Champignons, Kartoffeln und Basmatireis</name>
-          <price role="other">7.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-10-25">
-      <category name="Speiseplan">
-        <meal>
-          <name>se-Lauch-Frittata mit Sauerrahm- Dip</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Ofenfrischer Leberkas mit Kartoffelsalat und Senf</name>
+          <name>Martin`s Kaiserschmarrn mit Apfelmus</name>
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>tengeschnetzeltes &quot;Züricher Art&quot; mit Röstiecken und karamellisierten Möhren</name>
-          <price role="other">6.20</price>
-        </meal>
-        <meal>
-          <name>Farfalle mit frischen Pilzen (auf Wunsch mit Speck)</name>
-          <price role="other">4.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-10-26">
-      <category name="Speiseplan">
-        <meal>
-          <name>&quot;Baked Potatoe&quot; mit Sauerrahm , Mais, Tomate oder mit Speck und Sauerrahm, dazu Salat</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Seelachs gebacken mit Kartoffelsalat und Remoulade</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>Kürbis-Gemüsewok mit Spinat, Ingwer, Champignons, Mais, Lauch, Kokoscreme und Pfefferkörner, dazu Reis</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Gebratene Hähnchenbrust auf Karottengemüse mit Reis und Kräutersauce</name>
+          <name>&quot;Pad Pak Luam Mhu&quot; Schweinefilet mit Gemüse, Sojasprossen und Duftreis</name>
           <price role="other">7.20</price>
         </meal>
       </category>
