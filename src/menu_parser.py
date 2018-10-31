@@ -426,3 +426,43 @@ class IPPBistroMenuParser(MenuParser):
             menus[date] = menu
 
         return menus
+
+
+class MedizinerMensaMenuParser(MenuParser):
+    def parse(self, location):
+        # TODO
+        return None
+
+    def get_menus(self, text, year, week_number):
+        menus = {}
+        count = 0
+        lines = text.replace("*", "").replace("Extraessen", "").splitlines()
+        for line in lines:
+            if "Montag" in line:
+                break
+
+            count += 1
+
+        lines = lines[count:]
+        days = [d for d in
+                re.split(r"(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s\d{1,2}.\d{1,2}.\d{4}", "\n".join(lines).strip())
+                if d not in ["", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]]
+
+        for day in days:
+            day_lines = day.splitlines(True)
+            soup_str = ""
+            mains_str = ""
+            for day_line in day_lines:
+                soup_str += day_line[:36].strip() + "\n"
+                mains_str += day_line[40:100].strip() + "\n"
+
+            soup = soup_str.replace("-\n", "").strip().replace("\n", " ")
+            # TODO split on \n\n is not always working; sometimes two dishes are separated by one \n only
+            mains = [soup] + [m.strip().replace("\n", " ") for m in re.split(r"(\n{2,})", mains_str) if m is not ""]
+            # get rid of Zusatzstoffe and Allergene
+            mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!\w)", "", m) for m in mains if m is not ""]
+            dishes = [Dish(dish_name, -1) for dish_name in mains]
+            # TODO create menu for current day
+
+        # TODO
+        return None

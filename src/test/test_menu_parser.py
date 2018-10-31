@@ -7,7 +7,7 @@ from lxml import html
 from datetime import date
 
 import main
-from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser, IPPBistroMenuParser
+from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser, IPPBistroMenuParser, MedizinerMensaMenuParser
 from entities import Dish, Menu, Week
 import json
 
@@ -410,3 +410,14 @@ class IPPBistroParserTest(unittest.TestCase):
         self.assertEqual(self.y18w19_menu_wed, menus_actual[self.y18w19_date_wed])
         self.assertEqual(self.y18w19_menu_thu, menus_actual[self.y18w19_date_thu])
         self.assertEqual(self.y18w19_menu_fri, menus_actual[self.y18w19_date_fri])
+
+
+class MedizinerMensaParserTest(unittest.TestCase):
+    mediziner_mensa_parser = MedizinerMensaMenuParser()
+    test_menu1 = open('src/test/assets/mediziner-mensa/KW_44_Herbst_4_Mensa_2018.txt', 'r').read()
+    year1 = 2018
+    week_number1 = 44
+
+    def test_Should_Return_Menu(self):
+        # TODO
+        menus_actual1 = self.mediziner_mensa_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
