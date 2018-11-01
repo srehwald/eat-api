@@ -18,6 +18,13 @@ from entities import Dish, Menu
 class MenuParser:
     weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
 
+    def get_date(self, year, week_number, day):
+        # get date from year, week number and current weekday
+        # https://stackoverflow.com/questions/17087314/get-date-from-week-number
+        date_str = "%d-W%d-%d" % (year, week_number, day)
+        date = datetime.strptime(date_str, "%Y-W%W-%w").date()
+        return date
+
     def parse(self, location):
         pass
 
@@ -275,10 +282,7 @@ class FMIBistroMenuParser(MenuParser):
             dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))][:num_dishes]
             # filter empty dishes
             dishes = list(filter(lambda x: x.name != "", dishes))
-            # get date from year, week number and current weekday
-            # https://stackoverflow.com/questions/17087314/get-date-from-week-number
-            date_str = "%d-W%d-%d" % (year, week_number, self.weekday_positions[key])
-            date = datetime.strptime(date_str, "%Y-W%W-%w").date()
+            date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
             # remove duplicates
@@ -415,10 +419,7 @@ class IPPBistroMenuParser(MenuParser):
             dish_names = [re.sub(self.price_regex, "", dish).strip() for dish in dish_names]
             # create list of Dish objects
             dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))]
-            # get date from year, week number and current weekday
-            # https://stackoverflow.com/questions/17087314/get-date-from-week-number
-            date_str = "%d-W%d-%d" % (year, week_number, self.weekday_positions[key])
-            date = datetime.strptime(date_str, "%Y-W%W-%w").date()
+            date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
             # remove duplicates
