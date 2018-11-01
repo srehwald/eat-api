@@ -16,7 +16,7 @@ from entities import Dish, Menu
 
 
 class MenuParser:
-    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
+    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5, "sat": 6, "sun": 0}
 
     def get_date(self, year, week_number, day):
         # get date from year, week number and current weekday
@@ -445,12 +445,17 @@ class MedizinerMensaMenuParser(MenuParser):
             count += 1
 
         lines = lines[count:]
-        days = [d for d in
+        days_list = [d for d in
                 re.split(r"(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s\d{1,2}.\d{1,2}.\d{4}", "\n".join(lines).strip())
                 if d not in ["", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]]
+        if len(days_list) != 7:
+            return None
+        days = {"mon": days_list[0], "tue": days_list[1], "wed": days_list[2], "thu": days_list[3], "fri": days_list[4],
+                "sat": days_list[5], "sun": days_list[6]}
 
-        for day in days:
-            day_lines = day.splitlines(True)
+
+        for key in days:
+            day_lines = days[key].splitlines(True)
             soup_str = ""
             mains_str = ""
             for day_line in day_lines:
@@ -462,8 +467,12 @@ class MedizinerMensaMenuParser(MenuParser):
             mains = [soup] + [m.strip().replace("\n", " ") for m in re.split(r"(\n{2,})", mains_str) if m is not ""]
             # get rid of Zusatzstoffe and Allergene
             mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!\w)", "", m) for m in mains if m is not ""]
+            # TODO prices
             dishes = [Dish(dish_name, -1) for dish_name in mains]
-            # TODO create menu for current day
+            date = self.get_date(year, week_number, self.weekday_positions[key])
+            menu = Menu(date, dishes)
+            # remove duplicates
+            menu.remove_duplicates()
+            menus[date] = menu
 
-        # TODO
-        return None
+        return menus
