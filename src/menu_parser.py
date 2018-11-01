@@ -16,6 +16,8 @@ from entities import Dish, Menu
 
 
 class MenuParser:
+    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
+
     def parse(self, location):
         pass
 
@@ -151,7 +153,6 @@ class FMIBistroMenuParser(MenuParser):
     url = "http://www.wilhelm-gastronomie.de/tum-garching"
     allergens = ["Gluten", "Laktose", "Milcheiweiß", "Hühnerei", "Soja", "Nüsse", "Erdnuss", "Sellerie", "Fisch",
                  "Krebstiere", "Weichtiere", "Sesam", "Senf", "Milch", "Ei"]
-    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
     price_regex = r"\€\s\d+,\d+"
     dish_regex = r".+?\€\s\d+,\d+"
 
@@ -289,7 +290,6 @@ class FMIBistroMenuParser(MenuParser):
 
 class IPPBistroMenuParser(MenuParser):
     url = "http://konradhof-catering.de/ipp/"
-    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5}
     split_days_regex = re.compile('(Tagessuppe siehe Aushang|Aushang|Aschermittwoch|Feiertag|Geschlossen)',
                                   re.IGNORECASE)
     split_days_regex_soup_one_line = re.compile('T agessuppe siehe Aushang|Tagessuppe siehe Aushang', re.IGNORECASE)
