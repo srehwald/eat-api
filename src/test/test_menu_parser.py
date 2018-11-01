@@ -418,6 +418,49 @@ class MedizinerMensaParserTest(unittest.TestCase):
     year1 = 2018
     week_number1 = 44
 
-    def test_Should_Return_Menu(self):
-        # TODO
+    date_mon1 = date(2018, 10, 29)
+    date_tue1 = date(2018, 10, 30)
+    date_wed1 = date(2018, 10, 31)
+    date_thu1 = date(2018, 11, 1)
+    date_fri1 = date(2018, 11, 2)
+    date_sat1 = date(2018, 11, 3)
+    date_sun1 = date(2018, 11, 4)
+
+    dish1_mon1 = Dish("Spinatcremesuppe", -1)
+    dish2_mon1 = Dish("Gekochtes Ochsenfleisch mit Meerrettich", -1)
+    dish3_mon1 = Dish("Kürbisauflauf", -1)
+    dish4_mon1 = Dish("Asiatische Gemüse-Puten-Pfanne mit Reisnudeln", -1)
+
+    dish1_thu1 = Dish("Süßkartoffelcremesuppe", -1)
+    dish2_thu1 = Dish("Hähnchenbrust gegrillt", -1)
+    dish3_thu1 = Dish("In Sesamöl gebratenes Wokgemüse", -1)
+
+    dish1_fri1 = Dish("Brokkolicremesuppe", -1)
+    dish2_fri1 = Dish("Forelle \"Müllerin Art \"", -1)
+    dish3_fri1 = Dish("Quarkklößchen", -1)
+    dish4_fri1 = Dish("Chili con Cous Cous mit Kürbis-Apfel-Salat", -1)
+
+    dish1_sat1 = Dish("Bratspätzlesuppe", -1)
+    dish2_sat1 = Dish("Geflügelpflanzerl", -1)
+    dish3_sat1 = Dish("Krauttopf mit einer Vollkornsemmel", -1)
+
+    dish1_sun1 = Dish("Käsecremesuppe", -1)
+    dish2_sun1 = Dish("Geschmortes Kalbfleisch", -1)
+    dish3_sun1 = Dish("Vegetarische Moussaka", -1)
+
+    # TODO tue, wed
+
+    menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1, dish4_mon1])
+    menu_thu1 = Menu(date_thu1, [dish1_thu1, dish2_thu1, dish3_thu1])
+    menu_fri1 = Menu(date_fri1, [dish1_fri1, dish2_fri1, dish3_fri1, dish4_fri1])
+    menu_sat1 = Menu(date_sat1, [dish1_sat1, dish2_sat1, dish3_sat1])
+    menu_sun1 = Menu(date_sun1, [dish1_sun1, dish2_sun1, dish3_sun1])
+
+    def test_Should_Return_Menu1(self):
         menus_actual1 = self.mediziner_mensa_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
+        self.assertEqual(7, len(menus_actual1))
+        self.assertEqual(self.menu_mon1, menus_actual1[self.date_mon1])
+        self.assertEqual(self.menu_thu1, menus_actual1[self.date_thu1])
+        self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
+        self.assertEqual(self.menu_sat1, menus_actual1[self.date_sat1])
+        self.assertEqual(self.menu_sun1, menus_actual1[self.date_sun1])

@@ -449,13 +449,14 @@ class MedizinerMensaMenuParser(MenuParser):
                 re.split(r"(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s\d{1,2}.\d{1,2}.\d{4}", "\n".join(lines).strip())
                 if d not in ["", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]]
         if len(days_list) != 7:
+            # as the Mediziner Mensa is part of hospital, it should serve food on each day
             return None
         days = {"mon": days_list[0], "tue": days_list[1], "wed": days_list[2], "thu": days_list[3], "fri": days_list[4],
                 "sat": days_list[5], "sun": days_list[6]}
 
 
         for key in days:
-            day_lines = days[key].splitlines(True)
+            day_lines = unicodedata.normalize("NFKC", days[key]).splitlines(True)
             soup_str = ""
             mains_str = ""
             for day_line in day_lines:
@@ -464,9 +465,11 @@ class MedizinerMensaMenuParser(MenuParser):
 
             soup = soup_str.replace("-\n", "").strip().replace("\n", " ")
             # TODO split on \n\n is not always working; sometimes two dishes are separated by one \n only
-            mains = [soup] + [m.strip().replace("\n", " ") for m in re.split(r"(\n{2,})", mains_str) if m is not ""]
+            mains = [soup] + [m.strip().replace("\n", " ")
+                              for m in re.split(r"(\n{2,})", mains_str) if m is not ""]
             # get rid of Zusatzstoffe and Allergene
-            mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!\w)", "", m) for m in mains if m is not ""]
+            mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!(\w|\d))", "", m.replace("€", "").replace("Zusatz", "")).strip()
+                     for m in mains if m not in ["", "Feiertag", "MS"] and "Verehrte" not in m]
             # TODO prices
             dishes = [Dish(dish_name, -1) for dish_name in mains]
             date = self.get_date(year, week_number, self.weekday_positions[key])
