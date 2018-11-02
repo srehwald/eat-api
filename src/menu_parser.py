@@ -430,9 +430,39 @@ class IPPBistroMenuParser(MenuParser):
 
 
 class MedizinerMensaMenuParser(MenuParser):
+    url = "https://www.med.fs.tum.de"
+
     def parse(self, location):
-        # TODO
-        return None
+        page = requests.get(self.url)
+        # get html tree
+        tree = html.fromstring(page.content)
+        # get url of current pdf menu
+        xpath_query = tree.xpath("//a[contains(@href, 'KW_')]/@href")
+
+        if len(xpath_query) != 1:
+            return None
+        pdf_url = self.url + xpath_query[0]
+
+        # Example PDF-name: KW_44_Herbst_4_Mensa_2018.pdf
+        pdf_name = pdf_url.split("/")[-1]
+        wn_year_match = re.search("KW_([1-9]+\d*)_.*_(\d+).*", pdf_name, re.IGNORECASE)
+        week_number = int(wn_year_match.group(1)) if wn_year_match else None
+        year = int(wn_year_match.group(2)) if wn_year_match else None
+        # convert 2-digit year into 4-digit year
+        year = 2000 + year if year is not None and len(str(year)) == 2 else year
+
+        with tempfile.NamedTemporaryFile() as temp_pdf:
+            # download pdf
+            response = requests.get(pdf_url)
+            temp_pdf.write(response.content)
+            with tempfile.NamedTemporaryFile() as temp_txt:
+                # convert pdf to text by calling pdftotext; only convert first page to txt (-l 1)
+                call(["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name])
+                with open(temp_txt.name, 'r') as myfile:
+                    # read generated text file
+                    data = myfile.read()
+                    menus = self.get_menus(data, year, week_number)
+                    return menus
 
     def get_menus(self, text, year, week_number):
         menus = {}

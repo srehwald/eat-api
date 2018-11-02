@@ -8,7 +8,8 @@ import menu_parser
 def parse_cli_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('location', choices=(
-            ['fmi-bistro', 'ipp-bistro'] + list(menu_parser.StudentenwerkMenuParser.location_id_mapping.keys())),
+            ['fmi-bistro', 'ipp-bistro', 'mediziner-mensa']
+            + list(menu_parser.StudentenwerkMenuParser.location_id_mapping.keys())),
                         help='the location you want to eat at')
     parser.add_argument('-d', '--date', help='date (DD.MM.YYYY) of the day of which you want to get the menu')
     parser.add_argument('-j', '--jsonify',
