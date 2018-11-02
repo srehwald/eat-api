@@ -431,6 +431,16 @@ class MedizinerMensaParserTest(unittest.TestCase):
     dish3_mon1 = Dish("Kürbisauflauf", -1)
     dish4_mon1 = Dish("Asiatische Gemüse-Puten-Pfanne mit Reisnudeln", -1)
 
+    dish1_tue1 = Dish("Selleriecremesuppe", -1)
+    dish2_tue1 = Dish("Oldenburger Grünkohl mit Mettenden", -1)
+    dish3_tue1 = Dish("Kaschmir Kohlrabi und Brokkoli", -1)
+    dish4_tue1 = Dish("Conchiglioni Nudeln mit mit mediterranem Gemüse", -1)
+
+    dish1_wed1 = Dish("Französische Zwiebelsuppe", -1)
+    dish2_wed1 = Dish("Germknödel mit Vanillesoße", -1)
+    dish3_wed1 = Dish("Herzhaftes Kartoffelgratin", -1)
+    dish4_wed1 = Dish("Holzfällersteak mit Bratkartoffeln und Weißkrautsalat", -1)
+
     dish1_thu1 = Dish("Süßkartoffelcremesuppe", -1)
     dish2_thu1 = Dish("Hähnchenbrust gegrillt", -1)
     dish3_thu1 = Dish("In Sesamöl gebratenes Wokgemüse", -1)
@@ -451,6 +461,8 @@ class MedizinerMensaParserTest(unittest.TestCase):
     # TODO tue, wed
 
     menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1, dish4_mon1])
+    menu_tue1 = Menu(date_tue1, [dish1_tue1, dish2_tue1, dish3_tue1, dish4_tue1])
+    menu_wed1 = Menu(date_wed1, [dish1_wed1, dish2_wed1, dish3_wed1, dish4_wed1])
     menu_thu1 = Menu(date_thu1, [dish1_thu1, dish2_thu1, dish3_thu1])
     menu_fri1 = Menu(date_fri1, [dish1_fri1, dish2_fri1, dish3_fri1, dish4_fri1])
     menu_sat1 = Menu(date_sat1, [dish1_sat1, dish2_sat1, dish3_sat1])
@@ -460,6 +472,8 @@ class MedizinerMensaParserTest(unittest.TestCase):
         menus_actual1 = self.mediziner_mensa_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
         self.assertEqual(7, len(menus_actual1))
         self.assertEqual(self.menu_mon1, menus_actual1[self.date_mon1])
+        self.assertEqual(self.menu_tue1, menus_actual1[self.date_tue1])
+        self.assertEqual(self.menu_wed1, menus_actual1[self.date_wed1])
         self.assertEqual(self.menu_thu1, menus_actual1[self.date_thu1])
         self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
         self.assertEqual(self.menu_sat1, menus_actual1[self.date_sat1])

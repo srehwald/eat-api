@@ -467,7 +467,7 @@ class MedizinerMensaMenuParser(MenuParser):
     def get_menus(self, text, year, week_number):
         menus = {}
         count = 0
-        lines = text.replace("*", "").replace("Extraessen", "").splitlines()
+        lines = text.replace("Extraessen", "").splitlines()
         for line in lines:
             if "Montag" in line:
                 break
@@ -475,8 +475,17 @@ class MedizinerMensaMenuParser(MenuParser):
             count += 1
 
         lines = lines[count:]
+
+        # get rid of Zusatzstoffe and Allergene: everything below the last ***-delimiter is irrelevant
+        last_relevant_line = len(lines)
+        for index, line in enumerate(lines):
+            if "***" in line:
+                last_relevant_line = index
+        lines = lines[:last_relevant_line]
+
         days_list = [d for d in
-                re.split(r"(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s\d{1,2}.\d{1,2}.\d{4}", "\n".join(lines).strip())
+                re.split(r"(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s\d{1,2}.\d{1,2}.\d{4}",
+                         "\n".join(lines).replace("*", "").strip())
                 if d not in ["", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]]
         if len(days_list) != 7:
             # as the Mediziner Mensa is part of hospital, it should serve food on each day
@@ -494,12 +503,11 @@ class MedizinerMensaMenuParser(MenuParser):
                 mains_str += day_line[40:100].strip() + "\n"
 
             soup = soup_str.replace("-\n", "").strip().replace("\n", " ")
-            # TODO split on \n\n is not always working; sometimes two dishes are separated by one \n only
             mains = [soup] + [m.strip().replace("\n", " ")
-                              for m in re.split(r"(\n{2,})", mains_str) if m is not ""]
-            # get rid of Zusatzstoffe and Allergene
-            mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!(\w|\d))", "", m.replace("€", "").replace("Zusatz", "")).strip()
-                     for m in mains if m not in ["", "Feiertag", "MS"] and "Verehrte" not in m]
+                              # https://regex101.com/r/MDFu1Z/1
+                              for m in re.split(r"(\n{2,}|(?<!mit)\n(?=[A-Z]))", mains_str) if m is not ""]
+            mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!(\w|\d))", "", m.replace("€", "")).strip()
+                     for m in mains if m not in ["", "Feiertag"]]
             # TODO prices
             dishes = [Dish(dish_name, -1) for dish_name in mains]
             date = self.get_date(year, week_number, self.weekday_positions[key])
