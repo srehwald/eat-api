@@ -509,7 +509,7 @@ class MedizinerMensaMenuParser(MenuParser):
             mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!(\w|\d))", "", m.replace("€", "")).strip()
                      for m in mains if m not in ["", "Feiertag"]]
             # TODO prices
-            dishes = [Dish(dish_name, -1) for dish_name in mains]
+            dishes = [Dish(dish_name, "N/A") for dish_name in mains]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             menu = Menu(date, dishes)
             # remove duplicates
