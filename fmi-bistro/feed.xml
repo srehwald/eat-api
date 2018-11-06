@@ -1,90 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-10-29">
-      <category name="Speiseplan">
-        <meal>
-          <name>Gemüsesuppe mit Reis</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Paprikaschote “Bollywood” mit Eblyweizen</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Hähnchenbrust “Griechische Art” mit Hirtenreis</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Rinderhüftsteak mit Sc. Bernaise und Kartoffelkroketten</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-10-30">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kohlrabisuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Geschmorte Gurken mit Kurkuma CousCous</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Rahmspinat mit Spiegelei und Salzkartoffeln</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Münchner Schweineschnitzel mit Kartoffel-Gurkensalat</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>EI Kabeljaufilet gebraten mit Prosecco-Dillsoße und RisiBisi</name>
-          <price role="other">5.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-10-31">
-      <category name="Speiseplan">
-        <meal>
-          <name>Gemüsebrühe mit Backerbsen</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Teufelsreis (Pikant) mit Kichererbsen Paprika und Mais dazu Soja-Joghurtdip</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Spaghetti mit Gemüsebolognese</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Hackbraten mit Rahmsoße dazu Kartoffelpüree</name>
-          <price role="other">4.70</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
-          <price role="other">4.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-11-02">
-      <category name="Speiseplan">
-        <meal>
-          <name>Süßkartoffel-Gemüse- Eintopf</name>
-          <price role="other">3.60</price>
-        </meal>
-        <meal>
-          <name>Gebackene Ananas mit Vanilleeis</name>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
-          <name>Spinat-Lachs-Lasagne</name>
-          <price role="other">4.40</price>
-        </meal>
-      </category>
-    </day>
     <day date="2018-11-05">
       <category name="Speiseplan">
         <meal>
@@ -193,6 +109,122 @@
         </meal>
         <meal>
           <name>Seelachsfilet mit Tomate - Mozzarella überbacken dazu Pesto-Reis</name>
+          <price role="other">4.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-12">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüse-Eierflaumsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Rote Beete-Linsencurry mit Tomatenreis</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Käsetortellini mit Auberginenragout</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Fleisch-Lasagne “Bolognese” ( Rind )</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Hirschrollbraten mit Schupfnudeln und Preiselbeeren</name>
+          <price role="other">6.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kartoffel-Lauchsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Dillgurkenpfanne</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>3 Stück Kartoffeltaschen auf Gemüse-Couscous</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Schweine-Spießbraten mit Senf-Zwiebelfüllung dazu 2 kleine Semmelknödeln</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Rindersteak mit Zwiebel- Senfkruste dazu Herzoginkartoffeln</name>
+          <price role="other">6.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-14">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tomatencremesuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Babykarotten-Lauch-Reis- pfanne mit Apfel- Meerettichsoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Frühlingsrolle auf Asiareis mit Sweet- Chillisoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Putenschnitzel “Wiener Art “ mit Petersilienkartoffeln</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-15">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsebrühe mit Maultaschenstreifen</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Penne mit Tomaten- Fenchelsoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Rahmkohlrabi mit Kartoffeln</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Bifteki (Rind) auf Tomatenreis und Tzatziki</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Currywurst mit Pommes</name>
+          <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-16">
+      <category name="Speiseplan">
+        <meal>
+          <name>Erbsensuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>2 Stück Vegane Pfannkuchen gefüllt mit Erdbeermarmelade</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Kaiserschmarrn mit Apfelmus</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Seelachs gedünstet mit Senfsoße dazu Wasabikartoffeln</name>
           <price role="other">4.40</price>
         </meal>
       </category>
