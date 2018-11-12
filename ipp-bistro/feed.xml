@@ -1,103 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-11-05">
+    <day date="2018-11-12">
       <category name="Speiseplan">
         <meal>
-          <name>Gemüse-Reispfanne mit Kürbis- Ingwersauce</name>
+          <name>Gebratener Reis mit Gemüse, Soja und Reisessig</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>Wildpflanzerl mit Kartoffelstampf, kräftiger Jus und Preiselbeeren</name>
+          <name>Gemüsestrudel mit Buttersauce und mariniertem Blattsalat</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Szegediner Krautgulasch mit Sauerrahm und Salzkartoffeln</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>&quot;Bella Grillido&quot; mediterrane Grillwürstchen mit getrockneten Tomaten und Parmesan, auf Püree und Zwiebelsauce</name>
+          <price role="other">4.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>Ratatouille-Eintopf mit Gemüse, Nudeln und Kräuter der Provence</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>&quot;Köttbullar&quot; mit Rahmsauce, Preiselbeeren und Petersilienkartoffeln</name>
           <price role="other">4.80</price>
         </meal>
         <meal>
-          <name>Rigatoni Rustico mit Peperoni, Paprika und Zucchini, auf Wunsch mit Cabanossi</name>
+          <name>Gebackene Käsesticks mit süß- saurem Chili-Dip, Salatgarnitur und Wedges</name>
           <price role="other">4.80</price>
         </meal>
         <meal>
-          <name>&quot;Calypso Chicken&quot;, Hähnchenbrust mariniert in Orangenlikör und Zitrone, mit Ananas, Rosinen, Frühlingszwiebeln und Ingwer, dazu Basmatireis</name>
+          <name>Piccata Milanese, Putenschnitzel in Käse-Ei Hülle gebacken, dazu Tomatenspaghetti</name>
           <price role="other">6.90</price>
         </meal>
       </category>
     </day>
-    <day date="2018-11-06">
+    <day date="2018-11-14">
       <category name="Speiseplan">
         <meal>
-          <name>Zwiebel-Lauchkuchen mit Schmand und Blattsalat</name>
+          <name>Gn Linsen-Bolognese mit Pasta</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>Frühlingsrolle auf Wokgemüse und Reis</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Hühnerfrikassee mit Erbsen und Reis</name>
-          <price role="other">5.20</price>
-        </meal>
-        <meal>
-          <name>Grillteller vom Schwein mit Bacon, grünen Bohnen und Kartoffelecken</name>
-          <price role="other">5.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-11-07">
-      <category name="Speiseplan">
-        <meal>
-          <name>Thymianpolenta mit gerösteter Paprika</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Spinatknödel und W Kasspressknödel mit Kräutersauce und Parmesan</name>
-          <price role="other">4.80</price>
-        </meal>
-        <meal>
-          <name>Schweineschnitzel &quot;Schweizer Art&quot; mit Schinken und Käse G überbacken, mit Pommes frites und Preiselbeeren</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>Toskanisches Rindergulasch mit Teigwaren oder Reis</name>
-          <price role="other">6.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-11-08">
-      <category name="Speiseplan">
-        <meal>
-          <name>Veggi-Chili mit Bulgur</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>eiße Bratwurst mit Kartoffelsalat und Senf</name>
+          <name>Abgebräunter Leberkäs mit K Rahmspinat und Kartoffeln</name>
           <price role="other">4.50</price>
         </meal>
         <meal>
-          <name>emüsecurry mit Basmatireis und frischem Koriander</name>
-          <price role="other">4.90</price>
+          <name>&quot; Tomaten-Basilikumknödel in u Salbeibutter mit Grana</name>
+          <price role="other">4.80</price>
         </meal>
         <meal>
-          <name>Hähnchengeschnetzeltes mit Broccoli, Karotten, Kräutersahne und Nudeln</name>
+          <name>Putengeschnetzeltes in Pfefferrahm, dazu Reis und Gemüse</name>
           <price role="other">6.50</price>
         </meal>
       </category>
     </day>
-    <day date="2018-11-09">
+    <day date="2018-11-15">
       <category name="Speiseplan">
         <meal>
-          <name>Penne in Petersilien- Frischkäsesauce</name>
+          <name>occhi in Blauschimmelsauce und frische Kräuter</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>rautschupfnudeln mit Speck und Sauerrahmdip</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>Seelachs in Nusspanade mit Butterssauce und Petersilienkartoffeln</name>
+          <name>Vegetarian Vindaloo&quot;, Kartoffeln nd Tomaten in Currysauce, dazu reis und frischer Koriander</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>XXL Schnitzel mit Pommes frites und Zitronenecke</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-16">
+      <category name="Speiseplan">
+        <meal>
+          <name>Pikanter Orientalischer Eintopf mit Gemüse und Hülsenfrüchten</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>&quot;Fischfilet alla Pizzaiola&quot; mit Tomaten, Kapern, Basilikum und Reis</name>
           <price role="other">5.80</price>
         </meal>
         <meal>
-          <name>Martin`s Kaiserschmarrn mit Apfelmus</name>
-          <price role="other">4.20</price>
+          <name>Süßkartoffelpfanne mit Herbstgemüse und Mango- Joghurt-Dip</name>
+          <price role="other">4.50</price>
         </meal>
         <meal>
-          <name>&quot;Pad Pak Luam Mhu&quot; Schweinefilet mit Gemüse, Sojasprossen und Duftreis</name>
-          <price role="other">7.20</price>
+          <name>Zwiebelrostbraten mit Bohnengemüse, Kartoffelwedges und hausgemachten Röstzwiebeln</name>
+          <price role="other">7.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-19">
+      <category name="Speiseplan">
+        <meal>
+          <name>Erbseneintopf (mit Wienerle 4,50€)</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Züricher Geschnetzeltes vom Schwein mit Erbsengemüse und Nudeln</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Vegetarische Samossas auf Ratatouillegemüse und Reis</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Hähnchenschenkel mit Limetten-Senfsauce und Gemüsereis</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Pasta mit Gemüsebolognese und Reibekäse</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Gekochtes Rindfleisch mit geriebenem Meerrettich und Bouillonkartoffeln</name>
+          <price role="other">5.60</price>
+        </meal>
+        <meal>
+          <name>Wokgemüse süß-sauer mit frischem Ingwer, Sojasprossen, Koriander und Basmatireis</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Gefüllte Paprikaschote mit Tomatensauce und Reis</name>
+          <price role="other">4.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kartoffel-Blumenkohleintopf</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Förstergulasch mit Schwammerl, Sellerie und Karotten, dazu Nudeln</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>In Sesam gebratene Scheiben Au von frischem Sellerie auf Zucchinirahm mit Kartoffelpüree</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Südtiroler Rinderbraten mit Wurzelgemüse, Rotwein und Majoran, dazu Gemüseallerelei und gebratene Schupfnudeln</name>
+          <price role="other">6.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-22">
+      <category name="Speiseplan">
+        <meal>
+          <name>Cannelloni gefüllt mit Ricotta und Spinat, auf Tomaten- Basilikumragout</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Speckknödel auf Sauerkraut mit Röstzwiebeln</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>s dem Wok: Putengeschnetzeltes mit Gemüse, Ingwer und Basmatireis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Hackfleischauflauf &quot;Avignon&quot; mit Zucchini, Paprikaschoten, Mais, Kräutern und Käse überbacken</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-11-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüseauflauf &quot;Mallorca&quot; mit Kartoffeln, Auberginen und Paprika, auf Tomatensauce</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Seelachsfilet gebacken mit Kartoffel-Ruccolasalat und Kräuterremoulade</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Kalbsrahmbraten mit Kartoffelgratin und Karottengemüse</name>
+          <price role="other">7.50</price>
+        </meal>
+        <meal>
+          <name>Mit Kürbis gefüllte Nudeltaschen in leichter Butter-Zitronensauce mit Grana</name>
+          <price role="other">4.90</price>
         </meal>
       </category>
     </day>
