@@ -177,9 +177,9 @@ class FMIBistroMenuParser(MenuParser):
         menus = {}
         for pdf_url in xpath_query:
             # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
-            # more examples: https://regex101.com/r/ATOHj3/2
+            # more examples: https://regex101.com/r/ATOHj3/3
             pdf_name = pdf_url.split("/")[-1]
-            wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d*)?", pdf_name, re.IGNORECASE)
+            wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d{3})?", pdf_name, re.IGNORECASE)
             week_number = int(wn_year_match.group(1)) if wn_year_match else None
             year = int(wn_year_match.group(2)) if wn_year_match and wn_year_match.group(2) else None
 
