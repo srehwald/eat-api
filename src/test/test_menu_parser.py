@@ -7,7 +7,7 @@ from lxml import html
 from datetime import date
 
 import main
-from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser, IPPBistroMenuParser
+from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser, IPPBistroMenuParser, MedizinerMensaMenuParser
 from entities import Dish, Menu, Week
 import json
 
@@ -410,3 +410,132 @@ class IPPBistroParserTest(unittest.TestCase):
         self.assertEqual(self.y18w19_menu_wed, menus_actual[self.y18w19_date_wed])
         self.assertEqual(self.y18w19_menu_thu, menus_actual[self.y18w19_date_thu])
         self.assertEqual(self.y18w19_menu_fri, menus_actual[self.y18w19_date_fri])
+
+
+class MedizinerMensaParserTest(unittest.TestCase):
+    mediziner_mensa_parser = MedizinerMensaMenuParser()
+    test_menu1 = open('src/test/assets/mediziner-mensa/KW_44_Herbst_4_Mensa_2018.txt', 'r').read()
+    year1 = 2018
+    week_number1 = 44
+
+    date_mon1 = date(2018, 10, 29)
+    date_tue1 = date(2018, 10, 30)
+    date_wed1 = date(2018, 10, 31)
+    date_thu1 = date(2018, 11, 1)
+    date_fri1 = date(2018, 11, 2)
+    date_sat1 = date(2018, 11, 3)
+    date_sun1 = date(2018, 11, 4)
+
+    dish1_mon1 = Dish("Spinatcremesuppe", "N/A")
+    dish2_mon1 = Dish("Gekochtes Ochsenfleisch mit Meerrettich", "N/A")
+    dish3_mon1 = Dish("Kürbisauflauf", "N/A")
+    dish4_mon1 = Dish("Asiatische Gemüse-Puten-Pfanne mit Reisnudeln", "N/A")
+
+    dish1_tue1 = Dish("Selleriecremesuppe", "N/A")
+    dish2_tue1 = Dish("Oldenburger Grünkohl mit Mettenden", "N/A")
+    dish3_tue1 = Dish("Kaschmir Kohlrabi und Brokkoli", "N/A")
+    dish4_tue1 = Dish("Conchiglioni Nudeln mit mit mediterranem Gemüse", "N/A")
+
+    dish1_wed1 = Dish("Französische Zwiebelsuppe", "N/A")
+    dish2_wed1 = Dish("Germknödel mit Vanillesoße", "N/A")
+    dish3_wed1 = Dish("Herzhaftes Kartoffelgratin", "N/A")
+    dish4_wed1 = Dish("Holzfällersteak mit Bratkartoffeln und Weißkrautsalat", "N/A")
+
+    dish1_thu1 = Dish("Süßkartoffelcremesuppe", "N/A")
+    dish2_thu1 = Dish("Hähnchenbrust gegrillt", "N/A")
+    dish3_thu1 = Dish("In Sesamöl gebratenes Wokgemüse", "N/A")
+
+    dish1_fri1 = Dish("Brokkolicremesuppe", "N/A")
+    dish2_fri1 = Dish("Forelle \"Müllerin Art \"", "N/A")
+    dish3_fri1 = Dish("Quarkklößchen", "N/A")
+    dish4_fri1 = Dish("Chili con Cous Cous mit Kürbis-Apfel-Salat", "N/A")
+
+    dish1_sat1 = Dish("Bratspätzlesuppe", "N/A")
+    dish2_sat1 = Dish("Geflügelpflanzerl", "N/A")
+    dish3_sat1 = Dish("Krauttopf mit einer Vollkornsemmel", "N/A")
+
+    dish1_sun1 = Dish("Käsecremesuppe", "N/A")
+    dish2_sun1 = Dish("Geschmortes Kalbfleisch", "N/A")
+    dish3_sun1 = Dish("Vegetarische Moussaka", "N/A")
+
+    menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1, dish4_mon1])
+    menu_tue1 = Menu(date_tue1, [dish1_tue1, dish2_tue1, dish3_tue1, dish4_tue1])
+    menu_wed1 = Menu(date_wed1, [dish1_wed1, dish2_wed1, dish3_wed1, dish4_wed1])
+    menu_thu1 = Menu(date_thu1, [dish1_thu1, dish2_thu1, dish3_thu1])
+    menu_fri1 = Menu(date_fri1, [dish1_fri1, dish2_fri1, dish3_fri1, dish4_fri1])
+    menu_sat1 = Menu(date_sat1, [dish1_sat1, dish2_sat1, dish3_sat1])
+    menu_sun1 = Menu(date_sun1, [dish1_sun1, dish2_sun1, dish3_sun1])
+
+    test_menu2 = open('src/test/assets/mediziner-mensa/KW_47_Herbst_3_Mensa_2018.txt', 'r').read()
+    year2 = 2018
+    week_number2 = 47
+
+    date_mon2 = date(2018, 11, 19)
+    date_tue2 = date(2018, 11, 20)
+    date_wed2 = date(2018, 11, 21)
+    date_thu2 = date(2018, 11, 22)
+    date_fri2 = date(2018, 11, 23)
+    date_sat2 = date(2018, 11, 24)
+    date_sun2 = date(2018, 11, 25)
+
+    dish1_mon2 = Dish("Blumenkohlcremesuppe", "N/A")
+    dish2_mon2 = Dish("Pfannengyros mit Tzaziki", "N/A")
+    dish3_mon2 = Dish("Spaghetti \" Gemüsebolognese \"", "N/A")
+    dish4_mon2 = Dish("Thai-Curry aus Blumenkohl und Kartoffeln mit Gemüsreis und Salat", "N/A")
+
+    dish1_tue2 = Dish("Gelbe Erbsensuppe", "N/A")
+    dish2_tue2 = Dish("Grüner Bohneneintopf mit Rindfleisch", "N/A")
+    dish3_tue2 = Dish("Veggi-Gulasch", "N/A")
+    dish4_tue2 = Dish("Rotbarschfischfilet in Dillsoße mit Kürbisgemüse und Wacholderreis", "N/A")
+
+    dish1_wed2 = Dish("Rinderbrühe \" Gärtnerin \"", "N/A")
+    dish2_wed2 = Dish("Schweinegulasch", "N/A")
+    dish3_wed2 = Dish("Gemüsekuchen mit Mozzarella überbacken", "N/A")
+    dish4_wed2 = Dish("Schinkennudeln mit Tomatensoße, dazu gemischter Salat", "N/A")
+
+    dish1_thu2 = Dish("Kürbiscremesuppe", "N/A")
+    dish2_thu2 = Dish("Rinderhackbraten", "N/A")
+    dish3_thu2 = Dish("Dinkel-Kräuterbratling", "N/A")
+    dish4_thu2 = Dish("Pikantes Risotto mit buntem Gemüse und Tomatensalat mit Basilikum", "N/A")
+
+    dish1_fri2 = Dish("Minestrone", "N/A")
+    dish2_fri2 = Dish("Gebratene Hähnchenbrust", "N/A")
+    dish3_fri2 = Dish("Scheiterhaufen  mit Apfel-Vanille-Ragout", "N/A")
+    dish4_fri2 = Dish("Paniertes Schnitzel vom Schwein und Pute mit Kartoffelmayosalat und Zitronenecke", "N/A")
+
+    dish1_sat2 = Dish("Tomatencremesuppe", "N/A")
+    dish2_sat2 = Dish("Pichelsteiner Gemüseeintopf mit Rindfleisch", "N/A")
+    dish3_sat2 = Dish("Ofenkartoffel mit herzhaftem Gemüseragout", "N/A")
+
+    dish1_sun2 = Dish("Grießnockerlsuppe", "N/A")
+    dish2_sun2 = Dish("Glasierter Putenbraten in Kräuterrahmsoße", "N/A")
+    dish3_sun2 = Dish("Eieromelett", "N/A")
+
+    menu_mon2 = Menu(date_mon2, [dish1_mon2, dish2_mon2, dish3_mon2, dish4_mon2])
+    menu_tue2 = Menu(date_tue2, [dish1_tue2, dish2_tue2, dish3_tue2, dish4_tue2])
+    menu_wed2 = Menu(date_wed2, [dish1_wed2, dish2_wed2, dish3_wed2, dish4_wed2])
+    menu_thu2 = Menu(date_thu2, [dish1_thu2, dish2_thu2, dish3_thu2, dish4_thu2])
+    menu_fri2 = Menu(date_fri2, [dish1_fri2, dish2_fri2, dish3_fri2, dish4_fri2])
+    menu_sat2 = Menu(date_sat2, [dish1_sat2, dish2_sat2, dish3_sat2])
+    menu_sun2 = Menu(date_sun2, [dish1_sun2, dish2_sun2, dish3_sun2])
+
+    def test_Should_Return_Menu1(self):
+        menus_actual1 = self.mediziner_mensa_parser.get_menus(self.test_menu1, self.year1, self.week_number1)
+        self.assertEqual(7, len(menus_actual1))
+        self.assertEqual(self.menu_mon1, menus_actual1[self.date_mon1])
+        self.assertEqual(self.menu_tue1, menus_actual1[self.date_tue1])
+        self.assertEqual(self.menu_wed1, menus_actual1[self.date_wed1])
+        self.assertEqual(self.menu_thu1, menus_actual1[self.date_thu1])
+        self.assertEqual(self.menu_fri1, menus_actual1[self.date_fri1])
+        self.assertEqual(self.menu_sat1, menus_actual1[self.date_sat1])
+        self.assertEqual(self.menu_sun1, menus_actual1[self.date_sun1])
+
+        menus_actual2 = self.mediziner_mensa_parser.get_menus(self.test_menu2, self.year2, self.week_number2)
+        self.assertEqual(7, len(menus_actual2))
+        self.assertEqual(self.menu_mon2, menus_actual2[self.date_mon2])
+        self.assertEqual(self.menu_tue2, menus_actual2[self.date_tue2])
+        self.assertEqual(self.menu_wed2, menus_actual2[self.date_wed2])
+        self.assertEqual(self.menu_thu2, menus_actual2[self.date_thu2])
+        self.assertEqual(self.menu_fri2, menus_actual2[self.date_fri2])
+        self.assertEqual(self.menu_sat2, menus_actual2[self.date_sat2])
+        self.assertEqual(self.menu_sun2, menus_actual2[self.date_sun2])

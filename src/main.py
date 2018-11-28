@@ -20,6 +20,8 @@ def get_menu_parsing_strategy(location):
         parser = menu_parser.FMIBistroMenuParser()
     elif location == "ipp-bistro":
         parser = menu_parser.IPPBistroMenuParser()
+    elif location == "mediziner-mensa":
+        parser = menu_parser.MedizinerMensaMenuParser()
 
     return parser
 
