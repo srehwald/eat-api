@@ -2,7 +2,7 @@ var locations = ["fmi-bistro", "ipp-bistro", "mensa-arcisstr", "mensa-garching",
                  "mensa-martinsried", "mensa-pasing", "mensa-weihenstephan", "stubistro-arcisstr", "stubistro-goethestr", 
                  "stubistro-großhadern", "stubistro-grosshadern", "stubistro-rosenheim", "stubistro-schellingstr", 
                  "stucafe-adalbertstr", "stucafe-akademie-weihenstephan", "stucafe-boltzmannstr", "stucafe-garching", 
-                 "stucafe-karlstr", "stucafe-pasing"];
+                 "stucafe-karlstr", "stucafe-pasing", "mediziner-mensa"];
 
 var root = document.getElementById("app");
 var currentLocation = locations[0];
