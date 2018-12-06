@@ -4,9 +4,10 @@ import json
 
 
 class Dish:
-    def __init__(self, name, price):
+    def __init__(self, name, price, ingredients):
         self.name = name
         self.price = price
+        self.ingredients = ingredients
 
     def __repr__(self):
         if type(self.price) is not str:
@@ -21,7 +22,7 @@ class Dish:
 
     def __hash__(self):
         # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
-        return (hash(self.name) << 1) ^ hash(self.price)
+        return (hash(self.name) << 1) ^ hash(self.price) ^ hash(self.ingredients)
 
 
 class Menu:
@@ -94,3 +95,82 @@ class Week:
             weeks[calendar_week] = week
 
         return weeks
+
+class Ingredients:
+    # A dictionary of all ingredients (from the Studentenwerk) with their description:
+    ingredient_lookup = {
+        "GQB" : "Certified Quality - Bavaria",
+        "MSC" : "Marine Stewardship Council",
+
+        "1" : "with dyestuff",
+        "2" : "with preservative",
+        "3" : "with antioxidant",
+        "4" : "with flavor enhancers",
+        "5" : "sulphured",
+        "6" : "blackened (olive)",
+        "8" : "with phosphate",
+        "9" : "with sweeteners",
+        "10" : "contains a source of phenylalanine",
+        "11" : "with sugar and sweeteners",
+        "13" : "with cocoa-containing grease",
+        "14" : "with gelatin",
+        "99" : "with alcohol",
+
+        "f" : "meatless dish",
+        "v" : "vegan dish",
+        "S" : "with pork",
+        "R" : "with beef",
+        "K" : "with veal",
+        "Kn" : "with garlic",
+        "Ei" : "with chicken egg",
+        "En" : "with peanut",
+        "Fi" : "with fish",
+        "Gl" : "with gluten-containing cereals",
+        "GlW" : "with wheat",
+        "GlR" : "with rye",
+        "GlG" : "with barley",
+        "GlH" : "with oats",
+        "GlD" : "with spelt",
+        "Kr" : "with crustaceans",
+        "Lu" : "with lupines",
+        "Mi" : "with milk and lactose",
+        "Sc" : "with shell fruits",
+        "ScM" : "with almonds",
+        "ScH" : "with hazelnuts",
+        "ScW" : "with Walnuts",
+        "ScC" : "with cashew nuts",
+        "ScP" : "with pistachios",
+        "Se" : "with sesame seeds",
+        "Sf" : "with mustard",
+        "Sl" : "with celery",
+        "So" : "with soy",
+        "Sw" : "with sulfur dioxide and sulfites",
+        "Wt" : "with mollusks",
+    }
+
+    def __init__(self, location):
+        self.location = location
+        self.ingredient_list = []
+
+    def parse_ingredients(self, values):
+        # check for special parser/ingredient translation required
+        if self.location == "fmi-bistro":
+            pass
+        elif self.location == "ipp-bistro":
+            pass
+        elif self.location == "mediziner-mensa":
+            pass
+        # default to the "Studentenwerk" ingredients
+        else:
+            split_values = values.split(",")
+            for value in split_values:
+                # ignore empty values
+                if not value or value.isspace():
+                    continue
+                if not value in self.ingredient_lookup:
+                    print("Unknown ingredient for " + self.location + " found: " + str(value))
+                    continue
+                self.ingredient_list.append(value)
+    
+    def __hash__(self):
+        return hash(str(self.ingredient_list))
