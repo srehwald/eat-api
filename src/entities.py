@@ -22,7 +22,7 @@ class Dish:
 
     def __hash__(self):
         # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
-        return (hash(self.name) << 1) ^ hash(self.price) ^ hash(self.ingredients)
+        return (hash(self.name) << 1) ^ hash(self.price) ^ hash(str(self.ingredients))
 
 
 class Menu:
@@ -156,11 +156,11 @@ class Ingredients:
         # check for special parser/ingredient translation required
         if self.location == "fmi-bistro":
             pass
-        elif self.location == "ipp-bistro":
-            pass
         elif self.location == "mediziner-mensa":
             pass
         # default to the "Studentenwerk" ingredients
+        # "ipp-bistro" also uses the "Studentenwerk" ingredients since all
+        # dishes contain the same ingredients
         else:
             split_values = values.split(",")
             for value in split_values:

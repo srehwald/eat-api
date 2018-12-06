@@ -428,8 +428,12 @@ class IPPBistroMenuParser(MenuParser):
             prices = [float(price.replace("€", "").replace(",", ".").strip()) for price in prices]
             # remove price and commas from dish names
             dish_names = [re.sub(self.price_regex, "", dish).strip() for dish in dish_names]
+            # create ingredients
+            # all dishes have the same ingridients
+            ingredients = Ingredients("ipp-bistro")
+            ingredients.parse_ingredients("Mi,Gl,Sf,Sl,Ei,Se,4")
             # create list of Dish objects
-            dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices), Ingredients("ipp-bistro"))]
+            dishes = [Dish(dish_name, price, ingredients.ingredient_list) for (dish_name, price) in list(zip(dish_names, prices))]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
