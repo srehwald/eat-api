@@ -148,6 +148,24 @@ class Ingredients:
         "Wt" : "with mollusks",
     }
 
+    fmi_ingredient_lookup = {
+        "Gluten" : "Gl",
+        "Laktose" : "Mi",
+        "Milcheiweiß" : "Mi",
+        "Milch" : "Mi",
+        "Ei" : "Ei",
+        "Hühnerei" : "Ei",
+        "Soja" : "So",
+        "Nüsse" : "Sc",
+        "Erdnuss" : "En",
+        "Sellerie" : "Sl",
+        "Fisch" : "Si",
+        "Krebstiere" : "Kr",
+        "Weichtiere" : "Wt",
+        "Sesam" : "Se",
+        "Senf" : "Sf",
+    }
+
     def __init__(self, location):
         self.location = location
         self.ingredient_list = []
@@ -155,7 +173,15 @@ class Ingredients:
     def parse_ingredients(self, values):
         # check for special parser/ingredient translation required
         if self.location == "fmi-bistro":
-            pass
+            split_values = values.split(",")
+            for value in split_values:
+                # ignore empty values
+                if not value or value.isspace():
+                    continue
+                if not value in self.fmi_ingredient_lookup:
+                    print("Unknown ingredient for " + self.location + " found: " + str(value))
+                    continue
+                self.ingredient_list.append(self.fmi_ingredient_lookup[value])
         elif self.location == "mediziner-mensa":
             pass
         # default to the "Studentenwerk" ingredients
@@ -171,6 +197,9 @@ class Ingredients:
                     print("Unknown ingredient for " + self.location + " found: " + str(value))
                     continue
                 self.ingredient_list.append(value)
+        
+        # remove duplicates
+        self.ingredient_list = list(set(self.ingredient_list))
     
     def __hash__(self):
         return hash(str(self.ingredient_list))

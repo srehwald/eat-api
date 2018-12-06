@@ -170,6 +170,7 @@ class FMIBistroMenuParser(MenuParser):
     url = "http://www.wilhelm-gastronomie.de/tum-garching"
     allergens = ["Gluten", "Laktose", "Milcheiweiß", "Hühnerei", "Soja", "Nüsse", "Erdnuss", "Sellerie", "Fisch",
                  "Krebstiere", "Weichtiere", "Sesam", "Senf", "Milch", "Ei"]
+    allergens_regex = r"(Allergene:((\s|\n)*(Gluten|Laktose|Milcheiweiß|Hühnerei|Soja|Nüsse|Erdnuss|Sellerie|Fisch|Krebstiere|Weichtiere|Sesam|Senf|Milch|Ei),?(?![\w-]))*)"
     price_regex = r"\€\s\d+,\d+"
     dish_regex = r".+?\€\s\d+,\d+"
 
@@ -269,15 +270,18 @@ class FMIBistroMenuParser(MenuParser):
             if "geschlossen" in lines_weekdays[key].lower():
                 continue
 
-            lines_weekdays[key] = lines_weekdays[key].replace("Allergene:", "")
+            # extract all alergens
+            dish_allergens = []
+            for x in re.findall(self.allergens_regex, lines_weekdays[key]):
+                if len(x) > 0:
+                    dish_allergens.append(re.sub(r"((Allergene:)|\s|\n)*","",x[0]))
+                else:
+                    dish_allergens.append("")
+            lines_weekdays[key] = re.sub(self.allergens_regex, "", lines_weekdays[key])
             # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
             lines_weekdays[key] = unicodedata.normalize("NFKC", lines_weekdays[key])
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
-            # remove allergnes
-            for allergen in self.allergens:
-                # only replace "whole word matches" not followed by a hyphen (e.g. some dishes include "Senf-")
-                lines_weekdays[key] = re.sub(r"\b%s\b(?![\w-])" % allergen, "", lines_weekdays[key])
 
             # remove no allergenes indicator
             lines_weekdays[key] = lines_weekdays[key].replace("./.", "")
@@ -290,9 +294,14 @@ class FMIBistroMenuParser(MenuParser):
             # remove price and commas from dish names
             dish_names = [re.sub(self.price_regex, "", dish).replace(",", "").strip() for dish in dish_names]
             # create list of Dish objects; only take first 3/4 as the following dishes are corrupt and not necessary
-            dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices), Ingredients("fmi-bistro"))][:num_dishes]
-            # filter empty dishes
-            dishes = list(filter(lambda x: x.name != "", dishes))
+            dishes = []
+            for (dish_name, price, dish_allergen) in list(zip(dish_names, prices, dish_allergens)):
+                # filter empty dishes
+                if dish_name:
+                    ingredients = Ingredients("fmi-bistro")
+                    ingredients.parse_ingredients(dish_allergen)
+                    dishes.append(Dish(dish_name, price, ingredients.ingredient_list))
+            dishes = dishes[:num_dishes]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
