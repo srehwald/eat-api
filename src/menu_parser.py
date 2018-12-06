@@ -236,6 +236,7 @@ class FMIBistroMenuParser(MenuParser):
 
         # currently, up to 5 dishes are on the menu
         num_dishes = 5
+        line_aktion = []
         if year < 2018:
             # in older versions of the FMI Bistro menu, the Aktionsgericht was the same for the whole week
             num_dishes = 3
