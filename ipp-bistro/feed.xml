@@ -1,114 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-03">
-      <category name="Speiseplan">
-        <meal>
-          <name>Sesamkartoffeln vom Blech mit Salat und zweierlei Dips</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Geschnetzeltes vom Schwein mit Champignons und Gemüsereis</name>
-          <price role="other">5.20</price>
-        </meal>
-        <meal>
-          <name>Tortelli gefüllt mit Büffelmozzarella und Tomate, mit Tomaten-Basilikumragout</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Putensteak vom Grill mit Kräuterbutter, Gemüse und Pommes frites</name>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-04">
-      <category name="Speiseplan">
-        <meal>
-          <name>Wirsingeintopf mit Kartoffeln und Karotten (mit Wiener 4,50€)</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Würst ́l Gulasch mit Kartoffeln</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Ochsenfetzen vom Grill, rosa gebraten, mit Rucola, Chiliöl, gehobeltem Grana und Pommes frites</name>
-          <price role="other">7.50</price>
-        </meal>
-        <meal>
-          <name>Strozzapretti in Lauch- Sahnesauce mit Tomate, Schafskäse und Croutons</name>
-          <price role="other">4.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-05">
-      <category name="Speiseplan">
-        <meal>
-          <name>Mohnschupfnudeln mit V Zwetschgenröster</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Hirschleberkäs mit Kartoffelsalat</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Gnocchi in Salbeibutter mit P Grana Padano</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Hirtengulasch R+S mit Tomate, R Paprika, Gyrosgewürz, saure Ho Sahne und Reis</name>
-          <price role="other">5.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-06">
-      <category name="Speiseplan">
-        <meal>
-          <name>egetarisch gefüllte Maultaschen mit Kräutersoße</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Rinderleber &quot;Berliner Art&quot; mit Kartoffelpüree, gebratener Apfelscheibe und Zwiebelringen</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>Gebackenes Putenschnitzel mit ommes frites oder Kartoffelsalat und Preiselbeeren</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>eiberdatschi mit Räucherlachs, P nig-Senf Sauce und mariniertem Salat</name>
-          <price role="other">6.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-07">
-      <category name="Speiseplan">
-        <meal>
-          <name>Reisauflauf mit Gemüse und Schnittlauchdip</name>
-          <price role="other">3.50</price>
-        </meal>
-        <meal>
-          <name>Seelachsfilet auf rahmigen Gemüse mit Salzkartoffeln</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>Pasta in Weißweinsahne mit Pilzen und Grana Padano</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Enchiladas gefüllt mit Bohnen, aprika und Mais, dazu zweierlei Dips und Salat (oder mit Hähnchenfleisch 6,20€)</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
     <day date="2018-12-10">
       <category name="Speiseplan">
         <meal>
-          <name>Winterlicher Gemüseeintopf mit Kartoffeln, Weißkraut, Möhren und Majoran</name>
+          <name>Winterlicher Gemüseeintopf mit Kartoffeln, Weißkraut, Möhren und Majoran(mit Würst ́l 4,50)</name>
           <price role="other">3.50</price>
         </meal>
         <meal>
-          <name>Fleischpflanzerl mit Kartoffelstampf und Bratensauce, dazu Gemüse</name>
+          <name>Fleischpflanzerl mit Kartoffelstampf und Bratensauce</name>
           <price role="other">4.90</price>
         </meal>
         <meal>
@@ -198,6 +98,106 @@
         <meal>
           <name>Rinderlende in Zwiebel- Rotweinjus, dazu Wirsinggemüse und Kroketten</name>
           <price role="other">7.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-17">
+      <category name="Speiseplan">
+        <meal>
+          <name>Rahmiges Gemüse mit gebratenen Schupfnudeln</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Paprikarahmgeschnetzeltes mit Kartoffeln oder Reis</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Triangolo, Teigtaschen gefüllt mit Pecorino, Birne und Radicchio</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Hirschbraten aus der Keule mit Spätzle, Rosenkohl und Preiselbeeren</name>
+          <price role="other">7.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-18">
+      <category name="Speiseplan">
+        <meal>
+          <name>Blumenkohlauflauf mit Käsebechamel und Schnittlauchpüree</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Pikante Gulaschsuppe mit Semmel</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Vegane Auberginen-Reis Pfanne mit Kichererbsen, Minze und Tofu</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Waldhauspfännle mit Schweinefilet, Pilzen, Lauch, Speck, Sahne, dazu Spätzle</name>
+          <price role="other">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-19">
+      <category name="Speiseplan">
+        <meal>
+          <name>Nasi Goreng: Indonesisches Reisgericht mit Gemüse, Chili und Soja</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>Burgenländer Schnitzel mit Bl Senf. Speck und Zwiebeln, dazu Nudeln</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Zucchini mit Gemüsefüllung Gn und Mozzarella überbacken, auf Tomatensauce mit Reis</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Penne mit Lachssahnesauce</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Getreidebratling auf Karotten- Ingwersauce</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>F ut- und Leberwurst mit Püree und Sauerkraut</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>occhi in Tomaten-Orangensahne O mit Rucola</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Pfannengyros mit Tzatziki, griechischem Salat und Pommes M frites oder Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Pasta in Erbsen-Sahne mit Petersilie</name>
+          <price role="other">3.50</price>
+        </meal>
+        <meal>
+          <name>ischfilet &quot;Matrosen Art&quot; mit Senf- Kapernbutter und Zwiebeln gebraten, dazu Petersilienkartoffeln</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>fengemüse auf Rahmsauce mit Kartoffelpüree</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Aus dem Wok : Putengeschnetzeltes mit angold, Möhren, Lauchzwiebeln und Basmatireis</name>
+          <price role="other">6.90</price>
         </meal>
       </category>
     </day>

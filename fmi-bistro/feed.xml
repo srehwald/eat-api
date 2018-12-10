@@ -1,114 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-03">
-      <category name="Speiseplan">
-        <meal>
-          <name>Broccolicremesuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Rote Linsen-curry mit Sesamreis</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Schinkennudeln mit Tomatensoße</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Braumeisterschnitzel (Schwein) gefüllt mit rohem Schinken und Obazda dazu Wedjes</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-04">
-      <category name="Speiseplan">
-        <meal>
-          <name>Karotten-Orangensuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Hummus Spiralnudeln mit Blattspinat</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Kürbisauflauf mit buntem Gemüse</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Putenbrustbraten in Rahmsoße mit Gemüse- Kartoffelbechamel</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Rinderroulade”Hausfrauenart” mit Butterspätzle</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-05">
-      <category name="Speiseplan">
-        <meal>
-          <name>Zucchini-Tomatensuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Linsen Kartoffel Eintopf</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Penne mediterran mit Tomatensugo</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Szegediner Gulasch mit Spätzle</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Italienische Hühnchenschenkel mit Rosmarinkartoffeln</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-06">
-      <category name="Speiseplan">
-        <meal>
-          <name>Gemüse-Eblysuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Tofu- Bolognese</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Gemüsestrudel mit Blattsalate</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Coq au Vin mit Estragonkartoffeln</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill: Currywurst mit Pommes</name>
-          <price role="other">3.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-07">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kartoffel-Gemüseeintopf</name>
-          <price role="other">3.60</price>
-        </meal>
-        <meal>
-          <name>Weihnachtsstrudel mit Vanillesoße</name>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
-          <name>Yellow-Thaicurry mit Gemüse und Lachs dazu Basmatireis</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2018-12-10">
       <category name="Speiseplan">
         <meal>
@@ -218,6 +110,118 @@
         <meal>
           <name>Schlemmerfilet “Bordelaise” mit Dillkartoffeln</name>
           <price role="other">4.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-17">
+      <category name="Speiseplan">
+        <meal>
+          <name>Sellerie-Apfelsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Weisskraut-Pasta mit Orangensoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Rahmschwammerl mit Semmelknödel</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Fleischpflanzerl mit Tomate und Mozzarella überbacken dazu Röstiecken</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Burgunderbraten vom Rind mit Nußspätzle</name>
+          <price role="other">5.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-18">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kartoffelsamtsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>gebratener Fenchel in Ananas-Kokossoße dazu Mie-Nudeln</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Käsenudeln mit Tomatenstücke und Lauchsoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hamburger „Classic“ mit Pommes</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Kabeljaufilet mit Zitronen- Dillsoße dazu Wildreis</name>
+          <price role="other">5.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-19">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tomaten-Mozzarella-Suppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Gemüse-Kartoffelpfanne “Meditran”</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>Curryrahmgemüse im Reisrand</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Gefüllte Paprikaschote mit Tomatensoße und Kartoffelpüree</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Krautsuppe mit Paprikawürfel</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Aprikosen-Tomatenragout mit scharfem Gewürzreis</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Gemüsethaler auf Rahmwirsing</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Thaicurry mit Hühnchen Muerr Pilzen und Bamussprossen dazu Duftreis</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Currywurst mit Pommes</name>
+          <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-12-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Süßkartoffelsuppe mit Wokgemüse</name>
+          <price role="other">3.60</price>
+        </meal>
+        <meal>
+          <name>Winterlicher Apfelstrudel mit Vanillesauce</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Regenbogenforelle “Müllerin Art” mit Petersilienkartoffeln</name>
+          <price role="other">4.90</price>
         </meal>
       </category>
     </day>
