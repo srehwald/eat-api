@@ -108,6 +108,7 @@ class Ingredients:
         "4" : "with flavor enhancers",
         "5" : "sulphured",
         "6" : "blackened (olive)",
+        "7" : "waxed",
         "8" : "with phosphate",
         "9" : "with sweeteners",
         "10" : "contains a source of phenylalanine",
