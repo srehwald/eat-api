@@ -122,6 +122,9 @@ class Ingredients:
         "S" : "with pork",
         "R" : "with beef",
         "K" : "with veal",
+        "G" : "with poultry", # mediziner mensa
+        "W" : "with wild meat", # mediziner mensa
+        "L" : "with lamb", # mediziner mensa
         "Kn" : "with garlic",
         "Ei" : "with chicken egg",
         "En" : "with peanut",
@@ -165,6 +168,40 @@ class Ingredients:
         "Weichtiere" : "Wt",
         "Sesam" : "Se",
         "Senf" : "Sf",
+    }
+
+    mediziner_ingredient_lookup = {
+        "1" : "1",
+        "2" : "2",
+        "3" : "3",
+        "4" : "4",
+        "5" : "5",
+        "6" : "6",
+        "7" : "7",
+        "8" : "8",
+        "9" : "9",
+        "B" : "Gl",
+        "C" : "Kr",
+        "Y" : "Ei",
+        "E" : "Fi",
+        "H" : "En",
+        "M" : "So",
+        "N" : "Mi",
+        "O" : "Sc",
+        "P" : "Sl",
+        "T" : "Sf",
+        "U" : "Se",
+        "V" : "Sw",
+        "X" : "Lu",
+        "Z" : "Wt",
+        "G" : "G",
+        "S" : "S",
+        "R" : "R",
+        "K" : "K",
+        "L" : "L",
+        "W" : "W",
+        "F" : "Fi",
+        "A" : "99",
     }
 
     def __init__(self, location):
