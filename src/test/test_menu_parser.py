@@ -275,7 +275,7 @@ class IPPBistroParserTest(unittest.TestCase):
     dish1_wed2 = Dish("Weißwurst Gröst ́l mit Knödel, Lauchzwiebeln, Karotten und Kräuter auf Wunsch mit "
                       "Bratenjus", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish2_wed2 = Dish("Estragonrahmschnitzel mit Pommes frites oder Reis", 4.6, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
-    dish3_wed2 = Dish("Gemüse Lasagne", 4.9)
+    dish3_wed2 = Dish("Gemüse Lasagne", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish4_wed2 = Dish("\"Tandoori Chicken\" mit Auberginen, Tomaten, Zucchini, Zitronenschale Minze und Reis", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish1_thu2 = Dish("Rote Beete Eintopf mit Kartoffeln, Nudeln und Dill", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish2_thu2 = Dish("Sauerbraten \"Nepal\" mit weißen Bohnen, getrockneten Tomaten und Pasta", 5.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
