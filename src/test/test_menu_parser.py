@@ -62,21 +62,21 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
     def test_Should_ReturnMenu_When_PassedDateIsCorrect(self):
         self.assertEqual(self.menu1_garching,
-                         self.studentenwerk_menu_parser.get_menus(self.menu_html_garching)[self.menu1_date])
+                         self.studentenwerk_menu_parser.get_menus(self.menu_html_garching)[self.menu1_date], "mensa-garching")
         self.assertEqual(self.menu2_garching,
-                         self.studentenwerk_menu_parser.get_menus(self.menu_html_garching)[self.menu2_date])
+                         self.studentenwerk_menu_parser.get_menus(self.menu_html_garching)[self.menu2_date], "mensa-garching")
 
         self.assertEqual(self.menu1_arcisstrasse,
-                         self.studentenwerk_menu_parser.get_menus(self.menu_html_arcisstrasse)[self.menu1_date])
+                         self.studentenwerk_menu_parser.get_menus(self.menu_html_arcisstrasse)[self.menu1_date], "mensa-arcisstrasse")
 
         self.assertEqual(self.menu1_großhadern,
-                         self.studentenwerk_menu_parser.get_menus(self.menu_html_großhadern)[self.menu3_date])
+                         self.studentenwerk_menu_parser.get_menus(self.menu_html_großhadern)[self.menu3_date], "stubistro-grosshadern")
 
     def test_Should_IgnoreDay_When_DateOfTheDayIsInAWrongFormat(self):
-        self.assertEqual(22, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)))
+        self.assertEqual(22, len(self.studentenwerk_menu_parser.get_menus(self.menu_html_wrong_date_format)), "mensa-garching")
 
     def test_Should_ReturnWeeks_When_ConvertingMenuToWeekObjects(self):
-        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html_garching)
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html_garching, "mensa-garching")
         weeks_actual = Week.to_weeks(menus)
         length_weeks_actual = len(weeks_actual)
 
@@ -102,7 +102,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         with open('src/test/assets/speiseplan_garching_kw2017-17.json') as data_file:
             week_2017_17 = json.load(data_file)
 
-        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html_garching)
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html_garching, "mensa-garching")
         weeks = Week.to_weeks(menus)
         week_2017_13_actual = json.loads(weeks[13].to_json())
         week_2017_14_actual = json.loads(weeks[14].to_json())
@@ -118,7 +118,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
     def test_Should_CreateCorrectDirectoriesAndJSONFiles(self):
         # parse menu
-        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html_garching)
+        menus = self.studentenwerk_menu_parser.get_menus(self.menu_html_garching, "mensa-garching")
         # get weeks
         weeks = Week.to_weeks(menus)
 
@@ -390,7 +390,7 @@ class IPPBistroParserTest(unittest.TestCase):
     y18w19_dishes_fri = [
         Dish("Spaghetti mit Tomatensauce und Reibekäse", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
         Dish("2 Paar Schweinswürst ́l auf Sauerkraut und Püree", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
-        Dish("\"Chicken Padam Pasanda\" mit Nusssauce, Kokos- flocken und indischen Gewürzen, dazu Basmatireis", 6.9),
+        Dish("\"Chicken Padam Pasanda\" mit Nusssauce, Kokos- flocken und indischen Gewürzen, dazu Basmatireis", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
         Dish("Kartoffeltasche, gefüllt mit Kräuterfrischkäse auf Paprikagemüse", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])]
 
     y18w19_menu_mon = Menu(y18w19_date_mon, y18w19_dishes_mon)
