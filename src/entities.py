@@ -210,19 +210,12 @@ class Ingredients:
         self.ingredient_list = []
 
     def parse_ingredients(self, values):
+        values = values.strip()
         # check for special parser/ingredient translation required
         if self.location == "fmi-bistro":
-            split_values = values.split(",")
-            for value in split_values:
-                # ignore empty values
-                if not value or value.isspace():
-                    continue
-                if not value in self.fmi_ingredient_lookup:
-                    print("Unknown ingredient for " + self.location + " found: " + str(value))
-                    continue
-                self.ingredient_list.append(self.fmi_ingredient_lookup[value])
+            self.parse_lookup_ingredients(values, self.fmi_ingredient_lookup)
         elif self.location == "mediziner-mensa":
-            pass
+            self.parse_lookup_ingredients(values, self.mediziner_ingredient_lookup)
         # default to the "Studentenwerk" ingredients
         # "ipp-bistro" also uses the "Studentenwerk" ingredients since all
         # dishes contain the same ingredients
@@ -240,5 +233,16 @@ class Ingredients:
         # remove duplicates
         self.ingredient_list = list(set(self.ingredient_list))
     
+    def parse_lookup_ingredients(self, values, lookup):
+        split_values = values.split(",")
+        for value in split_values:
+            # ignore empty values
+            if not value or value.isspace():
+                continue
+            if not value in lookup:
+                print("Unknown ingredient for " + self.location + " found: " + str(value))
+                continue
+            self.ingredient_list.append(lookup[value])
+
     def __hash__(self):
         return hash(str(self.ingredient_list))

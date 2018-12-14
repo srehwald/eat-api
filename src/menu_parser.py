@@ -455,6 +455,25 @@ class IPPBistroMenuParser(MenuParser):
 
 class MedizinerMensaMenuParser(MenuParser):
     url = "https://www.med.fs.tum.de"
+    ingredients_regex = r"(\s([A-C]|[E-H]|[K-P]|[R-Z]|[1-9])(,([A-C]|[E-H]|[K-P]|[R-Z]|[1-9]))*(\s|\Z))"
+    price_regex = r"(\d+(,(\d){2})\s?€)"
+
+    def parse_dish(self, dish_str):
+        # ingredients
+        dish_ingredients = Ingredients("mediziner-mensa")
+        for x in re.findall(self.ingredients_regex, dish_str):
+            if len(x) > 0:
+                dish_ingredients.parse_ingredients(x[0])
+        dish_str = re.sub(self.ingredients_regex, "", dish_str)
+
+        # price
+        dish_price = "N/A"
+        for x in re.findall(self.price_regex, dish_str):
+            if len(x) > 0:
+                dish_price = x[0].replace("€", "")
+        dish_str = re.sub(self.price_regex, "", dish_str)
+
+        return Dish(dish_str, dish_price, dish_ingredients.ingredient_list)
 
     def parse(self, location):
         page = requests.get(self.url)
@@ -526,14 +545,19 @@ class MedizinerMensaMenuParser(MenuParser):
                 soup_str += day_line[:36].strip() + "\n"
                 mains_str += day_line[40:100].strip() + "\n"
 
-            soup = soup_str.replace("-\n", "").strip().replace("\n", " ")
-            mains = [soup] + [m.strip().replace("\n", " ")
-                              # https://regex101.com/r/MDFu1Z/1
-                              for m in re.split(r"(\n{2,}|(?<!mit)\n(?=[A-Z]))", mains_str) if m is not ""]
-            mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!(\w|\d))", "", m.replace("€", "")).strip()
-                     for m in mains if m not in ["", "Feiertag"]]
-            # TODO prices
-            dishes = [Dish(dish_name, "N/A", Ingredients("mediziner-mensa")) for dish_name in mains]
+            soup_str = soup_str.replace("-\n", "").strip().replace("\n", " ")
+            soup = self.parse_dish(soup_str)
+            dishes = []
+            if(soup.name not in ["", "Feiertag"]):
+                dishes.append(soup)
+            # https://regex101.com/r/MDFu1Z/1
+            for dish_str in re.split(r"(\n{2,}|(?<!mit)\n(?=[A-Z]))", mains_str):
+                dish_str = dish_str.strip().replace("\n", " ")
+                dish = self.parse_dish(dish_str)
+                dish.name = dish.name.strip()
+                if dish.name not in ["", "Feiertag"]:
+                    dishes.append(dish)
+                    
             date = self.get_date(year, week_number, self.weekday_positions[key])
             menu = Menu(date, dishes)
             # remove duplicates
