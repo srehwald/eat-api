@@ -29,35 +29,35 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
     menu3_date = date(2017, 4, 4)
 
     # dishes in Garching
-    dish1_1_garching = Dish("Kartoffelgulasch mit Paprika", 1)
-    dish1_2_garching = Dish("Hackfleischbällchen mit Champignonrahmsauce", 1.9)
-    dish1_3_garching = Dish("Seelachsfilet (MSC) im Sesammantel mit Remouladensauce", 2.4)
-    dish1_4_garching = Dish("Gebackene Calamari-Ringe mit Remouladensauce", 2.6)
+    dish1_1_garching = Dish("Kartoffelgulasch mit Paprika", 1, [])
+    dish1_2_garching = Dish("Hackfleischbällchen mit Champignonrahmsauce", 1.9, ["R", "S", "Ei", "Gl", "GlW", "Kn", "Mi"])
+    dish1_3_garching = Dish("Seelachsfilet (MSC) im Sesammantel mit Remouladensauce", 2.4, ["1", "2", "3", "9", "Ei", "Fi", "Gl", "GlW", "Mi", "Se", "Sf"])
+    dish1_4_garching = Dish("Gebackene Calamari-Ringe mit Remouladensauce", 2.6, ["1", "2", "3", "9", "Ei", "Gl", "GlW", "Mi", "Se", "Sf", "Wt"])
 
-    dish2_1_garching = Dish("Kartoffeleintopf mit Majoran", 1)
-    dish2_2_garching = Dish("Gulasch vom Schwein", 1.9)
-    dish2_3_garching = Dish("Paniertes Hähnchenschnitzel", 2.4)
+    dish2_1_garching = Dish("Kartoffeleintopf mit Majoran", 1, ["Sl"])
+    dish2_2_garching = Dish("Gulasch vom Schwein", 1.9, ["S", "Gl", "GlG", "GlW", "Kn", "Mi"])
+    dish2_3_garching = Dish("Paniertes Hähnchenschnitzel", 2.4, ["Gl", "GlW", "GlG", "Kn", "Mi", "Sl"])
 
     menu1_garching = Menu(menu1_date, [dish1_1_garching, dish1_2_garching, dish1_3_garching, dish1_4_garching])
     menu2_garching = Menu(menu2_date, [dish2_1_garching, dish2_2_garching, dish2_3_garching])
 
     # dishes in Arcisstrasse
-    dish1_1_arcisstrasse = Dish("Kartoffelgulasch mit Paprika", 1)
-    dish1_2_arcisstrasse = Dish("Hackfleischbällchen mit Champignonrahmsauce", 1.55)
-    dish1_3_arcisstrasse = Dish("Hackfleischbällchen mit Champignonrahmsauce (2)", 1.9)
-    dish1_4_arcisstrasse = Dish("Pasta Pomodori", 1.9)
-    dish1_5_arcisstrasse = Dish("Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip", 2.6)
-    dish1_6_arcisstrasse = Dish("Seelachsfilet (MSC) im Sesammantel mit Zitronen-Knoblauch-Dip", 2.6)
-    dish1_7_arcisstrasse = Dish("Pasta Pomodori (2)", "0.68€ / 100g")
-    dish1_8_arcisstrasse = Dish("Kartoffelgulasch mit Paprika (2)", "0.68€ / 100g")
-    dish1_9_arcisstrasse = Dish("Pasta mit Sojabolognese", "0.68€ / 100g")
+    dish1_1_arcisstrasse = Dish("Kartoffelgulasch mit Paprika", 1, [])
+    dish1_2_arcisstrasse = Dish("Hackfleischbällchen mit Champignonrahmsauce", 1.55, ["R", "S", "Ei", "Gl", "GlW", "Kn", "Mi"])
+    dish1_3_arcisstrasse = Dish("Hackfleischbällchen mit Champignonrahmsauce (2)", 1.9, ["R", "S", "Ei", "Gl", "GlW", "Kn", "Mi"])
+    dish1_4_arcisstrasse = Dish("Pasta Pomodori", 1.9, ["Gl", "GlW", "Kn"])
+    dish1_5_arcisstrasse = Dish("Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip", 2.6, ["1", "2", "3", "9", "Ei", "Gl", "GlW", "Kn", "Mi", "Sf", "Wt"])
+    dish1_6_arcisstrasse = Dish("Seelachsfilet (MSC) im Sesammantel mit Zitronen-Knoblauch-Dip", 2.6, ["1", "3", "9", "Ei", "Fi", "Gl", "GlW", "Kn", "Mi", "Se", "Sf"])
+    dish1_7_arcisstrasse = Dish("Pasta Pomodori (2)", "0.68€ / 100g", ["Gl", "GlW", "Kn"])
+    dish1_8_arcisstrasse = Dish("Kartoffelgulasch mit Paprika (2)", "0.68€ / 100g", [])
+    dish1_9_arcisstrasse = Dish("Pasta mit Sojabolognese", "0.68€ / 100g", ["Sl", "So"])
     menu1_arcisstrasse = Menu(menu1_date, [dish1_1_arcisstrasse, dish1_2_arcisstrasse, dish1_3_arcisstrasse,
                                            dish1_4_arcisstrasse, dish1_5_arcisstrasse, dish1_6_arcisstrasse,
                                            dish1_7_arcisstrasse, dish1_8_arcisstrasse, dish1_9_arcisstrasse])
 
     # dishes in Großhadern
-    dish1_1_großhadern = Dish("Pasta-Gemüse-Auflauf mit Tomatensauce", 1.9)
-    dish1_2_großhadern = Dish("Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce", 3)
+    dish1_1_großhadern = Dish("Pasta-Gemüse-Auflauf mit Tomatensauce", 1.9, ["1", "Ei", "Gl", "GlW", "Kn", "Mi"])
+    dish1_2_großhadern = Dish("Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce", 3, ["R", "S", "2", "3", "99", "Gl", "GlW", "Kn", "Mi", "Sf", "Sl", "Sw"])
     menu1_großhadern = Menu(menu3_date, [dish1_1_großhadern, dish1_2_großhadern])
 
     def test_Should_ReturnMenu_When_PassedDateIsCorrect(self):

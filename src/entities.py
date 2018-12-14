@@ -17,7 +17,9 @@ class Dish:
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
-            return self.name == other.name and self.price == other.price
+            return (self.name == other.name
+                    and self.price == other.price
+                    and set(self.ingredients) == set(other.ingredients)) # order does not matter
         return False
 
     def __hash__(self):
