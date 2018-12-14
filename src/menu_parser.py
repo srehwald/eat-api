@@ -486,9 +486,9 @@ class MedizinerMensaMenuParser(MenuParser):
             return None
         pdf_url = self.url + xpath_query[0]
 
-        # Example PDF-name: KW_44_Herbst_4_Mensa_2018.pdf
+        # Example PDF-name: "KW_44_Herbst_4_Mensa_2018.pdf" or "KW_50_Winter_1_Mensa_-2018.pdf"
         pdf_name = pdf_url.split("/")[-1]
-        wn_year_match = re.search("KW_([1-9]+\d*)_.*_(\d+).*", pdf_name, re.IGNORECASE)
+        wn_year_match = re.search("KW_([1-9]+\d*)_.*_-?(\d+).*", pdf_name, re.IGNORECASE)
         week_number = int(wn_year_match.group(1)) if wn_year_match else None
         year = int(wn_year_match.group(2)) if wn_year_match else None
         # convert 2-digit year into 4-digit year
