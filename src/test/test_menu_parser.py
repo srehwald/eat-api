@@ -155,16 +155,16 @@ class FMIBistroParserTest(unittest.TestCase):
     date_fri1 = date(2017, 11, 3)
 
     dish_aktion1 = Dish("Tellerfleisch mit Bouillonkartoffeln und Sahnemeerrettich Kaiserschmarrn mit Zwetschenröster",
-                        3.0)
-    dish1_mon1 = Dish("Kurkumareis mit Asia Wokgemüse", 3.6)
-    dish2_mon1 = Dish("Kartoffel „Cordon Bleu“ mit Frischkäse gefüllt dazu Blattsalate", 4.3)
-    dish3_mon1 = Dish("Putenschnitzel natur mit Paprikarahmsoße dazu Ebly Gemüseweizen", 5.3)
-    dish1_thu1 = Dish("Süßkartoffel Gemüsepfanne", 3.6)
-    dish2_thu1 = Dish("Gemüse Nudelauflauf", 4.3)
-    dish3_thu1 = Dish("Hähnchenspieß in Kokos Currysoße dazu Früchtereis", 5.3)
-    dish1_fri1 = Dish("Antipasti Rosmarinkartoffeln", 3.6)
-    dish2_fri1 = Dish("Schlemmerfilet auf Antipasti Rosmarinkartoffeln", 4.5)
-    dish3_fri1 = Dish("Kaiserschmarrn mit Zwetschenröster", 3)
+                        3.0, [])
+    dish1_mon1 = Dish("Kurkumareis mit Asia Wokgemüse", 3.6, [])
+    dish2_mon1 = Dish("Kartoffel „Cordon Bleu“ mit Frischkäse gefüllt dazu Blattsalate", 4.3, [])
+    dish3_mon1 = Dish("Putenschnitzel natur mit Paprikarahmsoße dazu Ebly Gemüseweizen", 5.3, [])
+    dish1_thu1 = Dish("Süßkartoffel Gemüsepfanne", 3.6, [])
+    dish2_thu1 = Dish("Gemüse Nudelauflauf", 4.3, [])
+    dish3_thu1 = Dish("Hähnchenspieß in Kokos Currysoße dazu Früchtereis", 5.3, [])
+    dish1_fri1 = Dish("Antipasti Rosmarinkartoffeln", 3.6, [])
+    dish2_fri1 = Dish("Schlemmerfilet auf Antipasti Rosmarinkartoffeln", 4.5, [])
+    dish3_fri1 = Dish("Kaiserschmarrn mit Zwetschenröster", 3, [])
     menu_mon1 = Menu(date_mon1, [dish_aktion1, dish1_mon1, dish2_mon1, dish3_mon1])
     menu_thu1 = Menu(date_thu1, [dish_aktion1, dish1_thu1, dish2_thu1, dish3_thu1])
     menu_fri1 = Menu(date_fri1, [dish_aktion1, dish1_fri1, dish2_fri1, dish3_fri1])
@@ -174,20 +174,20 @@ class FMIBistroParserTest(unittest.TestCase):
     date_wed2 = date(2017, 11, 8)
     date_thu2 = date(2017, 11, 9)
     date_fri2 = date(2017, 11, 10)
-    dish_aktion2 = Dish("Pochiertes Lachsfilet mit Dillsoße dazu Minze-Reis", 6.5)
-    dish1_mon2 = Dish("Dampfkartoffeln mit Zucchinigemüse", 3.6)
-    dish2_mon2 = Dish("Valess-Schnitzel mit Tomaten-Couscous", 4.3)
-    dish3_mon2 = Dish("Kasslerpfanne mit frischen Champignons und Spätzle", 4.9)
-    dish1_tue2 = Dish("Gemüsereispfanne mit geräuchertem Tofu", 3.6)
-    dish2_tue2 = Dish("Schweineschnitzel in Karottenpanade mit Rosmarin- Risoleekartoffeln", 5.3)
-    dish1_wed2 = Dish("Spaghetti al Pomodoro", 3.6)
-    dish2_wed2 = Dish("Krustenbraten vom Schwein mit Kartoffelknödel und Krautsalat", 5.3)
-    dish1_thu2 = Dish("Red-Thaicurrysuppe mit Gemüse und Kokosmilch", 2.9)
-    dish2_thu2 = Dish("Senf-Eier mit Salzkartoffeln", 3.8)
-    dish3_thu2 = Dish("Putengyros mit Zaziki und Tomatenreis", 5.3)
-    dish1_fri2 = Dish("Spiralnudeln mit Ratatouillegemüse", 3.6)
-    dish2_fri2 = Dish("Milchreis mit warmen Sauerkirschen", 3)
-    dish3_fri2 = Dish("Lasagne aus Seelachs und Blattspinat", 5.3)
+    dish_aktion2 = Dish("Pochiertes Lachsfilet mit Dillsoße dazu Minze-Reis", 6.5, [])
+    dish1_mon2 = Dish("Dampfkartoffeln mit Zucchinigemüse", 3.6, [])
+    dish2_mon2 = Dish("Valess-Schnitzel mit Tomaten-Couscous", 4.3, [])
+    dish3_mon2 = Dish("Kasslerpfanne mit frischen Champignons und Spätzle", 4.9, [])
+    dish1_tue2 = Dish("Gemüsereispfanne mit geräuchertem Tofu", 3.6, [])
+    dish2_tue2 = Dish("Schweineschnitzel in Karottenpanade mit Rosmarin- Risoleekartoffeln", 5.3, [])
+    dish1_wed2 = Dish("Spaghetti al Pomodoro", 3.6, [])
+    dish2_wed2 = Dish("Krustenbraten vom Schwein mit Kartoffelknödel und Krautsalat", 5.3, [])
+    dish1_thu2 = Dish("Red-Thaicurrysuppe mit Gemüse und Kokosmilch", 2.9, [])
+    dish2_thu2 = Dish("Senf-Eier mit Salzkartoffeln", 3.8, [])
+    dish3_thu2 = Dish("Putengyros mit Zaziki und Tomatenreis", 5.3, [])
+    dish1_fri2 = Dish("Spiralnudeln mit Ratatouillegemüse", 3.6, [])
+    dish2_fri2 = Dish("Milchreis mit warmen Sauerkirschen", 3, [])
+    dish3_fri2 = Dish("Lasagne aus Seelachs und Blattspinat", 5.3, [])
     menu_mon2 = Menu(date_mon2, [dish_aktion2, dish1_mon2, dish2_mon2, dish3_mon2])
     menu_tue2 = Menu(date_tue2, [dish_aktion2, dish1_tue2, dish2_tue2])
     menu_wed2 = Menu(date_wed2, [dish_aktion2, dish1_wed2, dish2_wed2])
@@ -225,32 +225,32 @@ class IPPBistroParserTest(unittest.TestCase):
     date_wed1 = date(2017, 11, 22)
     date_thu1 = date(2017, 11, 23)
     date_fri1 = date(2017, 11, 24)
-    dish1_mon1 = Dish("Gefüllter Germknödel mit Vanillesauce", 3.5)
-    dish2_mon1 = Dish("Ofengulasch vom Rind mit Kürbis und Pflaumen, dazu Rigatoni", 5.5)
-    dish3_mon1 = Dish("\"Palek Tofu\" Gebratener Tofu mit Spinat, Ingwer, Curry-Sahnesauce und Basmatireis", 5.2)
-    dish4_mon1 = Dish("Gebratene Hähnchenbrust auf Fenchelgemüse, dazu Kräuterreis und Orangensauce", 6.9)
-    dish1_tue1 = Dish("Gebratene Weißkohl-Kartoffelpfanne mit gerösteten Sonnenblumenkernen", 3.5)
-    dish2_tue1 = Dish("Jägerschnitzel mit Spätzle oder Reis", 4.8)
-    dish3_tue1 = Dish("Vegetarisch gefüllte Tortelli mit leichter Zitronen-Buttersauce und gehobeltem Parmesan", 4.8)
+    dish1_mon1 = Dish("Gefüllter Germknödel mit Vanillesauce", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish2_mon1 = Dish("Ofengulasch vom Rind mit Kürbis und Pflaumen, dazu Rigatoni", 5.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish3_mon1 = Dish("\"Palek Tofu\" Gebratener Tofu mit Spinat, Ingwer, Curry-Sahnesauce und Basmatireis", 5.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish4_mon1 = Dish("Gebratene Hähnchenbrust auf Fenchelgemüse, dazu Kräuterreis und Orangensauce", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish1_tue1 = Dish("Gebratene Weißkohl-Kartoffelpfanne mit gerösteten Sonnenblumenkernen", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish2_tue1 = Dish("Jägerschnitzel mit Spätzle oder Reis", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish3_tue1 = Dish("Vegetarisch gefüllte Tortelli mit leichter Zitronen-Buttersauce und gehobeltem Parmesan", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish4_tue1 = Dish("\"Bami Goreng\" indonesische Bratnudeln mit Gemüse, Huhn, Schweinefleisch und Pilzen, " \
-                      "dazu Honig-Chili- Dip", 6.9)
-    dish1_wed1 = Dish("Erbseneintopf (mit Wienerle 4,20 €)", 3.5)
+                      "dazu Honig-Chili- Dip", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish1_wed1 = Dish("Erbseneintopf (mit Wienerle 4,20 €)", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     # TODO fix "B"
-    dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis", 4.8)
+    dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish3_wed1 = Dish("\"Farfalle Rustico\" mit Champignons, Schinken Tomaten und Peperoni (auf Wunsch mit "
-                      "Reibekäse)", 4.6)
-    dish4_wed1 = Dish("Rumpsteak mit Balsamico Pilzen und Wedges", 7.9)
+                      "Reibekäse)", 4.6, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish4_wed1 = Dish("Rumpsteak mit Balsamico Pilzen und Wedges", 7.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish1_thu1 = Dish("Mediterrane Frittata mit Zucchini, Kartoffeln, Paprika, kleiner Salatbeilage und "
-                      "Joghurt-Limetten Dip", 3.5)
+                      "Joghurt-Limetten Dip", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     # TODO fix bug that B of Brett is missing -> rett
-    dish2_thu1 = Dish("Frischer Bayrischer Schweinenackenbraten vom Brett geschnitten dazu Kartoffel- Gurkensalat", 4.5)
+    dish2_thu1 = Dish("Frischer Bayrischer Schweinenackenbraten vom Brett geschnitten dazu Kartoffel- Gurkensalat", 4.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish3_thu1 = Dish("\"Enchilada Verdura\", überbackene Weizentortilla, gefüllt mit Hähnchenfleisch, Sauerrahm, "
-                      "Kidneybohnen, Mais, dazu", 5.9)
-    dish4_thu1 = Dish("\"Lamm Palak\" mit Spinat und Curry (mittelscharf), dazu Reis", 6.9)
-    dish1_fri1 = Dish("Nudelpfanne mit Gemüsesauce (auf Wunsch mit Reibekäse)", 3.5)
-    dish2_fri1 = Dish("Matjes \"Hausfrauen Art\" mit Salzkartoffeln", 5.2)
-    dish3_fri1 = Dish("Currygeschnetzeltes von der Pute mit Früchten und Reis", 4.9)
-    dish4_fri1 = Dish("Honig-Kassler mit Apfel-Spitzkohl und Kartoffelspalten", 6.2)
+                      "Kidneybohnen, Mais, dazu", 5.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish4_thu1 = Dish("\"Lamm Palak\" mit Spinat und Curry (mittelscharf), dazu Reis", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish1_fri1 = Dish("Nudelpfanne mit Gemüsesauce (auf Wunsch mit Reibekäse)", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish2_fri1 = Dish("Matjes \"Hausfrauen Art\" mit Salzkartoffeln", 5.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish3_fri1 = Dish("Currygeschnetzeltes von der Pute mit Früchten und Reis", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish4_fri1 = Dish("Honig-Kassler mit Apfel-Spitzkohl und Kartoffelspalten", 6.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1, dish4_mon1])
     menu_tue1 = Menu(date_tue1, [dish1_tue1, dish2_tue1, dish3_tue1, dish4_tue1])
     menu_wed1 = Menu(date_wed1, [dish1_wed1, dish2_wed1, dish3_wed1, dish4_wed1])
@@ -262,30 +262,30 @@ class IPPBistroParserTest(unittest.TestCase):
     date_wed2 = date(2017, 11, 29)
     date_thu2 = date(2017, 11, 30)
     date_fri2 = date(2017, 12, 1)
-    dish1_mon2 = Dish("Wirsing-Kartoffelauflauf mit Bechamel und Käse", 3.5)
-    dish2_mon2 = Dish("Paprikarahm Geschnetzeltes mit Paprikamix und Nudeln", 4.8)
-    dish3_mon2 = Dish("\"Dal Curry\" mit Kartoffeln, Kokosmilch, Ingwer, Koriander, Reis und scharfem Chutney", 4.9)
+    dish1_mon2 = Dish("Wirsing-Kartoffelauflauf mit Bechamel und Käse", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish2_mon2 = Dish("Paprikarahm Geschnetzeltes mit Paprikamix und Nudeln", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish3_mon2 = Dish("\"Dal Curry\" mit Kartoffeln, Kokosmilch, Ingwer, Koriander, Reis und scharfem Chutney", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     # TODO fix missing "R" of "Rinderbraten"
     dish4_mon2 = Dish("Deftiger Hüttenschmaus, Rinderrostbraten mit Zwiebeln, Semmelknödel und gebratenem Gemüse",
-                      7.9)
-    dish1_tue2 = Dish("Herbstliche Gemüse-Reis Pfanne mit pikantem Mango Dip", 3.5)
-    dish2_tue2 = Dish("Krautwickerl mit Speck-Zwieblsauce und Püree", 4.5)
-    dish3_tue2 = Dish("Rigatoni mit Rosenkohl und Schnittlauch", 4.6)
-    dish4_tue2 = Dish("Spanferkelrücken mit Knödel und Bayerisch Kraut", 6.8)
+                      7.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish1_tue2 = Dish("Herbstliche Gemüse-Reis Pfanne mit pikantem Mango Dip", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish2_tue2 = Dish("Krautwickerl mit Speck-Zwieblsauce und Püree", 4.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish3_tue2 = Dish("Rigatoni mit Rosenkohl und Schnittlauch", 4.6, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish4_tue2 = Dish("Spanferkelrücken mit Knödel und Bayerisch Kraut", 6.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish1_wed2 = Dish("Weißwurst Gröst ́l mit Knödel, Lauchzwiebeln, Karotten und Kräuter auf Wunsch mit "
-                      "Bratenjus", 3.5)
-    dish2_wed2 = Dish("Estragonrahmschnitzel mit Pommes frites oder Reis", 4.6)
+                      "Bratenjus", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish2_wed2 = Dish("Estragonrahmschnitzel mit Pommes frites oder Reis", 4.6, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish3_wed2 = Dish("Gemüse Lasagne", 4.9)
-    dish4_wed2 = Dish("\"Tandoori Chicken\" mit Auberginen, Tomaten, Zucchini, Zitronenschale Minze und Reis", 6.9)
-    dish1_thu2 = Dish("Rote Beete Eintopf mit Kartoffeln, Nudeln und Dill", 3.5)
-    dish2_thu2 = Dish("Sauerbraten \"Nepal\" mit weißen Bohnen, getrockneten Tomaten und Pasta", 5.8)
-    dish3_thu2 = Dish("\"Kaku Chicken\" mit geröstetem Curry, Kokosraspel, Tomaten und Reis", 6.9)
-    dish4_thu2 = Dish("Leberkäs Burger special mit Pommes frites und Cole slaw", 4.8)
-    dish1_fri2 = Dish("Exotische Linsen-Spätzle Pfanne", 3.5)
-    dish2_fri2 = Dish("Seelachsfilet gebacken mit Sardellenmayonnaise und Pommes frites", 4.6)
-    dish3_fri2 = Dish("Gemüse-Linguini mit Pesto-Rahmsauce und Parmesankäse", 4.4)
+    dish4_wed2 = Dish("\"Tandoori Chicken\" mit Auberginen, Tomaten, Zucchini, Zitronenschale Minze und Reis", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish1_thu2 = Dish("Rote Beete Eintopf mit Kartoffeln, Nudeln und Dill", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish2_thu2 = Dish("Sauerbraten \"Nepal\" mit weißen Bohnen, getrockneten Tomaten und Pasta", 5.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish3_thu2 = Dish("\"Kaku Chicken\" mit geröstetem Curry, Kokosraspel, Tomaten und Reis", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish4_thu2 = Dish("Leberkäs Burger special mit Pommes frites und Cole slaw", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish1_fri2 = Dish("Exotische Linsen-Spätzle Pfanne", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish2_fri2 = Dish("Seelachsfilet gebacken mit Sardellenmayonnaise und Pommes frites", 4.6, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
+    dish3_fri2 = Dish("Gemüse-Linguini mit Pesto-Rahmsauce und Parmesankäse", 4.4, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     dish4_fri2 = Dish("Schweinefilet Medaillons in grüner Pfefferrahmsauce mit Kroketten und karamellisierten "
-                      "Möhren", 7.2)
+                      "Möhren", 7.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
 
     menu_mon2 = Menu(date_mon2, [dish1_mon2, dish2_mon2, dish3_mon2, dish4_mon2])
     menu_tue2 = Menu(date_tue2, [dish1_tue2, dish2_tue2, dish3_tue2, dish4_tue2])
@@ -322,25 +322,25 @@ class IPPBistroParserTest(unittest.TestCase):
     y18w18_date_fri = date(2018, 5, 4)
 
     y18w18_dishes_wed = [
-        Dish("Kirschmichel mit Vanillesauce", 3.5),
+        Dish("Kirschmichel mit Vanillesauce", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
         Dish("Fitnessteak vom Grill, dazu Zitrone oder Kräuterbutter, Grilltomate und Ofenkartoffel mit "
-             "Sauerrahmdip oder bunter Salatauswahl", 8.2),
-        Dish("\"Chana Dal\" Kichererbsen, Kartoffeln, Kokosmilch, Curryblätter und Reis", 4.9),
+             "Sauerrahmdip oder bunter Salatauswahl", 8.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("\"Chana Dal\" Kichererbsen, Kartoffeln, Kokosmilch, Curryblätter und Reis", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
         Dish("Calamari alla Romana, gebackene Tintenfischringe mit Knoblauchmayonnaise und "
-             "gemischtem Blattsalat mit Tomate und Gurke", 6.2)
+             "gemischtem Blattsalat mit Tomate und Gurke", 6.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])
     ]
 
     y18w18_dishes_thu = [
-        Dish("Grenaillekartoffeln mit Apfel-Möhren-Quark, auf Wunsch mit gerösteten Sonnenblumenkernen", 3.5),
-        Dish("Böfflamott, gebeizter Rinderschmorbraten mit Rotwein, dazu Frühlingsgemüse und Semmelknödel", 6.8),
-        Dish("Fussili mit Lauch, Ricotta, Meerrettich und frischem Basilikum", 4.5),
-        Dish("Aus dem Wok Putengeschnetzeltes mit Mangold, Möhren, Frühlings- zwiebeln und Basmatireis", 6.9)]
+        Dish("Grenaillekartoffeln mit Apfel-Möhren-Quark, auf Wunsch mit gerösteten Sonnenblumenkernen", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Böfflamott, gebeizter Rinderschmorbraten mit Rotwein, dazu Frühlingsgemüse und Semmelknödel", 6.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Fussili mit Lauch, Ricotta, Meerrettich und frischem Basilikum", 4.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Aus dem Wok Putengeschnetzeltes mit Mangold, Möhren, Frühlings- zwiebeln und Basmatireis", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])]
 
     y18w18_dishes_fri = [
-        Dish("Curryreispfanne mit Gemüse, Ananas, Kreuzkümmel, Koriander und Chili-Dip", 3.5),
-        Dish("Zitronen Seelachs auf Paprika-Champignon Gemüse, Petersilien- Kartoffeln und leichter Buttersauce", 5.90),
-        Dish("Paprikarahmgeschnetzeltes mit Hörnchennudeln", 5.2),
-        Dish("\"Pasta Arora\" italienische Nudeln mit Tomatensahne, Mozzarella und Basilikum", 4.5)]
+        Dish("Curryreispfanne mit Gemüse, Ananas, Kreuzkümmel, Koriander und Chili-Dip", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Zitronen Seelachs auf Paprika-Champignon Gemüse, Petersilien- Kartoffeln und leichter Buttersauce", 5.90, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Paprikarahmgeschnetzeltes mit Hörnchennudeln", 5.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("\"Pasta Arora\" italienische Nudeln mit Tomatensahne, Mozzarella und Basilikum", 4.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])]
 
     y18w18_menu_mon = Menu(y18w18_date_mon, [])
     y18w18_menu_tue = Menu(y18w18_date_tue, [])
@@ -369,29 +369,29 @@ class IPPBistroParserTest(unittest.TestCase):
     y18w19_date_fri = date(2018, 5, 11)
 
     y18w19_dishes_mon = [
-        Dish("Gemüse-Schupfnudeln dazu Sauerrahm-Dip", 3.5),
-        Dish("Würziger Putenbrustbraten mit Frühlingsgemüse und Kroketten", 7.2),
-        Dish("Gnocchi-Lauch Gratin mit Käse überbacken", 4.8),
-        Dish("Schweinefleisch süß-sauer mit Ananas, Paprika, Tomaten und Reis", 6.9)]
+        Dish("Gemüse-Schupfnudeln dazu Sauerrahm-Dip", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Würziger Putenbrustbraten mit Frühlingsgemüse und Kroketten", 7.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Gnocchi-Lauch Gratin mit Käse überbacken", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Schweinefleisch süß-sauer mit Ananas, Paprika, Tomaten und Reis", 6.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])]
 
     y18w19_dishes_tue = [
-        Dish("Gebackener Edamer mit Rohkostsalat und Preiselbeeren", 4.9),
-        Dish("Köttbullar (Hackfleischbällchen) mit Rahmsauce, Preiselbeeren und Petersilienkartoffeln", 4.8),
-        Dish("Burgunderbraten vom Rind mit Knödel und Blaukraut", 6.2),
-        Dish("Quarkknödel auf Erdbeer-Rhabarber Kompott", 3.5)]
+        Dish("Gebackener Edamer mit Rohkostsalat und Preiselbeeren", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Köttbullar (Hackfleischbällchen) mit Rahmsauce, Preiselbeeren und Petersilienkartoffeln", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Burgunderbraten vom Rind mit Knödel und Blaukraut", 6.2, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Quarkknödel auf Erdbeer-Rhabarber Kompott", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])]
 
     y18w19_dishes_wed = [
-        Dish("Italienische Minestrone mit Reis", 3.5),
-        Dish("Gebackenes Schweineschnitzel mit Zitrone und Pommes frites", 5.9),
-        Dish("\"Vegetarian Vindaloo\" Kartoffeln und Tomaten in Currysauce, dazu Reis und frischer Koriander", 4.9),
+        Dish("Italienische Minestrone mit Reis", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("Gebackenes Schweineschnitzel mit Zitrone und Pommes frites", 5.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("\"Vegetarian Vindaloo\" Kartoffeln und Tomaten in Currysauce, dazu Reis und frischer Koriander", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
         # Note the " after the Basilikum is correct since it is part of the PDF
-        Dish("Farfalle \"al Tonno\" mit Thunfisch, Kapern, Oliven, Tomaten und Basilikum\"", 4.9)]
+        Dish("Farfalle \"al Tonno\" mit Thunfisch, Kapern, Oliven, Tomaten und Basilikum\"", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])]
 
     y18w19_dishes_fri = [
-        Dish("Spaghetti mit Tomatensauce und Reibekäse", 3.5),
-        Dish("2 Paar Schweinswürst ́l auf Sauerkraut und Püree", 4.8),
+        Dish("Spaghetti mit Tomatensauce und Reibekäse", 3.5, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
+        Dish("2 Paar Schweinswürst ́l auf Sauerkraut und Püree", 4.8, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]),
         Dish("\"Chicken Padam Pasanda\" mit Nusssauce, Kokos- flocken und indischen Gewürzen, dazu Basmatireis", 6.9),
-        Dish("Kartoffeltasche, gefüllt mit Kräuterfrischkäse auf Paprikagemüse", 4.9)]
+        Dish("Kartoffeltasche, gefüllt mit Kräuterfrischkäse auf Paprikagemüse", 4.9, ["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"])]
 
     y18w19_menu_mon = Menu(y18w19_date_mon, y18w19_dishes_mon)
     y18w19_menu_tue = Menu(y18w19_date_tue, y18w19_dishes_tue)
@@ -426,37 +426,37 @@ class MedizinerMensaParserTest(unittest.TestCase):
     date_sat1 = date(2018, 11, 3)
     date_sun1 = date(2018, 11, 4)
 
-    dish1_mon1 = Dish("Spinatcremesuppe", "N/A")
-    dish2_mon1 = Dish("Gekochtes Ochsenfleisch mit Meerrettich", "N/A")
-    dish3_mon1 = Dish("Kürbisauflauf", "N/A")
-    dish4_mon1 = Dish("Asiatische Gemüse-Puten-Pfanne mit Reisnudeln", "N/A")
+    dish1_mon1 = Dish("Spinatcremesuppe", "N/A", [])
+    dish2_mon1 = Dish("Gekochtes Ochsenfleisch mit Meerrettich", "N/A", [])
+    dish3_mon1 = Dish("Kürbisauflauf", "N/A", [])
+    dish4_mon1 = Dish("Asiatische Gemüse-Puten-Pfanne mit Reisnudeln", "N/A", [])
 
-    dish1_tue1 = Dish("Selleriecremesuppe", "N/A")
-    dish2_tue1 = Dish("Oldenburger Grünkohl mit Mettenden", "N/A")
-    dish3_tue1 = Dish("Kaschmir Kohlrabi und Brokkoli", "N/A")
-    dish4_tue1 = Dish("Conchiglioni Nudeln mit mit mediterranem Gemüse", "N/A")
+    dish1_tue1 = Dish("Selleriecremesuppe", "N/A", [])
+    dish2_tue1 = Dish("Oldenburger Grünkohl mit Mettenden", "N/A", [])
+    dish3_tue1 = Dish("Kaschmir Kohlrabi und Brokkoli", "N/A", [])
+    dish4_tue1 = Dish("Conchiglioni Nudeln mit mit mediterranem Gemüse", "N/A", [])
 
-    dish1_wed1 = Dish("Französische Zwiebelsuppe", "N/A")
-    dish2_wed1 = Dish("Germknödel mit Vanillesoße", "N/A")
-    dish3_wed1 = Dish("Herzhaftes Kartoffelgratin", "N/A")
-    dish4_wed1 = Dish("Holzfällersteak mit Bratkartoffeln und Weißkrautsalat", "N/A")
+    dish1_wed1 = Dish("Französische Zwiebelsuppe", "N/A", [])
+    dish2_wed1 = Dish("Germknödel mit Vanillesoße", "N/A", [])
+    dish3_wed1 = Dish("Herzhaftes Kartoffelgratin", "N/A", [])
+    dish4_wed1 = Dish("Holzfällersteak mit Bratkartoffeln und Weißkrautsalat", "N/A", [])
 
-    dish1_thu1 = Dish("Süßkartoffelcremesuppe", "N/A")
-    dish2_thu1 = Dish("Hähnchenbrust gegrillt", "N/A")
-    dish3_thu1 = Dish("In Sesamöl gebratenes Wokgemüse", "N/A")
+    dish1_thu1 = Dish("Süßkartoffelcremesuppe", "N/A", [])
+    dish2_thu1 = Dish("Hähnchenbrust gegrillt", "N/A", [])
+    dish3_thu1 = Dish("In Sesamöl gebratenes Wokgemüse", "N/A", [])
 
-    dish1_fri1 = Dish("Brokkolicremesuppe", "N/A")
-    dish2_fri1 = Dish("Forelle \"Müllerin Art \"", "N/A")
-    dish3_fri1 = Dish("Quarkklößchen", "N/A")
-    dish4_fri1 = Dish("Chili con Cous Cous mit Kürbis-Apfel-Salat", "N/A")
+    dish1_fri1 = Dish("Brokkolicremesuppe", "N/A", [])
+    dish2_fri1 = Dish("Forelle \"Müllerin Art \"", "N/A", [])
+    dish3_fri1 = Dish("Quarkklößchen", "N/A", [])
+    dish4_fri1 = Dish("Chili con Cous Cous mit Kürbis-Apfel-Salat", "N/A", [])
 
-    dish1_sat1 = Dish("Bratspätzlesuppe", "N/A")
-    dish2_sat1 = Dish("Geflügelpflanzerl", "N/A")
-    dish3_sat1 = Dish("Krauttopf mit einer Vollkornsemmel", "N/A")
+    dish1_sat1 = Dish("Bratspätzlesuppe", "N/A", [])
+    dish2_sat1 = Dish("Geflügelpflanzerl", "N/A", [])
+    dish3_sat1 = Dish("Krauttopf mit einer Vollkornsemmel", "N/A", [])
 
-    dish1_sun1 = Dish("Käsecremesuppe", "N/A")
-    dish2_sun1 = Dish("Geschmortes Kalbfleisch", "N/A")
-    dish3_sun1 = Dish("Vegetarische Moussaka", "N/A")
+    dish1_sun1 = Dish("Käsecremesuppe", "N/A", [])
+    dish2_sun1 = Dish("Geschmortes Kalbfleisch", "N/A", [])
+    dish3_sun1 = Dish("Vegetarische Moussaka", "N/A", [])
 
     menu_mon1 = Menu(date_mon1, [dish1_mon1, dish2_mon1, dish3_mon1, dish4_mon1])
     menu_tue1 = Menu(date_tue1, [dish1_tue1, dish2_tue1, dish3_tue1, dish4_tue1])
@@ -478,38 +478,38 @@ class MedizinerMensaParserTest(unittest.TestCase):
     date_sat2 = date(2018, 11, 24)
     date_sun2 = date(2018, 11, 25)
 
-    dish1_mon2 = Dish("Blumenkohlcremesuppe", "N/A")
-    dish2_mon2 = Dish("Pfannengyros mit Tzaziki", "N/A")
-    dish3_mon2 = Dish("Spaghetti \" Gemüsebolognese \"", "N/A")
-    dish4_mon2 = Dish("Thai-Curry aus Blumenkohl und Kartoffeln mit Gemüsreis und Salat", "N/A")
+    dish1_mon2 = Dish("Blumenkohlcremesuppe", "N/A", [])
+    dish2_mon2 = Dish("Pfannengyros mit Tzaziki", "N/A", [])
+    dish3_mon2 = Dish("Spaghetti \" Gemüsebolognese \"", "N/A", [])
+    dish4_mon2 = Dish("Thai-Curry aus Blumenkohl und Kartoffeln mit Gemüsreis und Salat", "N/A", [])
 
-    dish1_tue2 = Dish("Gelbe Erbsensuppe", "N/A")
-    dish2_tue2 = Dish("Grüner Bohneneintopf mit Rindfleisch", "N/A")
-    dish3_tue2 = Dish("Veggi-Gulasch", "N/A")
-    dish4_tue2 = Dish("Rotbarschfischfilet in Dillsoße mit Kürbisgemüse und Wacholderreis", "N/A")
+    dish1_tue2 = Dish("Gelbe Erbsensuppe", "N/A", [])
+    dish2_tue2 = Dish("Grüner Bohneneintopf mit Rindfleisch", "N/A", [])
+    dish3_tue2 = Dish("Veggi-Gulasch", "N/A", [])
+    dish4_tue2 = Dish("Rotbarschfischfilet in Dillsoße mit Kürbisgemüse und Wacholderreis", "N/A", [])
 
-    dish1_wed2 = Dish("Rinderbrühe \" Gärtnerin \"", "N/A")
-    dish2_wed2 = Dish("Schweinegulasch", "N/A")
-    dish3_wed2 = Dish("Gemüsekuchen mit Mozzarella überbacken", "N/A")
-    dish4_wed2 = Dish("Schinkennudeln mit Tomatensoße, dazu gemischter Salat", "N/A")
+    dish1_wed2 = Dish("Rinderbrühe \" Gärtnerin \"", "N/A", [])
+    dish2_wed2 = Dish("Schweinegulasch", "N/A", [])
+    dish3_wed2 = Dish("Gemüsekuchen mit Mozzarella überbacken", "N/A", [])
+    dish4_wed2 = Dish("Schinkennudeln mit Tomatensoße, dazu gemischter Salat", "N/A", [])
 
-    dish1_thu2 = Dish("Kürbiscremesuppe", "N/A")
-    dish2_thu2 = Dish("Rinderhackbraten", "N/A")
-    dish3_thu2 = Dish("Dinkel-Kräuterbratling", "N/A")
-    dish4_thu2 = Dish("Pikantes Risotto mit buntem Gemüse und Tomatensalat mit Basilikum", "N/A")
+    dish1_thu2 = Dish("Kürbiscremesuppe", "N/A", [])
+    dish2_thu2 = Dish("Rinderhackbraten", "N/A", [])
+    dish3_thu2 = Dish("Dinkel-Kräuterbratling", "N/A", [])
+    dish4_thu2 = Dish("Pikantes Risotto mit buntem Gemüse und Tomatensalat mit Basilikum", "N/A", [])
 
-    dish1_fri2 = Dish("Minestrone", "N/A")
-    dish2_fri2 = Dish("Gebratene Hähnchenbrust", "N/A")
-    dish3_fri2 = Dish("Scheiterhaufen  mit Apfel-Vanille-Ragout", "N/A")
-    dish4_fri2 = Dish("Paniertes Schnitzel vom Schwein und Pute mit Kartoffelmayosalat und Zitronenecke", "N/A")
+    dish1_fri2 = Dish("Minestrone", "N/A", [])
+    dish2_fri2 = Dish("Gebratene Hähnchenbrust", "N/A", [])
+    dish3_fri2 = Dish("Scheiterhaufen  mit Apfel-Vanille-Ragout", "N/A", [])
+    dish4_fri2 = Dish("Paniertes Schnitzel vom Schwein und Pute mit Kartoffelmayosalat und Zitronenecke", "N/A", [])
 
-    dish1_sat2 = Dish("Tomatencremesuppe", "N/A")
-    dish2_sat2 = Dish("Pichelsteiner Gemüseeintopf mit Rindfleisch", "N/A")
-    dish3_sat2 = Dish("Ofenkartoffel mit herzhaftem Gemüseragout", "N/A")
+    dish1_sat2 = Dish("Tomatencremesuppe", "N/A", [])
+    dish2_sat2 = Dish("Pichelsteiner Gemüseeintopf mit Rindfleisch", "N/A", [])
+    dish3_sat2 = Dish("Ofenkartoffel mit herzhaftem Gemüseragout", "N/A", [])
 
-    dish1_sun2 = Dish("Grießnockerlsuppe", "N/A")
-    dish2_sun2 = Dish("Glasierter Putenbraten in Kräuterrahmsoße", "N/A")
-    dish3_sun2 = Dish("Eieromelett", "N/A")
+    dish1_sun2 = Dish("Grießnockerlsuppe", "N/A", [])
+    dish2_sun2 = Dish("Glasierter Putenbraten in Kräuterrahmsoße", "N/A", [])
+    dish3_sun2 = Dish("Eieromelett", "N/A", [])
 
     menu_mon2 = Menu(date_mon2, [dish1_mon2, dish2_mon2, dish3_mon2, dish4_mon2])
     menu_tue2 = Menu(date_tue2, [dish1_tue2, dish2_tue2, dish3_tue2, dish4_tue2])
