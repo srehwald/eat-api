@@ -161,7 +161,7 @@ class StudentenwerkMenuParser(MenuParser):
                 dish_ingredients = Ingredients(location)
                 dish_ingredients.parse_ingredients(dishes_dict[name][1])
                 dish_ingredients.parse_ingredients(dishes_dict[name][2])
-                dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name][0], "N/A"), dish_ingredients.ingredient_list))
+                dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name][0], "N/A"), dish_ingredients.ingredient_set))
 
         return dishes
 
@@ -300,7 +300,7 @@ class FMIBistroMenuParser(MenuParser):
                 if dish_name:
                     ingredients = Ingredients("fmi-bistro")
                     ingredients.parse_ingredients(dish_allergen)
-                    dishes.append(Dish(dish_name, price, ingredients.ingredient_list))
+                    dishes.append(Dish(dish_name, price, ingredients.ingredient_set))
             dishes = dishes[:num_dishes]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
@@ -442,7 +442,7 @@ class IPPBistroMenuParser(MenuParser):
             ingredients = Ingredients("ipp-bistro")
             ingredients.parse_ingredients("Mi,Gl,Sf,Sl,Ei,Se,4")
             # create list of Dish objects
-            dishes = [Dish(dish_name, price, ingredients.ingredient_list) for (dish_name, price) in list(zip(dish_names, prices))]
+            dishes = [Dish(dish_name, price, ingredients.ingredient_set) for (dish_name, price) in list(zip(dish_names, prices))]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
@@ -473,7 +473,7 @@ class MedizinerMensaMenuParser(MenuParser):
                 dish_price = x[0].replace("€", "")
         dish_str = re.sub(self.price_regex, "", dish_str)
 
-        return Dish(dish_str, dish_price, dish_ingredients.ingredient_list)
+        return Dish(dish_str, dish_price, dish_ingredients.ingredient_set)
 
     def parse(self, location):
         page = requests.get(self.url)

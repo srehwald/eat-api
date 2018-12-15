@@ -11,15 +11,15 @@ class Dish:
 
     def __repr__(self):
         if type(self.price) is not str:
-            return "%s: %.2f€" % (self.name, self.price)
+            return "%s %s: %.2f€" % (self.name, str(self.ingredients), self.price)
         else:
-            return "%s: %s" % (self.name, self.price)
+            return "%s %s: %s" % (self.name, str(self.ingredients), self.price)
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
             return (self.name == other.name
                     and self.price == other.price
-                    and set(self.ingredients) == set(other.ingredients)) # order does not matter
+                    and self.ingredients == other.ingredients)
         return False
 
     def __hash__(self):
@@ -209,7 +209,7 @@ class Ingredients:
 
     def __init__(self, location):
         self.location = location
-        self.ingredient_list = []
+        self.ingredient_set = set()
 
     def parse_ingredients(self, values):
         values = values.strip()
@@ -230,10 +230,7 @@ class Ingredients:
                 if not value in self.ingredient_lookup:
                     print("Unknown ingredient for " + self.location + " found: " + str(value))
                     continue
-                self.ingredient_list.append(value)
-        
-        # remove duplicates
-        self.ingredient_list = list(set(self.ingredient_list))
+                self.ingredient_set.add(value)
     
     def parse_lookup_ingredients(self, values, lookup):
         split_values = values.split(",")
@@ -244,7 +241,7 @@ class Ingredients:
             if not value in lookup:
                 print("Unknown ingredient for " + self.location + " found: " + str(value))
                 continue
-            self.ingredient_list.append(lookup[value])
+            self.ingredient_set.add(lookup[value])
 
     def __hash__(self):
-        return hash(str(self.ingredient_list))
+        return hash(str(self.ingredient_set))
