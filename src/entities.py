@@ -22,6 +22,10 @@ class Dish:
                     and self.ingredients == other.ingredients)
         return False
 
+    def to_json_obj(self):
+        return {"name": self.name, "price": self.price,
+             "ingredients": list(self.ingredients)}
+
     def __hash__(self):
         # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
         return (hash(self.name) << 1) ^ hash(self.price) ^ hash(frozenset(self.ingredients))
@@ -69,7 +73,7 @@ class Week:
 
     def to_json_obj(self):
         return {"number": self.calendar_week, "year": self.year,
-             "days": [{"date": str(menu.menu_date), "dishes": [dish.__dict__ for dish in menu.dishes]} for menu in
+             "days": [{"date": str(menu.menu_date), "dishes": [dish.to_json_obj() for dish in menu.dishes]} for menu in
                       self.days]}
 
     def to_json(self):
