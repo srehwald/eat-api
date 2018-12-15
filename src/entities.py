@@ -11,9 +11,9 @@ class Dish:
 
     def __repr__(self):
         if type(self.price) is not str:
-            return "%s %s: %.2f€" % (self.name, str(self.ingredients), self.price)
+            return "%s %s: %.2f€" % (self.name, str(frozenset(self.ingredients)), self.price)
         else:
-            return "%s %s: %s" % (self.name, str(self.ingredients), self.price)
+            return "%s %s: %s" % (self.name, str(frozenset(self.ingredients)), self.price)
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
@@ -24,7 +24,7 @@ class Dish:
 
     def __hash__(self):
         # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
-        return (hash(self.name) << 1) ^ hash(self.price) ^ hash(str(self.ingredients))
+        return (hash(self.name) << 1) ^ hash(self.price) ^ hash(frozenset(self.ingredients))
 
 
 class Menu:
@@ -244,4 +244,4 @@ class Ingredients:
             self.ingredient_set.add(lookup[value])
 
     def __hash__(self):
-        return hash(str(self.ingredient_set))
+        return hash(frozenset(self.ingredient_set))
