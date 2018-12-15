@@ -142,12 +142,13 @@ class StudentenwerkMenuParser(MenuParser):
         # obtain all ingredients
         dish_markers_additional = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--additional')]/@data-essen")
         dish_markers_allergen = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--allergen')]/@data-essen")
+        dish_markers_type = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--type')]/@data-essen")
 
         # create dictionary out of dish name and dish type
         dishes_dict = {}
-        dishes_tup = zip(dish_names, dish_types, dish_markers_additional, dish_markers_allergen)
-        for dish_name, dish_type, dish_marker_additional, dish_marker_allergen in dishes_tup:
-            dishes_dict[dish_name] = (dish_type, dish_marker_additional, dish_marker_allergen)
+        dishes_tup = zip(dish_names, dish_types, dish_markers_additional, dish_markers_allergen, dish_markers_type)
+        for dish_name, dish_type, dish_marker_additional, dish_marker_allergen, dish_marker_type in dishes_tup:
+            dishes_dict[dish_name] = (dish_type, dish_marker_additional, dish_marker_allergen, dish_marker_type)
 
         # create Dish objects with correct prices; if price is not available, -1 is used instead
         dishes = []
@@ -161,6 +162,7 @@ class StudentenwerkMenuParser(MenuParser):
                 dish_ingredients = Ingredients(location)
                 dish_ingredients.parse_ingredients(dishes_dict[name][1])
                 dish_ingredients.parse_ingredients(dishes_dict[name][2])
+                dish_ingredients.parse_ingredients(dishes_dict[name][3])
                 dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name][0], "N/A"), dish_ingredients.ingredient_set))
 
         return dishes
