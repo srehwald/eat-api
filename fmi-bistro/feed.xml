@@ -1,118 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-10">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kürbiscremesuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Kichererbsen -Gemüsecurry mit Reis</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Grünkohl-Pasta mit Chili- Sahnesoße</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Geflügel Köttbullar mit Salzkartoffeln Rahmsoße und Preiselbeeren</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Rindergulasch “Ungarisch” mit Semmelknödel</name>
-          <price role="other">5.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-11">
-      <category name="Speiseplan">
-        <meal>
-          <name>Karotten-Orangensuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Kürbis-Rosenkohl-Maronen- pfanne mit Kressedip</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Rote Beete-Möhrchen- ragout mit Bulgur</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Fleischtortellini mit Chorizo- Tomatensugo</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Kalbsbraten in Champignonrahm mit Spätzle</name>
-          <price role="other">6.10</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-12">
-      <category name="Speiseplan">
-        <meal>
-          <name>Dicke Weiße Bohnensuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Djuvec Reis mit Blattsalate</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Blattspinat mit Oliven und Hirtenkäse dazu Paprika- Kartoffeln</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Cordon-Bleu vom Schwein mit Wedjes-Kartoffeln</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
-          <price role="other">4.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-13">
-      <category name="Speiseplan">
-        <meal>
-          <name>Maiscremesuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Kartoffel-Blumenkohl- gulasch</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Spaghetti mit Tomaten- Basilikumsoße</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Züricher Putengeschnetzeltes mit Butterreis</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill: Currywurst mit Pommes</name>
-          <price role="other">3.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-12-14">
-      <category name="Speiseplan">
-        <meal>
-          <name>Chinesische Suppe mit Gemüse und Mie-Nudeln</name>
-          <price role="other">3.60</price>
-        </meal>
-        <meal>
-          <name>Ofen-Pancake mit warmen Erdbeeren</name>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
-          <name>Schlemmerfilet “Bordelaise” mit Dillkartoffeln</name>
-          <price role="other">4.40</price>
-        </meal>
-      </category>
-    </day>
     <day date="2018-12-17">
       <category name="Speiseplan">
         <meal>
@@ -222,6 +110,66 @@
         <meal>
           <name>Regenbogenforelle “Müllerin Art” mit Petersilienkartoffeln</name>
           <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-09">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsesuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Kraut-Schupfnudel</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>Spaghetti “Carbonara“</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Zwiebelsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Thaicurry mit Gemüse und Erdnüssen dazu Basmatireis</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hähnchenschnitzel „Wiener Art“ mit Kartoffelsalat</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Currywurst mit Pommes</name>
+          <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-11">
+      <category name="Speiseplan">
+        <meal>
+          <name>Minestrone</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Grieß-Kokosmilch mit warmen Himbeeren</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Schwäbischer Ofenschlüfer</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Fischfilet in Kartoffelpanade dazu Kartoffel-Fenchelgemüse</name>
+          <price role="other">4.60</price>
         </meal>
       </category>
     </day>
