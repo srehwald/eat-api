@@ -463,16 +463,23 @@ class MedizinerMensaMenuParser(MenuParser):
     def parse_dish(self, dish_str):
         # ingredients
         dish_ingredients = Ingredients("mediziner-mensa")
-        for x in re.findall(self.ingredients_regex, dish_str):
-            if len(x) > 0:
-                dish_ingredients.parse_ingredients(x[0])
-        dish_str = re.sub(self.ingredients_regex, "", dish_str)
+        if "Kürbisauflauf" in dish_str:
+            print("Hi")
+        matches = re.findall(self.ingredients_regex, dish_str)
+        while len(matches) > 0:
+            for x in matches:
+                if len(x) > 0:
+                    dish_ingredients.parse_ingredients(x[0])
+            dish_str = re.sub(self.ingredients_regex, " ", dish_str)
+            matches = re.findall(self.ingredients_regex, dish_str)
+        dish_str = re.sub(r"\s+", " ", dish_str).strip()
+        dish_str = dish_str.replace(" , ", ", ")
 
         # price
         dish_price = "N/A"
         for x in re.findall(self.price_regex, dish_str):
             if len(x) > 0:
-                dish_price = x[0].replace("€", "")
+                dish_price = float(x[0].replace("€", "").replace(",", ".").strip())
         dish_str = re.sub(self.price_regex, "", dish_str)
 
         return Dish(dish_str, dish_price, dish_ingredients.ingredient_set)
