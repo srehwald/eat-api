@@ -250,14 +250,12 @@ class IPPBistroParserTest(unittest.TestCase):
     dish4_tue1 = Dish("\"Bami Goreng\" indonesische Bratnudeln mit Gemüse, Huhn, Schweinefleisch und Pilzen, " \
                       "dazu Honig-Chili- Dip", 6.9, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
     dish1_wed1 = Dish("Erbseneintopf (mit Wienerle 4,20 €)", 3.5, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
-    # TODO fix "B"
     dish2_wed1 = Dish("Hackbraten mit Zigeunersauce und Reis", 4.8, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
     dish3_wed1 = Dish("\"Farfalle Rustico\" mit Champignons, Schinken Tomaten und Peperoni (auf Wunsch mit "
                       "Reibekäse)", 4.6, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
     dish4_wed1 = Dish("Rumpsteak mit Balsamico Pilzen und Wedges", 7.9, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
     dish1_thu1 = Dish("Mediterrane Frittata mit Zucchini, Kartoffeln, Paprika, kleiner Salatbeilage und "
                       "Joghurt-Limetten Dip", 3.5, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
-    # TODO fix bug that B of Brett is missing -> rett
     dish2_thu1 = Dish("Frischer Bayrischer Schweinenackenbraten vom Brett geschnitten dazu Kartoffel- Gurkensalat", 4.5, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
     dish3_thu1 = Dish("\"Enchilada Verdura\", überbackene Weizentortilla, gefüllt mit Hähnchenfleisch, Sauerrahm, "
                       "Kidneybohnen, Mais, dazu", 5.9, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
@@ -280,7 +278,6 @@ class IPPBistroParserTest(unittest.TestCase):
     dish1_mon2 = Dish("Wirsing-Kartoffelauflauf mit Bechamel und Käse", 3.5, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
     dish2_mon2 = Dish("Paprikarahm Geschnetzeltes mit Paprikamix und Nudeln", 4.8, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
     dish3_mon2 = Dish("\"Dal Curry\" mit Kartoffeln, Kokosmilch, Ingwer, Koriander, Reis und scharfem Chutney", 4.9, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
-    # TODO fix missing "R" of "Rinderbraten"
     dish4_mon2 = Dish("Deftiger Hüttenschmaus, Rinderrostbraten mit Zwiebeln, Semmelknödel und gebratenem Gemüse",
                       7.9, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
     dish1_tue2 = Dish("Herbstliche Gemüse-Reis Pfanne mit pikantem Mango Dip", 3.5, set(["Mi", "Gl", "Sf", "Sl", "Ei", "Se", "4"]))
