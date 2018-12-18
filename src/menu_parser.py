@@ -463,8 +463,6 @@ class MedizinerMensaMenuParser(MenuParser):
     def parse_dish(self, dish_str):
         # ingredients
         dish_ingredients = Ingredients("mediziner-mensa")
-        if "Kürbisauflauf" in dish_str:
-            print("Hi")
         matches = re.findall(self.ingredients_regex, dish_str)
         while len(matches) > 0:
             for x in matches:
