@@ -11,9 +11,9 @@ class Dish:
 
     def __repr__(self):
         if type(self.price) is not str:
-            return "%s %s: %.2f€" % (self.name, str(frozenset(self.ingredients)), self.price)
+            return "%s %s: %.2f€" % (self.name, str(list(self.ingredients)), self.price)
         else:
-            return "%s %s: %s" % (self.name, str(frozenset(self.ingredients)), self.price)
+            return "%s %s: %s" % (self.name, str(list(self.ingredients)), self.price)
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
