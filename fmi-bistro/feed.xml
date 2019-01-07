@@ -1,66 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-01-09">
-      <category name="Speiseplan">
-        <meal>
-          <name>Gemüsesuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Kraut-Schupfnudel</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Spaghetti “Carbonara“</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
-          <price role="other">4.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-01-10">
-      <category name="Speiseplan">
-        <meal>
-          <name>Zwiebelsuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Thaicurry mit Gemüse und Erdnüssen dazu Basmatireis</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Hähnchenschnitzel „Wiener Art“ mit Kartoffelsalat</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill: Currywurst mit Pommes</name>
-          <price role="other">3.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-01-11">
-      <category name="Speiseplan">
-        <meal>
-          <name>Minestrone</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Grieß-Kokosmilch mit warmen Himbeeren</name>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
-          <name>Schwäbischer Ofenschlüfer</name>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
-          <name>Fischfilet in Kartoffelpanade dazu Kartoffel-Fenchelgemüse</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2019-01-14">
       <category name="Speiseplan">
         <meal>
@@ -169,6 +109,114 @@
         </meal>
         <meal>
           <name>Seelachsfilet “Provencial” mit Dampfkartoffeln</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsebrühe mit Eierstich</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Mienudeln mit Wokgemüse und Sweet-Chilisoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hähnchen-Knusperschnitzel mit Röstkartoffeln und Zitrone</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Roastbeef vom Grill mit Shrimps-Bernaisesoße dazu Kroketten</name>
+          <price role="other">6.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-22">
+      <category name="Speiseplan">
+        <meal>
+          <name>Linsensuppe mit Gemüse</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Gemüsecurry mit Duftreis</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hirtentasche mit Spinat gefüllt auf Paprikagemüse</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Rindfleischburger im Pizzabrötchen dazu Pestodip Ruccola und Tomate</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Hirschkeule in Preiselbeerjus dazu Schupfnudeln</name>
+          <price role="other">5.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Grießnockerlsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Kichererbsen-Karottenpfanne mit Kartoffeln</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Gemüseauflauf</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Krustenbraten vom Schwein mit Kartoffelknödel und Krautsalat</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-24">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsesuppe mit CousCous</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Geschmorte Gurken mit Dillspitzen und Ebly- Weizen</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Käsetortellini mit Broccoli-Käsesoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrust mit Bananen-Currysoße dazu Früchtereis</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill: Currywurst mit Pommes</name>
+          <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-25">
+      <category name="Speiseplan">
+        <meal>
+          <name>Yellow-Thaisuppe mit Asiagemüse und Kokosmilch</name>
+          <price role="other">3.60</price>
+        </meal>
+        <meal>
+          <name>Dampfnudel mit Vanillesoße</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Fischroulade gebacken in Broccolifüllung dazu Hamburger Kartoffelsalat</name>
           <price role="other">4.60</price>
         </meal>
       </category>
