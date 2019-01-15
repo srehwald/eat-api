@@ -16,13 +16,15 @@ from entities import Dish, Menu
 
 
 class MenuParser:
-    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5, "sat": 6, "sun": 0}
+    # we use datetime %u, so we go from 1-7
+    weekday_positions = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5, "sat": 6, "sun": 7}
 
-    def get_date(self, year, week_number, day):
+    @staticmethod
+    def get_date(year, week_number, day):
         # get date from year, week number and current weekday
         # https://stackoverflow.com/questions/17087314/get-date-from-week-number
         # but use the %G for year and %V for the week since in Germany we use ISO 8601 for week numbering
-        date_format = "%G-W%V-%w"
+        date_format = "%G-W%V-%u"
         date_str = "%d-W%d-%d"
 
         date = datetime.strptime(date_str % (year, week_number, day), date_format).date()

@@ -104,5 +104,5 @@ $ python src/main.py mensa-arcisstrasse -d 02.04.2017
   * `sudo apt install libxml2 libxml2-dev libxslt1-dev`
   * `pip3 install -r requirements.txt`
 3. Run tests:
-  * All the test: `PYTHONPATH=src/ python3 -m unittest`
-  * A specific test: `PYTHONPATH=src/ python3 -m unittest test.test_menu_parser.MenuParserTest` 
+  * All the tests: `PYTHONPATH=src/ pytest`
+  * A specific test file: `PYTHONPATH=src/ pytest src/test/test_menu_parser.py` 
