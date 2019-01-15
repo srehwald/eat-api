@@ -21,14 +21,9 @@ class MenuParser:
     def get_date(self, year, week_number, day):
         # get date from year, week number and current weekday
         # https://stackoverflow.com/questions/17087314/get-date-from-week-number
-        date_format = "%Y-W%W-%w"
+        # but use the %G for year and %V for the week since in Germany we use ISO 8601 for week numbering
+        date_format = "%G-W%V-%w"
         date_str = "%d-W%d-%d"
-
-        # we have to decrease the week number by 1 if in any given year the week 0 day 1 (Monday) resolves to
-        # the previous year. This is because the %W argument of strptime assigns 1 to the week with the first 
-        # Monday in it but in Germany week 1 is the very first (partial) week in any year
-        if(datetime.strptime(date_str % (year, 0, 1), date_format).year != year):
-            week_number -= 1
 
         date = datetime.strptime(date_str % (year, week_number, day), date_format).date()
 

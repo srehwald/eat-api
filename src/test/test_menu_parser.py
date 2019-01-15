@@ -16,6 +16,7 @@ class MenuParserTest(unittest.TestCase):
     menu_parser = MenuParser()
 
     def test_get_date(self):
+        self.assertEqual(date(2017, 10, 30), self.menu_parser.get_date(2017, 44, 1))
         self.assertEqual(date(2018, 1, 1), self.menu_parser.get_date(2018, 1, 1))
         self.assertEqual(date(2019, 1, 7), self.menu_parser.get_date(2019, 2, 1))
 
