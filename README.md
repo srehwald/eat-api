@@ -96,3 +96,13 @@ $ python src/main.py mensa-arcisstrasse -d 02.04.2017
 - `FMeat.php` SDK ([GitHub](https://github.com/jpbernius/fmeat.php))
 - [Telegram](https://telegram.org/) bot for [Channel t.me/lunchgfz](https://t.me/lunchgfz) ([GitLab](https://gitlab.com/raabf/lunchgfz-telegram))
 - UWP-TUM-Campus-App ([Github](https://github.com/COM8/UWP-TUM-Campus-App))
+
+## Contributing
+
+1. Fork and clone this repository
+2. Install the python dependencies:
+  * `sudo apt install libxml2 libxml2-dev libxslt1-dev`
+  * `pip3 install -r requirements.txt`
+3. Run tests:
+  * All the test: `PYTHONPATH=src/ python3 -m unittest`
+  * A specific test: `PYTHONPATH=src/ python3 -m unittest test.test_menu_parser.MenuParserTest` 
