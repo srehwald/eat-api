@@ -105,4 +105,4 @@ $ python src/main.py mensa-arcisstrasse -d 02.04.2017
   * `pip3 install -r requirements.txt`
 3. Run tests:
   * All the tests: `PYTHONPATH=src/ pytest`
-  * A specific test file: `PYTHONPATH=src/ pytest src/test/test_menu_parser.py` 
+  * A specific test class: `PYTHONPATH=src/ pytest src/test/test_menu_parser.py::MenuParserTest` 
