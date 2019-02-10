@@ -9,10 +9,10 @@
                     "name": "Penne all'arrabiata",
                     "price": "individual",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Kn",
-                        "2"
+                        "Gl",
+                        "2",
+                        "GlW"
                     ]
                 },
                 {
@@ -20,49 +20,49 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
-                        "Gl",
+                        "Sc",
                         "GlW",
-                        "ScM",
                         "Kn",
-                        "Sc"
+                        "Gl",
+                        "ScM"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Rahmsauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "S",
-                        "Gl",
-                        "GlG",
-                        "Mi",
-                        "Ei",
-                        "R",
-                        "GlW",
                         "Sf",
-                        "Kn"
+                        "Mi",
+                        "R",
+                        "Ei",
+                        "GlW",
+                        "Kn",
+                        "Gl",
+                        "S",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Maultaschen mit Frischkäsefüllung auf Rahmgemüse",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Sw",
-                        "99",
                         "Sl",
-                        "Gl",
+                        "99",
                         "Mi",
                         "Ei",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "0.33€ / 100g",
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
                         "Sl",
-                        "Kn"
+                        "GlW"
                     ]
                 }
             ]
@@ -74,22 +74,22 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": "individual",
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
                         "Sl",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pasta all'amatriciana",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "S",
-                        "Gl",
-                        "2",
                         "GlW",
-                        "Kn"
+                        "3",
+                        "Kn",
+                        "Gl",
+                        "S",
+                        "2"
                     ]
                 },
                 {
@@ -104,25 +104,25 @@
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "1",
-                        "Gl",
+                        "Sf",
                         "Mi",
                         "Ei",
-                        "2",
+                        "1",
                         "GlW",
-                        "Sf",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "3",
-                        "S",
                         "5",
                         "Mi",
-                        "Kn"
+                        "3",
+                        "Kn",
+                        "S"
                     ]
                 },
                 {
@@ -130,8 +130,8 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "Kn",
-                        "Sf",
-                        "2"
+                        "2",
+                        "Sf"
                     ]
                 }
             ]
@@ -151,32 +151,32 @@
                     "name": "Gnocchi auf Hirtenart",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "S",
-                        "Gl",
                         "Mi",
-                        "2",
                         "GlW",
-                        "Kn"
+                        "3",
+                        "Kn",
+                        "Gl",
+                        "S",
+                        "2"
                     ]
                 },
                 {
                     "name": "Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "99",
-                        "3",
+                        "Sf",
                         "Sl",
-                        "S",
-                        "Gl",
-                        "GlG",
+                        "99",
                         "Mi",
-                        "2",
                         "R",
                         "GlW",
-                        "Sf",
-                        "Kn"
+                        "3",
+                        "Kn",
+                        "Gl",
+                        "Sw",
+                        "S",
+                        "GlG",
+                        "2"
                     ]
                 },
                 {
@@ -189,12 +189,12 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Sl",
-                        "1",
-                        "Gl",
                         "Mi",
-                        "2",
+                        "1",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
@@ -220,75 +220,75 @@
                     "name": "Pasta Pesto Calabrese mit Ricotta, Tomaten,buntem Paprika und Cashewkernen",
                     "price": "individual",
                     "ingredients": [
-                        "Gl",
-                        "Sc",
                         "Mi",
-                        "Ei",
-                        "2",
-                        "GlW",
                         "ScC",
-                        "Kn"
+                        "Ei",
+                        "Sc",
+                        "GlW",
+                        "Kn",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
                     "name": "Pasta Emiliana mit (Vorder-)Schinken und Erbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "S",
-                        "Gl",
                         "Mi",
-                        "2",
                         "GlW",
-                        "8"
+                        "3",
+                        "Gl",
+                        "S",
+                        "8",
+                        "2"
                     ]
                 },
                 {
                     "name": "Hähnchenschnitzel in Nuß-Mandel-Sesam-Panade und Currydip",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "Gl",
-                        "ScH",
-                        "Mi",
-                        "Ei",
-                        "GlW",
-                        "ScM",
                         "Sf",
                         "Se",
-                        "Sc"
+                        "Mi",
+                        "Ei",
+                        "1",
+                        "Sc",
+                        "GlW",
+                        "ScH",
+                        "Gl",
+                        "ScM"
                     ]
                 },
                 {
                     "name": "Gefüllte Paprikaschote mit Tomatensauce und Reis",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "1",
-                        "Gl",
                         "Mi",
-                        "GlD",
-                        "Kn"
+                        "1",
+                        "Kn",
+                        "Gl",
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "S",
-                        "Gl",
                         "Mi",
                         "R",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Polentaschnitte an gedünstetem Blattspinat",
                     "price": "0.33€ / 100g",
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 }
             ]
@@ -300,26 +300,26 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "Gl",
+                        "9",
                         "Mi",
                         "Ei",
-                        "2",
-                        "Fi",
+                        "1",
                         "GlW",
-                        "9"
+                        "Gl",
+                        "Fi",
+                        "2"
                     ]
                 },
                 {
                     "name": "Ungarisches Würstelgulasch",
                     "price": "0.75€ / 100g",
                     "ingredients": [
+                        "Sf",
+                        "R",
                         "3",
                         "S",
-                        "2",
-                        "R",
-                        "Sf",
-                        "8"
+                        "8",
+                        "2"
                     ]
                 },
                 {
@@ -335,9 +335,9 @@
                     "name": "Indisches Linsencurry",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Sf",
+                        "Kn",
                         "Sl",
-                        "Kn"
+                        "Sf"
                     ]
                 }
             ]

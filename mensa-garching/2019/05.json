@@ -9,34 +9,34 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Sl",
                         "GlW",
-                        "Sl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "GlW",
                         "2",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Rahmsauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Sf",
                         "GlG",
-                        "Gl",
+                        "S",
                         "Ei",
                         "Mi",
+                        "Gl",
                         "Kn",
-                        "Sf",
                         "GlW",
-                        "S",
                         "R"
                     ]
                 },
@@ -44,10 +44,10 @@
                     "name": "Ofenfrischer Leberkäse mit Petersilienkartoffel",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "3",
-                        "8",
                         "S",
+                        "3",
+                        "2",
+                        "8",
                         "R"
                     ]
                 },
@@ -55,11 +55,11 @@
                     "name": "Ofenfrischer Leberkäse mit Kartoffel-Gurkensalat",
                     "price": 2.4,
                     "ingredients": [
+                        "S",
+                        "3",
                         "5",
                         "2",
-                        "3",
                         "8",
-                        "S",
                         "R"
                     ]
                 }
@@ -72,17 +72,17 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Sf",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
                         "Gl",
+                        "2",
                         "Kn",
                         "GlW",
                         "R"
@@ -92,27 +92,27 @@
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "Gl",
-                        "Ei",
-                        "1",
-                        "Mi",
-                        "Kn",
                         "Sf",
-                        "GlW"
+                        "Ei",
+                        "Mi",
+                        "Gl",
+                        "2",
+                        "Kn",
+                        "GlW",
+                        "1"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "5",
-                        "3",
-                        "Gl",
+                        "S",
                         "Mi",
+                        "Gl",
+                        "3",
+                        "5",
                         "Kn",
-                        "GlW",
-                        "S"
+                        "GlW"
                     ]
                 }
             ]
@@ -138,19 +138,19 @@
                     "name": "Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Sl",
-                        "GlG",
-                        "2",
-                        "3",
-                        "Gl",
-                        "99",
-                        "Mi",
-                        "Kn",
                         "Sf",
-                        "GlW",
+                        "GlG",
+                        "Sl",
                         "S",
-                        "R",
-                        "Sw"
+                        "Mi",
+                        "Gl",
+                        "3",
+                        "99",
+                        "Sw",
+                        "2",
+                        "Kn",
+                        "GlW",
+                        "R"
                     ]
                 }
             ]
@@ -162,22 +162,22 @@
                     "name": "Polentaschnitte an gedünstetem Blattspinat",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "Gl",
-                        "Ei",
-                        "1",
-                        "Mi",
                         "Sf",
-                        "GlW"
+                        "Ei",
+                        "Mi",
+                        "Gl",
+                        "2",
+                        "GlW",
+                        "1"
                     ]
                 },
                 {
@@ -192,11 +192,11 @@
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "Gl",
+                        "S",
                         "Mi",
+                        "Gl",
                         "Kn",
                         "GlW",
-                        "S",
                         "R"
                     ]
                 }
@@ -209,20 +209,20 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
+                        "Sf",
                         "Sl",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Ungarisches Würstelgulasch",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "3",
-                        "8",
                         "Sf",
                         "S",
+                        "3",
+                        "2",
+                        "8",
                         "R"
                     ]
                 },
@@ -230,14 +230,14 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "2",
-                        "Gl",
                         "Ei",
-                        "1",
                         "Mi",
-                        "Fi",
+                        "Gl",
+                        "2",
                         "GlW",
-                        "9"
+                        "9",
+                        "Fi",
+                        "1"
                     ]
                 }
             ]

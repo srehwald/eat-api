@@ -9,9 +9,9 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Sf",
+                        "Sl",
                         "Kn",
-                        "Sl"
+                        "Sf"
                     ]
                 },
                 {
@@ -19,9 +19,9 @@
                     "price": 1.55,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "2",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -30,22 +30,22 @@
                     "ingredients": [
                         "Gl",
                         "GlW",
-                        "Ei",
                         "Kn",
-                        "Mi"
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Münchner Biergulasch vom Schwein aus der LMU-Zucht mit Semmelknödel",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
                         "99",
-                        "GlW",
-                        "Ei",
-                        "GlG",
+                        "Gl",
+                        "Mi",
                         "Kn",
-                        "Mi"
+                        "GlG",
+                        "GlW",
+                        "Ei"
                     ]
                 }
             ]
@@ -64,13 +64,13 @@
                     "name": "Fleckerl mit Vorderschinken und Erbsen",
                     "price": 1.55,
                     "ingredients": [
+                        "3",
                         "Gl",
                         "GlW",
-                        "Ei",
-                        "3",
                         "S",
+                        "2",
                         "8",
-                        "2"
+                        "Ei"
                     ]
                 },
                 {
@@ -78,14 +78,14 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Ei",
-                        "Sl",
+                        "Mi",
                         "So",
                         "2",
-                        "Sf",
                         "Kn",
-                        "Mi"
+                        "Sf",
+                        "GlW",
+                        "Ei",
+                        "Sl"
                     ]
                 },
                 {
@@ -93,9 +93,9 @@
                     "price": 3.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "2",
-                        "9"
+                        "9",
+                        "GlW"
                     ]
                 }
             ]
@@ -115,15 +115,15 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.55,
                     "ingredients": [
+                        "3",
+                        "5",
                         "Gl",
+                        "Mi",
+                        "So",
+                        "11",
                         "GlW",
                         "Ei",
-                        "11",
-                        "3",
-                        "Sl",
-                        "So",
-                        "5",
-                        "Mi"
+                        "Sl"
                     ]
                 },
                 {
@@ -132,27 +132,27 @@
                     "ingredients": [
                         "Gl",
                         "GlW",
-                        "Sl",
-                        "GlG",
                         "Kn",
-                        "Mi"
+                        "GlG",
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel vom Schwein aus der LMU-Zucht mit Kartoffel-Endivien-Salat",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Ei",
                         "3",
-                        "S",
                         "5",
-                        "GlG",
-                        "Sf",
+                        "Gl",
                         "Sw",
+                        "Mi",
+                        "S",
                         "Kn",
-                        "Mi"
+                        "GlG",
+                        "GlW",
+                        "Sf",
+                        "Ei"
                     ]
                 }
             ]
@@ -165,8 +165,8 @@
                     "price": 1,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -174,9 +174,9 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Mi",
                         "Kn",
-                        "Mi"
+                        "GlW"
                     ]
                 },
                 {
@@ -185,8 +185,8 @@
                     "ingredients": [
                         "Gl",
                         "GlW",
-                        "Mi",
                         "Kn",
+                        "Mi",
                         "1"
                     ]
                 },
@@ -194,12 +194,12 @@
                     "name": "Geschnetzeltes vom Schwein aus der LMU-Zucht in Steinpilzrahm mit Spinatspätzle",
                     "price": 4.5,
                     "ingredients": [
-                        "Gl",
                         "99",
-                        "GlW",
-                        "Ei",
+                        "Gl",
                         "Sw",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
@@ -212,32 +212,32 @@
                     "price": 1,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Sl"
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
+                        "3",
                         "Gl",
                         "GlW",
-                        "Ei",
-                        "3",
-                        "Mi"
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Gebratenes Zanderfilet mit Rote-Bete-Streifen und Kartoffel-Meerrettich-Stampf",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "9",
-                        "Fi",
                         "3",
+                        "Gl",
                         "Sw",
-                        "Mi"
+                        "Mi",
+                        "Fi",
+                        "GlW"
                     ]
                 },
                 {
@@ -245,13 +245,13 @@
                     "price": 4,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Ei",
-                        "S",
+                        "Mi",
                         "So",
-                        "GlG",
+                        "S",
                         "Kn",
-                        "Mi"
+                        "GlG",
+                        "GlW",
+                        "Ei"
                     ]
                 }
             ]
