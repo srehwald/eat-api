@@ -7,9 +7,17 @@ from lxml import html
 from datetime import date
 
 import main
-from menu_parser import StudentenwerkMenuParser, FMIBistroMenuParser, IPPBistroMenuParser, MedizinerMensaMenuParser
+from menu_parser import MenuParser, StudentenwerkMenuParser, FMIBistroMenuParser, IPPBistroMenuParser, MedizinerMensaMenuParser
 from entities import Dish, Menu, Week
 import json
+
+
+class MenuParserTest(unittest.TestCase):
+
+    def test_get_date(self):
+        self.assertEqual(date(2017, 10, 30), MenuParser.get_date(2017, 44, 1))
+        self.assertEqual(date(2018, 1, 1), MenuParser.get_date(2018, 1, 1))
+        self.assertEqual(date(2019, 1, 7), MenuParser.get_date(2019, 2, 1))
 
 
 class StudentenwerkMenuParserTest(unittest.TestCase):
