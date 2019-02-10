@@ -164,7 +164,7 @@ $ python src/main.py mensa-arcisstrasse -d 02.04.2017
 ## Contributing
 
 1. Fork and clone this repository
-2. Install the python dependencies:
+2. Install the python dependencies (Python 3.6+ required):
   * `sudo apt install libxml2 libxml2-dev libxslt1-dev`
   * `pip3 install -r requirements.txt`
 3. Run tests:
