@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
                         "Kn",
+                        "Sl",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -19,21 +19,21 @@
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "2",
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "2",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Vanillesauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
+                        "Mi",
                         "3",
+                        "Ei",
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
@@ -50,39 +50,39 @@
                     "name": "Fleischpflanzerl mit Rahmsauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Mi",
+                        "R",
                         "Ei",
                         "GlW",
+                        "GlG",
+                        "Sf",
                         "Kn",
                         "Gl",
-                        "S",
-                        "Mi",
-                        "Sf",
-                        "R",
-                        "GlG"
+                        "S"
                     ]
                 },
                 {
                     "name": "Paniertes Hähnchenschnitzel mit Bratensauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
-                        "Kn",
-                        "GlW",
-                        "Gl",
                         "Mi",
-                        "GlG"
+                        "Sl",
+                        "GlW",
+                        "GlG",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Forelle Müllerin Art mit Zitronenbutter",
                     "price": 4,
                     "ingredients": [
-                        "1",
-                        "GlW",
-                        "Gl",
                         "Mi",
+                        "GlW",
                         "Sf",
-                        "Fi"
+                        "Fi",
+                        "Gl",
+                        "1"
                     ]
                 }
             ]
@@ -94,42 +94,42 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": 1,
                     "ingredients": [
-                        "Sf",
+                        "Kn",
                         "2",
-                        "Kn"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Türkischer Auberginen-Kartoffel-Auflauf",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
-                        "Ei",
-                        "Kn",
                         "Mi",
-                        "Sf"
+                        "Ei",
+                        "Sf",
+                        "Kn",
+                        "1"
                     ]
                 },
                 {
                     "name": "Überbackenes Putenschnitzel Toskana",
                     "price": 2.8,
                     "ingredients": [
-                        "1",
-                        "Kn",
+                        "Mi",
                         "GlW",
+                        "Kn",
                         "Gl",
-                        "Mi"
+                        "1"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
+                        "Mi",
                         "3",
                         "Kn",
                         "S",
-                        "5",
-                        "Mi"
+                        "5"
                     ]
                 }
             ]
@@ -148,10 +148,10 @@
                     "name": "Pasta in Tomaten-Oliven-Sauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "Gl",
                         "3",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
@@ -165,19 +165,19 @@
                     "name": "Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Sw",
+                        "Mi",
                         "Sl",
+                        "R",
+                        "2",
                         "3",
                         "GlW",
+                        "GlG",
+                        "99",
+                        "Sf",
                         "Kn",
-                        "2",
                         "Gl",
                         "S",
-                        "99",
-                        "Mi",
-                        "Sf",
-                        "R",
-                        "GlG"
+                        "Sw"
                     ]
                 }
             ]
@@ -189,8 +189,8 @@
                     "name": "Polentaschnitte an gedünstetem Blattspinat",
                     "price": 1,
                     "ingredients": [
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -207,28 +207,28 @@
                     "name": "Hähnchenschnitzel in Nuß-Mandel-Sesam-Panade, Currydip",
                     "price": 2.6,
                     "ingredients": [
-                        "1",
-                        "ScH",
+                        "Mi",
                         "Se",
                         "Ei",
                         "GlW",
-                        "Gl",
-                        "Mi",
-                        "ScM",
                         "Sf",
-                        "Sc"
+                        "Gl",
+                        "ScM",
+                        "Sc",
+                        "1",
+                        "ScH"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "Gl",
-                        "S",
                         "Mi",
-                        "R"
+                        "R",
+                        "GlW",
+                        "Kn",
+                        "Gl",
+                        "S"
                     ]
                 }
             ]
@@ -240,36 +240,36 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Sf",
+                        "Kn",
                         "Sl",
-                        "Kn"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Ungarisches Würstelgulasch",
                     "price": 1.9,
                     "ingredients": [
-                        "3",
-                        "8",
+                        "R",
                         "2",
-                        "S",
+                        "3",
                         "Sf",
-                        "R"
+                        "S",
+                        "8"
                     ]
                 },
                 {
                     "name": "Gebackenes Seelachsfilet (MSC) mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "1",
-                        "9",
+                        "Mi",
+                        "2",
                         "Ei",
                         "GlW",
-                        "2",
-                        "Gl",
-                        "Mi",
                         "Sf",
-                        "Fi"
+                        "Fi",
+                        "Gl",
+                        "9",
+                        "1"
                     ]
                 }
             ]
