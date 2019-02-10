@@ -3,56 +3,79 @@
     "year": 2017,
     "days": [
         {
-            "date": "2017-03-27",
-            "dishes": [
-                {
-                    "name": "Kartoffelgulasch mit Paprika",
-                    "price": 1
-                },
-                {
-                    "name": "Hackfleischbällchen mit Champignonrahmsauce",
-                    "price": 1.9
-                },
-                {
-                    "name": "Seelachsfilet (MSC) im Sesammantel mit Remouladensauce",
-                    "price": 2.4
-                },
-                {
-                    "name": "Gebackene Calamari-Ringe mit Remouladensauce",
-                    "price": 2.6
-                }
-            ]
-        },
-        {
             "date": "2017-03-28",
             "dishes": [
                 {
+                    "ingredients": [
+                        "Kn"
+                    ],
                     "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
                     "price": 1
                 },
                 {
-                    "name": "Schweinebraten mit Biersauce",
-                    "price": 2.4
-                },
-                {
+                    "ingredients": [
+                        "Gl",
+                        "Sf",
+                        "GlW",
+                        "En",
+                        "Kn",
+                        "Sl"
+                    ],
                     "name": "Massamann Curry (mit Hähnchen)",
                     "price": 2.6
+                },
+                {
+                    "ingredients": [
+                        "S",
+                        "Gl",
+                        "GlW",
+                        "GlG",
+                        "99",
+                        "Mi",
+                        "Kn"
+                    ],
+                    "name": "Schweinebraten mit Biersauce",
+                    "price": 2.4
                 }
             ]
         },
         {
-            "date": "2017-03-29",
+            "date": "2017-03-31",
             "dishes": [
                 {
-                    "name": "Couscous mit mediterranem Gemüse",
+                    "ingredients": [
+                        "Gl",
+                        "3",
+                        "Fi",
+                        "GlW",
+                        "Mi",
+                        "Kn"
+                    ],
+                    "name": "Seelachs (MSC) Rhodos, mit Tomaten und Oliven",
+                    "price": 3.0
+                },
+                {
+                    "ingredients": [],
+                    "name": "Buntes Pfannengemüse",
                     "price": 1
                 },
                 {
-                    "name": "Hackbraten mit Rahmsauce",
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "Ei"
+                    ],
+                    "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": 2.4
                 },
                 {
-                    "name": "Gefüllte Paprikaschote mit Tomatensauce",
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "GlW"
+                    ],
+                    "name": "Rohrnudeln mit Vanillesauce",
                     "price": 2.4
                 }
             ]
@@ -61,37 +84,132 @@
             "date": "2017-03-30",
             "dishes": [
                 {
+                    "ingredients": [
+                        "Kn",
+                        "Gl",
+                        "GlW"
+                    ],
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": 1
                 },
                 {
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "2",
+                        "GlW",
+                        "So"
+                    ],
                     "name": "Putenschnitzel auf Asia-Pfannengemüse",
                     "price": 2.6
                 },
                 {
+                    "ingredients": [
+                        "Mi",
+                        "Kn",
+                        "Gl",
+                        "GlW"
+                    ],
                     "name": "Bio-Spaghetti mit Bio-Spinat-Sahnesauce",
                     "price": 1.9
                 }
             ]
         },
         {
-            "date": "2017-03-31",
+            "date": "2017-03-29",
             "dishes": [
                 {
-                    "name": "Buntes Pfannengemüse",
+                    "ingredients": [
+                        "1",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "GlD"
+                    ],
+                    "name": "Gefüllte Paprikaschote mit Tomatensauce",
+                    "price": 2.4
+                },
+                {
+                    "ingredients": [
+                        "Kn",
+                        "Gl",
+                        "GlW"
+                    ],
+                    "name": "Couscous mit mediterranem Gemüse",
                     "price": 1
                 },
                 {
-                    "name": "Rohrnudeln mit Vanillesauce",
+                    "ingredients": [
+                        "S",
+                        "Gl",
+                        "R",
+                        "Sf",
+                        "GlW",
+                        "GlG",
+                        "So",
+                        "Mi",
+                        "Kn",
+                        "Ei"
+                    ],
+                    "name": "Hackbraten mit Rahmsauce",
+                    "price": 2.4
+                }
+            ]
+        },
+        {
+            "date": "2017-03-27",
+            "dishes": [
+                {
+                    "ingredients": [
+                        "1",
+                        "Gl",
+                        "9",
+                        "Sf",
+                        "3",
+                        "Fi",
+                        "2",
+                        "GlW",
+                        "Mi",
+                        "Se",
+                        "Ei"
+                    ],
+                    "name": "Seelachsfilet (MSC) im Sesammantel mit Remouladensauce",
                     "price": 2.4
                 },
                 {
-                    "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
-                    "price": 2.4
+                    "ingredients": [],
+                    "name": "Kartoffelgulasch mit Paprika",
+                    "price": 1
                 },
                 {
-                    "name": "Seelachs (MSC) Rhodos, mit Tomaten und Oliven",
-                    "price": 3.0
+                    "ingredients": [
+                        "1",
+                        "Gl",
+                        "Wt",
+                        "9",
+                        "Sf",
+                        "3",
+                        "2",
+                        "GlW",
+                        "Mi",
+                        "Ei"
+                    ],
+                    "name": "Gebackene Calamari-Ringe mit Remouladensauce",
+                    "price": 2.6
+                },
+                {
+                    "ingredients": [
+                        "S",
+                        "Gl",
+                        "R",
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "Ei"
+                    ],
+                    "name": "Hackfleischbällchen mit Champignonrahmsauce",
+                    "price": 1.9
                 }
             ]
         }

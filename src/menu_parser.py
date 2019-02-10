@@ -12,7 +12,7 @@ import requests
 from lxml import html
 
 import util
-from entities import Dish, Menu
+from entities import Dish, Menu, Ingredients
 
 
 class MenuParser:
@@ -86,16 +86,16 @@ class StudentenwerkMenuParser(MenuParser):
                 location_id = self.location_id_mapping[location]
             except KeyError:
                 print("Location {} not found. Choose one of {}.".format(
-                    location, ', '.join(self.location_id_mapping.keys())), file=sys.stderr)
+                    location, ', '.join(self.location_id_mapping.keys())), sys.stderr)
                 return None
 
         page_link = self.base_url.format(location_id)
 
         page = requests.get(page_link)
         tree = html.fromstring(page.content)
-        return self.get_menus(tree)
+        return self.get_menus(tree, location)
 
-    def get_menus(self, page):
+    def get_menus(self, page, location):
         # initialize empty dictionary
         menus = {}
         # convert passed date to string
@@ -116,7 +116,7 @@ class StudentenwerkMenuParser(MenuParser):
                 # continue and parse subsequent menus
                 continue
             # parse dishes of current menu
-            dishes = self.__parse_dishes(menu_html)
+            dishes = self.__parse_dishes(menu_html, location)
             # create menu object
             menu = Menu(current_menu_date, dishes)
             # add menu object to dictionary using the date as key
@@ -132,26 +132,38 @@ class StudentenwerkMenuParser(MenuParser):
         return daily_menus
 
     @staticmethod
-    def __parse_dishes(menu_html):
+    def __parse_dishes(menu_html, location):
         # obtain the names of all dishes in a passed menu
         dish_names = [dish.rstrip() for dish in menu_html.xpath("//p[@class='js-schedule-dish-description']/text()")]
         # make duplicates unique by adding (2), (3) etc. to the names
         dish_names = util.make_duplicates_unique(dish_names)
         # obtain the types of the dishes (e.g. 'Tagesgericht 1')
         dish_types = [type.text if type.text else '' for type in menu_html.xpath("//span[@class='stwm-artname']")]
-        # create dictionary out of dish name and dish type
-        dishes_dict = {dish_name: dish_type for dish_name, dish_type in zip(dish_names, dish_types)}
-        # create Dish objects with correct prices; if price is not available, -1 is used instead
+        # obtain all ingredients
+        dish_markers_additional = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--additional')]/@data-essen")
+        dish_markers_allergen = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--allergen')]/@data-essen")
+        dish_markers_type = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--type')]/@data-essen")
 
+        # create dictionary out of dish name and dish type
+        dishes_dict = {}
+        dishes_tup = zip(dish_names, dish_types, dish_markers_additional, dish_markers_allergen, dish_markers_type)
+        for dish_name, dish_type, dish_marker_additional, dish_marker_allergen, dish_marker_type in dishes_tup:
+            dishes_dict[dish_name] = (dish_type, dish_marker_additional, dish_marker_allergen, dish_marker_type)
+
+        # create Dish objects with correct prices; if price is not available, -1 is used instead
         dishes = []
         for name in dishes_dict:
             if not dishes_dict[name] and dishes:
                 # some dishes are multi-row. That means that for the same type the dish is written in multiple rows.
-                # From the second row on the type is then just empty. In that case, we just use the price of the
-                # previous dish.
-                dishes.append(Dish(name, dishes[-1].price))
+                # From the second row on the type is then just empty. In that case, we just use the price and
+                # ingredients of the previous dish.
+                dishes.append(Dish(name, dishes[-1].price, dishes[-1].ingredients))
             else:
-                dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name], "N/A")))
+                dish_ingredients = Ingredients(location)
+                dish_ingredients.parse_ingredients(dishes_dict[name][1])
+                dish_ingredients.parse_ingredients(dishes_dict[name][2])
+                dish_ingredients.parse_ingredients(dishes_dict[name][3])
+                dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name][0], "N/A"), dish_ingredients.ingredient_set))
 
         return dishes
 
@@ -160,6 +172,7 @@ class FMIBistroMenuParser(MenuParser):
     url = "http://www.wilhelm-gastronomie.de/tum-garching"
     allergens = ["Gluten", "Laktose", "Milcheiweiß", "Hühnerei", "Soja", "Nüsse", "Erdnuss", "Sellerie", "Fisch",
                  "Krebstiere", "Weichtiere", "Sesam", "Senf", "Milch", "Ei"]
+    allergens_regex = r"(Allergene:((\s|\n)*(Gluten|Laktose|Milcheiweiß|Hühnerei|Soja|Nüsse|Erdnuss|Sellerie|Fisch|Krebstiere|Weichtiere|Sesam|Senf|Milch|Ei),?(?![\w-]))*)"
     price_regex = r"\€\s\d+,\d+"
     dish_regex = r".+?\€\s\d+,\d+"
 
@@ -236,6 +249,7 @@ class FMIBistroMenuParser(MenuParser):
 
         # currently, up to 5 dishes are on the menu
         num_dishes = 5
+        line_aktion = []
         if year < 2018:
             # in older versions of the FMI Bistro menu, the Aktionsgericht was the same for the whole week
             num_dishes = 3
@@ -258,15 +272,18 @@ class FMIBistroMenuParser(MenuParser):
             if "geschlossen" in lines_weekdays[key].lower():
                 continue
 
-            lines_weekdays[key] = lines_weekdays[key].replace("Allergene:", "")
+            # extract all alergens
+            dish_allergens = []
+            for x in re.findall(self.allergens_regex, lines_weekdays[key]):
+                if len(x) > 0:
+                    dish_allergens.append(re.sub(r"((Allergene:)|\s|\n)*","",x[0]))
+                else:
+                    dish_allergens.append("")
+            lines_weekdays[key] = re.sub(self.allergens_regex, "", lines_weekdays[key])
             # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
             lines_weekdays[key] = unicodedata.normalize("NFKC", lines_weekdays[key])
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
-            # remove allergnes
-            for allergen in self.allergens:
-                # only replace "whole word matches" not followed by a hyphen (e.g. some dishes include "Senf-")
-                lines_weekdays[key] = re.sub(r"\b%s\b(?![\w-])" % allergen, "", lines_weekdays[key])
 
             # remove no allergenes indicator
             lines_weekdays[key] = lines_weekdays[key].replace("./.", "")
@@ -279,9 +296,14 @@ class FMIBistroMenuParser(MenuParser):
             # remove price and commas from dish names
             dish_names = [re.sub(self.price_regex, "", dish).replace(",", "").strip() for dish in dish_names]
             # create list of Dish objects; only take first 3/4 as the following dishes are corrupt and not necessary
-            dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))][:num_dishes]
-            # filter empty dishes
-            dishes = list(filter(lambda x: x.name != "", dishes))
+            dishes = []
+            for (dish_name, price, dish_allergen) in list(zip(dish_names, prices, dish_allergens)):
+                # filter empty dishes
+                if dish_name:
+                    ingredients = Ingredients("fmi-bistro")
+                    ingredients.parse_ingredients(dish_allergen)
+                    dishes.append(Dish(dish_name, price, ingredients.ingredient_set))
+            dishes = dishes[:num_dishes]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
@@ -417,8 +439,12 @@ class IPPBistroMenuParser(MenuParser):
             prices = [float(price.replace("€", "").replace(",", ".").strip()) for price in prices]
             # remove price and commas from dish names
             dish_names = [re.sub(self.price_regex, "", dish).strip() for dish in dish_names]
+            # create ingredients
+            # all dishes have the same ingridients
+            ingredients = Ingredients("ipp-bistro")
+            ingredients.parse_ingredients("Mi,Gl,Sf,Sl,Ei,Se,4")
             # create list of Dish objects
-            dishes = [Dish(dish_name, price) for (dish_name, price) in list(zip(dish_names, prices))]
+            dishes = [Dish(dish_name, price, ingredients.ingredient_set) for (dish_name, price) in list(zip(dish_names, prices))]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
@@ -431,6 +457,30 @@ class IPPBistroMenuParser(MenuParser):
 
 class MedizinerMensaMenuParser(MenuParser):
     url = "https://www.med.fs.tum.de"
+    ingredients_regex = r"(\s([A-C]|[E-H]|[K-P]|[R-Z]|[1-9])(,([A-C]|[E-H]|[K-P]|[R-Z]|[1-9]))*(\s|\Z))"
+    price_regex = r"(\d+(,(\d){2})\s?€)"
+
+    def parse_dish(self, dish_str):
+        # ingredients
+        dish_ingredients = Ingredients("mediziner-mensa")
+        matches = re.findall(self.ingredients_regex, dish_str)
+        while len(matches) > 0:
+            for x in matches:
+                if len(x) > 0:
+                    dish_ingredients.parse_ingredients(x[0])
+            dish_str = re.sub(self.ingredients_regex, " ", dish_str)
+            matches = re.findall(self.ingredients_regex, dish_str)
+        dish_str = re.sub(r"\s+", " ", dish_str).strip()
+        dish_str = dish_str.replace(" , ", ", ")
+
+        # price
+        dish_price = "N/A"
+        for x in re.findall(self.price_regex, dish_str):
+            if len(x) > 0:
+                dish_price = float(x[0].replace("€", "").replace(",", ".").strip())
+        dish_str = re.sub(self.price_regex, "", dish_str)
+
+        return Dish(dish_str, dish_price, dish_ingredients.ingredient_set)
 
     def parse(self, location):
         page = requests.get(self.url)
@@ -443,9 +493,9 @@ class MedizinerMensaMenuParser(MenuParser):
             return None
         pdf_url = self.url + xpath_query[0]
 
-        # Example PDF-name: KW_44_Herbst_4_Mensa_2018.pdf
+        # Example PDF-name: "KW_44_Herbst_4_Mensa_2018.pdf" or "KW_50_Winter_1_Mensa_-2018.pdf"
         pdf_name = pdf_url.split("/")[-1]
-        wn_year_match = re.search("KW_([1-9]+\d*)_.*_(\d+).*", pdf_name, re.IGNORECASE)
+        wn_year_match = re.search("KW_([1-9]+\d*)_.*_-?(\d+).*", pdf_name, re.IGNORECASE)
         week_number = int(wn_year_match.group(1)) if wn_year_match else None
         year = int(wn_year_match.group(2)) if wn_year_match else None
         # convert 2-digit year into 4-digit year
@@ -502,14 +552,19 @@ class MedizinerMensaMenuParser(MenuParser):
                 soup_str += day_line[:36].strip() + "\n"
                 mains_str += day_line[40:100].strip() + "\n"
 
-            soup = soup_str.replace("-\n", "").strip().replace("\n", " ")
-            mains = [soup] + [m.strip().replace("\n", " ")
-                              # https://regex101.com/r/MDFu1Z/1
-                              for m in re.split(r"(\n{2,}|(?<!mit)\n(?=[A-Z]))", mains_str) if m is not ""]
-            mains = [re.sub(r"\s(([A-Z]|\d),?)+\s?(?!(\w|\d))", "", m.replace("€", "")).strip()
-                     for m in mains if m not in ["", "Feiertag"]]
-            # TODO prices
-            dishes = [Dish(dish_name, "N/A") for dish_name in mains]
+            soup_str = soup_str.replace("-\n", "").strip().replace("\n", " ")
+            soup = self.parse_dish(soup_str)
+            dishes = []
+            if(soup.name not in ["", "Feiertag"]):
+                dishes.append(soup)
+            # https://regex101.com/r/MDFu1Z/1
+            for dish_str in re.split(r"(\n{2,}|(?<!mit)\n(?=[A-Z]))", mains_str):
+                dish_str = dish_str.strip().replace("\n", " ")
+                dish = self.parse_dish(dish_str)
+                dish.name = dish.name.strip()
+                if dish.name not in ["", "Feiertag"]:
+                    dishes.append(dish)
+                    
             date = self.get_date(year, week_number, self.weekday_positions[key])
             menu = Menu(date, dishes)
             # remove duplicates

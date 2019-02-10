@@ -45,7 +45,7 @@ def jsonify(weeks, directory, location, combine_dishes):
         with open("%s/%s.json" % (str(json_dir), str(calendar_week).zfill(2)), 'w') as outfile:
             json.dump(json.loads(week_json), outfile, indent=4, ensure_ascii=False)
 
-    # check if combien parameter got set
+    # check if combine parameter got set
     if not combine_dishes:
         return
     # the name of the output directory and file

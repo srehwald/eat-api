@@ -3,23 +3,82 @@
     "year": 2017,
     "days": [
         {
-            "date": "2017-04-24",
+            "date": "2017-04-28",
             "dishes": [
                 {
-                    "name": "Pikante Hirse mit Gemüse",
+                    "ingredients": [
+                        "Mi",
+                        "3",
+                        "Gl",
+                        "GlW",
+                        "Ei"
+                    ],
+                    "name": "Pfannkuchen mit Apfelmus",
+                    "price": 1.55
+                },
+                {
+                    "ingredients": [
+                        "Sl",
+                        "Gl",
+                        "GlW"
+                    ],
+                    "name": "Bauerneintopf",
                     "price": 1
                 },
                 {
-                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "ingredients": [
+                        "Gl",
+                        "Fi",
+                        "GlW",
+                        "9"
+                    ],
+                    "name": "Gedünsteter Kabeljau (MSC) auf Buchweizen-Rote-Beete-Risotto",
+                    "price": 4
+                }
+            ]
+        },
+        {
+            "date": "2017-04-27",
+            "dishes": [
+                {
+                    "ingredients": [
+                        "En",
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "So"
+                    ],
+                    "name": "Grünes Hähnchen-Curry",
+                    "price": 3.2
+                },
+                {
+                    "ingredients": [
+                        "Sf",
+                        "Kn",
+                        "2"
+                    ],
+                    "name": "Reistopf mit Chinagemüse",
+                    "price": 1
+                },
+                {
+                    "ingredients": [
+                        "1",
+                        "Gl",
+                        "Sw",
+                        "3",
+                        "GlW",
+                        "Kn"
+                    ],
+                    "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4
                 },
                 {
-                    "name": "Rotes Curry vom Rind (GQB) mit Wokgemüse",
-                    "price": 2.8
-                },
-                {
-                    "name": "Dinkel-Pasta mit frischem Spargel und Rucolapesto",
-                    "price": 3.0
+                    "ingredients": [
+                        "Mi",
+                        "Kn"
+                    ],
+                    "name": "Dönerteller mit Putenfleisch, Pommes (GQB) und Salat",
+                    "price": 3.2
                 }
             ]
         },
@@ -27,18 +86,42 @@
             "date": "2017-04-25",
             "dishes": [
                 {
-                    "name": "Auberginencurry mit Kichererbsenreis",
-                    "price": 1
-                },
-                {
+                    "ingredients": [
+                        "Gl",
+                        "Kn",
+                        "2",
+                        "GlW",
+                        "Ei"
+                    ],
                     "name": "Couscousbratling mit Paprika-Hummus (Kichererbsenmus)",
                     "price": 2.4
                 },
                 {
+                    "ingredients": [
+                        "Mi",
+                        "Kn",
+                        "S"
+                    ],
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 2.6
                 },
                 {
+                    "ingredients": [
+                        "Kn"
+                    ],
+                    "name": "Auberginencurry mit Kichererbsenreis",
+                    "price": 1
+                },
+                {
+                    "ingredients": [
+                        "S",
+                        "Gl",
+                        "3",
+                        "2",
+                        "GlW",
+                        "GlG",
+                        "Mi"
+                    ],
                     "name": "Pizza Slice mit Oliven , Schinken oder Salami",
                     "price": 2.8
                 }
@@ -48,58 +131,97 @@
             "date": "2017-04-26",
             "dishes": [
                 {
+                    "ingredients": [
+                        "Gl",
+                        "R",
+                        "Sf",
+                        "Kn",
+                        "GlW",
+                        "So",
+                        "Se",
+                        "Ei"
+                    ],
+                    "name": "Gebr. Chinanudeln mit Wokgemüse und Rindfleisch (GQB)",
+                    "price": 3.0
+                },
+                {
+                    "ingredients": [
+                        "Kn"
+                    ],
                     "name": "Gemüsegulasch",
                     "price": 1
                 },
                 {
-                    "name": "Spanferkelrollbraten mit Biersauce",
-                    "price": 2.4
-                },
-                {
+                    "ingredients": [
+                        "Mi",
+                        "Se",
+                        "Kn"
+                    ],
                     "name": "Ofenkartoffel Mexican Style mit schwarzem Bohnenmus und Sour Cream",
                     "price": 2.6
                 },
                 {
-                    "name": "Gebr. Chinanudeln mit Wokgemüse und Rindfleisch (GQB)",
-                    "price": 3.0
-                }
-            ]
-        },
-        {
-            "date": "2017-04-27",
-            "dishes": [
-                {
-                    "name": "Reistopf mit Chinagemüse",
-                    "price": 1
-                },
-                {
-                    "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
+                    "ingredients": [
+                        "S",
+                        "Gl",
+                        "GlW",
+                        "GlG",
+                        "99",
+                        "Mi",
+                        "Kn"
+                    ],
+                    "name": "Spanferkelrollbraten mit Biersauce",
                     "price": 2.4
-                },
-                {
-                    "name": "Grünes Hähnchen-Curry",
-                    "price": 3.2
-                },
-                {
-                    "name": "Dönerteller mit Putenfleisch, Pommes (GQB) und Salat",
-                    "price": 3.2
                 }
             ]
         },
         {
-            "date": "2017-04-28",
+            "date": "2017-04-24",
             "dishes": [
                 {
-                    "name": "Bauerneintopf",
+                    "ingredients": [
+                        "Kn",
+                        "2"
+                    ],
+                    "name": "Pikante Hirse mit Gemüse",
                     "price": 1
                 },
                 {
-                    "name": "Pfannkuchen mit Apfelmus",
-                    "price": 1.55
+                    "ingredients": [
+                        "R",
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "So"
+                    ],
+                    "name": "Rotes Curry vom Rind (GQB) mit Wokgemüse",
+                    "price": 2.8
                 },
                 {
-                    "name": "Gedünsteter Kabeljau (MSC) auf Buchweizen-Rote-Beete-Risotto",
-                    "price": 4
+                    "ingredients": [
+                        "Sc",
+                        "Kn",
+                        "Gl",
+                        "GlD",
+                        "ScM"
+                    ],
+                    "name": "Dinkel-Pasta mit frischem Spargel und Rucolapesto",
+                    "price": 3.0
+                },
+                {
+                    "ingredients": [
+                        "1",
+                        "Gl",
+                        "9",
+                        "Sf",
+                        "3",
+                        "2",
+                        "GlW",
+                        "Mi",
+                        "Ei"
+                    ],
+                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "price": 2.4
                 }
             ]
         }
