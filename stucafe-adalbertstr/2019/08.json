@@ -7,11 +7,25 @@
             "dishes": [
                 {
                     "name": "Ofenkartoffel mit Kräutersahnequark",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "Mi",
+                        "Kn"
+                    ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
-                    "price": 2.6
+                    "price": 2.6,
+                    "ingredients": [
+                        "3",
+                        "2",
+                        "Mi",
+                        "Gl",
+                        "S",
+                        "GlG",
+                        "Kn",
+                        "GlW"
+                    ]
                 }
             ]
         },
@@ -20,11 +34,28 @@
             "dishes": [
                 {
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "2",
+                        "Ei",
+                        "Mi",
+                        "Gl",
+                        "S",
+                        "GlG",
+                        "Kn",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Couscousbratling mit Paprika-Hummus (Kichererbsenmus), Paprika-Hummus (Kichererbsencreme)",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "2",
+                        "Ei",
+                        "Gl",
+                        "Kn",
+                        "GlW"
+                    ]
                 }
             ]
         },
@@ -33,11 +64,23 @@
             "dishes": [
                 {
                     "name": "Nürnberger Würstchen mit Sauerkraut",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "R",
+                        "S"
+                    ]
                 },
                 {
                     "name": "Topfen-Birnenstrudel mit Mandel-Vanillesaue",
-                    "price": 3.2
+                    "price": 3.2,
+                    "ingredients": [
+                        "ScM",
+                        "Ei",
+                        "Mi",
+                        "Gl",
+                        "Sc",
+                        "GlW"
+                    ]
                 }
             ]
         },
@@ -46,11 +89,28 @@
             "dishes": [
                 {
                     "name": "Gebratene Chinanudeln mit Wokgemüse und Ei",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "2",
+                        "Ei",
+                        "Sf",
+                        "Se",
+                        "Gl",
+                        "So",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
-                    "price": 3.0
+                    "price": 3.0,
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "S",
+                        "GlG",
+                        "Kn",
+                        "GlW"
+                    ]
                 }
             ]
         },
@@ -59,11 +119,24 @@
             "dishes": [
                 {
                     "name": "Scharfes Seelachsfilet (MSC) Hanoi",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "Fi",
+                        "2",
+                        "Se",
+                        "Gl",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
-                    "price": 2.8
+                    "price": 2.8,
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Gl"
+                    ]
                 }
             ]
         }

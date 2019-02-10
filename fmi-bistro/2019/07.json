@@ -7,23 +7,46 @@
             "dishes": [
                 {
                     "name": "Gemüsebrühe mit Fädle",
-                    "price": 1.0
+                    "price": 1.0,
+                    "ingredients": [
+                        "Gl",
+                        "Ei",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Rote Linsencurry mit Gemüse und Reis",
-                    "price": 4.3
+                    "price": 4.3,
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "3 Spinatknödel auf Parmesan- Karottensoße",
-                    "price": 3.9
+                    "price": 3.9,
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Paprikarahmschnitzel vom Schwein mit Butterspätzle",
-                    "price": 5.3
+                    "price": 5.3,
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "Ei",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Thunfischsteak mit Sc. Bernaise dazu Zitronen- Gemüse- Couscous",
-                    "price": 6.4
+                    "price": 6.4,
+                    "ingredients": [
+                        "Gl",
+                        "Sl"
+                    ]
                 }
             ]
         },
@@ -32,23 +55,43 @@
             "dishes": [
                 {
                     "name": "Gemüsecremesuppe",
-                    "price": 1.0
+                    "price": 1.0,
+                    "ingredients": [
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Blumenkohl- Kartoffelpfanne mit Ruccola",
-                    "price": 4.3
+                    "price": 4.3,
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Burrito gefüllt mit Pestoreis  Tomate und Mozzarella",
-                    "price": 4.3
+                    "price": 4.3,
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Penne “ Casalinga “ mit Schinken Erbsen und Hackfleisch gemischt",
-                    "price": 4.9
+                    "price": 4.9,
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Yellow-Thaicurry mit Gemüse und Ente dazu Basmatireis",
-                    "price": 5.9
+                    "price": 5.9,
+                    "ingredients": [
+                        "Sl"
+                    ]
                 }
             ]
         },
@@ -57,23 +100,42 @@
             "dishes": [
                 {
                     "name": "Lauchsuppe",
-                    "price": 1.0
+                    "price": 1.0,
+                    "ingredients": [
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Pasta mit Asiagemüse und Kokosmilch",
-                    "price": 4.3
+                    "price": 4.3,
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Rahmkohlrabi- Rosenkohl- Möhrchen mit Kartoffeln",
-                    "price": 4.3
+                    "price": 4.3,
+                    "ingredients": [
+                        "Mi",
+                        "Ei",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Schaschlikspieß in Zwiebel- Currysoße dazu Pommes",
-                    "price": 5.3
+                    "price": 5.3,
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Frisch vom Grill: Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat",
-                    "price": 4.2
+                    "price": 4.2,
+                    "ingredients": [
+                        "Gl",
+                        "Sl"
+                    ]
                 }
             ]
         },
@@ -82,23 +144,42 @@
             "dishes": [
                 {
                     "name": "Kürbis-Orangensuppe",
-                    "price": 1.0
+                    "price": 1.0,
+                    "ingredients": [
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Chilli con Carne mit Tofu",
-                    "price": 4.3
+                    "price": 4.3,
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Tortellini al Forno",
-                    "price": 4.3
+                    "price": 4.3,
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Putenstreifen in Süß- Sauer soße mit Basmatireis",
-                    "price": 5.3
+                    "price": 5.3,
+                    "ingredients": [
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Frisch vom Grill: Currywurst mit Pommes",
-                    "price": 3.9
+                    "price": 3.9,
+                    "ingredients": [
+                        "Sl"
+                    ]
                 }
             ]
         },
@@ -107,15 +188,28 @@
             "dishes": [
                 {
                     "name": "Erdußsuppe mit Kürbiswürfel und Kokosmilch",
-                    "price": 3.6
+                    "price": 3.6,
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Topfenpalatschinken",
-                    "price": 3.2
+                    "price": 3.2,
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "Ei"
+                    ]
                 },
                 {
                     "name": "Seelachs gebacken mit Kartoffelsalat mit Sauce Remoulade",
-                    "price": 4.6
+                    "price": 4.6,
+                    "ingredients": [
+                        "Mi",
+                        "Ei",
+                        "Sl"
+                    ]
                 }
             ]
         }

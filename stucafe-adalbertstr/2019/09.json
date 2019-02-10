@@ -7,11 +7,18 @@
             "dishes": [
                 {
                     "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
-                    "price": 2.6
+                    "price": 2.6,
+                    "ingredients": [
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Putensteak mit Kräuterbutter",
-                    "price": 2.8
+                    "price": 2.8,
+                    "ingredients": [
+                        "Mi",
+                        "Kn"
+                    ]
                 }
             ]
         },
@@ -20,11 +27,26 @@
             "dishes": [
                 {
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
-                    "price": 1.55
+                    "price": 1.55,
+                    "ingredients": [
+                        "Mi",
+                        "Kn",
+                        "GlW",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Schweinefleisch auf chinesische Art",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Gl",
+                        "S",
+                        "So",
+                        "Kn",
+                        "GlW"
+                    ]
                 }
             ]
         },
@@ -33,11 +55,25 @@
             "dishes": [
                 {
                     "name": "Kaspressknödel in Gemüsebouillon",
-                    "price": 1.9
+                    "price": 1.9,
+                    "ingredients": [
+                        "So",
+                        "2",
+                        "Ei",
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Gegrilltes Hähnchenbrustfilet mit warmer Gemüsesalsa (scharf)",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "Kn",
+                        "2",
+                        "4"
+                    ]
                 }
             ]
         },
@@ -46,11 +82,27 @@
             "dishes": [
                 {
                     "name": "Gemüsemaultaschen mit Kräutersauce",
-                    "price": 1.9
+                    "price": 1.9,
+                    "ingredients": [
+                        "Sl",
+                        "Ei",
+                        "Mi",
+                        "Gl",
+                        "Kn",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Bierbratl mit Biersauce",
-                    "price": 2.6
+                    "price": 2.6,
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "S",
+                        "GlG",
+                        "Kn",
+                        "GlW"
+                    ]
                 }
             ]
         },
@@ -59,11 +111,27 @@
             "dishes": [
                 {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Salsa",
-                    "price": 4
+                    "price": 4,
+                    "ingredients": [
+                        "Sl",
+                        "Fi",
+                        "2",
+                        "Gl",
+                        "11",
+                        "So",
+                        "Kn",
+                        "GlW"
+                    ]
                 }
             ]
         }

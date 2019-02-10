@@ -7,27 +7,66 @@
             "dishes": [
                 {
                     "name": "Penne all'arrabiata",
-                    "price": "individual"
+                    "price": "individual",
+                    "ingredients": [
+                        "2",
+                        "Kn",
+                        "GlW",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Pasta mit Lammfleisch und Muerr- Pilzen",
-                    "price": "individual"
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "So",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
-                    "price": "N/A"
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Kn",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Spinatknödel Tiroler Art mit Bergkäse",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Gl",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Münchner Biergulasch vom LMU-Schwein mit Semmelknödel",
-                    "price": "0.75€ / 100g"
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "99",
+                        "Kn",
+                        "Gl",
+                        "GlG"
+                    ]
                 },
                 {
                     "name": "Indisches Linsencurry mit Basmatireis",
-                    "price": "0.33€ / 100g"
+                    "price": "0.33€ / 100g",
+                    "ingredients": [
+                        "Kn",
+                        "Sf",
+                        "Sl"
+                    ]
                 }
             ]
         },
@@ -36,31 +75,85 @@
             "dishes": [
                 {
                     "name": "Fleckerl mit Vorderschinken und Erbsen",
-                    "price": "individual"
+                    "price": "individual",
+                    "ingredients": [
+                        "GlW",
+                        "Ei",
+                        "8",
+                        "Gl",
+                        "2",
+                        "3",
+                        "S"
+                    ]
                 },
                 {
                     "name": "Pasta mit Tomaten-Räuchertofu-Sauce",
-                    "price": "individual"
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "So",
+                        "Gl",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Piccata von der Pute mit Salbei",
-                    "price": "N/A"
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Kn",
+                        "Gl",
+                        "2"
+                    ]
                 },
                 {
                     "name": "Fränkische Bratwurst vom LMU-Schwein auf saurem Kartoffelgemüse",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "2",
+                        "GlW",
+                        "Gl",
+                        "9"
+                    ]
                 },
                 {
                     "name": "Vegetarischer Bratling mit Kräuterdip",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "GlW",
+                        "Ei",
+                        "Kn",
+                        "Gl",
+                        "2",
+                        "So",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Pizza Calabria mit Tomate, Gouda, Salami, Zwiebel, Paprika",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "GlG",
+                        "Gl",
+                        "2",
+                        "1",
+                        "So",
+                        "3",
+                        "S"
+                    ]
                 },
                 {
                     "name": "Gemüsegulasch",
-                    "price": "0.33€ / 100g"
+                    "price": "0.33€ / 100g",
+                    "ingredients": [
+                        "Kn"
+                    ]
                 }
             ]
         },
@@ -69,31 +162,91 @@
             "dishes": [
                 {
                     "name": "Fusilli mit Rucola-Pesto",
-                    "price": "individual"
+                    "price": "individual",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Gebratener Reis mit Meeresfrüchten",
-                    "price": "individual"
+                    "price": "N/A",
+                    "ingredients": [
+                        "En",
+                        "Ei",
+                        "GlW",
+                        "Wt",
+                        "Kn",
+                        "Gl",
+                        "2",
+                        "So",
+                        "Kr"
+                    ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste) vom LMU-Schwein mit Kartoffel-Endivien-Salat",
-                    "price": "N/A"
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "GlW",
+                        "Ei",
+                        "5",
+                        "Kn",
+                        "Gl",
+                        "GlG",
+                        "3",
+                        "S",
+                        "Sw"
+                    ]
                 },
                 {
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "5",
+                        "Gl",
+                        "11",
+                        "So",
+                        "3",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Pizza mit grünem Spargel, Cocktailtomaten und Mozzarella",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Gl",
+                        "GlG",
+                        "So"
+                    ]
                 },
                 {
                     "name": "Gebratenes Truthahnsteak mit Kartoffelgratin",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Kn",
+                        "Gl",
+                        "GlG",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Italienischer Bohneneintopf",
-                    "price": "0.33€ / 100g"
+                    "price": "0.33€ / 100g",
+                    "ingredients": [
+                        "Kn",
+                        "Sl"
+                    ]
                 }
             ]
         },
@@ -102,31 +255,82 @@
             "dishes": [
                 {
                     "name": "Gnocchi in pikantem Hähnchen-Gemüse-Ragout",
-                    "price": "individual"
+                    "price": "individual",
+                    "ingredients": [
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Gnocchi mit Gorgonzola-Sauce",
-                    "price": "individual"
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
-                    "price": "N/A"
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sf",
+                        "8",
+                        "S",
+                        "11",
+                        "R"
+                    ]
                 },
                 {
                     "name": "Geschnetzeltes vom LMU-Schwein in Steinpilzrahm mit Spinatspätzle",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "99",
+                        "Gl",
+                        "Sw"
+                    ]
                 },
                 {
                     "name": "Rahmschwammerl mit Semmelknödel",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Kn",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Pizza Quattro Stagioni mit Schinken, Paprika, Champignons und Oliven",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "8",
+                        "GlG",
+                        "Gl",
+                        "2",
+                        "1",
+                        "So",
+                        "3",
+                        "S"
+                    ]
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
-                    "price": "0.33€ / 100g"
+                    "price": "0.33€ / 100g",
+                    "ingredients": [
+                        "Kn",
+                        "GlW",
+                        "Gl"
+                    ]
                 }
             ]
         },
@@ -135,23 +339,58 @@
             "dishes": [
                 {
                     "name": "Spaghetti mit Shrimps und getrockneten Tomaten",
-                    "price": "individual"
+                    "price": "individual",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Kn",
+                        "Gl",
+                        "1",
+                        "3",
+                        "Kr"
+                    ]
                 },
                 {
                     "name": "Gefülltes LMU-Schwein-Wammerl mit Kümmeljus und Röstkartoffeln",
-                    "price": "N/A"
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Kn",
+                        "Gl",
+                        "GlG",
+                        "So"
+                    ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Gl",
+                        "3"
+                    ]
                 },
                 {
                     "name": "Tandoori Chicken in Joghurtmarinade und Gurken-Minz-Dip",
-                    "price": "0.75€ / 100g"
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "Kn",
+                        "Sf",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Bauerneintopf",
-                    "price": "0.33€ / 100g"
+                    "price": "0.33€ / 100g",
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "Sl"
+                    ]
                 }
             ]
         }

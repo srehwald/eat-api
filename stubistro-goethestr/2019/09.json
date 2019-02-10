@@ -7,7 +7,10 @@
             "dishes": [
                 {
                     "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
-                    "price": 2.6
+                    "price": 2.6,
+                    "ingredients": [
+                        "Mi"
+                    ]
                 }
             ]
         },
@@ -16,7 +19,13 @@
             "dishes": [
                 {
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
-                    "price": 1.55
+                    "price": 1.55,
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Gl",
+                        "Kn"
+                    ]
                 }
             ]
         },
@@ -25,7 +34,12 @@
             "dishes": [
                 {
                     "name": "Gegrilltes Hähnchenbrustfilet mit warmer Gemüsesalsa (scharf)",
-                    "price": 2.4
+                    "price": 2.4,
+                    "ingredients": [
+                        "4",
+                        "Kn",
+                        "2"
+                    ]
                 }
             ]
         },
@@ -34,7 +48,15 @@
             "dishes": [
                 {
                     "name": "Bierbratl mit Biersauce",
-                    "price": 2.6
+                    "price": 2.6,
+                    "ingredients": [
+                        "GlW",
+                        "GlG",
+                        "S",
+                        "Gl",
+                        "Kn",
+                        "Mi"
+                    ]
                 }
             ]
         }
