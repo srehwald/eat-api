@@ -9,18 +9,18 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
+                        "Sf",
                         "Kn",
-                        "Sl",
-                        "Sf"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
+                        "GlW",
                         "2",
                         "Kn",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -28,10 +28,10 @@
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "Gl",
                         "Ei",
+                        "GlW",
+                        "Gl",
+                        "Mi",
                         "Kn"
                     ]
                 },
@@ -39,13 +39,13 @@
                     "name": "Münchner Biergulasch vom Schwein aus der LMU-Zucht mit Semmelknödel",
                     "price": 4,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "GlG",
-                        "Gl",
                         "Ei",
-                        "Kn",
-                        "99"
+                        "GlW",
+                        "Gl",
+                        "99",
+                        "GlG",
+                        "Mi",
+                        "Kn"
                     ]
                 }
             ]
@@ -64,27 +64,27 @@
                     "name": "Fleckerl mit Vorderschinken und Erbsen",
                     "price": 1.55,
                     "ingredients": [
+                        "Ei",
                         "GlW",
-                        "8",
-                        "3",
+                        "2",
                         "Gl",
                         "S",
-                        "Ei",
-                        "2"
+                        "8",
+                        "3"
                     ]
                 },
                 {
                     "name": "Vegetarischer Bratling mit Kräuterdip",
                     "price": 1.9,
                     "ingredients": [
+                        "So",
+                        "Sf",
+                        "Ei",
                         "Sl",
                         "GlW",
-                        "Sf",
-                        "So",
-                        "Mi",
-                        "Gl",
-                        "Ei",
                         "2",
+                        "Gl",
+                        "Mi",
                         "Kn"
                     ]
                 },
@@ -92,10 +92,10 @@
                     "name": "Fränkische Bratwurst vom Schwein aus der LMU-Zucht auf saurem Kartoffelgemüse",
                     "price": 3.0,
                     "ingredients": [
-                        "2",
-                        "9",
                         "GlW",
-                        "Gl"
+                        "2",
+                        "Gl",
+                        "9"
                     ]
                 }
             ]
@@ -115,15 +115,15 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.55,
                     "ingredients": [
-                        "5",
+                        "11",
+                        "So",
+                        "Ei",
                         "Sl",
                         "GlW",
-                        "So",
-                        "Mi",
-                        "3",
                         "Gl",
-                        "11",
-                        "Ei"
+                        "5",
+                        "3",
+                        "Mi"
                     ]
                 },
                 {
@@ -132,9 +132,9 @@
                     "ingredients": [
                         "Sl",
                         "GlW",
-                        "Mi",
-                        "GlG",
                         "Gl",
+                        "GlG",
+                        "Mi",
                         "Kn"
                     ]
                 },
@@ -142,16 +142,16 @@
                     "name": "Münchner Schnitzel vom Schwein aus der LMU-Zucht mit Kartoffel-Endivien-Salat",
                     "price": 4,
                     "ingredients": [
-                        "5",
-                        "GlW",
-                        "Sf",
                         "Sw",
-                        "Mi",
+                        "Sf",
                         "3",
-                        "GlG",
+                        "Ei",
+                        "GlW",
                         "Gl",
                         "S",
-                        "Ei",
+                        "5",
+                        "GlG",
+                        "Mi",
                         "Kn"
                     ]
                 }
@@ -164,8 +164,8 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -173,9 +173,9 @@
                     "name": "Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
                         "Mi",
                         "Kn",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -185,8 +185,8 @@
                     "ingredients": [
                         "GlW",
                         "1",
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "Kn"
                     ]
                 },
@@ -194,12 +194,12 @@
                     "name": "Geschnetzeltes vom Schwein aus der LMU-Zucht in Steinpilzrahm mit Spinatspätzle",
                     "price": 4.5,
                     "ingredients": [
-                        "GlW",
-                        "Sw",
-                        "Mi",
-                        "Gl",
                         "Ei",
-                        "99"
+                        "GlW",
+                        "Gl",
+                        "99",
+                        "Sw",
+                        "Mi"
                     ]
                 }
             ]
@@ -211,46 +211,46 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
+                        "Ei",
                         "GlW",
-                        "Mi",
-                        "3",
                         "Gl",
-                        "Ei"
+                        "3",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Gebratenes Zanderfilet mit Rote-Bete-Streifen und Kartoffel-Meerrettich-Stampf",
                     "price": 4,
                     "ingredients": [
-                        "9",
-                        "GlW",
                         "Sw",
                         "Fi",
-                        "Mi",
+                        "GlW",
+                        "Gl",
                         "3",
-                        "Gl"
+                        "Mi",
+                        "9"
                     ]
                 },
                 {
                     "name": "Gefülltes Wammerl vom Schwein aus der LMU-Zucht mit Kümmeljus und Röstkartoffeln",
                     "price": 4,
                     "ingredients": [
-                        "GlW",
                         "So",
-                        "Mi",
-                        "GlG",
+                        "Ei",
+                        "GlW",
                         "Gl",
                         "S",
-                        "Ei",
+                        "GlG",
+                        "Mi",
                         "Kn"
                     ]
                 }
