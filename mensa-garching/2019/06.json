@@ -9,43 +9,43 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
+                        "Kn",
                         "Sf",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
                         "Gl",
                         "2",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "Mi",
+                        "Ei",
+                        "Kn",
                         "GlW",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Münchner Biergulasch vom Schwein aus der LMU-Zucht mit Semmelknödel",
                     "price": 4,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "99",
                         "Mi",
-                        "GlW",
                         "Ei",
-                        "GlG"
+                        "99",
+                        "GlG",
+                        "Kn",
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -64,27 +64,27 @@
                     "name": "Vegetarischer Bratling mit Kräuterdip",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
-                        "Kn",
-                        "Gl",
                         "Sf",
-                        "2",
                         "Mi",
-                        "GlW",
                         "Ei",
-                        "So"
+                        "So",
+                        "Kn",
+                        "GlW",
+                        "Sl",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4,
                     "ingredients": [
+                        "R",
                         "1",
                         "Kn",
-                        "R",
-                        "Gl",
                         "GlW",
                         "3",
+                        "Gl",
                         "Sw"
                     ]
                 },
@@ -92,10 +92,10 @@
                     "name": "Fränkische Bratwurst vom Schwein aus der LMU-Zucht auf saurem Kartoffelgemüse",
                     "price": 3.0,
                     "ingredients": [
-                        "9",
                         "Gl",
+                        "2",
                         "GlW",
-                        "2"
+                        "9"
                     ]
                 }
             ]
@@ -107,50 +107,50 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.55,
                     "ingredients": [
-                        "Sl",
-                        "Gl",
-                        "11",
                         "Mi",
+                        "Ei",
+                        "So",
+                        "11",
                         "GlW",
                         "3",
-                        "Ei",
-                        "5",
-                        "So"
+                        "Sl",
+                        "Gl",
+                        "5"
                     ]
                 },
                 {
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
+                        "Sf",
+                        "10",
                         "Kn",
                         "11",
-                        "Sf",
-                        "10"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel vom Schwein aus der LMU-Zucht mit Kartoffel-Endivien-Salat",
                     "price": 4,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "Sf",
+                        "Sw",
                         "Mi",
+                        "Ei",
+                        "GlG",
+                        "Kn",
                         "GlW",
                         "3",
-                        "Ei",
+                        "Gl",
                         "5",
-                        "GlG",
-                        "Sw",
                         "S"
                     ]
                 }
@@ -163,28 +163,28 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gnocchi in pikantem Hähnchen-Gemüse-Ragout",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.55,
                     "ingredients": [
+                        "Sf",
                         "R",
                         "11",
-                        "Sf",
                         "8",
                         "S"
                     ]
@@ -193,11 +193,11 @@
                     "name": "Geschnetzeltes vom Schwein aus der LMU-Zucht in Steinpilzrahm mit Spinatspätzle",
                     "price": 4.5,
                     "ingredients": [
-                        "Gl",
-                        "99",
                         "Mi",
-                        "GlW",
                         "Ei",
+                        "99",
+                        "GlW",
+                        "Gl",
                         "Sw"
                     ]
                 }
@@ -210,8 +210,8 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Sl"
                     ]
                 },
@@ -219,26 +219,26 @@
                     "name": "Spaghetti mit Shrimps und getrockneten Tomaten",
                     "price": 1.9,
                     "ingredients": [
-                        "1",
-                        "Kn",
-                        "Gl",
-                        "Mi",
                         "Kr",
+                        "1",
+                        "Mi",
+                        "Kn",
                         "GlW",
-                        "3"
+                        "3",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bauerneintopf mit Wiener",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
                         "R",
-                        "Gl",
-                        "2",
+                        "Sl",
                         "GlW",
                         "8",
                         "3",
+                        "Gl",
+                        "2",
                         "S"
                     ]
                 },
@@ -246,11 +246,11 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Ei",
                         "GlW",
                         "3",
-                        "Ei"
+                        "Gl"
                     ]
                 }
             ]
