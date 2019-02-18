@@ -9,30 +9,30 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Sf",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "GlW",
                         "2",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
@@ -40,12 +40,12 @@
                     "price": 4,
                     "ingredients": [
                         "GlG",
-                        "99",
-                        "Ei",
+                        "GlW",
                         "Mi",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "99",
+                        "Ei",
+                        "Kn"
                     ]
                 }
             ]
@@ -64,28 +64,28 @@
                     "name": "Fleckerl mit Vorderschinken und Erbsen",
                     "price": 1.55,
                     "ingredients": [
-                        "S",
-                        "Ei",
                         "8",
-                        "3",
-                        "Gl",
                         "2",
-                        "GlW"
+                        "3",
+                        "GlW",
+                        "Gl",
+                        "Ei",
+                        "S"
                     ]
                 },
                 {
                     "name": "Vegetarischer Bratling mit Kräuterdip",
                     "price": 1.9,
                     "ingredients": [
-                        "Sf",
-                        "Sl",
                         "2",
-                        "Ei",
+                        "Sl",
+                        "GlW",
                         "Mi",
                         "Gl",
-                        "Kn",
-                        "GlW",
-                        "So"
+                        "So",
+                        "Sf",
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {
@@ -93,9 +93,9 @@
                     "price": 3.0,
                     "ingredients": [
                         "Gl",
+                        "9",
                         "2",
-                        "GlW",
-                        "9"
+                        "GlW"
                     ]
                 }
             ]
@@ -107,8 +107,8 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
@@ -116,14 +116,14 @@
                     "price": 1.55,
                     "ingredients": [
                         "5",
+                        "3",
                         "Sl",
+                        "GlW",
+                        "Gl",
+                        "So",
                         "11",
                         "Ei",
-                        "Mi",
-                        "3",
-                        "Gl",
-                        "GlW",
-                        "So"
+                        "Mi"
                     ]
                 },
                 {
@@ -131,28 +131,28 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlG",
-                        "Sl",
-                        "Mi",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "Sl",
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel vom Schwein aus der LMU-Zucht mit Kartoffel-Endivien-Salat",
                     "price": 4,
                     "ingredients": [
-                        "Sf",
                         "GlG",
                         "5",
-                        "Sw",
-                        "S",
-                        "Ei",
-                        "Mi",
                         "3",
+                        "GlW",
+                        "S",
+                        "Mi",
+                        "Sw",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Sf",
+                        "Ei",
+                        "Kn"
                     ]
                 }
             ]
@@ -165,8 +165,8 @@
                     "price": 1,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -174,32 +174,32 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Überbackenes Putenschnitzel Toskana",
                     "price": 2.8,
                     "ingredients": [
-                        "1",
+                        "GlW",
                         "Mi",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "1",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Geschnetzeltes vom Schwein aus der LMU-Zucht in Steinpilzrahm mit Spinatspätzle",
                     "price": 4.5,
                     "ingredients": [
-                        "99",
+                        "GlW",
                         "Sw",
-                        "Ei",
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "99",
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]
@@ -211,33 +211,33 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
+                        "Sl",
                         "Gl",
-                        "GlW",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "3",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Gebratenes Zanderfilet mit Rote-Bete-Streifen und Kartoffel-Meerrettich-Stampf",
                     "price": 4,
                     "ingredients": [
-                        "Sw",
-                        "9",
-                        "Mi",
                         "3",
-                        "Gl",
                         "GlW",
-                        "Fi"
+                        "Sw",
+                        "Gl",
+                        "Fi",
+                        "9",
+                        "Mi"
                     ]
                 },
                 {
@@ -245,13 +245,13 @@
                     "price": 4,
                     "ingredients": [
                         "GlG",
+                        "GlW",
                         "S",
-                        "Ei",
                         "Mi",
                         "Gl",
-                        "Kn",
-                        "GlW",
-                        "So"
+                        "So",
+                        "Ei",
+                        "Kn"
                     ]
                 }
             ]
