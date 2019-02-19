@@ -1,118 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-02-11">
-      <category name="Speiseplan">
-        <meal>
-          <name>Eierflaumsuppe mit Gemüsestreifen</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Kraut- Steckrübenragout mit Fussilli</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Vegetarisches Moussaka</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Hähnchenbrust mit Blattspinat gratiniert dazu Risi Bisi</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Fischfilet in Senfhülle mit buntem Salat</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-02-12">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tomatencremesuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Möhrchen- Broccoligemüse in Orangenjus mit Couscous</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Süßkartoffelgratin mit grünem Salat</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Hackfleisch-Kartoffelauflauf mit Gemüse</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Hähnchen-Curry mit frischem Gemüse</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-02-13">
-      <category name="Speiseplan">
-        <meal>
-          <name>Minestrone</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Grünkohl auf Kürbispüree</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Endivengemüse nach Neapolianische Art mit Eblyweizen</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Omas Fleisch aus der Kassel (Schwein) mit Semmelknödel und grünen Bohnen</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Paprikaschote mit Sauerkraut und Putenstreifen dazu Naturjoghurt</name>
-          <price role="other">5.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-02-14">
-      <category name="Speiseplan">
-        <meal>
-          <name>Graupensuppe mit Gemüse</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Gedünstetes Paprika- Tomaten-Kraut im Reisrand</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Gemüsesugo</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Putenbrust mit getrockneten Tomaten und Röstiecken</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Broccoli mit Schinken und Parmesan</name>
-          <price role="other">4.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-02-15">
-      <category name="Speiseplan">
-        <meal>
-          <name>Steckrübensuppe mit Kartoffelwürfel</name>
-          <price role="other">3.60</price>
-        </meal>
-        <meal>
-          <name>Milchreis mit Zimt und Zucker</name>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
-          <name>Seelachslions in Prosecco- Dillsoße dazu Gemüsereis</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2019-02-18">
       <category name="Speiseplan">
         <meal>
@@ -124,7 +12,7 @@
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Maultaschen auf Gemüsesoße mit Schmorrzwiebeln</name>
+          <name>Maultaschen auf Gemüsesoße mit Schmorzwiebeln</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
@@ -144,7 +32,7 @@
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Grünkohl-Hanf-Thaler auf Paprikagemüse</name>
+          <name>Grünkohl-Hanf-Taler auf Paprikagemüse</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
@@ -153,7 +41,7 @@
         </meal>
         <meal>
           <name>t CousCous Blattspinat Champignon Haferflocken</name>
-          <price role="other">5.90</price>
+          <price role="other">3.90</price>
         </meal>
       </category>
     </day>
@@ -217,6 +105,114 @@
         </meal>
         <meal>
           <name>GlutenEi Goldmakrelenfilet mit Kräutersoße und Kartoffeln</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-02-25">
+      <category name="Speiseplan">
+        <meal>
+          <name>Süßkartoffel-Linsensuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>/ Milch Räucher- Tofugulasch mit Kartoffelknödel</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Käsespätzle mit Röstzwiebeln</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Gyros vom Huhn mit Tzatziki und Kräuterreis</name>
+          <price role="other">5.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-02-26">
+      <category name="Speiseplan">
+        <meal>
+          <name>Cremige Pilzsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Herzhafte Champignonsauce mit Reis</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Schwarzwurzel-Wirsing-Tarte</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Spaghetti “ Bolognese “ mit Parmesan</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Curry-Reis-Bowl mit Hühnchen Broccoli Erbsen Möhrchen Blaukraut</name>
+          <price role="other">5.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-02-27">
+      <category name="Speiseplan">
+        <meal>
+          <name>Karotte-Birnensuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel- Schupfnudel- Pfanne mit Ratatouillegemüse</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hausgemachte Zucchini-Linsen- Lasagne</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Kalbs-Fleischpflanzerl mit Zwiebeljus und Kartoffelstampf</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>Ei und Cranberries Sellerie Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-02-28">
+      <category name="Speiseplan">
+        <meal>
+          <name>Spinat-Bohnensuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Milch Kichererbsencurry mit Gemüse im Reisrand</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Kartoffel- Gemüsegratin</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Münchner Schnitzel vom Schwein mit Pommes</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>Currywurst mit Pommes</name>
+          <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-03-01">
+      <category name="Speiseplan">
+        <meal>
+          <name>Asiatische Broccolisuppe mit Koriander</name>
+          <price role="other">3.60</price>
+        </meal>
+        <meal>
+          <name>Marillen-Quarkstrudel mit Mohn-Vanillesoße</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Bandnudeln mit Lachs- Dillsoße</name>
           <price role="other">4.60</price>
         </meal>
       </category>
