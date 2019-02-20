@@ -9,20 +9,20 @@
                     "name": "Chili con Carne mit Reis",
                     "price": "individual",
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "R",
                         "2",
-                        "GlW",
-                        "R"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Putensteak mit Kräuterbutter und Kartoffelgratin",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "Ei"
                     ]
                 },
                 {
@@ -36,21 +36,21 @@
                     "name": "Rotes Curry vom Rind (GQB) mit Wokgemüse und Basmatireis",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "So",
-                        "GlW",
-                        "R"
+                        "Gl",
+                        "Kn",
+                        "R",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "0.33€ / 100g",
                     "ingredients": [
+                        "Kn",
                         "GlG",
-                        "Gl",
                         "Sl",
-                        "Kn"
+                        "Gl"
                     ]
                 }
             ]
@@ -64,13 +64,13 @@
                     "ingredients": [
                         "3",
                         "Mi",
-                        "Kn",
-                        "GlG",
-                        "1",
                         "Gl",
+                        "Kn",
+                        "R",
                         "99",
                         "GlW",
-                        "R",
+                        "1",
+                        "GlG",
                         "Sw"
                     ]
                 },
@@ -79,10 +79,10 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "3",
+                        "So",
+                        "Gl",
                         "Kn",
                         "S",
-                        "Gl",
-                        "So",
                         "GlW",
                         "5"
                     ]
@@ -91,19 +91,19 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Gl",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Gl"
                     ]
                 }
             ]
@@ -115,33 +115,33 @@
                     "name": "Pasta mit Sauce Bolognese",
                     "price": "individual",
                     "ingredients": [
-                        "Kn",
-                        "Sl",
                         "Gl",
-                        "GlW",
-                        "R"
+                        "Kn",
+                        "R",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gegrilltes Hähnchenbrustfilet mit warmer Gemüsesalsa (scharf) und Couscou",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "4",
                         "Gl",
+                        "Kn",
                         "2",
-                        "GlW"
+                        "GlW",
+                        "4"
                     ]
                 },
                 {
                     "name": "Andalusisches Rinderragout (GQB) und Nudeln",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "R",
                         "99",
                         "GlW",
-                        "R",
                         "Sw"
                     ]
                 },
@@ -149,9 +149,9 @@
                     "name": "Apfelkücherl mit Zimtzucker",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -160,12 +160,12 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Mi",
-                        "GlG",
-                        "Ei",
-                        "Gl",
                         "So",
+                        "Gl",
+                        "Ei",
                         "2",
-                        "GlW"
+                        "GlW",
+                        "GlG"
                     ]
                 },
                 {
@@ -185,11 +185,11 @@
                     "price": "individual",
                     "ingredients": [
                         "3",
-                        "GlD",
-                        "6",
                         "Mi",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "6",
+                        "GlD"
                     ]
                 },
                 {
@@ -197,12 +197,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Kn",
-                        "GlG",
-                        "S",
                         "Gl",
+                        "Kn",
+                        "S",
                         "99",
-                        "GlW"
+                        "GlW",
+                        "GlG"
                     ]
                 },
                 {
@@ -210,10 +210,10 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Mi",
+                        "Gl",
                         "Kn",
                         "Ei",
                         "Sl",
-                        "Gl",
                         "GlW"
                     ]
                 },
@@ -221,9 +221,9 @@
                     "name": "Truthahnsteak Thai-Style mit Gemüse",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "So",
+                        "Gl",
+                        "Kn",
                         "2",
                         "GlW"
                     ]
@@ -244,20 +244,20 @@
                     "name": "Gnocchi mit Gorgonzola-Sauce",
                     "price": "individual",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Reis",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Fi",
-                        "Sl",
                         "Gl",
+                        "Kn",
+                        "Sl",
                         "GlW"
                     ]
                 },
@@ -265,9 +265,9 @@
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -286,9 +286,9 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Gl",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Gl"
                     ]
                 }
             ]

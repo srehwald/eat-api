@@ -18,9 +18,9 @@
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "2",
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "2",
                         "GlW"
                     ]
                 },
@@ -28,24 +28,24 @@
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Kn",
                         "Mi",
                         "Gl",
-                        "Ei",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Münchner Biergulasch vom Schwein aus der LMU-Zucht mit Semmelknödel",
                     "price": 4,
                     "ingredients": [
-                        "GlG",
-                        "Kn",
+                        "99",
                         "Mi",
                         "Gl",
+                        "Kn",
+                        "GlW",
                         "Ei",
-                        "99",
-                        "GlW"
+                        "GlG"
                     ]
                 }
             ]
@@ -64,13 +64,13 @@
                     "name": "Fleckerl mit Vorderschinken und Erbsen",
                     "price": 1.55,
                     "ingredients": [
+                        "S",
                         "2",
-                        "8",
                         "Gl",
-                        "Ei",
-                        "3",
+                        "8",
                         "GlW",
-                        "S"
+                        "Ei",
+                        "3"
                     ]
                 },
                 {
@@ -78,23 +78,23 @@
                     "price": 1.9,
                     "ingredients": [
                         "Sf",
-                        "2",
-                        "Sl",
-                        "Kn",
                         "Mi",
                         "Gl",
+                        "2",
+                        "Kn",
+                        "GlW",
                         "Ei",
                         "So",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Fränkische Bratwurst vom Schwein aus der LMU-Zucht auf saurem Kartoffelgemüse",
                     "price": 3.0,
                     "ingredients": [
-                        "2",
                         "Gl",
                         "9",
+                        "2",
                         "GlW"
                     ]
                 }
@@ -115,38 +115,38 @@
                     "name": "Fusilli mit Rucola-Pesto",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Gebratenes Truthahnsteak",
-                    "price": 2.4,
-                    "ingredients": [
-                        "Sl",
-                        "GlG",
-                        "Kn",
                         "Mi",
                         "Gl",
                         "GlW"
                     ]
                 },
                 {
+                    "name": "Gebratenes Truthahnsteak",
+                    "price": 2.4,
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "Kn",
+                        "GlW",
+                        "GlG",
+                        "Sl"
+                    ]
+                },
+                {
                     "name": "Münchner Schnitzel vom Schwein aus der LMU-Zucht mit Kartoffel-Endivien-Salat",
                     "price": 4,
                     "ingredients": [
-                        "Sf",
-                        "Sw",
-                        "GlG",
-                        "Kn",
-                        "Mi",
                         "5",
+                        "Sf",
+                        "Mi",
+                        "S",
                         "Gl",
-                        "Ei",
-                        "3",
+                        "Kn",
                         "GlW",
-                        "S"
+                        "Ei",
+                        "Sw",
+                        "3",
+                        "GlG"
                     ]
                 }
             ]
@@ -158,9 +158,9 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -168,33 +168,33 @@
                     "price": 1.55,
                     "ingredients": [
                         "Sf",
+                        "S",
                         "8",
                         "11",
-                        "R",
-                        "S"
+                        "R"
                     ]
                 },
                 {
                     "name": "Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Mi",
                         "Gl",
-                        "Ei",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Geschnetzeltes vom Schwein aus der LMU-Zucht in Steinpilzrahm mit Spinatspätzle",
                     "price": 4.5,
                     "ingredients": [
-                        "Sw",
+                        "99",
                         "Mi",
                         "Gl",
+                        "GlW",
                         "Ei",
-                        "99",
-                        "GlW"
+                        "Sw"
                     ]
                 }
             ]
@@ -206,22 +206,22 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
+                        "Sl",
                         "Gl",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Spaghetti mit Shrimps und getrockneten Tomaten",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "1",
-                        "Kr",
                         "Mi",
                         "Gl",
+                        "Kn",
+                        "GlW",
                         "3",
-                        "GlW"
+                        "1",
+                        "Kr"
                     ]
                 },
                 {
@@ -230,9 +230,9 @@
                     "ingredients": [
                         "Mi",
                         "Gl",
+                        "GlW",
                         "Ei",
-                        "3",
-                        "GlW"
+                        "3"
                     ]
                 }
             ]
