@@ -9,43 +9,43 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
+                        "Sf",
                         "Kn",
-                        "Sl",
-                        "Sf"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
+                        "2",
                         "Kn",
                         "GlW",
-                        "Gl",
-                        "2"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
                     "price": 3.0,
                     "ingredients": [
+                        "Gl",
                         "Ei",
                         "Mi",
-                        "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Münchner Biergulasch vom Schwein aus der LMU-Zucht mit Semmelknödel",
                     "price": 4,
                     "ingredients": [
-                        "GlG",
+                        "Gl",
                         "Ei",
                         "Mi",
-                        "GlW",
-                        "Gl",
                         "Kn",
-                        "99"
+                        "GlW",
+                        "99",
+                        "GlG"
                     ]
                 }
             ]
@@ -64,13 +64,13 @@
                     "name": "Fleckerl mit Vorderschinken und Erbsen",
                     "price": 1.55,
                     "ingredients": [
-                        "3",
+                        "8",
+                        "Gl",
                         "2",
                         "S",
                         "Ei",
                         "GlW",
-                        "Gl",
-                        "8"
+                        "3"
                     ]
                 },
                 {
@@ -78,24 +78,24 @@
                     "price": 1.9,
                     "ingredients": [
                         "So",
+                        "Gl",
                         "2",
-                        "Sf",
                         "Ei",
                         "Mi",
-                        "Sl",
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Sf",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Fränkische Bratwurst vom Schwein aus der LMU-Zucht auf saurem Kartoffelgemüse",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
+                        "2",
                         "9",
-                        "2"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -115,44 +115,44 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.55,
                     "ingredients": [
-                        "3",
-                        "11",
                         "So",
-                        "Ei",
-                        "Mi",
-                        "Sl",
-                        "GlW",
                         "Gl",
-                        "5"
+                        "11",
+                        "Ei",
+                        "5",
+                        "Mi",
+                        "GlW",
+                        "3",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Gebratenes Truthahnsteak",
                     "price": 2.4,
                     "ingredients": [
-                        "GlG",
-                        "Mi",
-                        "Sl",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Mi",
+                        "Kn",
+                        "GlW",
+                        "Sl",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel vom Schwein aus der LMU-Zucht mit Kartoffel-Endivien-Salat",
                     "price": 4,
                     "ingredients": [
-                        "Sw",
-                        "3",
-                        "Sf",
-                        "S",
-                        "GlG",
-                        "Ei",
-                        "Mi",
-                        "GlW",
                         "Gl",
+                        "S",
+                        "Ei",
                         "5",
-                        "Kn"
+                        "Mi",
+                        "Kn",
+                        "GlW",
+                        "3",
+                        "Sw",
+                        "Sf",
+                        "GlG"
                     ]
                 }
             ]
@@ -183,22 +183,22 @@
                     "name": "Überbackenes Putenschnitzel Toskana",
                     "price": 2.8,
                     "ingredients": [
-                        "Mi",
-                        "1",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Mi",
+                        "Kn",
+                        "GlW",
+                        "1"
                     ]
                 },
                 {
                     "name": "Geschnetzeltes vom Schwein aus der LMU-Zucht in Steinpilzrahm mit Spinatspätzle",
                     "price": 4.5,
                     "ingredients": [
-                        "Sw",
+                        "Gl",
                         "Ei",
                         "Mi",
                         "GlW",
-                        "Gl",
+                        "Sw",
                         "99"
                     ]
                 }
@@ -220,24 +220,24 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
+                        "Gl",
                         "Ei",
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "3"
                     ]
                 },
                 {
                     "name": "Gebratenes Zanderfilet mit Rote-Bete-Streifen und Kartoffel-Meerrettich-Stampf",
                     "price": 4,
                     "ingredients": [
-                        "Sw",
-                        "3",
-                        "Mi",
-                        "9",
-                        "GlW",
                         "Gl",
-                        "Fi"
+                        "Fi",
+                        "Mi",
+                        "GlW",
+                        "3",
+                        "Sw",
+                        "9"
                     ]
                 },
                 {
@@ -245,13 +245,13 @@
                     "price": 4,
                     "ingredients": [
                         "So",
+                        "Gl",
                         "S",
-                        "GlG",
                         "Ei",
                         "Mi",
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "GlG"
                     ]
                 }
             ]
