@@ -10,9 +10,9 @@
                     "price": 1,
                     "ingredients": [
                         "Kn",
-                        "GlW",
                         "Gl",
-                        "Sl"
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
@@ -21,36 +21,36 @@
                     "ingredients": [
                         "2",
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Rahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "R",
                         "S",
-                        "Ei",
-                        "Mi",
-                        "Kn",
                         "GlW",
+                        "Ei",
+                        "Gl",
+                        "Kn",
+                        "R",
+                        "GlG",
                         "Sf",
-                        "GlG"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Riesen Grillwurst mit pikanter Currysauce und Pommes",
                     "price": 3.2,
                     "ingredients": [
+                        "S",
                         "8",
                         "2",
                         "R",
-                        "S",
                         "11",
-                        "3",
-                        "Sf"
+                        "Sf",
+                        "3"
                     ]
                 }
             ]
@@ -63,22 +63,22 @@
                     "price": 1,
                     "ingredients": [
                         "2",
-                        "Sf",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "2",
-                        "Ei",
-                        "Mi",
-                        "Kn",
                         "GlW",
+                        "Ei",
+                        "Gl",
+                        "Kn",
+                        "2",
                         "Sf",
-                        "1"
+                        "1",
+                        "Mi"
                     ]
                 },
                 {
@@ -87,8 +87,8 @@
                     "ingredients": [
                         "S",
                         "5",
-                        "Mi",
                         "Kn",
+                        "Mi",
                         "3"
                     ]
                 },
@@ -96,12 +96,12 @@
                     "name": "Cevapcici von der Pute mit Djuvecreis und Ajvar, Djuvecreis",
                     "price": 3.0,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
-                        "Mi",
-                        "Kn",
                         "GlW",
-                        "Sf"
+                        "Ei",
+                        "Gl",
+                        "Kn",
+                        "Sf",
+                        "Mi"
                     ]
                 }
             ]
@@ -122,8 +122,8 @@
                     "ingredients": [
                         "Mi",
                         "Gl",
-                        "Ei",
-                        "GlW"
+                        "GlW",
+                        "Ei"
                     ]
                 },
                 {
@@ -137,19 +137,19 @@
                     "name": "Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Sf",
-                        "Gl",
-                        "2",
-                        "R",
-                        "S",
-                        "Mi",
-                        "Kn",
-                        "GlW",
-                        "3",
-                        "Sw",
-                        "99",
                         "Sl",
-                        "GlG"
+                        "S",
+                        "GlW",
+                        "Gl",
+                        "Sw",
+                        "Kn",
+                        "2",
+                        "99",
+                        "R",
+                        "GlG",
+                        "Sf",
+                        "Mi",
+                        "3"
                     ]
                 }
             ]
@@ -162,44 +162,44 @@
                     "price": 1,
                     "ingredients": [
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gnocchi mit frischem Pfannengemüse",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Hähnchenschnitzel in Nuß-Mandel-Sesam-Panade, Currydip",
                     "price": 2.6,
                     "ingredients": [
-                        "ScH",
-                        "Gl",
-                        "Sc",
-                        "Ei",
-                        "Mi",
                         "ScM",
                         "GlW",
+                        "Ei",
+                        "ScH",
+                        "Sc",
                         "Se",
+                        "Gl",
                         "Sf",
-                        "1"
+                        "1",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "Gl",
-                        "R",
                         "S",
-                        "Mi",
+                        "GlW",
+                        "Gl",
                         "Kn",
-                        "GlW"
+                        "R",
+                        "Mi"
                     ]
                 }
             ]
@@ -211,35 +211,35 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Sf",
+                        "Sl",
                         "Kn",
-                        "Sl"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Ungarisches Würstelgulasch",
                     "price": 1.9,
                     "ingredients": [
+                        "S",
                         "8",
                         "2",
                         "R",
-                        "S",
-                        "3",
-                        "Sf"
+                        "Sf",
+                        "3"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
+                        "Ei",
+                        "GlW",
                         "Gl",
                         "2",
                         "Fi",
-                        "Ei",
+                        "1",
                         "Mi",
-                        "GlW",
-                        "9",
-                        "1"
+                        "9"
                     ]
                 }
             ]
