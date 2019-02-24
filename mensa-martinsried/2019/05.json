@@ -9,10 +9,10 @@
                     "name": "Gnocchi auf Hirtenart",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -33,10 +33,10 @@
                     "name": "Pfannkuchensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "GlW",
+                        "Gl",
                         "Ei",
+                        "GlW",
                         "Sl"
                     ]
                 },
@@ -44,23 +44,23 @@
                     "name": "Falafel mit Joghurt-Minz-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Seelachsfilet (MSC) Lemon Koriander",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Fi",
-                        "Ei",
+                        "1",
                         "Mi",
+                        "Gl",
+                        "Ei",
                         "GlW",
                         "Sf",
-                        "1"
+                        "Fi"
                     ]
                 }
             ]
@@ -72,11 +72,11 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Mi",
-                        "GlW",
+                        "Gl",
                         "Ei",
+                        "GlW",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -84,41 +84,41 @@
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "So",
+                        "2",
+                        "Gl",
                         "GlW",
-                        "2"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "Sl"
+                        "Sl",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Erbsensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Sl"
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Hausgemachte Lasagne Bolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Mi",
+                        "Gl",
+                        "R",
                         "GlW",
-                        "R"
+                        "Kn"
                     ]
                 }
             ]
@@ -131,37 +131,37 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
+                        "GlW",
                         "Kn",
                         "Fi",
-                        "6",
-                        "GlW"
+                        "6"
                     ]
                 },
                 {
                     "name": "Bacon Burger",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Ei",
+                        "1",
                         "Mi",
-                        "GlW",
-                        "Sf",
                         "2",
                         "Se",
+                        "3",
+                        "Gl",
+                        "Ei",
+                        "GlW",
                         "R",
-                        "1",
-                        "3"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Asiatisches Gemüse mit Chinakohl (scharf)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "So",
+                        "2",
+                        "Gl",
                         "GlW",
-                        "Sf",
-                        "2"
+                        "Sf"
                     ]
                 },
                 {
@@ -185,19 +185,19 @@
                     "name": "Bio-Penne mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "So",
                         "Mi",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rendang - Indonesisches Rindergulasch",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "R"
+                        "R",
+                        "2"
                     ]
                 },
                 {
@@ -216,11 +216,11 @@
                     "name": "Pfannengyros vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "5",
                         "Mi",
                         "S",
-                        "3"
+                        "3",
+                        "5",
+                        "Kn"
                     ]
                 }
             ]
@@ -232,20 +232,20 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "11",
-                        "Sf",
                         "8",
+                        "11",
+                        "S",
                         "R",
-                        "S"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Sl"
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
@@ -257,13 +257,13 @@
                     "name": "Bauerneintopf mit Wiener",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "8",
                         "2",
-                        "R",
                         "S",
                         "3",
+                        "Gl",
+                        "GlW",
+                        "R",
                         "Sl"
                     ]
                 },
@@ -271,19 +271,19 @@
                     "name": "Gebackenes Seelachsfilet (MSC)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Fi"
+                        "Fi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Dampfnudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "Ei",
-                        "GlW"
+                        "GlW",
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]
