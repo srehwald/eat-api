@@ -378,6 +378,11 @@ class IPPBistroMenuParser(MenuParser):
 
             count += 1
 
+        else:
+            warn("NotImplemented: IPP parsing failed. Menu text is not a weekly menu. First line: '{}'".format(
+                lines[0]))
+            return None
+
         lines = lines[count:]
         weekdays = lines[0]
 
