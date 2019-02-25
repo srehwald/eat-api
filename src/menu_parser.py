@@ -397,11 +397,12 @@ class IPPBistroMenuParser(MenuParser):
 
         positions1 = [(max(a.start() - 3, 0), a.end()) for a in list(
             re.finditer(self.split_days_regex_soup_one_line, soup_line1))]
-        # In the second line there is just 'Aushang' (two lines "Tagessuppe siehe Aushang" or
-        # closed days ("Geschlossen", "Feiertag")
+        # In the second line there is just 'Aushang' (two lines "Tagessuppe siehe Aushang")
         positions2 = [(max(a.start() - 14, 0), a.end() + 3) for a in list(
             re.finditer(self.split_days_regex_soup_two_line, soup_line2))]
+        # closed days ("Geschlossen", "Feiertag", …) can be in first line and second line
         positions3 = [(max(a.start() - 3, 0), a.end()) for a in list(
+            re.finditer(self.split_days_regex_closed, soup_line1)) + list(
             re.finditer(self.split_days_regex_closed, soup_line2))]
 
         if positions2: # Two lines "Tagessuppe siehe Aushang"
