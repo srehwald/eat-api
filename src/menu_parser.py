@@ -278,7 +278,7 @@ class FMIBistroMenuParser(MenuParser):
             if "geschlossen" in lines_weekdays[key].lower():
                 continue
 
-            # extract all alergens
+            # extract all allergens
             dish_allergens = []
             for x in re.findall(self.allergens_regex, lines_weekdays[key]):
                 if len(x) > 0:
@@ -291,7 +291,7 @@ class FMIBistroMenuParser(MenuParser):
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
 
-            # remove no allergenes indicator
+            # remove no allergens indicator
             lines_weekdays[key] = lines_weekdays[key].replace("./.", "")
             # get all dish including name and price
             dish_names = re.findall(self.dish_regex, lines_weekdays[key])
