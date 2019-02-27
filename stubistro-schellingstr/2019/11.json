@@ -9,24 +9,24 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
                         "GlW",
                         "Mi",
-                        "Kn",
-                        "Sl"
+                        "Gl",
+                        "Sl",
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "GlG",
                         "GlW",
+                        "GlG",
                         "Mi",
-                        "Kn",
+                        "Gl",
                         "Sl",
+                        "Kn",
                         "R"
                     ]
                 }
@@ -39,23 +39,23 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
+                        "Mi",
+                        "1",
                         "2",
                         "Gl",
-                        "Ei",
-                        "GlW",
-                        "1",
-                        "Mi"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse und Reis, Basmatireis, HoiSin Sojasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "So",
                         "GlW",
+                        "S",
+                        "Gl",
                         "Kn",
-                        "S"
+                        "So"
                     ]
                 }
             ]
@@ -67,22 +67,22 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
                         "Gl",
                         "Ei",
-                        "GlW",
-                        "Sl",
-                        "GlD"
+                        "GlD",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
+                        "Sf",
                         "GlW",
                         "Mi",
-                        "Sf",
+                        "Gl",
+                        "Ei",
                         "Sl"
                     ]
                 }
@@ -95,8 +95,8 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "2",
                         "Gl"
                     ]
@@ -105,12 +105,12 @@
                     "name": "Rigatoni mit Pesto rosso (scharf)",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "Gl",
-                        "Ei",
                         "GlW",
                         "Mi",
+                        "2",
+                        "Gl",
                         "Sc",
+                        "Ei",
                         "ScM"
                     ]
                 }
@@ -124,9 +124,9 @@
                     "price": 2.8,
                     "ingredients": [
                         "1",
-                        "Sl",
                         "Kn",
-                        "Kr"
+                        "Kr",
+                        "Sl"
                     ]
                 },
                 {
@@ -134,8 +134,8 @@
                     "price": 3.0,
                     "ingredients": [
                         "GlW",
-                        "Mi",
-                        "Gl"
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
