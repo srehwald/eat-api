@@ -10,12 +10,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
+                        "10",
+                        "GlW",
                         "11",
                         "Sf",
                         "Sl",
-                        "Gl",
-                        "GlW",
-                        "10"
+                        "Gl"
                     ]
                 },
                 {
@@ -23,26 +23,26 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Kn",
-                        "Mi",
+                        "Ei",
                         "Sl",
-                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB) und Knöpfle",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "GlG",
                         "Kn",
-                        "GlD",
-                        "Mi",
-                        "R",
+                        "Ei",
                         "Sl",
-                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Mi",
+                        "GlG",
+                        "GlD",
+                        "R",
+                        "Gl"
                     ]
                 },
                 {
@@ -62,43 +62,43 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "So",
-                        "Gl",
                         "GlW",
                         "2",
-                        "S"
+                        "So",
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pfannengyros von der Pute mit Tsatsiki und Reis",
                     "price": "0.75€ / 100g",
                     "ingredients": [
+                        "Mi",
                         "Kn",
-                        "3",
                         "5",
-                        "Mi"
+                        "3"
                     ]
                 },
                 {
                     "name": "Mediterraner Nudel-Gemüse-Auflauf und Tomatensauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "1",
                         "Kn",
-                        "Mi",
-                        "Gl",
-                        "GlW",
                         "Ei",
-                        "2"
+                        "1",
+                        "GlW",
+                        "Mi",
+                        "2",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Orientalische Reispfanne mit Sojahack, Sesam und Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Se",
                         "Kn",
-                        "So"
+                        "So",
+                        "Se"
                     ]
                 }
             ]
@@ -112,34 +112,34 @@
                     "ingredients": [
                         "Kn",
                         "1",
-                        "3",
-                        "R",
-                        "Gl",
                         "GlW",
-                        "Sw"
+                        "3",
+                        "Sw",
+                        "R",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste) und Röstkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Mi",
+                        "Ei",
                         "Sl",
-                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Mi",
+                        "Sf",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "GlD",
+                        "Ei",
                         "Sl",
-                        "Gl",
                         "GlW",
-                        "Ei"
+                        "GlD",
+                        "Gl"
                     ]
                 },
                 {
@@ -147,8 +147,8 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "2",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -160,13 +160,13 @@
                     "name": "Rigatoni mit Pesto rosso (scharf)",
                     "price": "individual",
                     "ingredients": [
-                        "ScM",
-                        "Mi",
-                        "Gl",
-                        "Sc",
-                        "GlW",
                         "Ei",
-                        "2"
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "2",
+                        "ScM",
+                        "Gl"
                     ]
                 },
                 {
@@ -175,33 +175,33 @@
                     "ingredients": [
                         "2",
                         "Kn",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke auf Sauerkraut mit Kartoffelpürre",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "S",
+                        "Mi",
                         "8",
-                        "Sl",
-                        "Mi"
+                        "S",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Blumenkohlauflauf mit Käsesauce mit Salzkartoffeln",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "1",
                         "Kn",
                         "99",
-                        "Mi",
-                        "Gl",
-                        "GlW",
                         "Ei",
+                        "1",
+                        "GlW",
+                        "Mi",
                         "2",
-                        "Sw"
+                        "Sw",
+                        "Gl"
                     ]
                 },
                 {
@@ -222,29 +222,29 @@
                     "price": "individual",
                     "ingredients": [
                         "3",
-                        "R",
                         "2",
-                        "S",
-                        "8"
+                        "R",
+                        "8",
+                        "S"
                     ]
                 },
                 {
                     "name": "Wildlachs (MSC) auf Blattspinat mit Dillkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "Mi",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -252,9 +252,9 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Kn",
+                        "Kr",
                         "1",
-                        "Sl",
-                        "Kr"
+                        "Sl"
                     ]
                 },
                 {
