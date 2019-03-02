@@ -9,18 +9,18 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": "0.33€ / 100g",
                     "ingredients": [
+                        "Sf",
                         "Kn",
-                        "2",
-                        "Sf"
+                        "2"
                     ]
                 },
                 {
                     "name": "Penne mit Austernpilzen und Spinat",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -45,14 +45,14 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "GlH",
+                        "GlW",
+                        "ScC",
+                        "ScM",
                         "Gl",
                         "Mi",
-                        "ScM",
-                        "ScC",
-                        "ScH",
-                        "GlW",
-                        "Sc"
+                        "GlH",
+                        "Sc",
+                        "ScH"
                     ]
                 },
                 {
@@ -67,11 +67,11 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "GlG",
+                        "GlW",
+                        "Kn",
                         "Gl",
                         "Mi",
-                        "Kn",
                         "Sl",
-                        "GlW",
                         "R"
                     ]
                 },
@@ -81,8 +81,8 @@
                     "ingredients": [
                         "Fi",
                         "So",
-                        "Sl",
-                        "Mi"
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
@@ -106,11 +106,11 @@
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Gl",
-                        "GlD",
-                        "Mi",
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "Gl",
+                        "Mi",
+                        "GlD",
                         "1"
                     ]
                 },
@@ -118,15 +118,15 @@
                     "name": "Sweet & Sour mit Schweinefleisch - Aufschlag 1,00€",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "2",
                         "Sf",
-                        "S",
+                        "5",
+                        "So",
                         "3",
                         "Kn",
-                        "5",
+                        "2",
                         "Sl",
-                        "So",
-                        "11"
+                        "11",
+                        "S"
                     ]
                 },
                 {
@@ -135,8 +135,8 @@
                     "ingredients": [
                         "Fi",
                         "So",
-                        "Sl",
-                        "Mi"
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
@@ -191,19 +191,19 @@
                     "name": "Bunte Farfalle mit Räucherlachssauce - Aufschlag 0,50€",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Fi",
+                        "GlW",
                         "Gl",
                         "Mi",
                         "Kn",
-                        "GlW"
+                        "Fi"
                     ]
                 },
                 {
                     "name": "Nudeln",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -227,10 +227,10 @@
                     "name": "Nusscreme",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "Sc",
-                        "ScH",
-                        "Mi"
+                        "So",
+                        "Mi",
+                        "ScH"
                     ]
                 },
                 {
@@ -244,8 +244,8 @@
                     "ingredients": [
                         "Fi",
                         "So",
-                        "Sl",
-                        "Mi"
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
@@ -269,16 +269,16 @@
                     "name": "Kasseler mit Rotweinsauce - Aufschlag 1,00€",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlG",
-                        "2",
-                        "Gl",
-                        "99",
-                        "Mi",
                         "S",
-                        "Sw",
-                        "3",
-                        "Kn",
+                        "GlG",
                         "GlW",
+                        "3",
+                        "Gl",
+                        "Kn",
+                        "Mi",
+                        "2",
+                        "99",
+                        "Sw",
                         "8"
                     ]
                 },
@@ -317,12 +317,12 @@
                     "name": "Hausgemachte Gemüsequiche mit Schnittlauchdip",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "2",
+                        "GlW",
                         "Gl",
                         "Mi",
-                        "GlW",
-                        "1",
-                        "Ei"
+                        "2",
+                        "Ei",
+                        "1"
                     ]
                 },
                 {
@@ -331,8 +331,8 @@
                     "ingredients": [
                         "Fi",
                         "So",
-                        "Sl",
-                        "Mi"
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
@@ -356,8 +356,8 @@
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce - Aufschlag 0,50€",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sf",
                         "10",
+                        "Sf",
                         "Kn",
                         "Sl",
                         "11"
@@ -367,9 +367,9 @@
                     "name": "Gebratenes Saiblingsfilet mit Zitronenbutter - Aufschlag 1,00€",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
@@ -407,8 +407,8 @@
                     "ingredients": [
                         "Fi",
                         "So",
-                        "Sl",
-                        "Mi"
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
