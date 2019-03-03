@@ -16,11 +16,11 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
-                        "Kn",
-                        "Mi",
-                        "Sl",
                         "Gl",
+                        "Kn",
+                        "Sl",
+                        "Mi",
+                        "Ei",
                         "GlW"
                     ]
                 },
@@ -28,12 +28,12 @@
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "GlG",
-                        "Sl",
                         "R",
                         "Gl",
+                        "Kn",
+                        "Sl",
+                        "GlG",
+                        "Mi",
                         "GlW"
                     ]
                 }
@@ -46,21 +46,21 @@
                     "name": "Orientalische Reispfanne mit Sojahack, Sesam und Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
+                        "So",
                         "Se",
-                        "So"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Penne all'amatriciana",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
-                        "Kn",
-                        "Sl",
-                        "3",
-                        "2",
                         "Gl",
+                        "Kn",
+                        "2",
+                        "3",
+                        "Sl",
+                        "S",
                         "GlW"
                     ]
                 },
@@ -68,15 +68,15 @@
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
-                        "Kn",
-                        "Mi",
-                        "GlG",
-                        "8",
-                        "3",
-                        "2",
                         "Gl",
+                        "Kn",
+                        "2",
+                        "3",
+                        "GlG",
                         "1",
+                        "S",
+                        "Mi",
+                        "8",
                         "GlW"
                     ]
                 }
@@ -89,8 +89,8 @@
                     "name": "Bulgur indische Art",
                     "price": 1,
                     "ingredients": [
-                        "2",
                         "Gl",
+                        "2",
                         "GlW"
                     ]
                 },
@@ -98,10 +98,10 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "GlD",
-                        "Ei",
-                        "Sl",
                         "Gl",
+                        "GlD",
+                        "Sl",
+                        "Ei",
                         "GlW"
                     ]
                 },
@@ -109,11 +109,11 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4,
                     "ingredients": [
+                        "R",
+                        "Gl",
                         "Kn",
                         "3",
-                        "R",
                         "Sw",
-                        "Gl",
                         "1",
                         "GlW"
                     ]
@@ -127,17 +127,17 @@
                     "name": "Pikante Hirse mit Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
-                        "2",
                         "Gl",
+                        "2",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -145,14 +145,14 @@
                     "name": "Blumenkohlauflauf mit Käsesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Kn",
-                        "Mi",
-                        "99",
-                        "Sw",
-                        "2",
                         "Gl",
+                        "Kn",
+                        "2",
+                        "Sw",
+                        "99",
                         "1",
+                        "Mi",
+                        "Ei",
                         "GlW"
                     ]
                 }
@@ -165,22 +165,22 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "3",
                         "Sl",
-                        "5"
+                        "5",
+                        "3"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit ein Paar Wiener",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "Sl",
-                        "8",
-                        "3",
                         "R",
+                        "2",
+                        "3",
+                        "Sl",
                         "5",
-                        "2"
+                        "S",
+                        "8"
                     ]
                 },
                 {
@@ -196,9 +196,9 @@
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4,
                     "ingredients": [
-                        "Kn",
                         "Mi",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 }
