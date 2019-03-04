@@ -10,13 +10,13 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Gl",
-                        "Mi",
                         "Sl",
                         "Sw",
+                        "Mi",
+                        "GlG",
+                        "99",
                         "Kn",
                         "GlW",
-                        "99",
-                        "GlG",
                         "R"
                     ]
                 },
@@ -24,9 +24,9 @@
                     "name": "Penne all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "2",
                         "Kn",
-                        "Gl",
                         "GlW"
                     ]
                 },
@@ -34,28 +34,28 @@
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "S",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Indisches Linsencurry",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
                         "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Backerbsensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "Gl",
-                        "Mi",
                         "Sl",
+                        "Mi",
+                        "Ei",
                         "GlW"
                     ]
                 }
@@ -68,21 +68,21 @@
                     "name": "Fleckerl mit Vorderschinken und Erbsen",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "2",
+                        "S",
+                        "3",
                         "Ei",
                         "8",
-                        "3",
-                        "Gl",
-                        "GlW",
-                        "S"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Rumpsteak mit Schmorzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Kn",
+                        "Mi",
                         "R"
                     ]
                 },
@@ -112,24 +112,24 @@
                     "name": "Fusilli mit Rucola-Pesto",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Gebratener Reis mit Meeresfrüchten",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Wt",
-                        "Ei",
-                        "En",
                         "Gl",
-                        "Kn",
-                        "GlW",
+                        "2",
+                        "En",
+                        "Wt",
+                        "Kr",
                         "So",
-                        "Kr"
+                        "Ei",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -149,15 +149,15 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "11",
-                        "Ei",
-                        "3",
-                        "5",
                         "Gl",
-                        "Mi",
                         "Sl",
-                        "GlW",
-                        "So"
+                        "3",
+                        "So",
+                        "5",
+                        "11",
+                        "Mi",
+                        "Ei",
+                        "GlW"
                     ]
                 }
             ]
@@ -169,9 +169,9 @@
                     "name": "Gnocchi in pikantem Hähnchen-Gemüse-Ragout",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
                         "Sl",
+                        "Gl",
+                        "Ei",
                         "Kn",
                         "GlW"
                     ]
@@ -180,19 +180,19 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
+                        "S",
                         "11",
                         "8",
-                        "Sf",
-                        "S",
-                        "R"
+                        "R",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -206,11 +206,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Mi",
-                        "Kn",
-                        "GlW",
                         "S",
-                        "GlG"
+                        "Mi",
+                        "GlG",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -222,13 +222,13 @@
                     "name": "Spaghetti mit Shrimps und getrockneten Tomaten",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "1",
                         "Gl",
+                        "3",
+                        "Kr",
                         "Mi",
+                        "1",
                         "Kn",
-                        "GlW",
-                        "Kr"
+                        "GlW"
                     ]
                 },
                 {
@@ -244,8 +244,8 @@
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "Gl",
+                        "Sl",
                         "GlW"
                     ]
                 },
@@ -258,10 +258,10 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "3",
                         "Gl",
+                        "3",
                         "Mi",
+                        "Ei",
                         "GlW"
                     ]
                 }
