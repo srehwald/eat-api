@@ -198,7 +198,7 @@ class FMIBistroMenuParser(MenuParser):
             # Example PDF-name: Garching-Speiseplan_KW46_2017.pdf
             # more examples: https://regex101.com/r/ATOHj3/3
             pdf_name = pdf_url.split("/")[-1]
-            wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d{3})?", pdf_name, re.IGNORECASE)
+            wn_year_match = re.search(r"KW[^a-zA-Z1-9]*([1-9]+\d*)[^a-zA-Z1-9]*([1-9]+\d{3})?", pdf_name, re.IGNORECASE)
             week_number = int(wn_year_match.group(1)) if wn_year_match else None
             year = int(wn_year_match.group(2)) if wn_year_match and wn_year_match.group(2) else None
 
@@ -278,7 +278,7 @@ class FMIBistroMenuParser(MenuParser):
             if "geschlossen" in lines_weekdays[key].lower():
                 continue
 
-            # extract all alergens
+            # extract all allergens
             dish_allergens = []
             for x in re.findall(self.allergens_regex, lines_weekdays[key]):
                 if len(x) > 0:
@@ -291,7 +291,7 @@ class FMIBistroMenuParser(MenuParser):
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
 
-            # remove no allergenes indicator
+            # remove no allergens indicator
             lines_weekdays[key] = lines_weekdays[key].replace("./.", "")
             # get all dish including name and price
             dish_names = re.findall(self.dish_regex, lines_weekdays[key])
@@ -322,13 +322,13 @@ class FMIBistroMenuParser(MenuParser):
 
 class IPPBistroMenuParser(MenuParser):
     url = "http://konradhof-catering.de/ipp/"
-    split_days_regex = re.compile('(Tagessuppe siehe Aushang|Aushang|Aschermittwoch|Feiertag|Geschlossen)',
+    split_days_regex = re.compile(r'(Tagessuppe siehe Aushang|Aushang|Aschermittwoch|Feiertag|Geschlossen)',
                                   re.IGNORECASE)
-    split_days_regex_soup_one_line = re.compile('T agessuppe siehe Aushang|Tagessuppe siehe Aushang', re.IGNORECASE)
-    split_days_regex_soup_two_line = re.compile('Aushang', re.IGNORECASE)
-    split_days_regex_closed = re.compile('Aschermittwoch|Feiertag|Geschlossen', re.IGNORECASE)
-    price_regex = re.compile("\d+,\d+\s\€[^\)]")
-    dish_regex = re.compile(".+?\d+,\d+\s\€[^\)]")
+    split_days_regex_soup_one_line = re.compile(r'T agessuppe siehe Aushang|Tagessuppe siehe Aushang', re.IGNORECASE)
+    split_days_regex_soup_two_line = re.compile(r'Aushang', re.IGNORECASE)
+    split_days_regex_closed = re.compile(r'Aschermittwoch|Feiertag|Geschlossen', re.IGNORECASE)
+    price_regex = re.compile(r"\d+,\d+\s€[^)]")
+    dish_regex = re.compile(r".+?\d+,\d+\s€[^)]")
 
     def parse(self, location):
         page = requests.get(self.url)
@@ -345,7 +345,7 @@ class IPPBistroMenuParser(MenuParser):
             # Example PDF-name: KW-48_27.11-01.12.10.2017-3.pdf
             pdf_name = pdf_url.split("/")[-1]
             # more examples: https://regex101.com/r/hwdpFx/1
-            wn_year_match = re.search("KW[^a-zA-Z1-9]*([1-9]+\d*).*\d+\.\d+\.(\d+).*", pdf_name, re.IGNORECASE)
+            wn_year_match = re.search(r"KW[^a-zA-Z1-9]*([1-9]+\d*).*\d+\.\d+\.(\d+).*", pdf_name, re.IGNORECASE)
             week_number = int(wn_year_match.group(1)) if wn_year_match else None
             year = int(wn_year_match.group(2)) if wn_year_match else None
             # convert 2-digit year into 4-digit year
@@ -378,6 +378,11 @@ class IPPBistroMenuParser(MenuParser):
 
             count += 1
 
+        else:
+            warn("NotImplemented: IPP parsing failed. Menu text is not a weekly menu. First line: '{}'".format(
+                lines[0]))
+            return None
+
         lines = lines[count:]
         weekdays = lines[0]
 
@@ -397,11 +402,12 @@ class IPPBistroMenuParser(MenuParser):
 
         positions1 = [(max(a.start() - 3, 0), a.end()) for a in list(
             re.finditer(self.split_days_regex_soup_one_line, soup_line1))]
-        # In the second line there is just 'Aushang' (two lines "Tagessuppe siehe Aushang" or
-        # closed days ("Geschlossen", "Feiertag")
+        # In the second line there is just 'Aushang' (two lines "Tagessuppe siehe Aushang")
         positions2 = [(max(a.start() - 14, 0), a.end() + 3) for a in list(
             re.finditer(self.split_days_regex_soup_two_line, soup_line2))]
+        # closed days ("Geschlossen", "Feiertag", …) can be in first line and second line
         positions3 = [(max(a.start() - 3, 0), a.end()) for a in list(
+            re.finditer(self.split_days_regex_closed, soup_line1)) + list(
             re.finditer(self.split_days_regex_closed, soup_line2))]
 
         if positions2: # Two lines "Tagessuppe siehe Aushang"
