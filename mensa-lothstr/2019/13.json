@@ -10,23 +10,23 @@
                     "price": 1,
                     "ingredients": [
                         "Sf",
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Kümmelsauce",
                     "price": 1.55,
                     "ingredients": [
-                        "GlG",
-                        "R",
-                        "Mi",
-                        "Kn",
-                        "Gl",
                         "Sf",
-                        "S",
+                        "Kn",
+                        "Mi",
+                        "Gl",
+                        "R",
+                        "Ei",
+                        "GlG",
                         "GlW",
-                        "Ei"
+                        "S"
                     ]
                 },
                 {
@@ -34,24 +34,24 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "GlD",
+                        "1",
                         "2",
                         "Gl",
-                        "1",
-                        "GlW",
-                        "Ei"
+                        "Ei",
+                        "GlD",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Münchner Zwiebelfleisch (GQB)",
                     "price": 3.0,
                     "ingredients": [
-                        "GlG",
-                        "R",
+                        "Kn",
                         "Mi",
                         "Sl",
-                        "Kn",
                         "Gl",
+                        "R",
+                        "GlG",
                         "GlW"
                     ]
                 }
@@ -71,26 +71,26 @@
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
+                        "Sf",
+                        "Kn",
                         "5",
-                        "Sl",
                         "2",
                         "3",
-                        "Kn",
-                        "Sf",
+                        "Sl",
+                        "11",
                         "S",
-                        "11"
+                        "So"
                     ]
                 },
                 {
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "GlD",
                         "Kn",
-                        "Gl",
+                        "Mi",
                         "1",
+                        "Gl",
+                        "GlD",
                         "GlW"
                     ]
                 },
@@ -98,16 +98,16 @@
                     "name": "Rinderhüftsteak mit Balsamico-Zwiebel-Sauce",
                     "price": 4,
                     "ingredients": [
-                        "GlG",
-                        "R",
-                        "GlW",
-                        "Mi",
-                        "Sw",
-                        "3",
                         "Kn",
-                        "Gl",
+                        "Mi",
                         "1",
-                        "99"
+                        "3",
+                        "Gl",
+                        "R",
+                        "GlG",
+                        "99",
+                        "Sw",
+                        "GlW"
                     ]
                 }
             ]
@@ -133,10 +133,10 @@
                     "name": "Bunte Farfalle mit Räucherlachssauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "Kn",
-                        "Gl",
+                        "Mi",
                         "Fi",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -161,17 +161,17 @@
                     "name": "Kasseler mit Rotweinsauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlG",
-                        "8",
-                        "GlW",
+                        "Kn",
                         "Mi",
-                        "Sw",
                         "2",
                         "3",
-                        "Kn",
                         "Gl",
-                        "S",
-                        "99"
+                        "99",
+                        "GlG",
+                        "Sw",
+                        "GlW",
+                        "8",
+                        "S"
                     ]
                 },
                 {
@@ -179,24 +179,24 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
+                        "1",
                         "2",
                         "Gl",
-                        "1",
-                        "GlW",
-                        "Ei"
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gebratene Hähnchenbruststreifen kantonesische Art (süß-sauer)",
                     "price": 3.0,
                     "ingredients": [
-                        "So",
                         "5",
-                        "Sl",
                         "3",
+                        "Sl",
                         "Gl",
+                        "11",
                         "GlW",
-                        "11"
+                        "So"
                     ]
                 }
             ]
@@ -215,10 +215,10 @@
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Sf",
+                        "Kn",
                         "10",
                         "Sl",
-                        "Kn",
-                        "Sf",
                         "11"
                     ]
                 },
@@ -226,8 +226,8 @@
                     "name": "Gebratenes Saiblingsfilet mit Zitronenbutter",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
                         "GlW",
+                        "Mi",
                         "Gl"
                     ]
                 }
