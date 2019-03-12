@@ -9,10 +9,10 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlW",
+                        "Mi",
                         "Sl",
+                        "Kn",
                         "Ei",
                         "Gl"
                     ]
@@ -21,13 +21,13 @@
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Mi",
+                        "Sl",
                         "Kn",
                         "R",
-                        "Mi",
-                        "GlW",
-                        "Sl",
-                        "GlG"
+                        "Gl"
                     ]
                 }
             ]
@@ -39,10 +39,10 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
+                        "Mi",
                         "1",
                         "2",
-                        "Mi",
-                        "GlW",
                         "Ei",
                         "Gl"
                     ]
@@ -51,10 +51,10 @@
                     "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
-                        "S",
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "S",
+                        "So",
                         "Gl"
                     ]
                 }
@@ -69,8 +69,8 @@
                     "ingredients": [
                         "GlW",
                         "Sl",
-                        "Ei",
                         "GlD",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -78,11 +78,11 @@
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "Sf",
                         "Sl",
                         "Ei",
-                        "Sf",
                         "Gl"
                     ]
                 }
@@ -95,23 +95,23 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "2",
-                        "Gl",
-                        "Kn"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rigatoni mit Pesto rosso (scharf)",
                     "price": 2.4,
                     "ingredients": [
-                        "ScM",
-                        "2",
-                        "Sc",
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "2",
+                        "ScM",
                         "Ei",
-                        "Gl"
+                        "Gl",
+                        "Sc"
                     ]
                 }
             ]
@@ -123,18 +123,18 @@
                     "name": "Jambalaya Louisiana mit Shrimps und Hähnchenbrustfilet",
                     "price": 2.8,
                     "ingredients": [
-                        "1",
-                        "Sl",
                         "Kr",
-                        "Kn"
+                        "Kn",
+                        "Sl",
+                        "1"
                     ]
                 },
                 {
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 }
