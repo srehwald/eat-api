@@ -9,18 +9,18 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
+                        "Sf",
                         "Kn",
-                        "Sf"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
                         "2",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -28,12 +28,12 @@
                     "name": "Piccata von der Pute mit Salbei",
                     "price": 3.0,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "Mi",
                         "GlW",
                         "2",
-                        "Ei"
+                        "Kn",
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]
@@ -52,15 +52,15 @@
                     "name": "Vegetarischer Bratling mit Kräuterdip",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "Mi",
-                        "GlW",
-                        "2",
-                        "Ei",
-                        "So",
                         "Sl",
-                        "Sf"
+                        "Gl",
+                        "GlW",
+                        "Sf",
+                        "2",
+                        "Kn",
+                        "So",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
@@ -68,12 +68,12 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "Mi",
-                        "1",
                         "GlW",
+                        "1",
+                        "Sf",
                         "2",
                         "Ei",
-                        "Sf"
+                        "Mi"
                     ]
                 }
             ]
@@ -85,34 +85,34 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.55,
                     "ingredients": [
-                        "5",
-                        "Gl",
-                        "Mi",
                         "3",
+                        "Sl",
+                        "Gl",
                         "GlW",
-                        "Ei",
                         "11",
                         "So",
-                        "Sl"
+                        "Ei",
+                        "Mi",
+                        "5"
                     ]
                 },
                 {
                     "name": "Spaghetti mit Sauce Bolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "R",
-                        "Kn",
+                        "Sl",
                         "Gl",
                         "GlW",
-                        "Sl"
+                        "R",
+                        "Kn"
                     ]
                 }
             ]
@@ -133,24 +133,24 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.55,
                     "ingredients": [
-                        "R",
-                        "S",
                         "8",
                         "11",
-                        "Sf"
+                        "Sf",
+                        "R",
+                        "S"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "Mi",
-                        "S",
                         "GlG",
                         "GlW",
-                        "99"
+                        "99",
+                        "Kn",
+                        "S",
+                        "Mi"
                     ]
                 }
             ]
@@ -171,38 +171,38 @@
                     "name": "Spaghetti mit Shrimps und getrockneten Tomaten",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "Mi",
-                        "1",
                         "3",
+                        "Gl",
+                        "GlW",
+                        "1",
                         "Kr",
-                        "GlW"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Bauerneintopf mit Wiener",
                     "price": 2.4,
                     "ingredients": [
-                        "R",
+                        "3",
+                        "Sl",
                         "Gl",
                         "8",
-                        "S",
-                        "3",
                         "GlW",
                         "2",
-                        "Sl"
+                        "R",
+                        "S"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
                         "3",
+                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]
