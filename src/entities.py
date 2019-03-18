@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import json
+import re
+from typing import Dict, Optional, Sequence
 
 
 class Dish:
@@ -213,41 +215,58 @@ class Ingredients:
         "Z" : "Wt",
     }
 
-    def __init__(self, location):
+    def __init__(self, location: str) -> None:
         self.location = location
         self.ingredient_set = set()
 
-    def parse_ingredients(self, values):
+    def _values_lookup(self, values: Sequence[str], lookup: Optional[Dict[str, str]]) -> None:
+        """
+        Normalizes ingredients to the self.ingredient_lookup codes.
+
+        Args:
+            values: A sequence of ingredients codes.
+            lookup: If needed, a mapping from a canteen specific ingredients codes to the self.ingredient_lookup codes.
+        """
+        for value in values:
+            # ignore empty values
+            if not value or value.isspace():
+                continue
+            if (not lookup and value not in self.ingredient_lookup) or (lookup and value not in lookup):
+
+                # sometimes the ‘,’ is missing between the ingredients (especially with IPP) and we try to split again
+                # with capital letters.
+                split_values = re.findall(r'[a-züöäA-ZÜÖÄ][^A-ZÜÖÄ]*', value)
+                if split_values:
+                    self._values_lookup(split_values, lookup)
+                    continue
+                else:
+                    print("Unknown ingredient for " + self.location + " found: " + str(value))
+                    continue
+
+            if lookup:
+                self.ingredient_set.add(lookup[value])
+            else:
+                self.ingredient_set.add(value)
+
+    def parse_ingredients(self, values: str) -> None:
+        """
+        Parse and creates a normalized list of ingredients.
+
+        Args:
+            values: String with comma separated ingredients codes.
+        """
         values = values.strip()
+        split_values = values.split(',')
         # check for special parser/ingredient translation required
         if self.location == "fmi-bistro":
-            self.parse_lookup_ingredients(values, self.fmi_ingredient_lookup)
+            self._values_lookup(split_values, self.fmi_ingredient_lookup)
         elif self.location == "mediziner-mensa":
-            self.parse_lookup_ingredients(values, self.mediziner_ingredient_lookup)
+            self._values_lookup(split_values, self.mediziner_ingredient_lookup)
         # default to the "Studentenwerk" ingredients
         # "ipp-bistro" also uses the "Studentenwerk" ingredients since all
         # dishes contain the same ingredients
         else:
-            split_values = values.split(",")
-            for value in split_values:
-                # ignore empty values
-                if not value or value.isspace():
-                    continue
-                if not value in self.ingredient_lookup:
-                    print("Unknown ingredient for " + self.location + " found: " + str(value))
-                    continue
-                self.ingredient_set.add(value)
-    
-    def parse_lookup_ingredients(self, values, lookup):
-        split_values = values.split(",")
-        for value in split_values:
-            # ignore empty values
-            if not value or value.isspace():
-                continue
-            if not value in lookup:
-                print("Unknown ingredient for " + self.location + " found: " + str(value))
-                continue
-            self.ingredient_set.add(lookup[value])
+            self._values_lookup(split_values, None)
 
     def __hash__(self):
         return hash(frozenset(self.ingredient_set))
