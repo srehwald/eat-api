@@ -9,27 +9,27 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Sl",
-                        "Sf"
+                        "Sf",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "2",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Szegediner Schweinegulasch",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
                         "3",
+                        "2",
                         "S"
                     ]
                 },
@@ -37,11 +37,11 @@
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "Ei"
+                        "Mi",
+                        "Kn",
+                        "Ei",
+                        "Gl"
                     ]
                 }
             ]
@@ -60,41 +60,41 @@
                     "name": "Fleckerl mit Vorderschinken und Erbsen",
                     "price": 1.55,
                     "ingredients": [
-                        "2",
                         "8",
-                        "3",
-                        "Gl",
-                        "S",
                         "GlW",
-                        "Ei"
+                        "3",
+                        "S",
+                        "Ei",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
                     "name": "Vegetarischer Bratling mit Kräuterdip",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "So",
-                        "Gl",
-                        "Mi",
-                        "Kn",
                         "GlW",
+                        "Mi",
+                        "Sl",
+                        "Kn",
                         "Ei",
+                        "Gl",
                         "Sf",
-                        "Sl"
+                        "So",
+                        "2"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "Gl",
-                        "Mi",
-                        "1",
                         "GlW",
+                        "1",
+                        "Mi",
                         "Ei",
-                        "Sf"
+                        "Gl",
+                        "Sf",
+                        "2"
                     ]
                 }
             ]
@@ -106,8 +106,8 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
@@ -123,25 +123,25 @@
                     "name": "Gebratenes Truthahnsteak",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Kn",
                         "GlW",
                         "GlG",
-                        "Sl"
+                        "Mi",
+                        "Sl",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Pilzen und Weißwein",
                     "price": 3.2,
                     "ingredients": [
-                        "99",
                         "R",
-                        "Gl",
+                        "GlW",
+                        "99",
                         "Mi",
-                        "Sw",
                         "Kn",
-                        "GlW"
+                        "Gl",
+                        "Sw"
                     ]
                 }
             ]
@@ -153,19 +153,19 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.55,
                     "ingredients": [
-                        "8",
                         "R",
-                        "11",
+                        "8",
                         "S",
+                        "11",
                         "Sf"
                     ]
                 },
@@ -173,22 +173,22 @@
                     "name": "Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "GlW",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Spanferkelrollbraten mit Biersauce",
                     "price": 2.8,
                     "ingredients": [
+                        "GlW",
+                        "GlG",
                         "Mi",
-                        "Gl",
                         "S",
                         "Kn",
-                        "GlW",
-                        "GlG"
+                        "Gl"
                     ]
                 }
             ]
@@ -200,33 +200,33 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
+                        "GlW",
                         "3",
                         "Mi",
-                        "Gl",
-                        "GlW",
-                        "Ei"
+                        "Ei",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gebratenes Zanderfilet mit Rote-Bete-Streifen und Kartoffel-Meerrettich-Stampf",
                     "price": 4,
                     "ingredients": [
-                        "9",
-                        "3",
-                        "Gl",
-                        "Mi",
-                        "Sw",
                         "GlW",
-                        "Fi"
+                        "Fi",
+                        "3",
+                        "Mi",
+                        "9",
+                        "Gl",
+                        "Sw"
                     ]
                 }
             ]
