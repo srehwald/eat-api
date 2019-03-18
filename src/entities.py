@@ -102,8 +102,9 @@ class Week:
 
         return weeks
 
+
 class Ingredients:
-    # A dictionary of all ingredients (from the Studentenwerk) with their description:
+
     ingredient_lookup = {
         "GQB" : "Certified Quality - Bavaria",
         "MSC" : "Marine Stewardship Council",
@@ -128,9 +129,9 @@ class Ingredients:
         "S" : "with pork",
         "R" : "with beef",
         "K" : "with veal",
-        "G" : "with poultry", # mediziner mensa
-        "W" : "with wild meat", # mediziner mensa
-        "L" : "with lamb", # mediziner mensa
+        "G" : "with poultry",  # mediziner mensa
+        "W" : "with wild meat",  # mediziner mensa
+        "L" : "with lamb",  # mediziner mensa
         "Kn" : "with garlic",
         "Ei" : "with chicken egg",
         "En" : "with peanut",
@@ -157,6 +158,7 @@ class Ingredients:
         "Sw" : "with sulfur dioxide and sulfites",
         "Wt" : "with mollusks",
     }
+    """A dictionary of all ingredients (from the Studentenwerk) with their description."""
 
     fmi_ingredient_lookup = {
         "Gluten" : "Gl",
