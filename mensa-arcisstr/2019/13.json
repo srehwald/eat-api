@@ -10,17 +10,8 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "2",
-                        "Sf",
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Penne mit Austernpilzen und Spinat",
-                    "price": "0.68€ / 100g",
-                    "ingredients": [
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "Sf"
                     ]
                 },
                 {
@@ -41,18 +32,18 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Joghurt Honig-Nuss-Knusper",
+                    "name": "Quark Honig-Nuss-Knusper",
                     "price": "N/A",
                     "ingredients": [
+                        "ScC",
+                        "ScH",
+                        "Mi",
+                        "GlH",
+                        "GlW",
                         "GlG",
                         "Gl",
                         "Sc",
-                        "Mi",
-                        "ScH",
-                        "ScM",
-                        "GlW",
-                        "GlH",
-                        "ScC"
+                        "ScM"
                     ]
                 },
                 {
@@ -66,13 +57,26 @@
                     "name": "Münchner Zwiebelfleisch (GQB) - Aufpreis 1,00€",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlG",
-                        "Gl",
+                        "Kn",
+                        "Sl",
                         "Mi",
                         "R",
-                        "Kn",
                         "GlW",
-                        "Sl"
+                        "GlG",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
+                    "price": "0.68€ / 100g",
+                    "ingredients": [
+                        "2",
+                        "1",
+                        "Mi",
+                        "GlD",
+                        "GlW",
+                        "Ei",
+                        "Gl"
                     ]
                 },
                 {
@@ -80,8 +84,8 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Mi",
-                        "Fi",
                         "Sl",
+                        "Fi",
                         "So"
                     ]
                 },
@@ -103,39 +107,12 @@
                     ]
                 },
                 {
-                    "name": "Gefüllte Paprikaschote mit Tomatensauce",
-                    "price": "0.68€ / 100g",
-                    "ingredients": [
-                        "GlD",
-                        "Gl",
-                        "Mi",
-                        "Kn",
-                        "GlW",
-                        "1"
-                    ]
-                },
-                {
-                    "name": "Sweet & Sour mit Schweinefleisch - Aufschlag 1,00€",
-                    "price": "0.68€ / 100g",
-                    "ingredients": [
-                        "2",
-                        "5",
-                        "Sf",
-                        "3",
-                        "So",
-                        "S",
-                        "Kn",
-                        "11",
-                        "Sl"
-                    ]
-                },
-                {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Mi",
-                        "Fi",
                         "Sl",
+                        "Fi",
                         "So"
                     ]
                 },
@@ -143,6 +120,33 @@
                     "name": "Saisonale Beilagensalate",
                     "price": "N/A",
                     "ingredients": []
+                },
+                {
+                    "name": "Sweet & Sour mit Schweinefleisch - Aufschlag 1,00€",
+                    "price": "0.68€ / 100g",
+                    "ingredients": [
+                        "2",
+                        "Kn",
+                        "Sl",
+                        "Sf",
+                        "S",
+                        "So",
+                        "11",
+                        "3",
+                        "5"
+                    ]
+                },
+                {
+                    "name": "Gefüllte Paprikaschote mit Tomatensauce",
+                    "price": "0.68€ / 100g",
+                    "ingredients": [
+                        "Kn",
+                        "1",
+                        "Mi",
+                        "GlD",
+                        "GlW",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Salzkartoffeln",
@@ -188,15 +192,9 @@
                     ]
                 },
                 {
-                    "name": "Bunte Farfalle mit Räucherlachssauce - Aufschlag 0,50€",
+                    "name": "Putenbrustspieß mit Paprika und Zwiebel - Aufschlag 1,00€",
                     "price": "0.68€ / 100g",
-                    "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Fi",
-                        "Kn",
-                        "GlW"
-                    ]
+                    "ingredients": []
                 },
                 {
                     "name": "Nudeln",
@@ -227,24 +225,30 @@
                     "name": "Nusscreme",
                     "price": "N/A",
                     "ingredients": [
-                        "ScH",
                         "Mi",
-                        "So",
-                        "Sc"
+                        "Sc",
+                        "ScH",
+                        "So"
                     ]
                 },
                 {
-                    "name": "Putenbrustspieß mit Paprika und Zwiebel - Aufschlag 1,00€",
+                    "name": "Bunte Farfalle mit Räucherlachssauce - Aufschlag 0,50€",
                     "price": "0.68€ / 100g",
-                    "ingredients": []
+                    "ingredients": [
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "Gl",
+                        "Fi"
+                    ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Mi",
-                        "Fi",
                         "Sl",
+                        "Fi",
                         "So"
                     ]
                 },
@@ -266,20 +270,15 @@
                     ]
                 },
                 {
-                    "name": "Kasseler mit Rotweinsauce - Aufschlag 1,00€",
+                    "name": "Hausgemachte Gemüsequiche mit Schnittlauchdip",
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "2",
-                        "8",
-                        "GlG",
-                        "Gl",
+                        "1",
                         "Mi",
-                        "Sw",
-                        "99",
-                        "3",
-                        "S",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Ei",
+                        "Gl"
                     ]
                 },
                 {
@@ -314,15 +313,20 @@
                     ]
                 },
                 {
-                    "name": "Hausgemachte Gemüsequiche mit Schnittlauchdip",
+                    "name": "Kasseler mit Rotweinsauce - Aufschlag 1,00€",
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "2",
-                        "Gl",
+                        "Kn",
                         "Mi",
+                        "8",
+                        "GlG",
+                        "Sw",
                         "GlW",
-                        "1",
-                        "Ei"
+                        "S",
+                        "99",
+                        "3",
+                        "Gl"
                     ]
                 },
                 {
@@ -330,8 +334,8 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Mi",
-                        "Fi",
                         "Sl",
+                        "Fi",
                         "So"
                     ]
                 },
@@ -353,23 +357,24 @@
                     ]
                 },
                 {
-                    "name": "Gebratene Hähnchenkeule mit Barbecuesauce - Aufschlag 0,50€",
-                    "price": "0.68€ / 100g",
-                    "ingredients": [
-                        "Sf",
-                        "Kn",
-                        "11",
-                        "Sl",
-                        "10"
-                    ]
-                },
-                {
-                    "name": "Gebratenes Saiblingsfilet mit Zitronenbutter - Aufschlag 1,00€",
+                    "name": "Gebatenes Forellenfilet (praktisch grätenfrei) mit Zitronenbutter - Aufschlag 1,00€",
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Fi"
+                    ]
+                },
+                {
+                    "name": "Gebratene Hähnchenkeule mit Barbecuesauce - Aufschlag 0,50€",
+                    "price": "0.68€ / 100g",
+                    "ingredients": [
+                        "Sl",
+                        "Kn",
+                        "Sf",
+                        "10",
+                        "11"
                     ]
                 },
                 {
@@ -406,8 +411,8 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Mi",
-                        "Fi",
                         "Sl",
+                        "Fi",
                         "So"
                     ]
                 },

@@ -9,15 +9,15 @@
                     "name": "Fleischpflanzerl mit Kümmelsauce",
                     "price": 1.55,
                     "ingredients": [
-                        "R",
                         "GlW",
-                        "Ei",
-                        "S",
-                        "Gl",
                         "Mi",
-                        "Kn",
+                        "Ei",
+                        "Gl",
                         "Sf",
-                        "GlG"
+                        "S",
+                        "GlG",
+                        "Kn",
+                        "R"
                     ]
                 },
                 {
@@ -25,12 +25,12 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Ei",
                         "GlD",
-                        "2",
-                        "Gl",
                         "Mi",
-                        "1"
+                        "Ei",
+                        "Gl",
+                        "1",
+                        "2"
                     ]
                 }
             ]
@@ -44,10 +44,10 @@
                     "ingredients": [
                         "GlW",
                         "GlD",
-                        "Gl",
                         "Mi",
-                        "Kn",
-                        "1"
+                        "Gl",
+                        "1",
+                        "Kn"
                     ]
                 }
             ]
@@ -60,12 +60,12 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Ei",
-                        "2",
-                        "Gl",
                         "Mi",
+                        "Ei",
+                        "Gl",
+                        "1",
                         "Kn",
-                        "1"
+                        "2"
                     ]
                 },
                 {
@@ -73,12 +73,12 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Ei",
-                        "S",
-                        "Gl",
                         "Mi",
-                        "Kn",
-                        "GlG"
+                        "Ei",
+                        "Gl",
+                        "S",
+                        "GlG",
+                        "Kn"
                     ]
                 }
             ]
@@ -87,6 +87,15 @@
             "date": "2019-03-28",
             "dishes": [
                 {
+                    "name": "Fränkische Bratwurst mit Sauerkraut",
+                    "price": 1.9,
+                    "ingredients": [
+                        "R",
+                        "8",
+                        "S"
+                    ]
+                },
+                {
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
@@ -94,15 +103,6 @@
                         "GlW",
                         "Mi",
                         "Gl"
-                    ]
-                },
-                {
-                    "name": "Fränkische Bratwurst mit Sauerkraut",
-                    "price": 1.9,
-                    "ingredients": [
-                        "S",
-                        "R",
-                        "8"
                     ]
                 }
             ]
@@ -114,11 +114,11 @@
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce",
                     "price": 1.9,
                     "ingredients": [
-                        "10",
-                        "11",
                         "Sl",
+                        "Sf",
+                        "11",
                         "Kn",
-                        "Sf"
+                        "10"
                     ]
                 },
                 {
