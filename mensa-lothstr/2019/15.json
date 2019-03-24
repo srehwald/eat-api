@@ -9,9 +9,9 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "GlG",
+                        "Gl",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -19,13 +19,13 @@
                     "name": "Schinken-Käse-Pasta (mit Vorderschinken)",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
-                        "2",
-                        "Gl",
-                        "Mi",
-                        "GlW",
-                        "8",
                         "3",
+                        "Gl",
+                        "2",
+                        "Mi",
+                        "8",
+                        "S",
+                        "GlW",
                         "1"
                     ]
                 },
@@ -33,10 +33,10 @@
                     "name": "Gemüseauflauf mit Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Ei",
+                        "Gl",
                         "2",
                         "Kn",
-                        "Gl",
-                        "Ei",
                         "Mi",
                         "GlW",
                         "1"
@@ -46,11 +46,11 @@
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "Kn",
+                        "R",
                         "Gl",
-                        "GlW",
-                        "R"
+                        "Kn",
+                        "2",
+                        "GlW"
                     ]
                 }
             ]
@@ -62,43 +62,43 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweineschnitzel Wiener Art",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
+                        "Gl",
                         "Kn",
                         "Mi",
-                        "Gl",
                         "GlG",
-                        "GlW"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Halbes Hendl mit Bratensauce",
                     "price": 4,
                     "ingredients": [
+                        "Sl",
+                        "Gl",
                         "Kn",
                         "Mi",
-                        "Gl",
                         "GlG",
-                        "GlW",
-                        "Sl"
+                        "GlW"
                     ]
                 }
             ]
@@ -117,9 +117,9 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "GlW",
+                        "Gl",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -127,9 +127,9 @@
                     "name": "Gegrilltes Hähnchenbrustfilet mit warmer Gemüsesalsa (scharf)",
                     "price": 2.4,
                     "ingredients": [
-                        "4",
+                        "Kn",
                         "2",
-                        "Kn"
+                        "4"
                     ]
                 },
                 {
@@ -137,10 +137,10 @@
                     "price": 3.0,
                     "ingredients": [
                         "99",
+                        "R",
                         "Gl",
                         "Sw",
-                        "GlW",
-                        "R"
+                        "GlW"
                     ]
                 }
             ]
@@ -159,12 +159,12 @@
                     "name": "Bierbratl mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
+                        "Gl",
                         "Kn",
                         "Mi",
-                        "Gl",
                         "GlG",
-                        "GlW"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
@@ -172,22 +172,22 @@
                     "price": 2.8,
                     "ingredients": [
                         "6",
-                        "GlD",
-                        "Kn",
+                        "3",
                         "Gl",
-                        "Mi",
-                        "3"
+                        "Kn",
+                        "GlD",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": 3.0,
                     "ingredients": [
-                        "2",
-                        "Kn",
+                        "So",
                         "Gl",
-                        "GlW",
-                        "So"
+                        "Kn",
+                        "2",
+                        "GlW"
                     ]
                 }
             ]
@@ -199,44 +199,44 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Ei",
                         "GlW",
-                        "Mi",
                         "Gl",
-                        "Ei"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "S",
+                        "3",
+                        "5",
                         "Kn",
                         "Mi",
-                        "5",
-                        "3"
+                        "S"
                     ]
                 },
                 {
                     "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Salsa",
                     "price": 4,
                     "ingredients": [
-                        "2",
-                        "11",
+                        "Sl",
+                        "So",
                         "Gl",
+                        "2",
                         "Kn",
                         "Fi",
-                        "GlW",
-                        "Sl",
-                        "So"
+                        "11",
+                        "GlW"
                     ]
                 }
             ]
