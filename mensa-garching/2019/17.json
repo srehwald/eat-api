@@ -9,20 +9,20 @@
                     "name": "Orientalische Reispfanne mit Sojahack, Sesam und Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Se",
                         "Kn",
-                        "So"
+                        "So",
+                        "Se"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.9,
                     "ingredients": [
-                        "8",
-                        "Sf",
+                        "S",
                         "R",
+                        "Sf",
                         "11",
-                        "S"
+                        "8"
                     ]
                 },
                 {
@@ -30,13 +30,13 @@
                     "price": 1.9,
                     "ingredients": [
                         "Kn",
-                        "Ei",
-                        "Sl",
-                        "11",
-                        "Gl",
                         "Mi",
+                        "Sl",
+                        "Ei",
+                        "So",
                         "GlW",
-                        "So"
+                        "11",
+                        "Gl"
                     ]
                 },
                 {
@@ -44,12 +44,12 @@
                     "price": 1.9,
                     "ingredients": [
                         "Kn",
-                        "3",
-                        "2",
-                        "Sl",
-                        "Gl",
                         "S",
-                        "GlW"
+                        "Sl",
+                        "3",
+                        "GlW",
+                        "2",
+                        "Gl"
                     ]
                 }
             ]
@@ -61,8 +61,8 @@
                     "name": "Bulgur indische Art",
                     "price": 1,
                     "ingredients": [
-                        "2",
                         "GlW",
+                        "2",
                         "Gl"
                     ]
                 },
@@ -70,12 +70,12 @@
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
+                        "Sl",
                         "Ei",
                         "Sf",
-                        "Sl",
-                        "Mi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -83,25 +83,25 @@
                     "price": 2.8,
                     "ingredients": [
                         "Kn",
+                        "GlG",
                         "R",
-                        "Mi",
-                        "Gl",
-                        "GlW",
                         "99",
-                        "GlG"
+                        "Mi",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Berchtesgadener Käsespätzle mit Röstzwiebeln und frischem Eissalat, Frischer Eissalat",
                     "price": 3.0,
                     "ingredients": [
-                        "Ei",
-                        "2",
-                        "Mi",
-                        "Gl",
                         "1",
+                        "GlD",
+                        "Mi",
+                        "Ei",
                         "GlW",
-                        "GlD"
+                        "2",
+                        "Gl"
                     ]
                 }
             ]
@@ -113,8 +113,8 @@
                     "name": "Pikante Hirse mit Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -122,8 +122,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Kn",
-                        "Sf",
                         "Sl",
+                        "Sf",
                         "11",
                         "10"
                     ]
@@ -132,28 +132,28 @@
                     "name": "Blumenkohlauflauf mit Käsesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "Ei",
-                        "2",
-                        "Sw",
-                        "Mi",
-                        "Gl",
                         "1",
+                        "Kn",
+                        "99",
+                        "Mi",
+                        "Ei",
+                        "Sw",
                         "GlW",
-                        "99"
+                        "2",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4,
                     "ingredients": [
+                        "1",
                         "Kn",
-                        "3",
                         "R",
                         "Sw",
-                        "Gl",
-                        "1",
-                        "GlW"
+                        "3",
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -183,23 +183,23 @@
                     "name": "Linseneintopf mit 1 Paar Pfälzer",
                     "price": 2.4,
                     "ingredients": [
-                        "8",
-                        "3",
+                        "1",
+                        "S",
                         "5",
-                        "2",
                         "R",
                         "Sl",
-                        "1",
-                        "S"
+                        "3",
+                        "8",
+                        "2"
                     ]
                 },
                 {
                     "name": "Rigatoni mit Lachs-Sahne-Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Fi",
                         "GlW",
                         "Mi",
+                        "Fi",
                         "Gl"
                     ]
                 }
