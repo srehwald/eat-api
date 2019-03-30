@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Kn",
+                        "GlW",
+                        "Gl",
                         "Sl"
                     ]
                 },
@@ -19,29 +19,29 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 2.8,
                     "ingredients": [
-                        "9",
+                        "GlW",
                         "Gl",
                         "2",
-                        "Sf",
-                        "GlW",
-                        "R",
-                        "Kn",
+                        "9",
                         "GlG",
-                        "Mi"
+                        "Kn",
+                        "Mi",
+                        "R",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 3.5,
                     "ingredients": [
+                        "GlW",
                         "Gl",
                         "2",
                         "Ei",
-                        "GlW",
-                        "S",
-                        "Kn",
                         "GlG",
-                        "Mi"
+                        "Kn",
+                        "Mi",
+                        "S"
                     ]
                 }
             ]
@@ -53,20 +53,20 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1,
                     "ingredients": [
-                        "5",
                         "9",
-                        "So",
+                        "3",
                         "Kn",
-                        "3"
+                        "So",
+                        "5"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Kn",
+                        "GlW",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -74,14 +74,14 @@
                     "name": "Holzfällersteak vom Schwein",
                     "price": 2.6,
                     "ingredients": [
+                        "GlW",
                         "Gl",
                         "2",
-                        "Mi",
-                        "GlW",
-                        "S",
-                        "Kn",
+                        "3",
                         "GlG",
-                        "3"
+                        "Kn",
+                        "Mi",
+                        "S"
                     ]
                 },
                 {
@@ -89,11 +89,11 @@
                     "price": 3.0,
                     "ingredients": [
                         "Sw",
+                        "GlW",
                         "Gl",
                         "99",
-                        "GlW",
-                        "R",
-                        "Mi"
+                        "Mi",
+                        "R"
                     ]
                 }
             ]
@@ -113,26 +113,26 @@
                     "name": "Spaghetti mit Sauce Bolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
                         "GlW",
-                        "R",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "Sl",
+                        "R"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Sw",
-                        "Sf",
-                        "Mi",
                         "GlW",
-                        "S",
+                        "Gl",
+                        "3",
                         "Kn",
                         "GlG",
-                        "3"
+                        "Mi",
+                        "S",
+                        "Sf"
                     ]
                 }
             ]
@@ -153,18 +153,18 @@
                     "ingredients": [
                         "8",
                         "2",
-                        "Sl",
                         "S",
-                        "R",
-                        "3"
+                        "3",
+                        "Sl",
+                        "R"
                     ]
                 },
                 {
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
                         "Mi",
+                        "2",
                         "1"
                     ]
                 },
@@ -172,16 +172,16 @@
                     "name": "Hackbraten mit Rahmsauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "So",
-                        "Sf",
-                        "Ei",
-                        "S",
                         "GlW",
-                        "R",
-                        "Kn",
+                        "Gl",
+                        "S",
+                        "Ei",
                         "GlG",
-                        "Mi"
+                        "Kn",
+                        "So",
+                        "Mi",
+                        "R",
+                        "Sf"
                     ]
                 }
             ]
