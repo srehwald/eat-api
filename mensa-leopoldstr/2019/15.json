@@ -9,9 +9,9 @@
                     "name": "Lammgulasch nach Art der Provence",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -26,8 +26,8 @@
                     "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -35,9 +35,9 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "Sl",
-                        "Gl",
                         "GlG",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -50,42 +50,42 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Lasagne Gemüse Spinat (hausgemacht)",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "Sl",
                         "1",
                         "2",
-                        "GlW",
-                        "Mi",
-                        "Sl",
-                        "Gl"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Deftiges Bauerngulasch (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
+                        "Gl",
+                        "GlW",
                         "GlG",
                         "Kn",
-                        "GlW",
-                        "Mi",
-                        "Gl"
+                        "R",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -97,11 +97,11 @@
                     "name": "Spaghetti mit Sauce Bolognese",
                     "price": "individual",
                     "ingredients": [
-                        "R",
-                        "Kn",
+                        "Gl",
                         "GlW",
                         "Sl",
-                        "Gl"
+                        "Kn",
+                        "R"
                     ]
                 },
                 {
@@ -117,13 +117,13 @@
                     "name": "Kaspressknödel in Gemüsebouillon",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "GlG",
-                        "2",
-                        "Ei",
+                        "Gl",
                         "GlW",
-                        "Mi",
                         "So",
-                        "Gl"
+                        "2",
+                        "GlG",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
@@ -131,9 +131,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Ei",
-                        "Gl",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -152,16 +152,16 @@
                     "name": "Schweinefilet mit Sauerrahm und Apfel-Zwiebelsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "99",
-                        "Kn",
                         "Sw",
-                        "3",
+                        "Gl",
                         "GlW",
-                        "Mi",
-                        "S",
+                        "3",
                         "Sl",
-                        "Gl"
+                        "GlG",
+                        "Kn",
+                        "S",
+                        "Mi"
                     ]
                 },
                 {
@@ -169,22 +169,22 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "GlD",
-                        "Kn",
                         "6",
+                        "Gl",
                         "3",
-                        "Mi",
-                        "Gl"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "2",
+                        "Gl",
                         "GlW",
                         "So",
-                        "Gl"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
@@ -203,22 +203,22 @@
                     "name": "Gnocchi mit frischem Pfannengemüse",
                     "price": "individual",
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Salsa",
                     "price": "N/A",
                     "ingredients": [
-                        "Fi",
-                        "11",
-                        "Kn",
-                        "2",
+                        "Gl",
                         "GlW",
-                        "So",
+                        "Fi",
+                        "2",
                         "Sl",
-                        "Gl"
+                        "So",
+                        "Kn",
+                        "11"
                     ]
                 },
                 {
@@ -226,9 +226,9 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Ei",
-                        "Gl",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -236,20 +236,20 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sf",
-                        "Kn",
-                        "2",
+                        "Gl",
                         "GlW",
                         "So",
-                        "Gl"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Zartweizen mit Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
