@@ -1,13 +1,13 @@
 {
-    "number": 14,
+    "number": 15,
     "year": 2019,
     "days": [
         {
-            "date": "2019-04-01",
+            "date": "2019-04-08",
             "dishes": [
                 {
-                    "name": "\"Aloo Baingan\" Kartoffeln, Aubergine und Tomate mit indischen Gewürzen und Joghurt",
-                    "price": 4.9,
+                    "name": "Couscous mit Falafel, Zucchini- Paprikagemüse und Minz Joghurt",
+                    "price": 4.5,
                     "ingredients": [
                         "Gl",
                         "Se",
@@ -19,7 +19,20 @@
                     ]
                 },
                 {
-                    "name": "Reiberdatschi mit Frühlingsquark oder süß mit Apfelmus",
+                    "name": "Currywurst mit Spezialsauce und Pommes frites",
+                    "price": 4.5,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Pasta mit Spinatsahne",
                     "price": 3.5,
                     "ingredients": [
                         "Gl",
@@ -32,77 +45,7 @@
                     ]
                 },
                 {
-                    "name": "Hähnchenkeule mit Paprikasauce und Reis oder Pommes frites",
-                    "price": 5.8,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Rinderhüftsteak mit Pfeffersauce, Kroketten und Princessbohnen",
-                    "price": 7.5,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2019-04-02",
-            "dishes": [
-                {
-                    "name": "Kartoffelpfanne , Grenaillekartoffeln auf Spitzkohlgemüse mit Tomaten- Sauerrahm-Dip",
-                    "price": 3.5,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Allgäuer Käseschnitzel mit Kaisergemüse und Rösti",
-                    "price": 5.8,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Vegetarisch gefüllte Tortellini mit Tomatensauce und Grana Padano",
-                    "price": 4.8,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Tandoori-Lachs mit Asiagemüse und Reis",
+                    "name": "\"Tandoori Beef Curry\" mit Gemüse, Blumenkohl, Champignons, Kartoffeln und Basmatireis",
                     "price": 7.2,
                     "ingredients": [
                         "Gl",
@@ -117,10 +60,10 @@
             ]
         },
         {
-            "date": "2019-04-03",
+            "date": "2019-04-09",
             "dishes": [
                 {
-                    "name": "Provenzalischer Eintopf mit Zucchini, Tomaten, Paprika, Kartoffeln und frischen Kräutern",
+                    "name": "Kartoffel-Möhrenauflauf mit Kräuter-Quark-Dip",
                     "price": 3.5,
                     "ingredients": [
                         "Gl",
@@ -133,33 +76,7 @@
                     ]
                 },
                 {
-                    "name": "Putengeschnetzeltes in Senf- Sahnesauce mit Spätzle",
-                    "price": 6.5,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Pizza \"Capriciosa\", mit Tomaten, Käse, Schinken, Salami, Champignons, Artischocken und Oliven (oder vegetarisch)",
-                    "price": 5.5,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "\"Palek Tofu\", gebratener Tofu mit Spinat, Ingwer, Curry- Sahnesauce und Reis",
+                    "name": "Münchner Schweinebraten mit Kartoffel-Gurkensalat oder Knödel",
                     "price": 5.2,
                     "ingredients": [
                         "Gl",
@@ -170,27 +87,9 @@
                         "Ei",
                         "Mi"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2019-04-04",
-            "dishes": [
-                {
-                    "name": "Kirschgermknödel mit Vanillesauce",
-                    "price": 3.5,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
                 },
                 {
-                    "name": "Bratwurst mit Sauerkraut und Püree",
+                    "name": "Südtiroler Jägernudeln mit Zwiebeln, Speck, Sahne und Grana",
                     "price": 4.8,
                     "ingredients": [
                         "Gl",
@@ -203,21 +102,8 @@
                     ]
                 },
                 {
-                    "name": "Chicken Vindaloo leicht Scharf, mit Kartoffeln und Tomaten, dazu Basmatireis",
-                    "price": 6.9,
-                    "ingredients": [
-                        "Gl",
-                        "Se",
-                        "Sf",
-                        "Sl",
-                        "4",
-                        "Ei",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "\"Rigatoni Rustico\" mit Paprika, Peperoni, Zucchini, Mais und P Erbsen (a.W. mit Cabanossi 4,90 €)",
-                    "price": 4.5,
+                    "name": "\"Burrito Mexiko\" mit Puten- Gemüsefüllung und Guacamole, dazu Salat",
+                    "price": 6.2,
                     "ingredients": [
                         "Gl",
                         "Se",
@@ -231,10 +117,10 @@
             ]
         },
         {
-            "date": "2019-04-05",
+            "date": "2019-04-10",
             "dishes": [
                 {
-                    "name": "\"Chana Masala\", Kichererbsen mit Zwiebeln und Ingwer, dazu Reis",
+                    "name": "\" Arme Ritter mit Fruchtgrütze",
                     "price": 3.5,
                     "ingredients": [
                         "Gl",
@@ -247,8 +133,8 @@
                     ]
                 },
                 {
-                    "name": "Gebratener Seelachs auf Wirsinggemüse und Petersilienkartoffeln",
-                    "price": 5.8,
+                    "name": "Pasta mit Tomaten- Sahnesauce, Oliven und Grana (auf Wunsch mit Speck)",
+                    "price": 4.5,
                     "ingredients": [
                         "Gl",
                         "Se",
@@ -260,7 +146,64 @@
                     ]
                 },
                 {
-                    "name": "Vegetarisch gefüllte Kartoffeltasche auf Wurzelgemüse",
+                    "name": "\"Kukul Mas Curry\", S scharfe Hühnerkeulen mit Basmatireis",
+                    "price": 6.9,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Calamari a la Romana, gebackene Tintenfischringe mit Knoblauchmayonnaise, Salat und Pommes frites",
+                    "price": 6.2,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-04-11",
+            "dishes": [
+                {
+                    "name": "Band Gobi aur matar\", gebratenes Weißkohlgemüse mit Erbsen, Basmatireis und Gurken-Raita",
+                    "price": 3.5,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Halsgratsteak \"Balkan Art\" mit Mischpilzen, Ajvar,Peperoncini, Zwiebeln und Pommes frites",
+                    "price": 6.8,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "paghetti Carbonara, mit Schinken, Erbsen und Ei",
                     "price": 4.9,
                     "ingredients": [
                         "Gl",
@@ -273,8 +216,65 @@
                     ]
                 },
                 {
-                    "name": "Kalifornisches Putensteak mit firsich und Käse gratiniert, dazu Karotten-Ingwer-Chutney und Pommes frites",
-                    "price": 6.9,
+                    "name": "Toskanisches Rindergulasch mit Gnocchi",
+                    "price": 6.5,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-04-12",
+            "dishes": [
+                {
+                    "name": "Gemüse-Frittata mit Kräutern und Käse, dazu Tomatensalat",
+                    "price": 3.5,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Pochierter Limetten-Kokosfisch mit Basmatireis und frischem Koriander",
+                    "price": 5.8,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Risotto mit Austernpilzen, Kirschtomaten und Grana",
+                    "price": 5.2,
+                    "ingredients": [
+                        "Gl",
+                        "Se",
+                        "Sf",
+                        "Sl",
+                        "4",
+                        "Ei",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Putenschnitzel mit Mischgemüse, Hollandaise und Spätzle",
+                    "price": 6.5,
                     "ingredients": [
                         "Gl",
                         "Se",
