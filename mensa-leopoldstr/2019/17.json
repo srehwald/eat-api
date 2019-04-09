@@ -9,12 +9,12 @@
                     "name": "Penne all'amatriciana",
                     "price": "individual",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "3",
                         "2",
-                        "S",
+                        "Gl",
                         "Sl",
+                        "GlW",
+                        "3",
+                        "S",
                         "Kn"
                     ]
                 },
@@ -22,10 +22,10 @@
                     "name": "Pasta quattro formaggi",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "Gl",
                         "2",
+                        "Gl",
+                        "Mi",
+                        "GlW",
                         "1",
                         "Kn"
                     ]
@@ -35,20 +35,20 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "10",
                         "Sl",
-                        "Sf",
+                        "10",
                         "11",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse",
                     "price": "0.75€ / 100g",
                     "ingredients": [
+                        "Gl",
                         "GlW",
                         "So",
-                        "Gl",
                         "S",
                         "Kn"
                     ]
@@ -71,11 +71,11 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": "individual",
                     "ingredients": [
-                        "GlW",
                         "R",
                         "Gl",
-                        "3",
+                        "GlW",
                         "Sw",
+                        "3",
                         "1",
                         "Kn"
                     ]
@@ -85,20 +85,20 @@
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
                         "Gl",
                         "Sl",
+                        "Ei",
+                        "Mi",
+                        "GlW",
                         "Sf"
                     ]
                 },
@@ -106,10 +106,10 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
                         "Gl",
                         "Sl",
+                        "Ei",
+                        "GlW",
                         "GlD"
                     ]
                 },
@@ -117,25 +117,25 @@
                     "name": "Cevapcici von der Pute mit Ajvar",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
                         "Gl",
-                        "Sf",
-                        "Kn"
+                        "Ei",
+                        "Mi",
+                        "GlW",
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pizza Diavolo mit Mozzarella, scharfer Salami und Peperoni",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "So",
-                        "GlG",
-                        "Gl",
-                        "3",
                         "2",
+                        "Gl",
+                        "GlG",
+                        "Mi",
+                        "GlW",
+                        "So",
+                        "3",
                         "S",
                         "1"
                     ]
@@ -158,23 +158,23 @@
                     "name": "Pasta mit Pesto rosso (scharf)",
                     "price": "individual",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Sc",
-                        "Mi",
+                        "2",
                         "Gl",
-                        "ScM",
-                        "2"
+                        "Sc",
+                        "Ei",
+                        "Mi",
+                        "GlW",
+                        "ScM"
                     ]
                 },
                 {
                     "name": "Pasta mit Räucherlachs und frischem Dill in Zitronensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "Fi",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -183,21 +183,21 @@
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pizza Funghi mit Champignons und Oliven",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "So",
-                        "GlG",
-                        "Gl",
                         "2",
+                        "Gl",
+                        "GlG",
+                        "Mi",
+                        "GlW",
+                        "So",
                         "1",
                         "6"
                     ]
@@ -206,24 +206,24 @@
                     "name": "Blumenkohlauflauf mit Käsesauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
-                        "Gl",
-                        "99",
                         "2",
+                        "Gl",
+                        "Ei",
+                        "Mi",
+                        "GlW",
                         "Sw",
                         "1",
-                        "Kn"
+                        "Kn",
+                        "99"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": "N/A",
                     "ingredients": [
-                        "8",
                         "S",
-                        "Sl"
+                        "Sl",
+                        "8"
                     ]
                 },
                 {
@@ -243,13 +243,13 @@
                     "name": "Linseneintopf mit ein Paar Wiener",
                     "price": "individual",
                     "ingredients": [
-                        "R",
-                        "3",
                         "2",
-                        "8",
-                        "S",
+                        "R",
                         "Sl",
-                        "5"
+                        "8",
+                        "5",
+                        "3",
+                        "S"
                     ]
                 },
                 {
@@ -264,9 +264,9 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Kr",
-                        "Kn",
+                        "Sl",
                         "1",
-                        "Sl"
+                        "Kn"
                     ]
                 },
                 {
@@ -282,9 +282,9 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
+                        "Sl",
                         "3",
-                        "5",
-                        "Sl"
+                        "5"
                     ]
                 }
             ]
