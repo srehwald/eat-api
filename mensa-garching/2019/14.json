@@ -16,27 +16,27 @@
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "Mi",
-                        "2",
                         "Ei",
                         "Gl",
                         "1",
-                        "GlW"
+                        "Mi",
+                        "2",
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Rindfleischstreifen (GQB) Spicy Ginger mit Bambussprossen",
                     "price": 3.0,
                     "ingredients": [
-                        "So",
                         "GlG",
-                        "Mi",
-                        "R",
-                        "2",
                         "Gl",
+                        "Mi",
+                        "2",
+                        "So",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "R"
                     ]
                 }
             ]
@@ -48,22 +48,22 @@
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": 1,
                     "ingredients": [
-                        "So",
-                        "Sf",
                         "Kn",
-                        "2"
+                        "So",
+                        "2",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Tortellini (Käsefüllung) mit Käse-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "2",
+                        "Sl",
                         "Ei",
                         "Gl",
                         "1",
-                        "Sl",
+                        "Mi",
+                        "2",
                         "Kn",
                         "GlW"
                     ]
@@ -72,31 +72,31 @@
                     "name": "Ofenfrischer Leberkäse mit Kartoffel-Gurkensalat",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "R",
                         "5",
                         "2",
                         "3",
-                        "8"
+                        "8",
+                        "S",
+                        "R"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "S",
-                        "Sf",
-                        "GlG",
-                        "99",
-                        "Mi",
+                        "Sl",
                         "Sw",
                         "R",
-                        "2",
-                        "3",
+                        "GlG",
                         "Gl",
-                        "Sl",
+                        "Mi",
+                        "2",
+                        "99",
+                        "3",
+                        "S",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Sf"
                     ]
                 }
             ]
@@ -117,13 +117,13 @@
                     "name": "Spaghetti Carbonara",
                     "price": 1.55,
                     "ingredients": [
-                        "S",
+                        "Sl",
+                        "Ei",
+                        "Gl",
                         "Mi",
                         "2",
-                        "Ei",
                         "3",
-                        "Gl",
-                        "Sl",
+                        "S",
                         "Kn",
                         "GlW"
                     ]
@@ -132,25 +132,25 @@
                     "name": "Linseneintopf mit ein Paar Wiener",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "R",
+                        "Sl",
                         "5",
                         "2",
                         "3",
                         "8",
-                        "Sl"
+                        "S",
+                        "R"
                     ]
                 },
                 {
                     "name": "Schweineschnitzel, natur mit Jägersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
                         "GlG",
+                        "Gl",
                         "Mi",
                         "2",
                         "3",
-                        "Gl",
+                        "S",
                         "Kn",
                         "GlW"
                     ]
@@ -159,11 +159,11 @@
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "2",
                         "Ei",
                         "Gl",
                         "1",
+                        "Mi",
+                        "2",
                         "Kn",
                         "GlW"
                     ]
@@ -186,13 +186,13 @@
                     "name": "Schwäbische Maultaschen mit Zwiebelsauce",
                     "price": 1.55,
                     "ingredients": [
-                        "S",
-                        "GlG",
-                        "Mi",
-                        "Gl",
-                        "Ei",
-                        "Kn",
                         "Sl",
+                        "Ei",
+                        "GlG",
+                        "Gl",
+                        "Mi",
+                        "S",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -207,10 +207,10 @@
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "S",
                         "GlG",
-                        "Mi",
                         "Gl",
+                        "Mi",
+                        "S",
                         "Kn",
                         "GlW"
                     ]
@@ -224,9 +224,9 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
+                        "Kn",
                         "Sl",
-                        "Sf",
-                        "Kn"
+                        "Sf"
                     ]
                 },
                 {
@@ -242,8 +242,8 @@
                     "price": 2.8,
                     "ingredients": [
                         "Mi",
-                        "GlW",
                         "Ei",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -251,12 +251,12 @@
                     "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Wt",
                         "Ei",
-                        "Kn",
+                        "Wt",
+                        "Gl",
                         "1",
+                        "Mi",
+                        "Kn",
                         "GlW"
                     ]
                 }
