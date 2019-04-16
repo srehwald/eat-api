@@ -1,12 +1,16 @@
 {
-    "number": 16,
+    "number": 17,
     "year": 2019,
     "days": [
         {
-            "date": "2019-04-15",
+            "date": "2019-04-22",
+            "dishes": []
+        },
+        {
+            "date": "2019-04-23",
             "dishes": [
                 {
-                    "name": "Linseneintopf mit Wurzelgemüse (mit Wiener 4,50 €)",
+                    "name": "Schupfnudelpfanne mit Sauerkraut und Sauerrahm-Dip",
                     "price": 3.5,
                     "ingredients": [
                         "Mi",
@@ -19,8 +23,8 @@
                     ]
                 },
                 {
-                    "name": "Fleischpflanzerl mit Zwiebeljus, Karottengemüse und Püree",
-                    "price": 5.2,
+                    "name": "Kutscherbraten mit Semmelknödel",
+                    "price": 5.5,
                     "ingredients": [
                         "Mi",
                         "Ei",
@@ -32,8 +36,8 @@
                     ]
                 },
                 {
-                    "name": "Pasta mit Pesto und Cocktailtomaten, dazu Grana",
-                    "price": 4.5,
+                    "name": "\"Ala Curry\" Kartoffeln mit Kokos, Curry, Senf, Basmatireis und Mango Chutney",
+                    "price": 4.9,
                     "ingredients": [
                         "Mi",
                         "Ei",
@@ -45,8 +49,8 @@
                     ]
                 },
                 {
-                    "name": "\"Virginiasteak\", Halsgrat vom Grill, mit Virginia-Pfeffer gewürzt, dazu Kräuterbutter, Cole Slaw-Garnitur und Pommes frites",
-                    "price": 6.9,
+                    "name": "Cevapcici auf Djuvecreis mit Tzatziki",
+                    "price": 6.5,
                     "ingredients": [
                         "Mi",
                         "Ei",
@@ -60,23 +64,10 @@
             ]
         },
         {
-            "date": "2019-04-16",
+            "date": "2019-04-24",
             "dishes": [
                 {
-                    "name": "Kartoffelgratin mit Sauerrahmdip",
-                    "price": 3.5,
-                    "ingredients": [
-                        "Mi",
-                        "Ei",
-                        "4",
-                        "Se",
-                        "Gl",
-                        "Sf",
-                        "Sl"
-                    ]
-                },
-                {
-                    "name": "Spaghetti Bolognese, dazu Reibekäse",
+                    "name": "Provenzalisches Rührei mit Zwiebeln, Tomaten und Sc Kräutern, dazu Tomatendip und Salzkartoffeln",
                     "price": 4.2,
                     "ingredients": [
                         "Mi",
@@ -89,7 +80,20 @@
                     ]
                 },
                 {
-                    "name": "\"Chicken Tikka\", gegrilltes Hühnerfleisch mit frischen Gewürzen und Joghurt mariniert (mittelscharf), dazu Reis und Chili-Dip",
+                    "name": "Schweinelendchen vom Grill mit Texikana Salsa, Buttermais und Pommes frites",
+                    "price": 3.5,
+                    "ingredients": [
+                        "Mi",
+                        "Ei",
+                        "4",
+                        "Se",
+                        "Gl",
+                        "Sf",
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Cremige Polenta mit G Mischpilzen und Basilikum",
                     "price": 6.9,
                     "ingredients": [
                         "Mi",
@@ -102,7 +106,7 @@
                     ]
                 },
                 {
-                    "name": "Quarkbulette auf Ratatouille, dazu Rucola",
+                    "name": "Asiatischer Zitronen- Ri Honiglachs aus dem Backofen mit Teriyaki Spinat und Reis",
                     "price": 4.9,
                     "ingredients": [
                         "Mi",
@@ -117,10 +121,10 @@
             ]
         },
         {
-            "date": "2019-04-17",
+            "date": "2019-04-25",
             "dishes": [
                 {
-                    "name": "Apfelstrudel mit Vanillesauce",
+                    "name": "hweizer Käserösti mit Sauerrahm- Dip",
                     "price": 3.5,
                     "ingredients": [
                         "Mi",
@@ -133,8 +137,8 @@
                     ]
                 },
                 {
-                    "name": "Putenschnitzel in der Knusperpanade mit H Currysauce und Reis oder Pommes frites",
-                    "price": 6.9,
+                    "name": "Münchner Schweinepfeffer mit Blaukraut und Kartoffelknödel",
+                    "price": 5.5,
                     "ingredients": [
                         "Mi",
                         "Ei",
@@ -146,8 +150,8 @@
                     ]
                 },
                 {
-                    "name": "Bandnudeln mit Pilz- G Kräutersauce, auf Wunsch mit Reibekäse",
-                    "price": 4.6,
+                    "name": "ebratener Tofu mit Erdnussauce und Reis",
+                    "price": 5.2,
                     "ingredients": [
                         "Mi",
                         "Ei",
@@ -159,7 +163,7 @@
                     ]
                 },
                 {
-                    "name": "\"Khao Moo Grob\" knusprig frittiertes Schweinefleisch mit gekochtem Gemüse und üb Tomaten-Sojasauce, dazu Reis",
+                    "name": "ndfleischburger mit pikantem Dip, Coleslaw und Pommes frites",
                     "price": 6.9,
                     "ingredients": [
                         "Mi",
@@ -174,10 +178,10 @@
             ]
         },
         {
-            "date": "2019-04-18",
+            "date": "2019-04-26",
             "dishes": [
                 {
-                    "name": "Gemüseragout mit Reis",
+                    "name": "Frühlingseintopf mit Weißkraut und Kartoffeln",
                     "price": 3.5,
                     "ingredients": [
                         "Mi",
@@ -190,7 +194,7 @@
                     ]
                 },
                 {
-                    "name": "albes Grillhend ́l mit BBQ-Sauce und Pommes frites",
+                    "name": "Gebratenes Seelachsfilet in Dillsauce mit Petersilienkartoffeln",
                     "price": 5.8,
                     "ingredients": [
                         "Mi",
@@ -203,8 +207,8 @@
                     ]
                 },
                 {
-                    "name": "nocchi mit Tomaten-Concassée, Kirschtomaten, Rucola",
-                    "price": 4.9,
+                    "name": "Gemüsepasta auf Bauernart mit Olivenöl, Wirsing, Kartoffeln, Tomaten, Kräuter und Grana",
+                    "price": 4.8,
                     "ingredients": [
                         "Mi",
                         "Ei",
@@ -216,8 +220,8 @@
                     ]
                 },
                 {
-                    "name": "Schwarzwälder Schnitzel mit Schinken, Tomate und Käse erbacken, dazu Kräuter-Kartoffel- Stampf oder Pommes frites",
-                    "price": 5.8,
+                    "name": "\"Butter Chicken\", Hähnchenfleisch mit Joghurt, Tomaten, Ingwer, Koriander und Garam Masala, dazu Basmatireis",
+                    "price": 6.9,
                     "ingredients": [
                         "Mi",
                         "Ei",
@@ -229,10 +233,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "date": "2019-04-19",
-            "dishes": []
         }
     ]
 }
