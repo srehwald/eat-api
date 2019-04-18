@@ -9,59 +9,73 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sl",
-                        "Gl",
-                        "GlW",
-                        "Ei",
                         "Mi",
-                        "1"
+                        "GlW",
+                        "1",
+                        "Ei",
+                        "Kn",
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Chinapfanne mit Putenfleisch",
                     "price": "N/A",
                     "ingredients": [
+                        "So",
+                        "GlW",
                         "Kn",
                         "Gl",
-                        "GlW",
-                        "Sf",
-                        "So"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
                         "Sl",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
-                    "name": "Backerbsensuppe",
+                    "name": "Pfannkuchensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Gl",
+                        "Mi",
                         "GlW",
                         "Ei",
-                        "Mi"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "2",
-                        "Gl",
-                        "GlW",
-                        "GlG",
-                        "Ei",
                         "Mi",
-                        "S"
+                        "GlW",
+                        "S",
+                        "Ei",
+                        "Kn",
+                        "GlG",
+                        "Gl",
+                        "2"
+                    ]
+                },
+                {
+                    "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Salsa",
+                    "price": "N/A",
+                    "ingredients": [
+                        "So",
+                        "GlW",
+                        "Fi",
+                        "11",
+                        "Kn",
+                        "Gl",
+                        "Sl",
+                        "2"
                     ]
                 }
             ]
@@ -73,52 +87,60 @@
                     "name": "Holzfällersteak vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "2",
-                        "Gl",
-                        "GlW",
-                        "GlG",
-                        "Mi",
                         "3",
-                        "S"
+                        "Mi",
+                        "GlW",
+                        "S",
+                        "Kn",
+                        "GlG",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "9",
-                        "So",
                         "3",
+                        "So",
+                        "9",
+                        "Kn",
                         "5"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Maultaschensuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "R",
+                        "Gl",
+                        "Sl",
+                        "S"
+                    ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
-                        "R",
-                        "Gl",
+                        "Mi",
                         "GlW",
                         "Sw",
-                        "Mi"
+                        "99",
+                        "R",
+                        "Gl"
                     ]
                 }
             ]
@@ -138,29 +160,55 @@
                     "name": "Hähnchenspieß mit fruchtiger Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Mexikanisches Chili",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Kartoffelsuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Bulgur mit Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "Sl",
+                        "GlW",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "3",
+                        "Mi",
+                        "GlW",
+                        "S",
+                        "Kn",
+                        "GlG",
+                        "Gl",
+                        "2"
+                    ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 }
@@ -182,25 +230,29 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Bärlauchsuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
+                        "Mi",
                         "1",
-                        "Mi"
+                        "2"
                     ]
                 },
                 {
                     "name": "Schaschlik",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
                         "S",
+                        "Sf",
                         "11"
                     ]
                 }

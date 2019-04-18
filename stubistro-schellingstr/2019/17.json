@@ -6,14 +6,26 @@
             "date": "2019-04-23",
             "dishes": [
                 {
-                    "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse und Reis, Basmatireis, HoiSin Sojasauce",
+                    "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "Gl",
                         "GlW",
+                        "Kn",
                         "So",
-                        "Kn"
+                        "S",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pasta Quattro formaggi",
+                    "price": 1.9,
+                    "ingredients": [
+                        "Mi",
+                        "1",
+                        "GlW",
+                        "Kn",
+                        "2",
+                        "Gl"
                     ]
                 }
             ]
@@ -25,23 +37,23 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
                         "Sl",
-                        "Gl",
+                        "GlW",
                         "GlD",
-                        "GlW"
+                        "Ei",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "Gl",
                         "Mi",
+                        "Sl",
+                        "GlW",
                         "Sf",
-                        "GlW"
+                        "Ei",
+                        "Gl"
                     ]
                 }
             ]
@@ -53,10 +65,10 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.55,
                     "ingredients": [
-                        "2",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "2",
+                        "Gl"
                     ]
                 },
                 {
@@ -64,14 +76,14 @@
                     "price": 2.4,
                     "ingredients": [
                         "99",
-                        "Ei",
-                        "1",
-                        "Gl",
                         "Mi",
+                        "1",
                         "GlW",
-                        "2",
                         "Sw",
-                        "Kn"
+                        "2",
+                        "Kn",
+                        "Ei",
+                        "Gl"
                     ]
                 }
             ]
@@ -83,8 +95,8 @@
                     "name": "Jambalaya Louisiana mit Shrimps und Hähnchenbrustfilet",
                     "price": 2.8,
                     "ingredients": [
-                        "1",
                         "Sl",
+                        "1",
                         "Kn",
                         "Kr"
                     ]
@@ -93,9 +105,9 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]

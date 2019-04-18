@@ -9,23 +9,23 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
-                        "1",
                         "Mi",
+                        "1",
                         "Gl",
-                        "Ei",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Chinapfanne mit Putenfleisch",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "So",
-                        "Sf",
                         "Gl",
+                        "GlW",
+                        "Sf",
+                        "So",
                         "Kn"
                     ]
                 },
@@ -34,23 +34,42 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Sl",
+                        "GlW",
                         "Kn",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
-                    "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
+                    "name": "Kreolische Tomatensuppe",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "GlG",
-                        "S",
-                        "2",
+                        "Kn",
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Kartoffeltortilla mit Spinat und Tomatensauce",
+                    "price": "N/A",
+                    "ingredients": [
                         "Mi",
                         "Gl",
-                        "Ei",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Paniertes Truthahnschnitzel mit Currydip",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "1",
+                        "Gl",
+                        "GlW",
+                        "Sf",
+                        "Ei"
                     ]
                 }
             ]
@@ -62,46 +81,61 @@
                     "name": "Dinkelnudeln mit Hackfleisch Mozzarella und Zucchinis",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Mi",
-                        "GlD",
+                        "R",
                         "Gl",
-                        "R"
+                        "S",
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "GlG",
-                        "S",
-                        "2",
                         "Mi",
                         "Gl",
+                        "S",
                         "3",
-                        "Kn"
+                        "GlW",
+                        "GlG",
+                        "Kn",
+                        "2"
                     ]
+                },
+                {
+                    "name": "Chinapfanne mit Putenfleisch",
+                    "price": "N/A",
+                    "ingredients": []
                 },
                 {
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
+                        "3",
                         "So",
-                        "9",
                         "Kn",
-                        "3"
+                        "5",
+                        "9"
+                    ]
+                },
+                {
+                    "name": "Tomatencremesuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Südfranzösischer Fischtopf mit Meeresfrüchten und Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kr",
-                        "Kn",
                         "Fi",
-                        "Wt"
+                        "Wt",
+                        "Kr",
+                        "Kn"
                     ]
                 }
             ]
@@ -121,13 +155,13 @@
                     "name": "Zarzuela - Spanische Fischpfanne mit Meeresfrüchten, Oliven und Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "1",
-                        "Kr",
-                        "Wt",
                         "Gl",
                         "3",
-                        "Fi"
+                        "GlW",
+                        "Fi",
+                        "Wt",
+                        "Kr"
                     ]
                 },
                 {
@@ -139,17 +173,38 @@
                     ]
                 },
                 {
+                    "name": "Kartoffel- Rote Beetesuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "3",
+                        "So",
+                        "Kn",
+                        "5",
+                        "9"
+                    ]
+                },
+                {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sw",
-                        "GlG",
-                        "S",
                         "Mi",
-                        "Sf",
                         "Gl",
+                        "S",
                         "3",
+                        "GlW",
+                        "Sf",
+                        "GlG",
+                        "Kn",
+                        "Sw"
+                    ]
+                },
+                {
+                    "name": "Südfranzösischer Fischtopf mit Meeresfrüchten und Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Fi",
+                        "Wt",
+                        "Kr",
                         "Kn"
                     ]
                 }

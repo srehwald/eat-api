@@ -9,14 +9,14 @@
                     "name": "Pizza Regina mit Schinken und Champignons",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
                         "S",
                         "2",
                         "Mi",
                         "8",
-                        "GlW",
-                        "1",
                         "So",
+                        "1",
+                        "GlG",
+                        "GlW",
                         "3",
                         "Gl"
                     ]
@@ -25,20 +25,38 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Kn",
                         "Sl",
-                        "Gl",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "So",
                         "Mi",
                         "Fi",
+                        "So",
                         "3"
+                    ]
+                },
+                {
+                    "name": "Quark mit Erdbeeren",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Mousse au chocolat",
+                    "price": "N/A",
+                    "ingredients": [
+                        "14",
+                        "Mi",
+                        "Gl",
+                        "So",
+                        "GlW"
                     ]
                 },
                 {
@@ -47,16 +65,17 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
+                    "name": "Pasta Frutti di Mare Aufschlag 0,50",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
                         "Kn",
-                        "Mi",
-                        "GlW",
-                        "1",
+                        "Wt",
                         "Ei",
-                        "Gl"
+                        "2",
+                        "Mi",
+                        "Gl",
+                        "Kr",
+                        "GlW"
                     ]
                 },
                 {
@@ -75,72 +94,71 @@
                     "ingredients": [
                         "GlD",
                         "Ei",
+                        "GlW",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Chinapfanne mit Putenfleisch Aufschlag 1,00",
+                    "price": "0.68€ / 100g",
+                    "ingredients": [
+                        "Kn",
                         "Gl",
+                        "GlW",
+                        "So",
+                        "Sf"
+                    ]
+                },
+                {
+                    "name": "Rindergeschnetzeltes (GQB) Stroganoff Aufschlag 1,00",
+                    "price": "0.68€ / 100g",
+                    "ingredients": [
+                        "Sf",
+                        "Kn",
+                        "2",
+                        "R",
+                        "Mi",
+                        "9",
+                        "Gl",
+                        "GlG",
                         "GlW"
                     ]
                 },
                 {
-                    "name": "Chinapfanne mit Putenfleisch",
+                    "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce Aufschlag 0,50",
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Kn",
-                        "Sf",
-                        "GlW",
-                        "So",
-                        "Gl"
-                    ]
-                },
-                {
-                    "name": "Rindergeschnetzeltes (GQB) Stroganoff",
-                    "price": "0.68€ / 100g",
-                    "ingredients": [
-                        "GlG",
-                        "Kn",
-                        "2",
-                        "Sf",
-                        "Mi",
-                        "GlW",
-                        "Gl",
-                        "R",
-                        "9"
-                    ]
-                },
-                {
-                    "name": "Pasta Frutti di Mare",
-                    "price": "0.68€ / 100g",
-                    "ingredients": [
-                        "Kn",
-                        "2",
-                        "Wt",
-                        "Mi",
-                        "GlW",
+                        "Sl",
                         "Ei",
-                        "Kr",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "1",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Putengulasch mit Reis und Karotten",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "Kn",
                         "Sl",
-                        "Gl",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": "Fast Lane (> 3.50€)",
                     "ingredients": [
-                        "GlG",
-                        "S",
                         "Kn",
+                        "S",
+                        "Ei",
                         "2",
                         "Mi",
-                        "GlW",
-                        "Ei",
-                        "Gl"
+                        "Gl",
+                        "GlG",
+                        "GlW"
                     ]
                 },
                 {
@@ -157,15 +175,18 @@
             "date": "2019-04-16",
             "dishes": [
                 {
-                    "name": "Pizza mit Oliven, Sardellen und Kapern",
+                    "name": "Pizza Regina mit (Vorder-)Schinken und Champignons",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
-                        "Fi",
-                        "6",
+                        "S",
+                        "2",
                         "Mi",
-                        "GlW",
+                        "8",
                         "So",
+                        "1",
+                        "GlG",
+                        "GlW",
+                        "3",
                         "Gl"
                     ]
                 },
@@ -175,28 +196,33 @@
                     "ingredients": [
                         "Kn",
                         "5",
+                        "9",
                         "So",
-                        "3",
-                        "9"
+                        "3"
                     ]
                 },
                 {
-                    "name": "Pasta Pomodori",
+                    "name": "Rindergeschnetzeltes (GQB) Stroganoff Aufschlag 1,00",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "Sf",
                         "Kn",
+                        "2",
+                        "R",
+                        "Mi",
+                        "9",
                         "Gl",
+                        "GlG",
                         "GlW"
                     ]
                 },
                 {
-                    "name": "Dinkelnudeln mit Hackfleisch Mozzarella und Zucchinis",
-                    "price": "0.68€ / 100g",
+                    "name": "Putengulasch Aufschlag 1,00",
+                    "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "GlD",
-                        "Mi",
-                        "R",
+                        "Sl",
+                        "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -218,38 +244,61 @@
                     ]
                 },
                 {
-                    "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
+                    "name": "Dinkelnudeln mit Putenfleisch",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sw",
-                        "Mi",
-                        "GlW",
-                        "99",
-                        "Gl"
+                        "Sf",
+                        "Kn",
+                        "GlD",
+                        "Gl",
+                        "So",
+                        "GlW"
                     ]
                 },
                 {
-                    "name": "Holzfällersteak vom Schwein",
+                    "name": "Kalbsrahmgulasch mit Champignons und Weißwein Aufschlag 1,00",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlG",
-                        "S",
-                        "Kn",
-                        "2",
+                        "Sw",
+                        "99",
                         "Mi",
-                        "GlW",
-                        "3",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "So",
                         "Mi",
                         "Fi",
+                        "So",
                         "3"
+                    ]
+                },
+                {
+                    "name": "Joghurt mit Blaubeeren",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Quark mit Erdbeeren",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Mousse au chocolat",
+                    "price": "N/A",
+                    "ingredients": [
+                        "14",
+                        "Mi",
+                        "Gl",
+                        "So",
+                        "GlW"
                     ]
                 },
                 {
@@ -258,30 +307,39 @@
                     "ingredients": []
                 },
                 {
+                    "name": "Pasta Pomodori",
+                    "price": "0.68€ / 100g",
+                    "ingredients": [
+                        "Kn",
+                        "GlW",
+                        "Gl"
+                    ]
+                },
+                {
                     "name": "Paniertes Seelachsfilet (MSC) mit Kartoffel(GQB)-Endivien-Salat und Remoulade",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "Fi",
                         "Sf",
-                        "2",
                         "5",
-                        "Mi",
-                        "GlW",
-                        "1",
                         "Ei",
+                        "2",
+                        "Mi",
+                        "Fi",
+                        "9",
+                        "1",
+                        "GlW",
                         "3",
-                        "Gl",
-                        "9"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": "Fast Lane (> 3.50€)",
                     "ingredients": [
-                        "Kn",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -295,45 +353,52 @@
             "date": "2019-04-17",
             "dishes": [
                 {
-                    "name": "Pizza Rucola Pomodoro mit Cocktailtomaten, Rucola und Parmigiano",
+                    "name": "Pizza Margherita mit Rucola",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
-                        "Kn",
-                        "2",
                         "Mi",
-                        "GlW",
-                        "1",
+                        "Gl",
+                        "GlG",
                         "So",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Mexikanisches Chili",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
-                    "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
+                    "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
                         "Mi",
-                        "GlW",
-                        "Ei",
-                        "Gl"
+                        "Fi",
+                        "So",
+                        "3"
                     ]
                 },
                 {
-                    "name": "Farfalle mit mediterraner Gemüsesauce",
-                    "price": "0.68€ / 100g",
+                    "name": "Milchreis mit Zimtzucker",
+                    "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "Mi"
                     ]
+                },
+                {
+                    "name": "Joghurt mit Blaubeeren",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Saisonale Beilagensalate",
+                    "price": "N/A",
+                    "ingredients": []
                 },
                 {
                     "name": "Grüne Bohnen",
@@ -353,16 +418,17 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Zarzuela - Spanische Fischpfanne mit Meeresfrüchten, Oliven und Gemüse",
+                    "name": "Zarzuela - Spanische Fischpfanne mit Meeresfrüchten, Oliven und Gemüse Aufschlag 1,00",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Fi",
                         "Wt",
-                        "GlW",
+                        "Sl",
+                        "Fi",
+                        "Gl",
                         "1",
-                        "3",
                         "Kr",
-                        "Gl"
+                        "3",
+                        "GlW"
                     ]
                 },
                 {
@@ -370,47 +436,44 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Täglich frische Salatbar",
+                    "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei Aufschlag 0,50",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "So",
+                        "Ei",
                         "Mi",
-                        "Fi",
-                        "3"
+                        "Gl",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
-                    "name": "Saisonale Beilagensalate",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Hähnchenbrust mit Djuvecreis und grünen Bohnen",
+                    "name": "Putengulasch mit Reis und Bohnen",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
+                        "Sl",
                         "Kn",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": "Fast Lane (> 3.50€)",
                     "ingredients": [
-                        "GlG",
-                        "S",
-                        "Kn",
                         "Sf",
+                        "Kn",
                         "Sw",
+                        "S",
                         "Mi",
-                        "GlW",
+                        "Gl",
+                        "GlG",
                         "3",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -427,15 +490,15 @@
                     "name": "Pizza Salami",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
-                        "S",
                         "Kn",
+                        "S",
                         "2",
                         "Mi",
-                        "GlW",
+                        "Gl",
                         "1",
+                        "GlG",
                         "So",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -449,10 +512,17 @@
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "So",
                         "Mi",
                         "Fi",
+                        "So",
                         "3"
+                    ]
+                },
+                {
+                    "name": "Schokopudding",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi"
                     ]
                 },
                 {
@@ -461,25 +531,27 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Penne mit Austernpilzen und Babyspinat",
+                    "name": "Kalbsrahmgulasch mit Champignons und Weißwein Aufschlag 1,00",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Kn",
+                        "Sw",
+                        "99",
+                        "Mi",
                         "Gl",
                         "GlW"
                     ]
                 },
                 {
-                    "name": "Lasagne mit Spinat und Räucherlachs",
+                    "name": "Kalbsrahmgulasch mit Pilzen und Weißwein Aufschlag 1,00",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Fi",
                         "Kn",
-                        "2",
+                        "Sw",
+                        "99",
+                        "R",
                         "Mi",
-                        "GlW",
-                        "1",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -500,41 +572,31 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Senner Rösti mit Tomate und Käse überbacken",
+                    "name": "Kartoffeltaschen mit Kräuterfrischkäse und Remolade",
                     "price": "0.68€ / 100g",
-                    "ingredients": [
-                        "1",
-                        "Mi",
-                        "2"
-                    ]
-                },
-                {
-                    "name": "Gemüsespieß vom Grill",
-                    "price": "0.68€ / 100g",
-                    "ingredients": []
-                },
-                {
-                    "name": "Schaschlik mit Countrykartoffeln und frischem Ratatouille",
-                    "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
                         "Kn",
-                        "Sf",
-                        "S",
-                        "11"
-                    ]
-                },
-                {
-                    "name": "Rendang - Indonesisches Rindergulasch (GQB)",
-                    "price": "Fast Lane (> 3.50€)",
-                    "ingredients": [
+                        "Ei",
                         "2",
-                        "R"
+                        "Mi",
+                        "9",
+                        "1",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Basmatireis (2)",
-                    "price": "N/A",
-                    "ingredients": []
+                    "name": "Lasagne mit Spinat und Räucherlachs Aufschlag 0,50",
+                    "price": "0.68€ / 100g",
+                    "ingredients": [
+                        "Kn",
+                        "2",
+                        "Mi",
+                        "Fi",
+                        "Gl",
+                        "1",
+                        "GlW"
+                    ]
                 }
             ]
         }

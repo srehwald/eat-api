@@ -9,39 +9,54 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "Sl"
+                        "Sl",
+                        "Kn",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Fischstäbchen (MSC) mit Remouladensauce",
+                    "price": 2.6,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "GlW",
+                        "Fi",
+                        "2",
+                        "1",
+                        "Ei",
+                        "9",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "Sf",
-                        "GlG",
-                        "2",
-                        "9",
                         "R",
+                        "Mi",
+                        "Sf",
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "2",
+                        "GlG",
+                        "9",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 3.5,
                     "ingredients": [
+                        "Mi",
                         "Kn",
-                        "Ei",
-                        "GlG",
-                        "2",
                         "S",
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "2",
+                        "Ei",
+                        "GlG",
+                        "Gl"
                     ]
                 }
             ]
@@ -50,38 +65,65 @@
             "date": "2019-04-16",
             "dishes": [
                 {
+                    "name": "Reis-Gemüsepfanne",
+                    "price": 1,
+                    "ingredients": [
+                        "Mi",
+                        "Kn",
+                        "GlW",
+                        "Sl",
+                        "Gl"
+                    ]
+                },
+                {
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1,
                     "ingredients": [
-                        "5",
-                        "9",
                         "So",
+                        "Kn",
+                        "5",
                         "3",
-                        "Kn"
+                        "9"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": 2.6,
                     "ingredients": [
+                        "Mi",
                         "Kn",
-                        "GlG",
-                        "2",
                         "S",
-                        "GlW",
                         "3",
-                        "Gl",
-                        "Mi"
+                        "GlW",
+                        "2",
+                        "GlG",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Schwäbische Rind-Spätzlepfanne",
+                    "price": 2.6,
+                    "ingredients": [
+                        "R",
+                        "Mi",
+                        "Sf",
+                        "Kn",
+                        "GlW",
+                        "2",
+                        "Ei",
+                        "GlG",
+                        "9",
+                        "Gl"
                     ]
                 },
                 {
@@ -89,11 +131,11 @@
                     "price": 3.0,
                     "ingredients": [
                         "R",
+                        "Mi",
+                        "Sw",
                         "GlW",
                         "99",
-                        "Sw",
-                        "Gl",
-                        "Mi"
+                        "Gl"
                     ]
                 }
             ]
@@ -105,34 +147,34 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Spaghetti mit Sauce Bolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "R",
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Sl"
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
+                    "name": "Münchner Schweinesteak (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
+                        "Mi",
                         "Sf",
-                        "GlG",
-                        "S",
-                        "GlW",
-                        "3",
                         "Sw",
-                        "Gl",
-                        "Mi"
+                        "Kn",
+                        "S",
+                        "3",
+                        "GlW",
+                        "GlG",
+                        "Gl"
                     ]
                 }
             ]
@@ -151,37 +193,43 @@
                     "name": "Kartoffeleintopf mit ein Paar Wiener",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
+                        "R",
                         "S",
                         "3",
-                        "R",
                         "8",
-                        "Sl"
+                        "Sl",
+                        "2"
                     ]
                 },
                 {
-                    "name": "Senner Rösti mit Tomate und Käse überbacken",
-                    "price": 2.4,
+                    "name": "Schweinesteak überbacken, nach Südtiroler Art",
+                    "price": 2.6,
                     "ingredients": [
+                        "Mi",
+                        "Kn",
+                        "S",
+                        "3",
+                        "GlW",
                         "2",
                         "1",
-                        "Mi"
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Hackbraten mit Rahmsauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Ei",
-                        "Sf",
-                        "GlG",
                         "R",
-                        "S",
+                        "Mi",
+                        "Sf",
                         "So",
+                        "Kn",
+                        "S",
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "Ei",
+                        "GlG",
+                        "Gl"
                     ]
                 }
             ]

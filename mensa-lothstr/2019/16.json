@@ -6,55 +6,65 @@
             "date": "2019-04-15",
             "dishes": [
                 {
-                    "name": "Bulgur mit Karotten, Fenchel und Sellerie",
+                    "name": "Ebly mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Sl",
+                        "Ei",
+                        "Gl",
+                        "Kn",
+                        "1",
+                        "GlW",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
+                    "price": 2.4,
+                    "ingredients": [
+                        "GlW",
                         "Ei",
                         "Mi",
-                        "Kn",
-                        "GlW",
-                        "Sl",
-                        "Gl",
-                        "1"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 2.8,
                     "ingredients": [
+                        "R",
+                        "GlG",
                         "2",
-                        "Mi",
+                        "Gl",
+                        "Sf",
+                        "9",
                         "Kn",
                         "GlW",
-                        "GlG",
-                        "Sf",
-                        "Gl",
-                        "9",
-                        "R"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
-                        "2",
-                        "Mi",
-                        "Kn",
-                        "S",
                         "GlG",
+                        "2",
+                        "S",
+                        "Ei",
+                        "Gl",
+                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Mi"
                     ]
                 }
             ]
@@ -66,9 +76,9 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "9",
                         "3",
+                        "9",
+                        "Kn",
                         "So",
                         "5"
                     ]
@@ -77,11 +87,14 @@
                     "name": "Dinkelnudeln mit Hackfleisch Mozzarella und Zucchinis",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
+                        "R",
+                        "Sl",
                         "S",
+                        "Ei",
                         "Gl",
                         "GlD",
-                        "R"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -89,21 +102,21 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Gl",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "Sw",
-                        "GlW",
-                        "Gl",
+                        "R",
                         "99",
-                        "R"
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "Sw"
                     ]
                 }
             ]
@@ -115,8 +128,8 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
@@ -128,26 +141,61 @@
                     ]
                 },
                 {
-                    "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
-                    "price": 2.4,
-                    "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "S",
-                        "Sw",
-                        "GlW",
-                        "GlG",
-                        "Sf",
-                        "Gl",
-                        "3"
-                    ]
-                },
-                {
                     "name": "Hähnchenspieß mit fruchtiger Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
+                    ]
+                },
+                {
+                    "name": "Dinkelnudeln mit Hackfleisch Mozzarella und Zucchinis",
+                    "price": 2.4,
+                    "ingredients": [
+                        "R",
+                        "S",
+                        "Gl",
+                        "GlD",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Kartoffeltaschen mit Kräuterfrischkäse",
+                    "price": 2.4,
+                    "ingredients": [
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Rindergeschnetzeltes (GQB) Stroganoff",
+                    "price": 2.8,
+                    "ingredients": [
+                        "R",
+                        "GlG",
+                        "2",
+                        "Gl",
+                        "Sf",
+                        "9",
+                        "Kn",
+                        "GlW",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
+                    "price": 3.5,
+                    "ingredients": [
+                        "GlG",
+                        "2",
+                        "S",
+                        "Ei",
+                        "Gl",
+                        "Kn",
+                        "GlW",
+                        "Mi"
                     ]
                 }
             ]
