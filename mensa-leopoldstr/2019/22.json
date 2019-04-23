@@ -17,11 +17,11 @@
                     "name": "Pasta mit orientalischer Lammhacksauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "Sc",
                         "ScM",
                         "Gl",
+                        "GlW",
+                        "Sc",
                         "Sl"
                     ]
                 },
@@ -29,13 +29,13 @@
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlG",
                         "Ei",
-                        "GlW",
-                        "2",
                         "Kn",
+                        "2",
+                        "GlG",
+                        "Mi",
                         "Gl",
+                        "GlW",
                         "S"
                     ]
                 },
@@ -52,12 +52,12 @@
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlG",
-                        "GlW",
-                        "R",
                         "Kn",
+                        "GlG",
+                        "Mi",
+                        "R",
                         "Gl",
+                        "GlW",
                         "Sl"
                     ]
                 },
@@ -65,10 +65,10 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "0.33€ / 100g",
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "Sl",
                         "GlW",
-                        "Kn"
+                        "Sl"
                     ]
                 }
             ]
@@ -80,9 +80,9 @@
                     "name": "Dinkelnudeln mit Hackfleisch Mozzarella und Zucchinis",
                     "price": "individual",
                     "ingredients": [
+                        "R",
                         "GlD",
                         "Mi",
-                        "R",
                         "Gl",
                         "S"
                     ]
@@ -91,35 +91,35 @@
                     "name": "Dinkel-Pasta mit frischem Schrobenhausener Spargel (g.g.A.) und Rucolapesto",
                     "price": "N/A",
                     "ingredients": [
-                        "GlD",
                         "Kn",
-                        "Sc",
+                        "GlD",
                         "ScM",
-                        "Gl"
+                        "Gl",
+                        "Sc"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "Sw",
-                        "99",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "99"
                     ]
                 },
                 {
                     "name": "Pizza mit Oliven, Kapern und Sardellen",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "2",
-                        "Fi",
-                        "1",
                         "6",
-                        "Gl"
+                        "Mi",
+                        "1",
+                        "Gl",
+                        "GlW",
+                        "Fi"
                     ]
                 },
                 {
@@ -135,21 +135,21 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "Mi",
                         "GlW",
-                        "Kn"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "0.33€ / 100g",
                     "ingredients": [
+                        "3",
                         "Kn",
                         "9",
                         "So",
-                        "5",
-                        "3"
+                        "5"
                     ]
                 }
             ]
@@ -161,33 +161,33 @@
                     "name": "Pasta mit Ricotta-Paprika-Sauce",
                     "price": "individual",
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "Mi",
                         "GlW",
-                        "Kn"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "Mi",
                         "GlW",
-                        "Kn"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlW",
+                        "3",
                         "Sw",
-                        "S",
+                        "Mi",
                         "Gl",
-                        "Sf",
-                        "3"
+                        "GlW",
+                        "S",
+                        "Sf"
                     ]
                 },
                 {
@@ -217,8 +217,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -238,26 +238,26 @@
                     "name": "Pasta Carbonara",
                     "price": "individual",
                     "ingredients": [
-                        "Mi",
+                        "3",
                         "Ei",
-                        "GlW",
-                        "2",
                         "Kn",
+                        "2",
+                        "Mi",
                         "Gl",
-                        "Sl",
+                        "GlW",
                         "S",
-                        "3"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Ei",
+                        "Mi",
+                        "Gl",
                         "GlW",
                         "Fi",
-                        "Gl",
                         "Sl"
                     ]
                 },
@@ -265,15 +265,15 @@
                     "name": "Hackbraten mit Rahmsauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Mi",
-                        "GlG",
                         "Ei",
-                        "GlW",
-                        "R",
-                        "S",
                         "Kn",
                         "So",
+                        "GlG",
+                        "Mi",
+                        "R",
                         "Gl",
+                        "GlW",
+                        "S",
                         "Sf"
                     ]
                 },
@@ -282,9 +282,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Ei",
-                        "GlW",
                         "Kn",
                         "Gl",
+                        "GlW",
                         "Sl"
                     ]
                 },
@@ -292,10 +292,10 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "2",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
