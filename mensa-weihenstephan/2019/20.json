@@ -17,42 +17,42 @@
                     "price": 1.55,
                     "ingredients": [
                         "Gl",
-                        "2",
+                        "GlW",
                         "Kn",
-                        "GlW"
+                        "2"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "3",
+                        "GlW",
                         "S",
-                        "Gl",
+                        "Kn",
                         "GlG",
-                        "2",
-                        "Kn"
+                        "Gl",
+                        "Mi",
+                        "2"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Sw",
-                        "Mi",
-                        "Sf",
-                        "GlW",
                         "3",
-                        "Sl",
-                        "Gl",
-                        "GlG",
-                        "2",
-                        "R",
+                        "GlW",
                         "S",
                         "Kn",
-                        "99"
+                        "GlG",
+                        "Sw",
+                        "Gl",
+                        "Sf",
+                        "R",
+                        "99",
+                        "Mi",
+                        "2",
+                        "Sl"
                     ]
                 }
             ]
@@ -64,24 +64,24 @@
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": 1,
                     "ingredients": [
+                        "So",
                         "Kn",
                         "Sf",
-                        "2",
-                        "So"
+                        "2"
                     ]
                 },
                 {
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "GlW",
                         "S",
-                        "Gl",
+                        "Kn",
                         "GlG",
-                        "2",
-                        "Kn"
+                        "Gl",
+                        "Mi",
+                        "Ei",
+                        "2"
                     ]
                 },
                 {
@@ -95,16 +95,16 @@
                     "name": "Pizza Regina mit (Vorder-)Schinken und Champignons",
                     "price": 4,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "3",
+                        "GlW",
                         "S",
-                        "Gl",
-                        "1",
-                        "2",
-                        "GlG",
                         "So",
-                        "8"
+                        "GlG",
+                        "Gl",
+                        "8",
+                        "Mi",
+                        "2",
+                        "1"
                     ]
                 }
             ]
@@ -116,45 +116,45 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1,
                     "ingredients": [
+                        "3",
                         "5",
-                        "Sl",
-                        "3"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "GlW",
+                        "Kn",
                         "Gl",
-                        "1",
+                        "Mi",
+                        "Ei",
                         "2",
-                        "Kn"
+                        "1"
                     ]
                 },
                 {
                     "name": "Paella (mit Meeresfrüchten und Hähnchenfleisch)",
                     "price": 3.0,
                     "ingredients": [
-                        "Kr",
-                        "Wt",
-                        "3",
                         "1",
-                        "6"
+                        "6",
+                        "3",
+                        "Wt",
+                        "Kr"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "Mi",
                         "GlW",
-                        "R",
-                        "Gl",
+                        "Kn",
                         "GlG",
-                        "Kn"
+                        "Gl",
+                        "R",
+                        "Mi"
                     ]
                 }
             ]
@@ -182,30 +182,30 @@
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Sw",
-                        "Mi",
                         "GlW",
-                        "Sl",
-                        "Gl",
-                        "GlG",
                         "Kn",
-                        "99"
+                        "GlG",
+                        "Gl",
+                        "99",
+                        "Mi",
+                        "Sw",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Pizza Capricciosa mit (Vorder-)Schinken, Champignons, Artischocken und schwarzen Oliven",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "3",
-                        "S",
-                        "Gl",
-                        "GlG",
-                        "2",
                         "6",
+                        "3",
+                        "GlW",
+                        "S",
                         "So",
-                        "8"
+                        "GlG",
+                        "Gl",
+                        "8",
+                        "Mi",
+                        "2"
                     ]
                 }
             ]
@@ -227,22 +227,22 @@
                     "price": 2.8,
                     "ingredients": [
                         "Gl",
+                        "Mi",
                         "Ei",
-                        "GlW",
-                        "Mi"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit einer Gurken-Senfsoße",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
-                        "Sf",
                         "GlW",
-                        "Sl",
                         "Gl",
-                        "Fi"
+                        "Sf",
+                        "Mi",
+                        "Fi",
+                        "Ei",
+                        "Sl"
                     ]
                 }
             ]
