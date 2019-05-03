@@ -9,34 +9,34 @@
                     "name": "Chili con Carne",
                     "price": "individual",
                     "ingredients": [
-                        "R",
-                        "GlW",
                         "2",
                         "Kn",
-                        "Gl"
+                        "R",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "8",
-                        "GlW",
+                        "3",
                         "2",
-                        "S",
-                        "Ei",
+                        "8",
                         "Kn",
                         "Gl",
+                        "Ei",
                         "Mi",
-                        "3"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
@@ -56,8 +56,8 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Kn",
                         "GlG",
+                        "Kn",
                         "Gl",
                         "Sl"
                     ]
@@ -71,33 +71,33 @@
                     "name": "Pasta mit frischem Basilikum und Tomaten",
                     "price": "individual",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Seelachsfilet (MSC) Florentiner Art mit Blattspinat und Hollandaise überbacken",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
                         "99",
-                        "Sw",
-                        "Ei",
                         "Kn",
                         "Gl",
+                        "Fi",
+                        "Ei",
+                        "Sw",
                         "Mi",
-                        "Fi"
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.75€ / 100g",
                     "ingredients": [
+                        "So",
                         "Mi",
                         "Fi",
-                        "So",
                         "3"
                     ]
                 },
@@ -121,10 +121,10 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -132,13 +132,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "GlW",
+                        "3",
                         "2",
-                        "S",
                         "Kn",
                         "Gl",
                         "Mi",
-                        "3"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
@@ -146,20 +146,20 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlD",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Frischer Schrobenhausener Spargel (g.g.A.) mit Sauce Bärlauch-Hollandaise",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
-                        "Ei",
                         "Gl",
-                        "Mi"
+                        "Ei",
+                        "Mi",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
@@ -173,9 +173,9 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 }
             ]
@@ -187,21 +187,21 @@
                     "name": "Pasta mit Tomaten-Frischkäse-Sauce",
                     "price": "individual",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Mi",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Andalusisches Rinderragout (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "GlW",
                         "99",
+                        "R",
+                        "Sw",
                         "Gl",
-                        "Sw"
+                        "GlW"
                     ]
                 },
                 {
@@ -209,27 +209,27 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "GlG",
-                        "Sl",
-                        "GlW",
                         "So",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Grünes Spargelcurry in Kokosmilch mit Karotten und Blumenkohl, dazu Basmatireis",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Hähnchenbrustfilet mit warmer Gemüsesalsa (scharf)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "2",
+                        "Kn",
                         "4"
                     ]
                 },
@@ -249,43 +249,43 @@
                     "name": "Gnocchi mit Pilzen, Tomaten und Spinat",
                     "price": "individual",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gnocchi Alfredo mit Gemüse und Speck",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "3",
                         "2",
-                        "S",
-                        "Ei",
                         "Kn",
                         "Gl",
+                        "Ei",
                         "Mi",
-                        "3"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "2",
                         "So",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Frischer Schrobenhausener Spargel (g.g.A.) mit rohem Schinken und Sauce béarnaise",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "S",
-                        "Mi",
                         "2",
+                        "Mi",
+                        "S",
                         "3"
                     ]
                 },
@@ -300,22 +300,22 @@
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
                         "So",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "S",
+                        "3",
                         "Kn",
                         "Mi",
-                        "3"
+                        "5",
+                        "S"
                     ]
                 },
                 {
@@ -335,42 +335,42 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "GlW",
                         "99",
-                        "S",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Kartoffelauflauf mit Spinat und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "Ei",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Zartweizen mit Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 }
             ]

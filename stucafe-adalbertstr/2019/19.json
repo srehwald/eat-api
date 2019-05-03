@@ -9,21 +9,21 @@
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
+                        "Mi",
                         "GlW",
-                        "Kn",
-                        "Mi"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rotes Curry vom Rind (GQB) mit Wokgemüse",
                     "price": 3.0,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "GlW",
                         "R",
-                        "So"
+                        "GlW",
+                        "So",
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -35,28 +35,28 @@
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
+                        "Sf",
                         "Sl",
                         "11",
-                        "Sf",
-                        "5",
                         "3",
-                        "Kn",
+                        "5",
                         "2",
                         "S",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "GlD",
-                        "1",
-                        "Kn",
                         "2",
                         "GlW",
-                        "Mi"
+                        "1",
+                        "Kn",
+                        "Gl",
+                        "Mi",
+                        "GlD"
                     ]
                 }
             ]
@@ -73,13 +73,13 @@
                     "name": "Moussaka mit Gemüse und Schafskäse",
                     "price": 3.0,
                     "ingredients": [
-                        "Gl",
-                        "1",
                         "Sf",
-                        "Mi",
-                        "Kn",
                         "GlW",
-                        "Ei"
+                        "1",
+                        "Kn",
+                        "Ei",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -91,8 +91,8 @@
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -101,12 +101,12 @@
                     "price": 3.0,
                     "ingredients": [
                         "Sl",
-                        "Gl",
                         "11",
-                        "5",
                         "3",
+                        "5",
                         "GlW",
-                        "So"
+                        "So",
+                        "Gl"
                     ]
                 }
             ]
@@ -118,10 +118,10 @@
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
-                        "11",
                         "Sf",
+                        "Sl",
                         "10",
+                        "11",
                         "Kn"
                     ]
                 },
@@ -129,15 +129,15 @@
                     "name": "Süßer Semmel-Apfel-Auflauf mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
+                        "Sc",
+                        "3",
                         "ScM",
                         "GlG",
-                        "So",
-                        "Mi",
-                        "3",
                         "GlW",
-                        "Sc",
-                        "Ei"
+                        "So",
+                        "Ei",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
