@@ -9,10 +9,10 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "GlG",
-                        "Gl",
-                        "Sl"
+                        "Sl",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -20,19 +20,19 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
-                        "Gl",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "R",
-                        "GlW",
                         "Gl",
+                        "GlW",
+                        "Kn",
                         "2"
                     ]
                 },
@@ -40,11 +40,11 @@
                     "name": "Pizza mit Gorgonzola",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "GlG",
                         "Gl",
-                        "So"
+                        "GlW",
+                        "So",
+                        "Mi",
+                        "GlG"
                     ]
                 }
             ]
@@ -56,8 +56,8 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -66,33 +66,33 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Gl",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Frischer Schrobenhausener Spargel (g.g.A.) mit Sauce Bärlauch-Hollandaise",
                     "price": 2.8,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
+                        "Ei",
                         "Sl",
                         "Gl",
-                        "Ei"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "3",
-                        "Kn",
-                        "Mi",
-                        "GlW",
-                        "GlG",
                         "Gl",
-                        "2"
+                        "GlW",
+                        "Mi",
+                        "2",
+                        "Kn",
+                        "3",
+                        "GlG"
                     ]
                 }
             ]
@@ -111,28 +111,28 @@
                     "name": "Spaghetti mit Sauce Bolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "R",
-                        "GlW",
                         "Sl",
-                        "Gl"
+                        "R",
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Hähnchenbrustfilet mit warmer Gemüsesalsa (scharf)",
                     "price": 2.4,
                     "ingredients": [
+                        "4",
                         "Kn",
-                        "2",
-                        "4"
+                        "2"
                     ]
                 },
                 {
                     "name": "Grünes Spargelcurry in Kokosmilch mit Karotten und Blumenkohl, dazu Basmatireis",
                     "price": 4,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 }
             ]
@@ -151,40 +151,40 @@
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "3",
-                        "Kn",
-                        "Mi",
+                        "5",
                         "S",
-                        "5"
+                        "Mi",
+                        "Kn",
+                        "3"
                     ]
                 },
                 {
                     "name": "Pizza mit Salami, Oliven, Vorderschinken und Spinat",
                     "price": 3.5,
                     "ingredients": [
-                        "3",
-                        "Mi",
-                        "8",
                         "Sf",
-                        "6",
-                        "GlW",
-                        "S",
-                        "GlG",
-                        "Gl",
-                        "So",
                         "1",
-                        "2"
+                        "S",
+                        "6",
+                        "Gl",
+                        "GlW",
+                        "So",
+                        "Mi",
+                        "2",
+                        "3",
+                        "GlG",
+                        "8"
                     ]
                 },
                 {
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "Sl",
                         "Gl",
-                        "So"
+                        "GlW",
+                        "So",
+                        "Kn"
                     ]
                 }
             ]
@@ -196,8 +196,8 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -206,23 +206,23 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Gl",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Salsa",
                     "price": 4,
                     "ingredients": [
-                        "Kn",
-                        "11",
-                        "GlW",
                         "Sl",
+                        "11",
                         "Gl",
-                        "So",
                         "Fi",
-                        "2"
+                        "GlW",
+                        "So",
+                        "2",
+                        "Kn"
                     ]
                 }
             ]

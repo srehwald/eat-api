@@ -1,203 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-04-08">
+    <day date="2019-04-29">
       <category name="Speiseplan">
         <meal>
-          <name>Karotten-Orangensuppe</name>
+          <name>Kokos-Ananassuppe</name>
           <price role="other">1.00</price>
         </meal>
         <meal>
-          <name>Yellow-Thaicurry mit Wokgemüse und Reis</name>
+          <name>Süßkartoffel-Erdnusscurry mit Reis</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Spinat- Käsespätzle mit Schmorrzwiebeln</name>
+          <name>Nüsse Spinat-Hirtenkäse-Strudel mit Salateck</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Kalbsgulasch ”Morengo” mit Spiralnudeln</name>
-          <price role="other">6.10</price>
+          <name>Putengryos mit Tzatziki und Pommes</name>
+          <price role="other">5.30</price>
         </meal>
       </category>
     </day>
-    <day date="2019-04-09">
+    <day date="2019-04-30">
       <category name="Speiseplan">
         <meal>
-          <name>Kohlrabisuppe</name>
+          <name>Veg. Maultaschensuppe</name>
           <price role="other">1.00</price>
         </meal>
         <meal>
-          <name>Süßkartoffelpfanne mit Blattspinat und Pienenkerne</name>
+          <name>Falafel mit Minzjoghurt und Gemüsereis</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Frischer Blumenkohl mit Sc. Hollandaise und Dampfkartoffeln</name>
+          <name>Zucchini gebraten auf warmen Tomatenwürfel und CousCous</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Hähnchen Black Burger mit Kidneybohnen und Tomate</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Power-Bowl  Feldsalat Cocktailtomaten Mandeln Hähnch</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-04-10">
-      <category name="Speiseplan">
-        <meal>
-          <name>Erbsensuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Tomatensugo und Avocado</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>3 Stück Senfeier mit Salzkartoffeln</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Ofenfrischer Schweinebraten in Bierjus mit Kartoffelknödel und Bayrisch Kraut</name>
+          <name>Champignonschnitzel mit Nudeln</name>
           <price role="other">5.30</price>
         </meal>
         <meal>
-          <name>enbrust Paprikastreifen Nüsse Gluten Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
-          <price role="other">4.20</price>
+          <name>Puten Schnitzelsemmel mit Tomate Gurke und Ketchup</name>
+          <price role="other">2.80</price>
         </meal>
       </category>
     </day>
-    <day date="2019-04-11">
+    <day date="2019-05-02">
       <category name="Speiseplan">
         <meal>
-          <name>Maiscremesuppe</name>
+          <name>Rote Linsensuppe mit Gemüsestreifen</name>
           <price role="other">1.00</price>
         </meal>
         <meal>
-          <name>Gemüsepäckchen mit Tofu- Paprika und Sweet-Chilisoße</name>
+          <name>Pak Choi mit Karotten- Sesam-Kokosmilch dazu Quinoa</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Spaghetti alla Puttanesca (Kapern Sardellen Oliven)</name>
+          <name>Nüsse Käse-Tortellini al Forno</name>
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Putenschnitzel “Melba” mit Pfirsich überbacken dazu Kroketten</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Käse Gluten Currywurst mit Pommes</name>
-          <price role="other">3.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-04-12">
-      <category name="Speiseplan">
-        <meal>
-          <name>Gemüsebrühe mit Nudeln</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Orientalischer CousCous-Salat mit Granatapfel und Weintrauben</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Dampfnudel mit Vanillesoße</name>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
-          <name>Fischfilet in Zitronensoße mit Butterreis</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-04-15">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kürbiscremesuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Kohlrabi-Linsenragout mit Fettucchini</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Kartoffelschwanzerl auf Sauerkraut</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Hausgemachter Rahmhackbraten mit Salzkartoffeln</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-04-16">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tomatensuppe mit CousCous</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Pilz-Reispfanne mit Bärlauch und Birnen</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Egerling- Zitronensahnesoße</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Hähnchenspieß auf Ratatouillegemüse und Butterreis</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>Green-Bowl mit alat Erbsen Salatgurke Mozzarella Cantaloupe M</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-04-17">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kartoffelsamtsuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Mediterraner Tofu-Kartoffel- Eintopf</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Karotten- Kohlrabigratin mit grünem Salat</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Schweinesteak mit Tomaten- Mozzarella überbacken dazu Rosmarinkartoffeln</name>
-          <price role="other">5.30</price>
-        </meal>
-        <meal>
-          <name>elone Dinkelbrot rie Milch Gluten Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
-          <price role="other">4.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-04-18">
-      <category name="Speiseplan">
-        <meal>
-          <name>Petersiliensuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Blattspinat mit Tomatenstücke und Oliven dazu Dillkartoffeln</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Scholle gebacken mit Kartoffelsalat und Sauce Remoulade</name>
-          <price role="other">4.60</price>
+          <name>Zanderfilet auf Grüner Soße mit Chilikartoffeln</name>
+          <price role="other">5.80</price>
         </meal>
         <meal>
           <name>Currywurst mit Pommes</name>
           <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-05-03">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tomatensuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Kichererbsen-Sellerie- Tomatensalat</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>Grießschmarrn mit Zwetschgenkompott</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Red-Thaicurry mit Gemüse und Seelachs dazu Reis</name>
+          <price role="other">5.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-05-06">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kohlsuppe mit Paprika</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Burrito mit Spinat- Süßkartoffel- Räucher- Tofufüllung</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Penne “Arrabiata” (scharf)</name>
+          <price role="other">4.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-05-07">
+      <category name="Speiseplan">
+        <meal>
+          <name>Schwarzwurzelsuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Rote Linsenragout mit Tomatenstücke und Eblyweizen</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Piccata Milanese von der Aubergine auf Tomatenreis</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Fussili mit Schinken- Champignonsoße</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>tscher Frischer Spargel mit Sc. Hollandaise und Mi dazu Wacholder Schinken Puten Schnitzelsemmel mit Tomate Gurke und Ketchup</name>
+          <price role="other">2.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-05-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tomatencremesuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Zuckererbsen- Blumenkohlcurry mit Backkartoffeln</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Gemüse- Frittata mit Feldsalat</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Lasagne “Bolognese”</name>
+          <price role="other">5.30</price>
+        </meal>
+        <meal>
+          <name>ni-Kartoffeln Ei Sellerie Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-05-09">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsebrühe mit Backerbsen</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Gluten Romanesco- Kartoffelpfanne mit Blattspinat</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hallumi- Käse auf Ofengemüse und Oliven</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrust ”Elsässer Art” mit rohen Schinken dazu Röstiecken</name>
+          <price role="other">5.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-05-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Zucchinisuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Milch Maissalat mit Paprika und Avocado</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>Apfelstrudel mit Mohn- Vanillesoße</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Seelachs in Provencial- Sugo mit Reis</name>
+          <price role="other">4.60</price>
         </meal>
       </category>
     </day>

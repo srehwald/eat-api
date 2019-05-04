@@ -9,48 +9,48 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": 1,
                     "ingredients": [
+                        "Sf",
                         "Kn",
-                        "2",
-                        "Sf"
+                        "2"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Kümmelsauce",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "R",
                         "Sf",
-                        "GlW",
+                        "Ei",
                         "S",
-                        "GlG",
+                        "R",
                         "Gl",
-                        "Ei"
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "GlD",
-                        "GlW",
-                        "Gl",
-                        "Ei",
                         "1",
-                        "2"
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "2",
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Pizza Margherita mit Mozzarella und frischem Basilikum",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "GlG",
                         "Gl",
-                        "So"
+                        "GlW",
+                        "So",
+                        "Mi",
+                        "GlG"
                     ]
                 }
             ]
@@ -69,39 +69,39 @@
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "3",
-                        "Kn",
                         "Sf",
-                        "11",
-                        "Sl",
-                        "S",
-                        "So",
                         "5",
-                        "2"
+                        "S",
+                        "Sl",
+                        "11",
+                        "So",
+                        "Kn",
+                        "2",
+                        "3"
                     ]
                 },
                 {
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "GlD",
-                        "GlW",
-                        "Gl",
                         "1",
-                        "2"
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "2",
+                        "Kn",
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Truthahn-Bärlauch-Piccata mit Ragout von weißem (g.g.A.) und grünen Spargel",
                     "price": 4,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
+                        "Ei",
                         "Sl",
                         "Gl",
-                        "Ei",
+                        "GlW",
+                        "Mi",
                         "2"
                     ]
                 }
@@ -134,13 +134,13 @@
                     "name": "Pizza mit Champignons",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "GlG",
-                        "Gl",
-                        "So",
                         "1",
-                        "2"
+                        "Gl",
+                        "GlW",
+                        "So",
+                        "Mi",
+                        "2",
+                        "GlG"
                     ]
                 }
             ]
@@ -159,30 +159,30 @@
                     "name": "Fränkische Bratwurst",
                     "price": 1.9,
                     "ingredients": [
+                        "S",
                         "R",
-                        "8",
-                        "S"
+                        "8"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "99",
-                        "GlW",
                         "S",
-                        "GlG",
-                        "Gl"
+                        "99",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 }
@@ -211,12 +211,12 @@
                     "name": "Gebratenes Zanderfilet mit Mandelbutter",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
                         "Sc",
-                        "GlW",
+                        "ScM",
                         "Gl",
                         "Fi",
-                        "ScM"
+                        "GlW",
+                        "Mi"
                     ]
                 }
             ]
