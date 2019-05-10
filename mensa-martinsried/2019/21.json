@@ -9,33 +9,33 @@
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
-                        "Mi",
                         "S",
-                        "Gl",
-                        "8",
+                        "Ei",
+                        "GlW",
                         "2",
+                        "Gl",
                         "3",
-                        "Ei"
+                        "Mi",
+                        "Kn",
+                        "8"
                     ]
                 },
                 {
                     "name": "Green-Thai-Curry vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "Kn"
+                        "Kn",
+                        "R"
                     ]
                 },
                 {
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "Gl",
                         "GlG",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -47,14 +47,14 @@
                     "name": "Thailändische Frühlingsrolle mit Sweet-Chilisauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Gl",
-                        "So",
                         "Ei",
+                        "GlW",
+                        "So",
                         "Sl",
-                        "11"
+                        "Gl",
+                        "11",
+                        "Mi",
+                        "Kn"
                     ]
                 }
             ]
@@ -66,24 +66,24 @@
                     "name": "Rinderlende mit Balsamico-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "99",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "Gl",
                         "1",
-                        "Sw",
+                        "GlW",
                         "GlG",
-                        "3"
+                        "99",
+                        "Gl",
+                        "3",
+                        "Mi",
+                        "Kn",
+                        "R",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -96,26 +96,26 @@
                     "name": "Frischer Schrobenhausener Spargel (g.g.A.) mit Sauce Bärlauch-Hollandaise",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "Gl",
                         "Ei",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Seelachsfilet (MSC) Florentiner Art mit Blattspinat und Hollandaise überbacken",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
                         "GlW",
                         "99",
-                        "Kn",
-                        "Mi",
+                        "Sl",
                         "Gl",
                         "Fi",
-                        "Sw",
-                        "Ei",
-                        "Sl"
+                        "Mi",
+                        "Kn",
+                        "Sw"
                     ]
                 }
             ]
@@ -128,10 +128,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "R",
+                        "Sl",
                         "Gl",
-                        "Sl"
+                        "Kn",
+                        "R"
                     ]
                 },
                 {
@@ -160,8 +160,8 @@
                     "ingredients": [
                         "GlW",
                         "99",
-                        "R",
                         "Gl",
+                        "R",
                         "Sw"
                     ]
                 }
@@ -175,26 +175,26 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
                         "So",
-                        "Sl"
+                        "Sl",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinefilet mit Sauerrahm und Apfel-Zwiebelsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "99",
-                        "Kn",
-                        "Mi",
                         "S",
-                        "Gl",
-                        "Sw",
+                        "GlW",
                         "GlG",
+                        "99",
+                        "Sl",
+                        "Gl",
                         "3",
-                        "Sl"
+                        "Mi",
+                        "Kn",
+                        "Sw"
                     ]
                 },
                 {
@@ -213,12 +213,12 @@
                     "name": "Gemüsemaultaschen mit Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Gl",
                         "Ei",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Gl",
+                        "Mi",
+                        "Kn"
                     ]
                 }
             ]
@@ -230,20 +230,20 @@
                     "name": "Nasi Goreng (mit Hähnchenfleisch)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
-                        "Gl",
                         "Sf",
+                        "GlW",
                         "2",
-                        "So"
+                        "So",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Zartweizen mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -256,21 +256,21 @@
                     "name": "Kartoffelauflauf mit Spinat und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
                         "GlW",
-                        "Kn",
-                        "Mi",
                         "Gl",
-                        "Ei"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "Gl",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
