@@ -16,9 +16,9 @@
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
+                        "GlW",
                         "Kn",
                         "2",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -26,9 +26,9 @@
                     "name": "Gebratene Hähnchenbruststreifen in scharfem Gemüse",
                     "price": 2.8,
                     "ingredients": [
+                        "GlW",
                         "Kn",
                         "2",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -36,15 +36,15 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "GlG",
-                        "Mi",
-                        "Gl",
                         "9",
-                        "2",
-                        "Sf",
+                        "Gl",
                         "R",
+                        "Sf",
+                        "2",
+                        "Mi",
+                        "GlW",
                         "Kn",
-                        "GlW"
+                        "GlG"
                     ]
                 }
             ]
@@ -63,33 +63,33 @@
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "1",
                         "Gl",
-                        "2",
-                        "Sf",
                         "Ei",
-                        "GlW"
+                        "Sf",
+                        "Mi",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
                     "name": "Quiche mit grünem und weißem (g.g.A.) Spargel",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
                         "1",
                         "Gl",
-                        "2",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
                     "name": "Rumpsteak mit Schmorzwiebeln",
                     "price": 4,
                     "ingredients": [
+                        "Mi",
                         "Kn",
-                        "R",
-                        "Mi"
+                        "R"
                     ]
                 }
             ]
@@ -101,8 +101,8 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -110,44 +110,44 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.9,
                     "ingredients": [
-                        "Sf",
-                        "R",
                         "8",
-                        "11",
-                        "S"
+                        "Sf",
+                        "S",
+                        "R",
+                        "11"
                     ]
                 },
                 {
                     "name": "Frischer Schrobenhausener Spargel (g.g.A.) mit Sauce Hollandaise",
                     "price": 3.2,
                     "ingredients": [
-                        "Ei",
                         "Mi",
-                        "Sl"
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Ente mit Ananas, Sprossen und Pilzen in Teriyakisauce",
                     "price": 4.5,
                     "ingredients": [
-                        "Gl",
                         "So",
-                        "Sf",
-                        "Kn",
                         "Se",
-                        "GlW"
+                        "Gl",
+                        "Sf",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "Mi",
                         "Gl",
-                        "R",
-                        "Kn",
                         "S",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Kn",
+                        "R"
                     ]
                 }
             ]
@@ -159,8 +159,8 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
                         "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 },
@@ -168,10 +168,10 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
                         "Gl",
-                        "3",
                         "Ei",
+                        "3",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -179,10 +179,10 @@
                     "name": "Pochiertes Seelachsfilet (MSC) mit Bärlauch-Hollandaise",
                     "price": 4,
                     "ingredients": [
-                        "Mi",
                         "Fi",
                         "Gl",
                         "Ei",
+                        "Mi",
                         "GlW",
                         "Sl"
                     ]
