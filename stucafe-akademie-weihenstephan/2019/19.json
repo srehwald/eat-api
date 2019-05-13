@@ -9,28 +9,28 @@
                     "name": "Fleischpflanzerl mit Kümmelsauce",
                     "price": 1.55,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "R",
-                        "GlG",
                         "Sf",
                         "Mi",
                         "Ei",
+                        "Gl",
+                        "R",
                         "GlW",
-                        "S"
+                        "S",
+                        "Kn",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "Gl",
                         "Mi",
-                        "GlD",
-                        "1",
                         "Ei",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "1",
+                        "GlD",
+                        "2"
                     ]
                 }
             ]
@@ -42,13 +42,13 @@
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "2",
-                        "Gl",
-                        "Kn",
                         "Mi",
-                        "GlD",
+                        "Gl",
+                        "GlW",
                         "1",
-                        "GlW"
+                        "GlD",
+                        "2",
+                        "Kn"
                     ]
                 }
             ]
@@ -79,21 +79,21 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "99",
-                        "GlG",
                         "Mi",
+                        "Gl",
                         "GlW",
-                        "S"
+                        "99",
+                        "S",
+                        "Kn",
+                        "GlG"
                     ]
                 }
             ]
@@ -114,12 +114,12 @@
                     "name": "Gebratenes Zanderfilet mit Mandelbutter",
                     "price": 3.5,
                     "ingredients": [
+                        "Mi",
                         "Gl",
                         "Sc",
+                        "GlW",
                         "Fi",
-                        "ScM",
-                        "Mi",
-                        "GlW"
+                        "ScM"
                     ]
                 }
             ]
