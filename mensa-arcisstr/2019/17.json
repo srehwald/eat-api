@@ -9,16 +9,16 @@
                     "name": "Pizza mit Vorderschinken",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
                         "GlW",
-                        "S",
-                        "Mi",
+                        "So",
                         "Gl",
                         "8",
                         "1",
+                        "Mi",
+                        "S",
+                        "3",
                         "2",
-                        "So",
-                        "3"
+                        "GlG"
                     ]
                 },
                 {
@@ -41,24 +41,24 @@
                     "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "S",
-                        "Gl",
                         "Kn",
-                        "So"
+                        "GlW",
+                        "So",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Penne all'amatriciana",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
-                        "S",
-                        "Gl",
                         "Kn",
-                        "2",
-                        "3"
+                        "GlW",
+                        "Gl",
+                        "Sl",
+                        "S",
+                        "3",
+                        "2"
                     ]
                 },
                 {
@@ -66,20 +66,20 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "GlW",
-                        "Mi",
+                        "Ei",
                         "Gl",
                         "1",
-                        "2",
-                        "Ei"
+                        "Mi",
+                        "2"
                     ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Fi",
                         "So",
                         "3",
+                        "Fi",
                         "Mi"
                     ]
                 },
@@ -92,19 +92,19 @@
                     "name": "Blaukraut",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sw",
+                        "11",
                         "99",
-                        "11"
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "Ei",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -118,16 +118,16 @@
                     "name": "Rindergulasch (GQB) mit Semmelknödel und Blaukraut",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "R",
-                        "GlG",
-                        "99",
                         "11",
+                        "R",
                         "GlW",
-                        "Mi",
-                        "Gl",
                         "Kn",
+                        "Ei",
+                        "Gl",
                         "Sw",
-                        "Ei"
+                        "Mi",
+                        "99",
+                        "GlG"
                     ]
                 },
                 {
@@ -135,14 +135,14 @@
                     "price": "Fast Lane (> 3.50€)",
                     "ingredients": [
                         "GlW",
-                        "Mi",
-                        "Fi",
-                        "Gl",
                         "Kn",
-                        "1",
-                        "2",
+                        "Ei",
                         "So",
-                        "Ei"
+                        "Gl",
+                        "1",
+                        "Fi",
+                        "Mi",
+                        "2"
                     ]
                 }
             ]
@@ -154,15 +154,15 @@
                     "name": "Pizza Diavolo mit Mozzarella, scharfer Salami und Peperoni",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
                         "GlW",
-                        "S",
-                        "Mi",
+                        "So",
                         "Gl",
                         "1",
+                        "Mi",
+                        "S",
+                        "3",
                         "2",
-                        "So",
-                        "3"
+                        "GlG"
                     ]
                 },
                 {
@@ -178,9 +178,9 @@
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Fi",
                         "So",
                         "3",
+                        "Fi",
                         "Mi"
                     ]
                 },
@@ -193,35 +193,35 @@
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
                         "GlW",
-                        "Mi",
-                        "Gl",
+                        "Ei",
                         "Sf",
-                        "Ei"
+                        "Gl",
+                        "Sl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
+                        "GlD",
                         "GlW",
-                        "Mi",
+                        "Ei",
                         "Gl",
                         "1",
-                        "2",
-                        "GlD",
-                        "Ei"
+                        "Sl",
+                        "Mi",
+                        "2"
                     ]
                 },
                 {
                     "name": "Arabisches Fischcurry (MSC) mit Blumenkohl, Zwiebeln",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Fi",
-                        "Gl",
                         "Sf",
+                        "Gl",
+                        "Fi",
                         "GlW"
                     ]
                 },
@@ -239,9 +239,9 @@
                     "name": "Knöpfle",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
                         "Gl",
                         "GlD",
-                        "Ei",
                         "GlW"
                     ]
                 },
@@ -250,9 +250,9 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "R",
+                        "Kn",
                         "GlW",
                         "Gl",
-                        "Kn",
                         "1",
                         "Sw",
                         "3"
@@ -262,12 +262,12 @@
                     "name": "Massamann Curry (mit Hähnchen), Basmatireis",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
-                        "Gl",
-                        "En",
                         "Kn",
-                        "Sf"
+                        "GlW",
+                        "Sf",
+                        "Gl",
+                        "Sl",
+                        "En"
                     ]
                 },
                 {
@@ -287,13 +287,13 @@
                     "name": "Pizza mit Champignons",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
                         "GlW",
-                        "Mi",
+                        "So",
                         "Gl",
                         "1",
+                        "Mi",
                         "2",
-                        "So"
+                        "GlG"
                     ]
                 },
                 {
@@ -318,9 +318,9 @@
                     "name": "Knöpfle",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
                         "Gl",
                         "GlD",
-                        "Ei",
                         "GlW"
                     ]
                 },
@@ -328,42 +328,42 @@
                     "name": "Rigatoni mit Pesto rosso (scharf)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "Gl",
                         "Sc",
-                        "2",
+                        "GlW",
+                        "ScM",
                         "Ei",
-                        "ScM"
+                        "Gl",
+                        "Mi",
+                        "2"
                     ]
                 },
                 {
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "S",
-                        "Mi",
+                        "Kn",
+                        "Ei",
                         "Gl",
                         "8",
+                        "Mi",
+                        "S",
                         "3",
-                        "2",
-                        "Ei"
+                        "2"
                     ]
                 },
                 {
                     "name": "Lammbraten in Oliven-Rosmarin-Sauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlG",
-                        "99",
                         "GlW",
-                        "Mi",
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "Sw",
-                        "3"
+                        "Mi",
+                        "99",
+                        "3",
+                        "GlG"
                     ]
                 },
                 {
@@ -380,18 +380,18 @@
                     "name": "Bratwurstschnecke",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "8",
                         "Sl",
-                        "S",
-                        "8"
+                        "S"
                     ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Fi",
                         "So",
                         "3",
+                        "Fi",
                         "Mi"
                     ]
                 },
@@ -404,26 +404,26 @@
                     "name": "Gulasch vom Schwein mit Knöpfle und Rosenkohl",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "GlG",
-                        "GlW",
-                        "S",
-                        "Mi",
-                        "Gl",
-                        "Kn",
                         "GlD",
-                        "Ei"
+                        "GlW",
+                        "Kn",
+                        "Ei",
+                        "Gl",
+                        "Mi",
+                        "S",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": "Fast Lane (> 3.50€)",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "Gl",
+                        "GlD",
                         "Kn",
+                        "GlW",
+                        "Gl",
                         "1",
-                        "GlD"
+                        "Mi"
                     ]
                 },
                 {
@@ -440,12 +440,12 @@
                     "name": "Pizza mit Spinat und Mozzarella",
                     "price": 3.0,
                     "ingredients": [
-                        "GlG",
-                        "GlW",
-                        "Mi",
-                        "Gl",
                         "Kn",
-                        "So"
+                        "GlW",
+                        "So",
+                        "Gl",
+                        "Mi",
+                        "GlG"
                     ]
                 },
                 {
@@ -453,17 +453,17 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "Sl",
-                        "5",
-                        "3"
+                        "3",
+                        "5"
                     ]
                 },
                 {
                     "name": "Pasta mit Gemüsebolognese",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
                         "Kn",
                         "Gl",
+                        "Sl",
                         "GlW"
                     ]
                 },
@@ -473,8 +473,8 @@
                     "ingredients": [
                         "Kn",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -488,8 +488,8 @@
                     "ingredients": [
                         "Kn",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -501,9 +501,9 @@
                     "name": "Jambalaya Louisiana mit Shrimps und Hähnchenbrustfilet",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "Kr",
                         "1",
                         "Sl",
-                        "Kr",
                         "Kn"
                     ]
                 },
@@ -511,9 +511,9 @@
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Fi",
                         "So",
                         "3",
+                        "Fi",
                         "Mi"
                     ]
                 },
@@ -528,8 +528,8 @@
                     "ingredients": [
                         "Kn",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -537,8 +537,8 @@
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "GlW",
+                        "Mi"
                     ]
                 }
             ]
