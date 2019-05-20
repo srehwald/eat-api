@@ -5,7 +5,7 @@ attrs==18.2.0
 bson==0.4.8
 certifi==2018.10.15
 chardet==3.0.4
-Django==1.11.18
+Django>=1.11.19
 docopt==0.6.2
 idna==2.7
 lxml==4.3.1
@@ -25,5 +25,5 @@ pytz==2017.2
 requests==2.20.1
 six==1.10.0
 tabulate==0.7.7
-urllib3==1.24
+urllib3>=1.24.2
 yarg==0.1.9
