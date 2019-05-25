@@ -9,8 +9,8 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Sf",
+                        "Kn",
                         "2"
                     ]
                 },
@@ -18,15 +18,15 @@
                     "name": "Fleischpflanzerl mit Kümmelsauce",
                     "price": 1.55,
                     "ingredients": [
-                        "R",
-                        "Gl",
-                        "GlG",
-                        "Mi",
-                        "GlW",
-                        "S",
-                        "Ei",
                         "Sf",
-                        "Kn"
+                        "GlW",
+                        "GlG",
+                        "Kn",
+                        "S",
+                        "Gl",
+                        "Mi",
+                        "R",
+                        "Ei"
                     ]
                 },
                 {
@@ -34,22 +34,22 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlD",
-                        "Gl",
+                        "GlW",
                         "1",
                         "2",
-                        "GlW",
-                        "Ei",
-                        "Mi"
+                        "Gl",
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -68,28 +68,28 @@
                     "name": "Grüner Erbseneintopf mit ein Paar Pfälzer",
                     "price": 2.4,
                     "ingredients": [
-                        "R",
                         "3",
-                        "Sl",
                         "1",
-                        "8",
+                        "S",
                         "2",
-                        "S"
+                        "8",
+                        "R",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "3",
-                        "Sl",
-                        "5",
-                        "11",
-                        "2",
-                        "S",
                         "Sf",
+                        "3",
                         "Kn",
-                        "So"
+                        "So",
+                        "5",
+                        "S",
+                        "2",
+                        "Sl",
+                        "11"
                     ]
                 },
                 {
@@ -97,24 +97,24 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlD",
-                        "Gl",
-                        "1",
-                        "Mi",
-                        "2",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "1",
+                        "2",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchen-Bärlauch-Piccata mit Ragout von weißem (g.g.A.) und grünen Spargel",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "2",
                         "GlW",
-                        "Ei",
-                        "Mi"
+                        "2",
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "Ei"
                     ]
                 }
             ]
@@ -133,11 +133,11 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "GlG",
                         "Kn",
-                        "GlW",
                         "S",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -145,22 +145,22 @@
                     "name": "Pasta mit grünem Spargel, Bärlauch und Kirschtomaten",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Moussaka mit Rindfleisch und Schafskäse",
                     "price": 3.0,
                     "ingredients": [
-                        "R",
-                        "Gl",
-                        "3",
-                        "5",
-                        "Mi",
                         "GlW",
-                        "Ei",
-                        "Kn"
+                        "3",
+                        "Kn",
+                        "5",
+                        "Gl",
+                        "Mi",
+                        "R",
+                        "Ei"
                     ]
                 }
             ]
@@ -179,33 +179,33 @@
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Sf",
+                        "Kn",
                         "10",
                         "Sl",
-                        "11",
-                        "Sf",
-                        "Kn"
+                        "11"
                     ]
                 },
                 {
                     "name": "Spanferkelrollbraten mit Biersauce",
                     "price": 2.8,
                     "ingredients": [
-                        "Gl",
-                        "GlG",
-                        "Mi",
                         "GlW",
-                        "99",
+                        "GlG",
+                        "Kn",
                         "S",
-                        "Kn"
+                        "99",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 }
             ]
@@ -224,9 +224,9 @@
                     "name": "Penne mit Austernpilzen und Babyspinat",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
@@ -234,20 +234,20 @@
                     "price": 2.8,
                     "ingredients": [
                         "Ei",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Forelle Müllerin Art mit Petersilienbutter",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
-                        "Fi",
-                        "1",
-                        "GlW",
                         "Sf",
+                        "GlW",
+                        "1",
+                        "Fi",
+                        "Gl",
                         "Mi"
                     ]
                 }
