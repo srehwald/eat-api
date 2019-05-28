@@ -17,12 +17,12 @@
                     "name": "Pasta mit orientalischer Lammhacksauce",
                     "price": "N/A",
                     "ingredients": [
-                        "ScM",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Sc",
-                        "Gl",
-                        "Sl"
+                        "ScM",
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
@@ -31,21 +31,21 @@
                     "ingredients": [
                         "S",
                         "GlG",
-                        "Kn",
-                        "GlW",
-                        "Mi",
-                        "Gl",
                         "Ei",
-                        "2"
+                        "GlW",
+                        "2",
+                        "Kn",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rotes Gemüsecurry mit Tofu",
                     "price": "0.75€ / 100g",
                     "ingredients": [
+                        "So",
                         "Kn",
-                        "2",
-                        "So"
+                        "2"
                     ]
                 },
                 {
@@ -55,10 +55,10 @@
                         "GlG",
                         "Kn",
                         "GlW",
-                        "R",
                         "Mi",
+                        "Sl",
                         "Gl",
-                        "Sl"
+                        "R"
                     ]
                 },
                 {
@@ -66,8 +66,8 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Sl"
                     ]
                 }
@@ -80,11 +80,11 @@
                     "name": "Dinkelnudeln mit Hackfleisch Mozzarella und Zucchinis",
                     "price": "individual",
                     "ingredients": [
-                        "GlD",
                         "S",
-                        "R",
+                        "GlD",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "R"
                     ]
                 },
                 {
@@ -92,9 +92,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlD",
-                        "ScM",
                         "Kn",
                         "Sc",
+                        "ScM",
                         "Gl"
                     ]
                 },
@@ -104,9 +104,9 @@
                     "ingredients": [
                         "GlW",
                         "Mi",
-                        "Gl",
+                        "99",
                         "Sw",
-                        "99"
+                        "Gl"
                     ]
                 },
                 {
@@ -114,21 +114,21 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Fi",
-                        "GlW",
-                        "Mi",
-                        "Gl",
-                        "1",
                         "6",
-                        "2"
+                        "GlW",
+                        "2",
+                        "Mi",
+                        "1",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke auf Sauerkraut",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Sl",
                         "S",
-                        "8"
+                        "8",
+                        "Sl"
                     ]
                 },
                 {
@@ -136,8 +136,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Mi"
                     ]
                 },
@@ -146,8 +146,8 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "So",
-                        "Kn",
                         "9",
+                        "Kn",
                         "3",
                         "5"
                     ]
@@ -162,8 +162,8 @@
                     "price": "individual",
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Mi"
                     ]
                 },
@@ -172,8 +172,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Mi"
                     ]
                 },
@@ -182,12 +182,29 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
+                        "Sf",
                         "GlW",
                         "Mi",
-                        "Sf",
-                        "Gl",
                         "3",
-                        "Sw"
+                        "Sw",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Hähnchenspieß mit fruchtiger Sauce",
+                    "price": "0.75€ / 100g",
+                    "ingredients": [
+                        "So",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Apfelstrudel mit Vanillesauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -205,28 +222,11 @@
                     ]
                 },
                 {
-                    "name": "Hähnchenspieß mit fruchtiger Sauce",
-                    "price": "0.75€ / 100g",
-                    "ingredients": [
-                        "Kn",
-                        "So"
-                    ]
-                },
-                {
-                    "name": "Apfelstrudel mit Vanillesauce",
-                    "price": "N/A",
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Mi"
-                    ]
-                },
-                {
                     "name": "Mexikanisches Chili",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 }
             ]
@@ -239,14 +239,14 @@
                     "price": "individual",
                     "ingredients": [
                         "S",
-                        "Kn",
-                        "GlW",
-                        "Mi",
-                        "Gl",
-                        "Sl",
                         "Ei",
+                        "GlW",
+                        "2",
+                        "Kn",
+                        "Mi",
                         "3",
-                        "2"
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
@@ -254,38 +254,38 @@
                     "price": "N/A",
                     "ingredients": [
                         "Fi",
+                        "Ei",
                         "GlW",
                         "Mi",
-                        "Gl",
                         "Sl",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Hackbraten mit Rahmsauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "S",
                         "So",
+                        "S",
                         "GlG",
+                        "Sf",
+                        "Ei",
                         "Kn",
                         "GlW",
-                        "R",
                         "Mi",
-                        "Sf",
                         "Gl",
-                        "Ei"
+                        "R"
                     ]
                 },
                 {
                     "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "Ei",
                         "GlW",
-                        "Gl",
+                        "Kn",
                         "Sl",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
@@ -293,9 +293,9 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "GlW",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 }
             ]
