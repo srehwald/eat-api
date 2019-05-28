@@ -329,8 +329,9 @@ class IPPBistroMenuParser(MenuParser):
     split_days_regex_soup_one_line = re.compile(r'T agessuppe siehe Aushang|Tagessuppe siehe Aushang', re.IGNORECASE)
     split_days_regex_soup_two_line = re.compile(r'Aushang', re.IGNORECASE)
     split_days_regex_closed = re.compile(r'Aschermittwoch|Feiertag|Geschlossen', re.IGNORECASE)
-    price_regex = re.compile(r"\d+,\d+\s€[^)]")
-    dish_regex = re.compile(r".+?\d+,\d+\s€[^)]")
+    surprise_without_price_regex = re.compile(r"(Überraschungsmenü\s)(\s+[^\s\d]+)")
+    """Detects the ‚Überraschungsmenü‘ keyword if it has not a price. The price is expected between the groups."""
+    dish_regex = re.compile(r"(.+?)(\d+,\d+|\?€)\s€[^)]")
 
     def parse(self, location):
         page = requests.get(self.url)
@@ -451,25 +452,22 @@ class IPPBistroMenuParser(MenuParser):
             lines_weekdays["fri"] += " " + line[pos_fri:].replace("\n", " ")
 
         for key in lines_weekdays:
+            # Appends `?€` to „Überraschungsmenü“ if it do not have a price. The second '€' is a separator for the
+            # later split
+            lines_weekdays[key] = self.surprise_without_price_regex.sub(r"\g<1>?€ € \g<2>", lines_weekdays[key])
             # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
             lines_weekdays[key] = unicodedata.normalize("NFKC", lines_weekdays[key])
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
             # get all dish including name and price
-            dish_names = re.findall(self.dish_regex, lines_weekdays[key] + " ")
-            # get dish prices
-            prices = re.findall(self.price_regex, ' '.join(dish_names))
-            # convert prices to float
-            prices = [float(price.replace("€", "").replace(",", ".").strip()) for price in prices]
-            # remove price and commas from dish names
-            dish_names = [re.sub(self.price_regex, "", dish).strip() for dish in dish_names]
+            dish_names_price = re.findall(self.dish_regex, lines_weekdays[key] + ' ')
             # create ingredients
             # all dishes have the same ingridients
             ingredients = Ingredients("ipp-bistro")
             ingredients.parse_ingredients("Mi,Gl,Sf,Sl,Ei,Se,4")
             # create list of Dish objects
-            dishes = [Dish(dish_name, price, ingredients.ingredient_set) for (dish_name, price) in
-                      list(zip(dish_names, prices))]
+            dishes = [Dish(dish_name.strip(), price.replace(',', '.').strip(), ingredients.ingredient_set)
+                      for (dish_name, price) in dish_names_price]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
