@@ -16,22 +16,22 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "GlW",
                         "Mi",
                         "S",
-                        "GlG",
-                        "GlW"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
-                        "11",
                         "10",
                         "Kn",
                         "Sl",
+                        "11",
                         "Sf"
                     ]
                 },
@@ -39,9 +39,9 @@
                     "name": "Bio-Spätzlepfanne mit Bio-Gemüse",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Sl"
                     ]
                 }
             ]
@@ -54,41 +54,41 @@
                     "price": 1,
                     "ingredients": [
                         "Se",
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Penne all'amatriciana",
                     "price": 1.9,
                     "ingredients": [
-                        "3",
-                        "Kn",
                         "Gl",
-                        "S",
+                        "Kn",
+                        "GlW",
                         "Sl",
                         "2",
-                        "GlW"
+                        "S",
+                        "3"
                     ]
                 },
                 {
                     "name": "Schweinesteak mit Tomaten und Mozzarella überbacken",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "GlW",
                         "Mi",
                         "S",
-                        "GlG",
-                        "GlW"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Bio-Kartoffelgratin mit Bio-Gurken-Tomaten-Salat",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
-                        "Mi"
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
@@ -110,36 +110,36 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Sl",
-                        "Ei",
                         "GlD",
-                        "GlW"
+                        "GlW",
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4,
                     "ingredients": [
-                        "3",
-                        "Kn",
                         "Gl",
                         "R",
-                        "Sw",
+                        "Kn",
+                        "GlW",
                         "1",
-                        "GlW"
+                        "Sw",
+                        "3"
                     ]
                 },
                 {
                     "name": "Pizza Speciale mit Salami, Hinterschinken und Champignons",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
                         "Gl",
-                        "S",
-                        "Mi",
+                        "GlW",
                         "2",
+                        "Mi",
+                        "S",
                         "Sf",
-                        "GlW"
+                        "3"
                     ]
                 }
             ]
@@ -169,22 +169,22 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
                         "Gl",
                         "8",
-                        "S",
-                        "Mi",
+                        "Kn",
+                        "GlW",
                         "2",
-                        "GlG",
-                        "GlW"
+                        "Mi",
+                        "S",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Bio-Penne mit Bio-Tomaten-Zucchinisauce (dazu Hartkäse)",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "Kn",
                         "GlW"
                     ]
@@ -198,9 +198,9 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
-                        "Sw",
                         "5",
+                        "Sw",
+                        "Sl",
                         "3"
                     ]
                 },
@@ -208,35 +208,35 @@
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "Ei",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit ein Paar Wiener",
                     "price": 2.4,
                     "ingredients": [
-                        "3",
                         "5",
-                        "8",
                         "R",
-                        "S",
+                        "8",
                         "Sl",
+                        "2",
+                        "S",
                         "Sw",
-                        "2"
+                        "3"
                     ]
                 },
                 {
                     "name": "Peruanischer Kartoffelauflauf (scharf)",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
-                        "2",
-                        "1",
                         "En",
+                        "2",
+                        "Mi",
+                        "1",
+                        "Ei",
                         "Sf"
                     ]
                 },
@@ -244,11 +244,11 @@
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4,
                     "ingredients": [
-                        "Fi",
-                        "Kn",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Fi",
+                        "Mi"
                     ]
                 }
             ]

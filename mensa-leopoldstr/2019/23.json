@@ -9,10 +9,10 @@
                     "name": "Pasta mit Sojabolognese",
                     "price": "individual",
                     "ingredients": [
-                        "Gl",
-                        "So",
                         "Sl",
-                        "GlW"
+                        "So",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -20,46 +20,46 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Sw",
-                        "Kn",
                         "Kr",
-                        "Gl",
-                        "1",
+                        "Kn",
+                        "GlW",
+                        "Sw",
                         "99",
-                        "GlW"
+                        "1",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "10",
+                        "Sf",
                         "Sl",
                         "11",
-                        "Sf",
-                        "10"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rotes Thaicurry mit Hackbällchen, Zucchini und Basmatireis",
                     "price": "0.75€ / 100g",
                     "ingredients": [
+                        "R",
                         "Mi",
                         "Kn",
-                        "Gl",
+                        "GlW",
                         "Ei",
                         "S",
-                        "GlW",
-                        "R"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bio-Spätzlepfanne mit Bio-Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Sl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -78,22 +78,22 @@
                     "name": "Penne all'amatriciana",
                     "price": "individual",
                     "ingredients": [
-                        "3",
                         "2",
-                        "Kn",
-                        "Gl",
-                        "S",
                         "Sl",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "3",
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pasta mit Gorgonzolasauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -101,15 +101,15 @@
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Sw",
-                        "Kn",
-                        "Gl",
+                        "R",
                         "GlG",
+                        "Mi",
                         "Sl",
-                        "99",
+                        "Kn",
                         "GlW",
-                        "R"
+                        "Sw",
+                        "99",
+                        "Gl"
                     ]
                 },
                 {
@@ -124,24 +124,24 @@
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
                         "2",
-                        "Mi",
-                        "Kn",
-                        "Gl",
-                        "1",
                         "GlG",
-                        "S",
+                        "Mi",
                         "8",
-                        "GlW"
+                        "Kn",
+                        "3",
+                        "GlW",
+                        "S",
+                        "1",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Orientalische Reispfanne mit Sojahack, Sesam und Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Se",
                         "So",
+                        "Se",
                         "Kn"
                     ]
                 }
@@ -154,22 +154,22 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": "individual",
                     "ingredients": [
+                        "R",
+                        "Kn",
+                        "GlW",
                         "3",
                         "Sw",
-                        "Kn",
-                        "Gl",
                         "1",
-                        "GlW",
-                        "R"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pasta mit Mango-Zitronengras-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "2",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -192,21 +192,21 @@
                     "name": "Topfenpalatschinken",
                     "price": "N/A",
                     "ingredients": [
-                        "ScM",
                         "Mi",
+                        "ScM",
+                        "GlW",
                         "Sc",
-                        "Gl",
                         "Ei",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bulgur indische Art",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Gl",
                         "2",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -218,8 +218,8 @@
                     "name": "Pasta mit Putenbolognese",
                     "price": "individual",
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -227,9 +227,9 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "2",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -238,38 +238,38 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "2",
-                        "Mi",
-                        "Gl",
-                        "1",
                         "GlG",
                         "So",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "1",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Käsekrainer mit Bratensauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "3",
                         "2",
-                        "Mi",
-                        "Kn",
-                        "Gl",
-                        "S",
                         "GlG",
-                        "8",
+                        "R",
+                        "Mi",
                         "Sf",
+                        "8",
+                        "Kn",
+                        "3",
                         "GlW",
-                        "R"
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bio-Penne mit Bio-Tomaten-Zucchinisauce (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -290,11 +290,11 @@
                     "name": "Wildlachs (MSC) auf Blattspinat mit Dillkartoffeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Fi",
                         "Mi",
                         "Kn",
-                        "Fi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -318,8 +318,8 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "5",
                         "3",
+                        "5",
                         "Sl"
                     ]
                 }
