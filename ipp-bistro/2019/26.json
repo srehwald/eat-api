@@ -1,17 +1,13 @@
 {
-    "number": 24,
+    "number": 26,
     "year": 2019,
     "days": [
         {
-            "date": "2019-06-10",
-            "dishes": []
-        },
-        {
-            "date": "2019-06-11",
+            "date": "2019-06-24",
             "dishes": [
                 {
-                    "name": "Möhren-Quiche mit Sommersalat",
-                    "price": 3.5,
+                    "name": "Maccaroni and Cheese",
+                    "price": 4.0,
                     "ingredients": [
                         "Mi",
                         "Sf",
@@ -23,8 +19,8 @@
                     ]
                 },
                 {
-                    "name": "Königsberger Klopse in Kaperntunke mit Püree",
-                    "price": 5.2,
+                    "name": "Münchner Schweinebraten mit Kartoffel-Gurkensalat",
+                    "price": 5.5,
                     "ingredients": [
                         "Mi",
                         "Sf",
@@ -36,7 +32,64 @@
                     ]
                 },
                 {
-                    "name": "\"Thakkali Curry\" Curry mit Ei, Kartoffeln, Kokosmilch, Reis und Chutney",
+                    "name": "Gyrosteller mit Rohkostsalat, Knoblauch- oder Kräuterdip, dazu Pommes frites oder Fladenbrot",
+                    "price": 6.5,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Thailändischer Glasnudelsalat mit marinierten Hähnchenspießen",
+                    "price": 5.9,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-06-25",
+            "dishes": [
+                {
+                    "name": "Quarkbällchen auf tomatisiertem Spitzkohl- Kartofelgemüse",
+                    "price": 4.0,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Mit Hackfleisch gefüllte Paprikaschote, dazu Püree",
+                    "price": 5.5,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Gnocchi in Salbeibutter, mit Kirschtomaten und Rucola",
                     "price": 4.9,
                     "ingredients": [
                         "Mi",
@@ -49,7 +102,121 @@
                     ]
                 },
                 {
-                    "name": "Putensteak \"Florenz\" mit Salami und Mozzarella gratiniert, dazu Tomaten- Zucchinigemüse und Pommes frites",
+                    "name": "Schweineflet auf Linguine in Tomaten-Sahnesauce, dazu Grana",
+                    "price": 7.2,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-06-26",
+            "dishes": [
+                {
+                    "name": "Gemüsenudeln (oder Schinkennudeln 4,50 €) auf Wunsch mit Tomatensauce",
+                    "price": 4.0,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Marinierter gebratener Rinderrücken mit Grillgemüse und Rösti",
+                    "price": 7.4,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Shakshuka, israelisches Tomatenragout mit Ei, dazu Baguette",
+                    "price": 4.9,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Gebratenes Lachsfilet auf Tagliatelle, dazu Spinat und Weißweinsauce",
+                    "price": 7.4,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-06-27",
+            "dishes": [
+                {
+                    "name": "Farfalle mit Chili-Paprikasauce",
+                    "price": 4.0,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Saure Rahm-Leber mit Semmel Knödel",
+                    "price": 5.5,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Lasagne al forno",
+                    "price": 4.9,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "4",
+                        "Sl",
+                        "Se",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Kalifornisches Putensteak mit Pfirsich und Käse gratiniert, dazu Mango-Dip und Pommes frites",
                     "price": 6.9,
                     "ingredients": [
                         "Mi",
@@ -64,11 +231,11 @@
             ]
         },
         {
-            "date": "2019-06-12",
+            "date": "2019-06-28",
             "dishes": [
                 {
-                    "name": "Sommergemüse-Ragout mit Sahne, Weißwein, frischen Kräutern und Kartoffeln",
-                    "price": 3.5,
+                    "name": "\"Oma ́s dicke Nudelsuppe\"",
+                    "price": 4.0,
                     "ingredients": [
                         "Mi",
                         "Sf",
@@ -80,8 +247,8 @@
                     ]
                 },
                 {
-                    "name": "Zigeunerschnitzel in pikanter Paprikasauce mit Pommes frites",
-                    "price": 5.8,
+                    "name": "Scharfes Rindergeschnetzeltes mit Joghurt-Dip und Gnocchi oder Kartoffeln",
+                    "price": 6.8,
                     "ingredients": [
                         "Mi",
                         "Sf",
@@ -93,8 +260,8 @@
                     ]
                 },
                 {
-                    "name": "Pasta Capriciosa mit Schinken, Tomaten, Paprikaschote, Oliven, Pilzen und Oregano, dazu Grana",
-                    "price": 5.2,
+                    "name": "Vegetarische Tortellini mit Kräuter-Sahnesauce",
+                    "price": 4.8,
                     "ingredients": [
                         "Mi",
                         "Sf",
@@ -106,122 +273,8 @@
                     ]
                 },
                 {
-                    "name": "\"Bifteki\", Griechische Frikadelle mit Schafskäse gefüllt, dazu Tomatenreis, Zwiebeln und Ajvar",
-                    "price": 5.8,
-                    "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "4",
-                        "Sl",
-                        "Se",
-                        "Ei"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2019-06-13",
-            "dishes": [
-                {
-                    "name": "\"Baked Potatoe\" mit Sauerrahm, Mais und Tomatenwürfel oder mit Sauerrahm und Speck dazu Salat",
-                    "price": 3.5,
-                    "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "4",
-                        "Sl",
-                        "Se",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "Abgebräunte Rindfleisch- Maultaschen mit Lauch, Bratensauce und Kartoffel- Gurkensalat",
-                    "price": 4.9,
-                    "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "4",
-                        "Sl",
-                        "Se",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "\"Kima Curry\" mit Hackfleisch, Tomatensauce und Basmatireis",
+                    "name": "Calamari Romana mit Pommes frites und Remoulade",
                     "price": 6.2,
-                    "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "4",
-                        "Sl",
-                        "Se",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "Cordon bleu mit Möhrengemüse und Pommes frites, dazu Preiselbeeren oder Kräuterbutter",
-                    "price": 6.9,
-                    "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "4",
-                        "Sl",
-                        "Se",
-                        "Ei"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2019-06-14",
-            "dishes": [
-                {
-                    "name": "Kaspressknödel mit Rohkostsalat",
-                    "price": 3.5,
-                    "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "4",
-                        "Sl",
-                        "Se",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "Gebratenes Seelachsfilet auf Rahmlinsen, mit Kartoffeln oder Püree",
-                    "price": 5.8,
-                    "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "4",
-                        "Sl",
-                        "Se",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "Spaghetti Aglio olio peproncini",
-                    "price": 4.5,
-                    "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "4",
-                        "Sl",
-                        "Se",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "\"Khao Mao Dang\" gegrilltes, mariniertes Schweinefleisch auf Thaiart mit Basmatireis",
-                    "price": 6.9,
                     "ingredients": [
                         "Mi",
                         "Sf",

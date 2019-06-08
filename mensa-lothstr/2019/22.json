@@ -10,8 +10,8 @@
                     "price": 1,
                     "ingredients": [
                         "Kn",
-                        "Sl",
                         "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 },
@@ -20,8 +20,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Ei",
                         "GlW",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -29,40 +29,40 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl",
+                        "Ei",
                         "1",
                         "Sl",
-                        "Kn"
+                        "Kn",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.6,
                     "ingredients": [
+                        "GlW",
+                        "GlG",
+                        "Sl",
+                        "Kn",
                         "R",
                         "Mi",
-                        "GlG",
-                        "GlW",
-                        "Gl",
-                        "Sl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 3.5,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "GlG",
-                        "Ei",
                         "GlW",
+                        "Ei",
+                        "GlG",
+                        "Kn",
                         "2",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "S"
                     ]
                 }
             ]
@@ -74,12 +74,12 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1,
                     "ingredients": [
-                        "So",
-                        "5",
-                        "9",
                         "3",
+                        "9",
                         "Sw",
-                        "Kn"
+                        "Kn",
+                        "So",
+                        "5"
                     ]
                 },
                 {
@@ -87,8 +87,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Kn",
-                        "Mi",
                         "GlW",
+                        "Mi",
                         "Gl"
                     ]
                 },
@@ -96,31 +96,31 @@
                     "name": "Bratwurstschnecke",
                     "price": 2.6,
                     "ingredients": [
+                        "8",
                         "S",
-                        "Sl",
-                        "8"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Lasagne Bolognese (hausgemacht)",
                     "price": 3.0,
                     "ingredients": [
+                        "GlW",
+                        "Kn",
                         "R",
                         "Mi",
-                        "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
+                        "GlW",
+                        "99",
+                        "Sw",
                         "R",
                         "Mi",
-                        "Sw",
-                        "99",
-                        "GlW",
                         "Gl"
                     ]
                 }
@@ -133,8 +133,8 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
@@ -142,8 +142,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Kn",
-                        "Mi",
                         "GlW",
+                        "Mi",
                         "Gl"
                     ]
                 },
@@ -151,23 +151,23 @@
                     "name": "Hähnchenspieß mit fruchtiger Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
+                        "GlW",
                         "3",
+                        "Sf",
                         "GlG",
                         "Sw",
-                        "GlW",
+                        "Kn",
+                        "Mi",
                         "S",
-                        "Gl",
-                        "Sf",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -187,8 +187,8 @@
                     "price": 1,
                     "ingredients": [
                         "Kn",
-                        "2",
                         "GlW",
+                        "2",
                         "Gl"
                     ]
                 },
@@ -197,8 +197,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Ei",
                         "GlW",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -206,10 +206,10 @@
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "GlW",
+                        "Ei",
                         "Sl",
+                        "Mi",
                         "Gl",
                         "Fi"
                     ]
