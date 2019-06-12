@@ -9,44 +9,44 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
                         "Gl",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Sl",
-                        "1",
-                        "Mi",
-                        "Gl",
                         "Kn",
+                        "1",
+                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Mi",
+                        "Ei",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kebab- Reispfanne mit Paprika und Schweinefleisch",
                     "price": 2.8,
                     "ingredients": [
-                        "S",
-                        "Kn"
+                        "Kn",
+                        "S"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 3.5,
                     "ingredients": [
-                        "2",
-                        "Mi",
-                        "Gl",
-                        "Kn",
-                        "GlW",
-                        "Ei",
                         "GlG",
+                        "2",
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Ei",
                         "S"
                     ]
                 }
@@ -59,11 +59,11 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1,
                     "ingredients": [
+                        "Kn",
                         "Sw",
+                        "5",
                         "So",
                         "3",
-                        "Kn",
-                        "5",
                         "9"
                     ]
                 },
@@ -81,9 +81,9 @@
                     "name": "Bratwurstschnecke",
                     "price": 2.6,
                     "ingredients": [
-                        "8",
                         "S",
-                        "Sl"
+                        "Sl",
+                        "8"
                     ]
                 },
                 {
@@ -91,11 +91,11 @@
                     "price": 3.0,
                     "ingredients": [
                         "Sw",
-                        "Mi",
-                        "R",
                         "Gl",
+                        "R",
                         "GlW",
-                        "99"
+                        "99",
+                        "Mi"
                     ]
                 }
             ]
@@ -107,8 +107,8 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
@@ -125,14 +125,14 @@
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sw",
-                        "3",
-                        "Sf",
-                        "Mi",
-                        "Gl",
-                        "Kn",
-                        "GlW",
                         "GlG",
+                        "Kn",
+                        "Sw",
+                        "Gl",
+                        "Sf",
+                        "GlW",
+                        "Mi",
+                        "3",
                         "S"
                     ]
                 },
@@ -140,14 +140,14 @@
                     "name": "Pizza Rucola Pomodoro mit Cocktailtomaten, Rucola und Parmigiano",
                     "price": 3.5,
                     "ingredients": [
+                        "GlG",
                         "2",
-                        "So",
                         "1",
-                        "Mi",
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "GlW",
-                        "GlG"
+                        "Mi",
+                        "So"
                     ]
                 }
             ]
@@ -161,8 +161,8 @@
                     "ingredients": [
                         "2",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -181,13 +181,13 @@
                     "ingredients": [
                         "2",
                         "1",
-                        "Sf",
-                        "Mi",
                         "Gl",
+                        "Sf",
                         "GlW",
+                        "Mi",
                         "Ei",
-                        "9",
-                        "Fi"
+                        "Fi",
+                        "9"
                     ]
                 }
             ]
