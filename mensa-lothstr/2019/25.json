@@ -16,13 +16,13 @@
                     "name": "Pasta Emiliana mit (Vorder-)Schinken und Erbsen",
                     "price": 1.9,
                     "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "S",
                         "Gl",
                         "8",
-                        "Mi",
-                        "3",
-                        "S",
-                        "GlW",
                         "2",
+                        "3",
                         "Kn"
                     ]
                 },
@@ -30,9 +30,9 @@
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "Gl",
                         "Kn",
-                        "Mi",
                         "GlW"
                     ]
                 },
@@ -40,13 +40,13 @@
                     "name": "Kalbsrahmgulasch mit Pilzen und Weißwein",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "Sw",
-                        "R",
-                        "GlW",
                         "99",
-                        "Kn"
+                        "GlW",
+                        "Gl",
+                        "R",
+                        "Kn",
+                        "Sw"
                     ]
                 }
             ]
@@ -65,40 +65,40 @@
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
+                        "Sl",
                         "11",
+                        "S",
+                        "2",
+                        "So",
+                        "3",
+                        "Kn",
                         "Sw",
                         "Sf",
-                        "3",
-                        "S",
-                        "5",
-                        "Sl",
-                        "2",
-                        "Kn",
-                        "So"
+                        "5"
                     ]
                 },
                 {
                     "name": "Moussaka mit Gemüse und Schafskäse",
                     "price": 3.0,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "1",
-                        "Sf",
-                        "Ei",
                         "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "Ei",
+                        "Sf",
+                        "1"
                     ]
                 },
                 {
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "Ei",
                         "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "Ei"
                     ]
                 }
             ]
@@ -110,8 +110,8 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": 1,
                     "ingredients": [
-                        "2",
                         "Kn",
+                        "2",
                         "Sf"
                     ]
                 },
@@ -132,14 +132,14 @@
                     "name": "Schweineschnitzel, natur mit Jägersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "GlG",
-                        "3",
-                        "S",
                         "GlW",
+                        "S",
+                        "Gl",
                         "2",
-                        "Kn"
+                        "3",
+                        "Kn",
+                        "GlG"
                     ]
                 }
             ]
@@ -158,9 +158,9 @@
                     "name": "Pfannkuchen mit Heidelbeerfüllung und Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
                         "Mi",
+                        "Ei",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -168,12 +168,12 @@
                     "name": "Forelle Müllerin Art mit Zitronenbutter",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "1",
-                        "Sf",
                         "GlW",
-                        "Fi"
+                        "Gl",
+                        "Fi",
+                        "Sf",
+                        "1"
                     ]
                 }
             ]

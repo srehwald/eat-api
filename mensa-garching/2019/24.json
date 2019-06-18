@@ -16,10 +16,10 @@
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
                         "2",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -34,15 +34,15 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "9",
-                        "2",
-                        "Kn",
-                        "R",
                         "GlW",
-                        "Sf",
                         "Gl",
+                        "2",
+                        "9",
+                        "GlG",
+                        "R",
                         "Mi",
-                        "GlG"
+                        "Kn",
+                        "Sf"
                     ]
                 }
             ]
@@ -61,40 +61,40 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "So",
-                        "11",
-                        "5",
-                        "3",
-                        "Ei",
                         "Sl",
                         "GlW",
-                        "Sw",
+                        "11",
+                        "3",
                         "Gl",
-                        "Mi"
+                        "5",
+                        "Ei",
+                        "So",
+                        "Mi",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "Kn",
-                        "R",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "2",
+                        "R",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "99",
-                        "S",
-                        "Kn",
                         "GlW",
                         "Gl",
+                        "99",
+                        "GlG",
+                        "S",
                         "Mi",
-                        "GlG"
+                        "Kn"
                     ]
                 }
             ]
@@ -106,9 +106,9 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1,
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -116,9 +116,9 @@
                     "price": 1.9,
                     "ingredients": [
                         "11",
-                        "8",
-                        "S",
                         "R",
+                        "S",
+                        "8",
                         "Sf"
                     ]
                 },
@@ -126,22 +126,22 @@
                     "name": "Cevapcici mit Ajvar",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
+                        "Kn",
                         "S",
-                        "Sf",
-                        "Kn"
+                        "Sl",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "S",
-                        "Kn",
-                        "R",
                         "GlW",
                         "Gl",
-                        "Mi"
+                        "R",
+                        "S",
+                        "Mi",
+                        "Kn"
                     ]
                 }
             ]
@@ -153,19 +153,19 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
+                        "Sl",
                         "GlW",
-                        "Gl",
-                        "Sl"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
                         "Mi",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -173,26 +173,26 @@
                     "price": 2.4,
                     "ingredients": [
                         "Sl",
-                        "3",
-                        "2",
-                        "8",
-                        "S",
-                        "R",
                         "GlW",
-                        "Gl"
+                        "3",
+                        "Gl",
+                        "2",
+                        "R",
+                        "S",
+                        "8"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "2",
                         "9",
                         "Fi",
                         "Ei",
-                        "2",
-                        "GlW",
                         "1",
-                        "Gl",
                         "Mi"
                     ]
                 },
@@ -200,10 +200,10 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
-                        "Ei",
                         "GlW",
+                        "3",
                         "Gl",
+                        "Ei",
                         "Mi"
                     ]
                 }
