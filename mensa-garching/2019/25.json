@@ -16,35 +16,35 @@
                     "name": "Pasta Emiliana mit (Vorder-)Schinken und Erbsen",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "8",
-                        "Gl",
-                        "S",
-                        "Kn",
                         "GlW",
+                        "Gl",
+                        "8",
+                        "Mi",
+                        "S",
                         "3",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "GlW",
                         "Gl",
-                        "Kn",
-                        "Mi"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rotes Curry vom Rind (GQB) mit Wokgemüse",
                     "price": 3.0,
                     "ingredients": [
-                        "R",
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "So"
+                        "Gl",
+                        "R",
+                        "So",
+                        "Kn"
                     ]
                 }
             ]
@@ -63,25 +63,9 @@
                     "name": "Grüner Erbseneintopf mit ein Paar Pfälzer",
                     "price": 2.4,
                     "ingredients": [
-                        "8",
                         "R",
-                        "S",
-                        "Sl",
-                        "3",
-                        "2",
-                        "1"
-                    ]
-                },
-                {
-                    "name": "Sweet & Sour mit Schweinefleisch",
-                    "price": 2.4,
-                    "ingredients": [
-                        "5",
-                        "So",
-                        "Sf",
-                        "11",
-                        "Kn",
-                        "Sw",
+                        "8",
+                        "1",
                         "S",
                         "Sl",
                         "3",
@@ -89,29 +73,45 @@
                     ]
                 },
                 {
+                    "name": "Sweet & Sour mit Schweinefleisch",
+                    "price": 2.4,
+                    "ingredients": [
+                        "5",
+                        "S",
+                        "So",
+                        "Sf",
+                        "Sl",
+                        "3",
+                        "Sw",
+                        "11",
+                        "2",
+                        "Kn"
+                    ]
+                },
+                {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Sf",
+                        "Ei",
                         "Gl",
                         "GlW",
-                        "Ei",
-                        "2",
-                        "1"
+                        "Mi",
+                        "1",
+                        "Sf",
+                        "2"
                     ]
                 },
                 {
                     "name": "Moussaka mit Gemüse und Schafskäse",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "Kn",
-                        "GlW",
                         "Ei",
-                        "1"
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "1",
+                        "Sf",
+                        "Kn"
                     ]
                 }
             ]
@@ -123,9 +123,9 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": 1,
                     "ingredients": [
-                        "Sf",
                         "2",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
@@ -140,12 +140,12 @@
                     "name": "Schweineschnitzel nach Puszta Art",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
+                        "GlW",
                         "Gl",
-                        "S",
-                        "Kn",
+                        "Mi",
                         "GlG",
-                        "GlW"
+                        "S",
+                        "Kn"
                     ]
                 },
                 {
@@ -171,10 +171,10 @@
                     "name": "Pfannkuchen mit Heidelbeerfüllung und Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Ei",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
@@ -190,12 +190,12 @@
                     "name": "Forelle Müllerin Art mit Zitronenbutter",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "Fi",
                         "GlW",
-                        "1"
+                        "Gl",
+                        "Mi",
+                        "Fi",
+                        "1",
+                        "Sf"
                     ]
                 }
             ]
