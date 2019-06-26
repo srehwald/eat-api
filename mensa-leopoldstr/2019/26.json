@@ -4,76 +4,7 @@
     "days": [
         {
             "date": "2019-06-24",
-            "dishes": [
-                {
-                    "name": "Pasta mit Tomaten-Kokos-Sauce und gebratenen Zucchiniwürfeln",
-                    "price": "individual",
-                    "ingredients": [
-                        "2",
-                        "Kn",
-                        "GlW",
-                        "Gl"
-                    ]
-                },
-                {
-                    "name": "Pasta mit Bohnensauce und Speck",
-                    "price": "N/A",
-                    "ingredients": [
-                        "2",
-                        "Kn",
-                        "GlW",
-                        "Gl",
-                        "3",
-                        "Sl",
-                        "S"
-                    ]
-                },
-                {
-                    "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
-                    "price": "N/A",
-                    "ingredients": [
-                        "2",
-                        "R",
-                        "Kn",
-                        "GlW",
-                        "Sf",
-                        "Gl",
-                        "3",
-                        "99",
-                        "Sl",
-                        "Sw",
-                        "S",
-                        "Mi",
-                        "GlG"
-                    ]
-                },
-                {
-                    "name": "Paniertes Truthahnschnitzel mit Salsa",
-                    "price": "0.75€ / 100g",
-                    "ingredients": [
-                        "2",
-                        "GlW",
-                        "Gl",
-                        "11",
-                        "So"
-                    ]
-                },
-                {
-                    "name": "Kartoffelröstis mit Kräutersahnequark",
-                    "price": "N/A",
-                    "ingredients": [
-                        "Mi",
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
-                    "price": "0.33€ / 100g",
-                    "ingredients": [
-                        "Kn"
-                    ]
-                }
-            ]
+            "dishes": []
         },
         {
             "date": "2019-06-25",
@@ -82,57 +13,58 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": "individual",
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Wildschweinbolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "Sw",
                         "Gl",
                         "99",
-                        "Sl",
-                        "Sw"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "Kn",
-                        "GlW",
-                        "Gl",
-                        "Ei",
                         "Mi",
-                        "Wt"
+                        "GlW",
+                        "Kn",
+                        "Wt",
+                        "Ei",
+                        "1",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Couscousbratling mit Paprika-Hummus (Kichererbsenmus)",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "2",
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "Ei",
                         "Gl",
-                        "Ei"
+                        "2"
                     ]
                 },
                 {
                     "name": "Chop Suey vom Schweinefleisch",
                     "price": "N/A",
                     "ingredients": [
+                        "S",
+                        "3",
                         "Kn",
                         "GlW",
+                        "Sw",
                         "Gl",
-                        "3",
                         "5",
-                        "S",
                         "So"
                     ]
                 },
@@ -140,9 +72,10 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Sl",
+                        "5",
+                        "Sw",
                         "3",
-                        "5"
+                        "Sl"
                     ]
                 }
             ]
@@ -154,66 +87,66 @@
                     "name": "Pasta Casalinga mit Schweinegeschnetzeltem und Pilzen",
                     "price": "individual",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "Gl",
+                        "Mi",
                         "S",
-                        "Mi"
+                        "GlW",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pasta mit Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "Kn",
-                        "GlW",
-                        "Gl",
                         "Mi",
-                        "GlG"
+                        "GlW",
+                        "Kn",
+                        "Gl",
+                        "GlG",
+                        "R"
                     ]
                 },
                 {
                     "name": "Topfen-Birnenstrudel mit Mandel-Vanillesaue",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Ei",
+                        "Mi",
                         "Sc",
-                        "ScM",
-                        "Mi"
+                        "GlW",
+                        "Ei",
+                        "Gl",
+                        "ScM"
                     ]
                 },
                 {
                     "name": "Paella (mit Meeresfrüchten und Hähnchenfleisch)",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
                         "3",
+                        "Wt",
+                        "1",
                         "Kr",
-                        "6",
-                        "Wt"
+                        "6"
                     ]
                 },
                 {
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "2",
                         "Kn",
-                        "Sf",
-                        "So"
+                        "2",
+                        "So",
+                        "Sf"
                     ]
                 }
             ]
@@ -225,51 +158,51 @@
                     "name": "Pasta mit roten Linsen und Auberginen",
                     "price": "individual",
                     "ingredients": [
-                        "1",
-                        "Kn",
-                        "GlW",
-                        "Gl",
                         "3",
-                        "Sw"
+                        "GlW",
+                        "Kn",
+                        "Sw",
+                        "1",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pasta mit pikanter Tomatensauce, Salami und Salbei",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "2",
-                        "Kn",
-                        "GlW",
-                        "Sf",
-                        "Gl",
+                        "S",
                         "3",
-                        "S"
+                        "GlW",
+                        "Kn",
+                        "1",
+                        "Gl",
+                        "2",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "Mi",
                         "GlW",
+                        "Kn",
+                        "Sw",
                         "Gl",
                         "99",
-                        "Sl",
-                        "Sw",
-                        "Mi",
-                        "GlG"
+                        "GlG",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit grünem Pfeffer",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "Gl",
-                        "S",
                         "Mi",
+                        "S",
+                        "GlW",
+                        "Kn",
+                        "Gl",
                         "GlG"
                     ]
                 },
@@ -277,22 +210,22 @@
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
+                        "Mi",
                         "GlW",
-                        "Sf",
+                        "1",
                         "Gl",
                         "Se",
                         "Sl",
-                        "Mi"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 }
             ]
@@ -304,36 +237,36 @@
                     "name": "Kabeljaufilet (MSC) mit einer Gurken-Senfsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sf",
-                        "Gl",
-                        "Ei",
+                        "Mi",
                         "Fi",
+                        "GlW",
+                        "Ei",
+                        "Gl",
                         "Sl",
-                        "Mi"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Hähnchen Machbous auf würzigem Biriyanireis",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "Sf",
-                        "Gl",
-                        "Sl",
                         "Mi",
-                        "So"
+                        "GlW",
+                        "Kn",
+                        "Gl",
+                        "So",
+                        "Sl",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {

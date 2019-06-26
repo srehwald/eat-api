@@ -9,9 +9,9 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -19,13 +19,13 @@
                     "name": "Rindfleischstreifen (GQB) Spicy Ginger mit Bambussprossen",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
                         "Kn",
+                        "GlG",
                         "So",
                         "GlW",
-                        "R",
-                        "GlG",
                         "Gl",
+                        "R",
+                        "2",
                         "Mi"
                     ]
                 },
@@ -45,19 +45,19 @@
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "2",
-                        "3",
-                        "S",
                         "Kn",
                         "Sl",
                         "99",
-                        "GlW",
-                        "R",
                         "GlG",
-                        "Gl",
+                        "GlW",
                         "Sw",
-                        "Mi"
+                        "Gl",
+                        "R",
+                        "2",
+                        "3",
+                        "Mi",
+                        "Sf",
+                        "S"
                     ]
                 }
             ]
@@ -69,21 +69,41 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Kn",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Chop Suey vom Schweinefleisch",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
                         "Kn",
                         "So",
-                        "GlW",
                         "5",
+                        "GlW",
+                        "Sw",
                         "Gl",
+                        "3",
+                        "S"
+                    ]
+                },
+                {
+                    "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Sl",
+                        "99",
+                        "GlG",
+                        "GlW",
+                        "Sw",
+                        "Gl",
+                        "R",
+                        "2",
+                        "3",
+                        "Mi",
+                        "Sf",
                         "S"
                     ]
                 },
@@ -91,27 +111,32 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "3",
+                        "Sw",
                         "5",
-                        "3"
+                        "Sl"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Brokkolicremesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "Wt",
                         "Kn",
+                        "1",
                         "GlW",
+                        "Ei",
                         "Gl",
-                        "Mi",
-                        "Ei"
+                        "Wt",
+                        "Mi"
                     ]
                 }
             ]
@@ -123,21 +148,32 @@
                     "name": "Paella (mit Meeresfrüchten und Hähnchenfleisch)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kr",
-                        "3",
+                        "6",
                         "1",
                         "Wt",
-                        "6"
+                        "3",
+                        "Kr"
+                    ]
+                },
+                {
+                    "name": "Paella (mit Meeresfrüchten und Hähnchenfleisch) (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "6",
+                        "1",
+                        "Wt",
+                        "3",
+                        "Kr"
                     ]
                 },
                 {
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Sf",
+                        "2",
                         "Kn",
-                        "2"
+                        "So",
+                        "Sf"
                     ]
                 },
                 {
@@ -146,14 +182,41 @@
                     "ingredients": []
                 },
                 {
+                    "name": "Reis mit asiatischem Gemüse und Koriander (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "2",
+                        "Kn",
+                        "So",
+                        "Sf"
+                    ]
+                },
+                {
+                    "name": "Tagessuppe (2)",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "GlW",
-                        "R",
                         "GlG",
+                        "GlW",
                         "Gl",
+                        "R",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Münchner Gulasch vom Rind (GQB) (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "GlG",
+                        "GlW",
+                        "Gl",
+                        "R",
                         "Mi"
                     ]
                 },
@@ -161,10 +224,29 @@
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Mi",
-                        "Ei"
+                        "Ei",
+                        "Gl",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Ei",
+                        "Gl",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Apfelstrudel mit Vanillesauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -176,9 +258,19 @@
                     "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "Gl",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Kn",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -186,21 +278,33 @@
                     "name": "Schweinerückensteak mit grünem Pfeffer",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Kn",
-                        "GlW",
                         "GlG",
+                        "GlW",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "S"
+                    ]
+                },
+                {
+                    "name": "Schweinerückensteak mit grünem Pfeffer (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "GlG",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "S"
                     ]
                 },
                 {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Kn",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -209,16 +313,43 @@
                     "ingredients": []
                 },
                 {
+                    "name": "Couscous mit Pilzen, Tomaten und Mangold (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Kn",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Tagessuppe (2)",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "1",
                         "Sl",
                         "Se",
+                        "1",
                         "GlW",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "Sf"
+                    ]
+                },
+                {
+                    "name": "Schwarzwurzel-Knusperecke mit Kräuterdip (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sl",
+                        "Se",
+                        "1",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "Sf"
                     ]
                 }
             ]
@@ -230,8 +361,19 @@
                     "name": "Bunte Farfalle mit Räucherlachssauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Fi",
                         "Kn",
+                        "Fi",
+                        "GlW",
+                        "Gl",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Bunte Farfalle mit Räucherlachssauce (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Fi",
                         "GlW",
                         "Gl",
                         "Mi"
@@ -241,13 +383,26 @@
                     "name": "Kabeljaufilet (MSC) mit einer Gurken-Senfsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Fi",
                         "Sl",
+                        "Fi",
                         "GlW",
+                        "Ei",
                         "Gl",
                         "Mi",
-                        "Ei"
+                        "Sf"
+                    ]
+                },
+                {
+                    "name": "Kabeljaufilet (MSC) mit einer Gurken-Senfsauce (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sl",
+                        "Fi",
+                        "GlW",
+                        "Ei",
+                        "Gl",
+                        "Mi",
+                        "Sf"
                     ]
                 },
                 {
@@ -264,16 +419,42 @@
                     "ingredients": []
                 },
                 {
+                    "name": "Blumenkohl-Kartoffel-Curry (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Tagessuppe (2)",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
                     "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "GlR",
                         "Kn",
                         "GlW",
+                        "Ei",
                         "Gl",
-                        "Mi",
-                        "Ei"
+                        "GlR",
+                        "2",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano (2)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "GlW",
+                        "Ei",
+                        "Gl",
+                        "GlR",
+                        "2",
+                        "Mi"
                     ]
                 }
             ]
