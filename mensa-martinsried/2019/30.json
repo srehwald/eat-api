@@ -9,18 +9,18 @@
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Mi",
-                        "S",
-                        "Kn"
+                        "S"
                     ]
                 },
                 {
                     "name": "Schweinehalssteak mit Kräuterbutter (2)",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Mi",
-                        "S",
-                        "Kn"
+                        "S"
                     ]
                 },
                 {
@@ -51,10 +51,10 @@
                     "name": "Spinatknödel Tiroler Art mit Bergkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Sl",
                         "GlW",
+                        "Sl",
                         "Mi",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -62,10 +62,10 @@
                     "name": "Spinatknödel Tiroler Art mit Bergkäse (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Sl",
                         "GlW",
+                        "Sl",
                         "Mi",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -73,8 +73,8 @@
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl",
                         "Ei"
                     ]
@@ -83,8 +83,8 @@
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl",
                         "Ei"
                     ]
@@ -98,27 +98,27 @@
                     "name": "Rumpsteak mit Schmorzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "R"
                     ]
                 },
                 {
                     "name": "Rumpsteak mit Schmorzwiebeln (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "R"
                     ]
                 },
                 {
                     "name": "Indisches Linsencurry",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "Sf",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -130,9 +130,9 @@
                     "name": "Indisches Linsencurry (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "Sf",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -145,12 +145,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Ei",
-                        "1",
                         "GlW",
-                        "GlD",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "1",
+                        "Ei",
+                        "GlD"
                     ]
                 },
                 {
@@ -158,24 +158,24 @@
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Ei",
-                        "1",
                         "GlW",
-                        "GlD",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "1",
+                        "Ei",
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
                         "Sf",
-                        "Ei",
-                        "1",
+                        "2",
                         "GlW",
                         "Mi",
+                        "1",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -183,12 +183,12 @@
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
                         "Sf",
-                        "Ei",
-                        "1",
+                        "2",
                         "GlW",
                         "Mi",
+                        "1",
+                        "Ei",
                         "Gl"
                     ]
                 }
@@ -201,9 +201,9 @@
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -211,9 +211,9 @@
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -221,14 +221,14 @@
                     "name": "Gebratener Reis mit Meeresfrüchten",
                     "price": "N/A",
                     "ingredients": [
-                        "Wt",
                         "2",
+                        "GlW",
                         "Kn",
                         "Ei",
-                        "GlW",
-                        "En",
                         "Kr",
                         "So",
+                        "Wt",
+                        "En",
                         "Gl"
                     ]
                 },
@@ -236,14 +236,14 @@
                     "name": "Gebratener Reis mit Meeresfrüchten (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Wt",
                         "2",
+                        "GlW",
                         "Kn",
                         "Ei",
-                        "GlW",
-                        "En",
                         "Kr",
                         "So",
+                        "Wt",
+                        "En",
                         "Gl"
                     ]
                 },
@@ -276,13 +276,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sw",
-                        "11",
-                        "Ei",
-                        "Sl",
                         "GlW",
-                        "So",
                         "5",
+                        "Sl",
+                        "11",
                         "Mi",
+                        "So",
+                        "Ei",
                         "3",
                         "Gl"
                     ]
@@ -292,13 +292,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sw",
-                        "11",
-                        "Ei",
-                        "Sl",
                         "GlW",
-                        "So",
                         "5",
+                        "Sl",
+                        "11",
                         "Mi",
+                        "So",
+                        "Ei",
                         "3",
                         "Gl"
                     ]
@@ -307,12 +307,12 @@
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
+                        "GlW",
                         "99",
                         "S",
-                        "Kn",
-                        "GlW",
                         "Mi",
+                        "GlG",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -320,12 +320,12 @@
                     "name": "Halbe Schweinshaxe mit Biersauce (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
+                        "GlW",
                         "99",
                         "S",
-                        "Kn",
-                        "GlW",
                         "Mi",
+                        "GlG",
+                        "Kn",
                         "Gl"
                     ]
                 }
@@ -338,30 +338,30 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "11",
                         "Sf",
                         "S",
                         "R",
-                        "8"
+                        "8",
+                        "11"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "11",
                         "Sf",
                         "S",
                         "R",
-                        "8"
+                        "8",
+                        "11"
                     ]
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -374,8 +374,8 @@
                     "name": "Couscous mit mediterranem Gemüse (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -388,9 +388,9 @@
                     "name": "Frische Rahmschwammerl",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -398,9 +398,9 @@
                     "name": "Frische Rahmschwammerl (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -408,10 +408,10 @@
                     "name": "Überbackenes Putenschnitzel Toskana",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "1",
                         "GlW",
                         "Mi",
+                        "Kn",
+                        "1",
                         "Gl"
                     ]
                 },
@@ -419,10 +419,10 @@
                     "name": "Überbackenes Putenschnitzel Toskana (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "1",
                         "GlW",
                         "Mi",
+                        "Kn",
+                        "1",
                         "Gl"
                     ]
                 }
@@ -435,9 +435,9 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -445,9 +445,9 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -456,12 +456,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Fi",
-                        "Ei",
-                        "1",
                         "GlW",
-                        "9",
+                        "Fi",
                         "Mi",
+                        "9",
+                        "1",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -470,12 +470,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Fi",
-                        "Ei",
-                        "1",
                         "GlW",
-                        "9",
+                        "Fi",
                         "Mi",
+                        "9",
+                        "1",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -511,9 +511,9 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "GlW",
                         "Mi",
+                        "Ei",
                         "3",
                         "Gl"
                     ]
@@ -522,9 +522,9 @@
                     "name": "Kaiserschmarrn mit Apfelmus (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "GlW",
                         "Mi",
+                        "Ei",
                         "3",
                         "Gl"
                     ]
