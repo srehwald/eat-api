@@ -9,22 +9,22 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
-                        "Gl",
+                        "GlG",
                         "Kn",
-                        "GlG"
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": 1.9,
                     "ingredients": [
+                        "Ei",
                         "Kn",
                         "GlW",
-                        "Ei",
-                        "Sl",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
@@ -32,18 +32,18 @@
                     "price": 1.9,
                     "ingredients": [
                         "Kn",
-                        "GlW",
                         "2",
-                        "Gl",
-                        "R"
+                        "R",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Green-Thai-Curry vom Rind (GQB)",
                     "price": 3.0,
                     "ingredients": [
-                        "Kn",
-                        "R"
+                        "R",
+                        "Kn"
                     ]
                 }
             ]
@@ -55,24 +55,24 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1,
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "3",
-                        "2",
                         "Ei",
-                        "GlW",
-                        "Gl",
-                        "Mi",
+                        "Kn",
+                        "2",
+                        "S",
                         "8",
-                        "S"
+                        "GlW",
+                        "3",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
@@ -80,11 +80,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "1",
+                        "Ei",
                         "Kn",
                         "2",
-                        "Ei",
-                        "GlW",
                         "Sf",
+                        "GlW",
                         "Gl",
                         "Mi"
                     ]
@@ -95,8 +95,8 @@
                     "ingredients": [
                         "Kn",
                         "GlW",
-                        "GlG",
                         "Gl",
+                        "GlG",
                         "Mi"
                     ]
                 }
@@ -116,34 +116,34 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "2",
                         "Ei",
-                        "GlG",
+                        "Kn",
+                        "2",
+                        "S",
+                        "GlW",
                         "Gl",
-                        "Mi",
-                        "S"
+                        "GlG",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pasta mit Putenbolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Sl",
-                        "Gl",
-                        "Kn"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Kn",
-                        "Mi"
+                        "Mi",
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -162,12 +162,12 @@
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "Kn",
-                        "3",
-                        "Sw",
-                        "Mi",
                         "5",
-                        "S"
+                        "Sw",
+                        "Kn",
+                        "S",
+                        "3",
+                        "Mi"
                     ]
                 },
                 {
@@ -175,13 +175,13 @@
                     "price": 4,
                     "ingredients": [
                         "1",
-                        "9",
-                        "2",
                         "Ei",
+                        "9",
+                        "Fi",
+                        "2",
                         "GlW",
                         "Gl",
-                        "Mi",
-                        "Fi"
+                        "Mi"
                     ]
                 },
                 {
@@ -189,10 +189,10 @@
                     "price": 2.4,
                     "ingredients": [
                         "Kn",
-                        "GlW",
                         "So",
-                        "Sl",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Sl"
                     ]
                 }
             ]
@@ -204,19 +204,19 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": 1,
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "GlW",
-                        "Gl",
                         "Ei",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
@@ -224,10 +224,10 @@
                     "price": 2.4,
                     "ingredients": [
                         "Kn",
-                        "GlW",
                         "2",
                         "Sf",
                         "So",
+                        "GlW",
                         "Gl"
                     ]
                 }
