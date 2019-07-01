@@ -9,8 +9,8 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Sl",
                         "Gl"
                     ]
@@ -19,36 +19,36 @@
                     "name": "Schweinelachssteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "S",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
-                        "GlW",
                         "1",
-                        "Mi",
-                        "Kn",
                         "Sl",
-                        "Gl"
+                        "Gl",
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
+                        "R",
+                        "Sl",
+                        "Gl",
                         "GlG",
                         "Mi",
-                        "R",
-                        "Kn",
-                        "Sl",
-                        "Gl"
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -60,9 +60,9 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
                         "Kn",
                         "Sf",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -70,39 +70,39 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
                         "11",
                         "5",
                         "So",
-                        "3",
-                        "Sf",
-                        "Sw",
-                        "Kn",
+                        "2",
                         "Sl",
-                        "2"
+                        "S",
+                        "Sw",
+                        "Sf",
+                        "Kn",
+                        "3"
                     ]
                 },
                 {
                     "name": "Burrito-Beef-Bowl (Reis, Chili-Hack, Mais, Salat, Tomate, Guacamole, Sauerrahm und Koriander)",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
-                        "1",
-                        "Sf",
-                        "Mi",
                         "R",
-                        "Kn",
-                        "2"
+                        "1",
+                        "2",
+                        "Mi",
+                        "Ei",
+                        "Sf",
+                        "Kn"
                     ]
                 }
             ]
@@ -114,35 +114,35 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
+                        "GlG",
+                        "Mi",
                         "S",
                         "GlW",
-                        "3",
-                        "GlG",
-                        "Sf",
-                        "Mi",
                         "Sw",
+                        "Sf",
                         "Kn",
-                        "Gl"
+                        "3"
                     ]
                 },
                 {
                     "name": "Pizza Vegetariana mit Mozzarella und Grillgemüse",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
                         "So",
+                        "Sl",
+                        "Gl",
                         "GlG",
                         "Mi",
-                        "Sl",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -150,15 +150,15 @@
                     "price": 4,
                     "ingredients": [
                         "5",
-                        "GlW",
                         "1",
-                        "3",
-                        "ScM",
+                        "Gl",
                         "GlR",
                         "Mi",
-                        "Sw",
                         "Sc",
-                        "Gl"
+                        "GlW",
+                        "Sw",
+                        "3",
+                        "ScM"
                     ]
                 }
             ]
@@ -177,18 +177,18 @@
                     "name": "Gegrillter Maiskolben mit Ofenkartoffeln und Dip",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
+                        "Sf",
                         "1",
                         "Sl",
-                        "Sf"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rendang - Indonesisches Rindergulasch (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "2"
+                        "2",
+                        "R"
                     ]
                 },
                 {
@@ -196,12 +196,12 @@
                     "price": 4,
                     "ingredients": [
                         "Se",
-                        "9",
+                        "2",
+                        "Mi",
                         "4",
                         "Sf",
-                        "Mi",
                         "Kn",
-                        "2"
+                        "9"
                     ]
                 }
             ]
@@ -220,23 +220,23 @@
                     "name": "Schupfnudeln mit Sauerkraut und Kümmel",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
                         "Sl",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
                         "Fi",
                         "Sl",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "Ei"
                     ]
                 }
             ]
