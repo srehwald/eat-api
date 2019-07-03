@@ -10,9 +10,9 @@
                     "price": 1,
                     "ingredients": [
                         "Kn",
+                        "GlW",
                         "Gl",
-                        "Sl",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
@@ -20,9 +20,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "S",
-                        "Gl",
                         "Mi",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -30,25 +30,25 @@
                     "price": 2.6,
                     "ingredients": [
                         "Gl",
-                        "Sl",
-                        "Mi",
-                        "1",
                         "Kn",
+                        "1",
                         "Ei",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "Mi",
-                        "R",
-                        "Kn",
                         "GlG",
-                        "GlW"
+                        "Gl",
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "R",
+                        "Sl"
                     ]
                 }
             ]
@@ -60,35 +60,35 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1,
                     "ingredients": [
+                        "Sf",
                         "Kn",
-                        "Gl",
                         "GlW",
-                        "Sf"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "Sl",
                         "5",
                         "11",
-                        "Sw",
-                        "So",
+                        "Sf",
                         "2",
-                        "S",
                         "Kn",
-                        "3"
+                        "So",
+                        "Sw",
+                        "S",
+                        "3",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
                         "8",
-                        "S"
+                        "S",
+                        "Sl"
                     ]
                 },
                 {
@@ -96,12 +96,12 @@
                     "price": 3.5,
                     "ingredients": [
                         "Sf",
-                        "Mi",
-                        "R",
-                        "1",
                         "2",
                         "Kn",
-                        "Ei"
+                        "1",
+                        "Ei",
+                        "Mi",
+                        "R"
                     ]
                 },
                 {
@@ -109,8 +109,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Kn",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -130,25 +130,25 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "Mi",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
+                        "GlG",
                         "Gl",
                         "Sf",
+                        "Kn",
                         "Sw",
                         "Mi",
-                        "GlG",
+                        "GlW",
                         "S",
-                        "Kn",
-                        "3",
-                        "GlW"
+                        "3"
                     ]
                 },
                 {
@@ -163,16 +163,16 @@
                     "name": "French Connection (Salat mit Ziegenkäse, Weintrauben, Mandeln) dazu Himbeer-Balsamico-Dressing",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
                         "5",
+                        "Gl",
+                        "ScM",
+                        "1",
                         "Sw",
                         "Mi",
                         "Sc",
-                        "ScM",
-                        "1",
                         "GlR",
-                        "3",
-                        "GlW"
+                        "GlW",
+                        "3"
                     ]
                 }
             ]
@@ -191,8 +191,8 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "2",
+                        "Mi",
                         "1"
                     ]
                 },
@@ -200,13 +200,13 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
+                        "GlG",
                         "Gl",
-                        "99",
+                        "Kn",
                         "Sw",
                         "Mi",
-                        "Kn",
-                        "GlG",
-                        "GlW"
+                        "GlW",
+                        "99"
                     ]
                 },
                 {
@@ -222,12 +222,12 @@
                     "price": 4,
                     "ingredients": [
                         "Sf",
-                        "9",
-                        "Se",
-                        "Mi",
                         "2",
                         "Kn",
-                        "4"
+                        "Mi",
+                        "Se",
+                        "4",
+                        "9"
                     ]
                 }
             ]
@@ -247,14 +247,14 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Sl",
-                        "Mi",
                         "2",
-                        "S",
                         "Kn",
-                        "3",
                         "Ei",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "S",
+                        "3",
+                        "Sl"
                     ]
                 },
                 {
@@ -262,11 +262,11 @@
                     "price": 3.5,
                     "ingredients": [
                         "Gl",
-                        "Sl",
                         "Fi",
-                        "Mi",
                         "Ei",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Sl"
                     ]
                 }
             ]
