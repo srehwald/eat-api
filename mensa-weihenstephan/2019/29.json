@@ -9,44 +9,44 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Kn",
-                        "2"
+                        "2",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
+                        "Kn",
                         "GlG",
                         "Gl",
+                        "GlW",
                         "S",
-                        "Kn"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "Ei",
+                        "Kn",
                         "Sl",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
-                        "11",
+                        "10",
                         "Kn",
-                        "Sf",
-                        "10"
+                        "11",
+                        "Sf"
                     ]
                 }
             ]
@@ -63,40 +63,40 @@
                     "name": "Penne all'amatriciana",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Sl",
-                        "2",
                         "Gl",
-                        "3",
+                        "GlW",
                         "S",
-                        "Kn"
+                        "2",
+                        "3"
                     ]
                 },
                 {
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
-                        "8",
-                        "Mi",
+                        "Kn",
                         "GlG",
-                        "2",
-                        "1",
                         "Gl",
-                        "3",
+                        "GlW",
                         "S",
-                        "Kn"
+                        "1",
+                        "2",
+                        "3",
+                        "Mi",
+                        "8"
                     ]
                 },
                 {
                     "name": "Pizza Margherita mit Mozzarella und frischem Basilikum",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "So",
                         "GlG",
-                        "Gl"
+                        "So",
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 }
             ]
@@ -108,45 +108,45 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Kn",
-                        "So"
+                        "So",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4,
                     "ingredients": [
+                        "Kn",
+                        "Gl",
                         "GlW",
                         "R",
                         "1",
-                        "Gl",
-                        "3",
                         "Sw",
-                        "Kn"
+                        "3"
                     ]
                 },
                 {
                     "name": "Grünes Hähnchen-Curry mit Wokgemüse und Basmatireis",
                     "price": 3.2,
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "So",
                         "Gl",
-                        "En",
-                        "Kn"
+                        "GlW",
+                        "En"
                     ]
                 },
                 {
                     "name": "Bowl Marrakkesch (Couscous, Broccoli, Falafel, Petersiliensalat, Tahin-Joghurt-Dip)",
                     "price": 4,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "Se",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Se",
+                        "Mi"
                     ]
                 }
             ]
@@ -166,9 +166,9 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Kn",
+                        "Gl",
+                        "GlW",
                         "Sl"
                     ]
                 },
@@ -176,31 +176,31 @@
                     "name": "Käsekrainer mit Bratensauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "8",
-                        "Mi",
-                        "R",
-                        "GlG",
-                        "2",
-                        "Gl",
-                        "3",
-                        "S",
                         "Kn",
-                        "Sf"
+                        "GlG",
+                        "Gl",
+                        "GlW",
+                        "Sf",
+                        "R",
+                        "S",
+                        "2",
+                        "3",
+                        "Mi",
+                        "8"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
-                        "8",
-                        "Mi",
+                        "Kn",
                         "GlG",
-                        "2",
                         "Gl",
+                        "GlW",
                         "S",
-                        "Kn"
+                        "2",
+                        "Mi",
+                        "8"
                     ]
                 }
             ]
@@ -220,21 +220,21 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
-                        "1",
                         "Gl",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "1"
                     ]
                 },
                 {
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4,
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Fi",
-                        "Mi",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Mi"
                     ]
                 }
             ]
