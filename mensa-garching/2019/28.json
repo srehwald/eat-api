@@ -19,8 +19,8 @@
                     "name": "Pasta mit Sojabolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "So",
                         "Sl",
+                        "So",
                         "Gl",
                         "GlW"
                     ]
@@ -29,12 +29,12 @@
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "R",
-                        "Mi",
-                        "GlG",
                         "Sl",
-                        "Gl",
+                        "R",
                         "GlW",
+                        "Mi",
+                        "Gl",
+                        "GlG",
                         "Kn"
                     ]
                 },
@@ -42,13 +42,13 @@
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4,
                     "ingredients": [
-                        "GlG",
+                        "Gl",
+                        "S",
+                        "2",
+                        "GlW",
                         "Mi",
                         "Ei",
-                        "S",
-                        "Gl",
-                        "GlW",
-                        "2",
+                        "GlG",
                         "Kn"
                     ]
                 }
@@ -71,9 +71,9 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "Gl",
                         "GlW",
+                        "Mi",
                         "Kn"
                     ]
                 },
@@ -90,23 +90,23 @@
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "GlW",
                         "Sw",
-                        "99"
+                        "99",
+                        "GlW",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Burrito-Beef-Bowl (Reis, Chili-Hack, Mais, Salat, Tomate, Guacamole, Sauerrahm und Koriander)",
                     "price": 3.5,
                     "ingredients": [
-                        "Sf",
+                        "1",
                         "R",
+                        "2",
+                        "Sf",
                         "Mi",
                         "Ei",
-                        "1",
-                        "2",
                         "Kn"
                     ]
                 }
@@ -127,9 +127,9 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
                         "Gl",
                         "GlW",
+                        "Mi",
                         "Kn"
                     ]
                 },
@@ -137,14 +137,14 @@
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "GlG",
-                        "Mi",
-                        "S",
                         "3",
-                        "Gl",
-                        "GlW",
+                        "S",
                         "Sw",
+                        "Sf",
+                        "GlW",
+                        "Mi",
+                        "Gl",
+                        "GlG",
                         "Kn"
                     ]
                 },
@@ -152,13 +152,13 @@
                     "name": "Pizza Speciale mit Salami, Hinterschinken und Champignons",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
-                        "Mi",
-                        "S",
                         "3",
-                        "Gl",
+                        "S",
+                        "2",
+                        "Sf",
                         "GlW",
-                        "2"
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]
@@ -177,20 +177,20 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
+                        "2",
                         "1",
-                        "2"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pasta mit orientalischer Lammhacksauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Sc",
                         "Sl",
-                        "Gl",
                         "ScM",
+                        "Sc",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -198,12 +198,12 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "GlG",
-                        "Mi",
-                        "Gl",
+                        "Sw",
                         "99",
                         "GlW",
-                        "Sw",
+                        "Mi",
+                        "Gl",
+                        "GlG",
                         "Kn"
                     ]
                 },
@@ -211,12 +211,12 @@
                     "name": "Tandoori-Chicken-Bowl (Hähnchen, Basmatireis, Mangosalat, Rote Beete, Raita)",
                     "price": 4,
                     "ingredients": [
-                        "Sf",
-                        "Mi",
-                        "9",
-                        "4",
-                        "Se",
                         "2",
+                        "Se",
+                        "Sf",
+                        "9",
+                        "Mi",
+                        "4",
                         "Kn"
                     ]
                 }
@@ -236,10 +236,10 @@
                     "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
                         "Sl",
                         "Gl",
                         "GlW",
+                        "Ei",
                         "Kn"
                     ]
                 },
@@ -247,33 +247,33 @@
                     "name": "Kartoffeleintopf mit ein Paar Wiener",
                     "price": 2.4,
                     "ingredients": [
-                        "R",
                         "Sl",
-                        "S",
                         "3",
-                        "8",
-                        "2"
+                        "R",
+                        "S",
+                        "2",
+                        "8"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "Ei",
-                        "Wt",
                         "1",
-                        "Gl",
+                        "Ei",
                         "GlW",
+                        "Mi",
+                        "Wt",
+                        "Gl",
                         "Kn"
                     ]
                 }

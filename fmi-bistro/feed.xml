@@ -1,110 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-06-24">
-      <category name="Speiseplan">
-        <meal>
-          <name>Eierflaumsuppe mit Gemüsestreifen</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>/ Ei Buntes Linsen-Gemüse auf CousCous</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Gluten Spinat-Ricotta-Tortellini mit Tomatensahnesoße</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Braumeister Puten-schnitzel mit Obatzdn gefüllt dazu Bernaise und Wedjeskartoffeln</name>
-          <price role="other">6.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-06-25">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kichererbsen- Möhrchensuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>/ Milch Ingwer-Orangen- Möhrchen mit Pistazienreis</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Überbackene Zucchini mit Tomate und Ziegenkäse dazu Gemüse-Quinoa</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Milch Rindergeschnetzeltes nach Stroganoff Art mit Butterspätzle</name>
-          <price role="other">5.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-06-26">
-      <category name="Speiseplan">
-        <meal>
-          <name>Minestrone</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Broccoli-Nußecke mit Karotten-Chinakohlsalat</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Süßkartoffelgratin mit Kopfsalat</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Spaghetti “Carbonara” ( Putenstreifen Ei Sahne)</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-06-27">
-      <category name="Speiseplan">
-        <meal>
-          <name>Zucchinicremesuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Milch Kurkumapasta mit Asiagemüse und Cocosmilch</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Gluten Kraut-Schupfnudeln</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Ital. Kräuterbraten vom Schwein mit Mediterranen Kartoffeln</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>Currywurst mit Pommes</name>
-          <price role="other">3.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-06-28">
-      <category name="Speiseplan">
-        <meal>
-          <name>Spargelsuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Broccoli-Paprikasalat mit Kirschtomaten</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Quarkauflauf mit Mandeln und warme Sauerkirschen</name>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
-          <name>Fischfilet in Zitronen- Dillsoße und Wildreis</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2019-07-01">
       <category name="Speiseplan">
         <meal>
@@ -214,6 +110,118 @@
         <meal>
           <name>Spanische Paella mit Meeresfrüchte und Huhn</name>
           <price role="other">4.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-07-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kaltschale Gurken-Joghurt</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Milch Grünes Wokgemüse auf Basmatireis</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Kartoffelgnocchi mit Gemüse überbacken</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Lasagne “ Bolognese” vom Rind</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-07-09">
+      <category name="Speiseplan">
+        <meal>
+          <name>Karotten-Ingwersuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Glasnudelsalat mit Räuchertofu und Aprikosen</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Aubergine mit Tomaten Artischocken überbacken dazu Karottensalat</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Holzfällersteak mit Paprika- Kartoffeln und Speckbohnen</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Sommer-Bowl l Linsensalat CousCous Strauchtomaten Kicherer</name>
+          <price role="other">5.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-07-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gazpacho (kalte Gemüsesuppe)</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Schmorrgurken in Dill mit Minze- CousCous</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Gebackene Kartoffeln mit getrocknete Tomaten und Kräutern mit Riccottadip</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Backhendl mit Preiselbeeren auf Kartoffel-Radieserlsalat</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>bsen und Joghurtdip M Abgebräunter Leberkäs mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-07-11">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tomatensuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Milch Rote Beete-Süßkartoffeln- Pfanne</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Quinoa-Kürbis-Pastinaken- Auflauf</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Asia-Mienudeln mit Rindfleischstreifen und Zitronengras- Sojasoße</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>/ ilch Currywurst mit Pommes</name>
+          <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-07-12">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gemüsesuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Gemüse-Paella</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>3 Mini-Waffeln mit Heidelbeermus</name>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Bandnudeln mit Fenchel-Lachssoße</name>
+          <price role="other">4.90</price>
         </meal>
       </category>
     </day>
