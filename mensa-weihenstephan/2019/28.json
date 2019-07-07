@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Sl",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -19,10 +19,10 @@
                     "name": "Schweinelachssteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
+                        "Mi",
                         "Gl",
-                        "GlW",
-                        "Mi"
+                        "S",
+                        "GlW"
                     ]
                 },
                 {
@@ -30,11 +30,11 @@
                     "price": 2.6,
                     "ingredients": [
                         "Ei",
-                        "Kn",
-                        "Gl",
                         "GlW",
-                        "Sl",
                         "Mi",
+                        "Gl",
+                        "Kn",
+                        "Sl",
                         "1"
                     ]
                 },
@@ -42,12 +42,12 @@
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "GlW",
                         "GlG",
-                        "Sl",
                         "Mi",
+                        "GlW",
+                        "Gl",
+                        "Kn",
+                        "Sl",
                         "R"
                     ]
                 }
@@ -60,8 +60,8 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW",
                         "Sf"
                     ]
@@ -70,39 +70,39 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
+                        "Mi",
                         "Gl",
-                        "GlW",
-                        "Mi"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
-                        "2",
-                        "11",
-                        "Kn",
-                        "3",
                         "S",
                         "5",
-                        "Sf",
+                        "11",
                         "Sw",
-                        "Sl"
+                        "Sf",
+                        "Kn",
+                        "Sl",
+                        "2",
+                        "3",
+                        "So"
                     ]
                 },
                 {
                     "name": "Burrito-Beef-Bowl (Reis, Chili-Hack, Mais, Salat, Tomate, Guacamole, Sauerrahm und Koriander)",
                     "price": 3.5,
                     "ingredients": [
-                        "2",
                         "Ei",
-                        "Kn",
-                        "Sf",
                         "Mi",
-                        "1",
-                        "R"
+                        "Sf",
+                        "Kn",
+                        "2",
+                        "R",
+                        "1"
                     ]
                 }
             ]
@@ -122,42 +122,42 @@
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "3",
                         "S",
-                        "Gl",
-                        "GlW",
                         "GlG",
-                        "Sf",
+                        "GlW",
+                        "Mi",
                         "Sw",
-                        "Mi"
+                        "Gl",
+                        "Kn",
+                        "Sf",
+                        "3"
                     ]
                 },
                 {
                     "name": "Pizza Vegetariana mit Mozzarella und Grillgemüse",
                     "price": 3.5,
                     "ingredients": [
-                        "So",
-                        "Gl",
-                        "GlW",
                         "GlG",
+                        "Mi",
+                        "GlW",
+                        "Gl",
                         "Sl",
-                        "Mi"
+                        "So"
                     ]
                 },
                 {
                     "name": "French Connection (Salat mit Ziegenkäse, Weintrauben, Mandeln) dazu Himbeer-Balsamico-Dressing",
                     "price": 4,
                     "ingredients": [
+                        "5",
+                        "GlR",
+                        "GlW",
+                        "Mi",
+                        "ScM",
+                        "Sw",
+                        "Gl",
                         "Sc",
                         "3",
-                        "Gl",
-                        "GlW",
-                        "ScM",
-                        "Mi",
-                        "5",
-                        "Sw",
-                        "GlR",
                         "1"
                     ]
                 }
@@ -177,31 +177,31 @@
                     "name": "Gegrillter Maiskolben mit Ofenkartoffeln und Dip",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
                         "Sl",
-                        "Mi",
-                        "1"
+                        "Sf",
+                        "1",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rendang - Indonesisches Rindergulasch (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "2",
-                        "R"
+                        "R",
+                        "2"
                     ]
                 },
                 {
                     "name": "Tandoori-Chicken-Bowl (Hähnchen, Basmatireis, Mangosalat, Rote Beete, Raita)",
                     "price": 4,
                     "ingredients": [
-                        "2",
                         "4",
-                        "Kn",
-                        "Se",
                         "Mi",
                         "Sf",
-                        "9"
+                        "Kn",
+                        "2",
+                        "9",
+                        "Se"
                     ]
                 }
             ]
@@ -221,22 +221,22 @@
                     "price": 1.9,
                     "ingredients": [
                         "Ei",
-                        "Gl",
+                        "Mi",
                         "GlW",
                         "Sl",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
                         "Fi",
-                        "Sl",
-                        "Mi"
+                        "Ei",
+                        "Mi",
+                        "GlW",
+                        "Gl",
+                        "Sl"
                     ]
                 }
             ]
