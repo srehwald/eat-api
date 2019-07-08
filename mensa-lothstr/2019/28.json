@@ -9,46 +9,46 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
                         "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Schweinelachssteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "GlW",
                         "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
-                        "Kn",
+                        "GlW",
                         "1",
-                        "Sl",
+                        "Ei",
                         "Gl",
+                        "Kn",
                         "Mi",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
+                        "GlW",
+                        "Gl",
                         "Kn",
                         "GlG",
                         "R",
-                        "Sl",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "Sl"
                     ]
                 }
             ]
@@ -61,25 +61,25 @@
                     "price": 1,
                     "ingredients": [
                         "GlW",
+                        "Gl",
                         "Kn",
-                        "Sf",
-                        "Gl"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
                         "Kn",
-                        "2",
-                        "Sl",
-                        "11",
-                        "5",
-                        "So",
                         "3",
+                        "So",
                         "Sf",
-                        "Sw"
+                        "S",
+                        "Sw",
+                        "2",
+                        "5",
+                        "11",
+                        "Sl"
                     ]
                 },
                 {
@@ -87,21 +87,21 @@
                     "price": 2.4,
                     "ingredients": [
                         "S",
-                        "Sl",
-                        "8"
+                        "8",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Burrito-Beef-Bowl (Reis, Chili-Hack, Mais, Salat, Tomate, Guacamole, Sauerrahm und Koriander)",
                     "price": 3.5,
                     "ingredients": [
+                        "1",
                         "Ei",
                         "Kn",
-                        "2",
-                        "1",
-                        "Mi",
                         "R",
-                        "Sf"
+                        "Sf",
+                        "2",
+                        "Mi"
                     ]
                 },
                 {
@@ -109,8 +109,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -130,25 +130,25 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "Kn",
-                        "GlG",
-                        "Gl",
-                        "3",
-                        "Mi",
                         "GlW",
+                        "Gl",
+                        "Kn",
+                        "3",
+                        "GlG",
                         "Sf",
-                        "Sw"
+                        "S",
+                        "Sw",
+                        "Mi"
                     ]
                 },
                 {
@@ -163,16 +163,16 @@
                     "name": "French Connection (Salat mit Ziegenkäse, Weintrauben, Mandeln) dazu Himbeer-Balsamico-Dressing",
                     "price": 4,
                     "ingredients": [
-                        "GlR",
-                        "Sw",
                         "1",
-                        "5",
                         "Gl",
-                        "3",
-                        "Mi",
-                        "Sc",
                         "GlW",
-                        "ScM"
+                        "GlR",
+                        "Sc",
+                        "3",
+                        "Sw",
+                        "5",
+                        "ScM",
+                        "Mi"
                     ]
                 }
             ]
@@ -192,21 +192,21 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "2",
-                        "1"
+                        "1",
+                        "2"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "99",
+                        "GlW",
+                        "Gl",
                         "Kn",
                         "GlG",
-                        "Gl",
-                        "Mi",
-                        "GlW",
-                        "Sw"
+                        "Sw",
+                        "99",
+                        "Mi"
                     ]
                 },
                 {
@@ -221,13 +221,13 @@
                     "name": "Tandoori-Chicken-Bowl (Hähnchen, Basmatireis, Mangosalat, Rote Beete, Raita)",
                     "price": 4,
                     "ingredients": [
-                        "9",
                         "Kn",
-                        "2",
+                        "Sf",
                         "Mi",
+                        "2",
                         "Se",
-                        "4",
-                        "Sf"
+                        "9",
+                        "4"
                     ]
                 }
             ]
@@ -246,27 +246,27 @@
                     "name": "Spaghetti Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
+                        "GlW",
                         "Ei",
-                        "Kn",
-                        "2",
-                        "Sl",
                         "Gl",
+                        "Kn",
                         "3",
+                        "S",
+                        "2",
                         "Mi",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "Mi",
-                        "Gl",
                         "GlW",
-                        "Fi"
+                        "Ei",
+                        "Gl",
+                        "Fi",
+                        "Mi",
+                        "Sl"
                     ]
                 }
             ]
