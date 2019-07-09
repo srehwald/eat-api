@@ -9,24 +9,24 @@
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Kn",
-                        "GlW",
-                        "Gl",
+                        "Mi",
                         "Sl",
-                        "Ei"
+                        "Gl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Kn",
-                        "GlW",
-                        "Gl",
+                        "Mi",
                         "Sl",
-                        "Ei"
+                        "Gl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
@@ -49,8 +49,8 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "Sl",
+                        "GlG",
                         "Gl",
                         "Kn"
                     ]
@@ -64,8 +64,8 @@
                     "name": "Graupen-Gemüse-Pfanne (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "Sl",
+                        "GlG",
                         "Gl",
                         "Kn"
                     ]
@@ -79,18 +79,18 @@
                     "name": "Lammgulasch nach Art der Provence",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Lammgulasch nach Art der Provence (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 }
             ]
@@ -102,35 +102,35 @@
                     "name": "Phad Thai - Thailändisches Nudelgericht",
                     "price": "N/A",
                     "ingredients": [
-                        "En",
-                        "GlW",
                         "Kn",
-                        "Gl",
                         "So",
+                        "Gl",
+                        "Ei",
                         "Fi",
-                        "Ei"
+                        "GlW",
+                        "En"
                     ]
                 },
                 {
                     "name": "Phad Thai - Thailändisches Nudelgericht (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "En",
-                        "GlW",
                         "Kn",
-                        "Gl",
                         "So",
+                        "Gl",
+                        "Ei",
                         "Fi",
-                        "Ei"
+                        "GlW",
+                        "En"
                     ]
                 },
                 {
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -142,9 +142,9 @@
                     "name": "Kräuterpolenta mit Tomatenragout (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -156,40 +156,40 @@
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Mi",
                         "1",
-                        "GlW",
                         "Kn",
+                        "Mi",
+                        "Sf",
                         "Gl",
-                        "2",
-                        "Ei"
+                        "Ei",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Mi",
                         "1",
-                        "GlW",
                         "Kn",
+                        "Mi",
+                        "Sf",
                         "Gl",
-                        "2",
-                        "Ei"
+                        "Ei",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Mi",
+                        "GlG",
+                        "Gl",
                         "3",
                         "GlW",
-                        "Kn",
-                        "Gl",
-                        "GlG",
                         "2"
                     ]
                 },
@@ -197,12 +197,12 @@
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen (2)",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Mi",
+                        "GlG",
+                        "Gl",
                         "3",
                         "GlW",
-                        "Kn",
-                        "Gl",
-                        "GlG",
                         "2"
                     ]
                 }
@@ -257,22 +257,22 @@
                     "name": "Andalusisches Rinderragout (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
                         "99",
-                        "GlW",
+                        "R",
                         "Gl",
-                        "Sw"
+                        "Sw",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Andalusisches Rinderragout (GQB) (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
                         "99",
-                        "GlW",
+                        "R",
                         "Gl",
-                        "Sw"
+                        "Sw",
+                        "GlW"
                     ]
                 },
                 {
@@ -280,9 +280,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Gl",
+                        "GlW",
                         "Ei",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -290,9 +290,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Gl",
+                        "GlW",
                         "Ei",
-                        "GlW"
+                        "Gl"
                     ]
                 }
             ]
@@ -305,11 +305,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlD",
-                        "6",
-                        "3",
-                        "Mi",
                         "Kn",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "3",
+                        "6"
                     ]
                 },
                 {
@@ -317,11 +317,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlD",
-                        "6",
-                        "3",
-                        "Mi",
                         "Kn",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "3",
+                        "6"
                     ]
                 },
                 {
@@ -329,9 +329,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "GlW",
-                        "Gl",
                         "So",
+                        "Gl",
+                        "GlW",
                         "2"
                     ]
                 },
@@ -340,9 +340,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "GlW",
-                        "Gl",
                         "So",
+                        "Gl",
+                        "GlW",
                         "2"
                     ]
                 },
@@ -375,10 +375,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
-                        "Mi",
-                        "3",
                         "Kn",
+                        "Mi",
                         "Sw",
+                        "3",
                         "5"
                     ]
                 },
@@ -387,10 +387,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
-                        "Mi",
-                        "3",
                         "Kn",
+                        "Mi",
                         "Sw",
+                        "3",
                         "5"
                     ]
                 }
@@ -404,12 +404,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "11",
-                        "GlW",
                         "Kn",
-                        "Gl",
-                        "So",
                         "Sl",
+                        "So",
+                        "Gl",
                         "Fi",
+                        "GlW",
                         "2"
                     ]
                 },
@@ -418,12 +418,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "11",
-                        "GlW",
                         "Kn",
-                        "Gl",
-                        "So",
                         "Sl",
+                        "So",
+                        "Gl",
                         "Fi",
+                        "GlW",
                         "2"
                     ]
                 },
@@ -431,9 +431,9 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -445,9 +445,9 @@
                     "name": "Zartweizen mit Gemüse (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -459,26 +459,26 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
                         "1",
-                        "GlW",
-                        "Gl",
+                        "Kn",
+                        "Mi",
                         "Sl",
-                        "Ei"
+                        "Gl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce (2)",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
                         "1",
-                        "GlW",
-                        "Gl",
+                        "Kn",
+                        "Mi",
                         "Sl",
-                        "Ei"
+                        "Gl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
@@ -486,12 +486,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
+                        "Kn",
                         "Mi",
                         "99",
-                        "Kn",
-                        "GlW",
+                        "GlG",
                         "Gl",
-                        "GlG"
+                        "GlW"
                     ]
                 },
                 {
@@ -499,12 +499,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
+                        "Kn",
                         "Mi",
                         "99",
-                        "Kn",
-                        "GlW",
+                        "GlG",
                         "Gl",
-                        "GlG"
+                        "GlW"
                     ]
                 }
             ]
