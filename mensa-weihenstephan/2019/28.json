@@ -9,33 +9,33 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Kn",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinelachssteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
+                        "S",
                         "GlW",
-                        "S"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Sl",
                         "1",
-                        "Ei",
-                        "Mi",
-                        "Kn",
+                        "Sl",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Ei",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -44,11 +44,11 @@
                     "ingredients": [
                         "GlG",
                         "Sl",
-                        "Mi",
                         "R",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -60,49 +60,49 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
+                        "Sf",
                         "Kn",
-                        "Sf"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
+                        "S",
+                        "So",
+                        "11",
                         "Sl",
+                        "2",
                         "Sf",
                         "Sw",
-                        "11",
-                        "5",
-                        "3",
                         "Kn",
-                        "So",
-                        "S"
+                        "3",
+                        "5"
                     ]
                 },
                 {
                     "name": "Burrito-Beef-Bowl (Reis, Chili-Hack, Mais, Salat, Tomate, Guacamole, Sauerrahm und Koriander)",
                     "price": 3.5,
                     "ingredients": [
-                        "2",
-                        "Sf",
                         "1",
-                        "Ei",
-                        "Mi",
+                        "2",
                         "R",
-                        "Kn"
+                        "Sf",
+                        "Ei",
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -114,8 +114,8 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
@@ -123,14 +123,14 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlG",
-                        "Sf",
+                        "S",
                         "Mi",
+                        "Sf",
                         "Sw",
-                        "3",
-                        "Kn",
-                        "Gl",
                         "GlW",
-                        "S"
+                        "Gl",
+                        "Kn",
+                        "3"
                     ]
                 },
                 {
@@ -138,27 +138,27 @@
                     "price": 3.5,
                     "ingredients": [
                         "GlG",
+                        "So",
                         "Sl",
-                        "Mi",
-                        "Gl",
                         "GlW",
-                        "So"
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "French Connection (Salat mit Ziegenkäse, Weintrauben, Mandeln) dazu Himbeer-Balsamico-Dressing",
                     "price": 4,
                     "ingredients": [
-                        "Sc",
+                        "GlR",
                         "1",
-                        "Mi",
-                        "Sw",
-                        "5",
-                        "3",
                         "ScM",
-                        "Gl",
+                        "Mi",
+                        "Sc",
+                        "Sw",
                         "GlW",
-                        "GlR"
+                        "Gl",
+                        "3",
+                        "5"
                     ]
                 }
             ]
@@ -177,18 +177,18 @@
                     "name": "Gegrillter Maiskolben mit Ofenkartoffeln und Dip",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
                         "Sf",
+                        "Sl",
                         "1",
-                        "Sl"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rendang - Indonesisches Rindergulasch (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "2"
+                        "2",
+                        "R"
                     ]
                 },
                 {
@@ -196,12 +196,12 @@
                     "price": 4,
                     "ingredients": [
                         "2",
-                        "Sf",
-                        "Mi",
-                        "Se",
                         "9",
+                        "Sf",
+                        "4",
                         "Kn",
-                        "4"
+                        "Mi",
+                        "Se"
                     ]
                 }
             ]
@@ -221,10 +221,10 @@
                     "price": 1.9,
                     "ingredients": [
                         "Sl",
-                        "Ei",
-                        "Mi",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
@@ -232,11 +232,11 @@
                     "price": 3.5,
                     "ingredients": [
                         "Sl",
-                        "Ei",
-                        "Mi",
                         "Fi",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]

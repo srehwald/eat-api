@@ -10,8 +10,8 @@
                     "price": 1,
                     "ingredients": [
                         "Kn",
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "2"
                     ]
                 },
@@ -19,11 +19,11 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
-                        "GlW",
-                        "Gl",
                         "Kn",
+                        "GlW",
                         "Mi",
+                        "Gl",
+                        "S",
                         "GlG"
                     ]
                 },
@@ -32,8 +32,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Kn",
-                        "So",
-                        "Sf"
+                        "Sf",
+                        "So"
                     ]
                 }
             ]
@@ -50,13 +50,13 @@
                     "name": "Penne all'amatriciana",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
-                        "S",
-                        "GlW",
-                        "Gl",
                         "Kn",
                         "3",
-                        "2"
+                        "GlW",
+                        "2",
+                        "Gl",
+                        "Sl",
+                        "S"
                     ]
                 },
                 {
@@ -68,13 +68,13 @@
                     "name": "Falafel Friends (Salat mit Falafeln, Couscous, Gurke, Tomate, Hummus) dazu Joghurt-Minz-Dip",
                     "price": 4,
                     "ingredients": [
-                        "GlW",
-                        "GlR",
-                        "Gl",
                         "Kn",
+                        "GlR",
+                        "GlW",
                         "Mi",
-                        "GlG",
-                        "Se"
+                        "Se",
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -87,31 +87,31 @@
                     "price": 1,
                     "ingredients": [
                         "Kn",
+                        "Gl",
                         "So",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": 2.6,
                     "ingredients": [
-                        "Sl",
+                        "Sf",
                         "Ei",
                         "GlW",
+                        "Mi",
                         "Gl",
-                        "Sf",
-                        "Mi"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Grünes Hähnchen-Curry mit Wokgemüse und Basmatireis",
                     "price": 3.2,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Kn",
                         "So",
+                        "GlW",
+                        "Gl",
                         "En"
                     ]
                 },
@@ -119,11 +119,11 @@
                     "name": "Bowl Marrakkesch (Couscous, Broccoli, Falafel, Petersiliensalat, Tahin-Joghurt-Dip)",
                     "price": 4,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Kn",
+                        "GlW",
                         "Mi",
-                        "Se"
+                        "Se",
+                        "Gl"
                     ]
                 }
             ]
@@ -143,23 +143,23 @@
                     "name": "Gebratene Currynudeln mit Gemüsestreifen",
                     "price": 1.55,
                     "ingredients": [
-                        "Sl",
+                        "Sf",
                         "Ei",
                         "GlW",
+                        "Se",
                         "Gl",
-                        "Sf",
-                        "Se"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "S",
-                        "GlW",
-                        "Gl",
                         "Kn",
+                        "GlW",
                         "Mi",
+                        "Gl",
+                        "S",
                         "GlG"
                     ]
                 },
@@ -167,11 +167,11 @@
                     "name": "Antipasti Party (Salat mit Antipasti, Mozzarella, Basilikum) dazu Balsamico-Dressing",
                     "price": 4.5,
                     "ingredients": [
-                        "GlW",
                         "Sw",
-                        "Gl",
                         "1",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]
@@ -183,16 +183,16 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "1",
                         "Mi",
+                        "1",
                         "GlW",
                         "Gl"
                     ]
@@ -201,11 +201,11 @@
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4,
                     "ingredients": [
-                        "GlW",
-                        "Fi",
-                        "Gl",
                         "Kn",
-                        "Mi"
+                        "Fi",
+                        "GlW",
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]
