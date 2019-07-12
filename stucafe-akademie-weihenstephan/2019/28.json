@@ -9,12 +9,12 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Sl",
-                        "1",
                         "Ei",
+                        "Kn",
                         "Mi",
                         "GlW",
+                        "Sl",
+                        "1",
                         "Gl"
                     ]
                 },
@@ -22,12 +22,12 @@
                     "name": "Esterhazygulasch vom Rind",
                     "price": 2.8,
                     "ingredients": [
-                        "GlG",
-                        "Kn",
-                        "Sl",
-                        "Mi",
-                        "GlW",
                         "R",
+                        "Kn",
+                        "Mi",
+                        "GlG",
+                        "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 }
@@ -40,10 +40,10 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -55,25 +55,25 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "GlG",
-                        "S",
                         "Kn",
                         "Mi",
-                        "GlW",
-                        "3",
+                        "GlG",
                         "Sf",
-                        "Gl",
-                        "Sw"
+                        "GlW",
+                        "S",
+                        "Sw",
+                        "3",
+                        "Gl"
                     ]
                 }
             ]
@@ -85,17 +85,17 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
+                        "Mi",
                         "2",
-                        "Mi"
+                        "1"
                     ]
                 },
                 {
                     "name": "Rendang - Geschmortes Rindfleisch indonesisch",
                     "price": 3.2,
                     "ingredients": [
-                        "2",
-                        "R"
+                        "R",
+                        "2"
                     ]
                 }
             ]
@@ -107,10 +107,10 @@
                     "name": "Schupfnudeln mit Sauerkraut und Kümmel",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
                         "Ei",
                         "Mi",
                         "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 },
@@ -118,11 +118,11 @@
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Sl",
                         "Ei",
                         "Mi",
                         "Fi",
                         "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 }
