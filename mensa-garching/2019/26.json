@@ -16,10 +16,10 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Mi",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -27,8 +27,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "11",
-                        "GlW",
                         "2",
+                        "GlW",
                         "So",
                         "Gl"
                     ]
@@ -38,30 +38,30 @@
                     "price": 3.0,
                     "ingredients": [
                         "11",
-                        "GlW",
                         "2",
+                        "GlW",
                         "So",
-                        "Gl",
-                        "Fi"
+                        "Fi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Sf",
-                        "GlW",
-                        "GlG",
-                        "Kn",
-                        "S",
-                        "2",
                         "3",
-                        "Gl",
-                        "Mi",
+                        "Sf",
+                        "S",
+                        "GlG",
+                        "R",
+                        "2",
+                        "GlW",
                         "Sw",
                         "99",
-                        "R",
-                        "Sl"
+                        "Sl",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -74,18 +74,18 @@
                     "price": 1,
                     "ingredients": [
                         "3",
-                        "5",
+                        "Sl",
                         "Sw",
-                        "Sl"
+                        "5"
                     ]
                 },
                 {
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -93,68 +93,68 @@
                     "price": 1.9,
                     "ingredients": [
                         "Sf",
-                        "GlW",
-                        "GlG",
-                        "Kn",
                         "S",
-                        "Gl",
-                        "Mi",
+                        "GlG",
+                        "R",
                         "Ei",
-                        "R"
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Maultaschen mit Gemüsefüllung und Kümmel-Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "GlG",
-                        "Kn",
-                        "Gl",
-                        "Mi",
                         "Ei",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit 1 Paar Pfälzer",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
+                        "3",
                         "S",
-                        "5",
+                        "R",
                         "2",
                         "8",
-                        "3",
                         "Sw",
-                        "R",
-                        "Sl"
+                        "Sl",
+                        "1",
+                        "5"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit ein Paar Wiener",
                     "price": 2.4,
                     "ingredients": [
+                        "3",
                         "S",
-                        "5",
+                        "R",
                         "2",
                         "8",
-                        "3",
                         "Sw",
-                        "R",
-                        "Sl"
+                        "Sl",
+                        "5"
                     ]
                 },
                 {
                     "name": "Paniertes Truthahnschnitzel mit Bratensauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "GlG",
-                        "Kn",
-                        "Gl",
+                        "GlW",
+                        "Sl",
                         "Mi",
-                        "Sl"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -162,10 +162,10 @@
                     "price": 2.8,
                     "ingredients": [
                         "GlW",
+                        "Mi",
                         "1",
                         "Kn",
-                        "Gl",
-                        "Mi"
+                        "Gl"
                     ]
                 }
             ]
@@ -177,23 +177,23 @@
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
+                        "So",
                         "Sf",
-                        "2",
-                        "So"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
+                        "2",
+                        "Ei",
                         "GlW",
+                        "Mi",
                         "1",
                         "Kn",
-                        "2",
-                        "Gl",
-                        "Mi",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
@@ -208,11 +208,11 @@
                     "name": "Pasta Casalinga mit Schweinegeschnetzeltem und Pilzen",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "S",
+                        "GlW",
+                        "Mi",
                         "Kn",
-                        "Gl",
-                        "Mi"
+                        "Gl"
                     ]
                 }
             ]
@@ -224,45 +224,45 @@
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": 1,
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit grünem Pfeffer",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
-                        "GlG",
-                        "Kn",
                         "S",
-                        "Gl",
-                        "Mi"
+                        "GlG",
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
                         "GlG",
-                        "Kn",
-                        "Gl",
-                        "Mi",
+                        "GlW",
                         "Sw",
                         "99",
-                        "Sl"
+                        "Sl",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Mi",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -274,8 +274,8 @@
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
@@ -283,53 +283,53 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
                         "Fi",
-                        "Mi"
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
                     "price": 2.8,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "Ei",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
-                        "GlG",
-                        "Kn",
-                        "S",
-                        "2",
                         "3",
-                        "Gl",
-                        "Mi"
+                        "S",
+                        "GlG",
+                        "2",
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Speck-Zwiebelsauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Sf",
-                        "GlW",
-                        "GlG",
-                        "Kn",
-                        "S",
-                        "2",
                         "3",
-                        "Gl",
-                        "Mi",
+                        "Sf",
+                        "S",
+                        "GlG",
+                        "R",
+                        "2",
+                        "GlW",
                         "Sw",
                         "99",
-                        "R",
-                        "Sl"
+                        "Sl",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
