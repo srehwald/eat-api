@@ -17,9 +17,9 @@
                     "price": 1.55,
                     "ingredients": [
                         "GlW",
+                        "Gl",
                         "2",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
@@ -27,24 +27,24 @@
                     "price": 2.8,
                     "ingredients": [
                         "GlW",
+                        "Gl",
                         "2",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "Sf",
                         "GlW",
-                        "Kn",
-                        "Gl",
                         "Mi",
                         "R",
-                        "GlG",
+                        "9",
+                        "Kn",
+                        "Sf",
                         "2",
-                        "9"
+                        "GlG",
+                        "Gl"
                     ]
                 }
             ]
@@ -57,33 +57,21 @@
                     "price": 1,
                     "ingredients": [
                         "Sf",
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
                         "GlW",
-                        "Gl",
-                        "1",
+                        "Ei",
                         "Mi",
+                        "1",
                         "2",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "Asia-Topf mit Schweinefleisch",
-                    "price": 2.4,
-                    "ingredients": [
                         "Sf",
-                        "GlW",
-                        "Kn",
-                        "Gl",
-                        "So",
-                        "S"
+                        "Gl"
                     ]
                 },
                 {
@@ -91,12 +79,24 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "GlD",
-                        "Gl",
-                        "1",
+                        "Ei",
                         "Mi",
+                        "GlD",
+                        "1",
                         "2",
-                        "Ei"
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Asia-Topf mit Schweinefleisch",
+                    "price": 2.4,
+                    "ingredients": [
+                        "So",
+                        "GlW",
+                        "Kn",
+                        "Sf",
+                        "Gl",
+                        "S"
                     ]
                 }
             ]
@@ -115,25 +115,25 @@
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
                         "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Sw",
-                        "5",
-                        "Gl",
-                        "Sl",
                         "So",
-                        "Mi",
+                        "GlW",
                         "3",
                         "Ei",
+                        "Mi",
+                        "Sl",
+                        "5",
+                        "Sw",
+                        "Gl",
                         "11"
                     ]
                 },
@@ -142,11 +142,11 @@
                     "price": 3.0,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
                         "Mi",
-                        "GlG",
+                        "Kn",
                         "99",
+                        "GlG",
+                        "Gl",
                         "S"
                     ]
                 }
@@ -160,19 +160,19 @@
                     "price": 1,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.9,
                     "ingredients": [
-                        "Sf",
-                        "R",
                         "8",
-                        "11",
-                        "S"
+                        "R",
+                        "Sf",
+                        "S",
+                        "11"
                     ]
                 },
                 {
@@ -180,8 +180,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Sf",
-                        "Sl",
                         "Kn",
+                        "Sl",
                         "S"
                     ]
                 },
@@ -190,10 +190,10 @@
                     "price": 3.2,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
                         "Mi",
                         "R",
+                        "Kn",
+                        "Gl",
                         "S"
                     ]
                 }
@@ -207,8 +207,8 @@
                     "price": 1,
                     "ingredients": [
                         "GlW",
-                        "Sl",
-                        "Gl"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
@@ -216,13 +216,13 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Sl",
-                        "R",
                         "3",
+                        "R",
+                        "Sl",
                         "2",
-                        "8",
-                        "S"
+                        "Gl",
+                        "S",
+                        "8"
                     ]
                 },
                 {
@@ -230,13 +230,13 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "1",
-                        "Mi",
-                        "2",
                         "Ei",
+                        "Mi",
+                        "9",
+                        "1",
+                        "2",
                         "Fi",
-                        "9"
+                        "Gl"
                     ]
                 },
                 {
@@ -244,10 +244,10 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Mi",
                         "3",
-                        "Ei"
+                        "Ei",
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]

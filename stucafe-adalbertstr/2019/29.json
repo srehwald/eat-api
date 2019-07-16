@@ -9,18 +9,18 @@
                     "name": "Rougaille Soja von Mauritius (Soja in würziger Tomatensauce)",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
                         "Sf",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
+                        "Sf",
                         "Kn",
                         "10",
-                        "Sf",
                         "11"
                     ]
                 }
@@ -33,24 +33,24 @@
                     "name": "Pasta mit Tomaten-Zucchini-Sauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rinderbraten mit Rotweinsauce",
                     "price": 3.2,
                     "ingredients": [
+                        "R",
+                        "Kn",
+                        "Mi",
                         "Gl",
                         "Sl",
+                        "99",
                         "GlW",
                         "Sw",
-                        "99",
-                        "GlG",
-                        "R",
-                        "Mi",
-                        "Kn"
+                        "GlG"
                     ]
                 }
             ]
@@ -59,27 +59,27 @@
             "date": "2019-07-17",
             "dishes": [
                 {
-                    "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
-                    "price": 2.6,
-                    "ingredients": [
-                        "Sf",
-                        "Ei",
-                        "Gl",
-                        "Sl",
-                        "GlW",
-                        "Mi"
-                    ]
-                },
-                {
                     "name": "Topfenpalatschinken",
                     "price": 2.6,
                     "ingredients": [
+                        "Mi",
                         "Ei",
                         "Gl",
                         "ScM",
                         "GlW",
-                        "Mi",
                         "Sc"
+                    ]
+                },
+                {
+                    "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
+                    "price": 2.6,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "Ei",
+                        "Gl",
+                        "Sl",
+                        "GlW"
                     ]
                 }
             ]
@@ -103,10 +103,10 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "2",
                         "GlW",
                         "Gl",
-                        "2"
+                        "Kn"
                     ]
                 }
             ]
@@ -125,9 +125,9 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "1",
-                        "GlW",
                         "Mi",
+                        "GlW",
+                        "1",
                         "Gl"
                     ]
                 }

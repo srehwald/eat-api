@@ -10,9 +10,20 @@
                     "price": 1,
                     "ingredients": [
                         "GlW",
+                        "Gl",
                         "2",
-                        "Kn",
-                        "Gl"
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Currywurst mit Honig-Ingwer-Ketchup",
+                    "price": 1.55,
+                    "ingredients": [
+                        "8",
+                        "R",
+                        "Sf",
+                        "S",
+                        "11"
                     ]
                 },
                 {
@@ -20,10 +31,10 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
                         "Mi",
+                        "Kn",
                         "GlG",
+                        "Gl",
                         "S"
                     ]
                 },
@@ -32,21 +43,21 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
-                        "Sl",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "Kn",
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
-                        "10",
-                        "11",
+                        "Sf",
                         "Kn",
-                        "Sf"
+                        "10",
+                        "11"
                     ]
                 }
             ]
@@ -55,7 +66,7 @@
             "date": "2019-07-16",
             "dishes": [
                 {
-                    "name": "Frisches Gemüse aus der Pfanne mit Reis",
+                    "name": "Reispfanne mit frischem Gemüse",
                     "price": 1,
                     "ingredients": []
                 },
@@ -70,19 +81,33 @@
                     ]
                 },
                 {
+                    "name": "Krautwickerl mit Zwiebel-Sauce",
+                    "price": 2.6,
+                    "ingredients": [
+                        "GlW",
+                        "3",
+                        "Mi",
+                        "Kn",
+                        "2",
+                        "GlG",
+                        "Gl",
+                        "S"
+                    ]
+                },
+                {
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": 2.8,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
-                        "1",
-                        "Mi",
-                        "GlG",
                         "3",
+                        "Mi",
+                        "Kn",
+                        "1",
                         "2",
-                        "8",
-                        "S"
+                        "GlG",
+                        "Gl",
+                        "S",
+                        "8"
                     ]
                 },
                 {
@@ -90,14 +115,14 @@
                     "price": 3.2,
                     "ingredients": [
                         "GlW",
-                        "Sw",
-                        "Kn",
-                        "Gl",
-                        "Sl",
                         "Mi",
                         "R",
+                        "Kn",
+                        "Sl",
+                        "99",
+                        "Sw",
                         "GlG",
-                        "99"
+                        "Gl"
                     ]
                 },
                 {
@@ -105,11 +130,11 @@
                     "price": 4,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
-                        "Sc",
                         "Mi",
-                        "ScM"
+                        "Sc",
+                        "Kn",
+                        "ScM",
+                        "Gl"
                     ]
                 }
             ]
@@ -121,10 +146,10 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "So",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -132,20 +157,20 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Sw",
-                        "Kn",
-                        "Gl",
-                        "1",
+                        "3",
                         "R",
-                        "3"
+                        "Kn",
+                        "1",
+                        "Sw",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Berner Röstigratin mit Kräuterdip",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
                         "Kn",
+                        "Ei",
                         "Mi"
                     ]
                 },
@@ -153,12 +178,12 @@
                     "name": "Paniertes Truthahnschnitzel mit Currydip",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
                         "GlW",
-                        "Gl",
-                        "1",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "1",
+                        "Sf",
+                        "Gl"
                     ]
                 },
                 {
@@ -166,10 +191,10 @@
                     "price": 4,
                     "ingredients": [
                         "GlW",
+                        "Mi",
                         "Kn",
-                        "Gl",
                         "Se",
-                        "Mi"
+                        "Gl"
                     ]
                 }
             ]
@@ -181,20 +206,20 @@
                     "name": "Pikante Hirse mit Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Currynudeln mit Gemüsestreifen",
                     "price": 1.55,
                     "ingredients": [
-                        "Sf",
                         "GlW",
-                        "Gl",
+                        "Ei",
                         "Sl",
                         "Se",
-                        "Ei"
+                        "Sf",
+                        "Gl"
                     ]
                 },
                 {
@@ -202,9 +227,9 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
+                        "Gl",
                         "2",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
@@ -212,13 +237,13 @@
                     "price": 2.8,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
                         "Mi",
-                        "GlG",
+                        "Kn",
                         "2",
-                        "8",
-                        "S"
+                        "GlG",
+                        "Gl",
+                        "S",
+                        "8"
                     ]
                 }
             ]
@@ -238,19 +263,19 @@
                     "name": "Spaghetti Frutti di Mare",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Kr",
                         "Wt",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Kr"
                     ]
                 },
                 {
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
                         "GlW",
                         "1",
+                        "Mi",
                         "Gl"
                     ]
                 },
@@ -259,10 +284,10 @@
                     "price": 4,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl",
                         "Mi",
-                        "Fi"
+                        "Kn",
+                        "Fi",
+                        "Gl"
                     ]
                 }
             ]
