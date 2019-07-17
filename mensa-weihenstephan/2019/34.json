@@ -9,20 +9,20 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "GlW",
-                        "Sl",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinelachssteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
                         "Mi",
                         "S",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
@@ -34,18 +34,18 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1,
                     "ingredients": [
-                        "Sf",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
                         "Sl",
+                        "S",
                         "8"
                     ]
                 }
@@ -58,23 +58,23 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
+                        "Sf",
+                        "S",
+                        "GlG",
+                        "3",
                         "Mi",
-                        "Sw",
                         "GlW",
                         "Gl",
-                        "Sf",
-                        "GlG",
                         "Kn",
-                        "S",
-                        "3"
+                        "Sw"
                     ]
                 }
             ]
@@ -93,13 +93,13 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "99",
+                        "GlG",
                         "Mi",
-                        "Sw",
                         "GlW",
                         "Gl",
-                        "GlG",
-                        "Kn"
+                        "Kn",
+                        "Sw",
+                        "99"
                     ]
                 }
             ]
@@ -118,15 +118,15 @@
                     "name": "Hackbraten mit Rahmsauce",
                     "price": 2.8,
                     "ingredients": [
+                        "Sf",
+                        "So",
+                        "S",
+                        "GlG",
                         "Mi",
                         "R",
-                        "So",
                         "GlW",
                         "Gl",
-                        "Sf",
-                        "GlG",
                         "Kn",
-                        "S",
                         "Ei"
                     ]
                 }
