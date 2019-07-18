@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
+                        "Gl",
                         "Kn",
                         "Sl",
-                        "Gl",
                         "GlW"
                     ]
                 },
@@ -19,8 +19,8 @@
                     "name": "Pasta mit Sojabolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
                         "Gl",
+                        "Sl",
                         "So",
                         "GlW"
                     ]
@@ -29,13 +29,13 @@
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "R",
-                        "Gl",
-                        "Sl",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Mi",
-                        "GlG"
+                        "GlG",
+                        "Sl",
+                        "R",
+                        "Gl"
                     ]
                 }
             ]
@@ -47,18 +47,18 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Sf"
+                        "Kn",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "Mi",
                         "GlW"
                     ]
@@ -67,9 +67,9 @@
                     "name": "Bratwurstschnecke auf Sauerkraut",
                     "price": 2.6,
                     "ingredients": [
+                        "S",
                         "Sl",
-                        "8",
-                        "S"
+                        "8"
                     ]
                 }
             ]
@@ -89,23 +89,23 @@
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "S",
                         "Kn",
-                        "3",
-                        "GlW",
                         "Mi",
-                        "Sf",
                         "GlG",
-                        "Sw"
+                        "Sf",
+                        "Gl",
+                        "Sw",
+                        "3"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 }
@@ -125,21 +125,21 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
+                        "1",
                         "2",
-                        "Mi",
-                        "1"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Kn",
                         "99",
-                        "GlW",
                         "Mi",
                         "GlG",
+                        "Gl",
                         "Sw"
                     ]
                 }
@@ -159,15 +159,15 @@
                     "name": "Spaghetti Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
+                        "S",
+                        "2",
+                        "Kn",
+                        "Mi",
                         "Ei",
                         "Sl",
-                        "S",
-                        "Kn",
-                        "2",
-                        "3",
-                        "GlW",
-                        "Mi"
+                        "Gl",
+                        "3"
                     ]
                 },
                 {
@@ -183,12 +183,12 @@
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
+                        "Mi",
                         "Ei",
                         "Sl",
                         "Fi",
-                        "GlW",
-                        "Mi"
+                        "Gl"
                     ]
                 }
             ]

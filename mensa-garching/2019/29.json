@@ -9,8 +9,8 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "2",
                         "GlW"
                     ]
@@ -19,9 +19,9 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.55,
                     "ingredients": [
-                        "R",
-                        "8",
                         "S",
+                        "8",
+                        "R",
                         "Sf",
                         "11"
                     ]
@@ -30,34 +30,34 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "S",
                         "Kn",
-                        "GlW",
                         "Mi",
-                        "GlG"
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "Mi",
                         "Ei",
                         "Sl",
-                        "Kn",
-                        "GlW",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
-                        "11",
-                        "10",
                         "Kn",
-                        "Sf"
+                        "11",
+                        "Sf",
+                        "10"
                     ]
                 }
             ]
@@ -74,54 +74,54 @@
                     "name": "Pasta in Tomaten-Oliven-Sauce",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "3",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "3"
                     ]
                 },
                 {
                     "name": "Krautwickerl mit Zwiebel-Sauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "S",
-                        "Kn",
-                        "2",
-                        "3",
                         "GlW",
+                        "S",
+                        "2",
+                        "Kn",
                         "Mi",
-                        "GlG"
+                        "GlG",
+                        "Gl",
+                        "3"
                     ]
                 },
                 {
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": 2.8,
                     "ingredients": [
-                        "8",
-                        "Gl",
-                        "S",
-                        "Kn",
-                        "2",
-                        "3",
-                        "1",
                         "GlW",
+                        "S",
+                        "8",
+                        "2",
+                        "Kn",
                         "Mi",
-                        "GlG"
+                        "GlG",
+                        "Gl",
+                        "1",
+                        "3"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "Gl",
-                        "Sl",
+                        "GlW",
                         "Kn",
                         "99",
-                        "GlW",
                         "Mi",
                         "GlG",
+                        "Sl",
+                        "R",
+                        "Gl",
                         "Sw"
                     ]
                 },
@@ -129,12 +129,12 @@
                     "name": "Spinat-Hummus-Bowl (mit Bulgur, Zucchini, Paprika, Gurke, Tomate, Weißkäse, Mandeln)",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Mi",
-                        "ScM",
-                        "Sc"
+                        "Sc",
+                        "Gl",
+                        "ScM"
                     ]
                 }
             ]
@@ -146,8 +146,8 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "So",
                         "GlW"
                     ]
@@ -156,13 +156,13 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4,
                     "ingredients": [
+                        "GlW",
+                        "Kn",
                         "R",
                         "Gl",
-                        "Kn",
-                        "3",
+                        "Sw",
                         "1",
-                        "GlW",
-                        "Sw"
+                        "3"
                     ]
                 },
                 {
@@ -178,23 +178,23 @@
                     "name": "Paniertes Truthahnschnitzel mit Currydip",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
-                        "1",
                         "GlW",
                         "Mi",
-                        "Sf"
+                        "Ei",
+                        "Sf",
+                        "Gl",
+                        "1"
                     ]
                 },
                 {
                     "name": "Bowl Marrakkesch (Couscous, Broccoli, Falafel, Petersiliensalat, Tahin-Joghurt-Dip)",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
+                        "Se",
+                        "Kn",
                         "Mi",
-                        "Se"
+                        "Gl"
                     ]
                 }
             ]
@@ -214,20 +214,20 @@
                     "name": "Currynudeln mit Gemüsestreifen",
                     "price": 1.55,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
-                        "Sl",
                         "GlW",
                         "Se",
-                        "Sf"
+                        "Ei",
+                        "Sf",
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "2",
                         "GlW"
                     ]
@@ -236,14 +236,14 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "8",
-                        "Gl",
-                        "S",
-                        "Kn",
-                        "2",
                         "GlW",
+                        "S",
+                        "8",
+                        "2",
+                        "Kn",
                         "Mi",
-                        "GlG"
+                        "GlG",
+                        "Gl"
                     ]
                 }
             ]
@@ -263,8 +263,8 @@
                     "name": "Spaghetti Frutti di Mare",
                     "price": 2.4,
                     "ingredients": [
-                        "Kr",
                         "Gl",
+                        "Kr",
                         "GlW",
                         "Wt"
                     ]
@@ -275,19 +275,19 @@
                     "ingredients": [
                         "Gl",
                         "Mi",
-                        "GlW",
-                        "1"
+                        "1",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "Fi",
                         "GlW",
-                        "Mi"
+                        "Kn",
+                        "Mi",
+                        "Fi",
+                        "Gl"
                     ]
                 }
             ]

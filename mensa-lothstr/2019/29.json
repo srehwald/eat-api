@@ -9,9 +9,9 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "GlW",
                         "2",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -19,16 +19,16 @@
                     "name": "Würzige Prager Bratwurst",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
+                        "8",
+                        "Kn",
+                        "GlG",
+                        "2",
+                        "R",
+                        "Mi",
+                        "3",
                         "S",
                         "1",
-                        "Kn",
-                        "R",
-                        "3",
-                        "8",
-                        "GlG",
-                        "Mi",
-                        "GlW",
-                        "2",
                         "Gl"
                     ]
                 },
@@ -36,13 +36,13 @@
                     "name": "Rougaille Soja von Mauritius (Soja in würziger Tomatensauce)",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
                         "Kn",
-                        "Ei",
-                        "Sf",
-                        "Mi",
-                        "GlW",
                         "2",
+                        "Mi",
+                        "Sf",
+                        "So",
+                        "GlW",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -50,13 +50,13 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
                         "Kn",
-                        "Ei",
                         "GlG",
-                        "Mi",
-                        "GlW",
                         "2",
+                        "Mi",
+                        "S",
+                        "GlW",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -65,21 +65,21 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Mi",
                         "Ei",
-                        "Gl"
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pizza Speciale mit Salami, Hinterschinken und Champignons",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
+                        "2",
+                        "Mi",
                         "Sf",
                         "3",
-                        "Mi",
+                        "S",
                         "GlW",
-                        "2",
                         "Gl"
                     ]
                 },
@@ -87,13 +87,13 @@
                     "name": "Lasagne Putenbolognese (hausgemacht) (G)",
                     "price": 2.8,
                     "ingredients": [
+                        "8",
                         "Kn",
                         "Sl",
-                        "3",
-                        "8",
-                        "Mi",
-                        "GlW",
                         "2",
+                        "Mi",
+                        "3",
+                        "GlW",
                         "Gl"
                     ]
                 }
@@ -111,12 +111,12 @@
                     "name": "Penne all'amatriciana",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
                         "Kn",
                         "Sl",
-                        "3",
-                        "GlW",
                         "2",
+                        "3",
+                        "S",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -129,12 +129,12 @@
                     "name": "Falafel Friends (Salat mit Falafeln, Couscous, Gurke, Tomate, Hummus) dazu Joghurt-Minz-Dip",
                     "price": 4,
                     "ingredients": [
-                        "Kn",
-                        "Se",
-                        "GlG",
-                        "GlW",
                         "GlR",
+                        "Kn",
+                        "GlG",
+                        "Se",
                         "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 }
@@ -148,8 +148,8 @@
                     "price": 1,
                     "ingredients": [
                         "GlW",
-                        "So",
                         "Kn",
+                        "So",
                         "Gl"
                     ]
                 },
@@ -157,11 +157,11 @@
                     "name": "Schweineschnitzel Wiener Art",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
                         "Kn",
                         "GlG",
-                        "GlW",
                         "Mi",
+                        "S",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -177,9 +177,9 @@
                     "name": "Grünes Hähnchen-Curry mit Wokgemüse und Basmatireis",
                     "price": 3.2,
                     "ingredients": [
-                        "So",
                         "Kn",
                         "En",
+                        "So",
                         "GlW",
                         "Gl"
                     ]
@@ -190,8 +190,8 @@
                     "ingredients": [
                         "Kn",
                         "Se",
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 }
@@ -213,11 +213,11 @@
                     "name": "Gebratene Currynudeln mit Gemüsestreifen",
                     "price": 1.55,
                     "ingredients": [
-                        "Ei",
-                        "Sf",
-                        "Sl",
                         "Se",
+                        "Sl",
+                        "Sf",
                         "GlW",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -225,16 +225,16 @@
                     "name": "Kasseler mit Rotweinsauce",
                     "price": 2.8,
                     "ingredients": [
-                        "S",
-                        "Kn",
-                        "3",
-                        "99",
-                        "Sw",
                         "8",
+                        "Kn",
                         "GlG",
-                        "Mi",
-                        "GlW",
                         "2",
+                        "99",
+                        "Mi",
+                        "Sw",
+                        "3",
+                        "S",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -242,14 +242,14 @@
                     "name": "Antipasti Party (Salat mit Antipasti, Mozzarella, Basilikum) dazu Balsamico-Dressing",
                     "price": 4.5,
                     "ingredients": [
-                        "So",
-                        "1",
-                        "Ei",
-                        "Sc",
                         "Se",
-                        "Sw",
-                        "GlW",
+                        "1",
                         "Mi",
+                        "Sw",
+                        "So",
+                        "Sc",
+                        "GlW",
+                        "Ei",
                         "Gl"
                     ]
                 }
@@ -272,8 +272,8 @@
                     "ingredients": [
                         "Kn",
                         "Fi",
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 }
