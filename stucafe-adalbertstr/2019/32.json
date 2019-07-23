@@ -18,13 +18,13 @@
                     "price": 3.0,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW",
+                        "R",
                         "GlG",
                         "Mi",
                         "So",
-                        "R",
-                        "2"
+                        "Kn",
+                        "2",
+                        "GlW"
                     ]
                 }
             ]
@@ -36,14 +36,14 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.4,
                     "ingredients": [
+                        "S",
                         "Gl",
-                        "Kn",
-                        "GlW",
                         "GlG",
                         "Mi",
-                        "S",
+                        "Kn",
+                        "2",
                         "Ei",
-                        "2"
+                        "GlW"
                     ]
                 },
                 {
@@ -52,9 +52,9 @@
                     "ingredients": [
                         "Gl",
                         "Kn",
-                        "GlW",
+                        "2",
                         "Ei",
-                        "2"
+                        "GlW"
                     ]
                 }
             ]
@@ -66,26 +66,26 @@
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "GlW",
-                        "Mi",
                         "1",
+                        "Gl",
+                        "Mi",
+                        "Kn",
+                        "2",
                         "Ei",
-                        "2"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Lasagne Bolognese",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "GlW",
-                        "Mi",
                         "1",
+                        "Gl",
                         "R",
-                        "2"
+                        "Mi",
+                        "Kn",
+                        "2",
+                        "GlW"
                     ]
                 }
             ]
@@ -97,8 +97,8 @@
                     "name": "Tandoori Chicken in Joghurtmarinade und Gurken-Minz-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "Sf",
+                        "Kn",
                         "Mi"
                     ]
                 },
@@ -106,13 +106,13 @@
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Sl",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sf",
                         "1",
-                        "Se"
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "Sf",
+                        "Se",
+                        "GlW"
                     ]
                 }
             ]
@@ -124,13 +124,13 @@
                     "name": "Hähnchen Machbous auf würzigem Biriyanireis",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
                         "Gl",
-                        "Kn",
-                        "Sf",
-                        "GlW",
                         "Mi",
-                        "So"
+                        "Sl",
+                        "Sf",
+                        "So",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -138,9 +138,9 @@
                     "price": 2.8,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Mi",
                         "Ei",
-                        "Mi"
+                        "GlW"
                     ]
                 }
             ]
