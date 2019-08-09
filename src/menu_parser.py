@@ -175,7 +175,7 @@ class StudentenwerkMenuParser(MenuParser):
 
 
 class FMIBistroMenuParser(MenuParser):
-    url = "http://www.wilhelm-gastronomie.de/tum-garching"
+    url = "http://www.wilhelm-gastronomie.de/"
     allergens = ["Gluten", "Laktose", "Milcheiweiß", "Hühnerei", "Soja", "Nüsse", "Erdnuss", "Sellerie", "Fisch",
                  "Krebstiere", "Weichtiere", "Sesam", "Senf", "Milch", "Ei"]
     allergens_regex = r"(Allergene:((\s|\n)*(Gluten|Laktose|Milcheiweiß|Hühnerei|Soja|Nüsse|Erdnuss|Sellerie|Fisch|Krebstiere|Weichtiere|Sesam|Senf|Milch|Ei),?(?![\w-]))*)"
