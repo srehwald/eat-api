@@ -9,20 +9,20 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "GlG",
                         "Sl",
-                        "GlG"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "2",
-                        "GlW",
                         "R",
+                        "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -30,9 +30,9 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
+                        "Gl",
                         "Mi",
                         "Ei",
-                        "Gl",
                         "GlW"
                     ]
                 }
@@ -54,28 +54,28 @@
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": 1.9,
                     "ingredients": [
-                        "8",
-                        "Kn",
-                        "Mi",
-                        "Ei",
                         "2",
+                        "8",
                         "GlW",
                         "S",
-                        "Gl",
-                        "3"
+                        "Mi",
+                        "Ei",
+                        "3",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "2",
                         "GlW",
+                        "Mi",
+                        "3",
+                        "Kn",
                         "GlG",
-                        "Gl",
-                        "3"
+                        "Gl"
                     ]
                 }
             ]
@@ -104,10 +104,10 @@
                     "name": "Andalusisches Rinderragout (GQB)",
                     "price": 3.0,
                     "ingredients": [
+                        "R",
                         "99",
                         "GlW",
                         "Sw",
-                        "R",
                         "Gl"
                     ]
                 }
@@ -129,13 +129,13 @@
                     "name": "Tortellini (Käsefüllung) mit Käse-Sahne-Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "Ei",
                         "2",
                         "GlW",
-                        "1",
+                        "Mi",
+                        "Ei",
                         "Sl",
+                        "Kn",
+                        "1",
                         "Gl"
                     ]
                 },
@@ -143,14 +143,14 @@
                     "name": "Fischstäbchen (MSC) mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "2",
                         "GlW",
-                        "9",
-                        "1",
-                        "Sf",
                         "Gl",
+                        "Mi",
+                        "Ei",
+                        "Sf",
+                        "1",
+                        "9",
                         "Fi"
                     ]
                 }
