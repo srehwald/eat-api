@@ -10,32 +10,32 @@
                     "price": 1,
                     "ingredients": [
                         "Gl",
+                        "Sl",
                         "GlW",
-                        "Kn",
-                        "Sl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Sojabolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "So",
-                        "Sl"
+                        "Gl",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
+                        "Kn",
+                        "Mi",
                         "GlW",
                         "GlG",
-                        "Gl",
-                        "R",
                         "Sl",
-                        "Mi",
-                        "Kn"
+                        "R",
+                        "Gl"
                     ]
                 }
             ]
@@ -81,23 +81,23 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Sf",
-                        "GlG",
-                        "Gl",
-                        "3",
-                        "Sw",
-                        "Mi",
                         "Kn",
-                        "S"
+                        "Mi",
+                        "GlW",
+                        "S",
+                        "GlG",
+                        "Sf",
+                        "Sw",
+                        "Gl",
+                        "3"
                     ]
                 },
                 {
@@ -134,13 +134,13 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
                         "99",
-                        "GlG",
-                        "Gl",
-                        "Sw",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "GlW",
+                        "GlG",
+                        "Sw",
+                        "Gl"
                     ]
                 }
             ]
@@ -159,15 +159,15 @@
                     "name": "Spaghetti Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "2",
-                        "Gl",
-                        "3",
-                        "Sl",
+                        "Kn",
                         "Mi",
                         "Ei",
-                        "Kn",
-                        "S"
+                        "2",
+                        "GlW",
+                        "S",
+                        "Sl",
+                        "Gl",
+                        "3"
                     ]
                 },
                 {
@@ -183,12 +183,12 @@
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Fi",
-                        "GlW",
-                        "Gl",
-                        "Sl",
                         "Mi",
-                        "Ei"
+                        "Ei",
+                        "GlW",
+                        "Sl",
+                        "Gl",
+                        "Fi"
                     ]
                 }
             ]

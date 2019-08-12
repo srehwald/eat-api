@@ -1,206 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-07-22">
-      <category name="Speiseplan">
-        <meal>
-          <name>Rührei mit Spinat und Salzkartoffeln</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Geschnetzeltes nach Züricher Art mit Champignonrahm und Röstiecken</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>&quot;Spaghetti alla puttanesca&quot;, mit Tomaten, Oliven, Sardellen und Petersilie</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>&quot;Arroz con Pollo&quot; Peruanischer Reis mit Huhn</name>
-          <price role="other">6.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-07-23">
-      <category name="Speiseplan">
-        <meal>
-          <name>Thymianpolenta mit gerösteter Paprika</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Chili con carne mit Reis</name>
-          <price role="other">5.20</price>
-        </meal>
-        <meal>
-          <name>&quot;Aloo Baignan&quot; Kartoffeln, Auberginen und Tomate mit exotischen Gewürzen und Joghurt</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Fitnesssteak mit Salat und Kräuterbaguette, oder Pommes frites</name>
-          <price role="other">7.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-07-24">
-      <category name="Speiseplan">
-        <meal>
-          <name>Gebratene Mohnschupfnudeln mit Kompott</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Rahmschwammerl mit Semmelknödel</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Thailändische Bratnudeln mit Weißkohl, Lauchzwiebeln, P Möhren und Chili-Dip</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>Cevapcici mit Ajvar, L Zwiebelringen und Tzatziki, dazu Djuvecreis</name>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-07-25">
-      <category name="Speiseplan">
-        <meal>
-          <name>&quot;Chana Masala&quot;, Kichererbsen mit Zwiebeln und Ingwer, dazu Reis</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Edamer gebacken mit Preiselbeeren und Rohkostsalat</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>iccata Milanese vom Schwein mit Tomatenspaghetti</name>
-          <price role="other">5.90</price>
-        </meal>
-        <meal>
-          <name>asagne vom Wildlachs mit Spinat und Tomatensugo</name>
-          <price role="other">6.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-07-26">
-      <category name="Speiseplan">
-        <meal>
-          <name>Sommerliche Kartoffelpfanne mit Tomaten, Rucola, Zwiebeln und Fetakäse</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Fischteller vom Grill mit Limonen- Dip und Pommes frites</name>
-          <price role="other">6.40</price>
-        </meal>
-        <meal>
-          <name>&quot;Gemüse Jalfrezi&quot;, Gemischtes Gemüse mit Curry- Tomatensauce und Reis</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Cannelloni &quot;al forno&quot; auf Tomatensugo</name>
-          <price role="other">5.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-07-29">
-      <category name="Speiseplan">
-        <meal>
-          <name>Couscous Pfanne mit Gemüse und Harissa-Dip</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Abgebräunter Leberkäs mit Zwiebelschmelze und Kartoffelpüree</name>
-          <price role="other">4.80</price>
-        </meal>
-        <meal>
-          <name>Italienische Pasta mit Zucchini, Tomaten und Rucola</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Toskanisches Rindergulasch mit Rosmarin, Thymian und Tomaten geschmort, dazu Teigwaren</name>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-07-30">
-      <category name="Speiseplan">
-        <meal>
-          <name>Reiberdatschi mit Apfelmus oder Kräuterquark</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Schaschliktöpferl mit Reis oder Pommes frites</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>Gebackener Ziegenkäse auf sommerlichem Salat mit Kartoffel-Vinaigrette und hausgemachtem Polentabrot</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>&quot;Tandoori-Masala-Lachs&quot; mit frischem Ingwer, Limette und Joghurt, dazu Gemüse mit Minze, Basmatireis und Asia- Dip</name>
-          <price role="other">7.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-07-31">
-      <category name="Speiseplan">
-        <meal>
-          <name>Weißkohl-Kartoffelauflauf mit Paprikasauce</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Waldhauspfännle mit Schweinefilet, Pilzen, Lauch, Speck und Sahne, dazu Spätzle</name>
-          <price role="other">7.20</price>
-        </meal>
-        <meal>
-          <name>Gelbes Gemüsecurry nach &quot;Thaiart&quot; mit Kokosmilch und Basmatireis</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Hähnchenkeule &quot;Cacciatore&quot; mit Zwiebeln, Tomaten, Champignons und Rotwein, dazu Reis</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-08-01">
-      <category name="Speiseplan">
-        <meal>
-          <name>Kasspressknödel mit Krautsalat</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Steak Strindberg mit Thymiankartoffeln und P Grillgemüse</name>
-          <price role="other">7.90</price>
-        </meal>
-        <meal>
-          <name>Penne mit Kirschtomaten, Basilikum und Zitronenbutter</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>&quot;Murgh Dhansak&quot; Hühnerfleisch mit Linsen, Gemüsecurry und Reis</name>
-          <price role="other">6.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-08-02">
-      <category name="Speiseplan">
-        <meal>
-          <name>Provenzalischer Gemüsekuchen vom Blech mit Kräuter- Sauerrahm-Dip</name>
-          <price role="other">4.00</price>
-        </meal>
-        <meal>
-          <name>Seelachsfilet &quot;Finkenwerder Art&quot;, mit etersilienkartoffeln und Limonen- Dip</name>
-          <price role="other">5.90</price>
-        </meal>
-        <meal>
-          <name>&quot;Penne Diabolo&quot; mit Salami, Mais, Tomaten und Lauchzwiebeln</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>&quot;Lamb Jahlfresi&quot; scharfes Lammfleisch, mit Tomaten, Paprika, Curry, Basmatireis und Gurken-Raita</name>
-          <price role="other">7.40</price>
-        </meal>
-      </category>
-    </day>
     <day date="2019-08-05">
       <category name="Speiseplan">
         <meal>
@@ -298,6 +98,266 @@
         <meal>
           <name>Rinderroulade mit Blaukraut und Knödel</name>
           <price role="other">7.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-12">
+      <category name="Speiseplan">
+        <meal>
+          <name>Süße Auswahl</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Rahmgeschnetzeltes vom Schwein mit Nudeln</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>&quot;Alu Bohnchi&quot; Kartoffeln und Bohnen in Mandelkokos Curry mit Basmatireis und Papadam</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Ochsenfetzen vom Grill, rosa gebraten, mit Rucola, Chiliöl, gehobeltem Grana und Pommes frites</name>
+          <price role="other">7.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>&quot;Baked Potatoe&quot; mit Sauerrahm, Mais und Tomatenwürfel, dazu Salat</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Königsberger Klopse in Kaperntunke mit Püree</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Farfalle &quot;al tonno&quot; mit Thunfisch, Kapern, Oliven, Tomaten und Basilikum</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Indisches Makhani Hähnchen mit Cashewnüssen, Ingwer und Koriander, dazu Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-14">
+      <category name="Speiseplan">
+        <meal>
+          <name>Sommergemüse-Ragout mit Kartoffeln</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Zigeunerschnitzel in pikanter Paprikasauce, dazu Pommes frites</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Gebratene Thainudeln mit Gemüse, Süß-Sauer abgeschmeckt mit asiatischem Dip</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Jägerpfanne, Putenstreifen in Zwiebelsauce mit Möhren und Lauch, dazu Butternudeln</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-19">
+      <category name="Speiseplan">
+        <meal>
+          <name>Gratiniertes Baguette mit Spinat und Fetakäse (oder Salami) , dazu Salatbouguet</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Schweinebraten mit Knödel und Krautsalat</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Couscous mit Falafel und Curry- Joghurt</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>&quot;Chicken Tikka&quot;, gegrilltes Hühnerfleisch mit Gewürzen und Joghurt mariniert, dazu Reis und Chili-Dip</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kirschmichel mit Vanillesauce</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Cordon bleu mit Pommes frites und Preiselbeeren</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>&quot;Battala Curry&quot;, süße Kartoffeln, Erbsen, Kokosmilch, Senfkörner und Reis</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Rindergulasch mit Blaukraut und Spätzle</name>
+          <price role="other">6.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Sommerlicher Gemüseeintopf (mit Wiener 5,20 €)</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Schweinefilet mit Grillgemüse, Thymiankartoffeln und Kräuterbutter</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Farfalle mit Chili-Tomatensauce und Cabanossi</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>&quot;Su Böregi&quot; &quot;Börek mit Spinatfüllung, Kräuterschmand und Salat</name>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-22">
+      <category name="Speiseplan">
+        <meal>
+          <name>Kasspressknödel mit Bayerisch Kraut und Sauerrahm-Dip</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Mit Hackfleisch gefüllte Paprikaschote , Bratensauce und Püree Bratensauce</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Strozzapretti mit Pesto Rosso, Rucola und Parmesan</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Lammcurry mit Basmatireis</name>
+          <price role="other">7.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Scharfe Reispfanne mit Gemüse und Joghurt-Dip</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Backfisch mit Gurken- Kartoffelsalat und Remoulade</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>Penne al arrabiata</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>&quot;Lomo Saltado&quot; Rindfleischstreifen Peruanischer Art mit Pommes frites</name>
+          <price role="other">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-26">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tellerrösti mit Kräuterschmand und Salat</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Bratwurst mit Sauerkraut und Salzkartoffeln</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Shakshuka, israelisches Tomatenragout mit Ei, dazu Baguette</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Nasi Goreng gebratener Reis mit Gemüse, Curry und verschiedenen Fleischsorten, dazu pikanter Dip</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-27">
+      <category name="Speiseplan">
+        <meal>
+          <name>Pasta mit Tomatensauce und K Reibekäse</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Rinderbraten mit Knödel und Blaukraut</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Halbe gratinierte Zucchini mit Kräutersauce und Reis M</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrustfilet auf Szetschuan-Art mit Bambusssprossen, Gemüse, Szetchuanpfeffer und Hoisinsauce, mit Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-28">
+      <category name="Speiseplan">
+        <meal>
+          <name>irschgermknödel mit Vanillesauce A</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Fleischpflanzerl mit Kartoffel- Gurkensalat</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>&quot;Alu Bonchi&quot; Kartoffeln und Bohnen in andelkokos Curry mit Basmatireis und Papadam</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Schnitzel &quot;Mailänder Art &quot; mit P Tomatenspaghetti</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-29">
+      <category name="Speiseplan">
+        <meal>
+          <name>sia-Eintopf mit Ei und Glasnudeln</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Hähnchenschenkel mit Paprika- Chilisauce und Reis</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>&quot;Gnocchi Aurora&quot; mit Pesto und Käse</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>ulled Pork mit Coleslaw, Wedges und BBQ-Sauce</name>
+          <price role="other">6.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-08-30">
+      <category name="Speiseplan">
+        <meal>
+          <name>&quot;Chana Masala&quot; Kichererbsen mit Zwiebeln und Ingwer, dazu Reis</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Rindergeschnetzeltes &quot;Stroganoff&quot; mit Gurke, Rote Beete, Zwiebel und Brezenknödel</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>1 Paar Saure Zipfl mit Semmel (2 Paar 5,40)</name>
+          <price role="other">4.00</price>
+        </meal>
+        <meal>
+          <name>Calamari mit Pommes frites, Salatbouguet und Remoulade</name>
+          <price role="other">6.50</price>
         </meal>
       </category>
     </day>
