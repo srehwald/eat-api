@@ -9,25 +9,25 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
                         "Mi",
                         "GlW",
-                        "Kn",
+                        "Sl",
+                        "Gl",
                         "Ei",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rotes Thaicurry mit Hackbällchen, Zucchini und Basmatireis",
                     "price": 2.4,
                     "ingredients": [
+                        "S",
+                        "R",
                         "Mi",
                         "GlW",
-                        "S",
-                        "Kn",
-                        "R",
+                        "Gl",
                         "Ei",
-                        "Gl"
+                        "Kn"
                     ]
                 }
             ]
@@ -42,24 +42,24 @@
                         "Mi",
                         "GlW",
                         "2",
-                        "Ei",
+                        "Gl",
                         "1",
-                        "Gl"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": 3.2,
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "GlW",
-                        "Kn",
-                        "GlG",
                         "R",
-                        "99",
+                        "Mi",
+                        "GlG",
+                        "GlW",
                         "Sw",
-                        "Gl"
+                        "Gl",
+                        "99",
+                        "Sl",
+                        "Kn"
                     ]
                 }
             ]
@@ -71,11 +71,11 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
-                        "GlW",
                         "GlD",
+                        "GlW",
                         "Ei",
-                        "Gl"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
@@ -83,10 +83,10 @@
                     "price": 3.2,
                     "ingredients": [
                         "GlW",
-                        "Kn",
                         "So",
                         "En",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -99,9 +99,9 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
+                        "Gl",
                         "2",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
@@ -109,14 +109,14 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
+                        "1",
                         "GlW",
                         "2",
-                        "Kn",
+                        "Sw",
+                        "Gl",
                         "99",
                         "Ei",
-                        "1",
-                        "Sw",
-                        "Gl"
+                        "Kn"
                     ]
                 }
             ]
@@ -129,13 +129,13 @@
                     "price": 2.8,
                     "ingredients": [
                         "Mi",
-                        "ScC",
-                        "GlW",
                         "3",
-                        "Kn",
-                        "Ei",
+                        "Sc",
+                        "GlW",
                         "Gl",
-                        "Sc"
+                        "Ei",
+                        "Kn",
+                        "ScC"
                     ]
                 },
                 {
@@ -143,9 +143,9 @@
                     "price": 3.0,
                     "ingredients": [
                         "GlW",
-                        "Mi",
+                        "Gl",
                         "1",
-                        "Gl"
+                        "Mi"
                     ]
                 }
             ]
