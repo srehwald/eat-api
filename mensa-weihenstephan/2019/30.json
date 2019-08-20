@@ -16,9 +16,9 @@
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": 2.6,
                     "ingredients": [
+                        "Kn",
                         "Mi",
-                        "S",
-                        "Kn"
+                        "S"
                     ]
                 },
                 {
@@ -26,25 +26,25 @@
                     "price": 3.0,
                     "ingredients": [
                         "Ei",
-                        "Sl",
-                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "Kn",
-                        "Sf",
-                        "Mi",
-                        "GlW",
-                        "9",
                         "Gl",
+                        "9",
+                        "Kn",
+                        "GlW",
                         "2",
-                        "GlG"
+                        "Sf",
+                        "GlG",
+                        "R",
+                        "Mi"
                     ]
                 }
             ]
@@ -56,9 +56,9 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
-                        "Sf",
                         "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
@@ -66,12 +66,12 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "1",
-                        "Mi",
-                        "GlW",
-                        "GlD",
                         "Gl",
-                        "2"
+                        "GlD",
+                        "GlW",
+                        "1",
+                        "2",
+                        "Mi"
                     ]
                 },
                 {
@@ -79,23 +79,23 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "1",
-                        "Sf",
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "2"
+                        "GlW",
+                        "1",
+                        "2",
+                        "Sf",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pizza mit grünem Spargel, Cocktailtomaten und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "Gl",
+                        "GlW",
+                        "So",
                         "GlG",
-                        "So"
+                        "Mi"
                     ]
                 }
             ]
@@ -114,35 +114,35 @@
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Gebratenes Truthahnsteak",
                     "price": 2.6,
                     "ingredients": [
-                        "Sl",
-                        "Kn",
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "GlG"
+                        "Kn",
+                        "GlW",
+                        "Sl",
+                        "GlG",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "S",
-                        "Kn",
-                        "Mi",
-                        "GlW",
                         "Gl",
+                        "Kn",
+                        "GlW",
+                        "S",
+                        "GlG",
                         "99",
-                        "GlG"
+                        "Mi"
                     ]
                 }
             ]
@@ -154,8 +154,8 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1,
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -163,20 +163,20 @@
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.9,
                     "ingredients": [
-                        "R",
                         "S",
                         "Sf",
                         "11",
+                        "R",
                         "8"
                     ]
                 },
@@ -184,12 +184,12 @@
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "S",
+                        "Gl",
                         "Kn",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "S",
+                        "R",
+                        "Mi"
                     ]
                 }
             ]
@@ -201,9 +201,9 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
@@ -211,13 +211,13 @@
                     "price": 2.6,
                     "ingredients": [
                         "Ei",
-                        "1",
-                        "Fi",
-                        "Mi",
-                        "GlW",
+                        "Gl",
                         "9",
+                        "Fi",
+                        "GlW",
+                        "1",
                         "2",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
@@ -225,10 +225,10 @@
                     "price": 2.6,
                     "ingredients": [
                         "Ei",
-                        "Mi",
+                        "Gl",
                         "GlW",
                         "3",
-                        "Gl"
+                        "Mi"
                     ]
                 }
             ]
