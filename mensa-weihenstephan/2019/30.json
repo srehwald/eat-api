@@ -26,8 +26,8 @@
                     "price": 3.0,
                     "ingredients": [
                         "Ei",
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Sl",
                         "Mi"
                     ]
@@ -36,14 +36,14 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "Gl",
-                        "9",
-                        "GlG",
-                        "Sf",
+                        "R",
                         "Kn",
                         "GlW",
+                        "Gl",
+                        "GlG",
                         "Mi",
-                        "R",
+                        "9",
+                        "Sf",
                         "2"
                     ]
                 }
@@ -56,20 +56,20 @@
                     "name": "Indisches Linsencurry",
                     "price": 1,
                     "ingredients": [
+                        "Sf",
                         "Kn",
-                        "Sl",
-                        "Sf"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
                         "1",
+                        "Ei",
+                        "GlW",
+                        "Gl",
+                        "Mi",
                         "GlD",
                         "2"
                     ]
@@ -78,12 +78,12 @@
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "Sf",
-                        "GlW",
-                        "Mi",
                         "1",
+                        "Ei",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "Sf",
                         "2"
                     ]
                 },
@@ -91,11 +91,11 @@
                     "name": "Pizza mit grünem Spargel, Cocktailtomaten und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
-                        "GlG",
-                        "So",
                         "GlW",
-                        "Mi"
+                        "GlG",
+                        "Gl",
+                        "Mi",
+                        "So"
                     ]
                 }
             ]
@@ -124,10 +124,10 @@
                     "name": "Gebratenes Truthahnsteak",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "GlG",
                         "Kn",
                         "GlW",
+                        "GlG",
+                        "Gl",
                         "Mi",
                         "Sl"
                     ]
@@ -136,13 +136,13 @@
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Gl",
-                        "S",
-                        "GlG",
+                        "99",
                         "Kn",
                         "GlW",
-                        "99",
-                        "Mi"
+                        "GlG",
+                        "Gl",
+                        "Mi",
+                        "S"
                     ]
                 }
             ]
@@ -173,23 +173,23 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.9,
                     "ingredients": [
-                        "Sf",
-                        "S",
+                        "8",
                         "R",
-                        "11",
-                        "8"
+                        "S",
+                        "Sf",
+                        "11"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "Gl",
-                        "S",
+                        "R",
                         "Kn",
                         "GlW",
+                        "Gl",
                         "Mi",
-                        "R"
+                        "S"
                     ]
                 }
             ]
@@ -201,23 +201,23 @@
                     "name": "Bauerneintopf",
                     "price": 1,
                     "ingredients": [
-                        "Sl",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
-                        "9",
-                        "Gl",
-                        "GlW",
-                        "Mi",
                         "1",
-                        "2",
-                        "Fi"
+                        "Ei",
+                        "Fi",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "9",
+                        "2"
                     ]
                 },
                 {
@@ -225,10 +225,10 @@
                     "price": 2.6,
                     "ingredients": [
                         "Ei",
-                        "Gl",
+                        "3",
                         "GlW",
-                        "Mi",
-                        "3"
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]

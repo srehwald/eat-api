@@ -9,23 +9,23 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
+                        "S",
+                        "GlW",
                         "Kn",
                         "Gl",
                         "GlG",
-                        "Mi",
-                        "GlW",
-                        "S"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "Sl",
-                        "Mi",
                         "GlW",
+                        "Kn",
+                        "Sl",
+                        "Gl",
+                        "Mi",
                         "Ei"
                     ]
                 }
@@ -38,10 +38,10 @@
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Mi",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -53,11 +53,11 @@
                     "name": "Pasta Quattro formaggi",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
                         "Kn",
                         "Gl",
-                        "Mi",
-                        "GlW",
                         "1",
+                        "Mi",
                         "2"
                     ]
                 },
@@ -65,11 +65,11 @@
                     "name": "Grünes Hähnchen-Curry mit Wokgemüse und Basmatireis",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
-                        "So",
-                        "Gl",
                         "GlW",
-                        "En"
+                        "Kn",
+                        "En",
+                        "So",
+                        "Gl"
                     ]
                 }
             ]
@@ -81,22 +81,22 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "Sl",
                         "GlW",
                         "Gl",
-                        "Sl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
+                        "S",
+                        "GlW",
                         "Kn",
                         "Gl",
                         "GlG",
                         "Mi",
-                        "GlW",
-                        "S",
                         "8",
                         "2"
                     ]
@@ -111,8 +111,8 @@
                     "price": 3.0,
                     "ingredients": [
                         "GlW",
-                        "1",
                         "Gl",
+                        "1",
                         "Mi"
                     ]
                 },
@@ -120,11 +120,11 @@
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "Mi",
                         "GlW",
-                        "Fi"
+                        "Kn",
+                        "Fi",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]

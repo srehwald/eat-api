@@ -10,18 +10,18 @@
                     "price": 3.5,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Mi",
                         "GlG",
                         "So",
-                        "Mi"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Kn",
                         "Sl",
+                        "Kn",
                         "Gl",
                         "GlW"
                     ]
@@ -30,11 +30,11 @@
                     "name": "Chinapfanne mit Putenfleisch",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sf",
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "So"
+                        "Kn",
+                        "So",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
@@ -58,35 +58,35 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "Kn",
-                        "Ei",
                         "Gl",
-                        "GlW",
+                        "Sl",
                         "1",
-                        "Mi"
+                        "Mi",
+                        "Ei",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "GlG",
+                        "Sl",
+                        "Mi",
+                        "Kn",
                         "R",
-                        "Mi"
+                        "GlG",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pasta mit Sojabolognese",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "So",
                         "Sl",
                         "Gl",
+                        "So",
                         "GlW"
                     ]
                 },
@@ -94,10 +94,10 @@
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "So",
                         "3",
                         "Fi",
-                        "Mi",
-                        "So"
+                        "Mi"
                     ]
                 },
                 {
@@ -109,15 +109,15 @@
                     "name": "Köttbullar mit Salzkartoffeln und Cordialgemüse",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "Sl",
-                        "Kn",
-                        "Ei",
                         "Gl",
-                        "GlW",
-                        "GlG",
-                        "R",
+                        "Sl",
                         "S",
-                        "Mi"
+                        "Mi",
+                        "Ei",
+                        "Kn",
+                        "R",
+                        "GlG",
+                        "GlW"
                     ]
                 }
             ]
@@ -129,26 +129,26 @@
                     "name": "Pizza Romana mit Salami, Sardellen und Kapern",
                     "price": 3.5,
                     "ingredients": [
-                        "Sf",
                         "Gl",
-                        "GlG",
-                        "3",
-                        "GlW",
                         "S",
-                        "So",
                         "1",
                         "Fi",
                         "Mi",
-                        "2"
+                        "So",
+                        "3",
+                        "GlG",
+                        "2",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Sf",
                         "Kn",
                         "Gl",
+                        "Sf",
                         "GlW"
                     ]
                 },
@@ -156,26 +156,26 @@
                     "name": "Tortellini mit Schinken-Sahne-Sauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
                         "Gl",
-                        "GlW",
-                        "3",
-                        "R",
+                        "Sl",
                         "S",
-                        "8",
                         "Mi",
-                        "2"
+                        "Ei",
+                        "R",
+                        "3",
+                        "2",
+                        "8",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "So",
                         "3",
                         "Fi",
-                        "Mi",
-                        "So"
+                        "Mi"
                     ]
                 },
                 {
@@ -187,20 +187,20 @@
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "Gl",
+                        "Mi",
                         "99",
                         "Sw",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "2",
                         "Kn",
                         "Gl",
-                        "2",
                         "GlW"
                     ]
                 },
@@ -213,8 +213,8 @@
                     "name": "Rahmmischgemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -227,8 +227,8 @@
                     "name": "Bratwurstschnecke",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "S",
                         "8",
+                        "S",
                         "Sl"
                     ]
                 },
@@ -236,15 +236,15 @@
                     "name": "Gebackenes Seelachsfilet (MSC) mit Remouladensauce",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "Sf",
-                        "Ei",
                         "Gl",
                         "9",
-                        "GlW",
-                        "1",
                         "Fi",
+                        "1",
                         "Mi",
-                        "2"
+                        "Ei",
+                        "2",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
@@ -261,20 +261,20 @@
                     "name": "Pizza Vegetariana mit Mozzarella und Grillgemüse",
                     "price": 3.5,
                     "ingredients": [
-                        "Sl",
                         "Gl",
-                        "GlW",
+                        "Sl",
+                        "Mi",
                         "GlG",
                         "So",
-                        "Mi"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Mexikanisches Chili",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
@@ -282,8 +282,8 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Kn",
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -306,21 +306,21 @@
                     "name": "Zarzuela - Spanische Fischpfanne mit Meeresfrüchten, Oliven und Gemüse",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Wt",
                         "Gl",
-                        "GlW",
-                        "3",
                         "1",
                         "Fi",
-                        "Kr"
+                        "Wt",
+                        "3",
+                        "Kr",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -328,10 +328,10 @@
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "So",
                         "3",
                         "Fi",
-                        "Mi",
-                        "So"
+                        "Mi"
                     ]
                 },
                 {
@@ -343,26 +343,26 @@
                     "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
                         "Gl",
-                        "GlW",
-                        "Mi"
+                        "Sl",
+                        "Mi",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "Sf",
-                        "Sw",
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "3",
-                        "GlG",
                         "S",
-                        "Mi"
+                        "Mi",
+                        "Kn",
+                        "3",
+                        "Sw",
+                        "GlG",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
@@ -380,13 +380,13 @@
                     "price": 3.5,
                     "ingredients": [
                         "Gl",
-                        "GlG",
-                        "3",
-                        "GlW",
                         "So",
-                        "8",
                         "Mi",
-                        "2"
+                        "3",
+                        "GlG",
+                        "2",
+                        "8",
+                        "GlW"
                     ]
                 },
                 {
@@ -421,8 +421,8 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Ei",
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -430,21 +430,21 @@
                     "name": "Gnocchi in pikanter Bolognese-Sauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "Ei",
                         "Gl",
-                        "GlW",
-                        "R"
+                        "Ei",
+                        "Kn",
+                        "R",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "So",
                         "3",
                         "Fi",
-                        "Mi",
-                        "So"
+                        "Mi"
                     ]
                 },
                 {
@@ -456,8 +456,8 @@
                     "name": "Pasta in Tomaten-Oliven-Sauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "3",
                         "Kn",
+                        "3",
                         "Gl",
                         "GlW"
                     ]
@@ -466,30 +466,30 @@
                     "name": "Gegrillter Maiskolben mit Ofenkartoffeln und Dip",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sf",
                         "Sl",
-                        "Mi",
-                        "1"
+                        "Sf",
+                        "1",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rendang - Indonesisches Rindergulasch (GQB)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "R",
-                        "2"
+                        "2",
+                        "R"
                     ]
                 },
                 {
                     "name": "Schaschlik mit Countrykartoffeln und frischem Ratatouille",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "Sf",
-                        "Kn",
                         "Gl",
-                        "GlW",
                         "11",
-                        "S"
+                        "S",
+                        "Kn",
+                        "Sf",
+                        "GlW"
                     ]
                 }
             ]
@@ -501,15 +501,15 @@
                     "name": "Pizza Scampi mit Cocktailtomaten und Scampis",
                     "price": 3.5,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "GlG",
-                        "So",
                         "1",
                         "Mi",
+                        "So",
+                        "Kn",
+                        "GlG",
                         "2",
-                        "Kr"
+                        "Kr",
+                        "GlW"
                     ]
                 },
                 {
@@ -523,24 +523,24 @@
                     "name": "Schupfnudeln mit Sauerkraut und Speck",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
                         "Gl",
-                        "GlW",
-                        "3",
+                        "Sl",
                         "S",
                         "Mi",
-                        "2"
+                        "Ei",
+                        "3",
+                        "2",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Täglich frische Salatbar",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "So",
                         "3",
                         "Fi",
-                        "Mi",
-                        "So"
+                        "Mi"
                     ]
                 },
                 {
@@ -567,8 +567,8 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Kn",
                         "Sl",
+                        "Kn",
                         "Gl",
                         "GlW"
                     ]
@@ -577,43 +577,43 @@
                     "name": "Spaghetti Carbonara",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "3",
+                        "Sl",
                         "S",
                         "Mi",
-                        "2"
+                        "Ei",
+                        "Kn",
+                        "3",
+                        "2",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Massaman Curry (mit Hähnchen)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sf",
+                        "Gl",
+                        "En",
                         "Sl",
                         "Kn",
-                        "Gl",
-                        "GlW",
-                        "En"
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Hackbraten mit Salzkartoffeln (GQB) und Wirsing",
                     "price": "Baustellenteller (> 2.40€)",
                     "ingredients": [
-                        "Sf",
-                        "Kn",
-                        "Ei",
                         "Gl",
-                        "GlW",
+                        "S",
+                        "Mi",
+                        "Ei",
+                        "Kn",
+                        "R",
                         "GlG",
                         "So",
-                        "R",
-                        "S",
-                        "Mi"
+                        "Sf",
+                        "GlW"
                     ]
                 }
             ]
