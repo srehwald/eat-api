@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "GlW",
+                        "Gl",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -20,22 +20,32 @@
                     "price": 1.9,
                     "ingredients": [
                         "So",
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Sl"
+                    ]
+                },
+                {
+                    "name": "Cevapcici mit Ajvar",
+                    "price": 2.4,
+                    "ingredients": [
+                        "S",
+                        "Sl",
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
+                        "Sl",
                         "GlW",
                         "R",
+                        "Kn",
+                        "GlG",
                         "Gl",
-                        "Sl",
-                        "GlG"
+                        "Mi"
                     ]
                 }
             ]
@@ -44,31 +54,58 @@
             "date": "2019-08-20",
             "dishes": [
                 {
-                    "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
+                    "name": "Grüne Bohnen mit Reis in Kokos-Zitronensauce",
                     "price": 1,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "GlW",
+                        "Gl",
+                        "Kn",
                         "Sf"
                     ]
                 },
                 {
-                    "name": "Kartoffeltaschen mit Kräuterfrischkäse",
-                    "price": 2.4,
+                    "name": "Grünkohl-Hanf-Bällchen mit Paprikarahmsauce",
+                    "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Mi",
                         "Gl",
-                        "GlW"
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Kartoffeltaschen mit Kräuterfrischkäse, Cevapcici mit Ajvar",
+                    "price": 2.4,
+                    "ingredients": [
+                        "Sf",
+                        "Sl",
+                        "GlW",
+                        "S",
+                        "Kn",
+                        "Gl",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Fleischpflanzerl mit Sauerkraut, Sauerkraut mit Speck",
+                    "price": 2.4,
+                    "ingredients": [
+                        "3",
+                        "2",
+                        "Sf",
+                        "GlW",
+                        "R",
+                        "Ei",
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke auf Sauerkraut",
                     "price": 2.6,
                     "ingredients": [
-                        "8",
                         "S",
+                        "8",
                         "Sl"
                     ]
                 }
@@ -81,32 +118,50 @@
                     "name": "Mexikanisches Chili",
                     "price": 1,
                     "ingredients": [
+                        "3",
+                        "5",
                         "Kn",
+                        "Sw",
                         "So"
+                    ]
+                },
+                {
+                    "name": "Fleischpflanzerl mit Kümmelsauce",
+                    "price": 1.9,
+                    "ingredients": [
+                        "Mi",
+                        "Sf",
+                        "GlW",
+                        "R",
+                        "Kn",
+                        "Ei",
+                        "GlG",
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "Kn",
                         "Mi",
-                        "S",
+                        "3",
+                        "Sf",
                         "GlW",
-                        "Gl",
-                        "Sw",
+                        "Kn",
                         "GlG",
-                        "3"
+                        "Sw",
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 }
             ]
@@ -122,25 +177,56 @@
                     ]
                 },
                 {
+                    "name": "Fleischpflanzerl mit Bratensauce",
+                    "price": 1.9,
+                    "ingredients": [
+                        "Mi",
+                        "S",
+                        "GlW",
+                        "R",
+                        "Ei",
+                        "Kn",
+                        "GlG",
+                        "Sw",
+                        "99",
+                        "Gl"
+                    ]
+                },
+                {
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "1",
-                        "2"
+                        "2",
+                        "1"
+                    ]
+                },
+                {
+                    "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
+                    "price": 2.4,
+                    "ingredients": [
+                        "Mi",
+                        "3",
+                        "Sf",
+                        "GlW",
+                        "Kn",
+                        "GlG",
+                        "Sw",
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
                         "Mi",
                         "GlW",
-                        "99",
-                        "Gl",
+                        "Kn",
+                        "GlG",
                         "Sw",
-                        "GlG"
+                        "99",
+                        "Gl"
                     ]
                 }
             ]
@@ -156,27 +242,27 @@
                     ]
                 },
                 {
-                    "name": "Spaghetti Carbonara",
+                    "name": "Pasta Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Mi",
-                        "S",
+                        "3",
+                        "2",
+                        "Sl",
                         "GlW",
                         "Ei",
-                        "Gl",
-                        "Sl",
-                        "2",
-                        "3"
+                        "Kn",
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
+                        "GlW",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -184,11 +270,11 @@
                     "price": 3.5,
                     "ingredients": [
                         "Mi",
-                        "GlW",
-                        "Ei",
-                        "Gl",
                         "Sl",
-                        "Fi"
+                        "GlW",
+                        "Fi",
+                        "Ei",
+                        "Gl"
                     ]
                 }
             ]
