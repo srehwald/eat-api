@@ -177,7 +177,7 @@ class StudentenwerkMenuParser(MenuParser):
 
 
 class FMIBistroMenuParser(MenuParser):
-    url = "http://www.wilhelm-gastronomie.de/tum-garching"
+    url = "http://www.wilhelm-gastronomie.de/"
     allergens = ["Gluten", "Laktose", "Milcheiweiß", "Hühnerei", "Soja", "Nüsse", "Erdnuss", "Sellerie", "Fisch",
                  "Krebstiere", "Weichtiere", "Sesam", "Senf", "Milch", "Ei"]
     allergens_regex = r"(Allergene:((\s|\n)*(Gluten|Laktose|Milcheiweiß|Hühnerei|Soja|Nüsse|Erdnuss|Sellerie|Fisch|Krebstiere|Weichtiere|Sesam|Senf|Milch|Ei),?(?![\w-]))*)"
@@ -190,7 +190,7 @@ class FMIBistroMenuParser(MenuParser):
         # get html tree
         tree = html.fromstring(page.content)
         # get url of current pdf menu
-        xpath_query = tree.xpath("//a[contains(@href, 'Speiseplan')]/@href")
+        xpath_query = tree.xpath("//a[contains(@href, 'Garching-KW')]/@href")
 
         if len(xpath_query) < 1:
             return None
@@ -479,7 +479,8 @@ class IPPBistroMenuParser(MenuParser):
 
 
 class MedizinerMensaMenuParser(MenuParser):
-    url = "https://www.med.fs.tum.de"
+    startPageurl = "https://www.sv.tum.de/med/startseite/"
+    baseUrl = "https://www.sv.tum.de"
     ingredients_regex = r"(\s([A-C]|[E-H]|[K-P]|[R-Z]|[1-9])(,([A-C]|[E-H]|[K-P]|[R-Z]|[1-9]))*(\s|\Z))"
     price_regex = r"(\d+(,(\d){2})\s?€)"
 
@@ -506,15 +507,16 @@ class MedizinerMensaMenuParser(MenuParser):
         return Dish(dish_str, dish_price, dish_ingredients.ingredient_set)
 
     def parse(self, location):
-        page = requests.get(self.url)
+        page = requests.get(self.startPageurl)
         # get html tree
         tree = html.fromstring(page.content)
         # get url of current pdf menu
-        xpath_query = tree.xpath("//a[contains(@href, 'KW_')]/@href")
+        s = html.tostring(tree, encoding='utf8', method='xml')
+        xpath_query = tree.xpath("//a[contains(@href, 'Mensaplan/KW_')]/@href")
 
         if len(xpath_query) != 1:
             return None
-        pdf_url = self.url + xpath_query[0]
+        pdf_url = self.baseUrl + xpath_query[0]
 
         # Example PDF-name: "KW_44_Herbst_4_Mensa_2018.pdf" or "KW_50_Winter_1_Mensa_-2018.pdf"
         pdf_name = pdf_url.split("/")[-1]
