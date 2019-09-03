@@ -7,7 +7,7 @@
             "dishes": [
                 {
                     "name": "Kartoffelgulasch mit Paprika",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Kn"
                     ]
@@ -16,25 +16,25 @@
                     "name": "Fleischpflanzerl mit Kümmelsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlG",
-                        "R",
-                        "S",
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi",
                         "Ei",
-                        "Sf"
+                        "Gl",
+                        "Sf",
+                        "S",
+                        "R",
+                        "Mi",
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "GlW",
                         "Kn",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]
@@ -44,7 +44,7 @@
             "dishes": [
                 {
                     "name": "Grüner Erbseneintopf",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Sl"
                     ]
@@ -54,19 +54,19 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Piccata von der Pute mit Salbei und Tomatensauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
+                        "Ei",
                         "Gl",
                         "Mi",
-                        "Kn",
-                        "Ei"
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -76,11 +76,11 @@
             "dishes": [
                 {
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Kn",
-                        "2",
-                        "Sf"
+                        "Sf",
+                        "2"
                     ]
                 },
                 {
@@ -103,11 +103,11 @@
             "dishes": [
                 {
                     "name": "Bulgur mit Zucchini und Tomaten",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -124,8 +124,8 @@
                     "price": 2.6,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -135,7 +135,7 @@
             "dishes": [
                 {
                     "name": "Polenta mit frischem Wurzelgemüse",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Sl"
                     ]
@@ -144,22 +144,22 @@
                     "name": "Pfannkuchen mit Heidelbeerfüllung und Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
+                        "Ei",
                         "Gl",
-                        "Mi",
-                        "Ei"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Forelle Müllerin Art mit Zitronenbutter",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
-                        "1",
                         "Gl",
+                        "Sf",
                         "Mi",
+                        "1",
                         "Fi",
-                        "Sf"
+                        "GlW"
                     ]
                 }
             ]

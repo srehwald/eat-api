@@ -7,7 +7,7 @@
             "dishes": [
                 {
                     "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Kn"
                     ]
@@ -16,11 +16,11 @@
                     "name": "Paniertes Truthahnschnitzel mit Salsa",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "GlW",
-                        "Gl",
                         "11",
-                        "So"
+                        "Gl",
+                        "2",
+                        "So",
+                        "GlW"
                     ]
                 },
                 {
@@ -38,12 +38,12 @@
             "dishes": [
                 {
                     "name": "Linseneintopf mit Gemüse",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
-                        "5",
-                        "3",
                         "Sw",
-                        "Sl"
+                        "Sl",
+                        "3",
+                        "5"
                     ]
                 },
                 {
@@ -51,22 +51,22 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.4,
                     "ingredients": [
-                        "GlG",
+                        "Ei",
+                        "Gl",
                         "2",
                         "S",
-                        "GlW",
-                        "Gl",
-                        "Kn",
                         "Mi",
-                        "Ei"
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -76,25 +76,25 @@
             "dishes": [
                 {
                     "name": "Reis mit asiatischem Gemüse und Koriander",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "So",
                         "Kn",
-                        "2",
-                        "Sf"
+                        "Sf",
+                        "2"
                     ]
                 },
                 {
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "GlW",
-                        "1",
+                        "Ei",
                         "Gl",
-                        "Kn",
+                        "2",
                         "Mi",
-                        "Ei"
+                        "1",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -112,38 +112,38 @@
             "dishes": [
                 {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
-                        "1",
                         "Gl",
-                        "Mi",
-                        "Se",
+                        "Sf",
                         "Sl",
-                        "Sf"
+                        "Mi",
+                        "1",
+                        "Se",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": 2.8,
                     "ingredients": [
-                        "GlG",
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi",
                         "Sw",
                         "99",
-                        "Sl"
+                        "Gl",
+                        "Sl",
+                        "Mi",
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -153,35 +153,35 @@
             "dishes": [
                 {
                     "name": "Blumenkohl-Kartoffel-Curry",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
+                        "Ei",
                         "Gl",
-                        "Mi",
-                        "Ei"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) unter der Gurken-Senfkruste",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi",
-                        "Fi",
                         "Sw",
                         "99",
+                        "Gl",
                         "Ei",
-                        "Sf"
+                        "Sf",
+                        "Mi",
+                        "Fi",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]

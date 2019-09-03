@@ -7,7 +7,7 @@
             "dishes": [
                 {
                     "name": "Gemüsegulasch",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Kn"
                     ]
@@ -16,15 +16,15 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "GlG",
+                        "Gl",
+                        "Sf",
                         "2",
                         "R",
-                        "GlW",
-                        "Gl",
                         "9",
-                        "Kn",
                         "Mi",
-                        "Sf"
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -34,24 +34,24 @@
             "dishes": [
                 {
                     "name": "Indisches Linsencurry",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
-                        "Kn",
                         "Sl",
-                        "Sf"
+                        "Sf",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "GlW",
-                        "1",
-                        "Gl",
-                        "Mi",
                         "Ei",
-                        "Sf"
+                        "Gl",
+                        "Sf",
+                        "2",
+                        "Mi",
+                        "1",
+                        "GlW"
                     ]
                 }
             ]
@@ -61,7 +61,7 @@
             "dishes": [
                 {
                     "name": "Spanischer Gemüseeintopf",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Kn"
                     ]
@@ -70,13 +70,13 @@
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlG",
-                        "S",
-                        "GlW",
+                        "99",
                         "Gl",
-                        "Kn",
+                        "S",
                         "Mi",
-                        "99"
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -86,22 +86,22 @@
             "dishes": [
                 {
                     "name": "Couscous mit mediterranem Gemüse",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.9,
                     "ingredients": [
-                        "R",
+                        "11",
+                        "Sf",
                         "S",
                         "8",
-                        "11",
-                        "Sf"
+                        "R"
                     ]
                 }
             ]
@@ -111,10 +111,10 @@
             "dishes": [
                 {
                     "name": "Bauerneintopf",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "Sl",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -122,14 +122,14 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "2",
-                        "GlW",
-                        "1",
+                        "Ei",
                         "Gl",
+                        "2",
                         "9",
+                        "1",
                         "Mi",
                         "Fi",
-                        "Ei"
+                        "GlW"
                     ]
                 }
             ]

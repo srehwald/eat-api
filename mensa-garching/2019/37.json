@@ -7,7 +7,7 @@
             "dishes": [
                 {
                     "name": "Kartoffelgulasch mit Paprika",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Kn"
                     ]
@@ -16,13 +16,13 @@
                     "name": "Pasta Emiliana mit (Vorder-)Schinken und Erbsen",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "Kn",
-                        "Gl",
-                        "GlW",
-                        "8",
-                        "S",
                         "3",
+                        "GlW",
+                        "2",
+                        "S",
+                        "Gl",
+                        "8",
+                        "Kn",
                         "Mi"
                     ]
                 },
@@ -30,15 +30,15 @@
                     "name": "Fleischpflanzerl mit Kümmelsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Ei",
-                        "R",
                         "GlG",
-                        "Gl",
+                        "R",
                         "GlW",
                         "Sf",
                         "S",
-                        "Mi"
+                        "Gl",
+                        "Kn",
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
@@ -48,7 +48,7 @@
             "dishes": [
                 {
                     "name": "Grüner Erbseneintopf",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Sl"
                     ]
@@ -57,22 +57,22 @@
                     "name": "Cevapcici mit Ajvar",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
                         "S",
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sf",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Pizza Speciale mit Salami, Hinterschinken und Champignons",
                     "price": 2.6,
                     "ingredients": [
-                        "2",
-                        "Gl",
+                        "3",
                         "GlW",
+                        "2",
                         "Sf",
                         "S",
-                        "3",
+                        "Gl",
                         "Mi"
                     ]
                 }
@@ -85,41 +85,41 @@
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Fränkische Bratwurst",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
+                        "8",
                         "R",
-                        "8"
+                        "S"
                     ]
                 },
                 {
                     "name": "Gebratene Hähnchenbruststreifen kantonesische Art (süß-sauer)",
                     "price": "N/A",
                     "ingredients": [
+                        "5",
+                        "3",
+                        "GlW",
+                        "Sl",
+                        "Gl",
                         "Sw",
                         "11",
-                        "Gl",
-                        "GlW",
-                        "So",
-                        "Sl",
-                        "5",
-                        "3"
+                        "So"
                     ]
                 },
                 {
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -136,20 +136,20 @@
                     "name": "Penne mit Austernpilzen und Babyspinat",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Forelle Müllerin Art mit Zitronenbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Fi",
-                        "Gl",
-                        "GlW",
-                        "Sf",
                         "1",
+                        "GlW",
+                        "Fi",
+                        "Sf",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -169,21 +169,21 @@
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "10",
-                        "11",
                         "Sf",
-                        "Sl"
+                        "Sl",
+                        "Kn",
+                        "11"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Heidelbeerfüllung und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]

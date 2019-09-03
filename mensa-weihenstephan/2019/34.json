@@ -7,35 +7,35 @@
             "dishes": [
                 {
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "Sl",
-                        "Kn",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinelachssteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "S",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Paprikagulasch (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "GlG",
+                        "Gl",
                         "2",
                         "R",
+                        "Mi",
+                        "GlG",
                         "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi"
+                        "Kn"
                     ]
                 }
             ]
@@ -45,12 +45,12 @@
             "dishes": [
                 {
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
+                        "Sf",
                         "Gl",
-                        "Kn",
                         "GlW",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
@@ -66,14 +66,14 @@
                     "name": "Rotes Hähnchencurry",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Mi",
-                        "9",
-                        "Kn",
-                        "So",
+                        "Sf",
                         "Sl",
-                        "Sf"
+                        "So",
+                        "9",
+                        "Mi",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -83,22 +83,22 @@
             "dishes": [
                 {
                     "name": "Mexikanisches Chili",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "So",
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinegeschnetzeltes in Pfefferrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlG",
-                        "S",
-                        "GlW",
                         "Gl",
+                        "S",
                         "Mi",
+                        "GlG",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -106,15 +106,15 @@
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "GlG",
-                        "S",
-                        "GlW",
-                        "Gl",
-                        "3",
-                        "Kn",
-                        "Mi",
                         "Sw",
-                        "Sf"
+                        "3",
+                        "Gl",
+                        "Sf",
+                        "S",
+                        "Mi",
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -124,27 +124,27 @@
             "dishes": [
                 {
                     "name": "Bunte Gemüsepaella",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Sl",
                         "Ei",
-                        "Sf"
+                        "Gl",
+                        "Sf",
+                        "Sl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
+                        "Sw",
+                        "99",
+                        "Gl",
+                        "Mi",
                         "GlG",
                         "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi",
-                        "Sw",
-                        "99"
+                        "Kn"
                     ]
                 }
             ]
@@ -154,7 +154,7 @@
             "dishes": [
                 {
                     "name": "Kartoffeleintopf mit Majoran",
-                    "price": 1,
+                    "price": 1.0,
                     "ingredients": [
                         "Sl"
                     ]
@@ -163,18 +163,18 @@
                     "name": "Hackbraten mit Rahmsauce",
                     "price": 2.8,
                     "ingredients": [
-                        "5",
-                        "GlG",
-                        "R",
-                        "S",
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi",
-                        "So",
                         "Sw",
                         "Ei",
-                        "Sf"
+                        "Gl",
+                        "Sf",
+                        "5",
+                        "S",
+                        "R",
+                        "So",
+                        "Mi",
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
