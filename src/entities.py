@@ -8,7 +8,10 @@ from typing import Dict, Optional, Sequence
 class Dish:
     def __init__(self, name, price, ingredients):
         self.name = name
-        self.price = price
+        try:
+            self.price = float(price)
+        except ValueError:
+            self.price = price
         self.ingredients = ingredients
 
     def __repr__(self):

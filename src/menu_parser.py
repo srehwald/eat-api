@@ -146,7 +146,8 @@ class StudentenwerkMenuParser(MenuParser):
         # obtain the types of the dishes (e.g. 'Tagesgericht 1')
         dish_types = [type.text if type.text else '' for type in menu_html.xpath("//span[@class='stwm-artname']")]
         # obtain all ingredients
-        dish_markers_additional = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--additional')]/@data-essen")
+        dish_markers_additional = menu_html.xpath(
+            "//span[contains(@class, 'c-schedule__marker--additional')]/@data-essen")
         dish_markers_allergen = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--allergen')]/@data-essen")
         dish_markers_type = menu_html.xpath("//span[contains(@class, 'c-schedule__marker--type')]/@data-essen")
 
@@ -169,16 +170,17 @@ class StudentenwerkMenuParser(MenuParser):
                 dish_ingredients.parse_ingredients(dishes_dict[name][1])
                 dish_ingredients.parse_ingredients(dishes_dict[name][2])
                 dish_ingredients.parse_ingredients(dishes_dict[name][3])
-                dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name][0], "N/A"), dish_ingredients.ingredient_set))
+                dishes.append(Dish(name, StudentenwerkMenuParser.prices.get(dishes_dict[name][0], "N/A"),
+                                   dish_ingredients.ingredient_set))
 
         return dishes
 
 
 class FMIBistroMenuParser(MenuParser):
     url = "http://www.wilhelm-gastronomie.de/"
-    allergens = ["Gluten", "Laktose", "Milcheiweiß", "Hühnerei", "Soja", "Nüsse", "Erdnuss", "Sellerie", "Fisch",
+    allergens = ["Gluten", "Laktose", "Milcheiweiß", "Hühnerei", "Soja", "Nüsse", "Erdnuss", "Sellerie", "Fisch",
                  "Krebstiere", "Weichtiere", "Sesam", "Senf", "Milch", "Ei"]
-    allergens_regex = r"(Allergene:((\s|\n)*(Gluten|Laktose|Milcheiweiß|Hühnerei|Soja|Nüsse|Erdnuss|Sellerie|Fisch|Krebstiere|Weichtiere|Sesam|Senf|Milch|Ei),?(?![\w-]))*)"
+    allergens_regex = r"(Allergene:((\s|\n)*(Gluten|Laktose|Milcheiweiß|Hühnerei|Soja|Nüsse|Erdnuss|Sellerie|Fisch|Krebstiere|Weichtiere|Sesam|Senf|Milch|Ei),?(?![\w-]))*)"
     price_regex = r"\€\s\d+,\d+"
     dish_regex = r".+?\€\s\d+,\d+"
 
@@ -282,7 +284,7 @@ class FMIBistroMenuParser(MenuParser):
             dish_allergens = []
             for x in re.findall(self.allergens_regex, lines_weekdays[key]):
                 if len(x) > 0:
-                    dish_allergens.append(re.sub(r"((Allergene:)|\s|\n)*","",x[0]))
+                    dish_allergens.append(re.sub(r"((Allergene:)|\s|\n)*", "", x[0]))
                 else:
                     dish_allergens.append("")
             lines_weekdays[key] = re.sub(self.allergens_regex, "", lines_weekdays[key])
@@ -327,8 +329,9 @@ class IPPBistroMenuParser(MenuParser):
     split_days_regex_soup_one_line = re.compile(r'T agessuppe siehe Aushang|Tagessuppe siehe Aushang', re.IGNORECASE)
     split_days_regex_soup_two_line = re.compile(r'Aushang', re.IGNORECASE)
     split_days_regex_closed = re.compile(r'Aschermittwoch|Feiertag|Geschlossen', re.IGNORECASE)
-    price_regex = re.compile(r"\d+,\d+\s€[^)]")
-    dish_regex = re.compile(r".+?\d+,\d+\s€[^)]")
+    surprise_without_price_regex = re.compile(r"(Überraschungsmenü\s)(\s+[^\s\d]+)")
+    """Detects the ‚Überraschungsmenü‘ keyword if it has not a price. The price is expected between the groups."""
+    dish_regex = re.compile(r"(.+?)(\d+,\d+|\?€)\s€[^)]")
 
     def parse(self, location):
         page = requests.get(self.url)
@@ -373,7 +376,11 @@ class IPPBistroMenuParser(MenuParser):
         count = 0
         # remove headline etc.
         for line in lines:
-            if line.replace(" ", "").replace("\n", "").lower() == "montagdienstagmittwochdonnerstagfreitag":
+            # Find the line which is the header of the table and includes the day of week
+            line_shrink = line.replace(" ", "").replace("\n", "").lower()
+            # Note we do not include 'montag' und 'freitag' since they are also used in the line before the table
+            # header to indicate the range of the week “Monday … until Friday _”
+            if any(x in line_shrink for x in ('dienstag', 'mittwoch', 'donnerstag')):
                 break
 
             count += 1
@@ -395,27 +402,33 @@ class IPPBistroMenuParser(MenuParser):
         # ¹or 'e' of "Internationale Küche" if it is the monday column
 
         # find lines which match the regex
-        soup_lines_iter = (x for x in lines if self.split_days_regex.search(x))
+        # lines[1:] == exclude the weekday line which also can contain `Geschlossen`
+        soup_lines_iter = (x for x in lines[1:] if self.split_days_regex.search(x))
 
         soup_line1 = next(soup_lines_iter)
         soup_line2 = next(soup_lines_iter, '')
 
+        # Sometimes on closed days, the keywords are written instead of the week of day instead of the soup line
         positions1 = [(max(a.start() - 3, 0), a.end()) for a in list(
+            re.finditer(self.split_days_regex_closed, weekdays))]
+
+        positions2 = [(max(a.start() - 3, 0), a.end()) for a in list(
             re.finditer(self.split_days_regex_soup_one_line, soup_line1))]
-        # In the second line there is just 'Aushang' (two lines "Tagessuppe siehe Aushang")
-        positions2 = [(max(a.start() - 14, 0), a.end() + 3) for a in list(
+        # In the second line there is just 'Aushang' (two lines "Tagessuppe siehe Aushang" or
+        # closed days ("Geschlossen", "Feiertag")
+        positions3 = [(max(a.start() - 14, 0), a.end() + 3) for a in list(
             re.finditer(self.split_days_regex_soup_two_line, soup_line2))]
-        # closed days ("Geschlossen", "Feiertag", …) can be in first line and second line
-        positions3 = [(max(a.start() - 3, 0), a.end()) for a in list(
+         # closed days ("Geschlossen", "Feiertag", …) can be in first line and second line
+        positions4 = [(max(a.start() - 3, 0), a.end()) for a in list(
             re.finditer(self.split_days_regex_closed, soup_line1)) + list(
             re.finditer(self.split_days_regex_closed, soup_line2))]
 
-        if positions2: # Two lines "Tagessuppe siehe Aushang"
+        if positions3:  # Two lines "Tagessuppe siehe Aushang"
             soup_line_index = lines.index(soup_line2)
         else:
             soup_line_index = lines.index(soup_line1)
 
-        positions = sorted(positions1 + positions2 + positions3)
+        positions = sorted(positions1 + positions2 + positions3 + positions4)
 
         if len(positions) != 5:
             warn("IPP PDF parsing of week {} in year {} failed. Only {} of 5 columns detected.".format(
@@ -439,24 +452,22 @@ class IPPBistroMenuParser(MenuParser):
             lines_weekdays["fri"] += " " + line[pos_fri:].replace("\n", " ")
 
         for key in lines_weekdays:
+            # Appends `?€` to „Überraschungsmenü“ if it do not have a price. The second '€' is a separator for the
+            # later split
+            lines_weekdays[key] = self.surprise_without_price_regex.sub(r"\g<1>?€ € \g<2>", lines_weekdays[key])
             # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
             lines_weekdays[key] = unicodedata.normalize("NFKC", lines_weekdays[key])
             # remove multi-whitespaces
             lines_weekdays[key] = ' '.join(lines_weekdays[key].split())
             # get all dish including name and price
-            dish_names = re.findall(self.dish_regex, lines_weekdays[key] + " ")
-            # get dish prices
-            prices = re.findall(self.price_regex, ' '.join(dish_names))
-            # convert prices to float
-            prices = [float(price.replace("€", "").replace(",", ".").strip()) for price in prices]
-            # remove price and commas from dish names
-            dish_names = [re.sub(self.price_regex, "", dish).strip() for dish in dish_names]
+            dish_names_price = re.findall(self.dish_regex, lines_weekdays[key] + ' ')
             # create ingredients
             # all dishes have the same ingridients
             ingredients = Ingredients("ipp-bistro")
             ingredients.parse_ingredients("Mi,Gl,Sf,Sl,Ei,Se,4")
             # create list of Dish objects
-            dishes = [Dish(dish_name, price, ingredients.ingredient_set) for (dish_name, price) in list(zip(dish_names, prices))]
+            dishes = [Dish(dish_name.strip(), price.replace(',', '.').strip(), ingredients.ingredient_set)
+                      for (dish_name, price) in dish_names_price]
             date = self.get_date(year, week_number, self.weekday_positions[key])
             # create new Menu object and add it to dict
             menu = Menu(date, dishes)
@@ -509,7 +520,7 @@ class MedizinerMensaMenuParser(MenuParser):
 
         # Example PDF-name: "KW_44_Herbst_4_Mensa_2018.pdf" or "KW_50_Winter_1_Mensa_-2018.pdf"
         pdf_name = pdf_url.split("/")[-1]
-        wn_year_match = re.search("KW_([1-9]+\d*)_.*_-?(\d+).*", pdf_name, re.IGNORECASE)
+        wn_year_match = re.search(r"KW_([1-9]+\d*)_.*_-?(\d+).*", pdf_name, re.IGNORECASE)
         week_number = int(wn_year_match.group(1)) if wn_year_match else None
         year = int(wn_year_match.group(2)) if wn_year_match else None
         # convert 2-digit year into 4-digit year
@@ -548,15 +559,14 @@ class MedizinerMensaMenuParser(MenuParser):
         lines = lines[:last_relevant_line]
 
         days_list = [d for d in
-                re.split(r"(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s\d{1,2}.\d{1,2}.\d{4}",
-                         "\n".join(lines).replace("*", "").strip())
-                if d not in ["", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]]
+                     re.split(r"(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s\d{1,2}.\d{1,2}.\d{4}",
+                              "\n".join(lines).replace("*", "").strip())
+                     if d not in ["", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]]
         if len(days_list) != 7:
             # as the Mediziner Mensa is part of hospital, it should serve food on each day
             return None
         days = {"mon": days_list[0], "tue": days_list[1], "wed": days_list[2], "thu": days_list[3], "fri": days_list[4],
                 "sat": days_list[5], "sun": days_list[6]}
-
 
         for key in days:
             day_lines = unicodedata.normalize("NFKC", days[key]).splitlines(True)
@@ -569,7 +579,7 @@ class MedizinerMensaMenuParser(MenuParser):
             soup_str = soup_str.replace("-\n", "").strip().replace("\n", " ")
             soup = self.parse_dish(soup_str)
             dishes = []
-            if(soup.name not in ["", "Feiertag"]):
+            if (soup.name not in ["", "Feiertag"]):
                 dishes.append(soup)
             # https://regex101.com/r/MDFu1Z/1
             for dish_str in re.split(r"(\n{2,}|(?<!mit)\n(?=[A-Z]))", mains_str):
@@ -578,7 +588,7 @@ class MedizinerMensaMenuParser(MenuParser):
                 dish.name = dish.name.strip()
                 if dish.name not in ["", "Feiertag"]:
                     dishes.append(dish)
-                    
+
             date = self.get_date(year, week_number, self.weekday_positions[key])
             menu = Menu(date, dishes)
             # remove duplicates
