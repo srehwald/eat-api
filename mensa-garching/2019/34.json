@@ -9,8 +9,8 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn",
                         "Sl"
                     ]
@@ -19,9 +19,9 @@
                     "name": "Pasta mit Sojabolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "So",
+                        "GlW",
+                        "Gl",
                         "Sl"
                     ]
                 },
@@ -30,8 +30,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "S",
-                        "Kn",
                         "Sf",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -40,11 +40,11 @@
                     "price": 2.8,
                     "ingredients": [
                         "GlG",
-                        "R",
-                        "GlW",
-                        "Sl",
                         "Gl",
+                        "R",
                         "Kn",
+                        "Sl",
+                        "GlW",
                         "Mi"
                     ]
                 }
@@ -57,18 +57,18 @@
                     "name": "Grüne Bohnen mit Reis in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn",
-                        "Sf"
+                        "Gl",
+                        "Sf",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Grünkohl-Hanf-Bällchen mit Paprikarahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Mi",
                         "Kn"
                     ]
@@ -77,12 +77,12 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse, Cevapcici mit Ajvar",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Sf",
-                        "Sl",
                         "Gl",
+                        "Sf",
                         "S",
                         "Kn",
+                        "Sl",
+                        "GlW",
                         "Mi"
                     ]
                 },
@@ -90,14 +90,14 @@
                     "name": "Fleischpflanzerl mit Sauerkraut, Sauerkraut mit Speck",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
                         "R",
-                        "3",
-                        "GlW",
-                        "2",
                         "Sf",
                         "S",
-                        "Gl",
-                        "Ei"
+                        "Ei",
+                        "3",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
@@ -118,11 +118,11 @@
                     "name": "Mexikanisches Chili",
                     "price": 1.0,
                     "ingredients": [
+                        "So",
                         "5",
                         "3",
-                        "Sw",
                         "Kn",
-                        "So"
+                        "Sw"
                     ]
                 },
                 {
@@ -130,14 +130,14 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlG",
+                        "Gl",
                         "R",
-                        "GlW",
                         "Sf",
                         "S",
-                        "Gl",
+                        "Ei",
                         "Kn",
-                        "Mi",
-                        "Ei"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -145,22 +145,22 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlG",
-                        "3",
-                        "GlW",
+                        "Gl",
                         "Sf",
                         "S",
-                        "Gl",
-                        "Sw",
+                        "3",
                         "Kn",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 }
@@ -181,15 +181,15 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlG",
-                        "99",
-                        "R",
-                        "GlW",
-                        "S",
                         "Gl",
-                        "Sw",
+                        "R",
+                        "S",
+                        "Ei",
+                        "99",
                         "Kn",
+                        "GlW",
                         "Mi",
-                        "Ei"
+                        "Sw"
                     ]
                 },
                 {
@@ -206,14 +206,14 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlG",
-                        "3",
-                        "GlW",
+                        "Gl",
                         "Sf",
                         "S",
-                        "Gl",
-                        "Sw",
+                        "3",
                         "Kn",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "Sw"
                     ]
                 },
                 {
@@ -221,12 +221,12 @@
                     "price": 2.8,
                     "ingredients": [
                         "GlG",
-                        "99",
-                        "GlW",
                         "Gl",
-                        "Sw",
+                        "99",
                         "Kn",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "Sw"
                     ]
                 }
             ]
@@ -245,23 +245,23 @@
                     "name": "Pasta Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "3",
-                        "GlW",
-                        "2",
-                        "Sl",
-                        "S",
                         "Gl",
+                        "S",
+                        "Ei",
+                        "3",
                         "Kn",
+                        "Sl",
+                        "GlW",
                         "Mi",
-                        "Ei"
+                        "2"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -269,12 +269,12 @@
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
                         "Fi",
-                        "Sl",
                         "Gl",
-                        "Mi",
-                        "Ei"
+                        "Ei",
+                        "Sl",
+                        "GlW",
+                        "Mi"
                     ]
                 }
             ]
