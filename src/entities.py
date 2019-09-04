@@ -16,9 +16,9 @@ class Dish:
 
     def __repr__(self):
         if type(self.price) is not str:
-            return "%s %s: %.2f€" % (self.name, str(list(self.ingredients)), self.price)
+            return "%s %s: %.2f€" % (self.name, str(sorted(self.ingredients)), self.price)
         else:
-            return "%s %s: %s" % (self.name, str(list(self.ingredients)), self.price)
+            return "%s %s: %s" % (self.name, str(sorted(self.ingredients)), self.price)
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
@@ -29,7 +29,7 @@ class Dish:
 
     def to_json_obj(self):
         return {"name": self.name, "price": self.price,
-             "ingredients": list(self.ingredients)}
+             "ingredients": sorted(self.ingredients)}
 
     def __hash__(self):
         # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
