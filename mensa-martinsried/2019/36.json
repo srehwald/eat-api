@@ -13,34 +13,65 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Gemüse-Kartoffelsuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "So",
+                        "Sl",
+                        "GlW",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Bulgur-Gemüse-Pfanne",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Kn",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Spinatknödel Tiroler Art mit Bergkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "GlW",
                         "Gl",
+                        "Mi",
                         "Ei",
-                        "Mi"
+                        "Sl"
                     ]
+                },
+                {
+                    "name": "Kartoffelrösti mit Sauerrahmdip",
+                    "price": "N/A",
+                    "ingredients": []
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "Kn",
-                        "9",
-                        "2",
                         "Sf",
+                        "9",
                         "GlW",
                         "Gl",
+                        "2",
+                        "GlG",
+                        "Kn",
                         "Mi",
-                        "GlG"
+                        "R"
+                    ]
+                },
+                {
+                    "name": "Hähnchenschnitzel Rahmsauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "GlG",
+                        "Mi",
+                        "Kn",
+                        "Sl"
                     ]
                 }
             ]
@@ -52,9 +83,9 @@
                     "name": "Indisches Linsencurry",
                     "price": "N/A",
                     "ingredients": [
+                        "Sf",
                         "Sl",
-                        "Kn",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
@@ -66,26 +97,26 @@
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "2",
-                        "Gl",
                         "GlW",
-                        "Ei",
+                        "Gl",
+                        "GlD",
+                        "2",
                         "Mi",
-                        "GlD"
+                        "Ei",
+                        "1"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "2",
                         "Sf",
                         "GlW",
                         "Gl",
+                        "2",
+                        "Mi",
                         "Ei",
-                        "Mi"
+                        "1"
                     ]
                 },
                 {
@@ -93,9 +124,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Fi",
+                        "GlW",
                         "Sc",
                         "ScM",
-                        "GlW",
                         "Gl",
                         "Mi"
                     ]
@@ -110,9 +141,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Mi",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "Mi"
                     ]
                 },
                 {
@@ -123,31 +154,51 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Champignoncremesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "99",
+                        "Sw",
+                        "Gl",
+                        "Kn",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
-                        "Kn",
                         "GlW",
+                        "99",
                         "Gl",
                         "S",
+                        "GlG",
+                        "Kn",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Hähnchenknusperfilet mit Sweet Chili Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sf",
+                        "GlW",
+                        "Gl",
+                        "2",
                         "Mi",
-                        "GlG"
+                        "Ei",
+                        "1"
                     ]
                 },
                 {
                     "name": "Dampfnudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Ei",
-                        "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -159,11 +210,36 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "11",
                         "Sf",
+                        "11",
+                        "S",
                         "8",
-                        "S"
+                        "R"
+                    ]
+                },
+                {
+                    "name": "Pikante Chickenwings mit Barbecuesauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sf",
+                        "11",
+                        "Kn",
+                        "10",
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Fleischpflanzerl mit BBQ Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "S",
+                        "GlG",
+                        "Kn",
+                        "Mi",
+                        "Ei",
+                        "R"
                     ]
                 },
                 {
@@ -171,36 +247,39 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Karotten-Ingwer-Suppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "2",
                         "GlW",
                         "Gl",
-                        "Mi",
-                        "GlD"
+                        "GlD",
+                        "2",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Überbackenes Putenschnitzel Toskana",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "1",
                         "GlW",
                         "Gl",
-                        "Mi"
+                        "Kn",
+                        "Mi",
+                        "1"
                     ]
                 }
             ]
@@ -213,9 +292,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Mi",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "Mi"
                     ]
                 },
                 {
@@ -223,13 +302,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "Fi",
-                        "1",
                         "9",
-                        "2",
-                        "Gl",
                         "GlW",
+                        "Gl",
+                        "2",
+                        "Mi",
                         "Ei",
-                        "Mi"
+                        "1"
                     ]
                 },
                 {
@@ -250,11 +329,11 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
                         "GlW",
+                        "3",
                         "Gl",
-                        "Ei",
-                        "Mi"
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
