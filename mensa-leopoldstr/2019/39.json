@@ -9,18 +9,18 @@
                     "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "Ei"
+                        "Ei",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
@@ -36,9 +36,9 @@
                     "price": "0.33€ / 100g",
                     "ingredients": [
                         "GlG",
+                        "Gl",
                         "Sl",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 }
             ]
@@ -50,27 +50,27 @@
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": "individual",
                     "ingredients": [
-                        "GlW",
+                        "Ei",
+                        "3",
                         "8",
-                        "Mi",
                         "S",
                         "2",
+                        "Mi",
+                        "GlW",
                         "Gl",
-                        "3",
-                        "Kn",
-                        "Ei"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": "N/A",
                     "ingredients": [
+                        "3",
+                        "2",
+                        "Mi",
                         "GlW",
                         "GlG",
-                        "Mi",
-                        "2",
                         "Gl",
-                        "3",
                         "Kn"
                     ]
                 },
@@ -78,23 +78,23 @@
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "1",
-                        "Mi",
+                        "Ei",
                         "Sf",
                         "2",
+                        "Mi",
+                        "GlW",
+                        "1",
                         "Gl",
-                        "Kn",
-                        "Ei"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
@@ -106,10 +106,10 @@
                     "name": "Andalusisches Rinderragout (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sw",
                         "99",
+                        "Sw",
                         "R",
+                        "GlW",
                         "Gl",
                         "Kn"
                     ]
@@ -118,22 +118,22 @@
                     "name": "Kaspressknödel mit Bouillongemüse",
                     "price": "0.75€ / 100g",
                     "ingredients": [
+                        "Ei",
                         "So",
+                        "2",
                         "GlW",
                         "GlG",
-                        "Mi",
-                        "2",
                         "Gl",
-                        "Ei"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchenbrustfilet mit warmer Gemüsesalsa (scharf)",
                     "price": "N/A",
                     "ingredients": [
-                        "4",
                         "2",
-                        "Kn"
+                        "Kn",
+                        "4"
                     ]
                 },
                 {
@@ -152,26 +152,26 @@
                     "name": "Panierter Seelachs (MSC) mit Kartoffel-Gurken-Salat",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
+                        "9",
+                        "Fi",
+                        "2",
                         "GlW",
                         "1",
-                        "9",
-                        "Mi",
-                        "2",
-                        "Fi",
                         "Gl",
-                        "Ei"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Sw",
-                        "Mi",
-                        "5",
-                        "S",
                         "3",
-                        "Kn"
+                        "Sw",
+                        "S",
+                        "5",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -201,11 +201,11 @@
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "99",
-                        "GlG",
-                        "Mi",
                         "S",
+                        "Mi",
+                        "GlW",
+                        "GlG",
                         "Gl",
                         "Kn"
                     ]
@@ -214,10 +214,10 @@
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": "0.75€ / 100g",
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "Ei"
+                        "Ei",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
@@ -225,9 +225,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "So",
-                        "GlW",
                         "Sf",
                         "2",
+                        "GlW",
                         "Gl",
                         "Kn"
                     ]
@@ -236,9 +236,9 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
