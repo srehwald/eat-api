@@ -1,90 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-09-16">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>(*) Spitzpaprika gefüllt mit Gemüse- CousCous</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Pasta Front-Cooking Pasta a la Emilliana Rosso</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-09-17">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>(*) Yellow-Thaicurry mit Wokgemüse und Reisrand</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-09-18">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Schafskäse gebacken auf Gurken- Paprika- Mais- Salat mit Oliven- Quark</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Pasta Front-Cooking (*) Pasta mit Siciliana- Sugo</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Putenschnitzel “Wiener Art” mit Paprika- Kartoffeln und grünem Salat</name>
-          <price role="other">6.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-09-19">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>(*) Falafelbällchen auf Gemüsereis</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill 3 Stk Schweinswürstl auf Sauerkraut und Breze</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-09-20">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Nuß- Reisauflauf mit Früchtecocktail</name>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Pasta Front-Cooking Pasta mit Spargel- Bärlauchsoße</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
     <day date="2019-09-23">
       <category name="Speiseplan">
         <meal>
@@ -165,6 +81,74 @@
         </meal>
         <meal>
           <name>Pasta Front-Cooking (*)Pasta mit Gorgonzola-Spinatsoße</name>
+          <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-09-30">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Rahmwirsing mit Semmelknödel</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Pasta Front-Cooking (*) Pasta mit Linsen- Bolognese</name>
+          <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-10-01">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Gnocchi mit Broccoli in Zitronensoße dazu Peccorino</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-10-02">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>(*) Spinat- Kicherbsencurry mit Duftreis</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Pasta Front-Cooking Pasta mit Kürbis-Sahnesoße</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Züricher Putengeschnetzeltes mit Reiberdatschi und Karottengemüse</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-10-04">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>1 x Rosinen-Rohrnudel mit Vanillesoße</name>
+          <price role="other">2.80</price>
+        </meal>
+        <meal>
+          <name>Pasta Front-Cooking Pasta al Tonno mit Oliven und Kapern</name>
           <price role="other">4.90</price>
         </meal>
       </category>
