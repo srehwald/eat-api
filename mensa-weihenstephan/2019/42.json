@@ -17,9 +17,9 @@
                     "price": 1.55,
                     "ingredients": [
                         "GlW",
+                        "Kn",
                         "2",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -35,15 +35,15 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
-                        "Sf",
                         "GlW",
                         "2",
-                        "Gl",
-                        "Mi",
+                        "Sf",
                         "GlG",
                         "9",
-                        "R"
+                        "Gl",
+                        "Mi",
+                        "R",
+                        "Kn"
                     ]
                 }
             ]
@@ -55,36 +55,36 @@
                     "name": "Indisches Linsencurry",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
                         "Kn",
-                        "Sf"
+                        "Sf",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
+                        "1",
                         "GlW",
                         "2",
                         "Gl",
                         "Mi",
-                        "GlD",
                         "Ei",
-                        "1"
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "11",
+                        "1",
                         "GlW",
-                        "Sf",
                         "2",
+                        "Sf",
                         "Gl",
                         "Mi",
-                        "Ei",
-                        "1"
+                        "11",
+                        "Ei"
                     ]
                 },
                 {
@@ -92,10 +92,10 @@
                     "price": 3.5,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Mi",
+                        "So",
                         "GlG",
-                        "So"
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -114,15 +114,15 @@
                     "name": "Gebratener Reis mit Meeresfrüchten",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "So",
                         "2",
+                        "Kn",
                         "Gl",
-                        "En",
+                        "Wt",
                         "Kr",
                         "Ei",
-                        "So",
-                        "Wt"
+                        "En"
                     ]
                 },
                 {
@@ -130,8 +130,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -139,13 +139,13 @@
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "99",
+                        "GlG",
                         "Gl",
                         "Mi",
-                        "GlG",
-                        "S"
+                        "99",
+                        "S",
+                        "Kn"
                     ]
                 }
             ]
@@ -158,8 +158,8 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -167,8 +167,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -176,27 +176,27 @@
                     "name": "Spenden - Currywurst",
                     "price": 1.9,
                     "ingredients": [
-                        "11",
                         "Sf",
                         "8",
+                        "R",
                         "S",
-                        "R"
+                        "11"
                     ]
                 },
                 {
                     "name": "Pizza Quattro Stagioni mit (Vorder-)Schinken, Paprika, Champignons und Oliven",
                     "price": 3.5,
                     "ingredients": [
-                        "8",
+                        "1",
                         "GlW",
                         "2",
-                        "Gl",
-                        "Mi",
+                        "8",
                         "GlG",
-                        "S",
                         "So",
-                        "1",
-                        "3"
+                        "Gl",
+                        "3",
+                        "Mi",
+                        "S"
                     ]
                 }
             ]
@@ -209,8 +209,8 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Sl",
-                        "Gl"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
@@ -219,24 +219,24 @@
                     "ingredients": [
                         "GlW",
                         "Gl",
+                        "3",
                         "Mi",
-                        "Ei",
-                        "3"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "11",
+                        "1",
                         "GlW",
-                        "Sf",
                         "2",
+                        "Sf",
+                        "9",
                         "Gl",
                         "Mi",
+                        "11",
                         "Ei",
-                        "9",
-                        "1",
                         "Fi"
                     ]
                 }
