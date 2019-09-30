@@ -10,21 +10,21 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
+                        "Gl",
                         "Kn",
-                        "2",
-                        "Gl"
+                        "2"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
                         "Kn",
+                        "GlG",
                         "Mi",
-                        "Gl",
                         "GlW",
-                        "GlG"
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
@@ -32,11 +32,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "Kn",
-                        "Mi",
-                        "Sl",
-                        "Gl",
                         "Ei",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Gl",
+                        "Sl"
                     ]
                 }
             ]
@@ -53,28 +53,28 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
+                        "Ei",
                         "Mi",
-                        "1",
-                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Gl",
+                        "1",
+                        "2"
                     ]
                 },
                 {
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": 2.8,
                     "ingredients": [
-                        "2",
-                        "S",
-                        "8",
                         "Kn",
-                        "Mi",
-                        "1",
+                        "8",
+                        "GlG",
                         "3",
-                        "Gl",
+                        "Mi",
                         "GlW",
-                        "GlG"
+                        "1",
+                        "Gl",
+                        "2",
+                        "S"
                     ]
                 }
             ]
@@ -86,21 +86,21 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
-                        "Gl",
                         "GlD",
                         "Ei",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
@@ -109,11 +109,11 @@
                     "ingredients": [
                         "Kn",
                         "Sw",
-                        "1",
-                        "3",
-                        "Gl",
                         "R",
-                        "GlW"
+                        "3",
+                        "GlW",
+                        "1",
+                        "Gl"
                     ]
                 }
             ]
@@ -133,24 +133,24 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Sl",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "2",
-                        "S",
-                        "8",
                         "Kn",
+                        "8",
+                        "GlG",
                         "Mi",
-                        "Gl",
                         "GlW",
-                        "GlG"
+                        "Gl",
+                        "2",
+                        "S"
                     ]
                 }
             ]
@@ -162,8 +162,8 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
@@ -177,9 +177,9 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "1",
                         "Mi",
                         "GlW",
+                        "1",
                         "Gl"
                     ]
                 }
