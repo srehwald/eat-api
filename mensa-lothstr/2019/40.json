@@ -10,21 +10,21 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "Kn",
-                        "Sl"
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "Mi",
-                        "Ei",
                         "Sl",
+                        "Ei",
+                        "Kn",
                         "GlW",
+                        "Gl",
                         "1"
                     ]
                 },
@@ -32,27 +32,27 @@
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
+                        "GlG",
                         "R",
                         "Sl",
+                        "Kn",
+                        "GlW",
                         "Gl",
-                        "Mi",
-                        "GlG",
-                        "GlW"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Kn",
                         "2",
-                        "Gl",
-                        "S",
-                        "Mi",
-                        "Ei",
                         "GlG",
-                        "GlW"
+                        "S",
+                        "Ei",
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -65,9 +65,9 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Kn",
                         "Sf",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
@@ -75,9 +75,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "Kn",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
@@ -85,8 +85,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "8",
-                        "S",
-                        "Sl"
+                        "Sl",
+                        "S"
                     ]
                 },
                 {
@@ -94,11 +94,11 @@
                     "price": 3.0,
                     "ingredients": [
                         "99",
+                        "5",
+                        "GlW",
                         "Gl",
                         "Mi",
-                        "GlW",
-                        "Sw",
-                        "5"
+                        "Sw"
                     ]
                 },
                 {
@@ -106,8 +106,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -119,8 +119,8 @@
                     "name": "Mexikanisches Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
@@ -128,34 +128,34 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "Kn",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Hähnchenspieß mit fruchtiger Sauce",
                     "price": 2.4,
                     "ingredients": [
+                        "So",
                         "Gl",
-                        "GlW",
                         "Kn",
-                        "So"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Wiesn - Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "Sf",
-                        "3",
-                        "Gl",
-                        "S",
-                        "Mi",
                         "GlG",
+                        "S",
+                        "3",
+                        "Kn",
                         "GlW",
-                        "Sw"
+                        "Gl",
+                        "Mi",
+                        "Sw",
+                        "Sf"
                     ]
                 }
             ]
@@ -174,15 +174,15 @@
                     "name": "Spaghetti Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "2",
-                        "3",
-                        "Gl",
-                        "S",
-                        "Mi",
-                        "Ei",
                         "Sl",
-                        "GlW"
+                        "S",
+                        "3",
+                        "Ei",
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
@@ -190,9 +190,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "GlW"
                     ]
                 },
                 {
@@ -200,11 +200,11 @@
                     "price": 3.5,
                     "ingredients": [
                         "Fi",
-                        "Gl",
-                        "Mi",
-                        "Ei",
                         "Sl",
-                        "GlW"
+                        "Ei",
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]

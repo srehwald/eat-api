@@ -9,24 +9,24 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "GlG",
                         "S",
-                        "GlW",
-                        "Kn",
                         "Mi",
-                        "Gl"
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
-                        "Ei",
                         "Sl",
+                        "Ei",
                         "Mi",
-                        "Gl"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -38,12 +38,12 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Ei",
-                        "Mi",
                         "1",
+                        "Mi",
+                        "Gl",
                         "2",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
@@ -55,24 +55,24 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Sl",
                         "Ei",
                         "GlD",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pasta di Manzo mit Rindfleischstreifen in Balsamico",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Sw",
-                        "3",
-                        "1",
                         "R",
-                        "Gl"
+                        "1",
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "3"
                     ]
                 }
             ]
@@ -84,9 +84,9 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
                         "Gl",
                         "GlW",
+                        "Sl",
                         "Kn"
                     ]
                 },
@@ -94,14 +94,14 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "GlG",
                         "S",
+                        "Mi",
+                        "8",
+                        "Gl",
+                        "2",
                         "GlW",
                         "Kn",
-                        "Mi",
-                        "2",
-                        "Gl",
-                        "8"
+                        "GlG"
                     ]
                 }
             ]
@@ -120,8 +120,8 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "1",
                         "GlW"
                     ]

@@ -10,41 +10,41 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Kn",
                         "2",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "S",
-                        "Mi",
                         "GlG",
-                        "GlW"
+                        "S",
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rougaille Soja von Mauritius (Soja in würziger Tomatensauce)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
+                        "So",
                         "Kn",
-                        "So"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Sf",
+                        "10",
                         "11",
                         "Sl",
-                        "10"
+                        "Kn",
+                        "Sf"
                     ]
                 }
             ]
@@ -61,13 +61,13 @@
                     "name": "Penne all'amatriciana",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "2",
-                        "3",
-                        "Gl",
-                        "S",
                         "Sl",
-                        "GlW"
+                        "3",
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
@@ -75,10 +75,10 @@
                     "price": 2.4,
                     "ingredients": [
                         "2",
-                        "Gl",
                         "Mi",
                         "Ei",
                         "GlW",
+                        "Gl",
                         "1"
                     ]
                 },
@@ -86,14 +86,14 @@
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
-                        "R",
+                        "GlG",
                         "99",
                         "Sl",
+                        "R",
+                        "Kn",
+                        "GlW",
                         "Gl",
                         "Mi",
-                        "GlG",
-                        "GlW",
                         "Sw"
                     ]
                 }
@@ -106,44 +106,44 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": 1.0,
                     "ingredients": [
+                        "So",
                         "Gl",
-                        "GlW",
                         "Kn",
-                        "So"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "GlD",
-                        "Ei",
                         "Sl",
-                        "GlW"
+                        "Ei",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
+                        "Sl",
+                        "Ei",
+                        "GlW",
                         "Gl",
                         "Mi",
-                        "Ei",
-                        "Sl",
-                        "GlW"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Grünes Hähnchen-Curry mit Wokgemüse und Basmatireis",
                     "price": 3.2,
                     "ingredients": [
+                        "So",
                         "Kn",
-                        "En",
-                        "Gl",
                         "GlW",
-                        "So"
+                        "Gl",
+                        "En"
                     ]
                 }
             ]
@@ -155,20 +155,20 @@
                     "name": "Pikante Hirse mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Gebratene Currynudeln mit Gemüsestreifen",
                     "price": 1.55,
                     "ingredients": [
-                        "Sf",
-                        "Gl",
-                        "Ei",
                         "Sl",
+                        "Ei",
+                        "Se",
                         "GlW",
-                        "Se"
+                        "Gl",
+                        "Sf"
                     ]
                 },
                 {
@@ -176,26 +176,26 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Kn",
                         "2",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Käsekrainer mit Bratensauce",
                     "price": 2.4,
                     "ingredients": [
-                        "8",
-                        "Kn",
-                        "Sf",
-                        "R",
                         "2",
-                        "3",
-                        "Gl",
-                        "S",
-                        "Mi",
                         "GlG",
-                        "GlW"
+                        "8",
+                        "R",
+                        "S",
+                        "3",
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "Sf"
                     ]
                 }
             ]
@@ -207,8 +207,8 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -216,20 +216,20 @@
                     "price": 3.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "1",
                         "Mi",
-                        "1"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4.0,
                     "ingredients": [
-                        "Kn",
                         "Fi",
+                        "Kn",
+                        "GlW",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]
