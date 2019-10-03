@@ -1,52 +1,51 @@
 {
-    "number": 40,
+    "number": 41,
     "year": 2019,
     "days": [
         {
-            "date": "2019-09-30",
+            "date": "2019-10-07",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
+                    "ingredients": [
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "(*)Süßkartoffeln mit Andalusiengemüse",
+                    "price": 4.5,
+                    "ingredients": [
+                        "Mi",
+                        "Sl",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pasta Front-Cooking Pasta mit Austernpilzrahm",
+                    "price": 4.9,
                     "ingredients": [
                         "Mi",
                         "Sl",
                         "Gl",
                         "Ei"
                     ]
-                },
-                {
-                    "name": "Rahmwirsing mit Semmelknödel",
-                    "price": 4.5,
-                    "ingredients": [
-                        "Sl",
-                        "Gl"
-                    ]
-                },
-                {
-                    "name": "Pasta Front-Cooking (*) Pasta mit Linsen- Bolognese",
-                    "price": 4.9,
-                    "ingredients": [
-                        "Sl",
-                        "Gl"
-                    ]
                 }
             ]
         },
         {
-            "date": "2019-10-01",
+            "date": "2019-10-08",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
-                        "Mi",
                         "Sl",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Gnocchi mit Broccoli in Zitronensoße dazu Peccorino",
+                    "name": "(*) One Pot Pasta in Red- Currypaste mit Kokosmilch und Gemüse",
                     "price": 4.5,
                     "ingredients": [
                         "Sl",
@@ -57,14 +56,56 @@
                     "name": "Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat",
                     "price": 4.6,
                     "ingredients": [
+                        "Sf",
+                        "Sl",
+                        "Gl",
+                        "Ei"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-10-09",
+            "dishes": [
+                {
+                    "name": "Tagessuppe",
+                    "price": 1.0,
+                    "ingredients": [
+                        "Sl",
+                        "Gl",
+                        "Sc"
+                    ]
+                },
+                {
+                    "name": "(*)Kartoffel-Gemüsepfanne in Kokos- Erdnußsoße",
+                    "price": 4.5,
+                    "ingredients": [
                         "Mi",
+                        "Sl",
+                        "Gl",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Pasta Front-Cooking Pasta alla Carbonara",
+                    "price": 4.9,
+                    "ingredients": [
+                        "Mi",
+                        "Sl",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pulled Turkey mit Mango- Chutney Karottenstifte im Brioche- Brötchen",
+                    "price": 5.5,
+                    "ingredients": [
                         "Sl"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-10-02",
+            "date": "2019-10-10",
             "dishes": [
                 {
                     "name": "Tagessuppe",
@@ -75,63 +116,59 @@
                     ]
                 },
                 {
-                    "name": "(*) Spinat- Kicherbsencurry mit Duftreis",
+                    "name": "(*)Tofu-Gulasch mit Pastinaken",
                     "price": 4.5,
                     "ingredients": [
-                        "Mi",
-                        "Sl",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Pasta mit Kürbis-Sahnesoße",
-                    "price": 4.9,
+                    "name": "Frisch vom Grill Currywurst mit Pommes Frites",
+                    "price": 5.5,
                     "ingredients": [
-                        "Mi",
+                        "Sf",
                         "Sl",
-                        "Gl"
-                    ]
-                },
-                {
-                    "name": "Züricher Putengeschnetzeltes mit Reiberdatschi und Karottengemüse",
-                    "price": 6.2,
-                    "ingredients": [
-                        "Gl"
+                        "Wt",
+                        "Se",
+                        "Mi",
+                        "Ei",
+                        "So"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-10-03",
-            "dishes": []
-        },
-        {
-            "date": "2019-10-04",
+            "date": "2019-10-11",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "1 x Rosinen-Rohrnudel mit Vanillesoße",
-                    "price": 2.8,
-                    "ingredients": [
-                        "Si",
-                        "Sl",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Pasta al Tonno mit Oliven und Kapern",
-                    "price": 4.9,
+                    "name": "Milchreis mit Zimt- Zucker",
+                    "price": 4.3,
+                    "ingredients": [
+                        "Mi",
+                        "Sl",
+                        "Gl",
+                        "Si"
+                    ]
+                },
+                {
+                    "name": "Pasta Front-Cooking (*)Pasta mit Räucherlachs",
+                    "price": 4.5,
                     "ingredients": [
                         "Sl",
-                        "Si"
+                        "Gl",
+                        "Sc",
+                        "En",
+                        "Si",
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]

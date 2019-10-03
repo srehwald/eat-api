@@ -16,27 +16,27 @@
                     "name": "Würzige Prager Bratwurst",
                     "price": 2.4,
                     "ingredients": [
+                        "S",
+                        "Mi",
+                        "8",
+                        "GlW",
+                        "3",
+                        "GlG",
+                        "R",
+                        "2",
                         "Gl",
                         "1",
-                        "2",
-                        "R",
-                        "GlW",
-                        "8",
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "3",
-                        "GlG"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "Mi",
-                        "GlW",
-                        "Gl"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -62,41 +62,41 @@
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
-                        "Sf",
-                        "2",
-                        "11",
                         "5",
-                        "Kn",
                         "Sw",
-                        "S",
+                        "So",
                         "3",
-                        "So"
+                        "Sl",
+                        "2",
+                        "Sf",
+                        "S",
+                        "11",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pizza Diavolo mit Mozzarella, scharfer Salami und Peperoni",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
-                        "1",
-                        "2",
-                        "GlW",
-                        "Mi",
                         "S",
+                        "Mi",
+                        "GlW",
                         "3",
                         "So",
-                        "GlG"
+                        "GlG",
+                        "2",
+                        "Gl",
+                        "1"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti mit Bio-Spinat-Sahnesauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "Mi",
-                        "GlW",
-                        "Gl"
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -108,9 +108,9 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
+                        "2",
                         "Sf",
-                        "2"
+                        "Kn"
                     ]
                 },
                 {
@@ -122,12 +122,12 @@
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "2",
-                        "GlW",
-                        "Kn",
                         "Mi",
-                        "GlD"
+                        "GlW",
+                        "2",
+                        "Gl",
+                        "GlD",
+                        "Kn"
                     ]
                 },
                 {
@@ -135,8 +135,8 @@
                     "price": 2.6,
                     "ingredients": [
                         "Sl",
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -148,47 +148,47 @@
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": 1.0,
                     "ingredients": [
+                        "Gl",
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "99",
-                        "Gl",
-                        "GlW",
-                        "Kn",
                         "Mi",
+                        "GlW",
+                        "99",
+                        "GlG",
+                        "Gl",
                         "S",
-                        "GlG"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pizza quattro stagioni",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
-                        "2",
-                        "GlW",
-                        "8",
                         "Mi",
-                        "S",
+                        "6",
+                        "8",
+                        "GlW",
                         "3",
                         "So",
                         "GlG",
-                        "6"
+                        "2",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": 2.6,
                     "ingredients": [
+                        "Gl",
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
@@ -207,9 +207,9 @@
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce",
                     "price": 1.9,
                     "ingredients": [
+                        "10",
                         "Sl",
                         "Sf",
-                        "10",
                         "11",
                         "Kn"
                     ]
@@ -218,11 +218,11 @@
                     "name": "Bio-Penne mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
                         "Mi",
-                        "So"
+                        "So",
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
