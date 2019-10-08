@@ -9,11 +9,11 @@
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "R",
-                        "Gl",
-                        "GlW",
                         "Kn",
-                        "2"
+                        "Gl",
+                        "2",
+                        "GlW",
+                        "R"
                     ]
                 },
                 {
@@ -21,11 +21,11 @@
                     "price": 1.9,
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "Sl",
-                        "GlW",
+                        "Kn",
                         "Ei",
-                        "Kn"
+                        "Gl",
+                        "GlW",
+                        "Sl"
                     ]
                 }
             ]
@@ -38,13 +38,13 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "1",
-                        "Sf",
-                        "GlW",
                         "Ei",
+                        "Kn",
+                        "1",
+                        "Gl",
+                        "Sf",
                         "2",
-                        "Kn"
+                        "GlW"
                     ]
                 }
             ]
@@ -57,9 +57,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -67,8 +67,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "4",
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 }
             ]
@@ -80,11 +80,11 @@
                     "name": "Linsen mit Spätzle",
                     "price": 2.4,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "Sl",
                         "GlW",
                         "So",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
@@ -92,10 +92,10 @@
                     "price": 3.0,
                     "ingredients": [
                         "Mi",
-                        "S",
+                        "Kn",
                         "5",
                         "Sw",
-                        "Kn",
+                        "S",
                         "3"
                     ]
                 }
@@ -109,9 +109,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -119,15 +119,15 @@
                     "price": 4.0,
                     "ingredients": [
                         "Mi",
-                        "9",
                         "11",
+                        "Ei",
                         "1",
                         "Gl",
                         "Sf",
+                        "2",
+                        "9",
                         "GlW",
-                        "Fi",
-                        "Ei",
-                        "2"
+                        "Fi"
                     ]
                 }
             ]
