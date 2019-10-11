@@ -9,11 +9,11 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "GlG",
-                        "GlW",
                         "S",
-                        "Kn",
+                        "GlW",
+                        "GlG",
                         "Mi",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -21,12 +21,12 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
                         "GlW",
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "Gl",
-                        "Ei"
+                        "Ei",
+                        "Sl"
                     ]
                 }
             ]
@@ -38,12 +38,12 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 2.4,
                     "ingredients": [
+                        "2",
                         "GlW",
-                        "1",
                         "Mi",
+                        "1",
                         "Gl",
-                        "Ei",
-                        "2"
+                        "Ei"
                     ]
                 }
             ]
@@ -55,11 +55,11 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
                         "GlW",
                         "Gl",
-                        "GlD",
-                        "Ei"
+                        "Ei",
+                        "Sl",
+                        "GlD"
                     ]
                 },
                 {
@@ -67,8 +67,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "1",
                         "Kn",
+                        "1",
                         "Gl",
                         "3",
                         "Sw",
@@ -84,24 +84,24 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Sl",
-                        "Gl",
-                        "GlW"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
+                        "S",
+                        "2",
                         "GlG",
                         "GlW",
-                        "S",
-                        "Kn",
                         "Mi",
-                        "Gl",
-                        "2",
-                        "8"
+                        "Kn",
+                        "8",
+                        "Gl"
                     ]
                 }
             ]
@@ -121,9 +121,9 @@
                     "price": 3.0,
                     "ingredients": [
                         "1",
+                        "GlW",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 }
             ]
