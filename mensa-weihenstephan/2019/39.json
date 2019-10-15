@@ -9,20 +9,20 @@
                     "name": "Zartweizen-Gemüse-Pfanne",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Kn",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "2",
                         "R",
-                        "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -30,11 +30,11 @@
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "GlW",
-                        "Mi",
                         "Ei",
+                        "GlW",
+                        "Sl",
+                        "Mi",
+                        "Gl",
                         "Kn"
                     ]
                 }
@@ -47,8 +47,8 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -56,13 +56,13 @@
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "1",
-                        "Sf",
-                        "2",
-                        "GlW",
-                        "Mi",
                         "Ei",
+                        "GlW",
+                        "2",
+                        "1",
+                        "Mi",
+                        "Gl",
+                        "Sf",
                         "Kn"
                     ]
                 },
@@ -70,12 +70,12 @@
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "GlG",
-                        "Gl",
-                        "2",
-                        "3",
                         "GlW",
+                        "2",
+                        "GlG",
+                        "3",
                         "Mi",
+                        "Gl",
                         "Kn"
                     ]
                 }
@@ -104,8 +104,8 @@
                     "name": "Apfelkücherl mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Ei",
                         "Gl"
                     ]
@@ -126,11 +126,11 @@
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "3",
-                        "5",
                         "Sw",
-                        "S",
+                        "3",
                         "Mi",
+                        "S",
+                        "5",
                         "Kn"
                     ]
                 },
@@ -138,10 +138,10 @@
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "So",
                         "GlW",
+                        "Sl",
+                        "Gl",
+                        "So",
                         "Kn"
                     ]
                 }
@@ -154,8 +154,8 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -163,8 +163,8 @@
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Ei",
                         "Gl"
                     ]
@@ -173,16 +173,16 @@
                     "name": "Panierter Seelachs (MSC) mit Kartoffel-Gurken-Salat",
                     "price": 4.0,
                     "ingredients": [
+                        "Ei",
+                        "GlW",
                         "9",
-                        "Gl",
-                        "1",
-                        "Sf",
                         "2",
                         "11",
-                        "Fi",
-                        "GlW",
+                        "1",
                         "Mi",
-                        "Ei"
+                        "Gl",
+                        "Sf",
+                        "Fi"
                     ]
                 }
             ]
