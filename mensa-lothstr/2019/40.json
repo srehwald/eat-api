@@ -9,8 +9,8 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Kn",
                         "Sl"
                     ]
@@ -19,40 +19,40 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "1",
-                        "Gl",
-                        "GlW",
                         "Ei",
-                        "Sl",
-                        "Mi"
+                        "Mi",
+                        "1",
+                        "GlW",
+                        "Gl",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
+                        "R",
+                        "Mi",
+                        "GlW",
                         "GlG",
                         "Gl",
-                        "GlW",
-                        "Sl",
-                        "Mi",
-                        "R"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Kn",
-                        "GlG",
-                        "Gl",
+                        "Ei",
+                        "Mi",
                         "2",
                         "GlW",
-                        "Ei",
+                        "GlG",
                         "S",
-                        "Mi"
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -64,20 +64,20 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
-                        "Sf",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -85,28 +85,28 @@
                     "price": 2.4,
                     "ingredients": [
                         "S",
-                        "Sl",
-                        "8"
+                        "8",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "99",
-                        "Sw",
                         "Gl",
-                        "5",
+                        "Mi",
                         "GlW",
-                        "Mi"
+                        "Sw",
+                        "99",
+                        "5"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Kn"
                     ]
                 }
@@ -119,27 +119,27 @@
                     "name": "Mexikanisches Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchenspieß mit fruchtiger Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Gl",
                         "So",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -147,15 +147,15 @@
                     "name": "Wiesn - Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
+                        "Mi",
                         "Sf",
+                        "3",
+                        "GlW",
                         "GlG",
                         "Sw",
-                        "Gl",
-                        "GlW",
                         "S",
-                        "Mi",
-                        "3"
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -174,25 +174,25 @@
                     "name": "Spaghetti Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
+                        "Ei",
+                        "Mi",
+                        "3",
                         "2",
                         "GlW",
-                        "Ei",
-                        "Sl",
                         "S",
-                        "Mi",
-                        "3"
+                        "Gl",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
-                        "Ei"
+                        "Ei",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -200,11 +200,11 @@
                     "price": 3.5,
                     "ingredients": [
                         "Fi",
-                        "Gl",
-                        "GlW",
                         "Ei",
-                        "Sl",
-                        "Mi"
+                        "Mi",
+                        "GlW",
+                        "Gl",
+                        "Sl"
                     ]
                 }
             ]
