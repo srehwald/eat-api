@@ -9,22 +9,22 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "2",
                         "GlW",
-                        "Kn"
+                        "2",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
-                        "GlG",
                         "Gl",
-                        "GlW",
+                        "S",
                         "Mi",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "GlG"
                     ]
                 },
                 {
@@ -42,9 +42,9 @@
                     "ingredients": [
                         "Sf",
                         "10",
+                        "Sl",
                         "Kn",
-                        "11",
-                        "Sl"
+                        "11"
                     ]
                 }
             ]
@@ -61,11 +61,11 @@
                     "name": "Penne all'amatriciana",
                     "price": 1.9,
                     "ingredients": [
+                        "2",
+                        "Gl",
                         "3",
                         "S",
                         "Sl",
-                        "2",
-                        "Gl",
                         "GlW",
                         "Kn"
                     ]
@@ -74,27 +74,27 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
                         "2",
-                        "Ei",
                         "Gl",
-                        "GlW",
-                        "Mi"
+                        "1",
+                        "Mi",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": 3.2,
                     "ingredients": [
-                        "Sw",
-                        "GlG",
-                        "Sl",
-                        "Gl",
-                        "GlW",
-                        "Mi",
                         "99",
+                        "Sw",
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "GlW",
                         "R",
-                        "Kn"
+                        "Kn",
+                        "GlG"
                     ]
                 }
             ]
@@ -106,10 +106,10 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "GlW",
                         "So",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -117,10 +117,10 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlD",
-                        "Ei",
                         "Gl",
-                        "GlW",
-                        "Sl"
+                        "Sl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
@@ -128,22 +128,22 @@
                     "price": 2.6,
                     "ingredients": [
                         "Sf",
-                        "Ei",
                         "Gl",
-                        "GlW",
                         "Mi",
-                        "Sl"
+                        "Sl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Grünes Hähnchen-Curry mit Wokgemüse und Basmatireis",
                     "price": 3.2,
                     "ingredients": [
-                        "So",
                         "Gl",
-                        "GlW",
                         "En",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "So"
                     ]
                 }
             ]
@@ -163,39 +163,39 @@
                     "name": "Gebratene Currynudeln mit Gemüsestreifen",
                     "price": 1.55,
                     "ingredients": [
-                        "Sf",
-                        "Ei",
-                        "Gl",
                         "Se",
-                        "GlW",
-                        "Sl"
+                        "Sf",
+                        "Gl",
+                        "Sl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "2",
                         "GlW",
-                        "Kn"
+                        "2",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Käsekrainer mit Bratensauce",
                     "price": 2.4,
                     "ingredients": [
-                        "3",
-                        "Sf",
-                        "S",
-                        "8",
-                        "GlG",
                         "2",
+                        "Sf",
+                        "8",
                         "Gl",
-                        "GlW",
+                        "3",
+                        "S",
                         "Mi",
+                        "GlW",
                         "R",
-                        "Kn"
+                        "Kn",
+                        "GlG"
                     ]
                 }
             ]
@@ -207,17 +207,17 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
+                        "GlW",
                         "1",
                         "Mi",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -225,10 +225,10 @@
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Fi",
+                        "Gl",
                         "Mi",
+                        "GlW",
                         "Kn"
                     ]
                 }

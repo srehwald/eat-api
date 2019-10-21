@@ -9,20 +9,20 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Sl",
-                        "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Sojabolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "So",
-                        "GlW",
                         "Sl",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "So"
                     ]
                 },
                 {
@@ -30,13 +30,13 @@
                     "price": 4.0,
                     "ingredients": [
                         "GlW",
-                        "Ei",
-                        "S",
                         "Gl",
-                        "GlG",
+                        "Kn",
+                        "Ei",
                         "Mi",
                         "2",
-                        "Kn"
+                        "GlG",
+                        "S"
                     ]
                 }
             ]
@@ -48,18 +48,18 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Sf",
-                        "Kn",
-                        "Gl"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Wiesn-Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
-                        "8",
                         "Sl",
+                        "8",
                         "S"
                     ]
                 },
@@ -67,9 +67,9 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 }
             ]
@@ -89,15 +89,15 @@
                     "name": "Wiesn - Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "3",
                         "GlW",
+                        "3",
                         "Sw",
-                        "S",
-                        "Sf",
-                        "GlG",
                         "Gl",
+                        "Sf",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "GlG",
+                        "S"
                     ]
                 },
                 {
@@ -106,8 +106,8 @@
                     "ingredients": [
                         "Sl",
                         "GlW",
-                        "Ei",
                         "Gl",
+                        "Ei",
                         "Mi"
                     ]
                 }
@@ -129,8 +129,8 @@
                     "ingredients": [
                         "Sl",
                         "GlW",
-                        "Ei",
                         "Gl",
+                        "Ei",
                         "Mi"
                     ]
                 },
@@ -139,10 +139,10 @@
                     "price": 3.5,
                     "ingredients": [
                         "Sl",
-                        "GlW",
-                        "Ei",
                         "Fi",
+                        "GlW",
                         "Gl",
+                        "Ei",
                         "Mi"
                     ]
                 }
