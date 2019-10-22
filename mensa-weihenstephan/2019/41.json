@@ -19,11 +19,11 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn",
                         "Mi",
                         "GlG",
+                        "Kn",
+                        "GlW",
+                        "Gl",
                         "S"
                     ]
                 },
@@ -31,12 +31,12 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
+                        "Kn",
                         "Sl",
                         "GlW",
                         "Gl",
-                        "Kn",
-                        "Ei",
-                        "Mi"
+                        "Ei"
                     ]
                 }
             ]
@@ -53,27 +53,27 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
+                        "1",
+                        "2",
                         "GlW",
                         "Gl",
-                        "1",
-                        "Ei",
-                        "Mi",
-                        "2"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": 2.8,
                     "ingredients": [
-                        "8",
-                        "GlW",
-                        "3",
-                        "Gl",
+                        "Mi",
+                        "GlG",
                         "Kn",
                         "1",
-                        "Mi",
+                        "8",
+                        "3",
                         "2",
-                        "GlG",
+                        "GlW",
+                        "Gl",
                         "S"
                     ]
                 }
@@ -86,9 +86,9 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Gl",
                         "GlW",
+                        "Gl",
+                        "So",
                         "Kn"
                     ]
                 },
@@ -97,9 +97,9 @@
                     "price": 1.9,
                     "ingredients": [
                         "Sl",
+                        "GlD",
                         "GlW",
                         "Gl",
-                        "GlD",
                         "Ei"
                     ]
                 },
@@ -107,13 +107,13 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "3",
-                        "Sw",
-                        "Gl",
                         "Kn",
                         "1",
-                        "R"
+                        "3",
+                        "R",
+                        "GlW",
+                        "Gl",
+                        "Sw"
                     ]
                 }
             ]
@@ -134,8 +134,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Sl",
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -143,13 +143,13 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
+                        "Mi",
+                        "GlG",
+                        "Kn",
                         "8",
+                        "2",
                         "GlW",
                         "Gl",
-                        "Kn",
-                        "Mi",
-                        "2",
-                        "GlG",
                         "S"
                     ]
                 }
@@ -178,9 +178,9 @@
                     "price": 3.0,
                     "ingredients": [
                         "1",
+                        "GlW",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]
