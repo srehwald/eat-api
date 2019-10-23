@@ -9,35 +9,35 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "Mi",
-                        "Sl",
+                        "Ei",
+                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kotelett vom Lamm mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "GlG",
                         "Mi",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlG"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rotes Thaicurry mit Hackbällchen, Zucchini und Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "Mi",
-                        "Kn",
-                        "Gl",
                         "S",
+                        "Ei",
+                        "GlW",
+                        "Gl",
+                        "Kn",
                         "R"
                     ]
                 },
@@ -45,10 +45,10 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "2",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -60,12 +60,12 @@
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "GlG",
                         "Mi",
-                        "Kn",
-                        "Gl",
                         "S",
-                        "GlG"
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -77,13 +77,13 @@
                     "name": "Penne all'amatriciana",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "3",
+                        "S",
                         "2",
-                        "Sl",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "S"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -105,27 +105,27 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "1",
-                        "2",
                         "Mi",
-                        "Gl"
+                        "2",
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sw",
-                        "99",
-                        "Mi",
-                        "Sl",
-                        "Kn",
-                        "Gl",
                         "GlG",
-                        "R"
+                        "Mi",
+                        "R",
+                        "Sw",
+                        "GlW",
+                        "Gl",
+                        "Kn",
+                        "99",
+                        "Sl"
                     ]
                 }
             ]
@@ -138,11 +138,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "3",
-                        "GlW",
-                        "Sw",
                         "1",
-                        "Kn",
+                        "Sw",
+                        "GlW",
                         "Gl",
+                        "Kn",
                         "R"
                     ]
                 },
@@ -150,24 +150,24 @@
                     "name": "Schweinebauch sweet & sour",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "So",
                         "Se",
                         "1",
-                        "99",
-                        "Sl",
-                        "Kn",
+                        "So",
+                        "S",
+                        "GlW",
                         "Gl",
-                        "S"
+                        "Kn",
+                        "99",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Gl",
                         "GlW",
+                        "Gl",
+                        "So",
                         "Kn"
                     ]
                 },
@@ -180,23 +180,23 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "GlD",
-                        "Sl",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
                         "GlW",
+                        "Gl",
                         "Ei",
                         "Sf",
-                        "Mi",
-                        "Sl",
-                        "Gl"
+                        "Sl"
                     ]
                 }
             ]
@@ -208,8 +208,8 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Sl",
                         "Kn"
                     ]
@@ -219,28 +219,28 @@
                     "price": "N/A",
                     "ingredients": [
                         "3",
-                        "GlW",
-                        "Sf",
-                        "8",
-                        "2",
-                        "Mi",
-                        "Kn",
-                        "Gl",
-                        "S",
                         "GlG",
-                        "R"
+                        "Mi",
+                        "S",
+                        "2",
+                        "8",
+                        "R",
+                        "GlW",
+                        "Gl",
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Gebratene Currynudeln mit Gemüsestreifen",
                     "price": "N/A",
                     "ingredients": [
+                        "Se",
                         "GlW",
+                        "Gl",
                         "Ei",
                         "Sf",
-                        "Se",
-                        "Sl",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
@@ -260,10 +260,10 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "2",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -275,9 +275,9 @@
                     "name": "Spaghetti Frutti di Mare",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Kr",
+                        "GlW",
+                        "Gl",
                         "Wt"
                     ]
                 },
@@ -298,15 +298,15 @@
                     "name": "Blumenkohlauflauf mit Käsesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sw",
-                        "Ei",
                         "1",
-                        "2",
-                        "99",
                         "Mi",
+                        "2",
                         "Kn",
-                        "Gl"
+                        "Sw",
+                        "GlW",
+                        "Gl",
+                        "Ei",
+                        "99"
                     ]
                 },
                 {
@@ -320,10 +320,10 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "GlW",
                         "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "1"
                     ]
                 }
             ]

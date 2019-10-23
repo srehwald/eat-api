@@ -1,20 +1,22 @@
 {
-    "number": 43,
+    "number": 44,
     "year": 2019,
     "days": [
         {
-            "date": "2019-10-21",
+            "date": "2019-10-28",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
                         "Sl",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
-                    "name": "(*) Kraut Schupfnudeln",
+                    "name": "Wirsing-Kürbis-Quiche",
                     "price": 4.5,
                     "ingredients": [
                         "Sl",
@@ -22,7 +24,7 @@
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Pasta mit Peperonata",
+                    "name": "Pasta Front-Cooking (*)Pasta mit Tomaten- Basilikumsoße",
                     "price": 4.9,
                     "ingredients": [
                         "Sl",
@@ -34,7 +36,7 @@
             ]
         },
         {
-            "date": "2019-10-22",
+            "date": "2019-10-29",
             "dishes": [
                 {
                     "name": "Tagessuppe",
@@ -45,7 +47,7 @@
                     ]
                 },
                 {
-                    "name": "(*) Veganer Burger mit Salat Tomate und Avocadodip",
+                    "name": "(*) Rosenkohl-Curry mit Rote Linsen und Basmatireis",
                     "price": 4.5,
                     "ingredients": [
                         "Sl",
@@ -56,16 +58,13 @@
                     "name": "Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat",
                     "price": 4.6,
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "Gl",
-                        "Ei"
+                        "Sl"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-10-23",
+            "date": "2019-10-30",
             "dishes": [
                 {
                     "name": "Tagessuppe",
@@ -76,44 +75,43 @@
                     ]
                 },
                 {
-                    "name": "(*) 2 Stück Vegane Kartoffelknödel mit Gemüse- Sojasahne",
+                    "name": "(*) Kürbis - Schupfnudelpfanne mit Salbeidip",
                     "price": 4.5,
                     "ingredients": [
                         "Sl",
-                        "Gl",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Pasta mit Schinken-Erbsen- Champignon- Sahnesoße",
+                    "name": "Pasta Front-Cooking Pasta al la Bolognese ( Rind )",
                     "price": 4.9,
                     "ingredients": [
-                        "Sl",
-                        "Gl",
-                        "Mi"
+                        "Sl"
                     ]
                 },
                 {
-                    "name": "Chili con Carne vom Rind mit Sauerrahmdip und Baguette",
+                    "name": "Griechisches Hähnchenschenkel mit Hirtenkäse und Oliven- Paprika- Reis",
                     "price": 5.5,
                     "ingredients": [
-                        "Sl"
+                        "Sl",
+                        "Gl"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-10-24",
+            "date": "2019-10-31",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl"
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "(*)Winterliches Schmorgemüse mit Backkartoffeln",
+                    "name": "(*) Romanesco -Pfanne mit Kidneybohnen dazu Quinoa",
                     "price": 4.5,
                     "ingredients": [
                         "Sl"
@@ -124,6 +122,7 @@
                     "price": 5.5,
                     "ingredients": [
                         "Sf",
+                        "So",
                         "Ei",
                         "Se",
                         "Mi",
@@ -135,37 +134,8 @@
             ]
         },
         {
-            "date": "2019-10-25",
-            "dishes": [
-                {
-                    "name": "Tagessuppe",
-                    "price": 1.0,
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Milirahmstrudel mit Zwetschgen",
-                    "price": 4.3,
-                    "ingredients": [
-                        "Sl",
-                        "Gl",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Pasta Front-Cooking Pasta mit Kürbis- Maroni-Sugo",
-                    "price": 4.9,
-                    "ingredients": [
-                        "Sl",
-                        "Sc",
-                        "En",
-                        "So"
-                    ]
-                }
-            ]
+            "date": "2019-11-01",
+            "dishes": []
         }
     ]
 }
