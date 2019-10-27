@@ -9,22 +9,22 @@
                     "name": "Pasta mit Sojabolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Sl",
-                        "So"
+                        "GlW",
+                        "So",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
+                        "Kn",
                         "S",
                         "Gl",
-                        "Kn",
+                        "GlW",
                         "Ei",
                         "GlG",
-                        "GlW",
                         "2",
                         "Mi"
                     ]
@@ -38,9 +38,9 @@
                     "name": "Pasta Napoli (Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -52,14 +52,14 @@
                     "name": "Wiesn - Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "Sf",
-                        "Gl",
                         "Sw",
                         "Kn",
+                        "Sf",
+                        "Gl",
+                        "GlW",
                         "GlG",
                         "3",
-                        "GlW",
+                        "S",
                         "Mi"
                     ]
                 },
@@ -67,10 +67,10 @@
                     "name": "Wiesn - Geröstete Maultaschen mit Lauchzwiebeln und Ei",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
                         "Sl",
-                        "Ei",
+                        "Gl",
                         "GlW",
+                        "Ei",
                         "Mi"
                     ]
                 }
@@ -83,10 +83,10 @@
                     "name": "Schupfnudeln mit Sauerkraut und Kümmel",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Sl",
-                        "Ei",
+                        "Gl",
                         "GlW",
+                        "Ei",
                         "Mi"
                     ]
                 },
@@ -94,11 +94,11 @@
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "Ei",
                         "Fi",
+                        "Sl",
+                        "Gl",
                         "GlW",
+                        "Ei",
                         "Mi"
                     ]
                 }
