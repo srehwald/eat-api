@@ -10,49 +10,49 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "Sl",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "1",
-                        "Sl",
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Ei"
+                        "Ei",
+                        "Sl",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
+                        "R",
                         "Gl",
-                        "Mi",
-                        "Sl",
-                        "GlG",
-                        "GlW",
                         "Kn",
-                        "R"
+                        "GlG",
+                        "Sl",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "2",
-                        "GlG",
-                        "GlW",
-                        "Kn",
+                        "Gl",
                         "S",
-                        "Ei"
+                        "Ei",
+                        "Kn",
+                        "GlG",
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
@@ -65,40 +65,40 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
+                        "Kn",
                         "GlW",
-                        "Sf",
-                        "Kn"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Wiesn-Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
+                        "8",
                         "S",
-                        "Sl",
-                        "8"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
+                        "99",
                         "Gl",
-                        "Mi",
                         "Sw",
                         "5",
-                        "GlW",
-                        "99"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
@@ -106,8 +106,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -127,35 +127,35 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Hähnchenspieß mit fruchtiger Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "So",
-                        "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Wiesn - Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Sw",
-                        "3",
                         "Sf",
-                        "GlG",
-                        "GlW",
+                        "Gl",
+                        "S",
                         "Kn",
-                        "S"
+                        "GlG",
+                        "3",
+                        "Sw",
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
@@ -174,25 +174,25 @@
                     "name": "Spaghetti Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "3",
                         "2",
-                        "Sl",
-                        "GlW",
-                        "Kn",
+                        "Gl",
                         "S",
-                        "Ei"
+                        "Ei",
+                        "Kn",
+                        "3",
+                        "Sl",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "GlW",
-                        "Ei"
+                        "Gl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
@@ -200,11 +200,11 @@
                     "price": 3.5,
                     "ingredients": [
                         "Gl",
-                        "Mi",
                         "Fi",
+                        "Ei",
                         "Sl",
-                        "GlW",
-                        "Ei"
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
