@@ -9,20 +9,20 @@
                     "name": "Penne all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "2",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gebratene Hähnchenbruststreifen in scharfem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "2",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -43,24 +43,24 @@
                     "ingredients": [
                         "Mi",
                         "GlW",
-                        "Sl",
                         "Gl",
-                        "Ei"
+                        "Ei",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "R",
                         "2",
-                        "GlW",
-                        "Sf",
-                        "Gl",
-                        "GlG",
                         "9",
-                        "Kn"
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "Kn",
+                        "Sf",
+                        "R",
+                        "GlG"
                     ]
                 }
             ]
@@ -73,26 +73,26 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rumpsteak mit Schmorzwiebeln",
                     "price": "N/A",
                     "ingredients": [
+                        "R",
                         "Mi",
-                        "Kn",
-                        "R"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Indisches Linsencurry",
                     "price": "N/A",
                     "ingredients": [
+                        "Sf",
                         "Sl",
-                        "Kn",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
@@ -104,26 +104,26 @@
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "2",
+                        "Mi",
                         "GlW",
-                        "1",
                         "Gl",
                         "Ei",
-                        "GlD"
+                        "GlD",
+                        "1"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "2",
+                        "Mi",
                         "GlW",
-                        "Sf",
-                        "1",
                         "Gl",
-                        "Ei"
+                        "Ei",
+                        "Sf",
+                        "1"
                     ]
                 }
             ]
@@ -136,24 +136,24 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gebratener Reis mit Meeresfrüchten",
                     "price": "N/A",
                     "ingredients": [
-                        "En",
-                        "Wt",
                         "2",
                         "GlW",
-                        "Kr",
+                        "En",
                         "Gl",
-                        "Ei",
                         "So",
-                        "Kn"
+                        "Wt",
+                        "Ei",
+                        "Kn",
+                        "Kr"
                     ]
                 },
                 {
@@ -172,29 +172,29 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": "N/A",
                     "ingredients": [
+                        "11",
                         "Mi",
                         "GlW",
-                        "Sl",
-                        "3",
-                        "Ei",
                         "Gl",
-                        "Sw",
-                        "5",
                         "So",
-                        "11"
+                        "Ei",
+                        "3",
+                        "Sl",
+                        "Sw",
+                        "5"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
+                        "S",
                         "Mi",
-                        "99",
                         "GlW",
                         "Gl",
-                        "GlG",
                         "Kn",
-                        "S"
+                        "99",
+                        "GlG"
                     ]
                 }
             ]
@@ -206,22 +206,22 @@
                     "name": "Bio-Spaghetti bolognese",
                     "price": "N/A",
                     "ingredients": [
+                        "S",
                         "Mi",
-                        "R",
                         "GlW",
                         "Gl",
                         "Kn",
-                        "S"
+                        "R"
                     ]
                 },
                 {
                     "name": "Spenden - Currywurst",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "8",
-                        "Sf",
                         "S",
+                        "8",
+                        "R",
+                        "Sf",
                         "11"
                     ]
                 },
@@ -229,9 +229,9 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -244,9 +244,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -255,9 +255,9 @@
                     "ingredients": [
                         "Mi",
                         "GlW",
-                        "1",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "1"
                     ]
                 }
             ]
@@ -270,18 +270,18 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "Sl",
                         "GlW",
-                        "Sl"
+                        "Gl"
                     ]
                 },
                 {
@@ -293,8 +293,8 @@
                     "name": "Tofugeschnetzeltes China-Town",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "2",
+                        "Kn",
                         "So"
                     ]
                 },
@@ -303,11 +303,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Fi",
                         "GlW",
+                        "Gl",
                         "Sf",
-                        "1",
-                        "Gl"
+                        "Fi",
+                        "1"
                     ]
                 },
                 {
@@ -317,8 +317,8 @@
                         "Mi",
                         "GlW",
                         "Gl",
-                        "3",
-                        "Ei"
+                        "Ei",
+                        "3"
                     ]
                 }
             ]

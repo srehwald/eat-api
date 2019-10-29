@@ -1,53 +1,54 @@
 {
-    "number": 44,
+    "number": 45,
     "year": 2019,
     "days": [
         {
-            "date": "2019-10-28",
+            "date": "2019-11-04",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
-                    "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Sl",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "Wirsing-Kürbis-Quiche",
-                    "price": 4.5,
                     "ingredients": [
                         "Gl",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking (*)Pasta mit Tomaten- Basilikumsoße",
-                    "price": 4.9,
+                    "name": "(*) Paprikaschote Bollywood auf Gelben Reis",
+                    "price": 4.5,
                     "ingredients": [
                         "Mi",
                         "Gl",
                         "Sl",
                         "Ei"
+                    ]
+                },
+                {
+                    "name": "Pasta Front-Cooking Käsespätzle mit Röstzwiebeln",
+                    "price": 4.5,
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "Sl"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-10-29",
+            "date": "2019-11-05",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
+                        "So",
                         "Gl",
-                        "Sl"
+                        "Sl",
+                        "Sc"
                     ]
                 },
                 {
-                    "name": "(*) Rosenkohl-Curry mit Rote Linsen und Basmatireis",
+                    "name": "(*) Pasta mit Mandel- Wirsing- Sojasahne",
                     "price": 4.5,
                     "ingredients": [
                         "Sl",
@@ -58,24 +59,26 @@
                     "name": "Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat",
                     "price": 4.6,
                     "ingredients": [
+                        "Gl",
                         "Sl"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-10-30",
+            "date": "2019-11-06",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
+                        "So",
                         "Gl",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "(*) Kürbis - Schupfnudelpfanne mit Salbeidip",
+                    "name": "(*) Butternut Kürbis gebraten auf Mais-CousCous und Soja- Minze-Joghurt",
                     "price": 4.5,
                     "ingredients": [
                         "Gl",
@@ -83,24 +86,26 @@
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Pasta al la Bolognese ( Rind )",
+                    "name": "Pasta Front-Cooking Schinkennudeln ( Pute) mit Tomatensugo",
                     "price": 4.9,
                     "ingredients": [
-                        "Sl"
+                        "Mi",
+                        "Gl",
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
-                    "name": "Griechisches Hähnchenschenkel mit Hirtenkäse und Oliven- Paprika- Reis",
-                    "price": 5.5,
+                    "name": "Puten- Orangenbraten mit Petersilienspätzle und Karotten",
+                    "price": 6.2,
                     "ingredients": [
-                        "Gl",
-                        "Sl"
+                        "Gl"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-10-31",
+            "date": "2019-11-07",
             "dishes": [
                 {
                     "name": "Tagessuppe",
@@ -111,7 +116,7 @@
                     ]
                 },
                 {
-                    "name": "(*) Romanesco -Pfanne mit Kidneybohnen dazu Quinoa",
+                    "name": "(*) Wraps gefüllt mit Spinat Avocado und Linsenreis dazu Salateck",
                     "price": 4.5,
                     "ingredients": [
                         "Sl"
@@ -134,8 +139,36 @@
             ]
         },
         {
-            "date": "2019-11-01",
-            "dishes": []
+            "date": "2019-11-08",
+            "dishes": [
+                {
+                    "name": "Tagessuppe",
+                    "price": 1.0,
+                    "ingredients": [
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "3 Stück warme Waffeln mit 1 Kugel Eis",
+                    "price": 3.8,
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "laktose Ei Pasta Front-Cooking Pasta mit Broccoli- Zitronensoße",
+                    "price": 4.9,
+                    "ingredients": [
+                        "Mi",
+                        "Sl",
+                        "En",
+                        "Sc",
+                        "Gl"
+                    ]
+                }
+            ]
         }
     ]
 }
