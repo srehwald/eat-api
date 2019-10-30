@@ -4,60 +4,7 @@
     "days": [
         {
             "date": "2019-10-28",
-            "dishes": [
-                {
-                    "name": "Pasta mit Broccoli-Sahne-Sauce",
-                    "price": "individual",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Mi",
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Paniertes Truthahnschnitzel mit Salsa",
-                    "price": "N/A",
-                    "ingredients": [
-                        "En",
-                        "So",
-                        "GlW",
-                        "Se",
-                        "2",
-                        "Gl",
-                        "11"
-                    ]
-                },
-                {
-                    "name": "Holzfällersteak vom Schwein",
-                    "price": "0.75€ / 100g",
-                    "ingredients": [
-                        "Mi",
-                        "3",
-                        "S",
-                        "Kn",
-                        "GlW",
-                        "2",
-                        "Gl",
-                        "GlG"
-                    ]
-                },
-                {
-                    "name": "Kartoffelröstis mit Kräutersahnequark",
-                    "price": "N/A",
-                    "ingredients": [
-                        "Kn",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
-                    "price": "0.33€ / 100g",
-                    "ingredients": [
-                        "Kn"
-                    ]
-                }
-            ]
+            "dishes": []
         },
         {
             "date": "2019-10-29",
@@ -66,22 +13,26 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": "individual",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Wt",
-                        "Mi",
+                        "11",
+                        "Fi",
                         "Kn",
-                        "GlW",
+                        "Mi",
+                        "1",
                         "Ei",
+                        "Wt",
                         "Gl",
-                        "1"
+                        "Kr",
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
@@ -89,34 +40,34 @@
                     "price": "0.75€ / 100g",
                     "ingredients": [
                         "Kn",
-                        "GlW",
                         "Ei",
-                        "2",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
                     "name": "Chop Suey vom Schweinefleisch",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "3",
-                        "5",
-                        "So",
-                        "S",
                         "Kn",
+                        "Sw",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "5",
+                        "3",
+                        "So",
+                        "S"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit Gemüse",
                     "price": "0.33€ / 100g",
                     "ingredients": [
+                        "5",
                         "Sl",
                         "Sw",
-                        "3",
-                        "5"
+                        "3"
                     ]
                 }
             ]
@@ -128,22 +79,22 @@
                     "name": "Pasta Casalinga mit Schweinegeschnetzeltem und Pilzen",
                     "price": "individual",
                     "ingredients": [
-                        "Mi",
-                        "S",
                         "Kn",
+                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "S"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "R",
                         "Mi",
-                        "Kn",
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "GlG"
                     ]
                 },
@@ -151,13 +102,13 @@
                     "name": "Lasagne Bolognese",
                     "price": "0.75€ / 100g",
                     "ingredients": [
+                        "Kn",
                         "R",
                         "Mi",
-                        "Kn",
-                        "GlW",
-                        "2",
+                        "1",
                         "Gl",
-                        "1"
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
@@ -165,20 +116,20 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "GlW",
+                        "1",
                         "Ei",
-                        "Sc",
-                        "ScM",
                         "Gl",
-                        "1"
+                        "GlW",
+                        "ScM",
+                        "Sc"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Mi"
                     ]
                 },
@@ -186,10 +137,10 @@
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "2",
                         "Sf",
+                        "Kn",
                         "So",
-                        "Kn"
+                        "2"
                     ]
                 }
             ]
@@ -202,12 +153,12 @@
                     "price": "individual",
                     "ingredients": [
                         "Mi",
-                        "3",
-                        "8",
-                        "S",
+                        "Gl",
                         "GlW",
+                        "3",
                         "2",
-                        "Gl"
+                        "8",
+                        "S"
                     ]
                 },
                 {
@@ -231,27 +182,27 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "Sf",
-                        "Mi"
+                        "Mi",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Mi",
-                        "Kn"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": "0.33€ / 100g",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 }
             ]

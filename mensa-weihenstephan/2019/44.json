@@ -16,42 +16,42 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Paniertes Truthahnschnitzel mit Salsa",
                     "price": 2.4,
                     "ingredients": [
-                        "En",
-                        "Gl",
                         "Se",
-                        "So",
+                        "Gl",
                         "GlW",
-                        "2",
-                        "11"
+                        "So",
+                        "11",
+                        "En",
+                        "2"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Sf",
+                        "Mi",
+                        "Sl",
+                        "3",
+                        "2",
+                        "S",
                         "Sw",
                         "GlG",
-                        "Gl",
                         "R",
-                        "99",
                         "Kn",
-                        "Sf",
-                        "3",
-                        "GlW",
-                        "Sl",
-                        "2",
-                        "Mi",
-                        "S"
+                        "99"
                     ]
                 }
             ]
@@ -63,53 +63,67 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
+                        "5",
                         "Sw",
                         "Sl",
-                        "5",
                         "3"
+                    ]
+                },
+                {
+                    "name": "Bunte Nudelpfanne",
+                    "price": 1.55,
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Sf",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.4,
                     "ingredients": [
-                        "GlG",
-                        "Ei",
                         "Gl",
-                        "Kn",
                         "GlW",
-                        "2",
-                        "Mi",
-                        "S"
-                    ]
-                },
-                {
-                    "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
-                    "price": 3.5,
-                    "ingredients": [
-                        "Fi",
-                        "Kr",
-                        "Ei",
-                        "Gl",
-                        "1",
-                        "Wt",
-                        "Kn",
                         "Sf",
-                        "GlW",
                         "Mi",
-                        "11"
+                        "Sl",
+                        "3",
+                        "2",
+                        "S",
+                        "Kn",
+                        "Ei",
+                        "8",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Pizza Contadina mit Tomate, Spinat und Ricotta",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
                         "Gl",
-                        "Kn",
-                        "So",
                         "GlW",
-                        "Mi"
+                        "So",
+                        "Mi",
+                        "Kn",
+                        "GlG"
+                    ]
+                },
+                {
+                    "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
+                    "price": 3.5,
+                    "ingredients": [
+                        "Gl",
+                        "Wt",
+                        "GlW",
+                        "1",
+                        "Sf",
+                        "Mi",
+                        "11",
+                        "Fi",
+                        "Kr",
+                        "Kn",
+                        "Ei"
                     ]
                 }
             ]
@@ -121,23 +135,11 @@
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "2",
                         "Sf",
-                        "So"
-                    ]
-                },
-                {
-                    "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
-                    "price": 2.4,
-                    "ingredients": [
-                        "1",
-                        "Gl",
-                        "Ei",
-                        "Kn",
-                        "GlW",
+                        "So",
+                        "Sl",
                         "2",
-                        "Mi"
+                        "Kn"
                     ]
                 },
                 {
@@ -149,15 +151,28 @@
                     ]
                 },
                 {
+                    "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
+                    "price": 2.4,
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "1",
+                        "Mi",
+                        "2",
+                        "Kn",
+                        "Ei"
+                    ]
+                },
+                {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "GlG",
                         "Gl",
+                        "GlW",
+                        "Mi",
                         "R",
                         "Kn",
-                        "GlW",
-                        "Mi"
+                        "GlG"
                     ]
                 }
             ]
@@ -169,46 +184,46 @@
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit grünem Pfeffer",
                     "price": 2.6,
                     "ingredients": [
-                        "GlG",
                         "Gl",
-                        "Kn",
                         "GlW",
                         "Mi",
-                        "S"
+                        "S",
+                        "Kn",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Sw",
-                        "GlG",
+                        "5",
                         "Gl",
-                        "99",
-                        "Kn",
-                        "Sl",
                         "GlW",
                         "Mi",
-                        "5"
+                        "Sl",
+                        "Sw",
+                        "Kn",
+                        "99",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
