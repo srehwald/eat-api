@@ -9,19 +9,19 @@
                     "name": "Zartweizen mit Kürbis, Lauch und Kräutern",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Kn",
-                        "2",
                         "GlW",
+                        "2",
+                        "Gl",
                         "R"
                     ]
                 },
@@ -29,10 +29,10 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
                         "Gl",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
@@ -52,9 +52,9 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
@@ -62,40 +62,40 @@
                     "price": 1.9,
                     "ingredients": [
                         "Ei",
-                        "Gl",
+                        "Mi",
                         "GlW",
-                        "Sl",
-                        "Mi"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "GlG",
-                        "Gl",
                         "Kn",
-                        "3",
-                        "2",
-                        "GlW",
+                        "GlG",
                         "S",
-                        "Mi"
+                        "Mi",
+                        "GlW",
+                        "2",
+                        "3",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pizza Regina mit (Vorder-)Schinken und Champignons",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
-                        "Gl",
-                        "8",
-                        "3",
-                        "2",
-                        "GlW",
-                        "S",
                         "1",
+                        "GlG",
+                        "S",
+                        "Mi",
+                        "8",
+                        "GlW",
+                        "2",
                         "So",
-                        "Mi"
+                        "3",
+                        "Gl"
                     ]
                 }
             ]
@@ -114,9 +114,9 @@
                     "name": "Pasta mit Putenragout",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "Gl",
+                        "GlW",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -124,26 +124,26 @@
                     "name": "Andalusisches Rinderragout (GQB)",
                     "price": 3.0,
                     "ingredients": [
-                        "Sw",
-                        "Gl",
-                        "R",
-                        "GlW",
+                        "5",
                         "99",
-                        "5"
+                        "Sw",
+                        "GlW",
+                        "Gl",
+                        "R"
                     ]
                 },
                 {
                     "name": "Garnelen mit Zitronen-Kokos-Dip",
                     "price": 4.0,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "8",
                         "11",
-                        "GlW",
+                        "Ei",
                         "Kr",
+                        "Mi",
+                        "8",
                         "Sf",
-                        "Mi"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -162,36 +162,36 @@
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "Sw",
                         "Kn",
-                        "3",
-                        "S",
                         "5",
-                        "Mi"
+                        "S",
+                        "Mi",
+                        "Sw",
+                        "3"
                     ]
                 },
                 {
                     "name": "Pizza Parma mit Parmaschinken, Rucola und Parmigiano",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
-                        "Gl",
-                        "2",
-                        "GlW",
-                        "S",
                         "1",
+                        "GlG",
+                        "S",
+                        "Mi",
+                        "GlW",
+                        "2",
                         "So",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Kn",
                         "GlW",
                         "So",
+                        "Gl",
                         "Sl"
                     ]
                 }
@@ -204,9 +204,9 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "GlG",
                         "Gl",
+                        "GlG",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -214,25 +214,25 @@
                     "name": "Nasi Goreng (mit Hähnchenfleisch)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Kn",
-                        "2",
-                        "GlW",
                         "Sf",
-                        "So"
+                        "GlW",
+                        "2",
+                        "So",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "GlG",
-                        "Gl",
                         "Kn",
-                        "GlW",
-                        "99",
+                        "GlG",
                         "S",
-                        "Mi"
+                        "Mi",
+                        "99",
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
