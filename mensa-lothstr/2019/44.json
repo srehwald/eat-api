@@ -9,29 +9,29 @@
                     "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
                         "Mi",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Paniertes Truthahnschnitzel mit Salsa",
                     "price": 2.4,
                     "ingredients": [
-                        "11",
-                        "2",
                         "So",
-                        "GlW",
+                        "2",
                         "Se",
+                        "11",
+                        "GlW",
                         "En",
                         "Gl"
                     ]
@@ -40,14 +40,14 @@
                     "name": "Rindergeschnetzeltes (GQB) mit Kartoffeln und Kichererbsen",
                     "price": 2.8,
                     "ingredients": [
-                        "3",
+                        "R",
                         "2",
                         "Mi",
-                        "Sf",
                         "Kn",
-                        "GlW",
+                        "3",
+                        "Sf",
                         "GlG",
-                        "R",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -55,18 +55,18 @@
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Sl",
-                        "3",
-                        "2",
-                        "Mi",
-                        "Sf",
-                        "Kn",
-                        "GlW",
-                        "Sw",
-                        "S",
-                        "GlG",
                         "R",
+                        "2",
                         "99",
+                        "Sl",
+                        "Mi",
+                        "Kn",
+                        "S",
+                        "3",
+                        "Sf",
+                        "Sw",
+                        "GlG",
+                        "GlW",
                         "Gl"
                     ]
                 }
@@ -79,30 +79,30 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "3",
                         "Sw",
-                        "5"
+                        "Sl",
+                        "5",
+                        "3"
                     ]
                 },
                 {
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Paniertes Truthahnschnitzel mit Salsa",
                     "price": 2.4,
                     "ingredients": [
-                        "11",
-                        "2",
                         "So",
-                        "GlW",
+                        "2",
                         "Se",
+                        "11",
+                        "GlW",
                         "En",
                         "Gl"
                     ]
@@ -111,17 +111,17 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
-                        "3",
                         "2",
-                        "Mi",
-                        "Sf",
-                        "Kn",
                         "Ei",
-                        "GlW",
+                        "Sl",
+                        "Mi",
+                        "Kn",
+                        "8",
+                        "3",
+                        "Sf",
                         "S",
                         "GlG",
-                        "8",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -129,11 +129,11 @@
                     "name": "Rinderlende mit Kräuterbutter und Rotweinzwiebel",
                     "price": 4.5,
                     "ingredients": [
+                        "R",
+                        "99",
                         "Mi",
                         "Kn",
-                        "Sw",
-                        "R",
-                        "99"
+                        "Sw"
                     ]
                 }
             ]
@@ -145,11 +145,11 @@
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "Sf",
-                        "2",
                         "So",
-                        "Kn"
+                        "2",
+                        "Sl",
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
@@ -157,11 +157,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "2",
+                        "Ei",
                         "Mi",
                         "Kn",
-                        "1",
                         "GlW",
-                        "Ei",
+                        "1",
                         "Gl"
                     ]
                 },
@@ -177,11 +177,11 @@
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": 3.2,
                     "ingredients": [
+                        "R",
                         "Mi",
                         "Kn",
-                        "GlW",
                         "GlG",
-                        "R",
+                        "GlW",
                         "Gl"
                     ]
                 }
@@ -194,18 +194,18 @@
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Tandoori Chicken in Joghurtmarinade und Gurken-Minz-Dip",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "Kn",
-                        "Sf",
-                        "Mi"
+                        "Sf"
                     ]
                 },
                 {
@@ -214,9 +214,9 @@
                     "ingredients": [
                         "Mi",
                         "Kn",
-                        "GlW",
                         "S",
                         "GlG",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -224,10 +224,10 @@
                     "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
                         "Mi",
-                        "Gl"
+                        "Kn"
                     ]
                 }
             ]

@@ -1,30 +1,29 @@
 {
-    "number": 45,
+    "number": 46,
     "year": 2019,
     "days": [
         {
-            "date": "2019-11-04",
+            "date": "2019-11-11",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
                         "Sl",
-                        "Gl"
-                    ]
-                },
-                {
-                    "name": "(*) Paprikaschote Bollywood auf Gelben Reis",
-                    "price": 4.5,
-                    "ingredients": [
-                        "Ei",
-                        "Sl",
                         "Gl",
                         "Mi"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Käsespätzle mit Röstzwiebeln",
+                    "name": "Spinat-Hirtenkäse-Strudel auf Schnittlauch- CousCous",
+                    "price": 4.5,
+                    "ingredients": [
+                        "Sl",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pasta Front-Cooking (*)Pasta mit Auberginen- Linsenragout",
                     "price": 4.5,
                     "ingredients": [
                         "Sl",
@@ -35,21 +34,19 @@
             ]
         },
         {
-            "date": "2019-11-05",
+            "date": "2019-11-12",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
-                        "Sc",
                         "Sl",
-                        "Gl",
-                        "So"
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "(*) Pasta mit Mandel- Wirsing- Sojasahne",
-                    "price": 4.5,
+                    "name": "(*)Linseneintopf mit Gemüse und Kartoffeln",
+                    "price": 4.0,
                     "ingredients": [
                         "Ei",
                         "Sl"
@@ -66,19 +63,18 @@
             ]
         },
         {
-            "date": "2019-11-06",
+            "date": "2019-11-13",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
                         "Sl",
-                        "Gl",
-                        "So"
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "(*) Butternut Kürbis gebraten auf Mais-CousCous und Soja- Minze-Joghurt",
+                    "name": "(*) Herzhafte Champignonragout mit Reis",
                     "price": 4.5,
                     "ingredients": [
                         "Sl",
@@ -86,37 +82,33 @@
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Schinkennudeln ( Pute) mit Tomatensugo",
+                    "name": "Pasta Front-Cooking Pasta mit Wirsing-Rinderhack",
                     "price": 4.9,
                     "ingredients": [
-                        "Ei",
                         "Sl",
                         "Mi",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Puten- Orangenbraten mit Petersilienspätzle und Karotten",
+                    "name": "Rindergeschnetzeltes in Zwiebel-Senfsoße dazu Spätzle und Mischgemüse",
                     "price": 6.2,
-                    "ingredients": [
-                        "Gl"
-                    ]
+                    "ingredients": []
                 }
             ]
         },
         {
-            "date": "2019-11-07",
+            "date": "2019-11-14",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
-                    "name": "(*) Wraps gefüllt mit Spinat Avocado und Linsenreis dazu Salateck",
+                    "name": "(*) Bayrisch Kraut mit Tofu und Karotten",
                     "price": 4.5,
                     "ingredients": [
                         "Sl"
@@ -126,31 +118,38 @@
                     "name": "Frisch vom Grill Currywurst mit Pommes Frites",
                     "price": 5.5,
                     "ingredients": [
-                        "Wt",
-                        "So",
                         "Ei",
                         "Sl",
+                        "Mi",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Braumeister Schnitzel vom Schwein mit rohem Schinken und Bavaria Blue gefüllt dazu Wedjeskartoffeln",
+                    "price": 5.8,
+                    "ingredients": [
+                        "Sl",
                         "Gl",
-                        "Se",
-                        "Sf",
                         "Mi"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-11-08",
+            "date": "2019-11-15",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
+                        "Ei",
+                        "Mi",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "3 Stück warme Waffeln mit 1 Kugel Eis",
-                    "price": 3.8,
+                    "name": "Kaiserschmarrn mit Apfelmus",
+                    "price": 4.5,
                     "ingredients": [
                         "Sl",
                         "Gl",
@@ -158,10 +157,11 @@
                     ]
                 },
                 {
-                    "name": "laktose Ei Pasta Front-Cooking Pasta mit Broccoli- Zitronensoße",
+                    "name": "Pasta Front-Cooking Pasta mit Karotten- Ruccolasoße",
                     "price": 4.9,
                     "ingredients": [
                         "Sc",
+                        "Ei",
                         "Sl",
                         "Gl",
                         "Mi",

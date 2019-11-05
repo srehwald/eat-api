@@ -10,9 +10,9 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Sl",
                         "Kn",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
@@ -20,35 +20,35 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "Mi",
                         "S",
-                        "Mi"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "1",
-                        "Kn",
-                        "Ei",
                         "Mi",
+                        "Ei",
                         "GlW",
+                        "1",
+                        "Sl",
                         "Gl",
-                        "Sl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "GlG",
                         "Mi",
                         "GlW",
-                        "Gl",
+                        "GlG",
+                        "Sl",
                         "R",
-                        "Sl"
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -60,47 +60,47 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
+                        "Sf",
                         "Gl",
-                        "GlW",
                         "Kn",
-                        "Sf"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kürbis-Kartoffel-Gratin mit frischen Salbeiblättern",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "5",
-                        "Mi",
-                        "99",
                         "Sw",
+                        "Mi",
                         "GlW",
-                        "Gl"
+                        "5",
+                        "Gl",
+                        "99"
                     ]
                 },
                 {
                     "name": "Pizza Romana mit Salami, Sardellen und Kapern",
                     "price": 3.5,
                     "ingredients": [
-                        "1",
-                        "GlG",
-                        "S",
-                        "Mi",
-                        "Sf",
-                        "GlW",
-                        "2",
                         "So",
                         "3",
+                        "Fi",
+                        "Mi",
+                        "GlW",
+                        "1",
+                        "Sf",
+                        "GlG",
+                        "2",
                         "Gl",
-                        "Fi"
+                        "S"
                     ]
                 }
             ]
@@ -112,8 +112,8 @@
                     "name": "Mexikanisches Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
@@ -121,37 +121,37 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "Mi",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "GlG",
+                        "Sw",
+                        "3",
                         "S",
                         "Mi",
-                        "Sf",
-                        "Sw",
                         "GlW",
-                        "3",
-                        "Gl"
+                        "Sf",
+                        "GlG",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Zarzuela - Spanische Fischpfanne (MSC) mit Meeresfrüchten, Oliven und Gemüse",
                     "price": 3.5,
                     "ingredients": [
-                        "1",
                         "Wt",
                         "Kr",
-                        "GlW",
                         "3",
-                        "Gl",
-                        "Fi"
+                        "Fi",
+                        "GlW",
+                        "1",
+                        "Gl"
                     ]
                 }
             ]
@@ -168,27 +168,27 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
+                        "Sw",
+                        "Mi",
+                        "GlW",
                         "GlG",
                         "5",
-                        "Mi",
+                        "Gl",
                         "99",
-                        "Sw",
-                        "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
-                        "Mi",
-                        "8",
-                        "GlW",
-                        "2",
                         "So",
                         "3",
+                        "Mi",
+                        "GlW",
+                        "GlG",
+                        "2",
+                        "8",
                         "Gl"
                     ]
                 },
@@ -197,8 +197,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -218,21 +218,21 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "Mi",
-                        "Ei"
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
                         "Mi",
-                        "GlW",
-                        "Gl",
                         "Fi",
-                        "Sl"
+                        "Ei",
+                        "GlW",
+                        "Sl",
+                        "Gl"
                     ]
                 }
             ]

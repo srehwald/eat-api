@@ -10,25 +10,25 @@
                     "price": 2.6,
                     "ingredients": [
                         "Gl",
-                        "Mi",
-                        "GlW",
+                        "1",
                         "Ei",
-                        "Sl",
                         "Kn",
-                        "1"
+                        "Sl",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind",
                     "price": 2.8,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "Sl",
-                        "GlG",
-                        "Kn",
                         "Gl",
-                        "R"
+                        "Kn",
+                        "R",
+                        "GlG",
+                        "Sl",
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
@@ -40,9 +40,9 @@
                     "name": "Pasta mit würzigem Kürbis",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -63,20 +63,20 @@
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchenspieß mit fruchtiger Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW",
+                        "So"
                     ]
                 }
             ]
@@ -88,23 +88,23 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
+                        "2",
                         "1",
-                        "2"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
+                        "5",
+                        "Gl",
+                        "99",
+                        "Kn",
+                        "GlG",
                         "Mi",
                         "Sw",
-                        "5",
-                        "GlW",
-                        "GlG",
-                        "Kn",
-                        "Gl",
-                        "99"
+                        "GlW"
                     ]
                 }
             ]
@@ -116,9 +116,9 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Gl",
                         "Ei",
+                        "GlW",
                         "Mi"
                     ]
                 },
@@ -126,12 +126,12 @@
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
+                        "Gl",
                         "Ei",
-                        "Sl",
                         "Fi",
-                        "Gl"
+                        "Sl",
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
