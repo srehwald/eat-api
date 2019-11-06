@@ -9,20 +9,20 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
                         "Kn",
-                        "GlW"
+                        "Sl",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinelachssteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Mi",
                         "S",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -30,12 +30,12 @@
                     "price": 2.6,
                     "ingredients": [
                         "Mi",
-                        "Ei",
                         "GlW",
-                        "1",
-                        "Sl",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "Ei",
+                        "Sl",
+                        "1"
                     ]
                 },
                 {
@@ -43,12 +43,12 @@
                     "price": 2.8,
                     "ingredients": [
                         "Mi",
-                        "GlW",
                         "GlG",
-                        "Sl",
-                        "R",
+                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "Sl",
+                        "R"
                     ]
                 }
             ]
@@ -60,10 +60,10 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Sf",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "Sf",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -78,29 +78,29 @@
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "Sw",
                         "Mi",
-                        "GlW",
                         "5",
-                        "Gl",
-                        "99"
+                        "Sw",
+                        "GlW",
+                        "99",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pizza Romana mit Salami, Sardellen und Kapern",
                     "price": 3.5,
                     "ingredients": [
-                        "So",
-                        "3",
-                        "Fi",
                         "Mi",
-                        "GlW",
-                        "1",
-                        "Sf",
+                        "3",
+                        "S",
                         "GlG",
-                        "2",
+                        "Fi",
+                        "GlW",
                         "Gl",
-                        "S"
+                        "2",
+                        "Sf",
+                        "1",
+                        "So"
                     ]
                 }
             ]
@@ -120,38 +120,38 @@
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Mi",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "Sw",
                         "3",
                         "S",
-                        "Mi",
-                        "GlW",
-                        "Sf",
                         "GlG",
-                        "Gl",
-                        "Kn"
+                        "Sf",
+                        "GlW",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Zarzuela - Spanische Fischpfanne (MSC) mit Meeresfrüchten, Oliven und Gemüse",
                     "price": 3.5,
                     "ingredients": [
-                        "Wt",
-                        "Kr",
                         "3",
                         "Fi",
                         "GlW",
+                        "Gl",
+                        "Wt",
                         "1",
-                        "Gl"
+                        "Kr"
                     ]
                 }
             ]
@@ -168,13 +168,13 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Sw",
                         "Mi",
-                        "GlW",
-                        "GlG",
                         "5",
-                        "Gl",
+                        "Sw",
+                        "GlG",
+                        "GlW",
                         "99",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -182,23 +182,23 @@
                     "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
-                        "So",
-                        "3",
                         "Mi",
-                        "GlW",
+                        "3",
                         "GlG",
-                        "2",
                         "8",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "2",
+                        "So"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -217,10 +217,10 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "GlW",
                         "Ei",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -229,10 +229,10 @@
                     "ingredients": [
                         "Mi",
                         "Fi",
-                        "Ei",
                         "GlW",
-                        "Sl",
-                        "Gl"
+                        "Ei",
+                        "Gl",
+                        "Sl"
                     ]
                 }
             ]
