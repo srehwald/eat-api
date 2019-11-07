@@ -9,8 +9,8 @@
                     "name": "Zartweizen mit Kürbis, Lauch und Kräutern",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -18,24 +18,24 @@
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
                         "3",
-                        "GlW",
-                        "2",
-                        "8",
-                        "Gl",
+                        "Ei",
                         "Kn",
+                        "Gl",
+                        "2",
+                        "S",
+                        "8",
                         "Mi",
-                        "Ei"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
                         "Mi",
                         "Ei",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -56,8 +56,8 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -65,11 +65,11 @@
                     "name": "Tortellini (Käsefüllung) mit Kürbis-Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
+                        "Ei",
                         "Gl",
-                        "Sl",
                         "Mi",
-                        "Ei"
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
@@ -77,37 +77,37 @@
                     "price": 2.4,
                     "ingredients": [
                         "1",
-                        "2",
-                        "GlW",
-                        "Gl",
+                        "Ei",
                         "Kn",
+                        "Gl",
+                        "2",
                         "Mi",
-                        "Ei"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "GlW",
-                        "GlG",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "GlG",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Zwiebelrostbraten mit Rotweinsauce",
                     "price": 4.0,
                     "ingredients": [
-                        "99",
-                        "R",
-                        "Sw",
-                        "GlW",
-                        "GlG",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "R",
+                        "Sw",
+                        "GlG",
+                        "99",
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
@@ -126,9 +126,9 @@
                     "name": "Pasta mit Putenbolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Sl",
+                        "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -136,9 +136,9 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Mi",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -146,12 +146,12 @@
                     "name": "Andalusisches Rinderragout (GQB)",
                     "price": 3.0,
                     "ingredients": [
-                        "99",
+                        "5",
+                        "Gl",
                         "R",
                         "Sw",
-                        "GlW",
-                        "5",
-                        "Gl"
+                        "99",
+                        "GlW"
                     ]
                 }
             ]
@@ -171,44 +171,44 @@
                     "price": 1.9,
                     "ingredients": [
                         "3",
-                        "6",
-                        "GlD",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "6",
+                        "Mi",
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": 2.8,
                     "ingredients": [
-                        "So",
-                        "GlW",
-                        "2",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "2",
+                        "So",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "S",
-                        "3",
-                        "Sw",
                         "5",
+                        "3",
                         "Kn",
-                        "Mi"
+                        "S",
+                        "Mi",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
-                        "GlW",
                         "Kn",
                         "Gl",
+                        "So",
+                        "GlW",
                         "Sl"
                     ]
                 }
@@ -221,9 +221,9 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1.0,
                     "ingredients": [
+                        "Sl",
                         "Kn",
                         "GlG",
-                        "Sl",
                         "Gl"
                     ]
                 },
@@ -231,41 +231,41 @@
                     "name": "Süßer Kürbisstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "ScH",
                         "3",
-                        "GlW",
+                        "Ei",
                         "Gl",
-                        "Sc",
+                        "ScH",
                         "Mi",
-                        "Ei"
+                        "GlW",
+                        "Sc"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "99",
-                        "S",
-                        "GlW",
-                        "GlG",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "S",
+                        "GlG",
+                        "99",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Salsa",
                     "price": 4.0,
                     "ingredients": [
-                        "En",
+                        "Kn",
+                        "Gl",
+                        "11",
+                        "2",
                         "Se",
                         "So",
-                        "GlW",
-                        "2",
-                        "Gl",
-                        "Kn",
+                        "En",
                         "Fi",
-                        "11",
+                        "GlW",
                         "Sl"
                     ]
                 }

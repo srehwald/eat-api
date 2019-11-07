@@ -17,24 +17,24 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
-                        "GlW",
-                        "GlG",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "S",
+                        "GlG",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
+                        "Ei",
                         "Kn",
                         "Gl",
-                        "Sl",
                         "Mi",
-                        "Ei"
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
@@ -42,10 +42,10 @@
                     "price": 2.6,
                     "ingredients": [
                         "Kn",
-                        "Sl",
                         "10",
                         "11",
-                        "Sf"
+                        "Sf",
+                        "Sl"
                     ]
                 }
             ]
@@ -62,20 +62,20 @@
                     "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse",
                     "price": 2.4,
                     "ingredients": [
+                        "Kn",
+                        "Gl",
                         "S",
                         "So",
-                        "GlW",
-                        "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Libanesischer Gemüseauflauf",
                     "price": 2.8,
                     "ingredients": [
-                        "En",
                         "Mi",
                         "Ei",
+                        "En",
                         "Sl"
                     ]
                 },
@@ -83,14 +83,14 @@
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": 3.2,
                     "ingredients": [
-                        "99",
-                        "R",
-                        "Sw",
-                        "GlW",
-                        "GlG",
                         "Kn",
                         "Gl",
+                        "R",
+                        "Sw",
+                        "GlG",
+                        "99",
                         "Mi",
+                        "GlW",
                         "Sl"
                     ]
                 }
@@ -103,9 +103,9 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "So",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -113,22 +113,22 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": 2.4,
                     "ingredients": [
-                        "R",
-                        "3",
-                        "Sw",
                         "1",
-                        "GlW",
+                        "3",
                         "5",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "R",
+                        "Sw",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Afrikanischer Süßkartoffeltopf mit Blumenkohl und Erdnüssen",
                     "price": 2.4,
                     "ingredients": [
-                        "En",
                         "2",
+                        "En",
                         "Kn"
                     ]
                 },
@@ -136,12 +136,12 @@
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
+                        "Ei",
                         "Gl",
-                        "Sf",
                         "Sl",
                         "Mi",
-                        "Ei"
+                        "GlW",
+                        "Sf"
                     ]
                 }
             ]
@@ -161,9 +161,9 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Sl",
+                        "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -171,9 +171,9 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "2",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -181,14 +181,14 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "S",
-                        "GlW",
-                        "2",
-                        "GlG",
-                        "8",
-                        "Gl",
                         "Kn",
-                        "Mi"
+                        "Gl",
+                        "2",
+                        "S",
+                        "8",
+                        "GlG",
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
@@ -200,16 +200,16 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -217,11 +217,11 @@
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
                         "Gl",
+                        "Mi",
                         "Fi",
-                        "Mi"
+                        "GlW"
                     ]
                 }
             ]
