@@ -9,10 +9,10 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Ei",
-                        "Mi"
+                        "Mi",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -32,21 +32,21 @@
                     "name": "Tortellini (Käsefüllung) mit Kürbis-Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Mi",
+                        "Sl",
                         "Ei",
-                        "Sl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
+                        "Mi",
+                        "Kn",
                         "Gl",
                         "GlW",
-                        "Kn",
-                        "Mi",
                         "GlG"
                     ]
                 }
@@ -59,20 +59,20 @@
                     "name": "Pasta mit Putenbolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Sl",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "Gl",
-                        "GlW",
                         "Kn",
-                        "Mi"
+                        "GlW"
                     ]
                 }
             ]
@@ -84,10 +84,10 @@
                     "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "Mi",
+                        "Kn",
                         "GlD",
+                        "Gl",
                         "3",
                         "6"
                     ]
@@ -96,12 +96,12 @@
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "Sw",
-                        "Kn",
-                        "5",
                         "Mi",
+                        "5",
+                        "Kn",
                         "S",
-                        "3"
+                        "3",
+                        "Sw"
                     ]
                 }
             ]
@@ -113,12 +113,12 @@
                     "name": "Süßer Kürbisstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Sc",
                         "Mi",
-                        "3",
                         "Ei",
+                        "Gl",
+                        "GlW",
+                        "3",
                         "ScH"
                     ]
                 },
@@ -126,16 +126,16 @@
                     "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Salsa",
                     "price": 4.0,
                     "ingredients": [
+                        "Se",
                         "11",
-                        "Gl",
-                        "Fi",
-                        "GlW",
-                        "Kn",
-                        "En",
-                        "So",
                         "2",
+                        "En",
+                        "Fi",
+                        "Kn",
                         "Sl",
-                        "Se"
+                        "Gl",
+                        "GlW",
+                        "So"
                     ]
                 }
             ]

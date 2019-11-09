@@ -9,23 +9,23 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "GlW",
+                        "Mi",
+                        "Kn",
+                        "Ei",
                         "Gl",
-                        "Sl",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kotelett vom Lamm mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Mi",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "GlG",
+                        "Kn",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -45,21 +45,21 @@
                     "name": "Rougaille Soja von Mauritius (Soja in würziger Tomatensauce)",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
+                        "Kn",
                         "Sf",
-                        "Kn"
+                        "So"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Mi",
                         "GlW",
-                        "S",
+                        "GlG",
+                        "Kn",
+                        "Mi",
                         "Gl",
-                        "Kn"
+                        "S"
                     ]
                 }
             ]
@@ -72,24 +72,24 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
+                        "Kn",
+                        "3",
+                        "2",
                         "Ei",
                         "GlW",
-                        "2",
-                        "3",
-                        "S",
                         "Gl",
-                        "Kn"
+                        "S"
                     ]
                 },
                 {
                     "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "GlW",
-                        "S",
+                        "So",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "S"
                     ]
                 },
                 {
@@ -106,25 +106,25 @@
                     "name": "Libanesischer Gemüseauflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Sl",
                         "Ei",
-                        "En"
+                        "Sl",
+                        "En",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "GlG",
-                        "99",
-                        "Mi",
-                        "GlW",
                         "R",
+                        "99",
+                        "GlW",
+                        "GlG",
+                        "Kn",
+                        "Sw",
+                        "Mi",
                         "Gl",
-                        "Sl",
-                        "Kn"
+                        "Sl"
                     ]
                 }
             ]
@@ -136,28 +136,28 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "1",
-                        "GlW",
-                        "3",
                         "R",
-                        "Gl",
-                        "Kn"
+                        "1",
+                        "Kn",
+                        "Sw",
+                        "3",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinebauch sweet & sour",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "1",
                         "99",
-                        "GlW",
+                        "So",
+                        "Kn",
                         "Se",
-                        "S",
+                        "GlW",
                         "Gl",
-                        "Sl",
-                        "Kn"
+                        "S",
+                        "Sl"
                     ]
                 },
                 {
@@ -165,17 +165,17 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "So",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Cremige Kürbissuppe mit gerösteten Kernen",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -183,20 +183,20 @@
                     "name": "Afrikanischer Süßkartoffeltopf mit Blumenkohl und Erdnüssen",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "En",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Topfenpalatschinken",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Mi",
                         "Ei",
-                        "GlW",
-                        "Gl",
                         "Sc",
+                        "Gl",
                         "ScM"
                     ]
                 }
@@ -211,20 +211,20 @@
                     "ingredients": [
                         "Gl",
                         "Sl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gebratene Currynudeln mit Gemüsestreifen",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
+                        "Sf",
                         "GlW",
-                        "Sl",
+                        "Ei",
                         "Se",
                         "Gl",
-                        "Sf"
+                        "Sl"
                     ]
                 },
                 {
@@ -244,14 +244,14 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Mi",
                         "GlW",
-                        "2",
                         "8",
-                        "S",
+                        "GlG",
+                        "Kn",
+                        "2",
+                        "Mi",
                         "Gl",
-                        "Kn"
+                        "S"
                     ]
                 }
             ]
@@ -264,28 +264,28 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "So",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
                         "Fi",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Italienischer Bohneneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -297,12 +297,12 @@
                     "name": "Mediterrane Schupfnudelpfanne mit Weisskäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "GlW",
+                        "Mi",
+                        "Kn",
+                        "Ei",
                         "Gl",
-                        "Sl",
-                        "Kn"
+                        "Sl"
                     ]
                 }
             ]
