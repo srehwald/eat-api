@@ -9,24 +9,24 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "S",
-                        "Gl",
                         "GlW",
-                        "GlG"
+                        "Mi",
+                        "S",
+                        "GlG",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "Sl",
                         "Ei",
+                        "GlW",
+                        "Sl",
+                        "Mi",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 }
             ]
@@ -38,24 +38,24 @@
                     "name": "Libanesischer Gemüseauflauf",
                     "price": 2.8,
                     "ingredients": [
-                        "Sl",
-                        "Ei",
                         "Mi",
-                        "En"
+                        "Ei",
+                        "En",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Rinderbraten mit Rotweinsauce",
                     "price": 3.2,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "Sl",
-                        "99",
-                        "Gl",
                         "R",
                         "GlW",
+                        "Sl",
+                        "Mi",
+                        "99",
                         "GlG",
+                        "Gl",
+                        "Kn",
                         "Sw"
                     ]
                 }
@@ -68,8 +68,8 @@
                     "name": "Afrikanischer Süßkartoffeltopf mit Blumenkohl und Erdnüssen",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "2",
+                        "Kn",
                         "En"
                     ]
                 },
@@ -77,12 +77,12 @@
                     "name": "Schweinesteak Strindberg (Senf-Zwiebelkruste)",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
-                        "Mi",
-                        "Sl",
                         "Ei",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Sl",
+                        "Mi",
+                        "Sf",
+                        "Gl"
                     ]
                 }
             ]
@@ -94,18 +94,18 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
                         "Gl",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "2",
+                        "Gl",
                         "Kn",
                         "GlW"
                     ]
@@ -128,11 +128,11 @@
                     "name": "Wildlachs (MSC) auf Blattspinat",
                     "price": 4.0,
                     "ingredients": [
-                        "Mi",
                         "Fi",
-                        "Kn",
+                        "GlW",
+                        "Mi",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 }
             ]
