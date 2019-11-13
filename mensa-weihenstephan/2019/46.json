@@ -9,10 +9,10 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "Sl",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
@@ -20,8 +20,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Gl",
                         "S",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -29,26 +29,26 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "1",
+                        "Kn",
+                        "Mi",
                         "GlW",
                         "Ei",
-                        "Mi",
-                        "Sl",
                         "Gl",
-                        "Kn"
+                        "Sl",
+                        "1"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "GlG",
-                        "GlW",
+                        "Kn",
                         "Mi",
-                        "R",
-                        "Sl",
+                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Sl",
+                        "GlG",
+                        "R"
                     ]
                 }
             ]
@@ -60,22 +60,22 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "Sf",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kürbis-Kartoffel-Gratin mit frischen Salbeiblättern",
                     "price": 2.6,
                     "ingredients": [
+                        "Kn",
+                        "Mi",
                         "GlW",
                         "Ei",
-                        "Mi",
-                        "Sl",
                         "Gl",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
@@ -83,10 +83,10 @@
                     "price": 3.0,
                     "ingredients": [
                         "5",
-                        "Sw",
-                        "GlW",
-                        "Mi",
                         "99",
+                        "Mi",
+                        "GlW",
+                        "Sw",
                         "Gl"
                     ]
                 },
@@ -95,15 +95,15 @@
                     "price": 3.5,
                     "ingredients": [
                         "3",
-                        "GlG",
-                        "Fi",
-                        "GlW",
-                        "Mi",
-                        "So",
-                        "S",
                         "2",
+                        "Mi",
+                        "S",
+                        "GlW",
                         "Gl",
-                        "1"
+                        "GlG",
+                        "1",
+                        "Fi",
+                        "So"
                     ]
                 }
             ]
@@ -115,33 +115,33 @@
                     "name": "Mexikanisches Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "Mi",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "3",
-                        "GlG",
-                        "Sw",
-                        "GlW",
                         "Sf",
-                        "Mi",
+                        "Kn",
+                        "3",
                         "S",
+                        "Mi",
+                        "GlW",
+                        "Sw",
                         "Gl",
-                        "Kn"
+                        "GlG"
                     ]
                 },
                 {
@@ -149,12 +149,12 @@
                     "price": 3.5,
                     "ingredients": [
                         "3",
-                        "Fi",
-                        "Kr",
                         "Wt",
                         "GlW",
                         "Gl",
-                        "1"
+                        "1",
+                        "Fi",
+                        "Kr"
                     ]
                 }
             ]
@@ -172,36 +172,36 @@
                     "price": 2.8,
                     "ingredients": [
                         "5",
-                        "GlG",
-                        "Sw",
-                        "GlW",
-                        "Mi",
                         "99",
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "Sw",
                         "Gl",
-                        "Kn"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
-                        "3",
-                        "GlG",
-                        "GlW",
                         "8",
-                        "Mi",
-                        "So",
+                        "3",
                         "2",
-                        "Gl"
+                        "Mi",
+                        "GlW",
+                        "Gl",
+                        "GlG",
+                        "So"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 }
             ]
@@ -230,12 +230,12 @@
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Fi",
+                        "Mi",
                         "GlW",
                         "Ei",
-                        "Mi",
+                        "Gl",
                         "Sl",
-                        "Gl"
+                        "Fi"
                     ]
                 }
             ]
