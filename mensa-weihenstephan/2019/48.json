@@ -10,27 +10,27 @@
                     "price": 1.0,
                     "ingredients": [
                         "Sf",
+                        "GlW",
                         "Kn",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
+                        "GlW",
                         "2",
-                        "GlW"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
                         "S",
+                        "Kn",
                         "Mi"
                     ]
                 },
@@ -38,15 +38,15 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "Sf",
-                        "Kn",
-                        "2",
-                        "Mi",
                         "GlW",
+                        "2",
                         "9",
+                        "Sf",
+                        "R",
                         "Gl",
-                        "GlG",
-                        "R"
+                        "Kn",
+                        "Mi",
+                        "GlG"
                     ]
                 }
             ]
@@ -58,24 +58,24 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
+                        "GlW",
                         "2",
-                        "GlW"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
                         "2",
-                        "Mi",
                         "GlW",
-                        "Ei",
+                        "Sf",
+                        "1",
                         "Gl",
-                        "11",
-                        "1"
+                        "Mi",
+                        "Ei",
+                        "11"
                     ]
                 },
                 {
@@ -83,23 +83,23 @@
                     "price": 2.4,
                     "ingredients": [
                         "2",
-                        "Mi",
-                        "GlD",
                         "GlW",
-                        "Ei",
+                        "GlD",
+                        "1",
                         "Gl",
-                        "1"
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Pizza mit grünem Spargel, Cocktailtomaten und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
                         "GlW",
                         "Gl",
-                        "GlG",
-                        "So"
+                        "So",
+                        "Mi",
+                        "GlG"
                     ]
                 }
             ]
@@ -117,30 +117,30 @@
                     "price": 1.9,
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "1",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "1",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "99",
-                        "Kn",
                         "S",
-                        "Mi",
                         "GlW",
+                        "99",
                         "Gl",
+                        "Kn",
+                        "Mi",
                         "GlG"
                     ]
                 }
@@ -161,11 +161,11 @@
                     "name": "Spenden - Currywurst",
                     "price": 1.9,
                     "ingredients": [
-                        "Sf",
-                        "8",
                         "S",
-                        "11",
-                        "R"
+                        "8",
+                        "Sf",
+                        "R",
+                        "11"
                     ]
                 },
                 {
@@ -173,27 +173,27 @@
                     "price": 3.5,
                     "ingredients": [
                         "8",
-                        "3",
                         "2",
-                        "Mi",
-                        "S",
                         "GlW",
-                        "Gl",
-                        "GlG",
+                        "S",
+                        "3",
                         "1",
-                        "So"
+                        "Gl",
+                        "So",
+                        "Mi",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
                         "S",
-                        "Mi",
                         "GlW",
+                        "R",
                         "Gl",
-                        "R"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -205,35 +205,35 @@
                     "name": "Bauerneintopf",
                     "price": 1.0,
                     "ingredients": [
+                        "GlW",
                         "Sl",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
-                        "Mi",
                         "GlW",
-                        "Ei",
-                        "Gl"
+                        "3",
+                        "Gl",
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
                         "2",
-                        "Mi",
                         "GlW",
-                        "Ei",
                         "9",
+                        "Sf",
                         "Gl",
-                        "11",
-                        "Fi"
+                        "Mi",
+                        "Fi",
+                        "Ei",
+                        "11"
                     ]
                 }
             ]

@@ -9,20 +9,20 @@
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Wildschweingulasch mit frischen Champignons",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
-                        "Sw",
                         "Gl",
-                        "99"
+                        "Sw",
+                        "99",
+                        "GlW"
                     ]
                 }
             ]
@@ -34,8 +34,8 @@
                     "name": "Pasta mit Tomaten-Zucchini-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -43,12 +43,12 @@
                     "name": "Kalbshüftsteak vom Grill mit Pilzrahmsauce",
                     "price": 4.0,
                     "ingredients": [
-                        "Sw",
-                        "Mi",
-                        "GlW",
-                        "5",
                         "Gl",
-                        "99"
+                        "Mi",
+                        "Sw",
+                        "5",
+                        "99",
+                        "GlW"
                     ]
                 }
             ]
@@ -65,12 +65,12 @@
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
+                        "Gl",
                         "Mi",
-                        "Kn",
-                        "GlD",
-                        "GlW",
                         "2",
-                        "Gl"
+                        "GlD",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -82,24 +82,24 @@
                     "name": "Geschmorter Rinderbraten (GQB) mit weihnachtlicher Sauce",
                     "price": 3.0,
                     "ingredients": [
-                        "5",
-                        "Sl",
-                        "Sw",
-                        "R",
-                        "Mi",
-                        "Kn",
-                        "GlW",
-                        "GlG",
                         "Gl",
-                        "99"
+                        "Mi",
+                        "Sw",
+                        "Sl",
+                        "5",
+                        "Kn",
+                        "99",
+                        "R",
+                        "GlG",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Tortelloni all'arrabiata",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 }
@@ -120,9 +120,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
+                        "GlW",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 }
             ]
