@@ -9,21 +9,21 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "S",
                         "GlG",
                         "Kn",
-                        "S",
-                        "GlW",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rougaille Soja von Mauritius (Soja in würziger Tomatensauce)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "Sf",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 }
             ]
@@ -35,14 +35,14 @@
                     "name": "Pasta mit Kürbis-Carbonara-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "S",
-                        "GlW",
-                        "Ei",
                         "3",
-                        "2",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "Ei",
+                        "S",
+                        "Kn",
+                        "Gl",
+                        "2"
                     ]
                 }
             ]
@@ -54,23 +54,23 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen in Balsamico",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Sw",
-                        "GlW",
+                        "R",
                         "1",
-                        "5",
                         "3",
-                        "R"
+                        "GlW",
+                        "5",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Afrikanischer Süßkartoffeltopf mit Blumenkohl und Erdnüssen",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
+                        "2",
                         "En",
-                        "2"
+                        "Kn"
                     ]
                 }
             ]
@@ -83,23 +83,23 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Kn",
+                        "GlW",
                         "Sl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "Gl",
                         "8",
+                        "GlW",
+                        "Mi",
+                        "S",
                         "GlG",
                         "Kn",
-                        "S",
-                        "GlW",
-                        "2",
-                        "Mi"
+                        "Gl",
+                        "2"
                     ]
                 }
             ]
@@ -111,8 +111,8 @@
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "GlW"
                     ]
                 },

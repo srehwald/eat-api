@@ -9,20 +9,20 @@
                     "name": "Karotten-Kürbisragout",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
+                        "Kn",
                         "Sf",
-                        "Kn"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
+                        "Kn",
                         "2",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
@@ -38,15 +38,15 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "GlW",
-                        "Sf",
-                        "Gl",
-                        "9",
-                        "Mi",
-                        "2",
-                        "GlG",
                         "R",
-                        "Kn"
+                        "Mi",
+                        "Sf",
+                        "9",
+                        "Gl",
+                        "GlG",
+                        "2",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -58,37 +58,37 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "2",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "GlD",
-                        "1",
-                        "Gl",
                         "Mi",
+                        "Ei",
+                        "GlD",
+                        "Gl",
+                        "1",
                         "2",
-                        "GlW",
-                        "Ei"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
-                        "Sf",
-                        "11",
-                        "Gl",
                         "Mi",
-                        "2",
+                        "Ei",
+                        "Sf",
                         "GlW",
-                        "Ei"
+                        "Gl",
+                        "1",
+                        "2",
+                        "11"
                     ]
                 },
                 {
@@ -114,42 +114,42 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Sw",
-                        "3",
-                        "Sl",
-                        "11",
-                        "Gl",
-                        "So",
-                        "Kn",
                         "Mi",
-                        "GlW",
+                        "Ei",
+                        "So",
+                        "Sl",
                         "5",
-                        "Ei"
+                        "GlW",
+                        "Gl",
+                        "3",
+                        "Kn",
+                        "Sw",
+                        "11"
                     ]
                 },
                 {
                     "name": "Gebratenes Truthahnsteak",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
+                        "Mi",
                         "Sl",
                         "Gl",
-                        "Mi",
                         "GlG",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "99",
                         "Mi",
-                        "GlG",
+                        "Gl",
                         "S",
-                        "Kn"
+                        "GlG",
+                        "Kn",
+                        "99",
+                        "GlW"
                     ]
                 }
             ]
@@ -161,8 +161,8 @@
                     "name": "Kürbis-Linsen-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Sf",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
@@ -170,43 +170,43 @@
                     "price": 1.9,
                     "ingredients": [
                         "Sf",
-                        "11",
                         "8",
+                        "S",
                         "R",
-                        "S"
+                        "11"
                     ]
                 },
                 {
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Mi",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Überbackenes Putenschnitzel Toskana",
                     "price": 2.8,
                     "ingredients": [
-                        "1",
-                        "Gl",
                         "Mi",
-                        "GlW",
-                        "Kn"
+                        "Gl",
+                        "1",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "GlW",
-                        "R",
+                        "Gl",
                         "S",
-                        "Kn"
+                        "R",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -218,45 +218,45 @@
                     "name": "Bauerneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
+                        "Sl",
                         "Gl",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
+                        "Mi",
+                        "Ei",
                         "Sf",
-                        "11",
-                        "Gl",
                         "Fi",
                         "9",
-                        "Mi",
-                        "2",
+                        "Gl",
                         "GlW",
-                        "Ei"
+                        "2",
+                        "11"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
-                        "Gl",
                         "Mi",
-                        "GlW",
-                        "Ei"
+                        "Ei",
+                        "Gl",
+                        "3",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit Pfifferlingen und Steinpilzen in Rahm",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "S",
-                        "Mi"
+                        "Mi",
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
