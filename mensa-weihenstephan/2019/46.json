@@ -9,20 +9,20 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "Kn",
+                        "GlW",
                         "Sl",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinelachssteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
+                        "S",
                         "Mi",
                         "GlW",
-                        "S"
+                        "Gl"
                     ]
                 },
                 {
@@ -30,12 +30,12 @@
                     "price": 2.6,
                     "ingredients": [
                         "Mi",
-                        "Ei",
-                        "Kn",
-                        "Sl",
                         "Gl",
-                        "1",
-                        "GlW"
+                        "Sl",
+                        "GlW",
+                        "Kn",
+                        "Ei",
+                        "1"
                     ]
                 },
                 {
@@ -43,12 +43,12 @@
                     "price": 2.8,
                     "ingredients": [
                         "Mi",
-                        "Kn",
-                        "R",
-                        "Sl",
                         "Gl",
+                        "Sl",
+                        "R",
                         "GlG",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -60,10 +60,10 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "Sf",
                         "Kn",
-                        "GlW"
+                        "Sf",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -71,39 +71,39 @@
                     "price": 2.6,
                     "ingredients": [
                         "Mi",
-                        "Ei",
-                        "Kn",
-                        "Sl",
                         "Gl",
-                        "GlW"
+                        "Sl",
+                        "GlW",
+                        "Kn",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "5",
-                        "Sw",
                         "Mi",
+                        "5",
                         "Gl",
+                        "GlW",
                         "99",
-                        "GlW"
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Pizza mit Salami,",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "3",
-                        "2",
-                        "So",
                         "S",
+                        "Mi",
                         "Gl",
-                        "1",
                         "GlG",
+                        "GlW",
+                        "2",
                         "Fi",
-                        "GlW"
+                        "So",
+                        "1",
+                        "3"
                     ]
                 }
             ]
@@ -115,46 +115,46 @@
                     "name": "Mexikanisches Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "Kn",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "Sw",
-                        "Mi",
-                        "3",
-                        "Kn",
                         "S",
+                        "Mi",
+                        "Sf",
                         "Gl",
                         "GlG",
-                        "GlW"
+                        "GlW",
+                        "Kn",
+                        "3",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Zarzuela - Spanische Fischpfanne (MSC) mit Meeresfrüchten, Oliven und Gemüse",
                     "price": 3.5,
                     "ingredients": [
-                        "3",
-                        "Kr",
                         "Gl",
-                        "1",
-                        "Wt",
+                        "GlW",
+                        "Kr",
                         "Fi",
-                        "GlW"
+                        "Wt",
+                        "1",
+                        "3"
                     ]
                 }
             ]
@@ -171,37 +171,37 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "5",
-                        "Sw",
                         "Mi",
-                        "Kn",
-                        "GlG",
+                        "5",
                         "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
                         "99",
-                        "GlW"
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
-                        "8",
-                        "3",
                         "Mi",
-                        "2",
-                        "So",
                         "Gl",
                         "GlG",
-                        "GlW"
+                        "GlW",
+                        "8",
+                        "2",
+                        "So",
+                        "3"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -220,9 +220,9 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
                         "Mi",
                         "GlW",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -231,11 +231,11 @@
                     "price": 3.5,
                     "ingredients": [
                         "Mi",
-                        "Ei",
-                        "Sl",
                         "Gl",
+                        "Sl",
+                        "GlW",
                         "Fi",
-                        "GlW"
+                        "Ei"
                     ]
                 }
             ]
