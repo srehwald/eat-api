@@ -9,17 +9,17 @@
                     "name": "Reisfleisch vom Kalb mit Tomatensauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "R",
                         "Sf",
-                        "Sl",
-                        "R"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Paprikasauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -27,9 +27,9 @@
                     "name": "Rahmchampignons",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -45,24 +45,24 @@
                     "name": "Rahmchampignons mit Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "Mi",
-                        "1",
                         "GlW",
-                        "Kn"
+                        "1",
+                        "Kn",
+                        "Ei",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Maultaschensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
+                        "GlW",
                         "Sl",
-                        "Gl",
+                        "Ei",
                         "Mi",
-                        "S",
-                        "GlW"
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
@@ -97,8 +97,8 @@
                     "name": "Rosenheimer Bratwurst",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "8",
                         "Mi",
+                        "8",
                         "S"
                     ]
                 },
@@ -106,25 +106,25 @@
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "S",
-                        "GlG",
                         "GlW",
-                        "Kn"
+                        "GlG",
+                        "Kn",
+                        "Mi",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Frühlingsrolle mit süßer Chilisauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "Gl",
-                        "Mi",
-                        "So",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Sl",
+                        "Ei",
+                        "So",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -148,10 +148,10 @@
                     "name": "Knöpfle",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "GlD",
-                        "Ei",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -181,23 +181,23 @@
                     "name": "Hähnchenbrustfilet Art Hawaii mit Currysauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
+                        "GlW",
                         "1",
+                        "Mi",
                         "Sf",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gnocchi mit Gorgonzola-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "Gl",
-                        "Mi",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Sl",
+                        "Ei",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -214,11 +214,11 @@
                     "name": "Kartoffelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
+                        "1",
+                        "2",
                         "Sw",
                         "3",
-                        "1",
-                        "2"
+                        "5"
                     ]
                 },
                 {
@@ -246,34 +246,34 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "S",
-                        "Ei",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Gl",
-                        "Mi",
-                        "GlG",
-                        "R",
                         "GlW",
-                        "Kn"
+                        "GlG",
+                        "Kn",
+                        "Sl",
+                        "R",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Asiatische Nudel-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Se",
-                        "4",
-                        "Gl",
-                        "So",
                         "GlW",
+                        "Se",
                         "2",
-                        "Kn"
+                        "Kn",
+                        "So",
+                        "4",
+                        "Gl"
                     ]
                 },
                 {
@@ -290,10 +290,10 @@
                     "name": "Kartoffel-Endivien-Salat",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
                         "Sf",
+                        "3",
                         "Sw",
-                        "3"
+                        "5"
                     ]
                 },
                 {
@@ -323,23 +323,23 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Ei",
-                        "Gl",
                         "Mi",
+                        "Fi",
                         "Sf",
-                        "Fi"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Hackbällchen Balkan Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "Mi",
-                        "S",
-                        "R",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Ei",
+                        "R",
+                        "Mi",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
@@ -348,8 +348,8 @@
                     "ingredients": [
                         "GlW",
                         "Mi",
-                        "Ei",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
