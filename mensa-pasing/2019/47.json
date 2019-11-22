@@ -10,10 +10,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "GlW",
                         "Gl",
                         "Ei",
                         "Sl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -22,9 +22,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "GlW",
                         "Gl",
                         "GlG",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -54,12 +54,12 @@
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Mi",
-                        "GlW",
                         "Gl",
                         "GlG",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "S"
                     ]
                 }
             ]
@@ -71,25 +71,25 @@
                     "name": "Pasta mit Kürbis-Carbonara-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "3",
                         "2",
                         "Mi",
-                        "GlW",
                         "Gl",
                         "Ei",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "S",
+                        "3"
                     ]
                 },
                 {
                     "name": "Gebratenes Schweinefleisch HoiSin Art in Sojasauce mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "So",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "So",
+                        "S"
                     ]
                 },
                 {
@@ -106,25 +106,25 @@
                     "name": "Libanesischer Gemüseauflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
+                        "Ei",
                         "Sl",
-                        "En",
-                        "Ei"
+                        "Mi",
+                        "En"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
-                        "R",
                         "Sw",
+                        "R",
                         "Mi",
-                        "GlW",
                         "Gl",
                         "GlG",
                         "Sl",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "99"
                     ]
                 }
             ]
@@ -136,38 +136,38 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "1",
-                        "R",
                         "Sw",
-                        "GlW",
+                        "R",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW",
+                        "1",
+                        "3"
                     ]
                 },
                 {
                     "name": "Schweinebauch sweet & sour",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
                         "So",
-                        "S",
-                        "Se",
-                        "1",
-                        "GlW",
                         "Gl",
                         "Sl",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "1",
+                        "Se",
+                        "99",
+                        "S"
                     ]
                 },
                 {
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
+                        "So",
                         "GlW",
                         "Gl",
-                        "Kn",
-                        "So"
+                        "Kn"
                     ]
                 },
                 {
@@ -175,29 +175,29 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Afrikanischer Süßkartoffeltopf mit Blumenkohl und Erdnüssen",
                     "price": "N/A",
                     "ingredients": [
-                        "En",
+                        "Kn",
                         "2",
-                        "Kn"
+                        "En"
                     ]
                 },
                 {
                     "name": "Topfenpalatschinken",
                     "price": "N/A",
                     "ingredients": [
-                        "ScM",
                         "Mi",
-                        "Sc",
-                        "GlW",
                         "Gl",
-                        "Ei"
+                        "Sc",
+                        "Ei",
+                        "GlW",
+                        "ScM"
                     ]
                 }
             ]
@@ -209,8 +209,8 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Sl",
+                        "GlW",
                         "Gl",
                         "Kn"
                     ]
@@ -219,11 +219,11 @@
                     "name": "Gebratene Currynudeln mit Gemüsestreifen",
                     "price": "N/A",
                     "ingredients": [
-                        "Se",
-                        "GlW",
                         "Gl",
                         "Ei",
                         "Sl",
+                        "GlW",
+                        "Se",
                         "Sf"
                     ]
                 },
@@ -244,14 +244,14 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "8",
                         "2",
                         "Mi",
                         "Gl",
-                        "GlW",
                         "GlG",
-                        "Kn"
+                        "GlW",
+                        "Kn",
+                        "S"
                     ]
                 }
             ]
@@ -263,10 +263,10 @@
                     "name": "Gnocchi mit frischem Kürbis und Kräutern",
                     "price": "N/A",
                     "ingredients": [
+                        "So",
                         "GlW",
                         "Gl",
-                        "Kn",
-                        "So"
+                        "Kn"
                     ]
                 },
                 {
@@ -274,9 +274,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "GlW",
                         "Gl",
                         "Fi",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -298,10 +298,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "GlW",
                         "Gl",
                         "Ei",
                         "Sl",
+                        "GlW",
                         "Kn"
                     ]
                 }
