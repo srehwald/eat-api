@@ -9,19 +9,19 @@
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "2",
-                        "GlW",
                         "R",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -38,15 +38,15 @@
                     "name": "Schweinerahmgeschnetzeltes mit Pfifferlingen und Steinpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "GlG",
-                        "Kn",
-                        "S",
+                        "Sw",
                         "5",
                         "Mi",
+                        "S",
                         "GlW",
                         "99",
-                        "Sw",
-                        "Gl"
+                        "Kn",
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -58,52 +58,52 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": 1.9,
                     "ingredients": [
-                        "3",
-                        "Kn",
-                        "S",
-                        "2",
-                        "Ei",
-                        "Mi",
-                        "GlW",
                         "8",
-                        "Gl"
+                        "Gl",
+                        "3",
+                        "Mi",
+                        "S",
+                        "GlW",
+                        "Ei",
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
                         "Sf",
-                        "Kn",
-                        "2",
-                        "Ei",
-                        "1",
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "Ei",
+                        "2",
+                        "Kn",
+                        "1"
                     ]
                 },
                 {
                     "name": "Zwiebelrostbraten mit Rotweinsauce",
                     "price": 4.0,
                     "ingredients": [
-                        "GlG",
-                        "Kn",
+                        "Sw",
+                        "R",
                         "Mi",
                         "GlW",
                         "99",
-                        "Sw",
-                        "R",
-                        "Gl"
+                        "Kn",
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -122,42 +122,42 @@
                     "name": "Pasta mit Putenbolognese",
                     "price": 2.4,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "Sl",
                         "GlW",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Spinatknödel Tiroler Art mit Bergkäse und knackigem Beilagensalat",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
                         "11",
+                        "Sw",
+                        "3",
                         "Sf",
-                        "Ei",
+                        "Sl",
                         "Mi",
                         "GlW",
-                        "Sw",
-                        "Gl",
-                        "Sl"
+                        "Ei",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Boeuf à la mode aus dem Rinderbug (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "3",
-                        "GlG",
-                        "Kn",
-                        "5",
-                        "Mi",
-                        "GlW",
-                        "99",
                         "Sw",
                         "R",
+                        "5",
+                        "3",
+                        "Sl",
+                        "Mi",
+                        "99",
+                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Sl"
+                        "GlG"
                     ]
                 }
             ]
@@ -176,22 +176,22 @@
                     "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "price": 1.9,
                     "ingredients": [
+                        "GlD",
                         "3",
-                        "Kn",
-                        "Mi",
                         "6",
-                        "Gl",
-                        "GlD"
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": 2.8,
                     "ingredients": [
+                        "Gl",
+                        "GlW",
                         "Kn",
                         "2",
-                        "GlW",
-                        "Gl",
                         "So"
                     ]
                 },
@@ -199,22 +199,22 @@
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "3",
-                        "Kn",
-                        "S",
+                        "Sw",
                         "5",
+                        "3",
                         "Mi",
-                        "Sw"
+                        "S",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "Gl",
                         "Sl",
+                        "GlW",
+                        "Kn",
+                        "Gl",
                         "So"
                     ]
                 }
@@ -227,9 +227,9 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
@@ -246,15 +246,15 @@
                     "name": "Gedünstetes Seelachsfilet (MSC) mit Gemüse und Weißweinsauce",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "Fi",
+                        "Sw",
                         "5",
+                        "Fi",
+                        "Sl",
                         "Mi",
                         "GlW",
                         "99",
-                        "Sw",
-                        "Gl",
-                        "Sl"
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]

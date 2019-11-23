@@ -9,28 +9,28 @@
                     "name": "Karotten-Kürbisragout",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
+                        "Kn",
                         "Sf",
-                        "Kn"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
+                        "Kn",
                         "2",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
                         "Kn",
+                        "Mi",
                         "S"
                     ]
                 },
@@ -38,15 +38,15 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "GlG",
+                        "R",
+                        "Gl",
                         "Sf",
-                        "Kn",
-                        "2",
                         "9",
                         "Mi",
                         "GlW",
-                        "R",
-                        "Gl"
+                        "Kn",
+                        "2",
+                        "GlG"
                     ]
                 }
             ]
@@ -58,23 +58,23 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "2",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "Ei",
-                        "1",
+                        "GlD",
+                        "Gl",
                         "Mi",
                         "GlW",
-                        "Gl",
-                        "GlD"
+                        "Ei",
+                        "2",
+                        "1"
                     ]
                 },
                 {
@@ -82,22 +82,22 @@
                     "price": 2.4,
                     "ingredients": [
                         "11",
+                        "Gl",
                         "Sf",
-                        "2",
-                        "Ei",
-                        "1",
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "Ei",
+                        "2",
+                        "1"
                     ]
                 },
                 {
                     "name": "Rumpsteak mit Schmorzwiebeln",
                     "price": 4.0,
                     "ingredients": [
-                        "R",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "R"
                     ]
                 }
             ]
@@ -114,16 +114,16 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "3",
                         "11",
-                        "Kn",
-                        "Ei",
+                        "Sw",
                         "5",
+                        "3",
+                        "Sl",
                         "Mi",
                         "GlW",
-                        "Sw",
+                        "Ei",
                         "Gl",
-                        "Sl",
+                        "Kn",
                         "So"
                     ]
                 },
@@ -131,25 +131,25 @@
                     "name": "Gebratenes Truthahnsteak",
                     "price": 2.6,
                     "ingredients": [
-                        "GlG",
-                        "Kn",
+                        "Sl",
                         "Mi",
                         "GlW",
+                        "Kn",
                         "Gl",
-                        "Sl"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlG",
-                        "Kn",
-                        "S",
                         "Mi",
+                        "S",
                         "GlW",
                         "99",
-                        "Gl"
+                        "Kn",
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -161,51 +161,51 @@
                     "name": "Kürbis-Linsen-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Sf",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Spenden - Currywurst",
                     "price": 1.9,
                     "ingredients": [
-                        "11",
-                        "Sf",
-                        "S",
                         "8",
-                        "R"
+                        "11",
+                        "R",
+                        "Sf",
+                        "S"
                     ]
                 },
                 {
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "Gl",
                         "Mi",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Überbackenes Putenschnitzel Toskana",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "1",
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "Kn",
+                        "Gl",
+                        "1"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
-                        "S",
-                        "Mi",
-                        "GlW",
                         "R",
+                        "Mi",
+                        "S",
+                        "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 }
@@ -219,8 +219,8 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Sl",
-                        "GlW"
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
@@ -228,14 +228,14 @@
                     "price": 2.6,
                     "ingredients": [
                         "11",
+                        "Gl",
                         "Sf",
-                        "2",
-                        "9",
-                        "Ei",
                         "Fi",
+                        "9",
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "Ei",
+                        "2"
                     ]
                 },
                 {
@@ -243,9 +243,9 @@
                     "price": 2.6,
                     "ingredients": [
                         "3",
-                        "Ei",
                         "Mi",
                         "GlW",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -253,10 +253,10 @@
                     "name": "Schweinerückensteak mit Pfifferlingen und Steinpilzen in Rahm",
                     "price": 2.8,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "GlW",
-                        "S"
+                        "Gl",
+                        "S",
+                        "GlW"
                     ]
                 }
             ]
