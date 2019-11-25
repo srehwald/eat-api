@@ -10,61 +10,61 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "GlW",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Tortellini in Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
+                        "Sl",
                         "Ei",
                         "Mi",
-                        "Gl",
-                        "GlW",
-                        "Sl"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
+                        "Sl",
                         "Ei",
                         "Mi",
-                        "Gl",
+                        "Kn",
                         "1",
-                        "GlW",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "Gl",
-                        "GlW",
-                        "R",
                         "GlG",
-                        "Sl"
+                        "Sl",
+                        "R",
+                        "Mi",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Kn",
                         "2",
-                        "Ei",
-                        "Mi",
+                        "GlG",
                         "Gl",
+                        "Ei",
                         "S",
-                        "GlW",
-                        "GlG"
+                        "Mi",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -76,10 +76,10 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
+                        "Sf",
                         "Gl",
-                        "Kn",
                         "GlW",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
@@ -87,29 +87,29 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
+                        "Sl",
                         "8",
-                        "Sl"
+                        "S"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
                         "Gl",
                         "5",
-                        "GlW",
                         "Sw",
-                        "99"
+                        "Mi",
+                        "99",
+                        "GlW"
                     ]
                 }
             ]
@@ -121,8 +121,8 @@
                     "name": "Mexikanisches Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
@@ -130,8 +130,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Mi"
                     ]
                 },
@@ -140,24 +140,24 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "Kn",
+                        "GlW",
                         "So",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "Sf",
-                        "Mi",
                         "Gl",
-                        "S",
-                        "GlW",
-                        "Sw",
                         "3",
-                        "GlG"
+                        "GlG",
+                        "Sf",
+                        "S",
+                        "Sw",
+                        "Mi",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -174,38 +174,38 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
+                        "2",
                         "1",
-                        "Mi",
-                        "2"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "99",
-                        "Mi",
                         "Gl",
                         "5",
-                        "GlW",
+                        "GlG",
                         "Sw",
-                        "GlG"
+                        "Mi",
+                        "99",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Burger mit Käse",
                     "price": 4.0,
                     "ingredients": [
+                        "Gl",
+                        "R",
                         "11",
                         "Ei",
                         "Sf",
                         "Mi",
-                        "Gl",
-                        "1",
-                        "GlW",
                         "So",
-                        "R"
+                        "1",
+                        "GlW"
                     ]
                 },
                 {
@@ -213,8 +213,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -233,24 +233,24 @@
                     "name": "Spaghetti Carbonara",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "2",
-                        "Ei",
-                        "Mi",
-                        "Gl",
-                        "S",
-                        "GlW",
                         "3",
-                        "Sl"
+                        "Gl",
+                        "Sl",
+                        "Ei",
+                        "S",
+                        "Mi",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Ei",
                         "Gl",
                         "GlW",
-                        "Ei",
                         "Mi"
                     ]
                 },
@@ -258,24 +258,24 @@
                     "name": "Massaman Curry (mit Hähnchen)",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
+                        "Sl",
                         "En",
                         "Sf",
-                        "Gl",
-                        "GlW",
-                        "Sl"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "Gl",
-                        "GlW",
+                        "Sl",
+                        "Ei",
                         "Fi",
-                        "Sl"
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]

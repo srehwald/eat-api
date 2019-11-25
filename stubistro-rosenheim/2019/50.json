@@ -40,18 +40,18 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "GlD",
                         "Ei",
-                        "Gl"
+                        "Gl",
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Countrykartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -81,24 +81,24 @@
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "S",
-                        "GlW",
                         "Gl",
-                        "GlG"
+                        "Mi",
+                        "S",
+                        "GlG",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Frühlingsrolle mit süßer Chilisauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "GlW",
                         "Gl",
-                        "So",
+                        "Mi",
                         "Sl",
+                        "Kn",
+                        "So",
+                        "GlW",
                         "Ei"
                     ]
                 },
@@ -149,10 +149,10 @@
                     "name": "Rührei mit Rahmspinat und Kartoffeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Mi",
                         "Kn",
                         "GlW",
-                        "Gl",
                         "Ei"
                     ]
                 },
@@ -160,11 +160,11 @@
                     "name": "Gnocchi mit Gorgonzola-Sauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Mi",
+                        "Sl",
                         "Kn",
                         "GlW",
-                        "Gl",
-                        "Sl",
                         "Ei"
                     ]
                 },
@@ -202,39 +202,39 @@
                     "name": "Geschmorter Rinderbraten (GQB) mit weihnachtlicher Sauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "GlW",
-                        "Gl",
-                        "Sw",
                         "99",
+                        "R",
+                        "Gl",
+                        "5",
+                        "Mi",
+                        "Sw",
                         "GlG",
                         "Sl",
-                        "R",
-                        "5"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Putengulasch",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Asiatische Nudel-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "Gl",
-                        "So",
-                        "4",
-                        "Se",
                         "2",
+                        "4",
+                        "Kn",
+                        "So",
+                        "Se",
+                        "GlW",
                         "Ei"
                     ]
                 },
@@ -252,11 +252,11 @@
                     "name": "Kartoffelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Sw",
                         "1",
                         "2",
-                        "5"
+                        "5",
+                        "Sw",
+                        "3"
                     ]
                 },
                 {
@@ -290,12 +290,12 @@
                     "name": "Hackbällchen Balkan Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "S",
-                        "GlW",
-                        "Gl",
                         "R",
+                        "Gl",
+                        "Mi",
+                        "S",
+                        "Kn",
+                        "GlW",
                         "Ei"
                     ]
                 },
@@ -303,8 +303,8 @@
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Ei",
                         "Gl"
                     ]
