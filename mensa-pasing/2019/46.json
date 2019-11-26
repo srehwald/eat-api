@@ -19,8 +19,8 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Sl",
+                        "Kn",
                         "Gl",
                         "GlW"
                     ]
@@ -34,8 +34,8 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "Gl",
                         "GlW"
                     ]
@@ -44,23 +44,23 @@
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlG",
                         "GlW",
-                        "Gl",
+                        "Sl",
+                        "Mi",
                         "R",
-                        "Sl"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlG",
                         "GlW",
+                        "Mi",
+                        "Kn",
                         "99",
                         "Gl",
                         "S"
@@ -70,11 +70,11 @@
                     "name": "Forelle Müllerin Art mit Zitronenbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "1",
                         "GlW",
+                        "Sf",
+                        "Mi",
                         "Gl",
+                        "1",
                         "Fi"
                     ]
                 }
@@ -96,16 +96,16 @@
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "5",
-                        "Sf",
-                        "11",
-                        "Sw",
-                        "So",
                         "2",
-                        "Sl",
                         "S",
-                        "3"
+                        "Sl",
+                        "Sf",
+                        "Sw",
+                        "Kn",
+                        "3",
+                        "So",
+                        "11",
+                        "5"
                     ]
                 },
                 {
@@ -127,21 +127,21 @@
                     "name": "Kürbis-Kartoffel-Gratin mit frischen Salbeiblättern",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Mi",
-                        "Ei"
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "5",
-                        "Sw",
                         "GlW",
+                        "Mi",
                         "99",
-                        "Gl"
+                        "Gl",
+                        "Sw",
+                        "5"
                     ]
                 }
             ]
@@ -153,8 +153,8 @@
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "Gl",
                         "GlW"
                     ]
@@ -163,29 +163,29 @@
                     "name": "Zarzuela - Spanische Fischpfanne (MSC) mit Meeresfrüchten, Oliven und Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
                         "GlW",
                         "Kr",
                         "Gl",
-                        "Wt",
+                        "1",
                         "3",
-                        "Fi"
+                        "Fi",
+                        "Wt"
                     ]
                 },
                 {
                     "name": "Mexikanisches Chili",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kürbissuppe mit Zimtcroutons",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "Gl",
                         "GlW"
                     ]
@@ -194,15 +194,15 @@
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlG",
-                        "Sf",
-                        "Sw",
                         "GlW",
-                        "Gl",
                         "S",
-                        "3"
+                        "Sf",
+                        "Mi",
+                        "Kn",
+                        "Gl",
+                        "3",
+                        "Sw"
                     ]
                 },
                 {
@@ -210,9 +210,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
+                        "Ei",
                         "Gl",
-                        "GlW",
-                        "Ei"
+                        "GlW"
                     ]
                 }
             ]
@@ -251,14 +251,14 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlG",
-                        "5",
-                        "Sw",
                         "GlW",
+                        "Mi",
+                        "Kn",
                         "99",
-                        "Gl"
+                        "Gl",
+                        "Sw",
+                        "5"
                     ]
                 }
             ]
@@ -270,26 +270,26 @@
                     "name": "Spaghetti Carbonara",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "Ei",
-                        "GlW",
-                        "Gl",
                         "2",
+                        "GlW",
                         "Sl",
-                        "S",
-                        "3"
+                        "Ei",
+                        "Mi",
+                        "Kn",
+                        "Gl",
+                        "3",
+                        "S"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit Sauce Hollandaise",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl",
                         "Sl",
+                        "Ei",
+                        "Mi",
+                        "Gl",
                         "Fi"
                     ]
                 },
@@ -310,9 +310,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
+                        "Ei",
                         "Gl",
-                        "GlW",
-                        "Ei"
+                        "GlW"
                     ]
                 }
             ]
