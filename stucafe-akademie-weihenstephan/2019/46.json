@@ -9,13 +9,13 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Ei",
-                        "Gl",
-                        "GlW",
                         "1",
+                        "Gl",
                         "Mi",
-                        "Sl"
+                        "GlW",
+                        "Kn",
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
@@ -23,11 +23,11 @@
                     "price": 2.8,
                     "ingredients": [
                         "R",
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "GlG",
                         "Mi",
+                        "GlG",
+                        "GlW",
+                        "Kn",
                         "Sl"
                     ]
                 }
@@ -53,9 +53,9 @@
                     "name": "Farfalle mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Kn",
+                        "GlW",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -63,15 +63,15 @@
                     "name": "Münchner Schnitzel (Senf-Meerrettichkruste)",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "Kn",
                         "Gl",
-                        "3",
-                        "GlW",
-                        "Sf",
                         "GlG",
                         "Mi",
-                        "Sw"
+                        "Sw",
+                        "S",
+                        "GlW",
+                        "Kn",
+                        "3",
+                        "Sf"
                     ]
                 }
             ]
@@ -83,22 +83,22 @@
                     "name": "Pasta Napoli (Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "5",
                         "GlG",
                         "Mi",
+                        "5",
                         "Sw",
+                        "GlW",
+                        "Kn",
                         "99"
                     ]
                 }
@@ -111,9 +111,9 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Ei",
+                        "GlW",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -122,11 +122,11 @@
                     "price": 3.5,
                     "ingredients": [
                         "Fi",
-                        "Ei",
                         "Gl",
-                        "GlW",
                         "Mi",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Ei"
                     ]
                 }
             ]
