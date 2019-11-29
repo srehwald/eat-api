@@ -9,8 +9,8 @@
                     "name": "Schaschlik-Pfanne",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "S",
                         "2",
+                        "S",
                         "9"
                     ]
                 },
@@ -18,12 +18,12 @@
                     "name": "Chickenwings mit Barbecuesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Sl",
-                        "10",
                         "2",
-                        "Kn",
                         "4",
+                        "Kn",
+                        "10",
+                        "Sl",
+                        "Sf",
                         "11"
                     ]
                 },
@@ -31,14 +31,14 @@
                     "name": "Blätterteigtasche mit Spinat, Hirtenkäse und Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Sc",
-                        "Gl",
-                        "Sl",
                         "GlW",
+                        "Mi",
+                        "Sc",
+                        "Sl",
                         "Se",
-                        "Kn",
-                        "Mi"
+                        "Gl",
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {
@@ -48,6 +48,11 @@
                 },
                 {
                     "name": "Tagesgemüse",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
+                    "name": "Reis",
                     "price": "N/A",
                     "ingredients": []
                 },
@@ -75,11 +80,11 @@
                     "name": "Hähnchen-Cordon bleu (G)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "2",
                         "8",
-                        "Gl",
                         "3",
                         "Mi",
-                        "2",
+                        "Gl",
                         "Ei"
                     ]
                 },
@@ -87,25 +92,24 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "8",
-                        "3",
-                        "Sf",
                         "2",
+                        "8",
+                        "S",
+                        "3",
                         "R",
-                        "11"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Spinatknödel Tiroler Art mit Bergkäse und Salbeibutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "Sl",
                         "2",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Sl",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -122,19 +126,19 @@
                     "name": "Kartoffel-Endivien-Salat",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "Sf",
                         "3",
-                        "5"
+                        "Sf",
+                        "5",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Countrykartoffeln",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Kn",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -158,25 +162,25 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Pasta mit Sojabolognese",
+                    "name": "Pasta Bolognese vegan",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Gl",
                         "Sl",
-                        "GlW"
+                        "GlW",
+                        "So",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlD",
-                        "Gl",
-                        "1",
-                        "Mi",
                         "2",
+                        "GlD",
                         "GlW",
+                        "Mi",
+                        "1",
+                        "Gl",
                         "Ei"
                     ]
                 },
@@ -191,9 +195,11 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Reis",
+                    "name": "Gemüsereis",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Aktionsdessert",
@@ -215,32 +221,32 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "S",
-                        "Gl",
-                        "GlG",
                         "GlW",
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "GlG",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Indisches Putengeschnetzeltes mit Früchten und Curry",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "3",
                         "GlW",
-                        "Kn",
+                        "3",
+                        "Mi",
+                        "Gl",
                         "Sf",
-                        "Mi"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Kn",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -257,11 +263,11 @@
                     "name": "Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "1",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "1",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -297,23 +303,23 @@
                     "name": "Hähnchenbrust ungarische Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
+                        "Mi",
                         "GlG",
                         "Sl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "3",
                         "GlW",
-                        "Mi"
+                        "3",
+                        "Mi",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -330,17 +336,17 @@
                     "name": "Farfalle",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kartoffelgratin",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Mi",
-                        "Ei"
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {

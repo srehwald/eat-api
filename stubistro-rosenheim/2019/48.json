@@ -9,10 +9,10 @@
                     "name": "Schweinelende mit Champignonsauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "2",
                         "S",
                         "9",
                         "Sl",
-                        "2",
                         "Sf"
                     ]
                 },
@@ -20,48 +20,81 @@
                     "name": "Rindfleischstreifen China Town mit Bambussprossen",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "R"
+                        "R",
+                        "Sf",
+                        "1",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Falafel mit Gemüsecouscous",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Kn",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Gurken-Minz-Joghurt-Dip",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Mi",
+                        "Kn"
+                    ]
                 },
                 {
-                    "name": "Tagesgemüse",
+                    "name": "Leberspätzlesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "S",
+                        "GlW",
+                        "Sl",
+                        "Gl",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Blumenkohl",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Knöpfle",
                     "price": "N/A",
                     "ingredients": [
                         "GlD",
-                        "Gl",
+                        "GlW",
                         "Ei",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Aktionsdessert",
+                    "name": "Weiße Schokoladenmousse mit Heidelbeeren",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "14",
+                        "Mi"
+                    ]
                 },
                 {
-                    "name": "Tagesdessert",
+                    "name": "Naturjoghurt mit Honig-Nuss-Müsli",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "ScH",
+                        "GlW",
+                        "Mi",
+                        "GlH",
+                        "ScC",
+                        "ScW",
+                        "GlG",
+                        "Sc",
+                        "ScM",
+                        "Gl",
+                        "En"
+                    ]
                 }
             ]
         },
@@ -72,18 +105,26 @@
                     "name": "Putengulasch (G)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "4",
-                        "Mi"
+                        "Mi",
+                        "4"
+                    ]
+                },
+                {
+                    "name": "Zartweizen",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Chili con carne",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "2",
-                        "R",
                         "GlW",
+                        "R",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -91,36 +132,45 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "1",
-                        "Mi",
                         "2",
                         "GlW",
+                        "Mi",
+                        "1",
+                        "Gl",
                         "Ei"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Tagesgemüse",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Nudeln",
+                    "name": "Tomaten-Sahnesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Reis",
+                    "name": "Selleriecremesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Sl",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Cordialgemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Kroketten",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Aktionsdessert",
@@ -128,7 +178,7 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Tagesdessert",
+                    "name": "Heidelbeerjoghurt",
                     "price": "N/A",
                     "ingredients": []
                 }
@@ -150,32 +200,38 @@
                     "name": "Hähnchenschnitzel mit Mango-Chili-Dip",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
+                        "Mi",
                         "Gl",
                         "Sf",
-                        "Mi",
-                        "GlW",
-                        "Kn",
                         "11",
-                        "Ei"
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {
-                    "name": "Fusilli mit Knoblauch-Sahne-Sauce",
+                    "name": "Fusilli Quattro Formaggi",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
+                        "2",
+                        "GlW",
                         "Mi",
-                        "GlW"
+                        "1",
+                        "Gl",
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Gemüse-Creme-Suppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Sl",
+                        "Mi"
+                    ]
                 },
                 {
-                    "name": "Tagesgemüse",
+                    "name": "Balkangemüse",
                     "price": "N/A",
                     "ingredients": []
                 },
@@ -188,15 +244,21 @@
                     "name": "Countrykartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Aktionsdessert",
+                    "name": "Schoko-Trüffel-Mousse mit Mandarinen",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "ScH",
+                        "Mi",
+                        "GlG",
+                        "Sc",
+                        "Gl",
+                        "14"
+                    ]
                 },
                 {
                     "name": "Tagesdessert",
@@ -212,8 +274,8 @@
                     "name": "Gulasch vom Rind mit Johannisbeeren",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Mi",
-                        "R"
+                        "R",
+                        "Mi"
                     ]
                 },
                 {
@@ -221,25 +283,25 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
-                        "Gl",
+                        "GlW",
+                        "Mi",
                         "GlG",
                         "Sl",
-                        "Mi",
-                        "GlW",
-                        "Kn",
-                        "Ei"
+                        "Gl",
+                        "Ei",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gefüllte Paprikaschotenhälfte mit Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlD",
-                        "Gl",
                         "2",
+                        "GlD",
                         "GlW",
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -263,11 +325,11 @@
                     "name": "Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "1",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "1",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -298,10 +360,10 @@
                     "name": "Pasta mit Sauce Bolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "R",
                         "GlW",
+                        "R",
+                        "Sl",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -310,9 +372,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Gl",
+                        "GlW",
                         "Ei",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {

@@ -9,8 +9,8 @@
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Kn",
+                        "Mi",
                         "S"
                     ]
                 },
@@ -25,36 +25,54 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Leberspätzlesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "S",
+                        "Sl",
+                        "Gl",
+                        "Ei"
+                    ]
                 },
                 {
                     "name": "Spinatknödel Tiroler Art mit Bergkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
+                        "Mi",
                         "Sl",
-                        "Ei",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
-                        "9",
-                        "2",
-                        "R",
-                        "Sw",
-                        "5",
                         "Kn",
                         "GlG",
+                        "Mi",
+                        "R",
+                        "9",
                         "Gl",
-                        "Sf"
+                        "Sf",
+                        "2",
+                        "5",
+                        "Sw"
+                    ]
+                },
+                {
+                    "name": "Schollenfilet (MSC) Finkenwerder Art",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "S",
+                        "Gl",
+                        "2",
+                        "3",
+                        "Fi"
                     ]
                 }
             ]
@@ -66,54 +84,69 @@
                     "name": "Rumpsteak mit Schmorzwiebeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Mi",
-                        "R",
-                        "Kn"
+                        "R"
                     ]
                 },
                 {
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "2",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pikante Kürbiscremesuppe mit Ingwer",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "1",
+                        "Gl",
                         "2",
                         "Ei",
-                        "1",
-                        "GlD",
-                        "Gl"
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
-                        "2",
-                        "Ei",
-                        "11",
+                        "Mi",
                         "1",
                         "Gl",
-                        "Sf"
+                        "Sf",
+                        "2",
+                        "Ei",
+                        "11"
+                    ]
+                },
+                {
+                    "name": "Rindergeschnetzeltes (GQB) Stroganoff",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Kn",
+                        "GlG",
+                        "Mi",
+                        "R",
+                        "9",
+                        "Gl",
+                        "Sf",
+                        "2"
                     ]
                 }
             ]
@@ -125,11 +158,11 @@
                     "name": "Gebratenes Truthahnsteak",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
-                        "Sl",
-                        "Kn",
+                        "Mi",
                         "GlG",
+                        "Kn",
+                        "Sl",
                         "Gl"
                     ]
                 },
@@ -139,23 +172,51 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Bio-Lauchcremesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "So",
                         "GlW",
-                        "Sw",
-                        "3",
-                        "5",
-                        "Ei",
+                        "Mi",
+                        "Kn",
                         "Sl",
-                        "11",
+                        "Gl",
+                        "Ei",
+                        "So"
+                    ]
+                },
+                {
+                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
+                        "1",
+                        "Gl",
+                        "2",
+                        "Ei",
+                        "GlD"
+                    ]
+                },
+                {
+                    "name": "Schweinesteak mit Biersauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Kn",
+                        "GlG",
+                        "99",
+                        "Mi",
+                        "S",
                         "Gl"
                     ]
                 },
@@ -163,23 +224,24 @@
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
                         "Kn",
-                        "S",
-                        "99",
                         "GlG",
+                        "99",
+                        "Mi",
+                        "S",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Kleine Dampfnudel mit Vanillesauce",
+                    "name": "Pfannkuchen mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
-                        "Ei",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "3",
+                        "Ei"
                     ]
                 }
             ]
@@ -191,10 +253,10 @@
                     "name": "Bio-Spaghetti bolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
-                        "R",
+                        "Mi",
                         "Kn",
+                        "R",
                         "S",
                         "Gl"
                     ]
@@ -203,11 +265,11 @@
                     "name": "Spenden - Currywurst",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
                         "S",
-                        "11",
+                        "R",
+                        "Sf",
                         "8",
-                        "Sf"
+                        "11"
                     ]
                 },
                 {
@@ -219,17 +281,34 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Kaiserschmarrn mit Apfelmus",
+                    "name": "Leberknödelsuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
-                        "3",
+                        "S",
+                        "Sl",
+                        "Gl",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Roast beef mit Schmorzwiebelsauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
+                        "GlG",
+                        "Kn",
+                        "R",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
                         "Ei",
                         "Gl"
                     ]
@@ -243,8 +322,8 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
+                        "Mi",
                         "Kn",
                         "Gl"
                     ]
@@ -253,36 +332,36 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Fi",
-                        "Mi",
                         "GlW",
+                        "Mi",
                         "9",
-                        "2",
-                        "Ei",
-                        "11",
                         "Gl",
-                        "Sf"
+                        "Sf",
+                        "2",
+                        "Fi",
+                        "Ei",
+                        "11"
                     ]
                 },
                 {
                     "name": "Gebratene Chinanudeln mit Wokgemüse und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "GlW",
-                        "2",
-                        "Ei",
                         "Se",
                         "Gl",
-                        "Sf"
+                        "Sf",
+                        "2",
+                        "Ei",
+                        "So"
                     ]
                 },
                 {
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 },
@@ -290,6 +369,20 @@
                     "name": "Tagessuppe",
                     "price": "N/A",
                     "ingredients": []
+                },
+                {
+                    "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Kn",
+                        "GlG",
+                        "Mi",
+                        "S",
+                        "Gl",
+                        "2",
+                        "3"
+                    ]
                 }
             ]
         }
