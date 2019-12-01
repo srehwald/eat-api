@@ -9,10 +9,10 @@
                     "name": "Karotten-Kürbisragout",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "Sf",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -20,17 +20,17 @@
                     "price": 1.55,
                     "ingredients": [
                         "2",
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -38,9 +38,9 @@
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": 2.6,
                     "ingredients": [
+                        "Kn",
                         "Mi",
-                        "S",
-                        "Kn"
+                        "S"
                     ]
                 },
                 {
@@ -48,13 +48,13 @@
                     "price": 3.2,
                     "ingredients": [
                         "9",
+                        "GlG",
+                        "2",
                         "Gl",
-                        "Sf",
-                        "R",
                         "Mi",
                         "Kn",
-                        "2",
-                        "GlG",
+                        "R",
+                        "Sf",
                         "GlW"
                     ]
                 }
@@ -68,53 +68,53 @@
                     "price": 1.0,
                     "ingredients": [
                         "2",
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Sf",
-                        "Mi",
-                        "11",
-                        "Ei",
                         "2",
-                        "GlW",
-                        "1"
+                        "Gl",
+                        "Mi",
+                        "1",
+                        "Ei",
+                        "11",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "1",
-                        "Mi",
-                        "Ei",
                         "2",
-                        "GlW",
-                        "GlD"
+                        "Gl",
+                        "Mi",
+                        "GlD",
+                        "1",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pizza Salami mit Mozzarella",
                     "price": 3.5,
                     "ingredients": [
+                        "GlG",
+                        "2",
+                        "3",
                         "Gl",
                         "Mi",
+                        "1",
                         "Kn",
-                        "2",
-                        "GlG",
-                        "8",
-                        "3",
                         "So",
-                        "S",
+                        "8",
                         "GlW",
-                        "1"
+                        "S"
                     ]
                 }
             ]
@@ -131,8 +131,8 @@
                     "name": "Pasta mit Gorgonzolasauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -140,10 +140,10 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
+                        "1",
                         "Gl",
-                        "GlW",
-                        "1"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
@@ -151,13 +151,13 @@
                     "price": 3.0,
                     "ingredients": [
                         "9",
+                        "GlG",
+                        "2",
                         "Gl",
-                        "Sf",
-                        "R",
                         "Mi",
                         "Kn",
-                        "2",
-                        "GlG",
+                        "R",
+                        "Sf",
                         "GlW"
                     ]
                 },
@@ -165,13 +165,13 @@
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
+                        "GlG",
                         "Gl",
+                        "99",
                         "Mi",
                         "Kn",
-                        "GlG",
-                        "99",
-                        "S",
-                        "GlW"
+                        "GlW",
+                        "S"
                     ]
                 }
             ]
@@ -192,8 +192,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "R",
-                        "Sf",
                         "11",
+                        "Sf",
                         "8",
                         "S"
                     ]
@@ -202,28 +202,28 @@
                     "name": "Pizza Quattro Stagioni mit (Vorder-)Schinken, Paprika, Champignons und Oliven",
                     "price": 3.5,
                     "ingredients": [
+                        "GlG",
+                        "2",
+                        "3",
                         "Gl",
                         "Mi",
-                        "2",
-                        "GlG",
-                        "8",
-                        "3",
+                        "1",
                         "So",
-                        "S",
+                        "8",
                         "GlW",
-                        "1"
+                        "S"
                     ]
                 },
                 {
                     "name": "Bio-Spaghetti bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
                         "Gl",
                         "Mi",
                         "Kn",
-                        "S",
-                        "GlW"
+                        "R",
+                        "GlW",
+                        "S"
                     ]
                 }
             ]
@@ -235,8 +235,8 @@
                     "name": "Bauerneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "Sl",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -245,13 +245,13 @@
                     "price": 2.6,
                     "ingredients": [
                         "9",
-                        "Gl",
-                        "Sf",
-                        "Fi",
-                        "Mi",
-                        "11",
-                        "Ei",
                         "2",
+                        "Gl",
+                        "Mi",
+                        "Ei",
+                        "11",
+                        "Fi",
+                        "Sf",
                         "GlW"
                     ]
                 },
@@ -259,10 +259,10 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
+                        "3",
                         "Gl",
                         "Mi",
                         "Ei",
-                        "3",
                         "GlW"
                     ]
                 }

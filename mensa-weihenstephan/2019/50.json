@@ -16,22 +16,22 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Paniertes Truthahnschnitzel mit Salsa",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Se",
-                        "11",
                         "2",
-                        "So",
+                        "Gl",
+                        "11",
                         "En",
+                        "So",
                         "GlW"
                     ]
                 },
@@ -39,19 +39,19 @@
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "R",
-                        "Gl",
-                        "Sf",
-                        "Sl",
-                        "Mi",
-                        "Kn",
                         "Sw",
-                        "2",
                         "GlG",
+                        "2",
                         "3",
                         "99",
-                        "S",
-                        "GlW"
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "Kn",
+                        "R",
+                        "Sf",
+                        "GlW",
+                        "S"
                     ]
                 }
             ]
@@ -63,29 +63,29 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "Sw",
-                        "5",
                         "Sl",
-                        "3"
+                        "3",
+                        "Sw",
+                        "5"
                     ]
                 },
                 {
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pizza Contadina mit Tomate, Spinat und Ricotta",
                     "price": 3.5,
                     "ingredients": [
+                        "GlG",
                         "Gl",
                         "Mi",
                         "Kn",
-                        "GlG",
                         "So",
                         "GlW"
                     ]
@@ -94,19 +94,19 @@
                     "name": "Entenkeule mit Glühwein-Orangensauce, Blaukraut, Kartoffelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "Mi",
-                        "11",
-                        "Kn",
                         "Sw",
-                        "2",
                         "GlG",
                         "5",
+                        "2",
                         "3",
                         "99",
-                        "GlW",
-                        "1"
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "1",
+                        "Kn",
+                        "11",
+                        "GlW"
                     ]
                 }
             ]
@@ -118,8 +118,8 @@
                     "name": "Reis mit asiatischem Gemüse und Koriander",
                     "price": 1.0,
                     "ingredients": [
-                        "2",
                         "Sf",
+                        "2",
                         "Kn"
                     ]
                 },
@@ -127,9 +127,9 @@
                     "name": "Kartoffel-Sauerkrautgratin mit Kräuterdip",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
+                        "Kn",
                         "Ei",
-                        "Kn"
+                        "Mi"
                     ]
                 },
                 {
@@ -139,19 +139,19 @@
                         "Gl",
                         "Mi",
                         "Kn",
-                        "S",
-                        "GlW"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
+                        "GlG",
                         "Gl",
                         "Mi",
                         "Kn",
-                        "GlG",
+                        "R",
                         "GlW"
                     ]
                 }
@@ -164,18 +164,18 @@
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pizza Margherita mit Mozzarella und frischem Basilikum",
                     "price": 3.0,
                     "ingredients": [
+                        "GlG",
                         "Gl",
                         "Mi",
-                        "GlG",
                         "So",
                         "GlW"
                     ]
@@ -184,13 +184,13 @@
                     "name": "Hirschgulasch in Preiselbeersauce",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "Mi",
-                        "Kn",
                         "Sw",
                         "GlG",
+                        "Gl",
                         "99",
+                        "Mi",
+                        "Sl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -198,10 +198,10 @@
                     "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
@@ -213,10 +213,10 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1.0,
                     "ingredients": [
-                        "GlG",
-                        "Gl",
                         "Sl",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlG"
                     ]
                 },
                 {
@@ -224,9 +224,9 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Fi",
                         "Mi",
                         "Kn",
+                        "Fi",
                         "GlW"
                     ]
                 },
@@ -234,8 +234,8 @@
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 }

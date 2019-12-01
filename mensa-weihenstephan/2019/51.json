@@ -17,10 +17,10 @@
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "R",
+                        "2",
                         "Gl",
                         "Kn",
-                        "2",
+                        "R",
                         "GlW"
                     ]
                 },
@@ -28,9 +28,9 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
+                        "Ei",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -38,8 +38,8 @@
                     "name": "Putensteak mit Kräuterbutter",
                     "price": 3.2,
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -51,53 +51,53 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Sf",
-                        "Mi",
-                        "Kn",
-                        "Ei",
                         "2",
-                        "GlW",
-                        "1"
+                        "Gl",
+                        "Mi",
+                        "1",
+                        "Ei",
+                        "Kn",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel von der Pute mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
+                        "GlG",
+                        "2",
+                        "3",
                         "Gl",
                         "Mi",
                         "Kn",
-                        "2",
-                        "GlG",
-                        "3",
-                        "S",
-                        "GlW"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Pizza Regina mit (Vorder-)Schinken und Champignons",
                     "price": 3.5,
                     "ingredients": [
+                        "GlG",
+                        "2",
+                        "3",
                         "Gl",
                         "Mi",
-                        "2",
-                        "GlG",
-                        "8",
-                        "3",
+                        "1",
                         "So",
-                        "S",
+                        "8",
                         "GlW",
-                        "1"
+                        "S"
                     ]
                 }
             ]
@@ -116,19 +116,19 @@
                     "name": "Pasta mit Putenbolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Sl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Apfelkücherl mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
+                        "Ei",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -136,12 +136,12 @@
                     "name": "Garnelen mit Zitronen-Kokos-Dip",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "Sf",
-                        "Mi",
-                        "11",
                         "Kr",
+                        "Gl",
+                        "Mi",
                         "Ei",
+                        "11",
+                        "Sf",
                         "8",
                         "GlW"
                     ]
@@ -162,14 +162,14 @@
                     "name": "Pizza Parma mit Parmaschinken, Rucola und Parmigiano",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "GlG",
                         "2",
+                        "Gl",
+                        "Mi",
+                        "1",
                         "So",
-                        "S",
                         "GlW",
-                        "1"
+                        "S"
                     ]
                 },
                 {
@@ -177,13 +177,13 @@
                     "price": 4.0,
                     "ingredients": [
                         "9",
-                        "Gl",
-                        "Sf",
-                        "Fi",
-                        "Mi",
-                        "11",
-                        "Ei",
                         "2",
+                        "Gl",
+                        "Mi",
+                        "Ei",
+                        "11",
+                        "Fi",
+                        "Sf",
                         "GlW"
                     ]
                 },
@@ -207,33 +207,33 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gnocchi mit Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
-                        "So",
+                        "Kn",
                         "Gl",
                         "GlW",
-                        "Kn"
+                        "So"
                     ]
                 },
                 {
                     "name": "Schweineschnitzel Wiener Art",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Sf",
-                        "Sl",
-                        "Mi",
-                        "Kn",
                         "GlG",
-                        "S",
-                        "GlW"
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "Kn",
+                        "Sf",
+                        "GlW",
+                        "S"
                     ]
                 }
             ]
