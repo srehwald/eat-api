@@ -10,10 +10,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "GlW",
-                        "Sl",
                         "Kn",
+                        "Sl",
+                        "GlW",
+                        "Gl",
                         "Ei"
                     ]
                 },
@@ -22,10 +22,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "GlW",
                         "GlG",
-                        "So"
+                        "GlW",
+                        "So",
+                        "Gl"
                     ]
                 },
                 {
@@ -54,35 +54,35 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
+                        "Ei",
                         "GlW",
-                        "Mi",
-                        "Ei"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Schweinerahmgeschnetzeltes mit Pfifferlingen und Steinpilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "99",
                         "5",
-                        "Gl",
-                        "GlW",
-                        "S",
+                        "Mi",
                         "Kn",
                         "GlG",
-                        "Sw"
+                        "99",
+                        "S",
+                        "Sw",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "R",
+                        "Kn",
                         "GlW",
+                        "2",
                         "Gl",
-                        "Kn"
+                        "R"
                     ]
                 }
             ]
@@ -95,13 +95,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "2",
-                        "Gl",
-                        "GlW",
                         "8",
-                        "S",
-                        "3",
                         "Kn",
+                        "S",
+                        "GlW",
+                        "2",
+                        "3",
+                        "Gl",
                         "Ei"
                     ]
                 },
@@ -110,15 +110,15 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "2",
-                        "Gl",
-                        "GlW",
-                        "1",
                         "8",
-                        "S",
-                        "3",
+                        "1",
                         "GlG",
-                        "So"
+                        "S",
+                        "GlW",
+                        "2",
+                        "3",
+                        "So",
+                        "Gl"
                     ]
                 },
                 {
@@ -126,26 +126,26 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "99",
-                        "R",
-                        "Gl",
-                        "GlW",
                         "Kn",
                         "GlG",
-                        "Sw"
+                        "99",
+                        "Sw",
+                        "GlW",
+                        "Gl",
+                        "R"
                     ]
                 },
                 {
                     "name": "Phad Thai - Thailändisches Nudelgericht",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
+                        "En",
+                        "GlW",
                         "So",
                         "Gl",
-                        "GlW",
-                        "Fi",
-                        "En",
-                        "Kn",
-                        "Ei"
+                        "Ei",
+                        "Fi"
                     ]
                 },
                 {
@@ -167,12 +167,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "2",
-                        "Gl",
-                        "GlW",
-                        "1",
-                        "Sf",
                         "Kn",
+                        "1",
+                        "GlW",
+                        "2",
+                        "Sf",
+                        "Gl",
                         "Ei"
                     ]
                 },
@@ -180,15 +180,15 @@
                     "name": "Seelachsfilet (MSC) Lemon Koriander mit Buttersauce",
                     "price": "N/A",
                     "ingredients": [
+                        "5",
                         "Mi",
+                        "1",
                         "99",
                         "Sw",
-                        "5",
-                        "Gl",
                         "GlW",
-                        "1",
-                        "Fi",
                         "Sf",
+                        "Gl",
+                        "Fi",
                         "Ei"
                     ]
                 }
@@ -203,8 +203,8 @@
                     "ingredients": [
                         "Gl",
                         "GlW",
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
@@ -212,12 +212,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Kr",
-                        "Gl",
-                        "GlW",
                         "8",
+                        "GlW",
                         "Sf",
+                        "Gl",
                         "11",
+                        "Kr",
                         "Ei"
                     ]
                 },
@@ -237,17 +237,17 @@
                     "name": "Boeuf à la mode aus dem Rinderbug (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "99",
                         "5",
-                        "R",
-                        "Gl",
-                        "GlW",
-                        "Sl",
-                        "3",
+                        "Mi",
                         "Kn",
                         "GlG",
-                        "Sw"
+                        "99",
+                        "Sl",
+                        "Sw",
+                        "GlW",
+                        "3",
+                        "Gl",
+                        "R"
                     ]
                 },
                 {
@@ -255,11 +255,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "2",
-                        "Gl",
-                        "GlW",
                         "1",
+                        "GlW",
+                        "2",
                         "Sf",
+                        "Gl",
                         "11",
                         "Ei"
                     ]
@@ -269,9 +269,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
+                        "Ei",
                         "GlW",
-                        "Mi",
-                        "Ei"
+                        "Mi"
                     ]
                 }
             ]
@@ -284,24 +284,24 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "6",
-                        "Gl",
-                        "3",
                         "GlD",
-                        "Kn"
+                        "Kn",
+                        "6",
+                        "3",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinefilet mit Chimichuri",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "S",
-                        "Se",
-                        "En",
                         "Kn",
-                        "So"
+                        "En",
+                        "S",
+                        "GlW",
+                        "Se",
+                        "So",
+                        "Gl"
                     ]
                 },
                 {
@@ -320,23 +320,23 @@
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Sl",
                         "Kn",
-                        "So"
+                        "Sl",
+                        "GlW",
+                        "So",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "5",
-                        "S",
-                        "3",
+                        "Mi",
                         "Kn",
-                        "Sw"
+                        "S",
+                        "Sw",
+                        "3"
                     ]
                 },
                 {
@@ -344,13 +344,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "2",
-                        "Gl",
-                        "GlW",
-                        "Fi",
                         "9",
+                        "GlW",
+                        "2",
                         "Sf",
+                        "Gl",
                         "11",
+                        "Fi",
                         "Ei"
                     ]
                 }
@@ -365,20 +365,20 @@
                     "ingredients": [
                         "Gl",
                         "GlW",
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Nasi Goreng (mit Hähnchenfleisch)",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "GlW",
-                        "Gl",
-                        "Sf",
                         "Kn",
-                        "So"
+                        "GlW",
+                        "2",
+                        "Sf",
+                        "So",
+                        "Gl"
                     ]
                 },
                 {
@@ -400,13 +400,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Gl",
-                        "GlW",
+                        "Kn",
+                        "GlG",
                         "Sl",
                         "S",
+                        "GlW",
                         "Sf",
-                        "Kn",
-                        "GlG"
+                        "Gl"
                     ]
                 },
                 {
@@ -414,9 +414,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
+                        "Ei",
                         "GlW",
-                        "Mi",
-                        "Ei"
+                        "Mi"
                     ]
                 }
             ]
