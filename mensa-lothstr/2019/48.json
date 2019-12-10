@@ -10,9 +10,9 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Sf",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
@@ -20,17 +20,17 @@
                     "price": 1.55,
                     "ingredients": [
                         "2",
+                        "GlW",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -38,24 +38,24 @@
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
                         "Mi",
-                        "Kn"
+                        "Kn",
+                        "S"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "GlW",
                         "R",
-                        "Gl",
-                        "GlG",
-                        "Mi",
-                        "9",
+                        "GlW",
                         "Kn",
+                        "9",
+                        "2",
                         "Sf",
-                        "2"
+                        "Mi",
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -68,9 +68,9 @@
                     "price": 1.0,
                     "ingredients": [
                         "2",
+                        "GlW",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -78,12 +78,12 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
+                        "2",
+                        "Mi",
                         "Gl",
                         "1",
-                        "Ei",
-                        "Mi",
                         "GlD",
-                        "2"
+                        "Ei"
                     ]
                 },
                 {
@@ -91,33 +91,33 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
+                        "2",
+                        "11",
+                        "Sf",
+                        "Mi",
                         "Gl",
                         "1",
-                        "Ei",
-                        "Mi",
-                        "Sf",
-                        "11",
-                        "2"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
                         "Mi",
-                        "Kn"
+                        "Kn",
+                        "S"
                     ]
                 },
                 {
                     "name": "Rumpsteak mit Rotweinsschmorzwiebeln",
                     "price": 4.0,
                     "ingredients": [
-                        "R",
                         "99",
-                        "Mi",
+                        "Kn",
                         "Sw",
-                        "Kn"
+                        "Mi",
+                        "R"
                     ]
                 }
             ]
@@ -134,17 +134,17 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Sl",
-                        "Gl",
-                        "So",
-                        "Ei",
-                        "Mi",
                         "3",
-                        "Sw",
+                        "GlW",
                         "Kn",
+                        "Sw",
                         "11",
-                        "5"
+                        "5",
+                        "Mi",
+                        "Gl",
+                        "Sl",
+                        "So",
+                        "Ei"
                     ]
                 },
                 {
@@ -152,12 +152,12 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
+                        "2",
+                        "Mi",
                         "Gl",
                         "1",
-                        "Ei",
-                        "Mi",
                         "GlD",
-                        "2"
+                        "Ei"
                     ]
                 },
                 {
@@ -165,11 +165,11 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Sl",
-                        "Gl",
-                        "GlG",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "Gl",
+                        "Sl",
+                        "GlG"
                     ]
                 },
                 {
@@ -178,11 +178,11 @@
                     "ingredients": [
                         "GlW",
                         "99",
-                        "Gl",
-                        "GlG",
-                        "Mi",
                         "Kn",
-                        "S"
+                        "S",
+                        "Mi",
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -202,19 +202,19 @@
                     "name": "Spenden - Currywurst",
                     "price": 1.9,
                     "ingredients": [
-                        "R",
                         "8",
-                        "Sf",
+                        "S",
                         "11",
-                        "S"
+                        "Sf",
+                        "R"
                     ]
                 },
                 {
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl",
                         "Kn"
                     ]
@@ -224,10 +224,10 @@
                     "price": 2.8,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "1",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "Gl",
+                        "1"
                     ]
                 },
                 {
@@ -235,11 +235,11 @@
                     "price": 3.2,
                     "ingredients": [
                         "GlW",
-                        "R",
-                        "Gl",
-                        "Mi",
                         "Kn",
-                        "S"
+                        "S",
+                        "Mi",
+                        "Gl",
+                        "R"
                     ]
                 }
             ]
@@ -252,8 +252,8 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Sl",
-                        "Gl"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
@@ -261,14 +261,14 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Ei",
-                        "Mi",
                         "9",
-                        "Sf",
-                        "11",
                         "2",
-                        "Fi"
+                        "11",
+                        "Sf",
+                        "Mi",
+                        "Gl",
+                        "Fi",
+                        "Ei"
                     ]
                 },
                 {
@@ -276,20 +276,20 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Ei",
+                        "3",
                         "Mi",
-                        "3"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit Pfifferlingen und Steinpilzen in Rahm",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
-                        "S",
                         "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "S"
                     ]
                 }
             ]
