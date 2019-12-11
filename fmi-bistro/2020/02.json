@@ -1,40 +1,13 @@
 {
-    "number": 50,
-    "year": 2019,
+    "number": 2,
+    "year": 2020,
     "days": [
         {
-            "date": "2019-12-09",
-            "dishes": [
-                {
-                    "name": "Tagessuppe",
-                    "price": 1.0,
-                    "ingredients": [
-                        "Gl",
-                        "Sl"
-                    ]
-                },
-                {
-                    "name": "(*) Broccoli- Nußecke auf Karotten- Couscous mit Kräutermajo",
-                    "price": 4.5,
-                    "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Sl"
-                    ]
-                },
-                {
-                    "name": "Pasta Front-Cooking Tortellini al Carne al Forno",
-                    "price": 4.9,
-                    "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Sl"
-                    ]
-                }
-            ]
+            "date": "2020-01-06",
+            "dishes": []
         },
         {
-            "date": "2019-12-10",
+            "date": "2020-01-07",
             "dishes": [
                 {
                     "name": "Tagessuppe",
@@ -45,8 +18,8 @@
                     ]
                 },
                 {
-                    "name": "(*) Grüne Bohneneintopf mit Gemüse und Kartoffeln",
-                    "price": 4.9,
+                    "name": "(*) Süßkartoffel-Curry mit geräucherten Tofu",
+                    "price": 4.5,
                     "ingredients": [
                         "Ei",
                         "Sl"
@@ -57,64 +30,65 @@
                     "price": 4.6,
                     "ingredients": [
                         "Gl",
-                        "Ei",
-                        "Mi",
+                        "Sf",
                         "Sl"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-12-11",
+            "date": "2020-01-08",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Mi",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "Gefüllte Zucchini auf Gemüsereis",
+                    "name": "(*) Linsen-CousCous mit Blattspinat und Sojajoghurt",
                     "price": 4.5,
                     "ingredients": [
                         "Gl",
-                        "Sl"
+                        "Mi",
+                        "Sl",
+                        "Sc"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking (*) Pasta alla arrabiata (Scharf)",
+                    "name": "Pasta Front-Cooking Makkaroni al Pesto Genovese",
                     "price": 4.9,
                     "ingredients": [
                         "Gl",
-                        "Mi",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "Lasagne “ Bolognese” mit Rindfleisch",
+                    "name": "Rinderhackfleischpfanne mit Bohnen Schupfnudeln und Gemüse",
                     "price": 5.5,
-                    "ingredients": []
+                    "ingredients": [
+                        "Gl",
+                        "Si",
+                        "Kr"
+                    ]
                 }
             ]
         },
         {
-            "date": "2019-12-12",
+            "date": "2020-01-09",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Ei",
-                        "Sl",
-                        "Mi"
+                        "Sl"
                     ]
                 },
                 {
-                    "name": "Zwiebelkuchen mit grünem Salat",
+                    "name": "(*) Vegane Chilli mit Kidneybohnen Mais und Paprika",
                     "price": 4.5,
                     "ingredients": [
                         "Sl"
@@ -122,15 +96,22 @@
                 },
                 {
                     "name": "Frisch vom Grill Currywurst mit Pommes Frites",
-                    "price": 5.5,
+                    "price": 4.95,
                     "ingredients": [
-                        "Sl"
+                        "Mi",
+                        "Wt",
+                        "So",
+                        "Sl",
+                        "Sf",
+                        "Gl",
+                        "Se",
+                        "Ei"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-12-13",
+            "date": "2020-01-10",
             "dishes": [
                 {
                     "name": "Tagessuppe",
@@ -142,23 +123,21 @@
                     ]
                 },
                 {
-                    "name": "Kaiserschmarrn mit Apfelmus",
+                    "name": "Germknödel mit Mohn- Vanillesoße",
                     "price": 4.3,
                     "ingredients": [
                         "Gl",
-                        "Mi",
+                        "Ei",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Pasta mit Gemüseragout",
+                    "name": "Pasta Front-Cooking Schinkennudeln mit Ei",
                     "price": 4.9,
                     "ingredients": [
-                        "Mi",
-                        "So",
-                        "Sl",
                         "Gl",
                         "En",
+                        "Sl",
                         "Sc"
                     ]
                 }

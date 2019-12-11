@@ -1,40 +1,39 @@
 {
-    "number": 50,
+    "number": 51,
     "year": 2019,
     "days": [
         {
-            "date": "2019-12-09",
+            "date": "2019-12-16",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
+                        "Ei",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "(*) Broccoli- Nußecke auf Karotten- Couscous mit Kräutermajo",
+                    "name": "Veg. Frühlingsrolle auf Asiareis mit Sweet- Chilli- Soße",
                     "price": 4.5,
                     "ingredients": [
                         "Gl",
-                        "Mi",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking Tortellini al Carne al Forno",
+                    "name": "Pasta Front-Cooking (*) Pasta alla Siciliana",
                     "price": 4.9,
                     "ingredients": [
                         "Gl",
-                        "Mi",
                         "Sl"
                     ]
                 }
             ]
         },
         {
-            "date": "2019-12-10",
+            "date": "2019-12-17",
             "dishes": [
                 {
                     "name": "Tagessuppe",
@@ -45,8 +44,8 @@
                     ]
                 },
                 {
-                    "name": "(*) Grüne Bohneneintopf mit Gemüse und Kartoffeln",
-                    "price": 4.9,
+                    "name": "(*) Rote Linsencurry mit Broccoli dazu Ebly-Weizen",
+                    "price": 4.5,
                     "ingredients": [
                         "Ei",
                         "Sl"
@@ -57,55 +56,99 @@
                     "price": 4.6,
                     "ingredients": [
                         "Gl",
+                        "Mi",
+                        "Sl"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-12-18",
+            "dishes": [
+                {
+                    "name": "Tagessuppe",
+                    "price": 1.0,
+                    "ingredients": [
+                        "Gl",
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "(*) Gemüsespieß auf Wildreis mit Kurkuma-Sojasahne",
+                    "price": 4.5,
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Pasta Front-Cooking Pasta mit Kürbissugo",
+                    "price": 4.9,
+                    "ingredients": [
+                        "Gl",
                         "Ei",
                         "Mi",
                         "Sl"
                     ]
+                },
+                {
+                    "name": "Rinderschmorbraten mit Butterspätzle und Rosenkohl",
+                    "price": 6.6,
+                    "ingredients": [
+                        "Gl"
+                    ]
                 }
             ]
         },
         {
-            "date": "2019-12-11",
+            "date": "2019-12-19",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Mi",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "Gefüllte Zucchini auf Gemüsereis",
+                    "name": "(*) Kichererbseneintopf mit Gemüse und Kartoffeln",
                     "price": 4.5,
                     "ingredients": [
-                        "Gl",
                         "Sl"
                     ]
                 },
                 {
-                    "name": "Pasta Front-Cooking (*) Pasta alla arrabiata (Scharf)",
-                    "price": 4.9,
+                    "name": "Frisch vom Grill Currywurst mit Pommes Frites",
+                    "price": 4.95,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "Sl"
+                        "Wt",
+                        "So",
+                        "Sl",
+                        "Sf",
+                        "Gl",
+                        "Se",
+                        "Ei"
                     ]
-                },
-                {
-                    "name": "Lasagne “ Bolognese” mit Rindfleisch",
-                    "price": 5.5,
-                    "ingredients": []
                 }
             ]
         },
         {
-            "date": "2019-12-12",
+            "date": "2019-12-20",
             "dishes": [
                 {
                     "name": "Tagessuppe",
                     "price": 1.0,
+                    "ingredients": [
+                        "Gl",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Milchreis mit Zimt und Zucker",
+                    "price": 3.9,
                     "ingredients": [
                         "Gl",
                         "Ei",
@@ -114,51 +157,13 @@
                     ]
                 },
                 {
-                    "name": "Zwiebelkuchen mit grünem Salat",
-                    "price": 4.5,
-                    "ingredients": [
-                        "Sl"
-                    ]
-                },
-                {
-                    "name": "Frisch vom Grill Currywurst mit Pommes Frites",
-                    "price": 5.5,
-                    "ingredients": [
-                        "Sl"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2019-12-13",
-            "dishes": [
-                {
-                    "name": "Tagessuppe",
-                    "price": 1.0,
-                    "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Ei"
-                    ]
-                },
-                {
-                    "name": "Kaiserschmarrn mit Apfelmus",
-                    "price": 4.3,
-                    "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Sl"
-                    ]
-                },
-                {
-                    "name": "Pasta Front-Cooking Pasta mit Gemüseragout",
+                    "name": "Pasta Front-Cooking Käsespätzle mit Röstzwiebeln",
                     "price": 4.9,
                     "ingredients": [
-                        "Mi",
-                        "So",
                         "Sl",
                         "Gl",
                         "En",
+                        "Ei",
                         "Sc"
                     ]
                 }

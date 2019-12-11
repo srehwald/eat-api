@@ -1,90 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-12-02">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>(*) Vegane Spinat- Quiche mit Gurkensalat</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Pasta Front-Cooking Penne alla Wodka</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-12-03">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>(*) Kraut-Makkaroni mit Tomatenwürfeln</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-12-04">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>(*) Yellow-Thaicurry mit Gemüse und Basmatireis</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Pasta Front-Cooking Pasta mit Schinken-Erbsen- Sahnesoße</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Seelachs “Saltimbocca” auf Kürbis-Kartoffeln</name>
-          <price role="other">5.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-12-05">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>(*) Blumenkohl - kartoffelpfanne</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill Currywurst mit Pommes Frites</name>
-          <price role="other">5.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2019-12-06">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>Apfel-Quarkauflauf</name>
-          <price role="other">3.90</price>
-        </meal>
-        <meal>
-          <name>Pasta Front-Cooking Rahmspinat mit Kartoffeln und Spiegelei</name>
-          <price role="other">4.00</price>
-        </meal>
-      </category>
-    </day>
     <day date="2019-12-09">
       <category name="Speiseplan">
         <meal>
@@ -165,6 +81,158 @@
         </meal>
         <meal>
           <name>Pasta Front-Cooking Pasta mit Gemüseragout</name>
+          <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-12-16">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Veg. Frühlingsrolle auf Asiareis mit Sweet- Chilli- Soße</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Pasta Front-Cooking (*) Pasta alla Siciliana</name>
+          <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-12-17">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>(*) Rote Linsencurry mit Broccoli dazu Ebly-Weizen</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-12-18">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>(*) Gemüsespieß auf Wildreis mit Kurkuma-Sojasahne</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Pasta Front-Cooking Pasta mit Kürbissugo</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Rinderschmorbraten mit Butterspätzle und Rosenkohl</name>
+          <price role="other">6.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-12-19">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>(*) Kichererbseneintopf mit Gemüse und Kartoffeln</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill Currywurst mit Pommes Frites</name>
+          <price role="other">4.95</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-12-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Milchreis mit Zimt und Zucker</name>
+          <price role="other">3.90</price>
+        </meal>
+        <meal>
+          <name>Pasta Front-Cooking Käsespätzle mit Röstzwiebeln</name>
+          <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-01-07">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>(*) Süßkartoffel-Curry mit geräucherten Tofu</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-01-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>(*) Linsen-CousCous mit Blattspinat und Sojajoghurt</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Pasta Front-Cooking Makkaroni al Pesto Genovese</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Rinderhackfleischpfanne mit Bohnen Schupfnudeln und Gemüse</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-01-09">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>(*) Vegane Chilli mit Kidneybohnen Mais und Paprika</name>
+          <price role="other">4.50</price>
+        </meal>
+        <meal>
+          <name>Frisch vom Grill Currywurst mit Pommes Frites</name>
+          <price role="other">4.95</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-01-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.00</price>
+        </meal>
+        <meal>
+          <name>Germknödel mit Mohn- Vanillesoße</name>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Pasta Front-Cooking Schinkennudeln mit Ei</name>
           <price role="other">4.90</price>
         </meal>
       </category>
