@@ -9,44 +9,44 @@
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "2",
-                        "R",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "R",
+                        "2"
                     ]
                 },
                 {
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
                         "Mi",
-                        "Ei",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinerahmgeschnetzeltes mit Pfifferlingen und Steinpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
                         "Sw",
-                        "Mi",
-                        "GlW",
                         "5",
-                        "99",
-                        "S",
+                        "GlW",
+                        "Gl",
                         "GlG",
-                        "Gl"
+                        "Kn",
+                        "S",
+                        "99",
+                        "Mi"
                     ]
                 }
             ]
@@ -59,23 +59,23 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": 1.9,
                     "ingredients": [
+                        "8",
+                        "GlW",
+                        "Gl",
                         "3",
                         "Kn",
-                        "8",
+                        "S",
                         "Ei",
                         "2",
-                        "Mi",
-                        "GlW",
-                        "S",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
@@ -83,27 +83,27 @@
                     "price": 2.4,
                     "ingredients": [
                         "1",
+                        "GlW",
+                        "Gl",
                         "Kn",
+                        "Sf",
                         "Ei",
                         "2",
-                        "Sf",
-                        "Mi",
-                        "GlW",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Zwiebelrostbraten mit Rotweinsauce",
                     "price": 4.0,
                     "ingredients": [
-                        "Kn",
                         "Sw",
-                        "R",
-                        "Mi",
                         "GlW",
-                        "99",
+                        "Gl",
                         "GlG",
-                        "Gl"
+                        "Kn",
+                        "99",
+                        "R",
+                        "Mi"
                     ]
                 }
             ]
@@ -123,41 +123,41 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Kn",
+                        "Gl",
                         "Sl",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Spinatknödel Tiroler Art mit Bergkäse und knackigem Beilagensalat",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
-                        "Sl",
                         "Sw",
-                        "Ei",
+                        "Sl",
                         "11",
-                        "Sf",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "3",
+                        "Sf",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Boeuf à la mode aus dem Rinderbug (GQB)",
                     "price": 3.2,
                     "ingredients": [
+                        "Sw",
+                        "5",
+                        "Sl",
+                        "GlW",
+                        "Gl",
+                        "GlG",
                         "3",
                         "Kn",
-                        "Sl",
-                        "Sw",
-                        "R",
-                        "Mi",
-                        "GlW",
-                        "5",
                         "99",
-                        "GlG",
-                        "Gl"
+                        "R",
+                        "Mi"
                     ]
                 }
             ]
@@ -176,23 +176,23 @@
                     "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "price": 1.9,
                     "ingredients": [
-                        "6",
-                        "3",
-                        "Kn",
                         "GlD",
-                        "Mi",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "3",
+                        "6",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "So",
-                        "2",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "2",
+                        "So"
                     ]
                 },
                 {
@@ -200,22 +200,22 @@
                     "price": 3.0,
                     "ingredients": [
                         "Sw",
-                        "3",
-                        "Kn",
-                        "Mi",
                         "5",
-                        "S"
+                        "Kn",
+                        "3",
+                        "S",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "Sl",
-                        "So",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "So"
                     ]
                 }
             ]
@@ -228,33 +228,33 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "Mi",
-                        "Ei",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Gedünstetes Seelachsfilet (MSC) mit Gemüse und Weißweinsauce",
                     "price": 2.8,
                     "ingredients": [
-                        "Fi",
-                        "Kn",
-                        "Sl",
                         "Sw",
-                        "Mi",
-                        "GlW",
                         "5",
+                        "Sl",
+                        "GlW",
+                        "Gl",
+                        "Kn",
                         "99",
-                        "Gl"
+                        "Fi",
+                        "Mi"
                     ]
                 }
             ]
