@@ -9,9 +9,9 @@
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "GlW",
                         "2"
                     ]
                 },
@@ -19,15 +19,15 @@
                     "name": "Rindergeschnetzeltes Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
-                        "9",
                         "Mi",
-                        "Sf",
-                        "Gl",
                         "GlW",
+                        "GlG",
+                        "Sf",
                         "2",
-                        "R",
-                        "GlG"
+                        "9",
+                        "Gl",
+                        "Kn",
+                        "R"
                     ]
                 }
             ]
@@ -39,13 +39,13 @@
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "GlD",
                         "Ei",
                         "Mi",
                         "1",
-                        "Gl",
                         "GlW",
-                        "2"
+                        "2",
+                        "Gl",
+                        "GlD"
                     ]
                 },
                 {
@@ -53,13 +53,13 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "Mi",
+                        "11",
                         "1",
-                        "Sf",
-                        "Gl",
                         "GlW",
+                        "Mi",
+                        "Sf",
                         "2",
-                        "11"
+                        "Gl"
                     ]
                 }
             ]
@@ -71,30 +71,30 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Sw",
-                        "Kn",
-                        "Ei",
                         "Sl",
-                        "Gl",
+                        "Ei",
+                        "Sw",
+                        "11",
                         "GlW",
-                        "3",
                         "Mi",
                         "5",
-                        "So",
-                        "11"
+                        "3",
+                        "Gl",
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "GlG",
+                        "Gl",
                         "Kn",
                         "S",
-                        "Gl",
-                        "GlW",
-                        "99",
-                        "Mi",
-                        "GlG"
+                        "99"
                     ]
                 }
             ]
@@ -106,11 +106,11 @@
                     "name": "Spenden - Currywurst",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
+                        "11",
                         "Sf",
                         "8",
                         "R",
-                        "11"
+                        "S"
                     ]
                 }
             ]
