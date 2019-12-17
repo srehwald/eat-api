@@ -9,9 +9,9 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "Mi",
                         "Gl"
                     ]
                 },
@@ -19,14 +19,14 @@
                     "name": "Holzfällersteak vom Schwein",
                     "price": 2.6,
                     "ingredients": [
-                        "2",
-                        "Mi",
-                        "Gl",
-                        "3",
-                        "S",
                         "GlG",
-                        "GlW",
-                        "Kn"
+                        "3",
+                        "Kn",
+                        "Gl",
+                        "Mi",
+                        "S",
+                        "2",
+                        "GlW"
                     ]
                 }
             ]
@@ -38,8 +38,8 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -47,14 +47,14 @@
                     "name": "Chop Suey vom Schweinefleisch",
                     "price": 2.4,
                     "ingredients": [
-                        "Sw",
-                        "Gl",
                         "3",
+                        "Kn",
+                        "Gl",
                         "5",
-                        "So",
                         "S",
-                        "GlW",
-                        "Kn"
+                        "So",
+                        "Sw",
+                        "GlW"
                     ]
                 }
             ]
@@ -67,8 +67,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -87,22 +87,22 @@
                     "name": "Rotes Gemüsecurry",
                     "price": 2.8,
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Hirschgulasch in Preiselbeersauce",
                     "price": 4.0,
                     "ingredients": [
-                        "99",
-                        "Mi",
-                        "Gl",
-                        "Sw",
-                        "Sl",
                         "GlG",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "Mi",
+                        "99",
+                        "Sl",
+                        "Sw",
+                        "GlW"
                     ]
                 }
             ]
@@ -114,8 +114,8 @@
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "GlW",
+                        "Mi",
                         "Gl"
                     ]
                 },
@@ -123,13 +123,13 @@
                     "name": "Kabeljaufilet (MSC) mit einer Gurken-Senfsauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Ei",
                         "Fi",
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "Sf",
-                        "GlW",
-                        "Sl"
+                        "Sl",
+                        "Ei",
+                        "GlW"
                     ]
                 }
             ]
