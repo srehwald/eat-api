@@ -9,25 +9,25 @@
                     "name": "Penne all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
+                        "GlW",
                         "2",
-                        "GlW"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
+                        "GlG",
+                        "Sf",
+                        "R",
                         "9",
                         "GlW",
-                        "Gl",
                         "2",
-                        "R",
-                        "Mi",
-                        "GlG",
-                        "Sf"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -39,12 +39,12 @@
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
+                        "Gl",
                         "GlD",
                         "GlW",
-                        "Ei",
-                        "Gl",
                         "2",
+                        "1",
+                        "Ei",
                         "Mi"
                     ]
                 },
@@ -52,14 +52,14 @@
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
-                        "GlW",
-                        "Ei",
                         "Gl",
-                        "2",
+                        "GlW",
                         "11",
-                        "Mi",
-                        "Sf"
+                        "2",
+                        "1",
+                        "Ei",
+                        "Sf",
+                        "Mi"
                     ]
                 }
             ]
@@ -71,30 +71,30 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Sl",
-                        "So",
-                        "Kn",
-                        "GlW",
-                        "Ei",
-                        "Gl",
                         "5",
                         "3",
+                        "Gl",
+                        "Sw",
+                        "So",
+                        "GlW",
                         "11",
-                        "Mi",
-                        "Sw"
+                        "Ei",
+                        "Sl",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "99",
-                        "Kn",
-                        "GlW",
                         "Gl",
-                        "Mi",
                         "GlG",
-                        "S"
+                        "99",
+                        "GlW",
+                        "S",
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -107,10 +107,10 @@
                     "price": 1.9,
                     "ingredients": [
                         "8",
-                        "11",
-                        "S",
                         "R",
-                        "Sf"
+                        "11",
+                        "Sf",
+                        "S"
                     ]
                 }
             ]
