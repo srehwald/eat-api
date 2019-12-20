@@ -9,27 +9,27 @@
                     "name": "Spaghetti mit Sahnesauce, Schinken, Pilzen, Erbsen",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Ei",
-                        "S",
-                        "1",
-                        "4",
-                        "Gl",
                         "3",
+                        "Gl",
+                        "S",
+                        "Ei",
+                        "8",
+                        "4",
+                        "1",
                         "2",
-                        "Mi",
-                        "8"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Schweinelachssteak mit Pfeffersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "GlG",
+                        "GlW",
                         "Gl",
-                        "Kn",
+                        "S",
                         "Mi",
-                        "GlW"
+                        "Kn",
+                        "GlG"
                     ]
                 },
                 {
@@ -54,21 +54,25 @@
                     "name": "Knöpfle",
                     "price": "N/A",
                     "ingredients": [
-                        "GlD",
+                        "GlW",
                         "Ei",
                         "Gl",
-                        "GlW"
+                        "GlD"
                     ]
                 },
                 {
-                    "name": "Aktionsdessert",
+                    "name": "Kokos-Stracciatella-Mousse mit Brombeeren",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Mi"
+                    ]
                 },
                 {
-                    "name": "Tagesdessert",
+                    "name": "Joghurt mit Aprikosen",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Mi"
+                    ]
                 }
             ]
         },
@@ -80,46 +84,44 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Mi",
-                        "S",
-                        "8"
+                        "8",
+                        "S"
                     ]
                 },
                 {
                     "name": "Vogtländische Rinderroulade mit Pilz-Senfsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "R",
-                        "GlG",
-                        "99",
-                        "Gl",
-                        "Sl",
                         "3",
-                        "Sf",
-                        "Sw",
+                        "GlW",
+                        "Gl",
+                        "S",
+                        "Sl",
                         "Kn",
+                        "R",
+                        "Sf",
                         "2",
-                        "Mi",
-                        "GlW"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Mediterrane Gnocchi-Gemüse-Pfanne in Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "So"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Minestrone",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Sl"
+                    ]
                 },
                 {
-                    "name": "Tagesgemüse",
+                    "name": "Ratatouille",
                     "price": "N/A",
                     "ingredients": []
                 },
@@ -134,10 +136,10 @@
                     "name": "Schupfnudeln",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Ei",
-                        "Sl",
                         "Gl",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
@@ -159,36 +161,36 @@
                     "name": "Gyros von der Pute mit Tzatziki (G)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "9",
                         "Kn",
-                        "Mi",
-                        "9"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
-                    "name": "Kartoffeltaschen mit Kräuterfrischkäse und Paprikasauce",
+                    "name": "Kartoffeltaschen gefüllt mit Kräuterfrischkäse dazu Sauercremedip",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "GlW"
+                        "Mi"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Romanesco-Creme-Suppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Mi"
+                    ]
                 },
                 {
-                    "name": "Tagesgemüse",
+                    "name": "Leipziger Allerlei",
                     "price": "N/A",
                     "ingredients": []
                 },
@@ -198,9 +200,17 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Aktionsdessert",
+                    "name": "Zweierlei Schokoladenmousse mit Erdbeeren",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "So",
+                        "Gl",
+                        "Ei",
+                        "Sc",
+                        "14",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Tagesdessert",
@@ -213,36 +223,60 @@
             "date": "2019-12-19",
             "dishes": [
                 {
-                    "name": "Arista al fiorentina - Schweinebraten toskanische Art",
+                    "name": "Geriebener Hartkäse",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "99",
-                        "5",
+                        "Ei",
+                        "2",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Arista al fiorentina - Schweinebraten toskanische Art",
+                    "price": "N/A",
+                    "ingredients": [
                         "Sw",
-                        "Kn"
+                        "Kn",
+                        "99",
+                        "Mi",
+                        "5"
                     ]
                 },
                 {
                     "name": "Tortellini al forno",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "1",
+                        "GlW",
                         "Gl",
                         "Sl",
-                        "Kn",
+                        "Ei",
+                        "1",
                         "2",
-                        "Mi",
-                        "GlW"
+                        "Mi"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Frühlingsrolle mit süßer Chilisauce",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "So",
+                        "Gl",
+                        "Sl",
+                        "Ei",
+                        "Kn",
+                        "Mi"
+                    ]
                 },
                 {
-                    "name": "Tagesgemüse",
+                    "name": "Karotten-Curry-Suppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sf"
+                    ]
+                },
+                {
+                    "name": "Mediterranes Gemüse",
                     "price": "N/A",
                     "ingredients": []
                 },
@@ -270,25 +304,25 @@
                     "name": "Paniertes Alaska-Seelachsfilet (MSC) mit Remouladensauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Ei",
-                        "1",
-                        "Fi",
+                        "GlW",
                         "Gl",
                         "Sw",
-                        "Sf",
+                        "Ei",
                         "11",
-                        "Mi",
-                        "GlW"
+                        "Sf",
+                        "1",
+                        "Fi",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Germknödel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Ei",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Mi"
                     ]
                 },
                 {
@@ -305,9 +339,9 @@
                     "name": "Kartoffel-Gurken-Salat",
                     "price": "N/A",
                     "ingredients": [
+                        "3",
                         "5",
-                        "Sw",
-                        "3"
+                        "Sw"
                     ]
                 },
                 {
