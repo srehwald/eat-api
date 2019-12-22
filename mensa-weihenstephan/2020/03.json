@@ -9,21 +9,21 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "2",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
+                        "Mi",
+                        "Gl",
                         "GlW",
                         "S",
-                        "Gl",
-                        "Mi",
-                        "Kn",
                         "GlG"
                     ]
                 },
@@ -31,11 +31,11 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Ei",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "Gl",
+                        "GlW",
                         "Sl"
                     ]
                 },
@@ -43,11 +43,11 @@
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
-                        "11",
                         "Kn",
-                        "Sf",
+                        "11",
+                        "Sl",
                         "10",
-                        "Sl"
+                        "Sf"
                     ]
                 }
             ]
@@ -64,11 +64,11 @@
                     "name": "Gebratenes Schweinefleisch mit Gemüe in Hoisinsauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "S",
                         "So",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
@@ -82,10 +82,10 @@
                     "name": "Pizza Margherita mit Mozzarella",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
                         "So",
-                        "Gl",
                         "Mi",
+                        "Gl",
+                        "GlW",
                         "GlG"
                     ]
                 }
@@ -98,10 +98,10 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1.0,
                     "ingredients": [
-                        "9",
-                        "3",
                         "Kn",
                         "5",
+                        "9",
+                        "3",
                         "Sw"
                     ]
                 },
@@ -114,23 +114,23 @@
                     "name": "Topfenpalatschinken",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
-                        "ScM",
-                        "Gl",
                         "Ei",
                         "Mi",
-                        "Sc"
+                        "Sc",
+                        "Gl",
+                        "GlW",
+                        "ScM"
                     ]
                 },
                 {
                     "name": "Rinderhacksteak mit Sauce Bernaise",
                     "price": 3.0,
                     "ingredients": [
-                        "R",
                         "Ei",
                         "Mi",
-                        "Sf",
-                        "Sl"
+                        "R",
+                        "Sl",
+                        "Sf"
                     ]
                 }
             ]
@@ -142,29 +142,29 @@
                     "name": "Pikante Hirse mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Red-Hot-Chili-Detox (Eintopf mit roter Paprika, Chili und weißen Bohnen)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
-                        "S",
-                        "Gl",
-                        "Mi",
                         "Kn",
-                        "8",
+                        "Gl",
+                        "GlW",
+                        "Mi",
                         "2",
+                        "S",
+                        "8",
                         "GlG"
                     ]
                 },
@@ -172,13 +172,13 @@
                     "name": "Pizza Elsässer Art mit Sauerrahm, Zwiebeln, Speck und Käse",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
                         "So",
                         "Gl",
+                        "GlW",
                         "Mi",
-                        "3",
                         "2",
-                        "GlG"
+                        "GlG",
+                        "3"
                     ]
                 }
             ]
@@ -198,11 +198,11 @@
                     "name": "Spaghetti Frutti di Mare",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "6",
                         "Gl",
-                        "Wt",
-                        "Kr"
+                        "GlW",
+                        "Kr",
+                        "Wt"
                     ]
                 },
                 {
