@@ -9,9 +9,9 @@
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "2",
                         "GlW",
+                        "2",
+                        "Gl",
                         "Kn",
                         "R"
                     ]
@@ -20,12 +20,12 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "2",
-                        "Ei",
                         "GlW",
-                        "1"
+                        "Ei",
+                        "Mi",
+                        "1",
+                        "2",
+                        "Gl"
                     ]
                 }
             ]
@@ -37,14 +37,14 @@
                     "name": "Kartoffelauflauf mit frischem Lauch und Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "Gl",
-                        "Mi",
-                        "2",
-                        "Ei",
                         "GlW",
+                        "Ei",
+                        "Mi",
                         "1",
-                        "Kn"
+                        "2",
+                        "Gl",
+                        "Kn",
+                        "Sf"
                     ]
                 }
             ]
@@ -56,9 +56,9 @@
                     "name": "Pasta mit Putenragout",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
                         "Sl",
                         "GlW",
-                        "Gl",
                         "Kn"
                     ]
                 },
@@ -66,10 +66,10 @@
                     "name": "Apfelkücherl mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
                         "Ei",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Mi"
                     ]
                 }
             ]
@@ -81,22 +81,22 @@
                     "name": "Knöpflepfanne mit Gemüse und Kräuter",
                     "price": 1.55,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "Ei",
                         "GlW",
-                        "GlD"
+                        "Ei",
+                        "GlD",
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Linsen mit Spätzle",
                     "price": 2.4,
                     "ingredients": [
+                        "GlW",
                         "Gl",
                         "So",
-                        "Sl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 }
             ]
@@ -108,9 +108,9 @@
                     "name": "Gnocchi mit Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
-                        "So",
-                        "GlW",
                         "Gl",
+                        "GlW",
+                        "So",
                         "Kn"
                     ]
                 }
