@@ -9,11 +9,11 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "Ei",
-                        "Mi",
                         "GlW",
+                        "Ei",
+                        "Sl",
+                        "Mi",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -21,10 +21,10 @@
                     "name": "Kotelett vom Lamm mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "GlG",
                         "Mi",
-                        "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -32,8 +32,8 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl",
                         "2"
                     ]
@@ -47,31 +47,31 @@
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "So",
-                        "Sf",
-                        "Kn"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "10",
                         "11",
+                        "Sl",
                         "Sf",
-                        "Kn"
+                        "Kn",
+                        "10"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlG",
-                        "S",
-                        "Mi",
                         "GlW",
+                        "GlG",
+                        "Mi",
+                        "Gl",
+                        "S",
                         "Kn"
                     ]
                 }
@@ -84,11 +84,11 @@
                     "name": "Penne all'amatriciana",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Sl",
                         "3",
-                        "S",
                         "GlW",
+                        "Sl",
+                        "Gl",
+                        "S",
                         "Kn",
                         "2"
                     ]
@@ -97,19 +97,19 @@
                     "name": "Pizza Margherita mit Mozzarella",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "GlG",
                         "Mi",
-                        "So",
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "So"
                     ]
                 },
                 {
                     "name": "Gebratene Hähnchenbruststreifen mit Ajvar",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -134,15 +134,15 @@
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "R",
-                        "Gl",
-                        "Sl",
-                        "GlG",
-                        "Mi",
-                        "99",
                         "GlW",
-                        "Kn"
+                        "GlG",
+                        "Sl",
+                        "Gl",
+                        "Mi",
+                        "Kn",
+                        "99",
+                        "Sw",
+                        "R"
                     ]
                 }
             ]
@@ -154,44 +154,44 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "R",
+                        "GlW",
                         "Gl",
                         "5",
+                        "Kn",
                         "1",
-                        "GlW",
-                        "Kn"
+                        "Sw",
+                        "R"
                     ]
                 },
                 {
                     "name": "Rinderhacksteak mit Sauce Bernaise",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "Sl",
                         "Ei",
+                        "Sl",
                         "Mi",
-                        "Sf"
+                        "Sf",
+                        "R"
                     ]
                 },
                 {
                     "name": "Grünes Hähnchen-Curry mit Wokgemüse",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Gl",
                         "En",
-                        "So",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
                         "3",
                         "Sl",
+                        "Sw",
                         "5"
                     ]
                 },
@@ -209,16 +209,16 @@
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlG",
                         "3",
-                        "S",
-                        "Mi",
-                        "1",
                         "GlW",
+                        "GlG",
+                        "8",
                         "Gl",
-                        "2",
-                        "8"
+                        "Mi",
+                        "S",
+                        "Kn",
+                        "1",
+                        "2"
                     ]
                 }
             ]
@@ -230,13 +230,13 @@
                     "name": "Pizza Funghi mit frischen Champignons",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "GlG",
+                        "Gl",
                         "Mi",
+                        "Kn",
                         "So",
                         "1",
-                        "GlW",
-                        "Gl",
                         "2"
                     ]
                 },
@@ -244,29 +244,29 @@
                     "name": "Käsekrainer mit Bratensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "3",
+                        "GlW",
                         "R",
                         "GlG",
-                        "Sf",
-                        "3",
-                        "S",
-                        "Mi",
-                        "GlW",
+                        "8",
                         "Gl",
-                        "2",
-                        "8"
+                        "Mi",
+                        "Sf",
+                        "S",
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Currynudeln mit Gemüsestreifen",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Sf",
-                        "Se",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Ei",
+                        "Sl",
+                        "Gl",
+                        "Sf",
+                        "Se"
                     ]
                 },
                 {
@@ -294,8 +294,8 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl",
                         "2"
                     ]
@@ -309,21 +309,21 @@
                     "name": "Spaghetti Frutti di Mare",
                     "price": "N/A",
                     "ingredients": [
-                        "6",
+                        "GlW",
+                        "Gl",
                         "Kr",
                         "Wt",
-                        "GlW",
-                        "Gl"
+                        "6"
                     ]
                 },
                 {
                     "name": "Lachsfilet auf Blattspinat",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Fi",
                         "Mi",
-                        "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -331,9 +331,9 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "So",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -354,13 +354,13 @@
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "1",
-                        "Ei",
-                        "Mi",
                         "11",
+                        "Ei",
                         "GlW",
                         "Gl",
+                        "Mi",
+                        "Sf",
+                        "1",
                         "2"
                     ]
                 },
@@ -369,9 +369,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "1",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "1"
                     ]
                 }
             ]
