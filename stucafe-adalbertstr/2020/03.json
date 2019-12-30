@@ -9,20 +9,20 @@
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
                         "So",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
+                        "11",
+                        "Kn",
                         "10",
                         "Sf",
-                        "Kn",
-                        "Sl",
-                        "11"
+                        "Sl"
                     ]
                 }
             ]
@@ -34,13 +34,13 @@
                     "name": "Penne all'amatriciana",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "GlW",
-                        "Kn",
-                        "Sl",
-                        "S",
                         "3",
-                        "Gl"
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "2",
+                        "Sl",
+                        "S"
                     ]
                 },
                 {
@@ -64,16 +64,16 @@
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": 2.8,
                     "ingredients": [
-                        "2",
-                        "8",
+                        "S",
+                        "3",
                         "GlW",
                         "Kn",
-                        "S",
-                        "1",
+                        "8",
+                        "Gl",
+                        "2",
                         "Mi",
-                        "3",
                         "GlG",
-                        "Gl"
+                        "1"
                     ]
                 }
             ]
@@ -85,12 +85,12 @@
                     "name": "Currynudeln mit gebratenen Gemüsestreifen",
                     "price": 1.55,
                     "ingredients": [
-                        "Sf",
                         "GlW",
-                        "Sl",
                         "Ei",
+                        "Sf",
+                        "Gl",
                         "Se",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
@@ -98,8 +98,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "2",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 }
@@ -112,9 +112,9 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
+                        "GlW",
                         "1",
                         "Mi",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -124,9 +124,9 @@
                     "ingredients": [
                         "GlW",
                         "Kn",
-                        "Fi",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "Fi"
                     ]
                 }
             ]
