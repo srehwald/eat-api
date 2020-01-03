@@ -9,11 +9,11 @@
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "2",
                         "R",
-                        "GlW"
+                        "2",
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -21,11 +21,11 @@
                     "price": 2.6,
                     "ingredients": [
                         "Ei",
-                        "1",
+                        "2",
+                        "GlW",
                         "Gl",
                         "Mi",
-                        "2",
-                        "GlW"
+                        "1"
                     ]
                 }
             ]
@@ -39,12 +39,12 @@
                     "ingredients": [
                         "Ei",
                         "Sf",
-                        "1",
+                        "2",
+                        "GlW",
                         "Gl",
                         "Kn",
                         "Mi",
-                        "2",
-                        "GlW"
+                        "1"
                     ]
                 }
             ]
@@ -56,8 +56,8 @@
                     "name": "Pasta mit Putenragout",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn",
                         "Sl"
                     ]
@@ -66,10 +66,10 @@
                     "name": "Apfelkücherl mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
+                        "Ei",
                         "Gl",
                         "GlW",
-                        "Ei"
+                        "Mi"
                     ]
                 }
             ]
@@ -82,21 +82,21 @@
                     "price": 1.55,
                     "ingredients": [
                         "Ei",
+                        "GlD",
                         "Gl",
-                        "Sl",
                         "GlW",
-                        "GlD"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Linsen mit Spätzle",
                     "price": 2.4,
                     "ingredients": [
+                        "GlW",
+                        "So",
                         "Gl",
                         "Kn",
-                        "Sl",
-                        "So",
-                        "GlW"
+                        "Sl"
                     ]
                 }
             ]
@@ -108,10 +108,10 @@
                     "name": "Gnocchi mit Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
-                        "So",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "So"
                     ]
                 }
             ]
