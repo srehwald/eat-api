@@ -9,33 +9,33 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1.0,
                     "ingredients": [
+                        "GlW",
                         "Gl",
                         "Kn",
-                        "2",
-                        "GlW"
+                        "2"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "GlW",
-                        "Gl",
                         "S",
-                        "GlG"
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "Sl",
-                        "Ei",
                         "GlW",
+                        "Ei",
                         "Mi",
+                        "Sl",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -43,11 +43,11 @@
                     "name": "Pikante Chickenwings mit Barbecuesauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
-                        "Kn",
-                        "Sl",
                         "11",
-                        "10"
+                        "10",
+                        "Sl",
+                        "Sf",
+                        "Kn"
                     ]
                 }
             ]
@@ -64,11 +64,11 @@
                     "name": "Gebratenes Schweinefleisch mit Gemüe in Hoisinsauce",
                     "price": 2.4,
                     "ingredients": [
-                        "So",
-                        "Kn",
+                        "S",
                         "GlW",
+                        "Kn",
                         "Gl",
-                        "S"
+                        "So"
                     ]
                 },
                 {
@@ -82,11 +82,11 @@
                     "name": "Pizza Margherita mit Mozzarella",
                     "price": 3.0,
                     "ingredients": [
-                        "So",
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "GlG",
                         "Gl",
-                        "GlG"
+                        "So"
                     ]
                 }
             ]
@@ -98,11 +98,11 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1.0,
                     "ingredients": [
-                        "9",
-                        "5",
-                        "Kn",
                         "Sw",
-                        "3"
+                        "9",
+                        "3",
+                        "Kn",
+                        "5"
                     ]
                 },
                 {
@@ -114,11 +114,11 @@
                     "name": "Topfenpalatschinken",
                     "price": 2.6,
                     "ingredients": [
-                        "ScM",
-                        "Ei",
-                        "GlW",
                         "Sc",
+                        "GlW",
+                        "Ei",
                         "Mi",
+                        "ScM",
                         "Gl"
                     ]
                 },
@@ -126,10 +126,10 @@
                     "name": "Rinderhacksteak mit Sauce Bernaise",
                     "price": 3.0,
                     "ingredients": [
-                        "Sf",
-                        "Sl",
                         "Ei",
                         "Mi",
+                        "Sl",
+                        "Sf",
                         "R"
                     ]
                 }
@@ -158,27 +158,27 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "8",
-                        "Kn",
+                        "S",
+                        "GlW",
                         "Mi",
                         "2",
-                        "GlW",
-                        "Gl",
-                        "S",
-                        "GlG"
+                        "Kn",
+                        "GlG",
+                        "8",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pizza Elsässer Art mit Sauerrahm, Zwiebeln, Speck und Käse",
                     "price": 3.5,
                     "ingredients": [
-                        "So",
+                        "GlW",
                         "Mi",
                         "2",
-                        "GlW",
-                        "Gl",
                         "3",
-                        "GlG"
+                        "GlG",
+                        "Gl",
+                        "So"
                     ]
                 }
             ]
@@ -198,10 +198,10 @@
                     "name": "Spaghetti Frutti di Mare",
                     "price": 2.4,
                     "ingredients": [
-                        "Wt",
                         "6",
-                        "Kr",
                         "GlW",
+                        "Kr",
+                        "Wt",
                         "Gl"
                     ]
                 },
