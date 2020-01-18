@@ -16,10 +16,10 @@
                     "name": "Pasta all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "Gl",
                         "2",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -27,8 +27,8 @@
                     "price": 2.6,
                     "ingredients": [
                         "Kn",
-                        "S",
-                        "Mi"
+                        "Mi",
+                        "S"
                     ]
                 },
                 {
@@ -36,10 +36,10 @@
                     "price": 3.0,
                     "ingredients": [
                         "GlW",
-                        "Ei",
                         "Gl",
                         "Mi",
-                        "Sl"
+                        "Sl",
+                        "Ei"
                     ]
                 }
             ]
@@ -51,22 +51,9 @@
                     "name": "Indisches Linsencurry",
                     "price": 1.0,
                     "ingredients": [
+                        "Sl",
                         "Kn",
-                        "Sf",
-                        "Sl"
-                    ]
-                },
-                {
-                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
-                    "price": 2.4,
-                    "ingredients": [
-                        "GlW",
-                        "Ei",
-                        "GlD",
-                        "Gl",
-                        "Mi",
-                        "2",
-                        "1"
+                        "Sf"
                     ]
                 },
                 {
@@ -74,24 +61,39 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Ei",
-                        "11",
                         "Gl",
                         "Mi",
+                        "11",
+                        "Ei",
                         "Sf",
                         "2",
                         "1"
                     ]
                 },
                 {
-                    "name": "Pizza Funghi mit Champignons",
+                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
+                    "price": 2.4,
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "GlD",
+                        "Ei",
+                        "2",
+                        "1"
+                    ]
+                },
+                {
+                    "name": "Pizza Elsässer Art mit Sauerrahm, Zwiebeln, Speck und Käse",
                     "price": 3.5,
                     "ingredients": [
+                        "GlG",
                         "GlW",
                         "So",
                         "Gl",
+                        "3",
                         "Mi",
-                        "GlG"
+                        "2"
                     ]
                 }
             ]
@@ -107,39 +109,39 @@
                     ]
                 },
                 {
-                    "name": "Pasta mit Tomaten-Frischkäse-Sauce",
-                    "price": 1.9,
-                    "ingredients": [
-                        "GlW",
-                        "Kn",
-                        "Gl",
-                        "Mi"
-                    ]
-                },
-                {
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
-                        "So",
                         "Ei",
+                        "So",
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Pasta mit Tomaten-Frischkäse-Sauce",
+                    "price": 1.9,
+                    "ingredients": [
                         "Kn",
                         "Gl",
                         "Mi",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
+                        "GlG",
                         "GlW",
-                        "S",
-                        "Kn",
-                        "99",
                         "Gl",
                         "Mi",
-                        "GlG"
+                        "99",
+                        "Kn",
+                        "S"
                     ]
                 }
             ]
@@ -151,49 +153,54 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Cevapcici mit Ajvar",
                     "price": 2.4,
                     "ingredients": [
-                        "Se",
-                        "So",
-                        "S",
                         "Ei",
-                        "Kn",
+                        "So",
                         "Gl",
                         "Mi",
+                        "Sl",
+                        "Se",
+                        "Kn",
                         "Sf",
-                        "Sl"
+                        "S"
                     ]
                 },
                 {
-                    "name": "Pizza Quattro Stagioni mit (Vorder-)Schinken, Paprika, Champignons und Oliven",
+                    "name": "Pizza American BBQ mit Käse und rauchigem Speck",
                     "price": 3.5,
                     "ingredients": [
+                        "GlG",
                         "GlW",
-                        "So",
-                        "S",
+                        "10",
                         "8",
+                        "So",
+                        "3",
                         "Gl",
                         "Mi",
+                        "Sl",
+                        "11",
+                        "Kn",
+                        "Sf",
                         "2",
-                        "3",
-                        "GlG"
+                        "S"
                     ]
                 }
             ]
@@ -205,34 +212,34 @@
                     "name": "Bauerneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
+                        "Sl",
                         "Gl",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Kn",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Fi",
                         "GlW",
-                        "Ei",
-                        "11",
+                        "Sf",
                         "Gl",
                         "Mi",
-                        "Sf",
-                        "2",
-                        "9"
+                        "11",
+                        "9",
+                        "Ei",
+                        "Fi",
+                        "2"
                     ]
                 }
             ]
