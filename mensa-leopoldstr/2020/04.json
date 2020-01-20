@@ -9,10 +9,10 @@
                     "name": "Penne all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "2"
+                        "2",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -39,36 +39,36 @@
                     "name": "Spinatknödel Tiroler Art mit Bergkäse",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Ei",
-                        "GlW",
-                        "Mi",
                         "Sl",
-                        "Gl"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "2",
-                        "R",
-                        "9",
                         "Gl",
-                        "Kn",
+                        "2",
+                        "9",
+                        "Sf",
                         "GlG",
-                        "Sf"
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "R"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Ei"
                     ]
                 }
             ]
@@ -80,8 +80,8 @@
                     "name": "Pasta mit Gorgonzolasauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -89,49 +89,49 @@
                     "name": "Indisches Linsencurry",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "Sf",
                         "Kn",
-                        "Sf"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
-                        "2",
-                        "1",
                         "Gl",
-                        "GlD"
+                        "2",
+                        "Ei",
+                        "GlD",
+                        "1",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
-                        "2",
-                        "1",
                         "Gl",
+                        "2",
+                        "Ei",
+                        "Sf",
                         "11",
-                        "Sf"
+                        "1",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Kabeljaufilet (MSC) mit einer Gurken-Senfsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
-                        "Sl",
                         "Gl",
+                        "Ei",
+                        "Sf",
+                        "Sl",
+                        "GlW",
                         "Fi",
-                        "Sf"
+                        "Mi"
                     ]
                 }
             ]
@@ -143,9 +143,9 @@
                     "name": "Pasta mit Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -153,20 +153,20 @@
                     "name": "Gebratenes Truthahnsteak mit Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Asia-Pfanne mit Schweinefleisch",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "S",
-                        "So",
-                        "Kn",
                         "Gl",
-                        "Sf"
+                        "So",
+                        "Sf",
+                        "S",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -185,13 +185,13 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
-                        "Sl",
-                        "Kn",
                         "Gl",
-                        "So"
+                        "So",
+                        "Ei",
+                        "Sl",
+                        "GlW",
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -203,21 +203,21 @@
                     "name": "Bio-Spaghetti bolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
+                        "Gl",
                         "S",
-                        "R",
+                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Mi",
+                        "R"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
+                        "Sf",
                         "8",
                         "S",
-                        "Sf",
                         "R"
                     ]
                 },
@@ -225,20 +225,20 @@
                     "name": "Ente mit Ananas, Sprossen und Pilzen in Teriyakisauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Se",
-                        "So",
-                        "Kn",
                         "Gl",
-                        "Sf"
+                        "So",
+                        "Se",
+                        "Sf",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -251,9 +251,9 @@
                     "name": "Frische Rahmschwammerl",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "Mi",
                         "GlW"
                     ]
                 }
@@ -266,33 +266,33 @@
                     "name": "Gebratene Chinanudeln mit Wokgemüse und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Se",
+                        "Gl",
                         "2",
                         "So",
-                        "Gl",
-                        "Sf"
+                        "Se",
+                        "Ei",
+                        "Sf",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit Steinpilzen in Rahm und Knöpfle",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
-                        "S",
                         "Gl",
-                        "GlD"
+                        "Ei",
+                        "GlD",
+                        "S",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "Gl",
+                        "Sl",
                         "GlW"
                     ]
                 },
@@ -305,26 +305,26 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
+                        "Gl",
                         "2",
                         "9",
-                        "Gl",
+                        "Ei",
+                        "Sf",
                         "11",
+                        "GlW",
                         "Fi",
-                        "Sf"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Ei",
                         "GlW",
-                        "Mi",
                         "3",
-                        "Gl"
+                        "Mi"
                     ]
                 }
             ]
