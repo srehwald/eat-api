@@ -9,12 +9,12 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
+                        "GlG",
                         "GlW",
-                        "Kn",
+                        "S",
                         "Gl",
                         "Mi",
-                        "GlG",
-                        "S"
+                        "Kn"
                     ]
                 },
                 {
@@ -22,11 +22,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Kn",
                         "Gl",
                         "Ei",
                         "Mi",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 }
             ]
@@ -40,26 +40,26 @@
                     "ingredients": [
                         "GlW",
                         "Gl",
-                        "Ei",
                         "1",
-                        "Mi",
-                        "2"
+                        "Ei",
+                        "2",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "price": 2.6,
                     "ingredients": [
+                        "3",
+                        "GlG",
                         "GlW",
-                        "Kn",
+                        "S",
                         "Gl",
                         "Ei",
                         "Sf",
                         "Mi",
-                        "GlG",
                         "Sw",
-                        "3",
-                        "S"
+                        "Kn"
                     ]
                 }
             ]
@@ -73,8 +73,8 @@
                     "ingredients": [
                         "GlW",
                         "Gl",
-                        "Ei",
                         "GlD",
+                        "Ei",
                         "Sl"
                     ]
                 },
@@ -82,14 +82,14 @@
                     "name": "Katerfrühstück: Dillhappen vom Matjeshering",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "11",
-                        "Ei",
-                        "Sf",
-                        "Mi",
-                        "2",
                         "3",
+                        "GlW",
+                        "11",
+                        "Gl",
+                        "Sf",
+                        "Ei",
+                        "2",
+                        "Mi",
                         "Fi"
                     ]
                 },
@@ -97,11 +97,11 @@
                     "name": "Rinderhacksteak mit Sauce Bernaise",
                     "price": 3.0,
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "R",
-                        "Sl",
-                        "Sf"
+                        "Ei",
+                        "Sf",
+                        "Mi",
+                        "Sl"
                     ]
                 }
             ]
@@ -113,10 +113,10 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "2"
+                        "2",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -142,10 +142,10 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "1"
+                        "Mi",
+                        "1",
+                        "GlW"
                     ]
                 }
             ]

@@ -16,9 +16,9 @@
                     "name": "Pasta all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
                         "2",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -26,9 +26,9 @@
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
                         "Mi",
-                        "Kn"
+                        "Kn",
+                        "S"
                     ]
                 },
                 {
@@ -36,10 +36,10 @@
                     "price": 3.0,
                     "ingredients": [
                         "GlW",
-                        "Ei",
                         "Sl",
-                        "Gl",
-                        "Mi"
+                        "Ei",
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]
@@ -51,9 +51,9 @@
                     "name": "Indisches Linsencurry",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "Sf",
-                        "Sl",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
@@ -61,12 +61,12 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "2",
-                        "Ei",
-                        "Gl",
                         "Sf",
-                        "Mi",
+                        "Ei",
                         "1",
+                        "2",
+                        "Mi",
+                        "Gl",
                         "11"
                     ]
                 },
@@ -75,11 +75,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "2",
                         "Ei",
-                        "Gl",
-                        "Mi",
                         "1",
+                        "2",
+                        "Mi",
+                        "Gl",
                         "GlD"
                     ]
                 },
@@ -89,11 +89,11 @@
                     "ingredients": [
                         "GlW",
                         "2",
+                        "So",
                         "3",
-                        "GlG",
-                        "Gl",
                         "Mi",
-                        "So"
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -112,22 +112,22 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "GlW",
                         "Ei",
                         "Sl",
-                        "Gl",
+                        "So",
                         "Mi",
-                        "Kn",
-                        "So"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pasta mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Mi",
+                        "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -135,13 +135,13 @@
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
-                        "S",
-                        "GlG",
-                        "Gl",
-                        "Mi",
                         "Kn",
-                        "99"
+                        "S",
+                        "GlW",
+                        "Mi",
+                        "99",
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -153,8 +153,8 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -162,9 +162,9 @@
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Mi",
+                        "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -172,35 +172,35 @@
                     "name": "Cevapcici mit Ajvar",
                     "price": 2.4,
                     "ingredients": [
+                        "Se",
+                        "Kn",
                         "S",
+                        "Sf",
                         "Ei",
                         "Sl",
-                        "Gl",
-                        "Sf",
-                        "Mi",
-                        "Kn",
                         "So",
-                        "Se"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pizza American BBQ mit Käse und rauchigem Speck",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
-                        "2",
-                        "S",
-                        "3",
-                        "GlG",
-                        "Sl",
-                        "Gl",
-                        "Sf",
-                        "Mi",
                         "Kn",
+                        "S",
+                        "GlW",
+                        "Sf",
+                        "Sl",
+                        "2",
                         "So",
+                        "3",
                         "8",
-                        "11",
-                        "10"
+                        "Mi",
+                        "Gl",
+                        "10",
+                        "GlG",
+                        "11"
                     ]
                 }
             ]
@@ -213,17 +213,17 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Sl",
-                        "Gl"
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Mi",
+                        "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -232,14 +232,14 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "2",
-                        "Ei",
-                        "Gl",
                         "Sf",
+                        "Ei",
+                        "2",
+                        "Fi",
                         "Mi",
-                        "9",
+                        "Gl",
                         "11",
-                        "Fi"
+                        "9"
                     ]
                 }
             ]
