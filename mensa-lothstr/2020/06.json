@@ -16,25 +16,25 @@
                     "name": "Älpler Makkaroni mit Bergkäse",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Gl",
                         "Mi",
                         "2",
-                        "1"
+                        "1",
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": 2.6,
                     "ingredients": [
-                        "GlG",
-                        "GlW",
-                        "3",
-                        "S",
-                        "Gl",
                         "Mi",
                         "2",
+                        "GlG",
+                        "GlW",
+                        "Gl",
+                        "S",
+                        "3",
                         "Kn"
                     ]
                 },
@@ -42,19 +42,19 @@
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "GlG",
-                        "R",
-                        "Sf",
-                        "GlW",
-                        "3",
-                        "S",
-                        "99",
-                        "Gl",
                         "Sw",
                         "Mi",
-                        "2",
                         "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sf",
+                        "2",
+                        "GlG",
+                        "GlW",
+                        "Gl",
+                        "R",
+                        "S",
+                        "3",
+                        "99"
                     ]
                 }
             ]
@@ -66,9 +66,9 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "3",
                         "Sw",
                         "5",
+                        "3",
                         "Sl"
                     ]
                 },
@@ -78,19 +78,19 @@
                     "ingredients": [
                         "Gl",
                         "3",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Nasi Goreng (mit Hähnchenfleisch)",
                     "price": 2.4,
                     "ingredients": [
+                        "So",
                         "Sf",
+                        "2",
                         "GlW",
                         "Gl",
-                        "2",
-                        "So",
                         "Kn"
                     ]
                 },
@@ -98,16 +98,16 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.8,
                     "ingredients": [
-                        "GlG",
-                        "Sf",
-                        "GlW",
-                        "3",
-                        "S",
-                        "Gl",
                         "Mi",
-                        "2",
-                        "8",
                         "Sl",
+                        "Sf",
+                        "8",
+                        "2",
+                        "GlG",
+                        "GlW",
+                        "Gl",
+                        "S",
+                        "3",
                         "Kn"
                     ]
                 }
@@ -120,10 +120,10 @@
                     "name": "Asiatische Reis-Gemüsepfanne",
                     "price": 1.0,
                     "ingredients": [
-                        "Sf",
-                        "2",
                         "So",
                         "Sl",
+                        "Sf",
+                        "2",
                         "Kn"
                     ]
                 },
@@ -131,12 +131,12 @@
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Gl",
                         "Mi",
                         "2",
                         "1",
+                        "GlW",
+                        "Gl",
+                        "Ei",
                         "Kn"
                     ]
                 },
@@ -144,11 +144,11 @@
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": 3.2,
                     "ingredients": [
+                        "Mi",
                         "GlG",
-                        "R",
                         "GlW",
                         "Gl",
-                        "Mi",
+                        "R",
                         "Kn"
                     ]
                 }
@@ -162,35 +162,35 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
+                        "Mi",
+                        "Sl",
+                        "So",
                         "Sf",
+                        "1",
                         "GlW",
                         "Sc",
+                        "Se",
                         "Gl",
-                        "Mi",
-                        "1",
-                        "So",
-                        "Sl",
-                        "Se"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit grüner Pfeffersauce",
                     "price": 2.6,
                     "ingredients": [
+                        "Mi",
                         "GlG",
                         "GlW",
-                        "S",
                         "Gl",
-                        "Mi",
+                        "S",
                         "Kn"
                     ]
                 },
@@ -198,15 +198,15 @@
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": 2.8,
                     "ingredients": [
-                        "GlG",
-                        "5",
-                        "GlW",
-                        "99",
-                        "Gl",
                         "Sw",
                         "Mi",
                         "Sl",
-                        "Kn"
+                        "GlG",
+                        "GlW",
+                        "Gl",
+                        "5",
+                        "Kn",
+                        "99"
                     ]
                 }
             ]
@@ -226,8 +226,8 @@
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
                         "Gl",
+                        "Ei",
                         "Mi",
                         "GlW"
                     ]
@@ -236,12 +236,12 @@
                     "name": "Gebratenes Zanderfilet mit Mandelbutter",
                     "price": 4.0,
                     "ingredients": [
-                        "Fi",
+                        "Mi",
                         "GlW",
-                        "ScM",
                         "Sc",
                         "Gl",
-                        "Mi"
+                        "ScM",
+                        "Fi"
                     ]
                 }
             ]
