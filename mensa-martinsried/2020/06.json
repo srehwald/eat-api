@@ -11,23 +11,23 @@
                     "ingredients": [
                         "Gl",
                         "2",
-                        "Mi",
+                        "1",
                         "Ei",
-                        "GlW",
-                        "1"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
+                        "S",
                         "Gl",
+                        "GlG",
+                        "Kn",
                         "2",
                         "3",
-                        "S",
                         "Mi",
-                        "Kn",
                         "GlW"
                     ]
                 },
@@ -42,11 +42,11 @@
                     "name": "Südtiroler Gerstensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
+                        "S",
                         "Gl",
+                        "GlG",
                         "2",
                         "3",
-                        "S",
                         "Sl"
                     ]
                 },
@@ -54,19 +54,19 @@
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Gl",
-                        "2",
-                        "3",
-                        "Sw",
-                        "R",
                         "S",
-                        "Mi",
+                        "Gl",
+                        "GlG",
                         "Kn",
-                        "Sl",
-                        "Sf",
                         "99",
-                        "GlW"
+                        "2",
+                        "R",
+                        "3",
+                        "Mi",
+                        "Sw",
+                        "Sl",
+                        "GlW",
+                        "Sf"
                     ]
                 }
             ]
@@ -78,10 +78,10 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Sw",
                         "3",
-                        "5"
+                        "Sw",
+                        "5",
+                        "Sl"
                     ]
                 },
                 {
@@ -89,11 +89,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "5",
-                        "Sw",
-                        "Mi",
                         "Kn",
                         "99",
+                        "5",
+                        "Mi",
+                        "Sw",
                         "GlW"
                     ]
                 },
@@ -101,42 +101,42 @@
                     "name": "Kartoffelröstis mit Kräutersahnequark",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "8",
-                        "Gl",
-                        "2",
-                        "3",
                         "S",
-                        "Mi",
+                        "Gl",
+                        "GlG",
                         "Kn",
+                        "2",
+                        "8",
+                        "3",
+                        "Mi",
                         "Sl",
-                        "Sf",
-                        "GlW"
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Wt",
-                        "Sf",
-                        "11",
-                        "Mi",
-                        "Kn",
-                        "Kr",
-                        "Fi",
-                        "Ei",
                         "GlW",
-                        "1"
+                        "Gl",
+                        "11",
+                        "Kr",
+                        "Kn",
+                        "1",
+                        "Mi",
+                        "Wt",
+                        "Ei",
+                        "Fi",
+                        "Sf"
                     ]
                 }
             ]
@@ -148,17 +148,17 @@
                     "name": "Nürnberger Würstchen",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "S"
+                        "S",
+                        "R"
                     ]
                 },
                 {
                     "name": "Asiatische Reis-Gemüsepfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Kn",
                         "So",
+                        "Kn",
+                        "2",
                         "Sl",
                         "Sf"
                     ]
@@ -179,23 +179,23 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "2",
-                        "Mi",
                         "Kn",
+                        "2",
+                        "1",
                         "Ei",
-                        "GlW",
-                        "1"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "Gl",
+                        "GlG",
+                        "Kn",
                         "R",
                         "Mi",
-                        "Kn",
                         "GlW"
                     ]
                 }
@@ -208,11 +208,11 @@
                     "name": "Schweinerückensteak mit grüner Pfeffersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Gl",
                         "S",
-                        "Mi",
+                        "Gl",
+                        "GlG",
                         "Kn",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -220,9 +220,9 @@
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -235,29 +235,29 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Sf",
-                        "Mi",
-                        "Sc",
                         "So",
+                        "1",
+                        "Ei",
+                        "Mi",
                         "Se",
                         "Sl",
-                        "Ei",
                         "GlW",
-                        "1"
+                        "Sc",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "Gl",
-                        "5",
-                        "Sw",
-                        "Mi",
+                        "GlG",
                         "Kn",
-                        "Sl",
                         "99",
+                        "5",
+                        "Mi",
+                        "Sw",
+                        "Sl",
                         "GlW"
                     ]
                 }
@@ -270,33 +270,33 @@
                     "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Gl",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Hähnchen Machbous",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "En",
-                        "Mi",
-                        "Kn",
+                        "Gl",
                         "So",
+                        "Kn",
+                        "Mi",
                         "Se",
                         "Sl",
-                        "Sf",
-                        "GlW"
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -308,13 +308,13 @@
                     "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
+                        "S",
                         "Gl",
+                        "GlG",
+                        "Kn",
                         "2",
                         "3",
-                        "S",
                         "Mi",
-                        "Kn",
                         "GlW"
                     ]
                 },
@@ -322,10 +322,10 @@
                     "name": "Apfelkücherl mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
-                        "Ei",
-                        "GlW"
+                        "Mi",
+                        "GlW",
+                        "Ei"
                     ]
                 }
             ]

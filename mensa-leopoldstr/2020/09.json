@@ -10,9 +10,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Kn",
                         "Gl",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
@@ -28,12 +28,12 @@
                     "name": "Pikante Chickenwings mit Barbecuesauce mit Countrykartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Gl",
                         "GlW",
-                        "Kn",
-                        "10",
                         "Sl",
+                        "10",
+                        "Gl",
+                        "Sf",
+                        "Kn",
                         "11"
                     ]
                 },
@@ -41,14 +41,14 @@
                     "name": "Gulasch vom Schwein und Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
+                        "GlG",
                         "1",
                         "Mi",
                         "S",
-                        "GlG",
+                        "Kn",
                         "Gl",
-                        "Ei",
-                        "GlW",
-                        "Kn"
+                        "Ei"
                     ]
                 }
             ]
@@ -60,64 +60,64 @@
                     "name": "Getreidepfanne mit frischem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Gl"
+                        "Gl",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Appenzeller Käsesuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "So",
-                        "GlG",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "GlG",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
+                        "2",
                         "1",
                         "Mi",
                         "Gl",
-                        "Ei",
-                        "GlW",
-                        "2"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste und Röstkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Mi",
-                        "S",
-                        "GlG",
-                        "Sw",
-                        "Gl",
                         "GlW",
+                        "GlG",
+                        "Mi",
+                        "Sw",
+                        "S",
+                        "Sf",
                         "Kn",
-                        "Sf"
+                        "Gl",
+                        "3"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce und Kartoffelknödel",
                     "price": "N/A",
                     "ingredients": [
+                        "2",
+                        "GlG",
+                        "GlW",
+                        "Sl",
                         "Mi",
                         "99",
-                        "GlG",
-                        "Sw",
                         "Gl",
-                        "5",
-                        "GlW",
-                        "Kn",
+                        "Sw",
                         "R",
-                        "Sl",
-                        "2"
+                        "Kn",
+                        "5"
                     ]
                 }
             ]
@@ -130,21 +130,21 @@
                     "price": "N/A",
                     "ingredients": [
                         "So",
-                        "Gl",
                         "GlW",
+                        "En",
                         "Kn",
-                        "En"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
                         "9",
                         "Sw",
+                        "Kn",
                         "5",
-                        "Kn"
+                        "3"
                     ]
                 },
                 {
@@ -156,26 +156,26 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Ei",
                         "GlW",
                         "GlD",
-                        "Sl"
+                        "Sl",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Katerfrühstück: Dillhappen vom Matjeshering und Petersilienkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "3",
-                        "Mi",
-                        "Fi",
-                        "Gl",
-                        "Ei",
-                        "11",
+                        "2",
                         "GlW",
-                        "2"
+                        "Fi",
+                        "Mi",
+                        "Gl",
+                        "Sf",
+                        "11",
+                        "3",
+                        "Ei"
                     ]
                 }
             ]
@@ -187,17 +187,17 @@
                     "name": "Käsekrainer mit Bratensauce und Karoffelpürre",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "3",
-                        "Mi",
-                        "S",
+                        "2",
                         "GlG",
-                        "Gl",
                         "GlW",
-                        "Kn",
+                        "Mi",
                         "R",
                         "8",
-                        "2"
+                        "S",
+                        "Sf",
+                        "Kn",
+                        "Gl",
+                        "3"
                     ]
                 },
                 {
@@ -238,11 +238,11 @@
                     "name": "Lachsfilet auf Blattspinat mit Dillkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Fi",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Fi",
+                        "Mi",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -264,10 +264,10 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "1",
-                        "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
