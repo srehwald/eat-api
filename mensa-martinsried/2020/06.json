@@ -11,24 +11,24 @@
                     "ingredients": [
                         "Gl",
                         "Mi",
-                        "GlW",
                         "1",
                         "2",
-                        "Ei"
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Gl",
-                        "3",
-                        "Kn",
                         "Mi",
-                        "GlW",
+                        "3",
+                        "GlG",
+                        "S",
                         "2",
-                        "GlG"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -42,31 +42,31 @@
                     "name": "Südtiroler Gerstensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Gl",
                         "3",
-                        "2",
                         "Sl",
-                        "GlG"
+                        "GlG",
+                        "S",
+                        "2"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
                         "Gl",
-                        "R",
-                        "S",
-                        "3",
-                        "Kn",
                         "Mi",
-                        "GlW",
-                        "Sw",
-                        "2",
-                        "Sl",
+                        "3",
                         "GlG",
-                        "Sf"
+                        "Sf",
+                        "Sl",
+                        "S",
+                        "2",
+                        "99",
+                        "Sw",
+                        "Kn",
+                        "GlW",
+                        "R"
                     ]
                 }
             ]
@@ -78,23 +78,23 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "5",
+                        "Sw",
                         "Sl",
-                        "Sw"
+                        "3",
+                        "5"
                     ]
                 },
                 {
                     "name": "Pilzrahmsuppe mit Weißwein",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
                         "Gl",
-                        "Kn",
                         "Mi",
-                        "GlW",
+                        "5",
+                        "99",
                         "Sw",
-                        "5"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -109,34 +109,34 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": "N/A",
                     "ingredients": [
-                        "8",
-                        "S",
                         "Gl",
-                        "3",
-                        "Kn",
                         "Mi",
-                        "GlW",
-                        "2",
-                        "Sl",
+                        "3",
                         "GlG",
-                        "Sf"
+                        "Sf",
+                        "8",
+                        "Sl",
+                        "2",
+                        "S",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "11",
                         "Gl",
-                        "Fi",
-                        "Kn",
                         "Mi",
-                        "GlW",
-                        "Kr",
+                        "Fi",
                         "1",
+                        "Wt",
                         "Sf",
+                        "Kr",
                         "Ei",
-                        "Wt"
+                        "Kn",
+                        "GlW",
+                        "11"
                     ]
                 }
             ]
@@ -156,10 +156,10 @@
                     "name": "Asiatische Reis-Gemüsepfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "2",
                         "Sl",
                         "Sf",
+                        "2",
+                        "Kn",
                         "So"
                     ]
                 },
@@ -168,10 +168,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "3",
                         "Mi",
-                        "GlW",
-                        "Sl"
+                        "3",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
@@ -179,12 +179,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "Mi",
-                        "GlW",
                         "1",
                         "2",
-                        "Ei"
+                        "Ei",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -192,11 +192,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "R",
-                        "Kn",
                         "Mi",
+                        "GlG",
+                        "Kn",
                         "GlW",
-                        "GlG"
+                        "R"
                     ]
                 }
             ]
@@ -208,20 +208,20 @@
                     "name": "Schweinerückensteak mit grüner Pfeffersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Gl",
-                        "Kn",
                         "Mi",
-                        "GlW",
-                        "GlG"
+                        "GlG",
+                        "S",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -236,13 +236,13 @@
                     "ingredients": [
                         "Gl",
                         "Mi",
-                        "GlW",
-                        "Sc",
                         "1",
-                        "Sf",
                         "Se",
                         "Sl",
+                        "Sc",
                         "Ei",
+                        "Sf",
+                        "GlW",
                         "So"
                     ]
                 },
@@ -250,15 +250,15 @@
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
                         "Gl",
-                        "Kn",
                         "Mi",
-                        "GlW",
-                        "Sw",
-                        "Sl",
+                        "5",
                         "GlG",
-                        "5"
+                        "Sl",
+                        "99",
+                        "Sw",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -270,24 +270,24 @@
                     "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Hähnchen Machbous",
                     "price": "N/A",
                     "ingredients": [
-                        "En",
                         "Gl",
-                        "Kn",
                         "Mi",
-                        "GlW",
                         "Se",
-                        "Sl",
                         "Sf",
+                        "Sl",
+                        "En",
+                        "Kn",
+                        "GlW",
                         "So"
                     ]
                 },
@@ -308,14 +308,14 @@
                     "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Gl",
-                        "3",
-                        "Kn",
                         "Mi",
-                        "GlW",
+                        "3",
+                        "GlG",
+                        "S",
                         "2",
-                        "GlG"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {

@@ -11,20 +11,20 @@
                     "ingredients": [
                         "Gl",
                         "GlW",
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "GlG",
                         "GlW",
-                        "Mi",
-                        "Kn",
                         "S",
-                        "GlG"
+                        "Mi",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -32,11 +32,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "Gl",
                         "GlW",
                         "Mi",
-                        "Kn",
-                        "Sl"
+                        "Gl",
+                        "Sl",
+                        "Kn"
                     ]
                 }
             ]
@@ -48,8 +48,8 @@
                     "name": "Getreidepfanne mit frischem Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "GlG"
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
@@ -57,10 +57,10 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "Gl",
-                        "1",
                         "GlW",
                         "Mi",
+                        "Gl",
+                        "1",
                         "2"
                     ]
                 },
@@ -68,16 +68,16 @@
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "Sw",
                         "3",
+                        "Ei",
+                        "GlG",
                         "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sf",
                         "S",
-                        "GlG"
+                        "Mi",
+                        "Gl",
+                        "Sf",
+                        "Sw",
+                        "Kn"
                     ]
                 }
             ]
@@ -89,21 +89,21 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1.0,
                     "ingredients": [
-                        "Sw",
                         "3",
                         "5",
-                        "Kn",
-                        "9"
+                        "9",
+                        "Sw",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
                         "GlD",
+                        "Ei",
+                        "GlW",
+                        "Gl",
                         "Sl"
                     ]
                 },
@@ -111,13 +111,13 @@
                     "name": "Katerfrühstück: Dillhappen vom Matjeshering",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
                         "3",
-                        "GlW",
-                        "Mi",
+                        "Ei",
                         "Fi",
+                        "GlW",
                         "11",
+                        "Mi",
+                        "Gl",
                         "Sf",
                         "2"
                     ]
@@ -142,8 +142,8 @@
                     "name": "Pikante Hirse mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -152,8 +152,8 @@
                     "ingredients": [
                         "Gl",
                         "GlW",
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -187,10 +187,10 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
+                        "Mi",
                         "Gl",
                         "1",
-                        "GlW",
-                        "Mi"
+                        "GlW"
                     ]
                 }
             ]
