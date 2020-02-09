@@ -16,44 +16,44 @@
                     "name": "Älpler Makkaroni mit Bergkäse",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
                         "1",
+                        "Mi",
+                        "GlW",
                         "Gl",
                         "Ei",
-                        "2",
-                        "GlW"
+                        "2"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "GlG",
-                        "Gl",
                         "3",
-                        "Kn",
+                        "GlG",
                         "S",
-                        "2",
-                        "GlW"
+                        "Mi",
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "GlG",
-                        "Gl",
                         "3",
-                        "Sf",
-                        "Kn",
-                        "R",
-                        "Sw",
-                        "S",
-                        "2",
+                        "GlG",
                         "99",
+                        "S",
+                        "Mi",
+                        "Sw",
+                        "R",
+                        "Kn",
                         "GlW",
+                        "Sf",
+                        "Gl",
+                        "2",
                         "Sl"
                     ]
                 }
@@ -66,10 +66,10 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "5",
-                        "Sw",
+                        "3",
                         "Sl",
-                        "3"
+                        "5",
+                        "Sw"
                     ]
                 },
                 {
@@ -77,37 +77,37 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
+                        "3",
                         "Kn",
-                        "3"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Nasi Goreng (mit Hähnchenfleisch)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "So",
                         "Kn",
-                        "2",
                         "Sf",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.8,
                     "ingredients": [
-                        "Mi",
-                        "GlG",
-                        "Gl",
-                        "3",
-                        "Kn",
-                        "S",
                         "8",
-                        "2",
-                        "Sf",
+                        "3",
+                        "GlG",
+                        "S",
+                        "Mi",
+                        "Kn",
                         "GlW",
+                        "Sf",
+                        "Gl",
+                        "2",
                         "Sl"
                     ]
                 }
@@ -122,8 +122,8 @@
                     "ingredients": [
                         "So",
                         "Kn",
-                        "2",
                         "Sf",
+                        "2",
                         "Sl"
                     ]
                 },
@@ -131,25 +131,25 @@
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "1",
-                        "Gl",
+                        "Mi",
                         "Kn",
+                        "GlW",
+                        "Gl",
                         "Ei",
-                        "2",
-                        "GlW"
+                        "2"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "Mi",
                         "GlG",
-                        "Gl",
-                        "Kn",
                         "R",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -162,23 +162,23 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
                         "1",
-                        "Gl",
-                        "Sc",
                         "So",
-                        "Ei",
-                        "Sf",
-                        "GlW",
+                        "Sc",
                         "Se",
+                        "GlW",
+                        "Gl",
+                        "Sf",
+                        "Ei",
+                        "Mi",
                         "Sl"
                     ]
                 },
@@ -186,26 +186,26 @@
                     "name": "Schweinerückensteak mit grüner Pfeffersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
                         "GlG",
-                        "Gl",
-                        "Kn",
                         "S",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Mi",
                         "GlG",
-                        "Gl",
-                        "5",
-                        "Kn",
-                        "Sw",
                         "99",
+                        "Sw",
+                        "Kn",
+                        "5",
                         "GlW",
+                        "Gl",
+                        "Mi",
                         "Sl"
                     ]
                 }
@@ -218,30 +218,30 @@
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Ei",
                         "Mi",
-                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gebratenes Zanderfilet mit Mandelbutter",
                     "price": 4.0,
                     "ingredients": [
-                        "Mi",
-                        "Fi",
-                        "ScM",
-                        "Gl",
                         "Sc",
-                        "GlW"
+                        "ScM",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "Fi"
                     ]
                 }
             ]
