@@ -9,28 +9,28 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "GlG",
+                        "Sl",
                         "Kn",
-                        "Sl"
+                        "Gl",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Green-Thai-Curry vom Rind (GQB)",
                     "price": 3.0,
                     "ingredients": [
-                        "R",
-                        "Kn"
+                        "Kn",
+                        "R"
                     ]
                 }
             ]
@@ -42,22 +42,22 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1.0,
                     "ingredients": [
+                        "GlW",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Phad Thai - Thailändisches Nudelgericht",
                     "price": 2.6,
                     "ingredients": [
-                        "So",
-                        "Kn",
                         "GlW",
                         "Gl",
-                        "Ei",
+                        "Kn",
                         "En",
-                        "Fi"
+                        "So",
+                        "Fi",
+                        "Ei"
                     ]
                 },
                 {
@@ -65,13 +65,13 @@
                     "price": 3.2,
                     "ingredients": [
                         "3",
-                        "GlG",
-                        "S",
-                        "Mi",
-                        "Kn",
                         "GlW",
                         "Gl",
-                        "2"
+                        "Kn",
+                        "2",
+                        "GlG",
+                        "Mi",
+                        "S"
                     ]
                 }
             ]
@@ -90,19 +90,19 @@
                     "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Hähnchenbrustfilet mit Gemüsesalsa (scharf)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
+                        "4",
                         "2",
-                        "4"
+                        "Kn"
                     ]
                 }
             ]
@@ -115,11 +115,11 @@
                     "price": 2.6,
                     "ingredients": [
                         "3",
-                        "Kn",
+                        "6",
                         "Gl",
+                        "Kn",
                         "Mi",
-                        "GlD",
-                        "6"
+                        "GlD"
                     ]
                 },
                 {
@@ -127,11 +127,11 @@
                     "price": 3.0,
                     "ingredients": [
                         "3",
-                        "S",
-                        "Sw",
                         "Kn",
+                        "S",
+                        "Mi",
                         "5",
-                        "Mi"
+                        "Sw"
                     ]
                 }
             ]
@@ -143,9 +143,9 @@
                     "name": "Gnocchi mit Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
                         "Gl",
                         "Kn",
-                        "GlW",
                         "So"
                     ]
                 },
@@ -153,13 +153,13 @@
                     "name": "Schweinebraten mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "GlG",
-                        "99",
-                        "S",
-                        "Kn",
                         "GlW",
                         "Gl",
-                        "Mi"
+                        "Kn",
+                        "S",
+                        "GlG",
+                        "Mi",
+                        "99"
                     ]
                 }
             ]
