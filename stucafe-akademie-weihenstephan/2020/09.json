@@ -9,11 +9,11 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Mi",
                         "GlG",
+                        "Gl",
                         "S"
                     ]
                 },
@@ -21,11 +21,11 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi",
                         "Ei",
+                        "Kn",
+                        "GlW",
+                        "Mi",
+                        "Gl",
                         "Sl"
                     ]
                 }
@@ -38,28 +38,28 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
-                        "GlW",
-                        "Gl",
-                        "Mi",
                         "Ei",
-                        "2"
+                        "GlW",
+                        "Mi",
+                        "2",
+                        "Gl",
+                        "1"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
-                        "Sw",
-                        "Gl",
-                        "GlW",
+                        "Ei",
                         "Kn",
+                        "GlW",
                         "Mi",
-                        "GlG",
-                        "S",
+                        "Sw",
                         "Sf",
-                        "Ei"
+                        "GlG",
+                        "Gl",
+                        "S",
+                        "3"
                     ]
                 }
             ]
@@ -71,10 +71,10 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "Ei",
                         "GlW",
                         "GlD",
-                        "Ei",
+                        "Gl",
                         "Sl"
                     ]
                 },
@@ -82,25 +82,25 @@
                     "name": "Katerfrühstück: Dillhappen vom Matjeshering",
                     "price": 2.4,
                     "ingredients": [
-                        "3",
-                        "Fi",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "11",
-                        "Sf",
                         "Ei",
-                        "2"
+                        "11",
+                        "GlW",
+                        "Fi",
+                        "Mi",
+                        "2",
+                        "Sf",
+                        "Gl",
+                        "3"
                     ]
                 },
                 {
                     "name": "Rinderhacksteak mit Sauce Bernaise",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "R",
-                        "Sf",
                         "Ei",
+                        "Mi",
+                        "Sf",
+                        "R",
                         "Sl"
                     ]
                 }
@@ -113,9 +113,9 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "2",
+                        "Gl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -142,9 +142,9 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "1",
                         "Gl",
                         "GlW",
+                        "1",
                         "Mi"
                     ]
                 }
