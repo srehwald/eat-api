@@ -9,24 +9,24 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "GlW",
                         "Mi",
-                        "GlG",
+                        "S",
                         "Gl",
-                        "S"
+                        "Kn",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Sl",
                         "Ei",
-                        "Kn",
                         "GlW",
                         "Mi",
                         "Gl",
-                        "Sl"
+                        "Kn"
                     ]
                 }
             ]
@@ -39,9 +39,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
+                        "2",
                         "GlW",
                         "Mi",
-                        "2",
                         "Gl",
                         "1"
                     ]
@@ -50,16 +50,16 @@
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "price": 2.6,
                     "ingredients": [
+                        "Sf",
                         "Ei",
-                        "Kn",
                         "GlW",
                         "Mi",
-                        "Sw",
-                        "Sf",
-                        "GlG",
-                        "Gl",
                         "S",
-                        "3"
+                        "Gl",
+                        "Sw",
+                        "Kn",
+                        "3",
+                        "GlG"
                     ]
                 }
             ]
@@ -71,11 +71,11 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
+                        "Sl",
                         "Ei",
                         "GlW",
-                        "GlD",
                         "Gl",
-                        "Sl"
+                        "GlD"
                     ]
                 },
                 {
@@ -83,25 +83,25 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "11",
-                        "GlW",
-                        "Fi",
-                        "Mi",
                         "2",
-                        "Sf",
+                        "GlW",
+                        "Mi",
                         "Gl",
-                        "3"
+                        "Sf",
+                        "11",
+                        "3",
+                        "Fi"
                     ]
                 },
                 {
                     "name": "Rinderhacksteak mit Sauce Bernaise",
                     "price": 3.0,
                     "ingredients": [
+                        "Sl",
                         "Ei",
                         "Mi",
                         "Sf",
-                        "R",
-                        "Sl"
+                        "R"
                     ]
                 }
             ]
@@ -113,10 +113,10 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
@@ -142,9 +142,9 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
+                        "1",
                         "Gl",
                         "GlW",
-                        "1",
                         "Mi"
                     ]
                 }
