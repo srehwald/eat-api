@@ -16,9 +16,9 @@
                     "name": "Pasta all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "Gl",
+                        "GlW",
+                        "Kn",
                         "2"
                     ]
                 },
@@ -26,9 +26,9 @@
                     "name": "Schweinehalssteak mit Kräuterbutter",
                     "price": 2.6,
                     "ingredients": [
+                        "Kn",
                         "Mi",
-                        "S",
-                        "Kn"
+                        "S"
                     ]
                 },
                 {
@@ -36,10 +36,10 @@
                     "price": 3.0,
                     "ingredients": [
                         "Mi",
-                        "Sl",
-                        "GlW",
                         "Ei",
-                        "Gl"
+                        "Gl",
+                        "Sl",
+                        "GlW"
                     ]
                 }
             ]
@@ -51,23 +51,23 @@
                     "name": "Indisches Linsencurry",
                     "price": 1.0,
                     "ingredients": [
-                        "Sf",
                         "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "1",
-                        "GlW",
+                        "2",
                         "Ei",
-                        "Sf",
+                        "Mi",
                         "11",
                         "Gl",
-                        "2"
+                        "GlW",
+                        "1",
+                        "Sf"
                     ]
                 },
                 {
@@ -75,25 +75,25 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlD",
-                        "Mi",
-                        "1",
-                        "GlW",
+                        "2",
                         "Ei",
+                        "Mi",
                         "Gl",
-                        "2"
+                        "GlW",
+                        "1"
                     ]
                 },
                 {
                     "name": "Pizza Elsässer Art mit Sauerrahm, Zwiebeln, Speck und Käse",
                     "price": 3.5,
                     "ingredients": [
-                        "Mi",
-                        "So",
-                        "GlW",
                         "3",
                         "2",
+                        "Mi",
+                        "Gl",
+                        "GlW",
                         "GlG",
-                        "Gl"
+                        "So"
                     ]
                 }
             ]
@@ -112,36 +112,36 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "So",
-                        "Sl",
                         "Kn",
-                        "GlW",
+                        "Mi",
                         "Ei",
-                        "Gl"
+                        "Gl",
+                        "Sl",
+                        "GlW",
+                        "So"
                     ]
                 },
                 {
                     "name": "Pasta mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Halbe Schweinshaxe mit Biersauce",
                     "price": 3.0,
                     "ingredients": [
-                        "99",
-                        "Mi",
                         "S",
                         "Kn",
+                        "Mi",
+                        "Gl",
                         "GlW",
                         "GlG",
-                        "Gl"
+                        "99"
                     ]
                 }
             ]
@@ -153,19 +153,19 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -173,34 +173,34 @@
                     "price": 2.4,
                     "ingredients": [
                         "S",
-                        "Mi",
-                        "So",
-                        "Sl",
                         "Kn",
+                        "Mi",
                         "Ei",
                         "Se",
-                        "Sf",
-                        "Gl"
+                        "Gl",
+                        "Sl",
+                        "So",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pizza American BBQ mit Käse und rauchigem Speck",
                     "price": 3.5,
                     "ingredients": [
-                        "S",
-                        "Mi",
-                        "So",
                         "10",
-                        "Sl",
-                        "GlW",
+                        "3",
+                        "S",
                         "Kn",
-                        "Sf",
-                        "8",
+                        "2",
+                        "Mi",
                         "11",
                         "Gl",
-                        "3",
+                        "Sl",
+                        "GlW",
                         "GlG",
-                        "2"
+                        "So",
+                        "Sf",
+                        "8"
                     ]
                 }
             ]
@@ -212,34 +212,34 @@
                     "name": "Bauerneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "Fi",
-                        "9",
+                        "2",
                         "Ei",
-                        "GlW",
-                        "Sf",
+                        "Mi",
                         "11",
                         "Gl",
-                        "2"
+                        "GlW",
+                        "9",
+                        "Fi",
+                        "Sf"
                     ]
                 }
             ]
