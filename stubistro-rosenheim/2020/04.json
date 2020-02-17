@@ -9,29 +9,29 @@
                     "name": "Reisfleisch mit Kalb und Tomatensauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sl",
+                        "Sf",
                         "R",
-                        "Sf"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rahmchampignons mit Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "1",
-                        "Ei",
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "1",
+                        "Gl",
+                        "Mi",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
@@ -48,9 +48,9 @@
                     "name": "Countrykartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -73,21 +73,21 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "S",
-                        "Sl",
                         "8",
-                        "Mi"
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Rotes Thaicurry mit Hackbällchen, Zucchini und Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
-                        "S",
                         "Kn",
-                        "GlW",
+                        "S",
+                        "Mi",
                         "Gl",
+                        "Ei",
+                        "GlW",
                         "R"
                     ]
                 },
@@ -95,13 +95,13 @@
                     "name": "Frühlingsrolle mit süßer Chilisauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Sl",
-                        "Ei",
-                        "So",
                         "Kn",
+                        "Mi",
+                        "Gl",
+                        "So",
+                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
@@ -140,30 +140,30 @@
                     "name": "Gyros von der Pute mit Tzatziki (G)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "Sl",
-                        "GlG"
+                        "GlG",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gnocchi mit Gorgonzola-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Sl",
-                        "Ei",
                         "Kn",
+                        "Mi",
+                        "Gl",
+                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
@@ -202,44 +202,44 @@
                     "name": "Rinderbraten mit Rotweinsauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Mi",
-                        "GlG",
                         "99",
-                        "Sl",
-                        "Sw",
                         "Kn",
-                        "GlW",
+                        "GlG",
+                        "Mi",
                         "Gl",
-                        "R"
+                        "Sw",
+                        "GlW",
+                        "R",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Mi",
-                        "GlG",
-                        "S",
                         "Kn",
-                        "GlW",
+                        "GlG",
+                        "Mi",
                         "Gl",
-                        "2"
+                        "3",
+                        "2",
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Vegetarischer Bratling mit Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Mi",
-                        "Sl",
-                        "Ei",
-                        "So",
                         "Kn",
-                        "GlW",
+                        "Mi",
                         "Gl",
-                        "2"
+                        "So",
+                        "Sf",
+                        "Ei",
+                        "2",
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
@@ -256,10 +256,10 @@
                     "name": "Kartoffelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "5",
                         "1",
                         "Sw",
+                        "5",
+                        "3",
                         "2"
                     ]
                 },
@@ -289,23 +289,23 @@
                     "name": "Gebackenes Seelachsfilet mit Remouladensauce (F)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sf",
+                        "Fi",
                         "Mi",
                         "Gl",
-                        "Ei",
-                        "Fi"
+                        "Sf",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Hackbällchen Balkan Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
-                        "S",
                         "Kn",
-                        "GlW",
+                        "S",
+                        "Mi",
                         "Gl",
+                        "Ei",
+                        "GlW",
                         "R"
                     ]
                 },
@@ -313,10 +313,10 @@
                     "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "GlW",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
