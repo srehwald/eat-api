@@ -11,20 +11,20 @@
                     "ingredients": [
                         "S",
                         "Gl",
-                        "GlW",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "GlW",
                         "Mi",
-                        "Kn",
-                        "Ei"
+                        "Gl",
+                        "GlW",
+                        "Sl",
+                        "Ei",
+                        "Kn"
                     ]
                 }
             ]
@@ -33,21 +33,21 @@
             "date": "2020-02-18",
             "dishes": [
                 {
-                    "name": "Bratwurstschnecke",
-                    "price": 2.4,
-                    "ingredients": [
-                        "S",
-                        "8",
-                        "Sl"
-                    ]
-                },
-                {
-                    "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
+                    "name": "Pasta Napoli (Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "Kn",
+                        "GlW"
+                    ]
+                },
+                {
+                    "name": "Bratwurstschnecke",
+                    "price": 2.4,
+                    "ingredients": [
+                        "8",
+                        "Sl",
+                        "S"
                     ]
                 }
             ]
@@ -60,22 +60,22 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "Kn",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
                         "S",
-                        "GlW",
-                        "Mi",
+                        "Gl",
                         "Sf",
-                        "Ei"
+                        "GlW",
+                        "Sl",
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]
@@ -87,9 +87,9 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
                         "1",
-                        "Mi"
+                        "Mi",
+                        "2"
                     ]
                 },
                 {
@@ -109,10 +109,10 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Ei",
-                        "Mi"
+                        "Gl",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
@@ -120,11 +120,11 @@
                     "price": 2.6,
                     "ingredients": [
                         "Gl",
-                        "Sl",
-                        "GlW",
-                        "Kn",
                         "Sf",
-                        "En"
+                        "GlW",
+                        "Sl",
+                        "En",
+                        "Kn"
                     ]
                 }
             ]
