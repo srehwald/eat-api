@@ -11,19 +11,19 @@
                     "ingredients": [
                         "GlW",
                         "Gl",
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
+                        "GlW",
                         "Gl",
+                        "Mi",
                         "Ei",
                         "Kn",
-                        "GlW",
-                        "Mi",
                         "Sl"
                     ]
                 },
@@ -31,14 +31,14 @@
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
-                        "GlG",
-                        "Kn",
                         "GlW",
+                        "Gl",
                         "Mi",
+                        "GlG",
+                        "Ei",
                         "2",
-                        "S"
+                        "S",
+                        "Kn"
                     ]
                 }
             ]
@@ -50,9 +50,9 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Sf",
                         "GlW",
                         "Gl",
+                        "Sf",
                         "Kn"
                     ]
                 },
@@ -60,22 +60,22 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "GlW",
                         "Gl",
-                        "Kn",
-                        "Mi"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
+                        "99",
+                        "GlW",
                         "Gl",
                         "5",
-                        "GlW",
                         "Mi",
-                        "Sw",
-                        "99"
+                        "Sw"
                     ]
                 }
             ]
@@ -87,29 +87,29 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Mi",
                         "GlW",
                         "Gl",
-                        "Kn",
-                        "Mi"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
-                        "Sf",
                         "GlW",
+                        "Gl",
                         "Mi",
+                        "Sf",
+                        "Ei",
                         "S",
                         "Sl"
                     ]
@@ -131,8 +131,8 @@
                     "name": "Rendang - Indonesisches Rindfleisch (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "2"
+                        "2",
+                        "R"
                     ]
                 }
             ]
@@ -144,9 +144,9 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "GlW",
                         "Gl",
-                        "Mi",
                         "Ei"
                     ]
                 },
@@ -154,11 +154,11 @@
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
-                        "GlW",
-                        "Mi",
                         "Fi",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "Ei",
                         "Sl"
                     ]
                 }
