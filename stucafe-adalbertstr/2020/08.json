@@ -9,26 +9,26 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Sl",
-                        "Ei",
                         "Gl",
-                        "Mi",
+                        "Ei",
                         "Kn",
-                        "GlW"
+                        "Sl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Ei",
                         "Gl",
+                        "Ei",
                         "Mi",
+                        "GlW",
                         "2",
-                        "S",
-                        "Kn",
                         "GlG",
-                        "GlW"
+                        "S",
+                        "Kn"
                     ]
                 }
             ]
@@ -41,8 +41,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -50,12 +50,12 @@
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "Sw",
                         "Gl",
-                        "Mi",
                         "5",
                         "99",
-                        "GlW"
+                        "GlW",
+                        "Sw",
+                        "Mi"
                     ]
                 }
             ]
@@ -68,8 +68,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -77,13 +77,13 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
+                        "Ei",
                         "Sl",
                         "Sf",
-                        "Ei",
-                        "Gl",
-                        "Mi",
+                        "GlW",
                         "S",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]
@@ -95,16 +95,16 @@
                     "name": "Gemüsespieß mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rendang - Indonesisches Rindfleisch",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "2"
+                        "2",
+                        "R"
                     ]
                 }
             ]
@@ -116,8 +116,8 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
                         "Gl",
+                        "Ei",
                         "Mi",
                         "GlW"
                     ]
@@ -126,12 +126,12 @@
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "Sl",
-                        "Fi",
-                        "Ei",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Ei",
+                        "Sl",
+                        "GlW",
+                        "Fi",
+                        "Mi"
                     ]
                 }
             ]
