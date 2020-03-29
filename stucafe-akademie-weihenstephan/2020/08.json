@@ -11,20 +11,20 @@
                     "ingredients": [
                         "S",
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
                         "Sl",
-                        "Gl",
+                        "GlW",
                         "Kn",
                         "Mi",
-                        "GlW"
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
@@ -36,9 +36,9 @@
                     "name": "Pasta Napoli (Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -59,23 +59,23 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
                         "Mi",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
                         "Sl",
-                        "Sf",
-                        "Gl",
-                        "Mi",
+                        "S",
                         "GlW",
-                        "S"
+                        "Sf",
+                        "Mi",
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
@@ -109,10 +109,10 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
                         "Mi",
-                        "GlW"
+                        "Ei",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -120,10 +120,10 @@
                     "price": 2.6,
                     "ingredients": [
                         "Sl",
-                        "Sf",
                         "En",
-                        "Gl",
+                        "Sf",
                         "Kn",
+                        "Gl",
                         "GlW"
                     ]
                 }
