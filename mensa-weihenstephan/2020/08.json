@@ -9,10 +9,10 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
+                        "Kn",
                         "Gl",
                         "GlW",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
@@ -20,8 +20,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "S",
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -29,12 +29,12 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Sl",
-                        "Mi",
                         "Ei",
                         "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "Sl",
+                        "Mi"
                     ]
                 }
             ]
@@ -46,10 +46,10 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Sf",
+                        "Kn",
                         "Gl",
                         "GlW",
-                        "Kn"
+                        "Sf"
                     ]
                 },
                 {
@@ -65,9 +65,9 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Kn"
+                        "GlW"
                     ]
                 }
             ]
@@ -79,31 +79,31 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "Kn",
                         "Mi",
-                        "GlW",
-                        "Kn"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "Sf",
-                        "Sl",
-                        "Mi",
                         "Ei",
+                        "Sf",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "S",
+                        "Mi"
                     ]
                 }
             ]
@@ -151,8 +151,8 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "Ei",
                         "GlW"
                     ]
@@ -162,23 +162,23 @@
                     "price": 2.6,
                     "ingredients": [
                         "Sf",
-                        "En",
-                        "Sl",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Sl",
+                        "En",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 3.2,
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "GlW",
                         "Ei",
                         "Fi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Sl",
+                        "Mi"
                     ]
                 }
             ]
