@@ -9,14 +9,14 @@
                     "name": "Holzfällersteak vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "3",
                         "GlG",
                         "2",
                         "Mi",
-                        "S",
-                        "Gl"
+                        "Gl",
+                        "3",
+                        "Kn",
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
@@ -43,18 +43,18 @@
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sw",
-                        "GlW",
-                        "99",
-                        "3",
-                        "Sf",
                         "GlG",
                         "2",
-                        "Mi",
                         "R",
-                        "S",
+                        "99",
+                        "Mi",
+                        "Sw",
                         "Gl",
+                        "3",
+                        "Kn",
+                        "GlW",
+                        "Sf",
+                        "S",
                         "Sl"
                     ]
                 },
@@ -74,9 +74,9 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
                         "3",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -84,10 +84,10 @@
                     "name": "Nasi Goreng (mit Hähnchenfleisch)",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Kn",
                         "GlW",
                         "Sf",
-                        "Gl",
                         "So"
                     ]
                 },
@@ -95,9 +95,9 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "Sw",
                         "3",
+                        "Sw",
+                        "5",
                         "Sl"
                     ]
                 },
@@ -110,16 +110,16 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "8",
-                        "3",
-                        "Sf",
                         "GlG",
                         "2",
                         "Mi",
-                        "S",
                         "Gl",
+                        "3",
+                        "Kn",
+                        "GlW",
+                        "Sf",
+                        "S",
+                        "8",
                         "Sl"
                     ]
                 }
@@ -132,19 +132,19 @@
                     "name": "Nürnberger Würstchen",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "R"
+                        "R",
+                        "S"
                     ]
                 },
                 {
                     "name": "Asiatische Reis-Gemüsepfanne",
                     "price": "N/A",
                     "ingredients": [
+                        "2",
                         "Kn",
                         "Sf",
-                        "2",
-                        "Sl",
-                        "So"
+                        "So",
+                        "Sl"
                     ]
                 },
                 {
@@ -156,25 +156,25 @@
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
+                        "Ei",
                         "2",
                         "Mi",
                         "1",
-                        "Ei",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "GlG",
-                        "Mi",
                         "R",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -186,30 +186,30 @@
                     "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit grüner Pfeffersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "GlG",
                         "Mi",
-                        "S",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -222,16 +222,16 @@
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Se",
-                        "Sf",
+                        "Ei",
                         "Sc",
                         "Mi",
                         "1",
-                        "Ei",
+                        "Se",
                         "Gl",
-                        "Sl",
-                        "So"
+                        "GlW",
+                        "Sf",
+                        "So",
+                        "Sl"
                     ]
                 }
             ]
@@ -243,12 +243,12 @@
                     "name": "Gebratenes Zanderfilet mit Mandelbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "ScM",
-                        "Fi",
                         "Sc",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "Fi",
+                        "GlW",
+                        "ScM"
                     ]
                 },
                 {
@@ -268,24 +268,24 @@
                     "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "3",
                         "GlG",
                         "2",
                         "Mi",
-                        "S",
-                        "Gl"
+                        "Gl",
+                        "3",
+                        "Kn",
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
-                        "GlW"
+                        "Ei",
+                        "GlW",
+                        "Mi"
                     ]
                 }
             ]
