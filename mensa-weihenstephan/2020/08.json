@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "Gl",
                         "Sl"
                     ]
                 },
@@ -19,22 +19,22 @@
                     "name": "Schweinerückensteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "Gl",
                         "GlW",
-                        "Mi"
+                        "S",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
                         "Kn",
+                        "Ei",
+                        "GlW",
                         "Mi",
-                        "Gl",
                         "Sl",
-                        "GlW"
+                        "Gl"
                     ]
                 }
             ]
@@ -46,18 +46,18 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "Sf"
+                        "Sf",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
                         "Sl",
+                        "S",
                         "8"
                     ]
                 },
@@ -65,9 +65,9 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Kn",
-                        "GlW"
+                        "Gl"
                     ]
                 }
             ]
@@ -79,18 +79,18 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
-                        "Mi"
+                        "Kn",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -98,12 +98,12 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
+                        "GlW",
                         "Mi",
-                        "Gl",
-                        "S",
-                        "Sf",
                         "Sl",
-                        "GlW"
+                        "Sf",
+                        "S",
+                        "Gl"
                     ]
                 }
             ]
@@ -122,17 +122,17 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
+                        "1",
                         "2",
-                        "Mi",
-                        "1"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Schaschlik",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
-                        "Sf"
+                        "Sf",
+                        "S"
                     ]
                 }
             ]
@@ -151,22 +151,22 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
                         "GlW",
-                        "Mi"
+                        "Ei",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Massaman Curry (mit Hähnchen)",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
                         "En",
-                        "Gl",
-                        "Sf",
+                        "Kn",
+                        "GlW",
                         "Sl",
-                        "GlW"
+                        "Sf",
+                        "Gl"
                     ]
                 },
                 {
@@ -174,11 +174,11 @@
                     "price": 3.2,
                     "ingredients": [
                         "Ei",
+                        "GlW",
                         "Mi",
-                        "Gl",
-                        "Sl",
                         "Fi",
-                        "GlW"
+                        "Sl",
+                        "Gl"
                     ]
                 }
             ]
