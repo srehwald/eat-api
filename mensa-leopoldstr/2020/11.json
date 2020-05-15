@@ -9,12 +9,12 @@
                     "name": "Rotes Curry vom Rind (GQB) mit Wokgemüse und Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sl",
-                        "Kn",
-                        "Gl",
                         "R",
-                        "So"
+                        "Sl",
+                        "So",
+                        "GlW",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -28,25 +28,25 @@
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Kümmelsauce und Kartoffelbrei",
                     "price": "N/A",
                     "ingredients": [
+                        "R",
                         "S",
                         "Sf",
-                        "GlW",
                         "Mi",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "R",
+                        "GlG",
                         "Ei",
-                        "GlG"
+                        "Kn"
                     ]
                 }
             ]
@@ -58,13 +58,13 @@
                     "name": "Kalbshüftsteak vom Grill mit Pilzrahmsauce und Spinatspätzle",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
                         "Sw",
-                        "GlW",
+                        "99",
                         "Mi",
+                        "GlW",
                         "Gl",
-                        "Ei",
-                        "99"
+                        "5",
+                        "Ei"
                     ]
                 },
                 {
@@ -78,25 +78,25 @@
                     "name": "Moussaka mit Gemüse und Schafskäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "GlW",
                         "1",
+                        "Sf",
                         "Mi",
+                        "11",
+                        "GlW",
                         "Gl",
-                        "Kn",
                         "Ei",
-                        "11"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Seelachsfilet (MSC) nach Müllerin Art mit Petersilienkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "GlW",
-                        "Fi",
                         "1",
+                        "Fi",
+                        "Sf",
                         "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 }
@@ -114,21 +114,21 @@
                     "name": "Kokos-Pilz-Topf mit Glasnudeln",
                     "price": "N/A",
                     "ingredients": [
+                        "2",
                         "Sf",
-                        "Kn",
-                        "2"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gefüllte Paprikaschote mit Tomatensauce und Reis",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "GlD",
                         "Mi",
+                        "2",
+                        "GlW",
                         "Gl",
-                        "Kn",
-                        "2"
+                        "GlD",
+                        "Kn"
                     ]
                 },
                 {
@@ -147,32 +147,32 @@
                     "name": "Gebratene Hähnchenbruststreifen kantonesische Art (süß-sauer) und Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
                         "Sw",
+                        "So",
                         "GlW",
-                        "3",
                         "Gl",
-                        "So"
+                        "5",
+                        "3"
                     ]
                 },
                 {
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Hausgemachte Gemüsequiche mit Schnittlauchdip",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "1",
                         "Mi",
-                        "Gl",
                         "2",
+                        "GlW",
+                        "Gl",
                         "Ei"
                     ]
                 },
@@ -181,15 +181,15 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
-                        "5",
                         "Sw",
-                        "GlW",
+                        "99",
                         "Mi",
-                        "Gl",
                         "2",
-                        "Kn",
+                        "GlW",
+                        "Gl",
                         "GlG",
-                        "99"
+                        "5",
+                        "Kn"
                     ]
                 }
             ]
@@ -201,31 +201,31 @@
                     "name": "Forelle Müllerin Art mit Mandelbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "GlW",
                         "Fi",
                         "Mi",
-                        "ScM",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Sc",
+                        "ScM"
                     ]
                 },
                 {
                     "name": "Kichererbsencurry mit Gemüse und Chili",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gebratene Hähnchenkeule mit Barbecuesauce und Süßkartoffel Pommes",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Sl",
-                        "Kn",
                         "10",
-                        "11"
+                        "Sl",
+                        "Sf",
+                        "11",
+                        "Kn"
                     ]
                 },
                 {
@@ -233,9 +233,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
