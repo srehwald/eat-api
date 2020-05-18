@@ -9,19 +9,19 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "GlG",
                         "Kn",
-                        "Gl"
+                        "GlG",
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "R",
                         "GlW",
+                        "R",
+                        "2",
                         "Gl",
                         "Kn"
                     ]
@@ -30,29 +30,29 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
                         "GlW",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Green-Thai-Curry vom Rind (GQB)",
                     "price": 3.0,
                     "ingredients": [
-                        "R",
-                        "Kn"
+                        "Kn",
+                        "R"
                     ]
                 },
                 {
                     "name": "Pochiertes Welsfilet aus dem Wurzelsud mit Petersilienkartoffel und frischem Meerrettich",
                     "price": 4.0,
                     "ingredients": [
-                        "Fi",
-                        "99",
-                        "5",
                         "Sw",
-                        "Sl"
+                        "5",
+                        "Sl",
+                        "Fi",
+                        "99"
                     ]
                 }
             ]
@@ -64,8 +64,8 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -73,40 +73,40 @@
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": 1.9,
                     "ingredients": [
-                        "3",
-                        "S",
-                        "2",
                         "GlW",
+                        "3",
                         "8",
-                        "Gl",
                         "Mi",
+                        "2",
+                        "Gl",
+                        "Kn",
                         "Ei",
-                        "Kn"
+                        "S"
                     ]
                 },
                 {
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
-                        "Sf",
-                        "2",
                         "GlW",
                         "Mi",
+                        "2",
                         "Gl",
+                        "Kn",
                         "Ei",
-                        "Kn"
+                        "Sf",
+                        "1"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel vom Truthahn mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "3",
-                        "2",
-                        "GlG",
                         "GlW",
+                        "3",
+                        "GlG",
                         "Mi",
+                        "2",
                         "Gl",
                         "Kn"
                     ]
@@ -115,13 +115,13 @@
                     "name": "Gebackenes Karpfenfilet fränkische Art mit Kartoffelsalat",
                     "price": 4.5,
                     "ingredients": [
-                        "3",
-                        "99",
-                        "5",
-                        "GlG",
                         "GlW",
+                        "3",
                         "Sw",
-                        "Gl"
+                        "GlG",
+                        "5",
+                        "Gl",
+                        "99"
                     ]
                 }
             ]
@@ -140,10 +140,10 @@
                     "name": "Pasta mit Putenbolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Sl"
                     ]
                 },
                 {
@@ -161,23 +161,23 @@
                     "ingredients": [
                         "GlW",
                         "Mi",
+                        "Sl",
                         "Gl",
-                        "Ei",
-                        "Sl"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Südfranzösischer Fischtopf mit Meeresfrüchten, Gemüse und Baguette",
                     "price": 4.5,
                     "ingredients": [
-                        "Kr",
-                        "Fi",
-                        "Wt",
-                        "GlR",
-                        "GlG",
                         "GlW",
+                        "Wt",
+                        "GlG",
+                        "Fi",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlR",
+                        "Kr"
                     ]
                 }
             ]
@@ -197,20 +197,20 @@
                     "price": 3.0,
                     "ingredients": [
                         "3",
-                        "S",
-                        "5",
                         "Sw",
                         "Mi",
-                        "Kn"
+                        "5",
+                        "Kn",
+                        "S"
                     ]
                 },
                 {
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": 3.5,
                     "ingredients": [
+                        "GlW",
                         "So",
                         "2",
-                        "GlW",
                         "Gl",
                         "Kn"
                     ]
@@ -219,25 +219,25 @@
                     "name": "Fish (MSC) & Chips mit Sauce Tartare",
                     "price": 4.0,
                     "ingredients": [
-                        "Fi",
-                        "1",
-                        "Sf",
                         "GlW",
-                        "11",
-                        "Gl",
                         "Mi",
-                        "Ei"
+                        "Fi",
+                        "Gl",
+                        "Ei",
+                        "Sf",
+                        "1",
+                        "11"
                     ]
                 },
                 {
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
-                        "So",
                         "GlW",
-                        "Gl",
-                        "Sl"
+                        "So",
+                        "Sl",
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -249,8 +249,8 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -258,23 +258,23 @@
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
                         "GlW",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
-                        "99",
-                        "GlG",
                         "GlW",
+                        "GlG",
                         "Mi",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "S",
+                        "99"
                     ]
                 },
                 {
