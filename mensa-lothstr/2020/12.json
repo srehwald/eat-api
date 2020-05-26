@@ -16,23 +16,23 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
                         "Kn",
-                        "Mi",
-                        "S",
                         "GlW",
-                        "GlG",
+                        "Mi",
                         "2",
+                        "3",
+                        "GlG",
+                        "S",
                         "Gl"
                     ]
                 },
@@ -40,19 +40,19 @@
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "Sw",
-                        "3",
                         "99",
                         "Kn",
-                        "Mi",
-                        "Sf",
-                        "S",
                         "GlW",
-                        "Sl",
-                        "GlG",
+                        "Sf",
+                        "Sw",
+                        "Mi",
                         "2",
-                        "Gl",
-                        "R"
+                        "R",
+                        "3",
+                        "GlG",
+                        "Sl",
+                        "S",
+                        "Gl"
                     ]
                 }
             ]
@@ -64,9 +64,9 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
+                        "Sl",
                         "Sw",
                         "3",
-                        "Sl",
                         "5"
                     ]
                 },
@@ -74,9 +74,9 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "Gl",
                         "3",
-                        "Kn",
                         "GlW"
                     ]
                 },
@@ -85,10 +85,10 @@
                     "price": 2.4,
                     "ingredients": [
                         "Kn",
-                        "Sf",
                         "GlW",
-                        "So",
+                        "Sf",
                         "2",
+                        "So",
                         "Gl"
                     ]
                 },
@@ -96,16 +96,16 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.8,
                     "ingredients": [
-                        "3",
                         "Kn",
-                        "Mi",
-                        "Sf",
-                        "S",
                         "GlW",
-                        "Sl",
-                        "GlG",
-                        "8",
+                        "Sf",
+                        "Mi",
                         "2",
+                        "3",
+                        "GlG",
+                        "Sl",
+                        "S",
+                        "8",
                         "Gl"
                     ]
                 }
@@ -120,21 +120,21 @@
                     "ingredients": [
                         "Kn",
                         "Sf",
-                        "Sl",
+                        "2",
                         "So",
-                        "2"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
-                        "Kn",
-                        "Mi",
-                        "GlW",
                         "1",
+                        "Kn",
+                        "GlW",
+                        "Mi",
                         "2",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -143,9 +143,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "Kn",
+                        "GlW",
                         "Mi",
                         "S",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -154,11 +154,11 @@
                     "price": 3.2,
                     "ingredients": [
                         "Kn",
-                        "Mi",
                         "GlW",
+                        "Mi",
+                        "R",
                         "GlG",
-                        "Gl",
-                        "R"
+                        "Gl"
                     ]
                 }
             ]
@@ -170,8 +170,8 @@
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -179,25 +179,25 @@
                     "name": "Tandoori Chicken in Joghurtmarinade und Gurken-Minz-Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
                         "Sf",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
-                        "Sc",
-                        "Se",
-                        "Mi",
-                        "Sf",
-                        "GlW",
-                        "Sl",
                         "1",
+                        "GlW",
+                        "Sf",
+                        "Mi",
+                        "Sc",
                         "So",
-                        "Gl"
+                        "Ei",
+                        "Sl",
+                        "Gl",
+                        "Se"
                     ]
                 },
                 {
@@ -205,10 +205,10 @@
                     "price": 2.6,
                     "ingredients": [
                         "Kn",
-                        "Mi",
-                        "S",
                         "GlW",
+                        "Mi",
                         "GlG",
+                        "S",
                         "Gl"
                     ]
                 },
@@ -216,10 +216,10 @@
                     "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 }
             ]
@@ -231,29 +231,29 @@
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
                     "price": 2.8,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
                         "Ei",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Gebratenes Zanderfilet mit Mandelbutter",
                     "price": 4.0,
                     "ingredients": [
-                        "Sc",
-                        "Mi",
-                        "GlW",
-                        "Fi",
                         "ScM",
+                        "GlW",
+                        "Mi",
+                        "Fi",
+                        "Sc",
                         "Gl"
                     ]
                 }
