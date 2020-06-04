@@ -10,21 +10,21 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
-                        "Mi",
-                        "Ei",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Mi",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Pizza mit Gorgonzola",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Gl",
                         "So",
                         "GlW",
+                        "Mi",
+                        "Gl",
                         "GlG"
                     ]
                 },
@@ -49,9 +49,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
-                        "Kn",
                         "Gl",
-                        "GlG"
+                        "GlG",
+                        "Kn"
                     ]
                 },
                 {
@@ -63,30 +63,30 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Mi",
-                        "Ei",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Chili con Carne",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Gl",
                         "R",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
                     "name": "Pochiertes Welsfilet aus dem Wurzelsud mit Petersilienkartoffel und frischem Meerrettich",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "Sl",
                         "99",
+                        "Sl",
+                        "Sw",
                         "5"
                     ]
                 }
@@ -99,57 +99,57 @@
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Mi",
-                        "Ei",
-                        "3",
-                        "Gl",
-                        "8",
-                        "S",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "8",
+                        "3",
+                        "S",
+                        "Mi",
+                        "Gl",
+                        "Ei",
+                        "2"
                     ]
                 },
                 {
                     "name": "Pizza Regina mit (Vorder-)Schinken und Champignons",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Mi",
-                        "3",
-                        "Gl",
-                        "8",
                         "So",
-                        "S",
                         "GlW",
-                        "GlG"
+                        "S",
+                        "8",
+                        "3",
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "2"
                     ]
                 },
                 {
                     "name": "Rindersteak mit Rotwein-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Sw",
                         "R",
                         "GlW",
                         "Kn",
+                        "Mi",
                         "99",
-                        "GlG"
+                        "GlG",
+                        "Gl",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Phad Thai - Thailändisches Nudelgericht",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
                         "So",
-                        "En",
                         "GlW",
+                        "Kn",
                         "Fi",
-                        "Kn"
+                        "En",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -170,40 +170,40 @@
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Mi",
-                        "Ei",
-                        "Gl",
                         "Sf",
                         "GlW",
                         "Kn",
-                        "1"
+                        "Mi",
+                        "Gl",
+                        "1",
+                        "Ei",
+                        "2"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel vom Truthahn mit Waldpilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Mi",
-                        "3",
-                        "Gl",
                         "GlW",
                         "Kn",
-                        "GlG"
+                        "3",
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "2"
                     ]
                 },
                 {
                     "name": "Gebackenes Karpfenfilet fränkische Art mit Kartoffelsalat",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Gl",
-                        "Sw",
-                        "GlW",
                         "5",
+                        "GlW",
+                        "3",
                         "99",
-                        "GlG"
+                        "GlG",
+                        "Gl",
+                        "Sw"
                     ]
                 }
             ]
@@ -215,8 +215,8 @@
                     "name": "Pasta mit Putenbolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Sl",
+                        "GlW",
                         "Gl",
                         "Kn"
                     ]
@@ -225,12 +225,12 @@
                     "name": "Pizza türkische Art mit Rindfleisch und Chili",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "So",
                         "R",
+                        "So",
                         "GlW",
                         "Kn",
+                        "Mi",
+                        "Gl",
                         "GlG"
                     ]
                 },
@@ -238,9 +238,9 @@
                     "name": "Hähnchenbrustfilet mit Gemüsesalsa (scharf)",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
                         "4",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -248,12 +248,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
-                        "Gl",
                         "So",
-                        "Se",
                         "GlW",
-                        "Kr",
-                        "1"
+                        "Gl",
+                        "1",
+                        "Se",
+                        "Kr"
                     ]
                 },
                 {
@@ -272,49 +272,49 @@
                     "name": "Kaspressknödel mit Bouillongemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Mi",
-                        "Ei",
-                        "Gl",
                         "So",
                         "GlW",
-                        "GlG"
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "Ei",
+                        "2"
                     ]
                 },
                 {
                     "name": "Andalusisches Rinderragout (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Sw",
+                        "5",
                         "R",
                         "GlW",
-                        "5",
-                        "99"
+                        "99",
+                        "Sw",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Südfranzösischer Fischtopf mit Meeresfrüchten, Gemüse und Baguette",
                     "price": "N/A",
                     "ingredients": [
-                        "Kr",
-                        "Wt",
-                        "Gl",
-                        "GlR",
                         "GlW",
-                        "Fi",
                         "Kn",
-                        "GlG"
+                        "Wt",
+                        "Fi",
+                        "GlR",
+                        "Gl",
+                        "GlG",
+                        "Kr"
                     ]
                 },
                 {
                     "name": "Apfelkücherl mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Mi",
-                        "Ei",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
@@ -326,49 +326,49 @@
                     "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "3",
-                        "Gl",
+                        "6",
                         "GlD",
                         "Kn",
-                        "6"
+                        "3",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pizza Parma mit Parmaschinken, Rucola und Grana Padano",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
-                        "Gl",
                         "So",
-                        "S",
                         "GlW",
-                        "GlG"
+                        "S",
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinefilet mit Chimichuri",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "So",
-                        "En",
-                        "Se",
                         "GlW",
+                        "Kn",
                         "S",
-                        "Kn"
+                        "En",
+                        "Gl",
+                        "Se"
                     ]
                 },
                 {
                     "name": "Hähnchenbrust Thai-Style mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Gl",
                         "So",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "2"
                     ]
                 },
                 {
@@ -388,36 +388,36 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
-                        "Gl",
                         "So",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "3",
-                        "Sw",
-                        "S",
+                        "5",
                         "Kn",
-                        "5"
+                        "S",
+                        "3",
+                        "Mi",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Fish (MSC) & Chips mit Sauce Tartare",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
-                        "Gl",
-                        "Sf",
                         "11",
+                        "Sf",
                         "GlW",
                         "Fi",
-                        "1"
+                        "Mi",
+                        "Gl",
+                        "1",
+                        "Ei"
                     ]
                 }
             ]
@@ -430,22 +430,22 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
-                        "Mi",
-                        "Ei",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Mi",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Pizza mit Spinat und Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Gl",
                         "So",
                         "GlW",
                         "Kn",
+                        "Mi",
+                        "Gl",
                         "GlG"
                     ]
                 },
@@ -453,13 +453,13 @@
                     "name": "Garnelen mit Zitronen-Kokos-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
-                        "Gl",
-                        "Sf",
-                        "8",
                         "11",
+                        "Sf",
                         "GlW",
+                        "8",
+                        "Mi",
+                        "Gl",
+                        "Ei",
                         "Kr"
                     ]
                 },
@@ -467,14 +467,14 @@
                     "name": "Chop Suey vom Schweinefleisch",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Gl",
-                        "Sw",
+                        "5",
                         "So",
-                        "S",
                         "GlW",
                         "Kn",
-                        "5"
+                        "S",
+                        "3",
+                        "Gl",
+                        "Sw"
                     ]
                 },
                 {
@@ -495,31 +495,31 @@
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "S",
                         "GlW",
                         "Kn",
+                        "S",
+                        "Mi",
                         "99",
-                        "GlG"
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Wolfsbarschfilet aus dem Ofen in Zitronen-Knoblauch-Kräuter-Marinade",
                     "price": "N/A",
                     "ingredients": [
-                        "Fi",
-                        "Kn"
+                        "Kn",
+                        "Fi"
                     ]
                 },
                 {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Mi",
-                        "Ei",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
