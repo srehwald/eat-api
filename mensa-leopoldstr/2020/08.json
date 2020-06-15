@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sl",
                         "Gl",
+                        "Sl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -19,8 +19,8 @@
                     "name": "Tomaten-Kokos-Suppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -28,51 +28,51 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
-                        "Mi",
-                        "Kn",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Mi",
+                        "Sl",
+                        "Kn",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
                         "GlG",
-                        "Kn",
                         "Gl",
                         "GlW",
-                        "R"
+                        "Mi",
+                        "Sl",
+                        "R",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Andalusisches Rinderragout (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
+                        "Sw",
                         "99",
-                        "5",
                         "Gl",
                         "GlW",
-                        "Sw"
+                        "5",
+                        "R"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse, rohem Schinken und Röstkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Ei",
-                        "Mi",
                         "GlG",
                         "Gl",
+                        "S",
                         "GlW",
+                        "Mi",
                         "Kn",
-                        "S"
+                        "2",
+                        "Ei"
                     ]
                 }
             ]
@@ -84,49 +84,49 @@
                     "name": "Pizza Verdura mit gebratenem Gemüse und Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Mi",
                         "GlG",
-                        "Kn",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Sweet & Sour mit Schweinefleisch mit Chinanudeln",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Sl",
                         "11",
-                        "Sf",
-                        "5",
-                        "Gl",
-                        "GlW",
-                        "Kn",
                         "10",
                         "3",
+                        "Sw",
+                        "Gl",
+                        "Sf",
                         "S",
-                        "Sw"
+                        "GlW",
+                        "5",
+                        "Sl",
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "GlW",
-                        "Sf"
+                        "Sf",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -134,16 +134,16 @@
                     "name": "Seelachsfilet (MSC) Lemon Koriander mit Buttersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Fi",
-                        "Ei",
-                        "Sf",
+                        "Sw",
                         "99",
-                        "Mi",
-                        "5",
                         "Gl",
+                        "Sf",
                         "GlW",
                         "1",
-                        "Sw"
+                        "Fi",
+                        "5",
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
@@ -155,8 +155,8 @@
                     "name": "Hähnchenspieß mit Apfel-Mango-Chutney und Curcumareis",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "Gl",
+                        "So",
                         "GlW"
                     ]
                 },
@@ -184,24 +184,24 @@
                     "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Mi",
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze) und Röstkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
-                        "Sf",
-                        "Mi",
+                        "S",
                         "Gl",
+                        "Sf",
                         "GlW",
-                        "S"
+                        "Mi",
+                        "Sl",
+                        "Ei"
                     ]
                 }
             ]
@@ -213,8 +213,8 @@
                     "name": "Rendang - Indonesisches Rindfleisch (GQB) mit Kichererbsenreis",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "R"
+                        "R",
+                        "2"
                     ]
                 },
                 {
@@ -226,23 +226,23 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
+                        "1",
                         "2",
-                        "Mi",
-                        "1"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art mit Rosmarinkartoffeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Sw",
                         "99",
-                        "Mi",
                         "GlG",
-                        "5",
                         "Gl",
                         "GlW",
-                        "Kn",
-                        "Sw"
+                        "Mi",
+                        "5",
+                        "Kn"
                     ]
                 }
             ]
@@ -254,12 +254,12 @@
                     "name": "Massaman Curry (mit Hähnchen) mit Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Sf",
-                        "En",
-                        "Kn",
                         "Gl",
-                        "GlW"
+                        "Sf",
+                        "GlW",
+                        "Sl",
+                        "En",
+                        "Kn"
                     ]
                 },
                 {
@@ -273,27 +273,27 @@
                     "name": "Schupfnudeln mit Sauerkraut und Kümmel",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
-                        "Mi",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Mi",
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Hackbraten mit Rahmsauce und Kartoffelpürree",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Ei",
-                        "Sf",
-                        "Mi",
                         "GlG",
-                        "Kn",
                         "Gl",
-                        "GlW",
+                        "Sf",
                         "S",
-                        "R"
+                        "GlW",
+                        "Mi",
+                        "R",
+                        "Kn",
+                        "So",
+                        "Ei"
                     ]
                 },
                 {
@@ -301,11 +301,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "8",
-                        "2",
-                        "Sl",
                         "3",
                         "S",
-                        "R"
+                        "Sl",
+                        "R",
+                        "2"
                     ]
                 }
             ]

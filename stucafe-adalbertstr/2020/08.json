@@ -9,25 +9,25 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "Ei",
-                        "Sl",
+                        "Mi",
                         "GlW",
-                        "Kn"
+                        "Gl",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "GlG",
-                        "Mi",
                         "Ei",
-                        "S",
+                        "Mi",
                         "GlW",
+                        "S",
+                        "GlG",
                         "2",
+                        "Gl",
                         "Kn"
                     ]
                 }
@@ -40,8 +40,8 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "GlW",
                         "Kn"
                     ]
@@ -50,12 +50,12 @@
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "5",
                         "GlW",
+                        "5",
                         "Sw",
-                        "99"
+                        "99",
+                        "Gl"
                     ]
                 }
             ]
@@ -67,8 +67,8 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "GlW",
                         "Kn"
                     ]
@@ -77,13 +77,13 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "Ei",
-                        "Sf",
-                        "Sl",
+                        "Mi",
+                        "GlW",
                         "S",
-                        "GlW"
+                        "Sf",
+                        "Gl",
+                        "Sl"
                     ]
                 }
             ]
@@ -103,8 +103,8 @@
                     "name": "Rendang - Indonesisches Rindfleisch",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "2"
+                        "2",
+                        "R"
                     ]
                 }
             ]
@@ -116,22 +116,22 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Mi",
                         "Gl",
                         "GlW",
-                        "Ei",
-                        "Mi"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "Ei",
+                        "Mi",
                         "Fi",
-                        "Sl",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Sl"
                     ]
                 }
             ]
