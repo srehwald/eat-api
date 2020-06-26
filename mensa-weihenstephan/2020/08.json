@@ -10,9 +10,9 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Sl",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
@@ -29,12 +29,12 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
@@ -46,19 +46,19 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Sf",
                         "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
-                        "8",
                         "S",
-                        "Sl"
+                        "Sl",
+                        "8"
                     ]
                 },
                 {
@@ -66,8 +66,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -89,21 +89,21 @@
                     "ingredients": [
                         "Mi",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "Ei",
-                        "Sl",
-                        "Mi",
                         "S",
+                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "Sf",
+                        "Ei"
                     ]
                 }
             ]
@@ -122,17 +122,17 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
+                        "Mi",
                         "2",
-                        "Mi"
+                        "1"
                     ]
                 },
                 {
                     "name": "Schaschlik",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
-                        "S"
+                        "S",
+                        "Sf"
                     ]
                 }
             ]
@@ -152,33 +152,33 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Massaman Curry (mit Hähnchen)",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
-                        "Sl",
                         "En",
                         "Kn",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 3.2,
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "Mi",
                         "Fi",
+                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
