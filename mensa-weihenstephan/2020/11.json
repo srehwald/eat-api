@@ -16,14 +16,14 @@
                     "name": "Fleischpflanzerl mit Kümmelsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
+                        "R",
+                        "Ei",
                         "Sf",
                         "Kn",
-                        "R",
-                        "GlG",
-                        "Mi",
                         "Gl",
-                        "Ei",
+                        "GlG",
+                        "S",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -31,10 +31,10 @@
                     "name": "Falafel mit Joghurt-Gurken-Minz Dip",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
+                        "GlW",
                         "Mi",
-                        "GlW"
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -53,22 +53,22 @@
                     "name": "Pasta mit Tomaten-Zucchini-Sauce",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweineschnitzel Wiener Art",
                     "price": 3.0,
                     "ingredients": [
-                        "S",
                         "Sf",
-                        "Sl",
                         "Kn",
-                        "GlG",
-                        "Mi",
                         "Gl",
+                        "Sl",
+                        "GlG",
+                        "S",
+                        "Mi",
                         "GlW"
                     ]
                 }
@@ -81,17 +81,17 @@
                     "name": "Kokos-Pilz-Topf mit Glasnudeln",
                     "price": 1.0,
                     "ingredients": [
-                        "2",
+                        "Kn",
                         "Sf",
-                        "Kn"
+                        "2"
                     ]
                 },
                 {
                     "name": "Pasta mit grünem Spargel, Petersilie und Kirschtomaten",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -108,27 +108,27 @@
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": 1.0,
                     "ingredients": [
+                        "GlW",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Fränkische Bratwurst",
                     "price": 1.9,
                     "ingredients": [
+                        "8",
                         "R",
-                        "S",
-                        "8"
+                        "S"
                     ]
                 },
                 {
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": 2.6,
                     "ingredients": [
+                        "GlW",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Kn"
                     ]
                 }
             ]
@@ -147,21 +147,21 @@
                     "name": "Pasta mit Austernpilzen und Babyspinat",
                     "price": 2.6,
                     "ingredients": [
+                        "GlW",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Forelle Müllerin Art mit Mandelbutter",
                     "price": 4.0,
                     "ingredients": [
-                        "Mi",
+                        "Sc",
+                        "ScM",
                         "Gl",
                         "Fi",
-                        "GlW",
-                        "ScM",
-                        "Sc"
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
