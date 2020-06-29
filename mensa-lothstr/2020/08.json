@@ -9,21 +9,21 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Sl",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Mi",
-                        "Ei",
+                        "GlW",
                         "Kn",
+                        "Ei",
+                        "Mi",
                         "Sl"
                     ]
                 },
@@ -31,14 +31,14 @@
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "S",
-                        "GlW",
+                        "GlG",
                         "Gl",
-                        "Mi",
-                        "Ei",
-                        "Kn",
+                        "GlW",
                         "2",
-                        "GlG"
+                        "Kn",
+                        "Ei",
+                        "Mi",
+                        "S"
                     ]
                 }
             ]
@@ -50,20 +50,20 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Kn",
                         "Sf",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -71,11 +71,11 @@
                     "price": 3.0,
                     "ingredients": [
                         "5",
-                        "Sw",
-                        "GlW",
                         "Gl",
-                        "Mi",
-                        "99"
+                        "GlW",
+                        "Sw",
+                        "99",
+                        "Mi"
                     ]
                 }
             ]
@@ -87,31 +87,31 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
-                        "Sf",
-                        "GlW",
                         "Gl",
-                        "Mi",
+                        "GlW",
                         "Ei",
-                        "Sl"
+                        "Mi",
+                        "S",
+                        "Sl",
+                        "Sf"
                     ]
                 }
             ]
@@ -131,8 +131,8 @@
                     "name": "Rendang - Indonesisches Rindfleisch (GQB)",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "2"
+                        "2",
+                        "R"
                     ]
                 }
             ]
@@ -144,21 +144,21 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Ei",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "GlW",
                         "Fi",
                         "Gl",
-                        "Mi",
+                        "GlW",
                         "Ei",
+                        "Mi",
                         "Sl"
                     ]
                 }
