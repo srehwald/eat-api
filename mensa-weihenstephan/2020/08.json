@@ -9,20 +9,20 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "S"
+                        "S",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -31,10 +31,10 @@
                     "ingredients": [
                         "Mi",
                         "Sl",
-                        "Gl",
-                        "Kn",
                         "Ei",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -46,28 +46,28 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "Gl",
-                        "Sf"
+                        "Sf",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
+                        "S",
                         "8",
-                        "Sl",
-                        "S"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 }
             ]
@@ -79,18 +79,18 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "Gl",
                         "Mi",
                         "GlW",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
@@ -98,11 +98,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Sl",
-                        "Gl",
                         "S",
-                        "Ei",
                         "Sf",
+                        "Sl",
+                        "Ei",
+                        "Gl",
                         "GlW"
                     ]
                 }
@@ -131,8 +131,8 @@
                     "name": "Schaschlik",
                     "price": 2.6,
                     "ingredients": [
-                        "Sf",
-                        "S"
+                        "S",
+                        "Sf"
                     ]
                 }
             ]
@@ -152,21 +152,21 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Massaman Curry (mit Hähnchen)",
                     "price": 2.6,
                     "ingredients": [
-                        "Sl",
-                        "Gl",
-                        "Kn",
                         "En",
                         "Sf",
-                        "GlW"
+                        "Sl",
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -174,10 +174,10 @@
                     "price": 3.2,
                     "ingredients": [
                         "Mi",
-                        "Sl",
                         "Fi",
-                        "Gl",
+                        "Sl",
                         "Ei",
+                        "Gl",
                         "GlW"
                     ]
                 }
