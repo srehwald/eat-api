@@ -9,26 +9,26 @@
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "S",
-                        "Kn",
-                        "GlG",
+                        "Gl",
                         "Ei",
-                        "Mi",
+                        "GlG",
+                        "Kn",
+                        "S",
                         "1",
-                        "Gl"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
-                        "Ei",
-                        "Mi",
                         "Gl",
-                        "Sl"
+                        "Ei",
+                        "Sl",
+                        "Kn",
+                        "Mi",
+                        "GlW"
                     ]
                 }
             ]
@@ -40,28 +40,28 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "GlW",
+                        "Gl",
                         "Ei",
-                        "Mi",
+                        "2",
                         "1",
-                        "Gl"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
+                        "Gl",
+                        "Ei",
+                        "Sf",
+                        "3",
+                        "GlG",
+                        "Kn",
                         "S",
                         "Sw",
-                        "Kn",
-                        "Sf",
-                        "GlG",
-                        "Ei",
                         "Mi",
-                        "Gl",
-                        "3"
+                        "GlW"
                     ]
                 }
             ]
@@ -74,36 +74,36 @@
                     "price": 1.9,
                     "ingredients": [
                         "GlD",
-                        "GlW",
-                        "Ei",
                         "Gl",
-                        "Sl"
+                        "Ei",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Katerfrühstück: Dillhappen vom Matjeshering",
                     "price": 2.4,
                     "ingredients": [
-                        "2",
-                        "GlW",
-                        "Sf",
                         "11",
-                        "Ei",
-                        "Mi",
                         "Gl",
+                        "Ei",
+                        "2",
+                        "Sf",
                         "3",
-                        "Fi"
+                        "Mi",
+                        "Fi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Rinderhacksteak mit Sauce Bernaise",
                     "price": 3.0,
                     "ingredients": [
-                        "R",
-                        "Sf",
                         "Ei",
+                        "Sf",
+                        "Sl",
                         "Mi",
-                        "Sl"
+                        "R"
                     ]
                 }
             ]
@@ -115,8 +115,8 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
                         "Kn",
+                        "2",
                         "GlW",
                         "Gl"
                     ]
