@@ -16,25 +16,25 @@
                     "name": "Pasta all'arrabiata",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "2"
+                        "Kn",
+                        "2",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "9",
-                        "Kn",
                         "Gl",
-                        "Sf",
+                        "Mi",
                         "2",
-                        "GlG",
-                        "R"
+                        "9",
+                        "GlW",
+                        "Sf",
+                        "R",
+                        "Kn",
+                        "GlG"
                     ]
                 }
             ]
@@ -46,36 +46,36 @@
                     "name": "Indisches Linsencurry",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
+                        "Sf",
                         "Sl",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "price": 2.4,
                     "ingredients": [
+                        "1",
+                        "Gl",
                         "Mi",
                         "11",
+                        "2",
                         "GlW",
-                        "Gl",
                         "Sf",
-                        "1",
-                        "Ei",
-                        "2"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "Gl",
                         "1",
-                        "Ei",
+                        "Gl",
+                        "Mi",
                         "2",
-                        "GlD"
+                        "GlW",
+                        "GlD",
+                        "Ei"
                     ]
                 }
             ]
@@ -94,13 +94,13 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
+                        "So",
+                        "Sl",
+                        "Gl",
                         "Mi",
                         "GlW",
                         "Kn",
-                        "Sl",
-                        "Gl",
-                        "Ei",
-                        "So"
+                        "Ei"
                     ]
                 },
                 {
@@ -108,11 +108,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "S",
-                        "GlW",
-                        "Kn",
+                        "So",
                         "Gl",
+                        "GlW",
                         "Sf",
-                        "So"
+                        "Kn"
                     ]
                 }
             ]
@@ -124,9 +124,9 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -134,19 +134,19 @@
                     "price": 1.9,
                     "ingredients": [
                         "Mi",
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
+                        "Sf",
                         "8",
                         "R",
-                        "Sf"
+                        "S"
                     ]
                 }
             ]
@@ -158,10 +158,10 @@
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": 2.6,
                     "ingredients": [
-                        "3",
+                        "Gl",
                         "Mi",
                         "GlW",
-                        "Gl",
+                        "3",
                         "Ei"
                     ]
                 },
@@ -169,15 +169,15 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
+                        "Fi",
+                        "Gl",
                         "Mi",
                         "11",
+                        "2",
                         "9",
                         "GlW",
-                        "Gl",
                         "Sf",
-                        "Ei",
-                        "Fi",
-                        "2"
+                        "Ei"
                     ]
                 }
             ]
