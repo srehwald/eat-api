@@ -16,9 +16,9 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
                         "Gl",
                         "Kn",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -26,33 +26,33 @@
                     "name": "Holzfällersteak vom Schwein",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
                         "Gl",
-                        "Mi",
-                        "2",
                         "3",
-                        "GlW",
                         "Kn",
-                        "GlG"
+                        "GlG",
+                        "GlW",
+                        "Mi",
+                        "S",
+                        "2"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "S",
                         "Sl",
-                        "Gl",
-                        "Mi",
-                        "2",
-                        "3",
-                        "GlW",
-                        "Sw",
                         "Sf",
-                        "R",
+                        "Gl",
+                        "3",
                         "Kn",
                         "GlG",
-                        "99"
+                        "GlW",
+                        "S",
+                        "99",
+                        "Mi",
+                        "Sw",
+                        "R",
+                        "2"
                     ]
                 }
             ]
@@ -64,48 +64,48 @@
                     "name": "Linseneintopf mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "Sw",
+                        "3",
                         "Sl",
-                        "5",
-                        "3"
+                        "Sw",
+                        "5"
                     ]
                 },
                 {
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": 1.9,
                     "ingredients": [
+                        "3",
                         "Gl",
                         "Kn",
-                        "GlW",
-                        "3"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Nasi Goreng (mit Hähnchenfleisch)",
                     "price": 2.4,
                     "ingredients": [
+                        "Sf",
                         "So",
                         "Gl",
-                        "2",
+                        "Kn",
                         "GlW",
-                        "Sf",
-                        "Kn"
+                        "2"
                     ]
                 },
                 {
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken)",
                     "price": 2.8,
                     "ingredients": [
-                        "S",
                         "Sl",
-                        "Gl",
-                        "Mi",
-                        "2",
-                        "3",
-                        "GlW",
                         "Sf",
+                        "Gl",
+                        "3",
                         "Kn",
                         "GlG",
+                        "GlW",
+                        "Mi",
+                        "S",
+                        "2",
                         "8"
                     ]
                 }
@@ -118,11 +118,11 @@
                     "name": "Asiatische Reis-Gemüsepfanne",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
                         "Sl",
-                        "2",
                         "Sf",
-                        "Kn"
+                        "So",
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -131,10 +131,10 @@
                     "ingredients": [
                         "1",
                         "Gl",
+                        "Kn",
+                        "GlW",
                         "Mi",
                         "2",
-                        "GlW",
-                        "Kn",
                         "Ei"
                     ]
                 },
@@ -142,11 +142,11 @@
                     "name": "Pasta Casalinga mit Schweinegeschnetzeltem und Pilzen",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
                         "Gl",
-                        "Mi",
+                        "Kn",
                         "GlW",
-                        "Kn"
+                        "Mi",
+                        "S"
                     ]
                 },
                 {
@@ -154,11 +154,11 @@
                     "price": 3.2,
                     "ingredients": [
                         "Gl",
-                        "Mi",
-                        "GlW",
-                        "R",
                         "Kn",
-                        "GlG"
+                        "GlG",
+                        "GlW",
+                        "Mi",
+                        "R"
                     ]
                 }
             ]
@@ -179,24 +179,24 @@
                     "name": "Tandoori Chicken in Joghurtmarinade und Gurken-Minz-Dip",
                     "price": 2.4,
                     "ingredients": [
+                        "Kn",
                         "Mi",
-                        "Sf",
-                        "Kn"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Sc",
                         "1",
-                        "So",
                         "Sl",
-                        "Gl",
-                        "Mi",
-                        "GlW",
-                        "Se",
                         "Sf",
+                        "Se",
+                        "Sc",
+                        "So",
+                        "Gl",
+                        "GlW",
+                        "Mi",
                         "Ei"
                     ]
                 },
@@ -204,21 +204,21 @@
                     "name": "Schweinerückensteak mit grüner Pfeffersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
                         "Gl",
-                        "Mi",
-                        "GlW",
                         "Kn",
-                        "GlG"
+                        "GlG",
+                        "GlW",
+                        "Mi",
+                        "S"
                     ]
                 },
                 {
                     "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Mi",
                         "Gl",
                         "Kn",
+                        "Mi",
                         "GlW"
                     ]
                 }
@@ -239,10 +239,10 @@
                     "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
                     "price": 2.8,
                     "ingredients": [
-                        "Ei",
-                        "Gl",
                         "Mi",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Ei"
                     ]
                 },
                 {
@@ -250,11 +250,11 @@
                     "price": 4.0,
                     "ingredients": [
                         "Sc",
-                        "Fi",
                         "Gl",
-                        "Mi",
+                        "ScM",
                         "GlW",
-                        "ScM"
+                        "Mi",
+                        "Fi"
                     ]
                 }
             ]
