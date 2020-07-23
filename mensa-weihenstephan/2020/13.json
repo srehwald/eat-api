@@ -9,9 +9,9 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
                         "Gl",
                         "GlG",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -19,10 +19,10 @@
                     "name": "Chili con Carne",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "2",
                         "Kn",
+                        "2",
                         "R",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -30,11 +30,11 @@
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "Ei",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "Sl",
+                        "Gl",
+                        "Ei",
                         "GlW"
                     ]
                 },
@@ -42,11 +42,11 @@
                     "name": "Pochiertes Welsfilet aus dem Wurzelsud mit Petersilienkartoffel und frischem Meerrettich",
                     "price": 4.0,
                     "ingredients": [
-                        "Sw",
-                        "Sl",
-                        "Fi",
                         "5",
-                        "99"
+                        "99",
+                        "Fi",
+                        "Sl",
+                        "Sw"
                     ]
                 }
             ]
@@ -58,37 +58,37 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "3",
                         "2",
-                        "S",
-                        "Ei",
-                        "Mi",
-                        "8",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Mi",
+                        "S",
+                        "8",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Gebackenes Karpfenfilet fränkische Art mit Kartoffelsalat",
                     "price": 4.5,
                     "ingredients": [
+                        "3",
+                        "5",
+                        "99",
+                        "Sw",
                         "Gl",
                         "GlG",
-                        "3",
-                        "Sw",
-                        "5",
-                        "GlW",
-                        "99"
+                        "GlW"
                     ]
                 }
             ]
@@ -107,9 +107,9 @@
                     "name": "Pasta mit Putenbolognese",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
+                        "Kn",
+                        "GlW",
                         "Sl"
                     ]
                 },
@@ -119,8 +119,8 @@
                     "ingredients": [
                         "GlW",
                         "Gl",
-                        "Ei",
-                        "Mi"
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
@@ -139,36 +139,36 @@
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "Sw",
                         "3",
-                        "S",
-                        "Mi",
+                        "Kn",
                         "5",
-                        "Kn"
+                        "Mi",
+                        "S",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Fish (MSC) & Chips mit Sauce Tartare",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "1",
-                        "Sf",
-                        "Ei",
-                        "Fi",
+                        "GlW",
                         "Mi",
+                        "Sf",
+                        "1",
+                        "Fi",
+                        "Gl",
                         "11",
-                        "GlW"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "Sl",
-                        "Kn",
                         "So",
+                        "Kn",
+                        "Sl",
+                        "Gl",
                         "GlW"
                     ]
                 }
@@ -181,22 +181,22 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Tortellini (Käsefüllung) mit Käse-Sahne-Sauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "1",
                         "2",
-                        "Sl",
-                        "Ei",
-                        "Mi",
                         "Kn",
+                        "Mi",
+                        "1",
+                        "Sl",
+                        "Gl",
+                        "Ei",
                         "GlW"
                     ]
                 },
@@ -204,8 +204,8 @@
                     "name": "Wolfsbarschfilet aus dem Ofen in Zitronen-Knoblauch-Kräuter-Marinade",
                     "price": 4.5,
                     "ingredients": [
-                        "Kn",
-                        "Fi"
+                        "Fi",
+                        "Kn"
                     ]
                 }
             ]
