@@ -11,34 +11,34 @@
                     "ingredients": [
                         "Kn",
                         "Gl",
-                        "Sl",
-                        "GlW"
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
                         "Ei",
                         "Mi",
-                        "Sl",
+                        "GlW",
+                        "Kn",
                         "Gl",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Kn",
-                        "Mi",
-                        "GlG",
                         "Ei",
-                        "S",
+                        "Mi",
+                        "GlW",
+                        "GlG",
                         "2",
-                        "Gl",
-                        "GlW"
+                        "S",
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -51,9 +51,9 @@
                     "price": 1.0,
                     "ingredients": [
                         "Kn",
-                        "Sf",
                         "Gl",
-                        "GlW"
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
@@ -61,8 +61,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "Kn",
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -70,12 +70,12 @@
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
+                        "Mi",
+                        "GlW",
                         "Sw",
                         "99",
                         "5",
-                        "Mi",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 }
             ]
@@ -87,8 +87,8 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
@@ -96,8 +96,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Kn",
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -105,13 +105,13 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "S",
                         "Ei",
+                        "Sf",
                         "Mi",
-                        "Sl",
+                        "GlW",
+                        "S",
                         "Gl",
-                        "GlW"
+                        "Sl"
                     ]
                 }
             ]
@@ -144,22 +144,22 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
+                        "Ei",
                         "Mi",
-                        "Gl",
-                        "Ei"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "Fi",
                         "Ei",
                         "Mi",
-                        "Sl",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Fi",
+                        "Sl"
                     ]
                 }
             ]
