@@ -9,10 +9,10 @@
                     "name": "Bio-Pasta mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "Gl",
                         "Kn",
+                        "Gl",
+                        "GlW",
+                        "Mi",
                         "So"
                     ]
                 },
@@ -20,9 +20,9 @@
                     "name": "Schweinerückensteak mit Paprikasauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Mi",
                         "GlW",
-                        "Gl",
                         "S"
                     ]
                 },
@@ -30,9 +30,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sl",
                         "Gl",
+                        "Sl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -40,19 +40,19 @@
                     "name": "Pfannkuchensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "Ei"
+                        "GlW",
+                        "Ei",
+                        "Sl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Zartweizen mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -60,28 +60,28 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "9",
+                        "GlG",
                         "2",
                         "Mi",
-                        "GlW",
-                        "GlG",
-                        "Gl",
+                        "Sf",
                         "Kn",
+                        "Gl",
+                        "9",
                         "R",
-                        "Sf"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
-                        "Mi",
-                        "GlW",
                         "GlG",
-                        "Gl",
+                        "Mi",
                         "Kn",
-                        "S"
+                        "Gl",
+                        "S",
+                        "GlW",
+                        "99"
                     ]
                 }
             ]
@@ -93,19 +93,19 @@
                     "name": "Bratwurstschnecke",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Sl",
-                        "8"
+                        "8",
+                        "S"
                     ]
                 },
                 {
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Kn",
-                        "Sf"
+                        "GlW",
+                        "Sf",
+                        "Kn"
                     ]
                 },
                 {
@@ -117,9 +117,9 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Mi",
                         "GlW",
-                        "Gl",
                         "Kn"
                     ]
                 },
@@ -128,15 +128,15 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sw",
-                        "5",
-                        "99",
-                        "Mi",
-                        "GlW",
-                        "Gl",
-                        "Fi",
-                        "Ei",
                         "1",
-                        "Sf"
+                        "Mi",
+                        "Sf",
+                        "Gl",
+                        "5",
+                        "Ei",
+                        "Fi",
+                        "GlW",
+                        "99"
                     ]
                 }
             ]
@@ -148,9 +148,9 @@
                     "name": "Hähnchenspieß mit Apfel-Mango-Chutney",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "So"
                     ]
                 },
                 {
@@ -170,22 +170,22 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "GlW",
+                        "Sf",
                         "Gl",
-                        "S",
+                        "GlW",
                         "Ei",
-                        "Sf"
+                        "S",
+                        "Sl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Mi",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
@@ -217,17 +217,17 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
+                        "1",
                         "Mi",
-                        "2",
-                        "1"
+                        "2"
                     ]
                 },
                 {
                     "name": "Schaschlik",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "Sf"
+                        "Sf",
+                        "S"
                     ]
                 }
             ]
@@ -239,12 +239,12 @@
                     "name": "Massaman Curry (mit Hähnchen)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "En",
-                        "GlW",
-                        "Gl",
+                        "Sf",
                         "Kn",
-                        "Sf"
+                        "Gl",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
@@ -263,26 +263,26 @@
                     "name": "Schupfnudeln mit Sauerkraut und Kümmel",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "Ei"
+                        "GlW",
+                        "Ei",
+                        "Sl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Rahmsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlW",
                         "GlG",
-                        "Gl",
+                        "Mi",
+                        "Sf",
                         "Kn",
-                        "S",
-                        "R",
+                        "Gl",
                         "Ei",
-                        "Sf"
+                        "R",
+                        "S",
+                        "GlW"
                     ]
                 }
             ]
