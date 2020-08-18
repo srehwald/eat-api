@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "Gl",
                         "Sl",
-                        "Kn",
                         "GlW"
                     ]
                 },
@@ -19,11 +19,11 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Kn",
                         "Ei",
                         "Sl",
+                        "Kn",
+                        "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -31,13 +31,13 @@
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Mi",
-                        "S",
-                        "Gl",
-                        "Kn",
                         "Ei",
-                        "GlG",
                         "2",
+                        "Kn",
+                        "Gl",
+                        "GlG",
+                        "S",
+                        "Mi",
                         "GlW"
                     ]
                 }
@@ -50,9 +50,9 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Sf",
+                        "Kn",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -60,8 +60,8 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "Mi",
                         "GlW"
                     ]
@@ -70,11 +70,11 @@
                     "name": "Kalbsrahmgulasch mit Champignons und Weißwein",
                     "price": 3.0,
                     "ingredients": [
+                        "99",
+                        "5",
+                        "Gl",
                         "Sw",
                         "Mi",
-                        "Gl",
-                        "5",
-                        "99",
                         "GlW"
                     ]
                 }
@@ -95,8 +95,8 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "Mi",
                         "GlW"
                     ]
@@ -105,12 +105,12 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "S",
-                        "Gl",
+                        "Sf",
                         "Ei",
                         "Sl",
-                        "Sf",
+                        "Gl",
+                        "S",
+                        "Mi",
                         "GlW"
                     ]
                 }
@@ -144,22 +144,22 @@
                     "name": "Kleine Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
+                        "Ei",
                         "Gl",
                         "Mi",
-                        "Ei"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
                         "Ei",
                         "Sl",
-                        "Fi",
-                        "GlW"
+                        "Gl",
+                        "Mi",
+                        "GlW",
+                        "Fi"
                     ]
                 }
             ]
