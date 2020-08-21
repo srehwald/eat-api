@@ -9,23 +9,23 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "2",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Mi",
                         "1",
+                        "Mi",
+                        "Ei",
                         "Gl",
                         "S",
-                        "Kn",
-                        "Ei",
                         "GlG"
                     ]
                 },
@@ -33,12 +33,12 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Kn",
+                        "Sl",
                         "GlW",
                         "Mi",
-                        "Gl",
-                        "Sl",
-                        "Kn",
-                        "Ei"
+                        "Ei",
+                        "Gl"
                     ]
                 }
             ]
@@ -59,26 +59,26 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Mi",
                         "1",
+                        "Mi",
                         "2",
-                        "Gl",
-                        "Ei"
+                        "Ei",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "price": 2.6,
                     "ingredients": [
-                        "S",
+                        "Kn",
                         "GlW",
                         "Mi",
-                        "Gl",
                         "Sf",
-                        "3",
-                        "Sw",
-                        "Kn",
                         "Ei",
+                        "Sw",
+                        "3",
+                        "Gl",
+                        "S",
                         "GlG"
                     ]
                 }
@@ -91,22 +91,22 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1.0,
                     "ingredients": [
+                        "Kn",
                         "5",
                         "9",
-                        "3",
                         "Sw",
-                        "Kn"
+                        "3"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "GlD",
                         "Sl",
-                        "Ei"
+                        "GlD",
+                        "GlW",
+                        "Ei",
+                        "Gl"
                     ]
                 },
                 {
@@ -116,23 +116,23 @@
                         "GlW",
                         "Mi",
                         "2",
-                        "Gl",
-                        "Fi",
                         "Sf",
                         "11",
+                        "Ei",
+                        "Fi",
                         "3",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rinderhacksteak mit Sauce Bernaise",
                     "price": 3.0,
                     "ingredients": [
-                        "Mi",
-                        "R",
-                        "Sf",
                         "Sl",
-                        "Ei"
+                        "Mi",
+                        "Sf",
+                        "Ei",
+                        "R"
                     ]
                 }
             ]
@@ -152,10 +152,10 @@
                     "name": "Hähnchenkeule mexikanische Art",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "2",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
@@ -174,8 +174,8 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -189,10 +189,10 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
                         "1",
-                        "Mi",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
