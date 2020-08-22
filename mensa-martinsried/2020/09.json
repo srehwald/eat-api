@@ -9,22 +9,22 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
                         "Kn",
-                        "Mi",
+                        "GlW",
                         "Gl",
-                        "Sl"
+                        "Sl",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Gl",
                         "GlW",
-                        "2",
-                        "Kn"
+                        "2"
                     ]
                 },
                 {
@@ -36,12 +36,12 @@
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "S",
+                        "GlG",
                         "Kn",
-                        "Mi",
+                        "GlW",
                         "Gl",
-                        "GlG"
+                        "S",
+                        "Mi"
                     ]
                 },
                 {
@@ -51,8 +51,8 @@
                         "11",
                         "Kn",
                         "10",
-                        "Sl",
-                        "Sf"
+                        "Sf",
+                        "Sl"
                     ]
                 }
             ]
@@ -64,10 +64,10 @@
                     "name": "Gebratenes Schweinefleisch mit Gemüe in Hoisinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "S",
                         "Kn",
+                        "GlW",
                         "Gl",
+                        "S",
                         "So"
                     ]
                 },
@@ -75,35 +75,35 @@
                     "name": "Getreidepfanne mit frischem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlG"
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "GlW",
-                        "2",
                         "1",
-                        "Mi",
-                        "Gl"
+                        "Gl",
+                        "2",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
+                        "GlG",
+                        "Kn",
                         "GlW",
+                        "99",
                         "R",
                         "Sw",
-                        "Kn",
-                        "Mi",
                         "Gl",
                         "Sl",
-                        "GlG"
+                        "Mi"
                     ]
                 }
             ]
@@ -116,8 +116,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "En",
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl",
                         "So"
                     ]
@@ -126,11 +126,11 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
+                        "3",
                         "5",
                         "Sw",
-                        "9",
-                        "Kn",
-                        "3"
+                        "9"
                     ]
                 },
                 {
@@ -142,26 +142,26 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlD",
                         "GlW",
+                        "GlD",
                         "Gl",
-                        "Sl"
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Katerfrühstück: Dillhappen vom Matjeshering",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Ei",
                         "11",
                         "GlW",
-                        "2",
-                        "Mi",
-                        "Gl",
                         "3",
-                        "Fi"
+                        "Fi",
+                        "Gl",
+                        "Sf",
+                        "2",
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]
@@ -173,35 +173,35 @@
                     "name": "Pasta mit Gemüsebolognese",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Gl",
                         "GlW",
-                        "Sl",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Käsekrainer mit Bratensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "8",
-                        "GlW",
-                        "2",
-                        "R",
-                        "S",
-                        "Kn",
-                        "Mi",
-                        "Gl",
-                        "3",
                         "GlG",
-                        "Sf"
+                        "GlW",
+                        "Kn",
+                        "R",
+                        "3",
+                        "8",
+                        "Gl",
+                        "Sf",
+                        "2",
+                        "S",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pikante Hirse mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -213,8 +213,8 @@
                     "name": "Tandoori Chicken in Joghurtmarinade und Gurken-Minz-Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Sf",
+                        "Mi",
                         "Kn"
                     ]
                 }
@@ -227,18 +227,18 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
+                        "Kn",
                         "So",
-                        "Kn"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Italienischer Bohneneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -257,10 +257,10 @@
                     "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
+                        "1",
                         "Mi",
                         "Gl",
-                        "GlW",
-                        "1"
+                        "GlW"
                     ]
                 }
             ]
