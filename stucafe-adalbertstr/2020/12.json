@@ -9,29 +9,29 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Kn",
-                        "Mi",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "price": 3.5,
                     "ingredients": [
-                        "R",
-                        "Sf",
-                        "Sl",
-                        "Kn",
-                        "Gl",
-                        "2",
-                        "GlG",
                         "3",
-                        "GlW",
+                        "S",
+                        "Sf",
+                        "GlG",
                         "Sw",
                         "Mi",
-                        "S",
-                        "99"
+                        "Sl",
+                        "Gl",
+                        "GlW",
+                        "R",
+                        "Kn",
+                        "99",
+                        "2"
                     ]
                 }
             ]
@@ -43,10 +43,10 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
+                        "3",
                         "Kn",
-                        "GlW",
-                        "3"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -54,11 +54,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "Sf",
-                        "Kn",
                         "Gl",
-                        "2",
                         "GlW",
-                        "So"
+                        "Kn",
+                        "So",
+                        "2"
                     ]
                 }
             ]
@@ -71,24 +71,24 @@
                     "price": 2.4,
                     "ingredients": [
                         "Ei",
-                        "Kn",
-                        "Gl",
-                        "2",
                         "1",
+                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Mi"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind",
                     "price": 3.2,
                     "ingredients": [
-                        "R",
-                        "Kn",
+                        "GlG",
+                        "Mi",
                         "Gl",
                         "GlW",
-                        "GlG",
-                        "Mi"
+                        "R",
+                        "Kn"
                     ]
                 }
             ]
@@ -100,15 +100,15 @@
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Sc",
-                        "Sf",
-                        "Sl",
                         "Ei",
-                        "Gl",
                         "1",
-                        "GlW",
-                        "So",
+                        "Sf",
                         "Mi",
+                        "Sl",
+                        "Gl",
+                        "GlW",
+                        "Sc",
+                        "So",
                         "Se"
                     ]
                 },
@@ -116,12 +116,12 @@
                     "name": "Schweinerückensteak mit grüner Pfeffersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "GlW",
+                        "S",
                         "GlG",
                         "Mi",
-                        "S"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -143,11 +143,11 @@
                     "name": "Gebratenes Zanderfilet mit Mandelbutter",
                     "price": 4.0,
                     "ingredients": [
-                        "ScM",
-                        "Sc",
+                        "Mi",
                         "Gl",
                         "GlW",
-                        "Mi",
+                        "ScM",
+                        "Sc",
                         "Fi"
                     ]
                 }
