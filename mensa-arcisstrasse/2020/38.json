@@ -6,43 +6,69 @@
             "date": "2020-09-14",
             "dishes": [
                 {
-                    "name": "Pizza des Tages",
+                    "name": "Pizza Margherita mit Mozzarella",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "GlG",
+                        "So"
+                    ]
                 },
                 {
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Kn",
                         "Mi",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "En"
                     ]
                 },
                 {
-                    "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
+                    "name": "Pasta bolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn"
+                        "Kn",
+                        "S",
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "R"
+                    ]
+                },
+                {
+                    "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais, Deftiges Bauernfrühstück mit Speck und Ei",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Ei",
+                        "S",
+                        "2",
+                        "Sw",
+                        "5",
+                        "8",
+                        "3"
                     ]
                 },
                 {
                     "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce , Blaukraut und Salzkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "2",
-                        "5",
-                        "GlW",
-                        "R",
                         "Kn",
                         "99",
                         "S",
-                        "Mi",
-                        "GlG",
+                        "GlW",
                         "Gl",
+                        "Mi",
+                        "2",
                         "Sw",
+                        "GlG",
+                        "Sf",
+                        "5",
+                        "R",
                         "Sl",
                         "3"
                     ]
@@ -51,18 +77,22 @@
                     "name": "Milchreis mit Kirschsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "1"
+                        "1",
+                        "Mi"
                     ]
                 },
                 {
-                    "name": "Frischer Salatteller Falafelbällchen und Zitronen-Minzdip",
+                    "name": "Frischer Salatteller Hackbällchen und Zitronen-Minzdip",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
+                        "GlW",
                         "Gl",
-                        "Kn",
                         "Mi",
-                        "GlW"
+                        "Sw",
+                        "5",
+                        "GlR",
+                        "3"
                     ]
                 }
             ]
@@ -71,38 +101,61 @@
             "date": "2020-09-15",
             "dishes": [
                 {
-                    "name": "Pizza des Tages",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Pasta Pomodoro mit Tomaten und Basilikum",
+                    "name": "Pizza Salami",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
+                        "S",
                         "GlW",
                         "Gl",
-                        "Kn",
+                        "Mi",
+                        "1",
+                        "2",
+                        "GlG",
+                        "So",
                         "3"
                     ]
                 },
                 {
-                    "name": "Nasi Goreng (mit Hähnchenfleisch)",
+                    "name": "Pasta Pomodoro mit Tomaten und Basilikum, Tortellini (Käsefüllung) mit Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "2",
-                        "GlW",
                         "Kn",
+                        "Ei",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "3"
+                    ]
+                },
+                {
+                    "name": "Nasi Goreng (mit Hähnchenfleisch), gebackener Chili-Leberkäse mit Kartoffelsalat",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "S",
+                        "GlW",
+                        "Gl",
+                        "2",
                         "So",
-                        "Gl"
+                        "Sc",
+                        "Sf",
+                        "Sl",
+                        "8",
+                        "R",
+                        "ScH",
+                        "En",
+                        "3"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
                         "Sw",
+                        "Sf",
+                        "5",
                         "Sl",
                         "3"
                     ]
@@ -111,23 +164,39 @@
                     "name": "Cordon bleu vom Schwein (mit Formfleisch-Kochschinken) mit Countrykartoffel, Erbsen und Karotten",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "2",
-                        "GlW",
                         "Kn",
                         "S",
-                        "Mi",
-                        "8",
-                        "GlG",
+                        "GlW",
                         "Gl",
+                        "Mi",
+                        "2",
+                        "GlG",
+                        "Sf",
+                        "8",
                         "Sl",
                         "3"
                     ]
                 },
                 {
+                    "name": "Salatteller mit Räucherlachs",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "So",
+                        "6",
+                        "Fi"
+                    ]
+                },
+                {
                     "name": "Frischer Salatteller gebratenen Pilzen",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Gl",
+                        "So",
+                        "GlW"
+                    ]
                 }
             ]
         },
@@ -135,64 +204,84 @@
             "date": "2020-09-16",
             "dishes": [
                 {
-                    "name": "Pizza des Tages",
+                    "name": "Pizza Schinken",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "S",
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "GlG",
+                        "So"
+                    ]
                 },
                 {
                     "name": "Nürnberger Würstchen mit Kartoffelbrei und Sauerkraut",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
+                        "3",
                         "S",
                         "Mi",
                         "8",
-                        "3"
+                        "R"
                     ]
                 },
                 {
                     "name": "Asiatische Reis-Gemüsepfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "2",
                         "Kn",
+                        "2",
                         "So",
-                        "Sl"
+                        "Sf",
+                        "Sl",
+                        "En"
                     ]
                 },
                 {
-                    "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
+                    "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "GlW",
-                        "Kn",
-                        "1",
-                        "Mi",
-                        "Ei",
-                        "Gl"
+                        "Sw",
+                        "Sf",
+                        "5",
+                        "Sl",
+                        "3"
                     ]
                 },
                 {
-                    "name": "Münchner Gulasch vom Rind (GQB) mit Semmelknödel",
+                    "name": "Kartoffel-Zucchini-Auflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "R",
                         "Kn",
-                        "1",
-                        "Mi",
                         "Ei",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "1",
+                        "2"
+                    ]
+                },
+                {
+                    "name": "Münchner Gulasch vom Rind (GQB) mit Knöpfle und Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Ei",
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "1",
                         "GlG",
-                        "Gl"
+                        "R"
                     ]
                 },
                 {
-                    "name": "Frischer Salatteller \"Griechische Art\"",
+                    "name": "Frischer Salatteller mit gebratenem Gemüse",
                     "price": "N/A",
                     "ingredients": [
                         "6",
+                        "Sl",
                         "Mi"
                     ]
                 }
@@ -210,37 +299,41 @@
                     "name": "Schweinerückensteak mit grüner Pfeffersauce , Kartoffelgratin und Romanesco",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Kn",
                         "S",
                         "Mi",
-                        "GlG",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "1",
+                        "2",
+                        "So",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "GlW",
-                        "Sc",
-                        "1",
-                        "Se",
-                        "So",
-                        "Mi",
                         "Ei",
+                        "Mi",
                         "Gl",
+                        "GlW",
+                        "1",
+                        "So",
+                        "Sc",
+                        "Sf",
+                        "Se",
                         "Sl"
                     ]
                 },
@@ -248,16 +341,16 @@
                     "name": "Putengeschnetzeltes Züricher Art mit Knöpfle und Erbsen-Karotten-Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "GlW",
+                        "GlD",
                         "Kn",
+                        "Ei",
                         "99",
+                        "GlW",
+                        "Gl",
                         "Mi",
                         "Sw",
-                        "Ei",
                         "GlG",
-                        "Gl",
-                        "GlD",
+                        "5",
                         "Sl"
                     ]
                 },
@@ -283,12 +376,12 @@
                     "name": "Gebratenes Zanderfilet mit Mandelbutter, Petersilienkartoffeln und Ofengemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Fi",
-                        "Sc",
-                        "Mi",
                         "ScM",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlW",
+                        "Sc",
+                        "Fi"
                     ]
                 },
                 {
@@ -303,26 +396,26 @@
                     "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "GlW",
                         "Kn",
-                        "Mi",
-                        "GlR",
                         "Ei",
-                        "Gl"
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "2",
+                        "GlR"
                     ]
                 },
                 {
                     "name": "Krautwickerl mit Speck-Zwiebel-Sauce mit Kartoffelbrei",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "GlW",
                         "Kn",
                         "S",
-                        "Mi",
-                        "GlG",
+                        "GlW",
                         "Gl",
+                        "Mi",
+                        "2",
+                        "GlG",
                         "3"
                     ]
                 },
