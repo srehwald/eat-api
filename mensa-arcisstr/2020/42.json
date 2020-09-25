@@ -9,10 +9,10 @@
                     "name": "Pasta all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
                         "Kn",
-                        "2"
+                        "2",
+                        "GlW"
                     ]
                 },
                 {
@@ -33,23 +33,23 @@
                     "ingredients": [
                         "Ei",
                         "Mi",
-                        "Sl",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlG",
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "R",
                         "9",
-                        "GlW"
+                        "Mi",
+                        "R",
+                        "GlW",
+                        "Gl",
+                        "Sf",
+                        "Kn",
+                        "GlG"
                     ]
                 }
             ]
@@ -61,11 +61,11 @@
                     "name": "Pasta mit Gorgonzola-Walnuss-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "ScW",
                         "Mi",
+                        "GlW",
                         "Gl",
                         "Sc",
-                        "GlW"
+                        "ScW"
                     ]
                 },
                 {
@@ -77,21 +77,21 @@
                     "name": "Roast beef mit Schmorzwiebelsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Mi",
-                        "GlG",
-                        "Gl",
                         "R",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Kn",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Indisches Linsencurry",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Sl",
-                        "Sf"
+                        "Sf",
+                        "Kn"
                     ]
                 },
                 {
@@ -99,12 +99,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "Ei",
-                        "1",
                         "Mi",
-                        "2",
-                        "Gl",
+                        "1",
+                        "GlW",
                         "GlD",
-                        "GlW"
+                        "2",
+                        "Gl"
                     ]
                 }
             ]
@@ -116,9 +116,9 @@
                     "name": "Pasta mit Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
                         "Mi",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -131,8 +131,8 @@
                     "name": "Gebratenes Putensteak mit Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
@@ -147,12 +147,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "Ei",
-                        "Kn",
                         "Mi",
-                        "So",
+                        "GlW",
                         "Gl",
                         "Sl",
-                        "GlW"
+                        "Kn",
+                        "So"
                     ]
                 }
             ]
@@ -164,9 +164,9 @@
                     "name": "Pasta mit Sojabolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "Gl",
                         "So",
+                        "Sl",
                         "GlW"
                     ]
                 },
@@ -179,19 +179,19 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "8",
-                        "S",
                         "R",
-                        "Sf"
+                        "S",
+                        "Sf",
+                        "8"
                     ]
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
                         "So",
+                        "Kn",
                         "GlW"
                     ]
                 },
@@ -199,9 +199,9 @@
                     "name": "Frische Rahmschwammerl",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
                         "Mi",
+                        "Kn",
                         "GlW"
                     ]
                 }
@@ -214,11 +214,11 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "So",
                         "Mi",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
@@ -230,25 +230,25 @@
                     "name": "Tofugeschnetzeltes China-Town",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "So",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "11",
                         "Ei",
-                        "Fi",
-                        "1",
-                        "Mi",
-                        "Sf",
-                        "3",
-                        "Gl",
                         "9",
-                        "GlW"
+                        "Mi",
+                        "11",
+                        "1",
+                        "GlW",
+                        "Gl",
+                        "3",
+                        "Fi",
+                        "Sf"
                     ]
                 },
                 {
@@ -257,9 +257,9 @@
                     "ingredients": [
                         "Ei",
                         "Mi",
-                        "3",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "3"
                     ]
                 }
             ]
