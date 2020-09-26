@@ -9,21 +9,21 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Sl",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "Sl",
                         "GlW",
                         "Mi",
                         "Kn",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -31,36 +31,36 @@
                     "name": "Esterhazygulasch vom Rind",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "GlG",
                         "Sl",
                         "GlW",
-                        "Mi",
                         "Kn",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "R"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlG",
-                        "S",
-                        "GlW",
-                        "Mi",
                         "2",
+                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Mi",
+                        "Ei",
+                        "Gl",
+                        "S",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Countrykartoffeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
@@ -87,50 +87,50 @@
                     "name": "Pasta Napoli (Tomaten-Basilikumsauce)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
+                        "8",
                         "Sl",
-                        "8"
+                        "S"
                     ]
                 },
                 {
                     "name": "Sweet & Sour mit Schweinefleisch",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "S",
-                        "5",
-                        "Sf",
                         "2",
+                        "Sf",
+                        "5",
+                        "3",
                         "Kn",
-                        "Sw"
+                        "Sw",
+                        "S"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Paprikasauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
@@ -162,18 +162,18 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "Sl",
                         "GlW",
                         "Mi",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -181,22 +181,22 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "S",
                         "Sf",
+                        "Sl",
                         "GlW",
                         "Mi",
-                        "Gl"
+                        "Ei",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Mi",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
@@ -239,8 +239,8 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "2",
+                        "Mi",
                         "1"
                     ]
                 },
@@ -248,17 +248,17 @@
                     "name": "Schaschlik",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "S"
+                        "S",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Geschmorte Ochsenbrust mit Meerrettichsauce und Röstkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Sl",
                         "5",
+                        "Sl",
+                        "3",
                         "GlW",
                         "Mi",
                         "Sw",
@@ -297,9 +297,9 @@
                     "price": "0.68€ / 100g",
                     "ingredients": [
                         "Sl",
-                        "Fi",
                         "GlW",
                         "Mi",
+                        "Fi",
                         "Gl"
                     ]
                 },
@@ -314,10 +314,10 @@
                     "name": "Schupfnudeln mit Sauerkraut und Kümmel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "Sl",
                         "GlW",
                         "Mi",
+                        "Ei",
                         "Gl"
                     ]
                 },
@@ -325,16 +325,16 @@
                     "name": "Hackbraten mit Rahmsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlG",
-                        "R",
-                        "S",
+                        "So",
                         "Sf",
                         "GlW",
-                        "Mi",
                         "Kn",
-                        "So",
-                        "Gl"
+                        "Mi",
+                        "Ei",
+                        "Gl",
+                        "S",
+                        "GlG",
+                        "R"
                     ]
                 },
                 {
