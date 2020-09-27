@@ -10,11 +10,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi",
                         "Ei",
-                        "Sl"
+                        "Mi",
+                        "Kn",
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
@@ -27,12 +27,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi",
-                        "R",
                         "Ei",
-                        "S"
+                        "Mi",
+                        "Kn",
+                        "Gl",
+                        "S",
+                        "R"
                     ]
                 },
                 {
@@ -40,10 +40,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
                         "So",
+                        "2",
                         "Kn",
-                        "2"
+                        "Gl"
                     ]
                 },
                 {
@@ -51,12 +51,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "10",
+                        "11",
                         "Kn",
-                        "Sf",
                         "Sl",
-                        "11"
+                        "Gl",
+                        "Sf",
+                        "10"
                     ]
                 }
             ]
@@ -74,9 +74,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
                         "So",
                         "Kn",
+                        "Gl",
                         "S"
                     ]
                 },
@@ -84,8 +84,8 @@
                     "name": "Getreidepfanne mit frischem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlG"
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
@@ -93,28 +93,28 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
                         "1",
-                        "Mi",
+                        "Ei",
                         "2",
-                        "Ei"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce, Kartoffelknödel und Blaukraut",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "Sw",
-                        "Gl",
-                        "99",
                         "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
+                        "99",
                         "2",
+                        "Sw",
                         "GlG",
-                        "Sl"
+                        "Mi",
+                        "Kn",
+                        "Sl",
+                        "Gl",
+                        "5",
+                        "R"
                     ]
                 }
             ]
@@ -126,12 +126,12 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "Sw",
                         "GlW",
-                        "Gl",
-                        "Kn",
                         "1",
+                        "Sw",
+                        "Kn",
+                        "Gl",
+                        "5",
                         "R"
                     ]
                 },
@@ -144,38 +144,38 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
+                        "3",
                         "Sw",
-                        "5",
-                        "9",
                         "Kn",
-                        "3"
+                        "5",
+                        "9"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "GlD",
+                        "GlW",
                         "Ei",
-                        "Sl"
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinesteak mit Schinken und Käse überbacken , Röstkartoffeln und Cordialgemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "8",
-                        "Kn",
-                        "3",
                         "1",
-                        "Mi",
                         "2",
+                        "3",
                         "GlG",
+                        "Mi",
+                        "Kn",
                         "Sl",
+                        "Gl",
+                        "8",
                         "S"
                     ]
                 }
@@ -190,8 +190,8 @@
                     "ingredients": [
                         "GlW",
                         "Kn",
-                        "Gl",
-                        "Sl"
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
@@ -203,20 +203,20 @@
                     "name": "Käsekrainer mit Bratensauce, Kartoffelbrei und Kümmelkraut",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "Sw",
-                        "Gl",
-                        "99",
                         "GlW",
-                        "8",
-                        "Kn",
-                        "3",
-                        "Mi",
-                        "R",
-                        "Sf",
+                        "99",
                         "2",
+                        "3",
+                        "Sf",
+                        "Sw",
                         "GlG",
-                        "S"
+                        "Mi",
+                        "Kn",
+                        "Gl",
+                        "8",
+                        "5",
+                        "S",
+                        "R"
                     ]
                 },
                 {
@@ -230,9 +230,9 @@
                     "name": "Hähnchenkeule mexikanische Art mit Reis",
                     "price": "N/A",
                     "ingredients": [
+                        "2",
                         "GlW",
                         "Kn",
-                        "2",
                         "Gl"
                     ]
                 }
@@ -251,10 +251,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
                         "Fi",
+                        "Mi",
                         "Kn",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
@@ -262,18 +262,18 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
                         "So",
+                        "2",
                         "Kn",
-                        "2"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Truthahnschnitzel mit Tomate und Mozzarella überbacken, dazu Reis und mediterranes Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
@@ -281,9 +281,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
+                        "Mi",
                         "1",
-                        "Mi"
+                        "Gl"
                     ]
                 }
             ]
