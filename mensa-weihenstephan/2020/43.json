@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -25,13 +25,13 @@
                     "name": "Penne Quattro Formaggi",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Ei",
-                        "1",
-                        "Mi",
+                        "Kn",
+                        "Gl",
                         "2",
-                        "GlW"
+                        "GlW",
+                        "Mi",
+                        "1"
                     ]
                 },
                 {
@@ -58,9 +58,9 @@
                     "name": "Pasta mit Tomaten-Zucchini-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -74,14 +74,14 @@
                     "name": "Schweineschnitzel Wiener Art",
                     "price": 3.0,
                     "ingredients": [
-                        "S",
-                        "Gl",
-                        "GlG",
                         "Kn",
-                        "Mi",
-                        "Sl",
+                        "Gl",
                         "Sf",
-                        "GlW"
+                        "Sl",
+                        "GlG",
+                        "GlW",
+                        "S",
+                        "Mi"
                     ]
                 }
             ]
@@ -94,16 +94,16 @@
                     "price": 1.0,
                     "ingredients": [
                         "Kn",
-                        "Sf",
-                        "2"
+                        "2",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pasta mit grünem Spargel, Petersilie und Kirschtomaten",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -115,14 +115,14 @@
                     "name": "Ofenkartoffeln a la Caspar mit grüner Sauce und Ei",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "5",
-                        "Sw",
-                        "9",
-                        "GlR",
                         "Ei",
+                        "Gl",
+                        "Sf",
+                        "GlR",
                         "Mi",
-                        "Sf"
+                        "5",
+                        "9",
+                        "Sw"
                     ]
                 }
             ]
@@ -134,40 +134,40 @@
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Fränkische Bratwurst",
                     "price": 1.9,
                     "ingredients": [
+                        "8",
                         "R",
-                        "S",
-                        "8"
+                        "S"
                     ]
                 },
                 {
                     "name": "Kartoffelpflanzerl mit gebratenen Pilzen und Zwiebeln",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "3",
-                        "GlG",
                         "Ei",
-                        "So",
-                        "Mi",
+                        "Gl",
                         "2",
-                        "GlW"
+                        "GlG",
+                        "So",
+                        "3",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -188,10 +188,10 @@
                     "price": 2.6,
                     "ingredients": [
                         "Gl",
-                        "GlG",
-                        "GlR",
-                        "So",
                         "Sl",
+                        "GlR",
+                        "GlG",
+                        "So",
                         "GlW"
                     ]
                 },
@@ -199,12 +199,12 @@
                     "name": "Forelle Müllerin Art mit Mandelbutter",
                     "price": 4.0,
                     "ingredients": [
-                        "Fi",
                         "Gl",
+                        "GlW",
+                        "Fi",
                         "Sc",
-                        "ScM",
                         "Mi",
-                        "GlW"
+                        "ScM"
                     ]
                 }
             ]
