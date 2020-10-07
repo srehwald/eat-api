@@ -9,12 +9,12 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
-                        "Ei",
+                        "Mi",
+                        "Kn",
+                        "GlW",
                         "Sl",
-                        "Kn"
+                        "Ei"
                     ]
                 },
                 {
@@ -26,36 +26,36 @@
                     "name": "Rotes Thaicurry mit Hackbällchen, Zucchini und Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
-                        "R",
                         "Gl",
-                        "Ei",
+                        "Mi",
+                        "Kn",
+                        "R",
+                        "GlW",
                         "S",
-                        "Kn"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "So",
                         "2",
-                        "Kn"
+                        "So",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pikante Chickenwings mit Barbecuesauce mit Countrykartoffeln und gegrilltem Gemüsemix",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "GlW",
                         "10",
+                        "Sf",
                         "Gl",
-                        "Sl",
                         "Kn",
+                        "GlW",
+                        "Sl",
                         "11"
                     ]
                 }
@@ -73,48 +73,48 @@
                     "name": "Gebratenes Schweinefleisch mit Gemüse in Hoisinsauce , dazu Curcumareis",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
                         "So",
-                        "S",
-                        "Kn"
+                        "Kn",
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
                     "name": "Getreidepfanne mit frischem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Gl"
+                        "Gl",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
-                        "Ei",
+                        "2",
+                        "Mi",
+                        "GlW",
                         "1",
-                        "2"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce, Kartoffelknödel und Blaukraut",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
-                        "GlG",
-                        "GlW",
-                        "Mi",
-                        "R",
                         "Gl",
-                        "Sw",
-                        "5",
-                        "Sl",
                         "2",
-                        "Kn"
+                        "GlG",
+                        "Mi",
+                        "99",
+                        "Kn",
+                        "R",
+                        "GlW",
+                        "Sl",
+                        "5",
+                        "Sw"
                     ]
                 }
             ]
@@ -126,13 +126,13 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "R",
                         "Gl",
+                        "Kn",
+                        "R",
+                        "GlW",
                         "1",
-                        "Sw",
                         "5",
-                        "Kn"
+                        "Sw"
                     ]
                 },
                 {
@@ -144,39 +144,39 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
-                        "9",
-                        "Sw",
-                        "5",
                         "3",
-                        "Kn"
+                        "Sw",
+                        "Kn",
+                        "5",
+                        "9"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
                         "GlD",
-                        "Ei",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinesteak mit Schinken und Käse überbacken , Röstkartoffeln und Cordialgemüse",
                     "price": "N/A",
                     "ingredients": [
+                        "S",
+                        "3",
+                        "Gl",
+                        "2",
                         "GlG",
+                        "Mi",
+                        "Kn",
                         "8",
                         "GlW",
-                        "3",
-                        "Mi",
-                        "S",
-                        "Gl",
                         "1",
-                        "Sl",
-                        "2",
-                        "Kn"
+                        "Sl"
                     ]
                 }
             ]
@@ -189,9 +189,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
+                        "Kn",
                         "GlW",
-                        "Sl",
-                        "Kn"
+                        "Sl"
                     ]
                 },
                 {
@@ -203,20 +203,20 @@
                     "name": "Käsekrainer mit Bratensauce, Kartoffelbrei und Kümmelkraut",
                     "price": "N/A",
                     "ingredients": [
+                        "S",
+                        "3",
                         "Sf",
-                        "99",
+                        "Gl",
+                        "2",
                         "GlG",
+                        "Mi",
+                        "99",
+                        "Kn",
                         "8",
                         "GlW",
-                        "3",
-                        "Mi",
                         "R",
-                        "S",
-                        "Gl",
-                        "Sw",
                         "5",
-                        "2",
-                        "Kn"
+                        "Sw"
                     ]
                 },
                 {
@@ -231,9 +231,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "2",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -250,30 +250,30 @@
                     "name": "Lachsfilet auf Blattspinat mit Salzkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "Fi",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "So",
                         "2",
-                        "Kn"
+                        "So",
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Truthahnschnitzel mit Tomate und Mozzarella überbacken, dazu Reis und mediterranes Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -281,9 +281,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "1",
+                        "Mi",
                         "GlW",
-                        "Mi"
+                        "1"
                     ]
                 }
             ]
