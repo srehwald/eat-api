@@ -9,11 +9,11 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
-                        "Gl",
-                        "Ei",
                         "Mi",
+                        "Sl",
+                        "Gl",
+                        "GlW",
+                        "Ei",
                         "Kn"
                     ]
                 },
@@ -26,12 +26,12 @@
                     "name": "Rotes Thaicurry mit Hackbällchen, Zucchini und Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "R",
-                        "GlW",
-                        "Gl",
-                        "Ei",
                         "Mi",
+                        "S",
+                        "Gl",
+                        "GlW",
+                        "R",
+                        "Ei",
                         "Kn"
                     ]
                 },
@@ -39,11 +39,11 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
                         "Gl",
                         "GlW",
                         "So",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -51,11 +51,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
-                        "GlW",
-                        "Gl",
-                        "10",
-                        "11",
                         "Sf",
+                        "Gl",
+                        "11",
+                        "GlW",
+                        "10",
                         "Kn"
                     ]
                 }
@@ -74,8 +74,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "S",
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "So",
                         "Kn"
                     ]
@@ -92,29 +92,29 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
+                        "1",
+                        "Mi",
                         "Gl",
                         "GlW",
                         "Ei",
-                        "1",
-                        "Mi"
+                        "2"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce, Kartoffelknödel und Blaukraut",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
                         "GlG",
                         "Sl",
-                        "2",
+                        "Sw",
                         "Gl",
                         "GlW",
-                        "5",
-                        "Sw",
                         "R",
-                        "Mi",
+                        "Kn",
                         "99",
-                        "Kn"
+                        "2",
+                        "5"
                     ]
                 }
             ]
@@ -126,13 +126,13 @@
                     "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
+                        "1",
+                        "Sw",
                         "Gl",
                         "GlW",
-                        "5",
-                        "Sw",
-                        "1",
-                        "Kn"
+                        "R",
+                        "Kn",
+                        "5"
                     ]
                 },
                 {
@@ -145,20 +145,20 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sw",
-                        "3",
-                        "5",
                         "9",
-                        "Kn"
+                        "Kn",
+                        "3",
+                        "5"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "GlD",
-                        "GlW",
+                        "Sl",
                         "Gl",
+                        "GlW",
                         "Ei"
                     ]
                 },
@@ -166,17 +166,17 @@
                     "name": "Schweinesteak mit Schinken und Käse überbacken , Röstkartoffeln und Cordialgemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Sl",
-                        "2",
-                        "Gl",
-                        "3",
-                        "8",
-                        "GlW",
-                        "S",
                         "1",
+                        "GlG",
                         "Mi",
-                        "Kn"
+                        "Sl",
+                        "S",
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "2",
+                        "8",
+                        "3"
                     ]
                 }
             ]
@@ -190,8 +190,8 @@
                     "ingredients": [
                         "Sl",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -203,20 +203,20 @@
                     "name": "Käsekrainer mit Bratensauce, Kartoffelbrei und Kümmelkraut",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "R",
-                        "2",
-                        "Gl",
-                        "3",
-                        "8",
-                        "5",
-                        "GlW",
-                        "Sw",
-                        "S",
                         "Mi",
-                        "99",
+                        "GlG",
+                        "S",
                         "Sf",
-                        "Kn"
+                        "Gl",
+                        "Sw",
+                        "GlW",
+                        "R",
+                        "Kn",
+                        "99",
+                        "2",
+                        "8",
+                        "3",
+                        "5"
                     ]
                 },
                 {
@@ -231,9 +231,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -250,10 +250,10 @@
                     "name": "Lachsfilet auf Blattspinat mit Salzkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Mi",
                         "Fi",
+                        "Mi",
+                        "Gl",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -261,11 +261,11 @@
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
                         "Gl",
                         "GlW",
                         "So",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -281,9 +281,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Gl",
                         "1",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]

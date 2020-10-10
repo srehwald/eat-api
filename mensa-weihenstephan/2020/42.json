@@ -27,25 +27,25 @@
                     "price": 3.0,
                     "ingredients": [
                         "Gl",
-                        "Ei",
-                        "Mi",
                         "Sl",
-                        "GlW"
+                        "GlW",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "9",
-                        "Kn",
-                        "2",
-                        "Gl",
-                        "R",
-                        "Mi",
                         "Sf",
+                        "Gl",
+                        "9",
+                        "2",
+                        "GlW",
+                        "Kn",
+                        "R",
                         "GlG",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]
@@ -57,45 +57,45 @@
                     "name": "Indisches Linsencurry",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
+                        "Sf",
                         "Sl",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pasta mit Gorgonzola-Walnuss-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Sc",
                         "ScW",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Sc",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
                         "2",
-                        "Ei",
-                        "1",
-                        "GlD",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "GlD",
+                        "1",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Roast beef mit Schmorzwiebelsauce",
                     "price": 4.0,
                     "ingredients": [
+                        "Gl",
+                        "GlW",
                         "Kn",
                         "R",
-                        "Gl",
-                        "Mi",
                         "GlG",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]
@@ -107,22 +107,22 @@
                     "name": "Spanischer Gemüseeintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
                         "Gl",
+                        "GlW",
+                        "Kn",
                         "Ei",
-                        "Mi",
-                        "Se",
                         "So",
+                        "Se",
                         "GlG",
-                        "GlW"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pasta mit Tomaten-Frischkäse-Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "GlW",
                         "Gl"
                     ]
@@ -131,21 +131,21 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "Ei",
-                        "Mi",
-                        "So",
                         "Sl",
-                        "GlW"
+                        "GlW",
+                        "Kn",
+                        "Ei",
+                        "So",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Gebratenes Putensteak mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 }
             ]
@@ -157,8 +157,8 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
                         "So",
+                        "Kn",
                         "GlW",
                         "Gl"
                     ]
@@ -167,19 +167,19 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": 1.9,
                     "ingredients": [
-                        "R",
-                        "S",
+                        "Sf",
                         "8",
-                        "Sf"
+                        "S",
+                        "R"
                     ]
                 },
                 {
                     "name": "Pasta mit Sojabolognese",
                     "price": 1.9,
                     "ingredients": [
+                        "So",
                         "Sl",
                         "GlW",
-                        "So",
                         "Gl"
                     ]
                 },
@@ -187,8 +187,8 @@
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Mi",
+                        "Kn",
                         "GlW",
                         "Gl"
                     ]
@@ -202,28 +202,28 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "Mi",
+                        "GlW",
+                        "Kn",
                         "So",
-                        "GlW"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
+                        "Sf",
+                        "Gl",
                         "9",
                         "2",
-                        "Ei",
-                        "1",
-                        "Mi",
-                        "11",
-                        "Fi",
-                        "Sf",
-                        "3",
                         "GlW",
-                        "Gl"
+                        "1",
+                        "3",
+                        "11",
+                        "Ei",
+                        "Fi",
+                        "Mi"
                     ]
                 },
                 {
@@ -231,10 +231,10 @@
                     "price": 2.6,
                     "ingredients": [
                         "Gl",
-                        "Ei",
-                        "Mi",
+                        "GlW",
                         "3",
-                        "GlW"
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]
