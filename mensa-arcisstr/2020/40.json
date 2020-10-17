@@ -14,21 +14,21 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Sl",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Sl",
+                        "Gl",
                         "Mi",
                         "Ei",
-                        "GlW",
-                        "Gl",
                         "Kn"
                     ]
                 },
@@ -36,27 +36,27 @@
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken , dazu Pommes und Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlG",
-                        "2",
-                        "Ei",
                         "GlW",
-                        "S",
                         "Gl",
-                        "Kn"
+                        "Mi",
+                        "Ei",
+                        "Kn",
+                        "2",
+                        "GlG",
+                        "S"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB) mit Salzkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "GlG",
-                        "R",
                         "GlW",
+                        "Sl",
                         "Gl",
-                        "Kn"
+                        "Mi",
+                        "Kn",
+                        "GlG",
+                        "R"
                     ]
                 }
             ]
@@ -68,9 +68,9 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -83,9 +83,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
-                        "Mi",
+                        "8",
                         "S",
-                        "8"
+                        "Mi"
                     ]
                 },
                 {
@@ -93,22 +93,22 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sf",
+                        "Kn",
                         "2",
-                        "S",
                         "Sw",
                         "5",
-                        "3",
-                        "Kn"
+                        "S",
+                        "3"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse, Paprikasauce und frischem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
                         "GlW",
+                        "Sl",
                         "Gl",
+                        "Mi",
                         "Kn"
                     ]
                 }
@@ -126,31 +126,31 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze) mit Röstkartoffeln und Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
+                        "GlW",
                         "Sl",
+                        "Sf",
+                        "Gl",
                         "Mi",
                         "Ei",
-                        "GlW",
-                        "Gl",
                         "S"
                     ]
                 },
@@ -158,9 +158,9 @@
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]
@@ -184,35 +184,35 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
+                        "1",
                         "Mi",
-                        "2",
-                        "1"
+                        "2"
                     ]
                 },
                 {
                     "name": "Schaschlik mit Pommes frites und Gemüsedip",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
                         "Sl",
+                        "Sf",
                         "Mi",
+                        "Kn",
                         "2",
-                        "S",
                         "Sw",
                         "5",
-                        "3",
-                        "Kn"
+                        "S",
+                        "3"
                     ]
                 },
                 {
                     "name": "Geschmorte Ochsenbrust mit Meerrettichsauce und Röstkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
                         "GlW",
-                        "Sw",
+                        "Sl",
                         "Gl",
+                        "Mi",
+                        "Sw",
                         "5",
                         "3"
                     ]
@@ -231,10 +231,10 @@
                     "name": "Gebratenes Zanderfilet mit Wurzelgemüse und Petersilienkartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
                         "GlW",
+                        "Sl",
                         "Gl",
+                        "Mi",
                         "Fi"
                     ]
                 },
@@ -249,27 +249,27 @@
                     "name": "Schupfnudeln mit buntem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Hackbraten mit Rahmsauce mit Kartoffelbrei und Mischgemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Mi",
-                        "GlG",
-                        "R",
-                        "S",
-                        "Ei",
                         "GlW",
+                        "Sf",
                         "So",
                         "Gl",
-                        "Kn"
+                        "Mi",
+                        "Ei",
+                        "Kn",
+                        "GlG",
+                        "S",
+                        "R"
                     ]
                 }
             ]
