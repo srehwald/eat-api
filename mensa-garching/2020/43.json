@@ -9,13 +9,27 @@
                     "name": "Penne Quattro Formaggi",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "Mi",
                         "Ei",
                         "1",
+                        "Kn",
+                        "Gl",
                         "GlW",
-                        "2",
+                        "2"
+                    ]
+                },
+                {
+                    "name": "Bratwurst vom Grill",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlG",
                         "Mi",
-                        "Gl"
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "R",
+                        "S",
+                        "8"
                     ]
                 },
                 {
@@ -28,18 +42,32 @@
                     ]
                 },
                 {
+                    "name": "Rindfleischsuppe mit Leberspätzle",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sl",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "R",
+                        "S"
+                    ]
+                },
+                {
                     "name": "Kartoffelgartin a la Caspar mit Erbsen-Minz-Püree und Ofenkürbis",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Balinesisches Kokoshähnchen",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -61,12 +89,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "1",
-                        "2",
-                        "GlW",
-                        "Mi",
                         "So",
-                        "Gl"
+                        "Mi",
+                        "1",
+                        "Gl",
+                        "GlW",
+                        "2"
                     ]
                 },
                 {
@@ -77,10 +105,21 @@
                     ]
                 },
                 {
+                    "name": "Kürbis-Curry Cremesuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "Sf"
+                    ]
+                },
+                {
                     "name": "Veganes Shakshuka a la Caspar mit Bratkartoffeln und Hummus",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn"
+                        "Kn",
+                        "Se"
                     ]
                 },
                 {
@@ -88,12 +127,27 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "Kn",
-                        "S",
-                        "GlW",
-                        "Mi",
                         "Sl",
+                        "Mi",
+                        "Kn",
                         "Gl",
+                        "GlW",
+                        "S",
+                        "Sf"
+                    ]
+                },
+                {
+                    "name": "Mini-Fleischpflanzerl mit Kümmelsauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlG",
+                        "Mi",
+                        "Ei",
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "R",
+                        "S",
                         "Sf"
                     ]
                 }
@@ -116,26 +170,35 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Kokos-Pilz-Topf mit Glasnudeln",
+                    "name": "Kokos-Pilz-Gemüse-Topf mit Glasnudeln",
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
+                        "Sl",
                         "2",
                         "Sf"
+                    ]
+                },
+                {
+                    "name": "Erbsen-Cremesuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Ofenkartoffeln a la Caspar mit grüner Sauce und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "9",
-                        "Sw",
+                        "GlR",
+                        "Mi",
                         "Ei",
                         "5",
-                        "Mi",
+                        "9",
                         "Gl",
-                        "GlR",
-                        "Sf"
+                        "Sf",
+                        "Sw"
                     ]
                 }
             ]
@@ -157,24 +220,24 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "Kn",
-                        "S",
-                        "1",
-                        "2",
-                        "GlW",
-                        "Mi",
                         "So",
-                        "3",
-                        "Gl"
+                        "Mi",
+                        "1",
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "S",
+                        "2",
+                        "3"
                     ]
                 },
                 {
                     "name": "Fränkische Bratwurst",
                     "price": "N/A",
                     "ingredients": [
+                        "8",
                         "R",
-                        "S",
-                        "8"
+                        "S"
                     ]
                 },
                 {
@@ -190,13 +253,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "Ei",
-                        "2",
-                        "GlW",
-                        "Mi",
                         "So",
-                        "3",
-                        "Gl"
+                        "Mi",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "2",
+                        "3"
                     ]
                 }
             ]
@@ -225,24 +288,24 @@
                     "name": "Veganer Gulaschtopf mit Kartoffeln, Wurzelgemüse und Sojacreme , dazu Baguette",
                     "price": "N/A",
                     "ingredients": [
+                        "GlR",
                         "GlG",
-                        "GlW",
+                        "Sl",
                         "So",
                         "Gl",
-                        "Sl",
-                        "GlR"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Forelle Müllerin Art mit Mandelbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Sc",
+                        "Mi",
+                        "Fi",
                         "Gl",
-                        "ScM",
-                        "Fi"
+                        "GlW",
+                        "ScM"
                     ]
                 }
             ]
