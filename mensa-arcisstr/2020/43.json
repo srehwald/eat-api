@@ -9,12 +9,12 @@
                     "name": "Penne Quattro Formaggi",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
                         "2",
-                        "Gl",
+                        "Kn",
                         "1",
                         "Mi",
-                        "Kn",
-                        "Ei",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -22,11 +22,11 @@
                     "name": "Pizza Verdura mit Grillgemüse und Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "So",
-                        "GlG",
                         "Sl",
+                        "GlG",
                         "Mi",
+                        "So",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -34,19 +34,19 @@
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Leberspätzlesuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "Ei",
                         "S",
                         "Sl",
-                        "Ei",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -74,9 +74,9 @@
                     "name": "Pasta mit Tomaten-Zucchini-Sauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -84,12 +84,12 @@
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Gl",
-                        "So",
-                        "GlG",
                         "Fi",
                         "1",
+                        "GlG",
                         "Mi",
+                        "So",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -111,9 +111,9 @@
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -128,14 +128,14 @@
                     "name": "Schweineschnitzel Wiener Art mit Pomme und Bratensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "Sf",
                         "S",
-                        "GlG",
                         "Sl",
-                        "Mi",
-                        "GlW",
                         "Kn",
-                        "Sf"
+                        "GlG",
+                        "Mi",
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -155,49 +155,75 @@
                     "name": "Pizza mit Gorgonzola",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "So",
                         "GlG",
+                        "So",
                         "Mi",
+                        "Gl",
                         "GlW"
                     ]
                 },
                 {
-                    "name": "Hähnchenspieß vom Grill mit Paprika und Zwiebel",
+                    "name": "Hähnchenspieß vom Grill mit Pommes und Gemüse",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Kn",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
                         "Sl",
-                        "5",
-                        "Sw"
+                        "Sw",
+                        "3",
+                        "5"
                     ]
                 },
                 {
-                    "name": "Blumenkohlcremesuppe",
+                    "name": "Pfannkuchensuppe",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
+                        "Sl",
                         "Mi",
+                        "Gl",
+                        "GlW"
+                    ]
+                },
+                {
+                    "name": "Bulgur mit Zucchini und Tomaten",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
                         "GlW",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Ofenkartoffeln a la Caspar mit grüner Sauce und Ei",
+                    "name": "Ofenkartoffeln a la Caspar mit grüner Sauce und Fenchel Tomatengemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlR",
-                        "Sw",
-                        "Mi",
-                        "5",
+                        "Sf",
                         "Ei",
+                        "GlR",
                         "9",
-                        "Sf"
+                        "Mi",
+                        "Sw",
+                        "Gl",
+                        "5"
+                    ]
+                },
+                {
+                    "name": "Nudelauflauf mit Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Ei",
+                        "2",
+                        "1",
+                        "Mi",
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -209,23 +235,39 @@
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Pizza des Tages",
+                    "name": "Pizza Funghi mit Champignons",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlG",
+                        "So",
+                        "Mi",
+                        "Gl",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Fränkische Bratwurst",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
+                        "8",
                         "S",
-                        "8"
+                        "R"
+                    ]
+                },
+                {
+                    "name": "Bunte Nudelpfanne mit Geflügel",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sf",
+                        "GlW",
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
@@ -237,17 +279,29 @@
                     ]
                 },
                 {
-                    "name": "Kartoffelpflanzerl mit gebratenen Pilzen und Zwiebeln",
+                    "name": "Linsensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
+                        "Sl",
+                        "Sw",
                         "Gl",
-                        "So",
-                        "GlG",
-                        "GlW",
-                        "Mi",
+                        "3",
+                        "5",
+                        "GlW"
+                    ]
+                },
+                {
+                    "name": "Kartoffelpflanzerl mit gebratenen Pilzen und Zwiebeln mit Grüner-Soße",
+                    "price": "N/A",
+                    "ingredients": [
                         "Ei",
-                        "3"
+                        "2",
+                        "GlG",
+                        "Mi",
+                        "So",
+                        "Gl",
+                        "3",
+                        "GlW"
                     ]
                 }
             ]
@@ -259,9 +313,9 @@
                     "name": "Pasta mit Austernpilzen und Babyspinat",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
@@ -281,11 +335,11 @@
                     "name": "Veganer Gulaschtopf mit Kartoffeln, Wurzelgemüse und Sojacreme , dazu Baguette",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "So",
-                        "GlG",
-                        "GlR",
                         "Sl",
+                        "GlR",
+                        "GlG",
+                        "So",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -293,11 +347,11 @@
                     "name": "Forelle Müllerin Art mit Mandelbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Fi",
-                        "Mi",
-                        "Sc",
                         "ScM",
+                        "Fi",
+                        "Sc",
+                        "Mi",
+                        "Gl",
                         "GlW"
                     ]
                 }
