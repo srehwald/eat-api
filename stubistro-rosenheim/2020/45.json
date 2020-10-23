@@ -9,9 +9,9 @@
                     "name": "Gnocchi mit frischem Kürbis und Kräutern",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
@@ -26,9 +26,9 @@
                     "name": "Countrykartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "GlW"
                     ]
                 },
                 {
@@ -45,18 +45,18 @@
                     "name": "Quark mit Kirschen",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "Gl",
                         "Mi",
-                        "ScM",
-                        "GlG",
                         "ScH",
-                        "ScW",
-                        "En",
-                        "ScC",
                         "So",
+                        "ScC",
+                        "En",
                         "GlH",
-                        "GlW"
+                        "GlW",
+                        "ScM",
+                        "ScW",
+                        "GlG",
+                        "Gl",
+                        "Sc"
                     ]
                 }
             ]
@@ -68,38 +68,38 @@
                     "name": "Jägerschnitzel vom Truthahn mit Waldpilzen",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Mi",
+                        "Kn",
+                        "3",
+                        "GlW",
                         "GlG",
                         "2",
-                        "GlW",
-                        "3"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Veganer Kartoffel-Nuss-Gratin mit Lauch , dazu Sojajoghurtdip",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "Gl",
-                        "Kn",
-                        "ScM",
-                        "GlG",
-                        "ScW",
                         "So",
+                        "Kn",
+                        "3",
                         "GlW",
-                        "3"
+                        "ScM",
+                        "ScW",
+                        "GlG",
+                        "Gl",
+                        "Sc"
                     ]
                 },
                 {
                     "name": "Knöpfle",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "GlD",
-                        "GlW",
                         "Ei",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -128,12 +128,12 @@
                     "name": "Limettenpasta mit Pilzen, Erbsen und Cashews",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Sc",
-                        "Gl",
                         "Kn",
-                        "ScW",
                         "ScC",
-                        "GlW"
+                        "GlW",
+                        "ScW",
+                        "Gl",
+                        "Sc"
                     ]
                 },
                 {
@@ -174,11 +174,11 @@
                     "name": "Linsen mit Spätzle",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Gl",
+                        "So",
                         "Kn",
                         "Sl",
-                        "So",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -187,8 +187,8 @@
                     "ingredients": [
                         "Mi",
                         "Kn",
-                        "3",
                         "S",
+                        "3",
                         "Sw",
                         "5"
                     ]
@@ -212,15 +212,15 @@
                     "name": "Tiramisu",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "Gl",
-                        "Mi",
-                        "ScM",
                         "14",
-                        "Sw",
+                        "Mi",
                         "GlW",
-                        "Ei",
-                        "99"
+                        "99",
+                        "ScM",
+                        "Sw",
+                        "Gl",
+                        "Sc",
+                        "Ei"
                     ]
                 }
             ]
@@ -232,35 +232,35 @@
                     "name": "Schweinebraten mit Biersauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Mi",
-                        "3",
-                        "GlG",
-                        "S",
+                        "Kn",
                         "1",
-                        "Sw",
+                        "S",
+                        "3",
                         "GlW",
-                        "Ei",
-                        "5"
+                        "Sw",
+                        "5",
+                        "GlG",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "Ei",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kartoffelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
                         "2",
+                        "Sw",
                         "5"
                     ]
                 },
@@ -268,10 +268,10 @@
                     "name": "Bayerisch Kraut",
                     "price": "N/A",
                     "ingredients": [
+                        "3",
                         "Sw",
-                        "5",
                         "99",
-                        "3"
+                        "5"
                     ]
                 },
                 {
@@ -288,8 +288,8 @@
                     "name": "Quarkcreme mit Himbeeren",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Mi"
+                        "Mi",
+                        "So"
                     ]
                 }
             ]
