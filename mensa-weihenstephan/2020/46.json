@@ -20,37 +20,37 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "Mi",
+                        "GlW",
                         "S",
-                        "GlW"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Ei",
-                        "GlW",
                         "Kn",
-                        "Sl"
+                        "GlW",
+                        "Ei",
+                        "Sl",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Pizza Salami",
                     "price": 3.5,
                     "ingredients": [
+                        "Kn",
+                        "3",
+                        "GlW",
+                        "S",
                         "Mi",
                         "Gl",
-                        "1",
-                        "GlW",
-                        "So",
-                        "3",
-                        "Kn",
-                        "S",
                         "GlG",
-                        "2"
+                        "1",
+                        "2",
+                        "So"
                     ]
                 }
             ]
@@ -63,9 +63,9 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Sf",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
@@ -73,9 +73,9 @@
                     "price": 2.4,
                     "ingredients": [
                         "Gl",
-                        "Mi",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
@@ -105,8 +105,8 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
@@ -121,27 +121,27 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Sf",
-                        "Gl",
-                        "Ei",
                         "GlW",
                         "S",
-                        "Sl"
+                        "Ei",
+                        "Sl",
+                        "Mi",
+                        "Gl",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
+                        "3",
+                        "GlW",
                         "Mi",
                         "Gl",
                         "8",
-                        "GlW",
-                        "So",
-                        "3",
                         "GlG",
-                        "2"
+                        "2",
+                        "So"
                     ]
                 }
             ]
@@ -160,37 +160,37 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
+                        "2",
                         "Mi",
-                        "1",
-                        "2"
+                        "1"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
+                        "Kn",
+                        "GlW",
+                        "99",
+                        "Sw",
                         "Mi",
                         "Gl",
                         "5",
-                        "GlW",
-                        "Kn",
-                        "GlG",
-                        "Sw",
-                        "99"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Pizza mit Shrimps and Cocktailtomaten",
                     "price": 3.5,
                     "ingredients": [
+                        "Kn",
+                        "GlW",
+                        "Kr",
                         "Mi",
                         "Gl",
+                        "GlG",
                         "1",
-                        "Kr",
-                        "GlW",
-                        "So",
-                        "Kn",
-                        "GlG"
+                        "So"
                     ]
                 }
             ]
@@ -210,8 +210,8 @@
                     "price": 1.9,
                     "ingredients": [
                         "Gl",
-                        "Ei",
                         "GlW",
+                        "Ei",
                         "Mi"
                     ]
                 },
@@ -219,12 +219,12 @@
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Ei",
-                        "Fi",
                         "GlW",
-                        "Sl"
+                        "Fi",
+                        "Ei",
+                        "Sl",
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]
