@@ -10,21 +10,21 @@
                     "price": 1.0,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Penne Quattro Formaggi",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "Kn",
-                        "Ei",
-                        "1",
                         "Gl",
+                        "Ei",
+                        "Kn",
+                        "GlW",
+                        "1",
                         "Mi",
-                        "GlW"
+                        "2"
                     ]
                 },
                 {
@@ -38,12 +38,12 @@
                     "name": "Kartoffelgartin a la Caspar mit Erbsen-Minz-Püree und Ofenkürbis",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "3",
-                        "Ei",
                         "Gl",
+                        "Ei",
+                        "Kn",
+                        "GlW",
                         "Mi",
-                        "GlW"
+                        "3"
                     ]
                 }
             ]
@@ -55,8 +55,8 @@
                     "name": "Feuriger Eintopf mit weißen Bohnen und Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
@@ -64,14 +64,14 @@
                     "price": 1.9,
                     "ingredients": [
                         "8",
-                        "2",
-                        "Kn",
-                        "3",
-                        "1",
                         "Gl",
-                        "Mi",
+                        "Kn",
+                        "GlW",
                         "S",
-                        "GlW"
+                        "1",
+                        "Mi",
+                        "2",
+                        "3"
                     ]
                 },
                 {
@@ -79,11 +79,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlG",
-                        "Kn",
                         "Gl",
-                        "Sl",
+                        "Kn",
+                        "GlW",
                         "Mi",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
@@ -102,19 +102,19 @@
                     "name": "Kokos-Pilz-Topf mit Glasnudeln",
                     "price": 1.0,
                     "ingredients": [
-                        "2",
-                        "Kn",
-                        "Sf",
                         "Gl",
-                        "GlW"
+                        "Kn",
+                        "GlW",
+                        "2",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Pasta mit grünem Spargel,Mozzarella, Petersilie und Kirschtomaten",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -127,14 +127,14 @@
                     "name": "Ofenkartoffeln a la Caspar mit grüner Sauce und Ei",
                     "price": 2.6,
                     "ingredients": [
-                        "5",
-                        "Ei",
                         "Gl",
-                        "Sf",
-                        "9",
+                        "Ei",
+                        "GlR",
                         "Sw",
+                        "9",
+                        "5",
                         "Mi",
-                        "GlR"
+                        "Sf"
                     ]
                 }
             ]
@@ -146,28 +146,28 @@
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gebratene Hähnchenkeule mit Paprikasauce",
                     "price": 1.9,
                     "ingredients": [
-                        "10",
-                        "11",
                         "Kn",
+                        "11",
+                        "Sl",
                         "Sf",
-                        "Sl"
+                        "10"
                     ]
                 },
                 {
                     "name": "Fränkische Bratwurst",
                     "price": 1.9,
                     "ingredients": [
-                        "S",
+                        "8",
                         "R",
-                        "8"
+                        "S"
                     ]
                 },
                 {
@@ -175,13 +175,13 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlG",
-                        "2",
-                        "So",
-                        "3",
-                        "Ei",
                         "Gl",
+                        "Ei",
+                        "GlW",
                         "Mi",
-                        "GlW"
+                        "2",
+                        "3",
+                        "So"
                     ]
                 },
                 {
@@ -189,8 +189,8 @@
                     "price": 2.6,
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -202,8 +202,8 @@
                     "name": "Kichererbsencurry mit Gemüse und Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 }
             ]
