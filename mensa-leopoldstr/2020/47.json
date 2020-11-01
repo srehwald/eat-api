@@ -9,23 +9,23 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Ei",
                         "Kn",
+                        "Ei",
                         "Sl",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "2",
+                        "Kn",
+                        "GlW",
                         "So",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -37,15 +37,15 @@
                     "name": "Blumenkohlauflauf mit Käsesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "5",
-                        "Mi",
-                        "Ei",
-                        "Sw",
-                        "Kn",
                         "2",
                         "1",
+                        "Ei",
+                        "Kn",
                         "GlW",
+                        "Mi",
+                        "Sw",
+                        "5",
+                        "Gl",
                         "99"
                     ]
                 },
@@ -53,12 +53,12 @@
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "S",
                         "GlG",
                         "Kn",
-                        "GlW"
+                        "GlW",
+                        "S",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -70,13 +70,13 @@
                     "name": "Pasta all'amatriciana",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "S",
-                        "Kn",
                         "2",
+                        "Kn",
                         "Sl",
                         "GlW",
-                        "3"
+                        "3",
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
@@ -96,27 +96,27 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Ei",
                         "2",
                         "1",
-                        "GlW"
+                        "Ei",
+                        "GlW",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "5",
-                        "Mi",
-                        "R",
-                        "Sw",
                         "GlG",
+                        "R",
                         "Kn",
                         "Sl",
                         "GlW",
+                        "Mi",
+                        "Sw",
+                        "5",
+                        "Gl",
                         "99"
                     ]
                 }
@@ -129,28 +129,28 @@
                     "name": "Überbackenes Hacksteak griechische Art mit Tsatsiki und Reis",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "5",
-                        "Mi",
-                        "R",
-                        "Ei",
-                        "Sw",
-                        "Kn",
                         "2",
+                        "R",
                         "1",
+                        "Ei",
+                        "Kn",
                         "Sl",
-                        "3"
+                        "3",
+                        "Sw",
+                        "5",
+                        "Sf",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "9",
-                        "Sw",
                         "Kn",
-                        "3"
+                        "3",
+                        "Sw",
+                        "5",
+                        "9"
                     ]
                 },
                 {
@@ -162,23 +162,23 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlD",
                         "Ei",
                         "Sl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Topfenpalatschinken",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
+                        "Sc",
                         "Ei",
                         "GlW",
-                        "Sc",
-                        "ScM"
+                        "ScM",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -190,11 +190,11 @@
                     "name": "Currynudeln mit gebratenen Gemüsestreifen",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Sf",
-                        "Se",
                         "Sl",
-                        "GlW"
+                        "GlW",
+                        "Se",
+                        "Sf",
+                        "Gl"
                     ]
                 },
                 {
@@ -221,15 +221,15 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "S",
+                        "2",
                         "GlG",
                         "8",
                         "Kn",
-                        "2",
                         "GlW",
-                        "3"
+                        "3",
+                        "S",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -241,30 +241,30 @@
                     "name": "Lachsfilet auf Blattspinat",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
+                        "Fi",
                         "Kn",
                         "GlW",
-                        "Fi"
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "2",
+                        "Kn",
+                        "GlW",
                         "So",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Italienischer Bohneneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
@@ -276,13 +276,13 @@
                     "name": "Kürbis-Lasagne mit Bergkäse überbacken",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
                         "GlG",
                         "Kn",
-                        "So",
                         "GlW",
-                        "3"
+                        "3",
+                        "So",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
