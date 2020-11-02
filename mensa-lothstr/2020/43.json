@@ -10,21 +10,21 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Penne Quattro Formaggi",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "2",
                         "Ei",
-                        "Kn",
+                        "GlW",
                         "1",
                         "Mi",
-                        "GlW"
+                        "2",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -38,12 +38,12 @@
                     "name": "Kartoffelgartin a la Caspar mit Erbsen-Minz-Püree und Ofenkürbis",
                     "price": 2.6,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
                         "3",
-                        "Kn",
+                        "Ei",
+                        "GlW",
                         "Mi",
-                        "GlW"
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -63,27 +63,27 @@
                     "name": "Pasta Emiliana mit (Vorder-)Schinken und Erbsen",
                     "price": 1.9,
                     "ingredients": [
-                        "2",
-                        "S",
                         "3",
-                        "8",
                         "GlW",
-                        "Kn",
+                        "8",
                         "1",
                         "Mi",
-                        "Gl"
+                        "2",
+                        "Kn",
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Paniertes Truthahnschnitzel mit Bratensauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
                         "GlG",
+                        "GlW",
+                        "Mi",
                         "Sl",
                         "Kn",
-                        "Mi",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -102,11 +102,11 @@
                     "name": "Kokos-Pilz-Topf mit Glasnudeln",
                     "price": 1.0,
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "2",
                         "Sf",
                         "Kn",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
@@ -114,8 +114,8 @@
                     "price": 2.4,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -127,14 +127,14 @@
                     "name": "Ofenkartoffeln a la Caspar mit grüner Sauce und Ei",
                     "price": 2.6,
                     "ingredients": [
-                        "5",
                         "Ei",
+                        "GlR",
                         "9",
-                        "Sf",
-                        "Mi",
+                        "5",
                         "Sw",
-                        "Gl",
-                        "GlR"
+                        "Mi",
+                        "Sf",
+                        "Gl"
                     ]
                 }
             ]
@@ -146,18 +146,18 @@
                     "name": "Blumenkohl-Kartoffel-Curry",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gebratene Hähnchenkeule mit Paprikasauce",
                     "price": 1.9,
                     "ingredients": [
-                        "10",
-                        "Sl",
-                        "Sf",
                         "11",
+                        "Sl",
+                        "10",
+                        "Sf",
                         "Kn"
                     ]
                 },
@@ -165,9 +165,9 @@
                     "name": "Fränkische Bratwurst",
                     "price": 1.9,
                     "ingredients": [
+                        "8",
                         "R",
-                        "S",
-                        "8"
+                        "S"
                     ]
                 },
                 {
@@ -175,12 +175,12 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlG",
-                        "2",
-                        "Ei",
                         "3",
+                        "Ei",
                         "GlW",
-                        "Mi",
                         "So",
+                        "Mi",
+                        "2",
                         "Gl"
                     ]
                 },
@@ -189,8 +189,8 @@
                     "price": 2.6,
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]

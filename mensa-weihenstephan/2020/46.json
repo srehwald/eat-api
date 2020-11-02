@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "GlW",
+                        "Gl",
+                        "Kn",
                         "Sl"
                     ]
                 },
@@ -19,9 +19,9 @@
                     "name": "Schweinerückensteak mit Paprikasauce",
                     "price": 2.4,
                     "ingredients": [
+                        "GlW",
                         "Gl",
                         "Mi",
-                        "GlW",
                         "S"
                     ]
                 },
@@ -29,10 +29,10 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "Ei",
                         "GlW",
+                        "Kn",
+                        "Ei",
+                        "Gl",
                         "Mi",
                         "Sl"
                     ]
@@ -41,15 +41,15 @@
                     "name": "Pizza Salami",
                     "price": 3.5,
                     "ingredients": [
-                        "1",
-                        "Gl",
-                        "Kn",
                         "GlW",
                         "3",
-                        "S",
-                        "Mi",
-                        "So",
+                        "Kn",
                         "2",
+                        "S",
+                        "So",
+                        "Gl",
+                        "Mi",
+                        "1",
                         "GlG"
                     ]
                 }
@@ -62,9 +62,9 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "GlW",
+                        "Gl",
+                        "Kn",
                         "Sf"
                     ]
                 },
@@ -72,28 +72,28 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
-                        "S",
+                        "8",
                         "Sl",
-                        "8"
+                        "S"
                     ]
                 },
                 {
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 }
             ]
@@ -113,20 +113,20 @@
                     "name": "Farfalle mit Kürbis",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sf",
-                        "Gl",
-                        "Ei",
                         "GlW",
                         "S",
+                        "Ei",
+                        "Gl",
                         "Mi",
+                        "Sf",
                         "Sl"
                     ]
                 },
@@ -134,14 +134,14 @@
                     "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
                     "price": 3.5,
                     "ingredients": [
-                        "Gl",
                         "GlW",
                         "3",
-                        "8",
-                        "Mi",
-                        "So",
                         "2",
-                        "GlG"
+                        "So",
+                        "Gl",
+                        "Mi",
+                        "GlG",
+                        "8"
                     ]
                 }
             ]
@@ -160,36 +160,36 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
+                        "2",
                         "Mi",
-                        "2"
+                        "1"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "GlW",
-                        "Sw",
                         "99",
+                        "GlW",
+                        "Kn",
+                        "5",
+                        "Sw",
+                        "Gl",
                         "Mi",
-                        "GlG",
-                        "5"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Pizza mit Shrimps and Cocktailtomaten",
                     "price": 3.5,
                     "ingredients": [
-                        "Kn",
-                        "1",
-                        "Gl",
                         "GlW",
+                        "Kn",
+                        "So",
+                        "Gl",
                         "Kr",
                         "Mi",
-                        "So",
+                        "1",
                         "GlG"
                     ]
                 }
@@ -209,9 +209,9 @@
                     "name": "Schupfnudeln mit Sauerkraut und Kümmel",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
                         "Ei",
                         "GlW",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -219,9 +219,9 @@
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "Gl",
-                        "Ei",
                         "GlW",
+                        "Ei",
+                        "Gl",
                         "Fi",
                         "Mi",
                         "Sl"
