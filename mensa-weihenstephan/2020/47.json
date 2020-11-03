@@ -9,21 +9,21 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": 1.0,
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "2",
+                        "Gl",
                         "So",
-                        "Gl"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": 1.9,
                     "ingredients": [
+                        "Gl",
+                        "S",
                         "GlW",
                         "Kn",
-                        "S",
-                        "Gl",
                         "Mi",
                         "GlG"
                     ]
@@ -32,10 +32,10 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": 2.4,
                     "ingredients": [
+                        "Gl",
                         "GlW",
                         "Kn",
                         "Ei",
-                        "Gl",
                         "Mi",
                         "Sl"
                     ]
@@ -44,9 +44,9 @@
                     "name": "Pizza Margherita mit Mozzarella",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
-                        "So",
                         "Gl",
+                        "So",
+                        "GlW",
                         "Mi",
                         "GlG"
                     ]
@@ -68,10 +68,10 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
                         "2",
-                        "Ei",
                         "Gl",
+                        "GlW",
+                        "Ei",
                         "Mi",
                         "1"
                     ]
@@ -80,12 +80,12 @@
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": 3.2,
                     "ingredients": [
-                        "99",
+                        "Sw",
+                        "5",
+                        "Gl",
                         "GlW",
                         "Kn",
-                        "5",
-                        "Sw",
-                        "Gl",
+                        "99",
                         "Mi",
                         "GlG",
                         "R",
@@ -96,14 +96,14 @@
                     "name": "Pizza Diavolo mit Mozzarella, scharfer Salami und Jalapenos",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
                         "2",
-                        "S",
-                        "So",
                         "Gl",
+                        "So",
+                        "S",
+                        "GlW",
                         "Mi",
-                        "1",
-                        "GlG"
+                        "GlG",
+                        "1"
                     ]
                 }
             ]
@@ -115,20 +115,20 @@
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "3",
-                        "5",
                         "Sw",
-                        "9"
+                        "5",
+                        "3",
+                        "9",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": 1.9,
                     "ingredients": [
+                        "Gl",
                         "GlW",
                         "Ei",
-                        "Gl",
                         "GlD",
                         "Sl"
                     ]
@@ -137,28 +137,28 @@
                     "name": "Topfenpalatschinken",
                     "price": 2.6,
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "Gl",
+                        "GlW",
+                        "ScM",
+                        "Ei",
                         "Mi",
-                        "Sc",
-                        "ScM"
+                        "Sc"
                     ]
                 },
                 {
                     "name": "Überbackenes Hacksteak griechische Art mit Tsatsiki und Reis",
                     "price": 3.0,
                     "ingredients": [
-                        "Kn",
-                        "3",
                         "2",
                         "5",
-                        "Ei",
                         "Sw",
+                        "3",
+                        "Kn",
+                        "Ei",
                         "Mi",
-                        "1",
                         "Sf",
                         "R",
+                        "1",
                         "Sl"
                     ]
                 },
@@ -166,11 +166,11 @@
                     "name": "Pizza Elsässer Art mit Sauerrahm, Zwiebeln, Speck und Käse",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
-                        "3",
                         "2",
-                        "So",
+                        "3",
                         "Gl",
+                        "So",
+                        "GlW",
                         "Mi",
                         "GlG"
                     ]
@@ -184,16 +184,16 @@
                     "name": "Pikante Hirse mit Gemüse",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Currynudeln mit gebratenen Gemüsestreifen",
                     "price": 1.55,
                     "ingredients": [
-                        "GlW",
                         "Gl",
+                        "GlW",
                         "Sf",
                         "Se",
                         "Sl"
@@ -203,29 +203,29 @@
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": 2.8,
                     "ingredients": [
-                        "GlW",
-                        "3",
-                        "Kn",
                         "2",
-                        "S",
+                        "3",
                         "Gl",
+                        "S",
+                        "GlW",
+                        "Kn",
+                        "8",
                         "Mi",
-                        "GlG",
-                        "8"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Pizza Tosacana mit gebratenem Gemüse und Oliven",
                     "price": 3.5,
                     "ingredients": [
-                        "GlW",
                         "2",
-                        "So",
                         "Gl",
+                        "So",
+                        "6",
+                        "GlW",
                         "Mi",
-                        "1",
                         "GlG",
-                        "6"
+                        "1"
                     ]
                 }
             ]
@@ -237,19 +237,19 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kürbis-Lasagne mit Bergkäse überbacken",
                     "price": 3.0,
                     "ingredients": [
-                        "GlW",
                         "3",
-                        "Kn",
-                        "So",
                         "Gl",
+                        "So",
+                        "GlW",
+                        "Kn",
                         "Mi",
                         "GlG"
                     ]
@@ -258,10 +258,10 @@
                     "name": "Lachsfilet auf Blattspinat",
                     "price": 4.0,
                     "ingredients": [
+                        "Fi",
+                        "Gl",
                         "GlW",
                         "Kn",
-                        "Gl",
-                        "Fi",
                         "Mi"
                     ]
                 }
