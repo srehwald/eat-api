@@ -9,10 +9,15 @@
                     "name": "Bio-Pasta mit Broccoli-Sahne-Sauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
                         "Gl",
-                        "GlW",
-                        "Mi"
+                        "GlW"
                     ]
+                },
+                {
+                    "name": "Pizza des Tages",
+                    "price": "N/A",
+                    "ingredients": []
                 },
                 {
                     "name": "Bio-Reispfanne mit Bio-Gemüse aus dem Wok (scharf)",
@@ -37,14 +42,14 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "R",
-                        "Mi",
-                        "9",
                         "Gl",
-                        "Kn",
+                        "9",
+                        "Mi",
                         "Sf",
-                        "GlG"
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -53,15 +58,20 @@
             "date": "2020-11-24",
             "dishes": [
                 {
+                    "name": "Pizza des Tages",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
                     "name": "Roast beef mit Schmorzwiebelsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "R",
-                        "Mi",
                         "Gl",
-                        "Kn",
-                        "GlG"
+                        "Mi",
+                        "GlG",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -76,10 +86,10 @@
                     "name": "Karotten-Kürbisragout",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Kn",
-                        "GlW",
-                        "Sf"
+                        "Sf",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -91,9 +101,9 @@
                     "name": "Bio-Kartoffelgratin mit Bio-Blattspinat",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
+                        "Mi",
+                        "GlW",
                         "Kn",
                         "So",
                         "Ei"
@@ -108,12 +118,17 @@
                     "name": "Bio-Pasta mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Gl",
+                        "Mi",
+                        "GlW",
                         "Kn",
                         "So"
                     ]
+                },
+                {
+                    "name": "Pizza des Tages",
+                    "price": "N/A",
+                    "ingredients": []
                 },
                 {
                     "name": "Gebratenes Putensteak mit Kräuterdip",
@@ -139,9 +154,9 @@
                     "name": "Bio-Gemüsecurry mit Mienudeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Sf",
                         "Gl",
-                        "GlW",
-                        "Sf"
+                        "GlW"
                     ]
                 }
             ]
@@ -153,19 +168,24 @@
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "GlW"
                     ]
+                },
+                {
+                    "name": "Pizza des Tages",
+                    "price": "N/A",
+                    "ingredients": []
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Kn",
-                        "GlW",
-                        "So"
+                        "Gl",
+                        "So",
+                        "GlW"
                     ]
                 },
                 {
@@ -177,22 +197,22 @@
                     "name": "Frische Rahmschwammerl",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Kn",
-                        "GlW",
-                        "Mi"
+                        "Gl",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Bio-Chili con Carne",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "R",
-                        "S",
                         "Gl",
+                        "Sf",
+                        "GlW",
                         "Kn",
-                        "Sf"
+                        "S"
                     ]
                 }
             ]
@@ -204,20 +224,25 @@
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sl",
                         "Gl",
+                        "Sl",
+                        "GlW",
                         "Kn",
                         "So"
                     ]
                 },
                 {
+                    "name": "Pizza des Tages",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
+                        "Sl",
                         "Gl",
-                        "GlW",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
@@ -229,25 +254,25 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "N/A",
                     "ingredients": [
+                        "11",
+                        "Gl",
+                        "3",
+                        "9",
+                        "1",
+                        "Sf",
                         "GlW",
                         "Mi",
-                        "11",
-                        "9",
-                        "Gl",
-                        "Sf",
-                        "3",
-                        "Ei",
                         "Fi",
-                        "1"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Bio-Kaiserschmarrn mit Bio-Apfelmus",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
                         "Gl",
                         "GlW",
-                        "Mi",
                         "Ei"
                     ]
                 }

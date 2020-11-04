@@ -9,18 +9,18 @@
                     "name": "Gnocchi mit frischem Kürbis und Kräutern",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
@@ -29,19 +29,24 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Gemüsecremesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "Sl",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Vegane Gemüselasagne",
                     "price": "N/A",
                     "ingredients": [
                         "2",
-                        "Sl",
-                        "So",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "So"
                     ]
                 }
             ]
@@ -53,52 +58,56 @@
                     "name": "Vegane Strozzapreti Carbonara mit Räuchertofu",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Sl",
+                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "So"
                     ]
                 },
                 {
                     "name": "Pizza Regina mit (Vorder-)Schinken und Champignons",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "3",
-                        "2",
-                        "S",
-                        "8",
                         "So",
-                        "Mi",
+                        "2",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "S",
+                        "8"
                     ]
                 },
                 {
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Karotten-Ingwer-Suppe",
+                    "price": "N/A",
+                    "ingredients": [
                         "GlW",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
                     "name": "Jägerschnitzel vom Truthahn mit Waldpilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "3",
-                        "2",
-                        "Mi",
                         "Kn",
+                        "2",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlG"
                     ]
                 }
             ]
@@ -111,10 +120,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "ScC",
-                        "Gl",
-                        "Sc",
                         "ScW",
-                        "GlW"
+                        "GlW",
+                        "Gl",
+                        "Sc"
                     ]
                 },
                 {
@@ -128,8 +137,8 @@
                     "name": "Kürbis-Linsen-Curry",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sf"
+                        "Sf",
+                        "Kn"
                     ]
                 },
                 {
@@ -142,9 +151,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sw",
+                        "5",
                         "Lu",
                         "Sl",
-                        "5",
+                        "Se",
                         "So"
                     ]
                 }
@@ -157,23 +167,23 @@
                     "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "3",
-                        "2",
-                        "8",
                         "So",
-                        "Mi",
+                        "2",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "8"
                     ]
                 },
                 {
                     "name": "Zartweizen mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -185,26 +195,26 @@
                     "name": "Panierte Sellerieschnitzel mit Farmersalat und Sojajoghurt",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "3",
-                        "Sw",
-                        "Sl",
                         "5",
-                        "So",
+                        "Sw",
                         "GlW",
-                        "Gl"
+                        "Sl",
+                        "Gl",
+                        "GlG",
+                        "So"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
                         "3",
-                        "S",
-                        "Mi",
                         "5",
-                        "Kn"
+                        "Sw",
+                        "Kn",
+                        "Mi",
+                        "S"
                     ]
                 }
             ]
@@ -216,9 +226,9 @@
                     "name": "Couscous mit Kürbis",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "So"
                     ]
                 },
                 {
@@ -230,32 +240,42 @@
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
+                        "Sf",
                         "Kn",
-                        "Sf"
+                        "So"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "S",
-                        "Mi",
-                        "99",
                         "Kn",
+                        "99",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlG",
+                        "S"
                     ]
                 },
                 {
-                    "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
+                    "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Mi",
+                        "1"
+                    ]
+                },
+                {
+                    "name": "Pfannkuchen mit Heidelbeerfüllung und Vanillesauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
