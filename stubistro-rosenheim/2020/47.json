@@ -9,33 +9,33 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Mi",
                         "Gl",
-                        "Kn",
-                        "Sl",
+                        "Mi",
                         "Ei",
-                        "GlW"
+                        "GlW",
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Gl",
-                        "Kn",
-                        "GlG",
                         "S",
-                        "GlW"
+                        "Gl",
+                        "GlG",
+                        "Mi",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Knöpfle",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Ei",
                         "GlD",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -65,36 +65,36 @@
                     "name": "Mediterraner Nudel-Gemüse-Auflauf",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "Ei",
                         "GlW",
-                        "1",
-                        "2"
+                        "2",
+                        "1"
                     ]
                 },
                 {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
-                        "5",
                         "GlG",
-                        "Kn",
-                        "Sl",
-                        "Sw",
+                        "Mi",
                         "99",
+                        "GlW",
                         "R",
-                        "GlW"
+                        "5",
+                        "Sl",
+                        "Kn",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "Ei",
                         "GlW",
                         "1"
@@ -104,8 +104,8 @@
                     "name": "Blaukraut",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
                         "99",
+                        "5",
                         "Sw"
                     ]
                 },
@@ -123,9 +123,9 @@
                     "name": "Hirsecreme mit Nüssen und Sahne",
                     "price": "N/A",
                     "ingredients": [
-                        "ScH",
+                        "Sc",
                         "Mi",
-                        "Sc"
+                        "ScH"
                     ]
                 }
             ]
@@ -137,17 +137,17 @@
                     "name": "Überbackenes Hacksteak griechische Art mit Tsatsiki und Reis",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "Sf",
                         "Mi",
-                        "5",
-                        "Kn",
-                        "Sw",
-                        "Sl",
-                        "3",
                         "Ei",
                         "R",
-                        "Sf",
+                        "3",
+                        "5",
+                        "2",
                         "1",
-                        "2"
+                        "Sl",
+                        "Kn",
+                        "Sw"
                     ]
                 },
                 {
@@ -155,10 +155,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "GlD",
-                        "Sl",
                         "Ei",
-                        "GlW"
+                        "GlW",
+                        "GlD",
+                        "Sl"
                     ]
                 },
                 {
@@ -175,8 +175,8 @@
                     "name": "Veganer Sojacreme-Joghurt mit Brombeeren und Minze",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "So"
+                        "So",
+                        "3"
                     ]
                 }
             ]
@@ -188,34 +188,34 @@
                     "name": "Currynudeln mit gebratenen Gemüsestreifen",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Gl",
-                        "Sl",
                         "Se",
+                        "Gl",
+                        "Sf",
                         "GlW",
-                        "Sf"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "8",
-                        "Gl",
-                        "Kn",
-                        "GlG",
-                        "3",
                         "S",
+                        "Gl",
+                        "GlG",
+                        "Mi",
                         "GlW",
-                        "2"
+                        "8",
+                        "3",
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "Ei",
                         "GlW",
                         "1"
@@ -225,8 +225,8 @@
                     "name": "Kümmelkraut",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
                         "99",
+                        "5",
                         "Sw"
                     ]
                 },
@@ -244,9 +244,9 @@
                     "name": "Rhabarber-Erdbeer-Triffle mit Vanillecreme und Sahne",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Ei",
                         "Mi",
+                        "Ei",
+                        "Gl",
                         "GlW"
                     ]
                 }
@@ -259,11 +259,11 @@
                     "name": "Lachsfilet auf Blattspinat",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Mi",
-                        "Fi",
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "Fi",
+                        "Mi",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -272,9 +272,9 @@
                     "ingredients": [
                         "So",
                         "Gl",
-                        "Kn",
                         "GlW",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
@@ -296,9 +296,9 @@
                     "name": "Schokocreme Schwarzwälder Art",
                     "price": "N/A",
                     "ingredients": [
+                        "So",
                         "Mi",
-                        "99",
-                        "So"
+                        "99"
                     ]
                 }
             ]
