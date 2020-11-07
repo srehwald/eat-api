@@ -10,9 +10,9 @@
                     "price": 1.0,
                     "ingredients": [
                         "GlW",
-                        "Sl",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -21,33 +21,33 @@
                     "ingredients": [
                         "GlW",
                         "Gl",
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
+                        "GlW",
                         "Sl",
+                        "Mi",
                         "Gl",
                         "Kn",
-                        "Ei",
-                        "GlW",
-                        "Mi"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
+                        "GlW",
+                        "2",
+                        "Mi",
+                        "S",
                         "Gl",
                         "Kn",
                         "Ei",
-                        "GlW",
-                        "S",
-                        "2",
-                        "Mi",
                         "GlG"
                     ]
                 }
@@ -60,8 +60,8 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "So",
-                        "Kn"
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
@@ -78,13 +78,13 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
-                        "Gl",
-                        "Ei",
                         "GlW",
-                        "S",
                         "Sf",
-                        "Mi"
+                        "Sl",
+                        "Mi",
+                        "S",
+                        "Gl",
+                        "Ei"
                     ]
                 },
                 {
@@ -122,14 +122,14 @@
                     "name": "Fleischpflanzerl mit Rahmsauce",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
+                        "R",
+                        "Sf",
+                        "Mi",
+                        "S",
                         "Gl",
                         "Kn",
                         "Ei",
-                        "GlW",
-                        "S",
-                        "Sf",
-                        "Mi",
-                        "R",
                         "GlG"
                     ]
                 },
