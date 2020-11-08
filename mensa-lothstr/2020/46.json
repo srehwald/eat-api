@@ -9,9 +9,9 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
+                        "GlW",
                         "Kn",
                         "Gl",
-                        "GlW",
                         "Sl"
                     ]
                 },
@@ -20,19 +20,19 @@
                     "price": 2.4,
                     "ingredients": [
                         "Mi",
-                        "Gl",
                         "GlW",
-                        "S"
+                        "S",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bio-Penne mit Bio-Tomaten-Zucchinisauce (dazu Hartkäse)",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -44,28 +44,28 @@
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
                         "GlW",
-                        "Sf"
+                        "Kn",
+                        "Sf",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
                         "S",
+                        "Sl",
                         "8"
                     ]
                 },
@@ -73,9 +73,9 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
+                        "GlW",
                         "Kn",
-                        "Gl",
-                        "GlW"
+                        "Gl"
                     ]
                 }
             ]
@@ -95,21 +95,21 @@
                     "name": "Farfalle mit Kürbis",
                     "price": 1.9,
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Sl",
-                        "S",
-                        "Ei",
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "Sf"
+                        "Mi",
+                        "Sf",
+                        "S",
+                        "Sl",
+                        "Ei",
+                        "GlW"
                     ]
                 }
             ]
@@ -128,23 +128,23 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": 2.4,
                     "ingredients": [
-                        "1",
                         "Mi",
-                        "2"
+                        "2",
+                        "1"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": 2.8,
                     "ingredients": [
-                        "GlG",
-                        "Mi",
-                        "99",
-                        "GlW",
-                        "Kn",
                         "Gl",
                         "5",
-                        "Sw"
+                        "Mi",
+                        "Sw",
+                        "Kn",
+                        "99",
+                        "GlG",
+                        "GlW"
                     ]
                 }
             ]
@@ -163,22 +163,22 @@
                     "name": "Dampfnudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
                         "Mi",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Ei",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": 4.0,
                     "ingredients": [
-                        "Sl",
-                        "Ei",
+                        "Gl",
                         "Mi",
                         "Fi",
-                        "GlW",
-                        "Gl"
+                        "Sl",
+                        "Ei",
+                        "GlW"
                     ]
                 }
             ]
