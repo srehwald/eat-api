@@ -9,17 +9,17 @@
                     "name": "Strozzapreti mit frischem Kürbis und Kräutern",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -33,22 +33,22 @@
                     "name": "Pfannkuchensuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
                         "Mi",
                         "Gl",
-                        "Ei"
+                        "Ei",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Vegane Gemüselasagne",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
                         "2",
                         "So",
-                        "Gl"
+                        "Gl",
+                        "Sl",
+                        "GlW"
                     ]
                 }
             ]
@@ -60,30 +60,30 @@
                     "name": "Vegane Strozzapreti Carbonara mit Räuchertofu",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
-                        "Kn",
                         "So",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kürbissuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "So",
                         "GlW",
-                        "Kn"
+                        "So",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -91,27 +91,27 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "Sc",
-                        "GlW",
-                        "ScW",
-                        "ScM",
+                        "So",
+                        "Gl",
                         "3",
                         "Kn",
-                        "So",
-                        "Gl"
+                        "ScM",
+                        "ScW",
+                        "GlW",
+                        "Sc"
                     ]
                 },
                 {
                     "name": "Jägerschnitzel vom Truthahn mit Waldpilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "GlW",
-                        "3",
                         "2",
-                        "Kn",
+                        "GlG",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "3",
+                        "Kn",
+                        "GlW"
                     ]
                 }
             ]
@@ -123,12 +123,12 @@
                     "name": "Limettenpasta mit Pilzen, Erbsen und Cashews",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "ScC",
-                        "GlW",
-                        "ScW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "ScW",
+                        "GlW",
+                        "ScC",
+                        "Sc"
                     ]
                 },
                 {
@@ -155,24 +155,24 @@
                     "name": "Vegane Reis-Gemüse-Pflanzerl mit Fenchel-Karottensalat und Orangendressing",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "Sl",
-                        "Lu",
-                        "Se",
                         "So",
-                        "5"
+                        "Lu",
+                        "Sl",
+                        "Se",
+                        "5",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Veganes Nasi Goreng mit Tofu & Sojasprossen",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
                         "2",
-                        "Kn",
                         "So",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "Sl",
+                        "GlW"
                     ]
                 }
             ]
@@ -184,9 +184,9 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -198,11 +198,11 @@
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlW",
-                        "Kn",
                         "So",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "Sl",
+                        "GlW"
                     ]
                 },
                 {
@@ -210,26 +210,26 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlG",
-                        "Sw",
+                        "So",
+                        "Gl",
+                        "3",
+                        "Lu",
                         "Sl",
                         "GlW",
-                        "3",
                         "5",
-                        "Lu",
-                        "Gl",
-                        "So"
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "S",
-                        "3",
                         "Mi",
+                        "3",
                         "Kn",
-                        "5"
+                        "5",
+                        "S",
+                        "Sw"
                     ]
                 }
             ]
@@ -241,9 +241,9 @@
                     "name": "Couscous mit Kürbis",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "So"
+                        "So",
+                        "Gl"
                     ]
                 },
                 {
@@ -255,8 +255,8 @@
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "So",
+                        "Kn",
                         "Sf"
                     ]
                 },
@@ -264,13 +264,13 @@
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "S",
-                        "GlW",
                         "99",
+                        "GlG",
                         "Mi",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW",
+                        "S"
                     ]
                 },
                 {
@@ -279,8 +279,8 @@
                     "ingredients": [
                         "Gl",
                         "Mi",
-                        "GlW",
-                        "Ei"
+                        "Ei",
+                        "GlW"
                     ]
                 }
             ]
