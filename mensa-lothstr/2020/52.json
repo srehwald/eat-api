@@ -9,19 +9,19 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Sl",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Gnocchi mit Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "GlW",
                         "Gl",
+                        "Kn",
                         "So"
                     ]
                 },
@@ -29,13 +29,13 @@
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
+                        "Gl",
+                        "2",
+                        "Kn",
+                        "S",
                         "Ei",
                         "GlW",
-                        "Kn",
                         "Mi",
-                        "Gl",
-                        "S",
-                        "2",
                         "GlG"
                     ]
                 }
@@ -56,23 +56,23 @@
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
+                        "Gl",
                         "Ei",
                         "GlW",
+                        "Sl",
                         "Sf",
-                        "Gl",
-                        "S",
-                        "Sl"
+                        "Mi",
+                        "S"
                     ]
                 }
             ]
@@ -91,24 +91,24 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Rahmsauce",
                     "price": 1.9,
                     "ingredients": [
+                        "Gl",
+                        "Kn",
+                        "S",
                         "Ei",
                         "GlW",
-                        "Mi",
                         "Sf",
-                        "Gl",
-                        "S",
+                        "Mi",
                         "R",
-                        "Kn",
                         "GlG"
                     ]
                 }
