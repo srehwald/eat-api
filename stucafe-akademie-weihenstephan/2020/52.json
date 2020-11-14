@@ -9,31 +9,31 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "Gl",
+                        "GlW",
                         "Sl",
-                        "GlW"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gnocchi mit Tomatensauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
                         "So",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
                         "Sl",
-                        "GlW",
-                        "Ei",
                         "Gl",
+                        "Kn",
+                        "Ei",
+                        "GlW",
                         "Mi"
                     ]
                 },
@@ -41,13 +41,13 @@
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": 4.0,
                     "ingredients": [
-                        "Kn",
-                        "S",
+                        "Gl",
                         "GlG",
+                        "Kn",
+                        "Ei",
                         "2",
                         "GlW",
-                        "Ei",
-                        "Gl",
+                        "S",
                         "Mi"
                     ]
                 }
@@ -60,18 +60,18 @@
                     "name": "Mexikanisches Soja-Chili",
                     "price": 1.0,
                     "ingredients": [
-                        "Kn",
-                        "So"
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "price": 2.4,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -79,11 +79,11 @@
                     "price": 2.4,
                     "ingredients": [
                         "Sl",
-                        "S",
-                        "Sf",
-                        "GlW",
-                        "Ei",
                         "Gl",
+                        "Sf",
+                        "Ei",
+                        "GlW",
+                        "S",
                         "Mi"
                     ]
                 },
@@ -91,9 +91,9 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 }
             ]
@@ -112,24 +112,24 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Fleischpflanzerl mit Rahmsauce",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
-                        "S",
-                        "Sf",
-                        "GlG",
-                        "GlW",
-                        "R",
-                        "Ei",
                         "Gl",
+                        "GlG",
+                        "Kn",
+                        "Ei",
+                        "Sf",
+                        "GlW",
+                        "S",
+                        "R",
                         "Mi"
                     ]
                 },
@@ -137,9 +137,9 @@
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
+                        "GlW",
                         "Gl",
-                        "Mi",
-                        "GlW"
+                        "Mi"
                     ]
                 }
             ]
