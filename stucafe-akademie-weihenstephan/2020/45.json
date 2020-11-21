@@ -9,17 +9,17 @@
                     "name": "Gnocchi mit frischem Kürbis und Kräutern",
                     "price": 1.9,
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Putensteak mit Kräuterbutter",
                     "price": 3.2,
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -31,9 +31,9 @@
                     "name": "Vegane Strozzapreti Carbonara mit Räuchertofu",
                     "price": 2.4,
                     "ingredients": [
-                        "Gl",
-                        "So",
                         "GlW",
+                        "So",
+                        "Gl",
                         "Sl",
                         "Kn"
                     ]
@@ -42,13 +42,13 @@
                     "name": "Jägerschnitzel vom Truthahn mit Waldpilzen",
                     "price": 3.2,
                     "ingredients": [
-                        "Gl",
                         "GlG",
-                        "Mi",
                         "GlW",
-                        "3",
+                        "Mi",
                         "2",
-                        "Kn"
+                        "Kn",
+                        "Gl",
+                        "3"
                     ]
                 }
             ]
@@ -67,11 +67,11 @@
                     "name": "Limettenpasta mit Pilzen, Erbsen und Cashews",
                     "price": 3.0,
                     "ingredients": [
-                        "ScC",
-                        "Gl",
-                        "Sc",
-                        "ScW",
                         "GlW",
+                        "ScC",
+                        "ScW",
+                        "Sc",
+                        "Gl",
                         "Kn"
                     ]
                 }
@@ -89,12 +89,12 @@
                     "name": "Pfannengyros vom Schwein mit Tsatsiki",
                     "price": 3.0,
                     "ingredients": [
-                        "S",
-                        "3",
-                        "Mi",
-                        "5",
                         "Sw",
-                        "Kn"
+                        "5",
+                        "S",
+                        "Kn",
+                        "Mi",
+                        "3"
                     ]
                 }
             ]
@@ -106,28 +106,28 @@
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Ei",
                         "Gl",
-                        "Mi"
+                        "Ei",
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": 2.6,
                     "ingredients": [
-                        "1",
-                        "S",
-                        "Gl",
                         "GlG",
-                        "Sw",
+                        "GlW",
                         "Mi",
                         "Ei",
-                        "5",
-                        "99",
-                        "GlW",
+                        "Sw",
+                        "S",
+                        "1",
+                        "Kn",
+                        "Gl",
                         "3",
-                        "Kn"
+                        "5",
+                        "99"
                     ]
                 }
             ]
