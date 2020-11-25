@@ -6,12 +6,12 @@
             "date": "2020-11-23",
             "dishes": [
                 {
-                    "name": "Bio-Pasta mit Broccoli-Sahne-Sauce",
+                    "name": "Bio-Pasta mit Bio-Spinat-Sahne-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -29,22 +29,34 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Blumenkohlcremesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Gl",
-                        "Kn",
-                        "GlG",
                         "R",
                         "Mi",
-                        "9",
-                        "GlW"
+                        "GlG",
+                        "Kn",
+                        "Gl",
+                        "Sf",
+                        "GlW",
+                        "9"
+                    ]
+                },
+                {
+                    "name": "Putensteak mit Kräuterbutter",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -53,14 +65,14 @@
             "date": "2020-11-24",
             "dishes": [
                 {
-                    "name": "Roast beef mit Schmorzwiebelsauce",
+                    "name": "Rinderlendensteak mit Schmorzwiebelsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "GlG",
                         "R",
                         "Mi",
+                        "GlG",
+                        "Kn",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -76,27 +88,34 @@
                     "name": "Karotten-Kürbisragout",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Kn",
-                        "Sf",
-                        "GlW"
+                        "Gl",
+                        "Sf"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Leberknödelsuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "R",
+                        "Sl",
+                        "Gl",
+                        "S",
+                        "Ei",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Bio-Kartoffelgratin mit Bio-Blattspinat",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Mi",
+                        "Kn",
+                        "Gl",
                         "Ei",
-                        "So",
-                        "GlW"
+                        "GlW",
+                        "So"
                     ]
                 }
             ]
@@ -108,11 +127,11 @@
                     "name": "Bio-Pasta mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Mi",
-                        "So",
-                        "GlW"
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "So"
                     ]
                 },
                 {
@@ -131,17 +150,22 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Tomaten-Kokos-Suppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "Kn",
+                        "2",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Bio-Gemüsecurry mit Mienudeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Sf",
-                        "GlW"
+                        "Gl"
                     ]
                 }
             ]
@@ -153,19 +177,19 @@
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Kn",
-                        "GlW"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "So",
-                        "GlW"
+                        "GlW",
+                        "Kn",
+                        "Gl"
                     ]
                 },
                 {
@@ -174,12 +198,12 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Frische Rahmschwammerl",
+                    "name": "Rahmschwammerl in Kräutersahne",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -187,10 +211,10 @@
                     "name": "Bio-Chili con Carne",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Gl",
-                        "Kn",
                         "R",
+                        "Kn",
+                        "Gl",
+                        "Sf",
                         "S",
                         "GlW"
                     ]
@@ -204,20 +228,20 @@
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
                         "Sl",
-                        "So",
-                        "GlW"
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "So"
                     ]
                 },
                 {
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
+                        "GlW",
                         "Gl",
-                        "Sl",
-                        "GlW"
+                        "Sl"
                     ]
                 },
                 {
@@ -229,26 +253,26 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "11",
+                        "Mi",
+                        "Fi",
                         "Sf",
                         "Gl",
-                        "Mi",
-                        "Ei",
-                        "Fi",
-                        "9",
                         "3",
-                        "GlW"
+                        "Ei",
+                        "GlW",
+                        "1",
+                        "9",
+                        "11"
                     ]
                 },
                 {
                     "name": "Bio-Kaiserschmarrn mit Bio-Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Ei",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]

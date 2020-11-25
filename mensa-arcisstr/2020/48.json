@@ -6,21 +6,42 @@
             "date": "2020-11-23",
             "dishes": [
                 {
-                    "name": "Bio-Pasta mit Broccoli-Sahne-Sauce",
+                    "name": "Bio-Pasta in Gemüse-Sahne-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Mi",
+                        "GlW"
+                    ]
+                },
+                {
+                    "name": "Pizza Margherita mit Mozzarella",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "So",
+                        "GlG",
+                        "GlW",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Pizza des Tages",
+                    "name": "Pizza mit (Vorder-)Schinken",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Mi",
+                        "8",
+                        "2",
+                        "GlW",
+                        "GlG",
+                        "So",
+                        "Gl",
+                        "3",
+                        "S"
+                    ]
                 },
                 {
-                    "name": "Bio-Reispfanne mit Bio-Gemüse aus dem Wok (scharf)",
+                    "name": "Reispfanne mit Bio-Gemüse",
                     "price": "N/A",
                     "ingredients": [
                         "Sf"
@@ -34,22 +55,29 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Rindergeschnetzeltes (GQB) Stroganoff",
+                    "name": "Leberknödelsuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sf",
-                        "9",
+                        "Sl",
+                        "Ei",
                         "GlW",
-                        "Mi",
-                        "GlG",
                         "Gl",
-                        "R"
+                        "S"
+                    ]
+                },
+                {
+                    "name": "Rindergeschnetzeltes (GQB) Stroganoff mit Schupfnudeln und Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "Ei",
+                        "9",
+                        "Kn",
+                        "GlW",
+                        "GlG",
+                        "R",
+                        "Gl",
+                        "Sf"
                     ]
                 }
             ]
@@ -58,20 +86,31 @@
             "date": "2020-11-24",
             "dishes": [
                 {
-                    "name": "Pizza des Tages",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Roast beef mit Schmorzwiebelsauce",
+                    "name": "Pizza mit (Vorder-)Schinken",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
+                        "8",
+                        "2",
+                        "GlW",
+                        "GlG",
+                        "So",
+                        "Gl",
+                        "3",
+                        "S"
+                    ]
+                },
+                {
+                    "name": "Rindersteaks mit Schmorzwiebelsauce, Bratkartoffeln und Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "Sl",
                         "Kn",
                         "GlW",
-                        "Mi",
                         "GlG",
-                        "Gl",
-                        "R"
+                        "R",
+                        "Gl"
                     ]
                 },
                 {
@@ -83,30 +122,51 @@
                     ]
                 },
                 {
+                    "name": "Rindergeschnetzeltes (GQB) Stroganoff",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "Kn",
+                        "9",
+                        "GlW",
+                        "GlG",
+                        "R",
+                        "Gl",
+                        "Sf"
+                    ]
+                },
+                {
                     "name": "Karotten-Kürbisragout",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Sf",
+                        "Gl",
+                        "Kn",
+                        "GlW"
+                    ]
+                },
+                {
+                    "name": "Bio-Gemüsecremesuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "Sl",
+                        "Kn",
+                        "GlW",
+                        "So",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Bio-Kartoffelgratin mit Bio-Blattspinat",
+                    "name": "Kartoffelgratin mit Bio-Blattspinat",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Ei",
-                        "GlW",
                         "Mi",
-                        "Gl",
-                        "So"
+                        "Ei",
+                        "Kn",
+                        "GlW",
+                        "So",
+                        "Gl"
                     ]
                 }
             ]
@@ -118,24 +178,36 @@
                     "name": "Bio-Pasta mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "Mi",
-                        "Gl",
-                        "So"
+                        "Kn",
+                        "So",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Pizza des Tages",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Gebratenes Putensteak mit Kräuterdip",
+                    "name": "Pizza mit Thunfisch, Oliven und roten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
+                        "Fi",
+                        "GlW",
+                        "GlG",
+                        "So",
+                        "Gl",
+                        "6"
+                    ]
+                },
+                {
+                    "name": "Paniertes Hähnchenschnitzel mit Chilli-Dip mit Wedges",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "Sl",
                         "Kn",
-                        "Mi"
+                        "GlW",
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
@@ -146,17 +218,21 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Karotten-Ingwersuppe mit gerösteten Kürbiskernen",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Gl",
+                        "Mi",
+                        "GlW"
+                    ]
                 },
                 {
                     "name": "Bio-Gemüsecurry mit Mienudeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Sf",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -168,9 +244,9 @@
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -182,10 +258,10 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
+                        "Gl",
                         "So",
-                        "Gl"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -197,10 +273,10 @@
                     "name": "Frische Rahmschwammerl",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "Kn",
+                        "GlW"
                     ]
                 },
                 {
@@ -208,11 +284,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "Sf",
                         "GlW",
+                        "R",
                         "Gl",
                         "S",
-                        "R"
+                        "Sf"
                     ]
                 }
             ]
@@ -224,11 +300,11 @@
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "Sl",
-                        "Gl",
-                        "So"
+                        "Kn",
+                        "So",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -240,9 +316,9 @@
                     "name": "Bauerneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Sl",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -254,26 +330,26 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "11",
-                        "1",
-                        "9",
-                        "Ei",
-                        "Sf",
-                        "GlW",
                         "Mi",
+                        "Ei",
+                        "Fi",
+                        "9",
+                        "GlW",
                         "Gl",
+                        "1",
+                        "11",
                         "3",
-                        "Fi"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Bio-Kaiserschmarrn mit Bio-Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Ei",
+                        "Gl",
                         "Mi",
-                        "Gl"
+                        "Ei",
+                        "GlW"
                     ]
                 }
             ]

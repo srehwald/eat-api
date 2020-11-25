@@ -9,8 +9,8 @@
                     "name": "Pasta mit verschiedenen Schwammerl",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -22,18 +22,18 @@
                     "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlG",
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
@@ -45,10 +45,10 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Ei",
+                        "GlW",
                         "Mi",
-                        "GlW"
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
@@ -60,12 +60,12 @@
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
+                        "Sl",
                         "GlW",
                         "Ei",
-                        "Kn",
-                        "Sl"
+                        "Kn"
                     ]
                 },
                 {
@@ -77,8 +77,8 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -91,9 +91,9 @@
                     "name": "Veganes Pilzgratin mit Sojasahne",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "So",
+                        "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -101,15 +101,15 @@
                     "name": "Gänsekeule mit Hollerblaukraut",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Mi",
-                        "Sw",
-                        "Kn",
-                        "GlG",
-                        "5",
+                        "Gl",
+                        "Sl",
                         "99",
-                        "Sl"
+                        "GlG",
+                        "GlW",
+                        "Sw",
+                        "5",
+                        "Kn"
                     ]
                 }
             ]
@@ -122,10 +122,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
+                        "99",
                         "GlW",
                         "Sw",
-                        "5",
-                        "99"
+                        "5"
                     ]
                 },
                 {
@@ -149,23 +149,23 @@
                     "name": "Pilzlasagne mit Austernpilzen und Champignons",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Mi",
-                        "Ei",
+                        "Gl",
                         "2",
-                        "1"
+                        "GlW",
+                        "1",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Kaspressknödel mit Bouillongemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
+                        "2",
                         "GlW",
-                        "Ei",
-                        "2"
+                        "Ei"
                     ]
                 }
             ]
@@ -177,11 +177,11 @@
                     "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "Kn",
+                        "Gl",
                         "6",
-                        "GlD"
+                        "GlD",
+                        "Kn"
                     ]
                 },
                 {
@@ -193,9 +193,9 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Sf",
+                        "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -215,15 +215,15 @@
                     "name": "Hirschgulasch in Preiselbeersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Mi",
-                        "Sw",
-                        "Kn",
-                        "GlG",
-                        "5",
+                        "Gl",
+                        "Sl",
                         "99",
-                        "Sl"
+                        "GlG",
+                        "GlW",
+                        "Sw",
+                        "5",
+                        "Kn"
                     ]
                 }
             ]
@@ -235,11 +235,11 @@
                     "name": "Bio-Pasta mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Mi",
-                        "Kn",
-                        "So"
+                        "Gl",
+                        "So",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -251,8 +251,8 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Kn"
                     ]
                 },
@@ -261,23 +261,23 @@
                     "price": "N/A",
                     "ingredients": [
                         "5",
+                        "So",
                         "Sw",
-                        "99",
-                        "So"
+                        "99"
                     ]
                 },
                 {
                     "name": "Lebkuchenstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "GlW",
-                        "Ei",
+                        "Sc",
                         "ScM",
-                        "3",
+                        "Mi",
+                        "Gl",
                         "So",
-                        "Sc"
+                        "GlW",
+                        "3",
+                        "Ei"
                     ]
                 }
             ]

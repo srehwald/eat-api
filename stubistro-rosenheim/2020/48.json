@@ -6,11 +6,11 @@
             "date": "2020-11-23",
             "dishes": [
                 {
-                    "name": "Pasta mit Broccoli-Sahne-Sauce",
+                    "name": "Pasta mit Gemüse-Sahne-Sauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Mi"
                     ]
                 },
@@ -18,42 +18,42 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "R",
-                        "GlG",
-                        "Sf",
+                        "Mi",
                         "9",
-                        "Gl",
                         "GlW",
-                        "Mi"
+                        "Gl",
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Knöpfle",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "GlW",
+                        "Gl",
                         "GlD",
+                        "Ei"
+                    ]
+                },
+                {
+                    "name": "Kaisergemüse",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
+                    "name": "Zwiebelsuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Tagesgemüse",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Quarkcreme mit Blaubeeren",
+                    "name": "Quarkcreme mit Erdbeeren und Brombeeren",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "So"
+                        "Mi"
                     ]
                 }
             ]
@@ -65,12 +65,12 @@
                     "name": "Roast beef mit Schmorzwiebelsauce",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Kn",
                         "R",
+                        "Mi",
                         "GlG",
-                        "Gl",
+                        "Kn",
                         "GlW",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
@@ -78,34 +78,36 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "Sf"
+                        "Sf",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kartoffelgratin",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "Ei"
                     ]
                 },
                 {
-                    "name": "Tagesgemüse",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Bayerisch Creme mit Himbeermark",
+                    "name": "Leipziger Allerlei",
                     "price": "N/A",
                     "ingredients": [
-                        "14",
-                        "Mi"
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Leberspätzlesuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "S",
+                        "R",
+                        "Ei",
+                        "Sl",
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
@@ -117,11 +119,11 @@
                     "name": "Pasta mit Soja-Bolognese (dazu Hartkäse)",
                     "price": "0.68€ / 100g",
                     "ingredients": [
+                        "Mi",
                         "So",
                         "Kn",
-                        "Gl",
                         "GlW",
-                        "Mi"
+                        "Gl"
                     ]
                 },
                 {
@@ -136,8 +138,8 @@
                     "name": "Countrykartoffeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -166,8 +168,8 @@
                     "name": "Frische Rahmschwammerl",
                     "price": "0.68€ / 100g",
                     "ingredients": [
-                        "Gl",
                         "GlW",
+                        "Gl",
                         "Mi",
                         "Kn"
                     ]
@@ -176,23 +178,23 @@
                     "name": "Chili con Carne",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "R",
                         "S",
-                        "Sf",
+                        "R",
+                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Sf"
                     ]
                 },
                 {
                     "name": "Semmelknödel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "Mi",
-                        "Gl",
+                        "1",
+                        "Ei",
                         "GlW",
-                        "1"
+                        "Gl"
                     ]
                 },
                 {
@@ -214,8 +216,8 @@
                     "name": "Kokos-Panna-Cotta mit Himbeersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "14",
-                        "Mi"
+                        "Mi",
+                        "14"
                     ]
                 }
             ]
@@ -235,27 +237,27 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Fi",
+                        "Sf",
+                        "Mi",
+                        "1",
+                        "9",
                         "Ei",
+                        "GlW",
                         "Gl",
                         "11",
-                        "Fi",
-                        "Mi",
-                        "Sf",
-                        "9",
-                        "3",
-                        "GlW",
-                        "1"
+                        "3"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
                         "Ei",
-                        "Gl",
-                        "3",
                         "GlW",
-                        "Mi"
+                        "Gl",
+                        "3"
                     ]
                 },
                 {
@@ -277,8 +279,8 @@
                     "name": "Schwedische Quarkspeise (mit Äpfeln)",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Mi"
+                        "Mi",
+                        "3"
                     ]
                 }
             ]
