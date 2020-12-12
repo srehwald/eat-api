@@ -22,16 +22,16 @@
                     "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Sl",
+                        "Kn",
                         "GlG",
                         "Gl"
                     ]
@@ -45,8 +45,8 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "GlW",
+                        "Ei",
                         "Mi",
                         "Gl"
                     ]
@@ -60,12 +60,12 @@
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sl",
-                        "GlW",
-                        "Gl",
                         "Ei",
-                        "Mi"
+                        "Gl",
+                        "Mi",
+                        "GlW",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -77,8 +77,8 @@
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -91,9 +91,9 @@
                     "name": "Veganes Pilzgratin mit Sojasahne",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "So",
                         "GlW",
+                        "So",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -101,15 +101,15 @@
                     "name": "Gänsekeule mit Hollerblaukraut",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "Kn",
-                        "99",
-                        "5",
-                        "Sl",
-                        "GlW",
                         "Gl",
+                        "5",
                         "Mi",
-                        "GlG"
+                        "Sw",
+                        "99",
+                        "GlW",
+                        "Kn",
+                        "GlG",
+                        "Sl"
                     ]
                 }
             ]
@@ -121,11 +121,11 @@
                     "name": "Pasta mit Wildschweinragout und Kastanien",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
+                        "5",
                         "Sw",
                         "99",
-                        "5",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -149,11 +149,11 @@
                     "name": "Pilzlasagne mit Austernpilzen und Champignons",
                     "price": "N/A",
                     "ingredients": [
-                        "1",
-                        "GlW",
-                        "Gl",
                         "Ei",
+                        "Gl",
                         "Mi",
+                        "GlW",
+                        "1",
                         "2"
                     ]
                 },
@@ -161,10 +161,10 @@
                     "name": "Kaspressknödel mit Bouillongemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Ei",
+                        "Gl",
                         "Mi",
+                        "GlW",
                         "2"
                     ]
                 }
@@ -177,11 +177,11 @@
                     "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlD",
-                        "6",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "6",
+                        "Kn",
+                        "GlD"
                     ]
                 },
                 {
@@ -193,8 +193,8 @@
                     "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Sf",
                         "Gl"
                     ]
@@ -215,15 +215,15 @@
                     "name": "Hirschgulasch in Preiselbeersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "Kn",
-                        "99",
-                        "5",
-                        "Sl",
-                        "GlW",
                         "Gl",
+                        "5",
                         "Mi",
-                        "GlG"
+                        "Sw",
+                        "99",
+                        "GlW",
+                        "Kn",
+                        "GlG",
+                        "Sl"
                     ]
                 }
             ]
@@ -235,11 +235,11 @@
                     "name": "Bio-Pasta mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "So",
                         "Gl",
-                        "Mi"
+                        "So",
+                        "Mi",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -251,8 +251,8 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -260,8 +260,8 @@
                     "name": "Gekräutertes Pilzragout (Champignons, Egerlingen und Austernpilzen) an Röstiecken",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "99",
+                        "So",
                         "5",
                         "Sw"
                     ]
@@ -270,14 +270,14 @@
                     "name": "Lebkuchenstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "ScM",
-                        "Sc",
-                        "GlW",
-                        "So",
-                        "Gl",
+                        "3",
                         "Ei",
+                        "Gl",
+                        "So",
                         "Mi",
-                        "3"
+                        "GlW",
+                        "ScM",
+                        "Sc"
                     ]
                 }
             ]
