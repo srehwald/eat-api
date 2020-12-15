@@ -16,14 +16,14 @@
                     "name": "Rindergeschnetzeltes (GQB) Stroganoff",
                     "price": 3.2,
                     "ingredients": [
-                        "9",
-                        "GlG",
-                        "GlW",
+                        "R",
                         "Gl",
+                        "9",
+                        "GlW",
                         "Mi",
                         "Sf",
                         "Kn",
-                        "R"
+                        "GlG"
                     ]
                 }
             ]
@@ -35,9 +35,9 @@
                     "name": "Karotten-Kürbisragout",
                     "price": 1.0,
                     "ingredients": [
+                        "GlW",
                         "Kn",
                         "Sf",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -45,12 +45,12 @@
                     "name": "Roast beef mit Schmorzwiebelsauce",
                     "price": 4.0,
                     "ingredients": [
-                        "GlG",
-                        "GlW",
-                        "Gl",
-                        "Mi",
                         "R",
-                        "Kn"
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Kn",
+                        "GlG"
                     ]
                 }
             ]
@@ -69,8 +69,8 @@
                     "name": "Gebratenes Putensteak mit Kräuterdip",
                     "price": 2.6,
                     "ingredients": [
-                        "Kn",
-                        "Mi"
+                        "Mi",
+                        "Kn"
                     ]
                 }
             ]
@@ -82,9 +82,9 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": 1.0,
                     "ingredients": [
+                        "GlW",
                         "Kn",
                         "So",
-                        "GlW",
                         "Gl"
                     ]
                 },
@@ -92,20 +92,20 @@
                     "name": "Frische Rahmschwammerl",
                     "price": 1.9,
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "Kn",
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Bio-Pasta bolognese",
                     "price": 3.2,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Mi",
                         "R",
+                        "Gl",
+                        "GlW",
+                        "Mi",
                         "Kn",
                         "S"
                     ]
@@ -119,8 +119,8 @@
                     "name": "Bauerneintopf",
                     "price": 1.0,
                     "ingredients": [
-                        "Sl",
                         "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 },
@@ -128,27 +128,27 @@
                     "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                     "price": 2.6,
                     "ingredients": [
-                        "Fi",
-                        "Ei",
-                        "9",
-                        "3",
                         "1",
+                        "Fi",
                         "Gl",
+                        "9",
                         "GlW",
                         "Mi",
+                        "11",
                         "Sf",
-                        "11"
+                        "3",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Bio-Linsen mit Bio-Spätzle",
                     "price": 2.4,
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn",
                         "So",
-                        "Sl"
+                        "Gl",
+                        "GlW",
+                        "Sl",
+                        "Kn"
                     ]
                 }
             ]
