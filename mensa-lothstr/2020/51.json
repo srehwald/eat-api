@@ -3,75 +3,33 @@
     "year": 2020,
     "days": [
         {
-            "date": "2020-12-14",
-            "dishes": [
-                {
-                    "name": "Graupen-Gemüse-Pfanne",
-                    "price": 1.0,
-                    "ingredients": [
-                        "Sl",
-                        "GlG",
-                        "Gl",
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
-                    "price": 2.6,
-                    "ingredients": [
-                        "Ei",
-                        "Mi",
-                        "GlW",
-                        "Gl"
-                    ]
-                },
-                {
-                    "name": "Putensteak mit Kräuterbutter",
-                    "price": 3.2,
-                    "ingredients": [
-                        "Mi",
-                        "Kn"
-                    ]
-                }
-            ]
-        },
-        {
             "date": "2020-12-15",
             "dishes": [
                 {
-                    "name": "Kräuterpolenta mit Tomatenragout",
-                    "price": 1.0,
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Gnocchi mit Schafskäse und frischem Basilikum",
+                    "name": "Tortelloni mit Schafskäse und frischem Basilikum",
                     "price": 2.4,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
+                        "Gl",
                         "Ei",
-                        "GlW",
+                        "Kn",
                         "Sl",
-                        "Gl"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Gänsekeule mit Hollerblaukraut",
                     "price": 3.5,
                     "ingredients": [
+                        "Gl",
                         "GlG",
-                        "Mi",
-                        "5",
                         "Kn",
-                        "99",
-                        "GlW",
                         "Sl",
+                        "Mi",
+                        "99",
+                        "5",
                         "Sw",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
@@ -80,20 +38,27 @@
             "date": "2020-12-16",
             "dishes": [
                 {
-                    "name": "Pikantes Kartoffelchili",
+                    "name": "Kartoffeleintopf mit Majoran",
                     "price": 1.0,
-                    "ingredients": [
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Pasta mit Putenragout",
-                    "price": 2.4,
                     "ingredients": [
                         "Sl",
                         "GlW",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pasta Carbonara",
+                    "price": 1.9,
+                    "ingredients": [
                         "Gl",
-                        "Kn"
+                        "3",
+                        "Ei",
+                        "Kn",
+                        "2",
+                        "Mi",
+                        "S",
+                        "GlW",
+                        "8"
                     ]
                 }
             ]
@@ -102,37 +67,33 @@
             "date": "2020-12-17",
             "dishes": [
                 {
-                    "name": "Bunter Gemüseeeintopf",
-                    "price": 1.0,
-                    "ingredients": [
-                        "Sl"
-                    ]
-                },
-                {
-                    "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
+                    "name": "Dinkelnudelpfanne Griechische Art mit Schafskäse und Knoblauch",
                     "price": 2.6,
                     "ingredients": [
-                        "Mi",
-                        "Kn",
-                        "3",
                         "6",
+                        "Gl",
+                        "Ei",
+                        "Kn",
                         "GlD",
-                        "Gl"
+                        "Mi",
+                        "1",
+                        "Sf",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Hirschgulasch in Preiselbeersauce",
                     "price": 4.0,
                     "ingredients": [
+                        "Gl",
                         "GlG",
-                        "Mi",
-                        "5",
                         "Kn",
-                        "99",
-                        "GlW",
                         "Sl",
+                        "Mi",
+                        "99",
+                        "5",
                         "Sw",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
@@ -141,20 +102,11 @@
             "date": "2020-12-18",
             "dishes": [
                 {
-                    "name": "Zartweizen mit Gemüse",
-                    "price": 1.0,
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn"
-                    ]
-                },
-                {
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": 2.4,
                     "ingredients": [
-                        "Ei",
                         "Mi",
+                        "Ei",
                         "GlW",
                         "Gl"
                     ]
