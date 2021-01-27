@@ -9,13 +9,13 @@
                     "name": "Penne Quattro Formaggi",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "1",
-                        "GlW",
                         "2",
                         "Ei",
-                        "Mi"
+                        "Gl",
+                        "Mi",
+                        "Kn",
+                        "1",
+                        "GlW"
                     ]
                 },
                 {
@@ -30,13 +30,13 @@
                     "name": "Rotes Curry vom Rind (GQB) mit Wokgemüse",
                     "price": "N/A",
                     "ingredients": [
+                        "2",
+                        "Gl",
                         "So",
                         "Kn",
-                        "Gl",
-                        "GlW",
-                        "2",
                         "Sl",
-                        "R"
+                        "R",
+                        "GlW"
                     ]
                 },
                 {
@@ -60,17 +60,17 @@
                     "name": "Pasta mit Tomaten-Zucchini-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pizza Margherita mit Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "Gl",
+                        "So",
                         "GlW",
                         "GlG",
                         "Mi"
@@ -99,13 +99,13 @@
                     "name": "Schweineschnitzel Wiener Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "GlW",
-                        "S",
-                        "GlG",
                         "Ei",
-                        "Mi"
+                        "Gl",
+                        "Mi",
+                        "Kn",
+                        "GlG",
+                        "S",
+                        "GlW"
                     ]
                 }
             ]
@@ -117,10 +117,10 @@
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "Ei",
                         "Gl",
                         "GlW",
-                        "Ei",
+                        "Kn",
                         "Sl",
                         "Mi"
                     ]
@@ -129,9 +129,9 @@
                     "name": "Roast beef mit Schmorzwiebelsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
                         "GlW",
+                        "Kn",
                         "GlG",
                         "R",
                         "Mi"
@@ -142,8 +142,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sf",
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
@@ -155,10 +155,10 @@
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "Sf",
-                        "Kn",
-                        "2"
+                        "2",
+                        "So",
+                        "Kn"
                     ]
                 }
             ]
@@ -170,17 +170,17 @@
                     "name": "Bio-Tortelloni all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Pizza Funghi mit Champignons",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "Gl",
+                        "So",
                         "GlW",
                         "GlG",
                         "Mi"
@@ -190,9 +190,9 @@
                     "name": "Bulgur mit Zucchini und Tomaten",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
+                        "Gl",
                         "Kn",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -204,13 +204,13 @@
                     "name": "Spanferkelrollbraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Gl",
-                        "GlW",
-                        "99",
                         "GlG",
+                        "Gl",
+                        "Mi",
+                        "Kn",
+                        "99",
                         "S",
-                        "Mi"
+                        "GlW"
                     ]
                 },
                 {
@@ -218,13 +218,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "En",
+                        "2",
+                        "Fi",
+                        "Ei",
+                        "Gl",
                         "So",
                         "Kn",
-                        "Gl",
-                        "GlW",
-                        "Fi",
-                        "2",
-                        "Ei"
+                        "GlW"
                     ]
                 }
             ]
@@ -236,10 +236,10 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "Ei",
                         "Gl",
                         "GlW",
-                        "Ei",
+                        "Kn",
                         "Sl",
                         "Mi"
                     ]
@@ -248,11 +248,11 @@
                     "name": "Forelle Müllerin Art mit Mandelbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "Gl",
                         "ScM",
-                        "GlW",
                         "Fi",
+                        "Gl",
+                        "GlW",
+                        "Sc",
                         "Mi"
                     ]
                 },
@@ -260,8 +260,8 @@
                     "name": "Kichererbsencurry mit Gemüse und Chili",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
@@ -274,9 +274,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "Mi",
-                        "Ei"
+                        "Ei",
+                        "GlW"
                     ]
                 }
             ]
