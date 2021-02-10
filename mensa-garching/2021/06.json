@@ -9,10 +9,10 @@
                     "name": "Bio-Pasta mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "GlW",
                         "Kn",
                         "Gl",
+                        "So",
                         "Mi"
                     ]
                 },
@@ -20,10 +20,10 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Sl",
                         "Gl",
-                        "Sl"
+                        "Kn"
                     ]
                 },
                 {
@@ -37,23 +37,23 @@
                     "ingredients": [
                         "Ei",
                         "GlW",
+                        "Sl",
                         "Kn",
                         "Gl",
-                        "Mi",
-                        "Sl"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
-                        "Gl",
-                        "Mi",
                         "R",
                         "GlG",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Kn",
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
@@ -65,44 +65,44 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pizza Salami",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "2",
-                        "Gl",
+                        "GlG",
                         "GlW",
                         "Kn",
-                        "Mi",
                         "1",
-                        "S",
-                        "GlG",
-                        "3"
+                        "Gl",
+                        "So",
+                        "Mi",
+                        "3",
+                        "S"
                     ]
                 },
                 {
                     "name": "Bratwurstschnecke",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "8",
-                        "Sl"
+                        "Sl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "Sf",
                         "GlW",
                         "Gl",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
@@ -124,21 +124,21 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Steckrüben-Karotten-Curry",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
+                        "2",
                         "GlW",
                         "Kn",
-                        "2",
-                        "Gl"
+                        "Gl",
+                        "So"
                     ]
                 },
                 {
@@ -160,11 +160,11 @@
                     "ingredients": [
                         "Ei",
                         "GlW",
-                        "Gl",
+                        "Sl",
                         "Sf",
-                        "Mi",
+                        "Gl",
                         "S",
-                        "Sl"
+                        "Mi"
                     ]
                 }
             ]
@@ -176,16 +176,16 @@
                     "name": "Pizza mit Vorderschinken",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "2",
-                        "Gl",
                         "8",
-                        "GlW",
-                        "Mi",
-                        "1",
-                        "S",
+                        "2",
                         "GlG",
-                        "3"
+                        "GlW",
+                        "1",
+                        "Gl",
+                        "So",
+                        "Mi",
+                        "3",
+                        "S"
                     ]
                 },
                 {
@@ -212,25 +212,25 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
+                        "1",
                         "Mi",
-                        "2",
-                        "1"
+                        "2"
                     ]
                 },
                 {
                     "name": "Stifado (griechisches Rindfleischragout mit Steckrüben) (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "GlW",
-                        "99",
-                        "Gl",
-                        "Kn",
-                        "5",
-                        "Mi",
                         "R",
+                        "Sw",
                         "GlG",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "99",
+                        "Kn",
+                        "Gl",
+                        "5",
+                        "Mi"
                     ]
                 }
             ]
@@ -242,11 +242,11 @@
                     "name": "Vegane Strozzapreti Carbonara mit Räuchertofu",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "GlW",
+                        "Sl",
                         "Kn",
                         "Gl",
-                        "Sl"
+                        "So"
                     ]
                 },
                 {
@@ -254,11 +254,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Ei",
-                        "GlW",
-                        "Gl",
                         "Fi",
-                        "Mi",
-                        "Sl"
+                        "GlW",
+                        "Sl",
+                        "Gl",
+                        "Mi"
                     ]
                 },
                 {
@@ -279,8 +279,8 @@
                     "ingredients": [
                         "Ei",
                         "Mi",
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
