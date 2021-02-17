@@ -9,10 +9,10 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Sl"
                     ]
                 },
                 {
@@ -24,25 +24,25 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "Mi",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Mi",
+                        "Sl",
+                        "Kn",
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Esterhazygulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "GlW",
+                        "GlG",
                         "R",
                         "Mi",
-                        "GlW",
-                        "Gl",
+                        "Sl",
                         "Kn",
-                        "GlG"
+                        "Gl"
                     ]
                 }
             ]
@@ -54,8 +54,8 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Kn",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -63,19 +63,19 @@
                     "name": "Bratwurstschnecke",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "8",
                         "S",
-                        "8"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
@@ -97,21 +97,21 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Gl",
                         "Kn",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Steckrüben-Karotten-Curry",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "GlW",
                         "2",
+                        "GlW",
+                        "Kn",
                         "Gl",
-                        "Kn"
+                        "So"
                     ]
                 },
                 {
@@ -131,13 +131,13 @@
                     "name": "Schweinesteak Strindberg (mit Senf-Zwiebelschmelze)",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Sl",
-                        "Mi",
+                        "Gl",
                         "S",
                         "GlW",
                         "Sf",
-                        "Gl"
+                        "Sl",
+                        "Mi",
+                        "Ei"
                     ]
                 }
             ]
@@ -149,8 +149,8 @@
                     "name": "Gemüsespieß mit Kräuterdip",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -169,25 +169,25 @@
                     "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
+                        "1",
                         "Mi",
-                        "2",
-                        "1"
+                        "2"
                     ]
                 },
                 {
                     "name": "Stifado (griechisches Rindfleischragout mit Steckrüben) (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "99",
+                        "GlW",
+                        "Sw",
+                        "GlG",
                         "R",
                         "Mi",
-                        "99",
+                        "Sl",
                         "5",
-                        "GlW",
-                        "Gl",
                         "Kn",
-                        "Sw",
-                        "GlG"
+                        "Gl"
                     ]
                 }
             ]
@@ -199,23 +199,23 @@
                     "name": "Vegane Strozzapreti Carbonara mit Räuchertofu",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "So",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "GlW",
+                        "Sl",
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
+                        "Fi",
+                        "GlW",
                         "Sl",
                         "Mi",
-                        "GlW",
                         "Gl",
-                        "Fi"
+                        "Ei"
                     ]
                 },
                 {
@@ -236,8 +236,8 @@
                     "ingredients": [
                         "Mi",
                         "Ei",
-                        "Gl",
-                        "GlW"
+                        "GlW",
+                        "Gl"
                     ]
                 }
             ]
