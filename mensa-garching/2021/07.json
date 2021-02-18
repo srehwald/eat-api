@@ -9,49 +9,56 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
                         "Gl",
+                        "Ei",
                         "GlW",
-                        "Kn",
-                        "Mi"
+                        "Sl",
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rotes Thaicurry mit Hackbällchen, Zucchini und Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "Ei",
                         "Gl",
+                        "Sf",
+                        "S",
                         "GlW",
                         "R",
-                        "Kn",
-                        "Mi"
+                        "GlG",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
+                        "Gl",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Backerbsensuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Gl",
+                        "Ei",
+                        "GlW",
+                        "Sl",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "price": "N/A",
                     "ingredients": [
                         "Sf",
-                        "Kn",
-                        "So"
+                        "2",
+                        "So",
+                        "Kn"
                     ]
                 }
             ]
@@ -63,33 +70,42 @@
                     "name": "Farfalle mit mediterraner Gemüsesauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
+                        "Ei",
                         "GlW",
-                        "Gl"
+                        "2",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pizza Margherita mit Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "So",
                         "Gl",
+                        "So",
                         "GlW",
-                        "Mi"
+                        "Mi",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Getreidepfanne mit frischem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Gl"
+                        "Gl",
+                        "GlG"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Pfannkuchensuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Gl",
+                        "Ei",
+                        "GlW",
+                        "Sl",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Veganes Rote-Beete-Kartoffelgratin mit Soja-Kräuterdip",
@@ -99,19 +115,38 @@
                     ]
                 },
                 {
+                    "name": "Fleischpflanzerl mit Rotweinsauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "Sf",
+                        "S",
+                        "Mi",
+                        "GlG",
+                        "Ei",
+                        "GlW",
+                        "R",
+                        "Sl",
+                        "5",
+                        "99",
+                        "Sw",
+                        "Kn"
+                    ]
+                },
+                {
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "GlG",
-                        "99",
+                        "Gl",
                         "Mi",
-                        "5",
+                        "GlG",
                         "GlW",
                         "R",
-                        "Kn",
-                        "Gl",
-                        "Sw"
+                        "Sl",
+                        "5",
+                        "99",
+                        "Sw",
+                        "Kn"
                     ]
                 }
             ]
@@ -120,57 +155,112 @@
             "date": "2021-02-17",
             "dishes": [
                 {
-                    "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
+                    "name": "Farfalle mit mediterraner Gemüsesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "9",
-                        "5",
-                        "Kn",
-                        "Sw"
+                        "Gl",
+                        "Ei",
+                        "GlW",
+                        "2",
+                        "Mi"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "9",
+                        "3",
+                        "5",
+                        "Sw",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Perlgraupensuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "GlG",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "Gl",
+                        "GlD",
                         "Ei",
                         "GlW",
-                        "GlD",
-                        "Gl"
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Rougaille (Soja in würziger Tomatensauce)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sf",
+                        "So",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
+                        "Sf",
                         "S",
                         "3",
+                        "Mi",
+                        "So",
+                        "Ei",
+                        "GlW",
+                        "Sl",
+                        "5",
+                        "GlG",
+                        "Sw",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Fleischpflanzerl mit Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "Sf",
+                        "S",
+                        "Mi",
                         "GlG",
                         "Ei",
-                        "Mi",
-                        "5",
-                        "Sf",
                         "GlW",
-                        "Kn",
-                        "Gl",
-                        "Sw"
+                        "R",
+                        "Sl",
+                        "5",
+                        "99",
+                        "Sw",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Apfelkücherl mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
                         "GlW",
-                        "Ei"
+                        "Ei",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Dampfnudel mit Vanillesauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]
@@ -182,8 +272,8 @@
                     "name": "Pizza mit frischem Broccoli, buntem Paprika und Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
                         "Mi",
+                        "2",
                         "1"
                     ]
                 },
@@ -191,11 +281,11 @@
                     "name": "Currynudeln mit gebratenen Gemüsestreifen",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "Gl",
                         "Sf",
                         "GlW",
                         "Se",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
@@ -215,25 +305,25 @@
                     "name": "Frisches Karotten-Pastinaken-Steckrüben-Gemüse aus dem Ofen",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "So",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "2",
+                        "So"
                     ]
                 },
                 {
                     "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
+                        "Gl",
                         "S",
                         "3",
-                        "GlG",
-                        "Mi",
-                        "GlW",
                         "8",
-                        "Kn",
-                        "Gl"
+                        "GlW",
+                        "2",
+                        "Mi",
+                        "GlG",
+                        "Kn"
                     ]
                 }
             ]
@@ -246,18 +336,18 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
+                        "Fi",
                         "GlW",
-                        "Kn",
                         "Mi",
-                        "Fi"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Italienischer Bohneneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Kn"
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -269,26 +359,25 @@
                     "name": "Blumenkohlauflauf mit Käsesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "99",
-                        "Ei",
+                        "Gl",
                         "1",
                         "Mi",
-                        "5",
+                        "Ei",
                         "GlW",
-                        "Kn",
-                        "Gl",
-                        "Sw"
+                        "2",
+                        "5",
+                        "99",
+                        "Sw",
+                        "Kn"
                     ]
                 },
                 {
-                    "name": "Millirahmstrudel mit Äpfeln und Vanillesauce",
+                    "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "1",
                         "Gl",
                         "GlW",
+                        "Ei",
                         "Mi"
                     ]
                 }

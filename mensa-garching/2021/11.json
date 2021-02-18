@@ -1,232 +1,37 @@
 {
-    "number": 8,
+    "number": 11,
     "year": 2021,
     "days": [
         {
-            "date": "2021-02-22",
+            "date": "2021-03-15",
             "dishes": [
                 {
-                    "name": "Pasta all'arrabiata",
+                    "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
+                        "Ei",
                         "GlW",
-                        "2",
-                        "Kn",
-                        "Gl"
-                    ]
-                },
-                {
-                    "name": "Schweinehalssteak mit Kräuterbutter",
-                    "price": "N/A",
-                    "ingredients": [
-                        "S",
-                        "Kn",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Gemüsegulasch",
-                    "price": "N/A",
-                    "ingredients": [
+                        "Sl",
+                        "Mi",
                         "Kn"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Spinatknödel Tiroler Art mit Bergkäse",
+                    "name": "Putensteak mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Sl",
-                        "Mi",
-                        "Ei"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2021-02-23",
-            "dishes": [
-                {
-                    "name": "Pasta mit Gorgonzola-Walnuss-Sauce",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Sc",
-                        "ScW",
+                        "Kn",
                         "Mi"
                     ]
                 },
                 {
-                    "name": "Roast beef mit Schmorzwiebelsauce",
+                    "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
                         "GlG",
-                        "R",
                         "Kn",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Indisches Linsencurry",
-                    "price": "N/A",
-                    "ingredients": [
-                        "Sl",
-                        "Sf",
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "2",
-                        "GlD",
-                        "Mi",
-                        "Ei",
-                        "1"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2021-02-24",
-            "dishes": [
-                {
-                    "name": "Pasta mit Tomaten-Frischkäse-Sauce",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Spanischer Gemüseeintopf",
-                    "price": "N/A",
-                    "ingredients": [
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Frühlingsrolle mit süßsaurer Sauce",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Sl",
-                        "Kn",
-                        "Mi",
-                        "Ei",
-                        "So"
-                    ]
-                },
-                {
-                    "name": "Halbe Schweinshaxe mit Biersauce",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "GlG",
-                        "S",
-                        "99",
-                        "Kn",
-                        "Mi"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2021-02-25",
-            "dishes": [
-                {
-                    "name": "Steckrübenpfanne asiatische Art mit buntem Gemüse und Tofu , dazu Sojajoghurt",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "2",
-                        "Kn",
-                        "So"
-                    ]
-                },
-                {
-                    "name": "Couscous mit mediterranem Gemüse",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn"
-                    ]
-                },
-                {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Frische Rahmschwammerl",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi"
-                    ]
-                },
-                {
-                    "name": "Überbackenes Truthahnschnitzel Toskana",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2021-02-26",
-            "dishes": [
-                {
-                    "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
-                        "Kn",
-                        "Mi",
-                        "So"
-                    ]
-                },
-                {
-                    "name": "Bauerneintopf",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlW",
-                        "Gl",
                         "Sl"
                     ]
                 },
@@ -236,30 +41,239 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
+                    "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "GlW",
                         "Gl",
-                        "Sf",
-                        "Fi",
-                        "9",
-                        "11",
-                        "Mi",
+                        "GlW",
                         "Ei",
-                        "1"
+                        "Mi"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021-03-16",
+            "dishes": [
+                {
+                    "name": "Tortellini (Käsefüllung) mit Käse-Sahne-Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "1",
+                        "Ei",
+                        "GlW",
+                        "2",
+                        "Sl",
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
-                    "name": "Kaiserschmarrn mit Apfelmus",
+                    "name": "Pizza Regina mit (Vorder-)Schinken und Champignons",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
+                        "S",
                         "3",
+                        "So",
+                        "8",
                         "GlW",
+                        "2",
+                        "Mi",
+                        "GlG"
+                    ]
+                },
+                {
+                    "name": "Rindersteak mit Rotwein-Zwiebel-Sauce",
+                    "price": "N/A",
+                    "ingredients": [
                         "Gl",
                         "Mi",
-                        "Ei"
+                        "GlG",
+                        "GlW",
+                        "R",
+                        "5",
+                        "99",
+                        "Sw",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Kräuterpolenta mit Tomatenragout",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Tagessuppe",
+                    "price": "N/A",
+                    "ingredients": []
+                }
+            ]
+        },
+        {
+            "date": "2021-03-17",
+            "dishes": [
+                {
+                    "name": "Pasta mit Tomaten-Kokos-Sauce und gebratenen Zucchiniwürfeln",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "2",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Pikantes Kartoffelchili",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Tagessuppe",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
+                    "name": "Kaspressknödel mit Bouillongemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "Ei",
+                        "GlW",
+                        "2",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Jägerschnitzel vom Truthahn mit Waldpilzen",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "3",
+                        "GlW",
+                        "2",
+                        "Mi",
+                        "GlG",
+                        "Kn"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021-03-18",
+            "dishes": [
+                {
+                    "name": "Nudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "6",
+                        "GlW",
+                        "Mi",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Pizza Verdura mit gebratenem Gemüse und Mozzarella",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "So",
+                        "GlW",
+                        "Mi",
+                        "GlG",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Bunter Gemüseeeintopf",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sl"
+                    ]
+                },
+                {
+                    "name": "Tagessuppe",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
+                    "name": "Schweinebraten mit Biersauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "S",
+                        "3",
+                        "Mi",
+                        "GlG",
+                        "GlW",
+                        "5",
+                        "99",
+                        "Sw",
+                        "Kn"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021-03-19",
+            "dishes": [
+                {
+                    "name": "Bio-Linsen mit Bio-Spätzle",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "So",
+                        "GlW",
+                        "Sl",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Zartweizen mit Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Tagessuppe",
+                    "price": "N/A",
+                    "ingredients": []
+                },
+                {
+                    "name": "Panierter Seelachs (MSC) mit Kartoffel-Gurken-Salat",
+                    "price": "N/A",
+                    "ingredients": [
+                        "9",
+                        "Gl",
+                        "Sf",
+                        "3",
+                        "1",
+                        "Ei",
+                        "Fi",
+                        "11",
+                        "GlW",
+                        "Mi"
+                    ]
+                },
+                {
+                    "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]

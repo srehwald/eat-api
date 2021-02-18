@@ -10,53 +10,90 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Sl",
                         "GlW",
+                        "Ei",
+                        "Sl",
                         "Kn",
-                        "Gl",
-                        "Ei"
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Pizza des Tages",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Rotes Thaicurry mit Hackbällchen, Zucchini und Basmatireis",
+                    "name": "Pizza Verdura mit Grillgemüse",
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
                         "GlW",
-                        "R",
+                        "GlG",
+                        "Sl",
+                        "So",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Rotes Thaicurry mit Hähnchenstreifen , Zucchini und Basmatireis",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
                         "Kn",
-                        "Gl",
-                        "Ei",
-                        "S"
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Zanderfilet überbacken",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Sl",
+                        "Fi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
+                        "GlW",
                         "Kn",
                         "Gl",
-                        "GlW"
+                        "2"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Leberknödelsuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "Ei",
+                        "Sl",
+                        "S",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "price": "N/A",
                     "ingredients": [
+                        "Sl",
+                        "So",
                         "Kn",
-                        "Sf",
-                        "So"
+                        "Sf"
+                    ]
+                },
+                {
+                    "name": "Rinderragout",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
+                        "Sw",
+                        "99",
+                        "GlG",
+                        "5",
+                        "Sl",
+                        "R",
+                        "Kn",
+                        "Gl"
                     ]
                 }
             ]
@@ -65,39 +102,56 @@
             "date": "2021-02-16",
             "dishes": [
                 {
-                    "name": "Mediterraner Nudel-Gemüse-Auflauf",
+                    "name": "Mediterrane Nudel-Gemüse-Pfanne",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
+                        "1",
+                        "2",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pizza mit Hirtenkäse und Paprika",
+                    "price": "N/A",
+                    "ingredients": [
+                        "1",
+                        "GlW",
+                        "Mi",
+                        "2",
+                        "GlG",
+                        "Kn",
+                        "So",
+                        "3",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Linseneintopf mit Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sl",
+                        "Sw",
+                        "3",
+                        "5"
+                    ]
+                },
+                {
+                    "name": "Karotten-Ingwer-Suppe",
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
                         "GlW",
-                        "Gl",
-                        "1",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Gemüse-Kartoffelgratin mit Kräuterdip",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
                         "Ei",
-                        "2"
-                    ]
-                },
-                {
-                    "name": "Pizza des Tages",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Getreidepfanne mit frischem Gemüse",
-                    "price": "N/A",
-                    "ingredients": [
-                        "Gl",
-                        "GlG"
-                    ]
-                },
-                {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Veganes Rote-Beete-Kartoffelgratin mit Soja-Kräuterdip",
-                    "price": "N/A",
-                    "ingredients": [
                         "So"
                     ]
                 },
@@ -105,15 +159,15 @@
                     "name": "Rinderbraten (GQB) mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "Mi",
-                        "GlG",
                         "GlW",
+                        "Mi",
+                        "Sw",
+                        "99",
+                        "GlG",
+                        "5",
                         "Sl",
                         "R",
                         "Kn",
-                        "5",
-                        "99",
                         "Gl"
                     ]
                 }
@@ -123,62 +177,63 @@
             "date": "2021-02-17",
             "dishes": [
                 {
-                    "name": "Pizza des Tages",
+                    "name": "Flammkuchen",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "GlG",
+                        "So",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
                         "Sw",
-                        "Kn",
-                        "3",
+                        "9",
                         "5",
-                        "9"
+                        "Kn",
+                        "3"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Grießnockerlsuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Sl",
+                        "GlW",
+                        "Ei",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "GlW",
                         "GlD",
-                        "Gl",
-                        "Ei"
+                        "Ei",
+                        "Sl",
+                        "Gl"
                     ]
                 },
                 {
-                    "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
+                    "name": "Schnitzel mit Senfkruste",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "Mi",
-                        "GlG",
                         "GlW",
-                        "Sf",
-                        "Kn",
-                        "3",
-                        "5",
-                        "Gl",
-                        "Ei",
-                        "S"
-                    ]
-                },
-                {
-                    "name": "Pfannkuchen mit Mascarpone-Erdbeerfüllung und Vanillesauce",
-                    "price": "N/A",
-                    "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Sw",
+                        "Sf",
                         "Ei",
-                        "GlW"
+                        "GlG",
+                        "5",
+                        "Kn",
+                        "S",
+                        "3",
+                        "Gl"
                     ]
                 }
             ]
@@ -187,18 +242,30 @@
             "date": "2021-02-18",
             "dishes": [
                 {
-                    "name": "Pizza des Tages",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Currynudeln mit gebratenen Gemüsestreifen",
+                    "name": "Pizza Pollo (mit Hähnchenbrustfilet)",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Sf",
                         "GlW",
-                        "Se",
+                        "1",
+                        "Mi",
+                        "2",
+                        "GlG",
+                        "Kn",
+                        "So",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Maultaschen mit Zwiebelsauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
+                        "Ei",
+                        "GlG",
+                        "Sl",
+                        "Kn",
+                        "S",
                         "Gl"
                     ]
                 },
@@ -206,38 +273,53 @@
                     "name": "Pikante Hirse mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Kn"
+                        "Kn",
+                        "2"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Frisches Karotten-Pastinaken-Steckrüben-Gemüse aus dem Ofen",
-                    "price": "N/A",
-                    "ingredients": [
-                        "2",
-                        "Gl",
-                        "So",
-                        "GlW"
-                    ]
-                },
-                {
-                    "name": "Surbraten vom Schweinehals mit Rosmarinjus",
+                    "name": "Selleriecremesuppe",
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "GlG",
                         "GlW",
-                        "Kn",
-                        "3",
+                        "Sl",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Frisches Karotten-Kohlrabi-Steckrüben-Gemüse aus dem Ofen",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "So",
                         "Gl",
-                        "8",
+                        "2"
+                    ]
+                },
+                {
+                    "name": "Surbraten vom Schweinehals mit Sauerkraut und Salzkartoffeln",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Mi",
                         "2",
-                        "S"
+                        "GlG",
+                        "8",
+                        "Kn",
+                        "S",
+                        "3",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pfannkuchen mit Himbeer-Panna-Cotta und Vanillesauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Gl"
                     ]
                 }
             ]
@@ -251,13 +333,14 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Lachsfilet auf Blattspinat",
+                    "name": "Kabeljaufilet (MSC) gebacken mit Kartoffeln und Blattspinat",
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Fi",
                         "GlW",
-                        "Kn",
+                        "Ei",
+                        "Sl",
+                        "Fi",
                         "Gl"
                     ]
                 },
@@ -265,8 +348,8 @@
                     "name": "Italienischer Bohneneintopf",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sl"
+                        "Sl",
+                        "Kn"
                     ]
                 },
                 {
@@ -278,16 +361,16 @@
                     "name": "Blumenkohlauflauf mit Käsesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "Mi",
                         "GlW",
-                        "Kn",
-                        "5",
-                        "99",
+                        "Mi",
                         "Gl",
-                        "1",
+                        "Sw",
                         "Ei",
-                        "2"
+                        "99",
+                        "2",
+                        "5",
+                        "Kn",
+                        "1"
                     ]
                 },
                 {
@@ -296,9 +379,9 @@
                     "ingredients": [
                         "Mi",
                         "GlW",
+                        "Ei",
                         "3",
-                        "Gl",
-                        "Ei"
+                        "Gl"
                     ]
                 }
             ]
