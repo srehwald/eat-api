@@ -9,23 +9,23 @@
                     "name": "Pasta mit Broccoli-Sahne-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "GlW",
-                        "2",
-                        "Mi",
                         "Kn",
-                        "Gl",
+                        "3",
+                        "2",
                         "GlG",
+                        "GlW",
+                        "Mi",
+                        "Gl",
                         "S"
                     ]
                 },
@@ -53,10 +53,10 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "GlW",
-                        "2",
                         "Kn",
+                        "3",
+                        "2",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -64,19 +64,19 @@
                     "name": "Rinderlende mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
                         "Mi",
-                        "Kn"
+                        "Kn",
+                        "R"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "Sw",
+                        "Sl",
                         "3",
-                        "Sl"
+                        "Sw",
+                        "5"
                     ]
                 },
                 {
@@ -96,24 +96,24 @@
                     "name": "Pasta mit Linsen und Staudensellerie",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
+                        "Sw",
+                        "1",
+                        "GlW",
                         "Sl",
                         "5",
-                        "GlW",
-                        "Sw",
-                        "Kn",
-                        "Gl",
-                        "1"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Asiatische Reis-Gemüsepfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "So",
+                        "Kn",
                         "2",
-                        "Sf",
-                        "Kn"
+                        "So",
+                        "Sl",
+                        "Sf"
                     ]
                 },
                 {
@@ -125,25 +125,25 @@
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "2",
-                        "Mi",
                         "Kn",
+                        "2",
+                        "1",
+                        "GlW",
+                        "Mi",
                         "Ei",
-                        "Gl",
-                        "1"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind (GQB)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "R",
-                        "Mi",
                         "Kn",
-                        "Gl",
-                        "GlG"
+                        "GlG",
+                        "R",
+                        "GlW",
+                        "Mi",
+                        "Gl"
                     ]
                 }
             ]
@@ -155,50 +155,50 @@
                     "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "Mi"
+                        "GlW",
+                        "Mi",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Veganer Vollkorn Pilz-Bratling mit Grünkern und Hirse, dazu Sojajoghurt",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "3",
-                        "Sl",
                         "So",
                         "GlW",
+                        "Sl",
+                        "Gl",
                         "GlH",
-                        "GlD",
-                        "Kn",
-                        "Gl"
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Putengeschnetzeltes Züricher Art",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
-                        "Sl",
-                        "5",
-                        "GlW",
-                        "Sw",
-                        "Mi",
-                        "GlD",
                         "Kn",
-                        "Gl",
+                        "Sw",
+                        "GlG",
+                        "GlW",
+                        "Mi",
+                        "Sl",
                         "Ei",
-                        "GlG"
+                        "Gl",
+                        "5",
+                        "99",
+                        "GlD"
                     ]
                 }
             ]
@@ -210,12 +210,12 @@
                     "name": "Gebratenes Zanderfilet mit Mandelbutter",
                     "price": "N/A",
                     "ingredients": [
-                        "Fi",
                         "GlW",
-                        "Sc",
                         "Mi",
+                        "Fi",
                         "Gl",
-                        "ScM"
+                        "ScM",
+                        "Sc"
                     ]
                 },
                 {
@@ -230,13 +230,13 @@
                     "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
                     "price": "N/A",
                     "ingredients": [
-                        "GlR",
-                        "GlW",
-                        "2",
-                        "Mi",
                         "Kn",
+                        "2",
+                        "GlW",
+                        "Mi",
                         "Ei",
-                        "Gl"
+                        "Gl",
+                        "GlR"
                     ]
                 },
                 {
@@ -244,11 +244,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Sc",
                         "Mi",
-                        "Gl",
                         "Ei",
-                        "ScM"
+                        "Gl",
+                        "ScM",
+                        "Sc"
                     ]
                 }
             ]
