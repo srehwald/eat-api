@@ -9,12 +9,12 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Sl",
                         "Mi",
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Ei",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -26,30 +26,30 @@
                     "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "2",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "So",
                         "Sf",
-                        "So"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Gulasch vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Gl",
                         "Mi",
-                        "Kn",
+                        "Gl",
+                        "GlG",
                         "GlW",
+                        "Kn",
                         "S"
                     ]
                 }
@@ -62,11 +62,11 @@
                     "name": "Vegane Gemüselasagne",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Gl",
-                        "Sl",
                         "So",
-                        "GlW"
+                        "Gl",
+                        "GlW",
+                        "2",
+                        "Sl"
                     ]
                 },
                 {
@@ -92,25 +92,25 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Kn",
+                        "GlW",
                         "Gl",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Rinderbraten mit Rotweinsauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
+                        "Gl",
                         "5",
                         "GlG",
-                        "R",
-                        "Gl",
-                        "99",
-                        "Sl",
-                        "Mi",
-                        "Kn",
                         "Sw",
-                        "GlW"
+                        "R",
+                        "GlW",
+                        "99",
+                        "Kn",
+                        "Sl"
                     ]
                 }
             ]
@@ -122,11 +122,11 @@
                     "name": "Knöpflepfanne mit Gemüse und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlD",
                         "Gl",
-                        "Sl",
                         "GlW",
-                        "Ei"
+                        "Ei",
+                        "GlD",
+                        "Sl"
                     ]
                 },
                 {
@@ -138,23 +138,23 @@
                     "name": "Green-Thai-Currynudeln mit gebratenen Gemüsestreifen",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
                         "Gl",
-                        "Sl",
-                        "Kn",
                         "GlW",
-                        "Se"
+                        "Se",
+                        "Sf",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "5",
                         "9",
+                        "5",
+                        "Sw",
                         "Kn",
-                        "Sw"
+                        "3"
                     ]
                 },
                 {
@@ -166,16 +166,16 @@
                     "name": "Schweinesteak mit Schinken und Käse überbacken",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "2",
-                        "GlG",
-                        "Gl",
-                        "1",
                         "Mi",
-                        "Kn",
+                        "Gl",
+                        "GlG",
                         "GlW",
+                        "2",
                         "8",
-                        "S"
+                        "Kn",
+                        "S",
+                        "1",
+                        "3"
                     ]
                 }
             ]
@@ -187,12 +187,12 @@
                     "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Sl",
                         "Mi",
-                        "Kn",
+                        "Gl",
                         "GlW",
-                        "Ei"
+                        "Ei",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
@@ -204,11 +204,11 @@
                     "name": "Grünes Hähnchen-Curry mit Wokgemüse und Basmatireis",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "Gl",
                         "So",
-                        "Kn",
+                        "Gl",
                         "GlW",
+                        "2",
+                        "Kn",
                         "En"
                     ]
                 },
@@ -216,12 +216,12 @@
                     "name": "Orientalischer Bulgur mit roten Linsen, Spinat und Kichererbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
                         "Gl",
-                        "Kn",
-                        "GlR",
+                        "GlG",
                         "GlW",
-                        "Se"
+                        "GlR",
+                        "Se",
+                        "Kn"
                     ]
                 },
                 {
@@ -233,14 +233,14 @@
                     "name": "Ofenkartoffeln a la Caspar mit grüner Sauce und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "Gl",
                         "9",
-                        "Sf",
                         "Mi",
-                        "GlR",
+                        "Gl",
+                        "5",
                         "Sw",
-                        "Ei"
+                        "GlR",
+                        "Ei",
+                        "Sf"
                     ]
                 }
             ]
