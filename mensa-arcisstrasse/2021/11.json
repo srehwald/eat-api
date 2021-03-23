@@ -9,12 +9,12 @@
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
-                        "Kn",
                         "GlW",
-                        "Sl"
+                        "Kn",
+                        "Sl",
+                        "Ei",
+                        "Mi"
                     ]
                 },
                 {
@@ -34,10 +34,10 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "Gl",
-                        "Sl",
-                        "GlG"
+                        "Kn",
+                        "GlG",
+                        "Sl"
                     ]
                 },
                 {
@@ -49,10 +49,10 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Ei",
                         "Mi",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
@@ -64,14 +64,14 @@
                     "name": "Tortellini (Käsefüllung) mit Käse-Sahne-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Sl",
-                        "2",
-                        "1"
+                        "Ei",
+                        "Mi",
+                        "1",
+                        "2"
                     ]
                 },
                 {
@@ -83,24 +83,24 @@
                     "name": "Rindersteak mit Rotwein-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "99",
                         "Gl",
-                        "GlG",
-                        "R",
-                        "Kn",
+                        "99",
                         "GlW",
+                        "Kn",
+                        "5",
+                        "GlG",
                         "Sw",
-                        "5"
+                        "R",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Kräuterpolenta mit Tomatenragout",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -112,14 +112,14 @@
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
-                        "Kn",
-                        "GlW",
                         "Sf",
-                        "2",
-                        "1"
+                        "GlW",
+                        "Kn",
+                        "Ei",
+                        "Mi",
+                        "1",
+                        "2"
                     ]
                 }
             ]
@@ -131,10 +131,10 @@
                     "name": "Pasta mit Tomaten-Kokos-Sauce und gebratenen Zucchiniwürfeln",
                     "price": "N/A",
                     "ingredients": [
-                        "2",
-                        "GlW",
                         "Gl",
-                        "Kn"
+                        "Kn",
+                        "2",
+                        "GlW"
                     ]
                 },
                 {
@@ -158,10 +158,10 @@
                     "name": "Kaspressknödel mit Bouillongemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
                         "GlW",
+                        "Ei",
+                        "Mi",
                         "2"
                     ]
                 },
@@ -169,12 +169,12 @@
                     "name": "Jägerschnitzel vom Truthahn mit Waldpilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Mi",
                         "Gl",
-                        "GlG",
-                        "Kn",
                         "GlW",
+                        "3",
+                        "Kn",
+                        "GlG",
+                        "Mi",
                         "2"
                     ]
                 }
@@ -187,11 +187,11 @@
                     "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlD",
-                        "6",
                         "Gl",
-                        "Kn"
+                        "GlD",
+                        "Kn",
+                        "Mi",
+                        "6"
                     ]
                 },
                 {
@@ -215,17 +215,17 @@
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Mi",
-                        "99",
-                        "Ei",
                         "Gl",
-                        "GlG",
+                        "99",
                         "S",
-                        "Kn",
                         "GlW",
-                        "Sw",
+                        "3",
+                        "Kn",
                         "5",
+                        "GlG",
+                        "Sw",
+                        "Ei",
+                        "Mi",
                         "1"
                     ]
                 }
@@ -239,10 +239,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "So",
-                        "Kn",
                         "GlW",
-                        "Sl"
+                        "Kn",
+                        "Sl",
+                        "So"
                     ]
                 },
                 {
@@ -254,9 +254,9 @@
                     "name": "Zartweizen mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 },
                 {
@@ -268,15 +268,15 @@
                     "name": "Panierter Seelachs (MSC) mit Kartoffel-Gurken-Salat",
                     "price": "N/A",
                     "ingredients": [
-                        "3",
-                        "Mi",
-                        "Fi",
-                        "Ei",
                         "Gl",
-                        "11",
+                        "Sf",
                         "9",
                         "GlW",
-                        "Sf",
+                        "3",
+                        "Fi",
+                        "11",
+                        "Ei",
+                        "Mi",
                         "1"
                     ]
                 },
@@ -284,10 +284,10 @@
                     "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Ei",
                         "Mi",
-                        "GlW",
-                        "Gl"
+                        "GlW"
                     ]
                 }
             ]
