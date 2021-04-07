@@ -6,32 +6,15 @@
             "date": "2021-04-06",
             "dishes": [
                 {
-                    "name": "Pizza Salami",
-                    "price": "N/A",
-                    "ingredients": [
-                        "So",
-                        "2",
-                        "S",
-                        "GlG",
-                        "Kn",
-                        "1",
-                        "Sf",
-                        "GlW",
-                        "Mi",
-                        "3",
-                        "Gl"
-                    ]
-                },
-                {
                     "name": "Mafe - Senegalisches Gemüsecurry",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "2",
-                        "En",
-                        "Kn",
                         "GlW",
-                        "Gl"
+                        "En",
+                        "Gl",
+                        "Kn",
+                        "So"
                     ]
                 },
                 {
@@ -42,50 +25,33 @@
                     ]
                 },
                 {
-                    "name": "Kartoffelsuppe mit Speck",
+                    "name": "Tomaten-Kokos-Suppe",
                     "price": "N/A",
                     "ingredients": [
-                        "8",
-                        "Sl",
-                        "Mi",
-                        "3",
-                        "2"
-                    ]
-                },
-                {
-                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
-                    "price": "N/A",
-                    "ingredients": [
-                        "GlD",
+                        "GlW",
                         "2",
-                        "1",
-                        "Ei",
-                        "GlW",
-                        "Mi",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
-                    "name": "Truthahnschnitzel Art Hawaii mit Currysauce",
+                    "name": "Allgäuer Käsesnudeln mit Röstzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sf",
-                        "Mi",
+                        "2",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Mi",
+                        "1"
                     ]
                 },
                 {
-                    "name": "Schweineschnitzel Wiener Art",
+                    "name": "Lammgulasch nach Art der Provence",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "GlG",
-                        "Kn",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn"
                     ]
                 }
             ]
@@ -97,18 +63,24 @@
                     "name": "Gnocchi mit Schafskäse und frischem Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Sl",
-                        "Mi",
                         "Ei",
                         "GlW",
-                        "Gl"
+                        "Gl",
+                        "Kn",
+                        "Mi",
+                        "Sl"
                     ]
                 },
                 {
-                    "name": "Pizza des Tages",
+                    "name": "Pasta mit Schafskäsesauce und frischem Basilikum",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "Kn",
+                        "Mi",
+                        "Sl"
+                    ]
                 },
                 {
                     "name": "Gebratenes Putensteak mit Kräuterdip",
@@ -122,32 +94,38 @@
                     "name": "Marokkanische Linsensuppe mit Koriander und Minze, dazu Sojajoghurt",
                     "price": "N/A",
                     "ingredients": [
+                        "Sl",
+                        "So",
                         "Sf",
-                        "Sl"
+                        "3"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Currywurst mit Honig-Ingwer-Ketchup",
+                    "name": "Blumenkohlcremesuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "R",
-                        "S",
-                        "8"
-                    ]
-                },
-                {
-                    "name": "Pfannkuchen mit Erdbeer/Mascarpone-Füllung",
-                    "price": "N/A",
-                    "ingredients": [
+                        "GlW",
                         "Mi",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Tom Kha Gai (Scharfe Suppe mit Hühnerfleisch)",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "2",
+                        "Gl",
+                        "Kn"
+                    ]
+                },
+                {
+                    "name": "Pfannkuchen mit Honigbanane und Schokoladensauce (F)",
+                    "price": "N/A",
+                    "ingredients": [
                         "Ei",
                         "GlW",
+                        "Mi",
                         "Gl"
                     ]
                 }
@@ -160,16 +138,11 @@
                     "name": "Pasta all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "GlW",
-                        "Kn",
-                        "2"
+                        "2",
+                        "Gl",
+                        "Kn"
                     ]
-                },
-                {
-                    "name": "Pizza des Tages",
-                    "price": "N/A",
-                    "ingredients": []
                 },
                 {
                     "name": "Criollo - Reispfanne mit Bohnen und Gemüse",
@@ -188,18 +161,18 @@
                     "name": "Frische Rahmschwammerl",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Würzige Hähnchenschenkel Cajun Style mit Süßkartoffelpommes",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "2"
+                        "2",
+                        "Kn"
                     ]
                 }
             ]
@@ -211,24 +184,19 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
-                        "Kn",
-                        "Mi",
                         "GlW",
-                        "Gl"
+                        "So",
+                        "Gl",
+                        "Kn",
+                        "Mi"
                     ]
-                },
-                {
-                    "name": "Pizza des Tages",
-                    "price": "N/A",
-                    "ingredients": []
                 },
                 {
                     "name": "Bauerneintopf mit Bauernbrot",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 },
@@ -241,34 +209,29 @@
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
                     "name": "Gebratenes Seelachsfilet (MSC) kreolische Art mit Salsa",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "2",
-                        "En",
-                        "Se",
-                        "Kn",
-                        "Sl",
                         "GlW",
                         "Fi",
-                        "Gl"
+                        "Se",
+                        "So",
+                        "En",
+                        "Gl",
+                        "Kn",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "Ei",
+                        "GlW",
                         "3",
-                        "Gl"
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
