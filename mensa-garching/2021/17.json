@@ -9,19 +9,19 @@
                     "name": "Gnocchi mit Ragout von weißem (g.g.A.) und grünen Spargel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "Gl",
+                        "Sl",
+                        "Ei",
                         "Mi",
-                        "GlW",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Schweinerückensteak mit Steinpilzen in Rahm",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "S",
                         "GlW"
                     ]
@@ -30,18 +30,18 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "Sl",
                         "GlG",
-                        "Kn",
-                        "Sl"
+                        "Gl",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Bärlauchsuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -54,9 +54,9 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
+                        "Ei",
+                        "Mi",
                         "GlW"
                     ]
                 }
@@ -69,14 +69,14 @@
                     "name": "Maultaschen mit Frischkäsefüllung und Spargelragout (g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "Ei",
-                        "Gl",
                         "99",
+                        "Gl",
+                        "5",
+                        "Sl",
+                        "Ei",
                         "Mi",
                         "Sw",
-                        "GlW",
-                        "Sl"
+                        "GlW"
                     ]
                 },
                 {
@@ -84,15 +84,15 @@
                     "price": "N/A",
                     "ingredients": [
                         "1",
-                        "Gl",
-                        "3",
-                        "2",
-                        "Mi",
-                        "Kn",
-                        "GlG",
                         "So",
+                        "Gl",
+                        "GlG",
+                        "2",
+                        "3",
+                        "Mi",
                         "GlW",
-                        "S"
+                        "S",
+                        "Kn"
                     ]
                 },
                 {
@@ -100,16 +100,16 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Spargelcremesuppe (g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -125,25 +125,25 @@
                         "1",
                         "Gl",
                         "Ei",
-                        "Sf",
                         "2",
                         "Mi",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Sf",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Welsfilet mit Schmorgurkengemüse und Bärlauchsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
+                        "99",
                         "Gl",
                         "Fi",
-                        "99",
+                        "5",
                         "Mi",
-                        "Kn",
                         "Sw",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 }
             ]
@@ -155,14 +155,14 @@
                     "name": "Pasta Carbonara",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "Gl",
-                        "3",
+                        "Ei",
                         "2",
+                        "3",
                         "Mi",
-                        "Kn",
+                        "GlW",
                         "S",
-                        "GlW"
+                        "Kn"
                     ]
                 },
                 {
@@ -170,13 +170,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "1",
-                        "8",
-                        "Gl",
-                        "3",
-                        "2",
-                        "Mi",
-                        "GlG",
                         "So",
+                        "Gl",
+                        "8",
+                        "GlG",
+                        "2",
+                        "3",
+                        "Mi",
                         "GlW",
                         "S"
                     ]
@@ -185,15 +185,15 @@
                     "name": "Rindersteak mit Rotwein-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
-                        "Gl",
-                        "R",
                         "99",
-                        "Mi",
-                        "Kn",
-                        "Sw",
+                        "Gl",
+                        "5",
                         "GlG",
-                        "GlW"
+                        "Mi",
+                        "Sw",
+                        "GlW",
+                        "R",
+                        "Kn"
                     ]
                 },
                 {
@@ -207,8 +207,8 @@
                     "name": "Spargelcremesuppe (g.g.A.) mit frischer Kresse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -231,24 +231,24 @@
                     "name": "Pizza Verdura mit gebratenem Gemüse und Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "Kn",
-                        "GlG",
                         "So",
-                        "GlW"
+                        "Gl",
+                        "GlG",
+                        "Mi",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Curry-Mie-Nudeln mit Asiagemüse und grünem Spargel",
                     "price": "N/A",
                     "ingredients": [
-                        "Se",
-                        "Gl",
-                        "Sf",
-                        "2",
                         "So",
-                        "GlW"
+                        "Gl",
+                        "2",
+                        "Se",
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
@@ -267,31 +267,31 @@
                     "name": "Thailändische Frühlingsrolle mit Sweet-Chilisauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "Mi",
-                        "Kn",
                         "So",
+                        "Gl",
+                        "Sl",
+                        "Ei",
+                        "Mi",
                         "GlW",
-                        "Sl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "5",
                         "1",
-                        "Ei",
-                        "Gl",
-                        "3",
                         "99",
-                        "Mi",
-                        "Kn",
-                        "Sw",
+                        "Gl",
+                        "5",
                         "GlG",
+                        "Ei",
+                        "Mi",
+                        "3",
+                        "Sw",
                         "GlW",
-                        "S"
+                        "S",
+                        "Kn"
                     ]
                 }
             ]
@@ -303,8 +303,8 @@
                     "name": "Pasta mit weißem (g.g.A.) und grünem Spargel und Erbsen",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
                         "Gl",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -313,10 +313,10 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Fi",
-                        "ScM",
-                        "Mi",
                         "Sc",
+                        "ScM",
+                        "Fi",
+                        "Mi",
                         "GlW"
                     ]
                 },
@@ -325,8 +325,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "Kn",
-                        "GlW"
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -338,9 +338,9 @@
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Ei",
                         "Gl",
+                        "Ei",
+                        "Mi",
                         "GlW"
                     ]
                 }
