@@ -9,21 +9,21 @@
                     "name": "Pasta mit grünem Spargel, Bärlauch und Kirschtomaten",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Holzfällersteak vom Schwein",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "S",
-                        "GlW",
                         "3",
-                        "Kn",
-                        "GlG",
                         "2",
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "S",
+                        "GlG",
                         "Gl"
                     ]
                 },
@@ -39,9 +39,9 @@
                     "name": "Bärlauchsuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
@@ -53,8 +53,8 @@
                     "name": "Kartoffelröstis mit Kräutersahnequark",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -66,10 +66,10 @@
                     "name": "Pasta Pomodoro mit Tomaten und Basilikum",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "3",
-                        "Kn",
                         "2",
+                        "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -77,40 +77,40 @@
                     "name": "Pizza Contadina mit Tomate, Spinat und Ricotta",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Mi",
                         "GlW",
-                        "So",
-                        "Kn",
                         "GlG",
-                        "Gl"
+                        "Gl",
+                        "So"
                     ]
                 },
                 {
                     "name": "Rinderlende mit Kräuterbutter",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "Mi",
-                        "R",
-                        "Kn"
+                        "R"
                     ]
                 },
                 {
                     "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
                         "5",
-                        "3",
-                        "Sl"
+                        "Sl",
+                        "Sw",
+                        "3"
                     ]
                 },
                 {
                     "name": "Spargelcremesuppe (g.g.A.) mit frischer Kresse",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
@@ -119,15 +119,11 @@
                     "ingredients": []
                 },
                 {
-                    "name": "Quiche mit grünem und weißem (g.g.A.) Spargel",
+                    "name": "Kartoffelröstis mit Kräutersahnequark",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "GlW",
-                        "Mi",
-                        "1",
-                        "2",
-                        "Gl"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -136,22 +132,42 @@
             "date": "2021-04-21",
             "dishes": [
                 {
-                    "name": "Dinkel-Pasta mit frischem Schrobenhausener Spargel (g.g.A.) und Rucolapesto",
+                    "name": "Käsekrainer mit Bratensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "GlD",
-                        "ScM",
+                        "Sf",
+                        "3",
+                        "2",
                         "Kn",
+                        "Mi",
+                        "GlW",
+                        "R",
+                        "S",
+                        "GlG",
+                        "8",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Schaschlik",
+                    "name": "Dinkel-Pasta mit frischem Schrobenhausener Spargel (g.g.A.) und Rucolapesto",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
-                        "S"
+                        "Kn",
+                        "Sc",
+                        "GlD",
+                        "ScM",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Pasta Pomodoro mit Tomaten und Basilikum",
+                    "price": "N/A",
+                    "ingredients": [
+                        "3",
+                        "2",
+                        "Kn",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -160,41 +176,80 @@
                     "ingredients": [
                         "Sl",
                         "Sf",
-                        "So",
+                        "2",
                         "Kn",
-                        "2"
+                        "So"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Linseneintopf mit Gemüse",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "5",
+                        "Sl",
+                        "Sw",
+                        "3"
+                    ]
+                },
+                {
+                    "name": "Pfannkuchensuppe",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Sl",
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Spanferkelrollbraten mit Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "99",
+                        "S",
+                        "GlG",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Holzfällersteak vom Schwein",
+                    "price": "N/A",
+                    "ingredients": [
+                        "3",
+                        "2",
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "S",
+                        "GlG",
+                        "8",
+                        "Gl"
+                    ]
                 },
                 {
                     "name": "Veganes Kartoffelgratin mit Bärlauch, Spargel (g.g.A.) und veganer Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
-                        "Sw",
-                        "5",
-                        "GlW",
                         "Sf",
                         "3",
-                        "So",
+                        "GlW",
                         "1",
-                        "Gl"
+                        "99",
+                        "5",
+                        "Gl",
+                        "So",
+                        "Sw"
                     ]
                 },
                 {
-                    "name": "Münchner Gulasch vom Rind",
+                    "name": "Frischer Schrobenhausener Spargel (g.g.A.) mit zerlassener Butter",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "GlW",
-                        "Kn",
-                        "GlG",
-                        "R",
-                        "Gl"
+                        "Mi"
                     ]
                 }
             ]
@@ -207,30 +262,30 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Pizza Margherita mit Mozzarella",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
                         "GlW",
                         "GlG",
-                        "So",
-                        "Mi",
-                        "Gl"
+                        "Gl",
+                        "So"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
+                        "8",
                         "R",
-                        "S",
-                        "8"
+                        "Sf",
+                        "S"
                     ]
                 },
                 {
@@ -245,14 +300,17 @@
                     "price": "N/A",
                     "ingredients": [
                         "Kn",
-                        "GlW",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Kartoffelsuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Sl",
+                        "Mi"
+                    ]
                 }
             ]
         },
@@ -260,54 +318,74 @@
             "date": "2021-04-23",
             "dishes": [
                 {
-                    "name": "Pasta di Manzo mit Rindfleischstreifen in Balsamico",
+                    "name": "Gebratenes Seelachsfilet mit Bärlauchhollandaise",
                     "price": "N/A",
                     "ingredients": [
-                        "Sw",
-                        "5",
+                        "Sl",
+                        "Mi",
                         "GlW",
+                        "Ei",
+                        "Gl",
+                        "Fi"
+                    ]
+                },
+                {
+                    "name": "Holzfällersteak vom Schwein",
+                    "price": "N/A",
+                    "ingredients": [
+                        "3",
+                        "2",
                         "Kn",
-                        "R",
-                        "1",
+                        "Mi",
+                        "GlW",
+                        "S",
+                        "GlG",
+                        "8",
                         "Gl"
                     ]
                 },
                 {
-                    "name": "Gebratenes Zanderfilet mit Bärlauchhollandaise",
+                    "name": "Pasta di Manzo mit Rindfleischstreifen in Balsamico",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Fi",
-                        "Sl",
+                        "Kn",
                         "GlW",
-                        "Mi",
-                        "Gl"
+                        "1",
+                        "R",
+                        "5",
+                        "Gl",
+                        "Sw"
                     ]
                 },
                 {
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "So",
-                        "Kn",
                         "2",
-                        "Gl"
+                        "Kn",
+                        "GlW",
+                        "Gl",
+                        "So"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Tomatencremesuppe",
                     "price": "N/A",
-                    "ingredients": []
+                    "ingredients": [
+                        "Kn",
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ]
                 },
                 {
                     "name": "Pfannkuchen mit Himbeer-Panna-Cotta und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Mi",
+                        "Gl",
                         "GlW",
-                        "Gl"
+                        "Ei",
+                        "Mi"
                     ]
                 }
             ]

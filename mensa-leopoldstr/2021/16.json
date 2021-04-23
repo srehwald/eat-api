@@ -18,13 +18,13 @@
                     "price": "N/A",
                     "ingredients": [
                         "3",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl",
+                        "S",
                         "GlG",
                         "2",
-                        "Mi",
-                        "S"
+                        "Mi"
                     ]
                 },
                 {
@@ -40,16 +40,16 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Kartoffelröstis mit Kräutersahnequark",
                     "price": "N/A",
                     "ingredients": [
-                        "Mi",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -62,10 +62,19 @@
                     "price": "N/A",
                     "ingredients": [
                         "3",
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl",
                         "2"
+                    ]
+                },
+                {
+                    "name": "Rinderlende mit Kräuterbutter",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Mi",
+                        "R"
                     ]
                 },
                 {
@@ -73,9 +82,9 @@
                     "price": "N/A",
                     "ingredients": [
                         "3",
+                        "Sw",
                         "5",
-                        "Sl",
-                        "Sw"
+                        "Sl"
                     ]
                 },
                 {
@@ -83,7 +92,15 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
+                        "Mi",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Gegrilltes Putensteak mit Kräuterbutter",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
                         "Mi"
                     ]
                 },
@@ -91,11 +108,11 @@
                     "name": "Quiche mit grünem und weißem (g.g.A.) Spargel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "1",
                         "GlW",
                         "Gl",
+                        "Ei",
                         "2",
+                        "1",
                         "Mi"
                     ]
                 }
@@ -110,52 +127,72 @@
                     "ingredients": [
                         "Kn",
                         "Gl",
-                        "GlD",
                         "ScM",
-                        "Sc"
+                        "Sc",
+                        "GlD"
                     ]
                 },
                 {
                     "name": "Asiatische Reis-Gemüsepfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "Kn",
                         "Sl",
+                        "Sf",
                         "2",
-                        "Sf"
+                        "So"
                     ]
                 },
                 {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
-                },
-                {
-                    "name": "Veganes Kartoffelgratin mit Bärlauch, Spargel (g.g.A.) und veganer Sauce",
+                    "name": "Scharfe Arabische Gemüsesuppe",
                     "price": "N/A",
                     "ingredients": [
-                        "99",
+                        "Kn",
+                        "2"
+                    ]
+                },
+                {
+                    "name": "Linseneintopf mit Gemüse",
+                    "price": "N/A",
+                    "ingredients": [
                         "3",
+                        "Sw",
                         "5",
-                        "So",
-                        "1",
-                        "GlW",
-                        "Gl",
-                        "Sf",
-                        "Sw"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Münchner Gulasch vom Rind",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
                         "Kn",
                         "GlW",
                         "Gl",
                         "GlG",
+                        "R",
                         "Mi"
+                    ]
+                },
+                {
+                    "name": "Veganes Kartoffelgratin mit Bärlauch, Spargel (g.g.A.) und veganer Sauce",
+                    "price": "N/A",
+                    "ingredients": [
+                        "3",
+                        "GlW",
+                        "Sw",
+                        "Gl",
+                        "99",
+                        "5",
+                        "So"
+                    ]
+                },
+                {
+                    "name": "Überbackenes Hacksteak mit Weißkäse",
+                    "price": "N/A",
+                    "ingredients": [
+                        "R",
+                        "Mi",
+                        "Sf"
                     ]
                 }
             ]
@@ -167,19 +204,26 @@
                     "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Kn",
                         "GlW",
-                        "Gl",
                         "Mi",
-                        "Kn"
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "8",
                         "R",
+                        "8",
                         "S",
+                        "Sf"
+                    ]
+                },
+                {
+                    "name": "Putensteak mit Honig-Ingwer-Ketchup",
+                    "price": "N/A",
+                    "ingredients": [
                         "Sf"
                     ]
                 },
@@ -191,18 +235,33 @@
                     ]
                 },
                 {
+                    "name": "Dinkel-Pasta mit frischem Schrobenhausener Spargel (g.g.A.) und Rucolapesto",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "Gl",
+                        "ScM",
+                        "Sc",
+                        "GlD"
+                    ]
+                },
+                {
                     "name": "Couscous mit Pilzen, Tomaten und Mangold",
+                    "price": "N/A",
+                    "ingredients": [
+                        "Kn",
+                        "GlW",
+                        "Gl"
+                    ]
+                },
+                {
+                    "name": "Erbsensuppe",
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
                         "Gl",
-                        "Kn"
+                        "Sl"
                     ]
-                },
-                {
-                    "name": "Tagessuppe",
-                    "price": "N/A",
-                    "ingredients": []
                 }
             ]
         },
@@ -210,35 +269,35 @@
             "date": "2021-04-23",
             "dishes": [
                 {
-                    "name": "Spargel-Zitronen-Pasta mit Weißkäse (Weißer Spargel g.g.gA.)",
+                    "name": "Gebratenes Zanderfilet mit Bärlauchhollandaise",
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
                         "Gl",
+                        "Sl",
+                        "Ei",
+                        "Fi",
                         "Mi"
                     ]
                 },
                 {
-                    "name": "Gebratenes Zanderfilet mit Bärlauchhollandaise",
+                    "name": "Spargel-Zitronen-Pasta mit Weißkäse (Weißer Spargel g.g.gA.)",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Fi",
                         "GlW",
-                        "Gl",
-                        "Sl",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "So",
                         "Kn",
                         "GlW",
                         "Gl",
-                        "2"
+                        "2",
+                        "So"
                     ]
                 },
                 {
@@ -246,8 +305,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "GlW",
-                        "Gl",
-                        "Mi"
+                        "Mi",
+                        "Gl"
                     ]
                 },
                 {
@@ -256,13 +315,25 @@
                     "ingredients": []
                 },
                 {
+                    "name": "Seelachsfilet paniert mit Bärlauchhollandaise",
+                    "price": "N/A",
+                    "ingredients": [
+                        "GlW",
+                        "Gl",
+                        "Sl",
+                        "Ei",
+                        "Fi",
+                        "Mi"
+                    ]
+                },
+                {
                     "name": "Pfannkuchen mit Himbeer-Panna-Cotta und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Ei",
-                        "Mi",
-                        "GlW"
+                        "Gl",
+                        "Mi"
                     ]
                 }
             ]
