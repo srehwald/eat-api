@@ -9,20 +9,20 @@
                     "name": "Pasta all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
-                        "Gl",
-                        "2"
+                        "Kn",
+                        "2",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Frischer Schrobenhausener Spargel (g.g.A.) mit Kerbel-Hollandaise und gebratenem Schweinefilet",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Ei",
                         "S",
-                        "Mi"
+                        "Sl",
+                        "Mi",
+                        "Ei"
                     ]
                 },
                 {
@@ -49,11 +49,11 @@
                     "name": "Spinatknödel Tiroler Art mit Bergkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Sl",
-                        "Ei",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Sl"
                     ]
                 }
             ]
@@ -65,35 +65,35 @@
                     "name": "Pizza Funghi mit Champignons",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "GlG",
                         "Gl",
                         "Mi",
-                        "So"
+                        "So",
+                        "GlW",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Roast beef mit Schmorzwiebelsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "Kn",
-                        "GlW",
-                        "GlG",
                         "Gl",
-                        "Mi"
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "R",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Zweierlei gebratener Spargel (g.g.A.) mit Mie-Nudeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "2",
                         "Gl",
-                        "Sf",
-                        "So"
+                        "Kn",
+                        "2",
+                        "So",
+                        "GlW",
+                        "Sf"
                     ]
                 },
                 {
@@ -118,13 +118,13 @@
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlD",
-                        "GlW",
-                        "2",
-                        "Ei",
                         "Gl",
+                        "2",
                         "Mi",
-                        "1"
+                        "GlW",
+                        "1",
+                        "Ei",
+                        "GlD"
                     ]
                 }
             ]
@@ -136,10 +136,10 @@
                     "name": "Pasta Frutti di Mare",
                     "price": "N/A",
                     "ingredients": [
-                        "Kr",
-                        "GlW",
-                        "Wt",
                         "Gl",
+                        "Wt",
+                        "GlW",
+                        "Kr",
                         "6"
                     ]
                 },
@@ -159,40 +159,40 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "Kn",
+                        "Mi",
+                        "So",
                         "GlW",
                         "Ei",
-                        "Gl",
-                        "Sl",
-                        "Mi",
-                        "So"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
-                        "99",
-                        "GlG",
-                        "Sw",
                         "Gl",
                         "5",
-                        "Mi"
+                        "Sw",
+                        "99",
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Dinkelpfannkuchen mit Haselnuss-Nougat-Füllung und Vaniilesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlD",
-                        "ScH",
-                        "Sc",
-                        "Ei",
                         "Gl",
+                        "Sc",
                         "Mi",
-                        "So"
+                        "So",
+                        "Ei",
+                        "ScH",
+                        "GlD"
                     ]
                 }
             ]
@@ -204,33 +204,33 @@
                     "name": "Pizza Quattro Stagioni mit (Vorder-)Schinken, Paprika, Champignons und Oliven",
                     "price": "N/A",
                     "ingredients": [
+                        "S",
+                        "Gl",
                         "8",
+                        "2",
+                        "Mi",
+                        "So",
                         "GlW",
                         "3",
-                        "GlG",
-                        "2",
-                        "Gl",
-                        "S",
-                        "Mi",
-                        "So"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "R",
-                        "8",
                         "S",
-                        "Sf"
+                        "R",
+                        "Sf",
+                        "8"
                     ]
                 },
                 {
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
                         "GlW",
+                        "Kn",
                         "Gl"
                     ]
                 },
@@ -243,24 +243,24 @@
                     "name": "Blätterteigtasche gefüllt mit Spinat und Hirtenkäse mit Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Se",
-                        "GlW",
-                        "Sc",
-                        "Ei",
                         "Gl",
-                        "Sl",
-                        "Mi"
+                        "Se",
+                        "Sc",
+                        "Kn",
+                        "Mi",
+                        "GlW",
+                        "Ei",
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Spargellasagne (g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "2",
                         "Gl",
+                        "2",
                         "Mi",
+                        "GlW",
                         "1"
                     ]
                 }
@@ -273,19 +273,19 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "GlW",
                         "Gl",
+                        "Kn",
                         "Mi",
-                        "So"
+                        "So",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Bauerneintopf mit Bauernbrot",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "GlW",
+                        "Sl",
                         "Gl"
                     ]
                 },
@@ -299,20 +299,20 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sl",
+                        "Mi",
                         "Fi",
-                        "Ei",
-                        "Mi"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
+                        "Mi",
                         "GlW",
                         "3",
-                        "Ei",
-                        "Gl",
-                        "Mi"
+                        "Ei"
                     ]
                 }
             ]
