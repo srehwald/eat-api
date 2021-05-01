@@ -9,11 +9,11 @@
                     "name": "Bio-Pasta mit Bio-Soja-Bolognese (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
+                        "GlW",
                         "Kn",
+                        "Gl",
                         "Mi",
-                        "So",
-                        "GlW"
+                        "So"
                     ]
                 },
                 {
@@ -27,10 +27,10 @@
                     "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Sl",
                         "Kn",
-                        "Gl"
+                        "Sl"
                     ]
                 },
                 {
@@ -42,24 +42,24 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Alm Cordon bleu gefüllt mit Bergkäse und rohem Schinken",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "Gl",
-                        "Kn",
-                        "2",
-                        "Mi",
                         "GlW",
-                        "GlG",
-                        "Ei"
+                        "Ei",
+                        "S",
+                        "Kn",
+                        "Gl",
+                        "Mi",
+                        "2",
+                        "GlG"
                     ]
                 }
             ]
@@ -71,24 +71,24 @@
                     "name": "Bio-Pasta Napoli (Bio-Tomaten-Basilikumsauce)",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
                         "GlW",
-                        "Kn",
-                        "Gl"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pizza Salami",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "Gl",
-                        "Kn",
-                        "2",
-                        "Mi",
-                        "So",
                         "GlW",
-                        "3",
                         "1",
+                        "S",
+                        "Kn",
+                        "3",
+                        "Gl",
+                        "Mi",
+                        "2",
+                        "So",
                         "GlG"
                     ]
                 },
@@ -96,19 +96,19 @@
                     "name": "Gebratenes Rindersteak mit Schrobenhausener Spargel (g.g.A.) und Sauce Hollandaise",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "Sl"
                     ]
                 },
                 {
                     "name": "Grüne Bohnen-Kartoffel-Gemüse in Kokos-Zitronensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "Sf"
+                        "GlW",
+                        "Sf",
+                        "Kn"
                     ]
                 },
                 {
@@ -120,9 +120,9 @@
                     "name": "Überbackenes Rösti mit Spargel (g.g.A.), Tomate und Käse",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
                         "2",
-                        "1",
-                        "Mi"
+                        "1"
                     ]
                 }
             ]
@@ -134,10 +134,10 @@
                     "name": "Pasta mit Champignonrahmsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
@@ -159,35 +159,35 @@
                     "name": "Limonensuppe mit grünem Spargel",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Maultaschen mit Frischkäsefüllung und Spargelragout (g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "5",
-                        "Sw",
                         "99",
-                        "Mi",
                         "GlW",
                         "Ei",
-                        "Sl"
+                        "Sl",
+                        "Gl",
+                        "Mi",
+                        "Sw",
+                        "5"
                     ]
                 },
                 {
                     "name": "Zanderfilet mit Sauce Hollandaise",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Fi",
-                        "Mi",
                         "GlW",
                         "Ei",
-                        "Sl"
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "Fi"
                     ]
                 }
             ]
@@ -199,23 +199,23 @@
                     "name": "Bio-Penne mit Bio-Tomaten-Zucchinisauce (dazu Hartkäse)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "Mi"
+                        "Mi",
+                        "GlW",
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "8",
-                        "2",
-                        "Mi",
-                        "So",
                         "GlW",
                         "3",
+                        "Gl",
+                        "Mi",
+                        "2",
+                        "So",
+                        "8",
                         "GlG"
                     ]
                 },
@@ -223,20 +223,20 @@
                     "name": "Gegrillter Spargel (g.g.A.) mit Mango-Mandel-Salsa",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "ScM"
+                        "ScM",
+                        "Sc"
                     ]
                 },
                 {
                     "name": "Green Thai Curry mit Spargel (g.g.A.) und Rinderstreifen",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "2",
-                        "So",
                         "GlW",
-                        "R"
+                        "Kn",
+                        "Gl",
+                        "2",
+                        "R",
+                        "So"
                     ]
                 },
                 {
@@ -260,11 +260,11 @@
                     "name": "Vegane Strozzapreti Carbonara mit Räuchertofu",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "So",
                         "GlW",
-                        "Sl"
+                        "Sl",
+                        "Kn",
+                        "Gl",
+                        "So"
                     ]
                 },
                 {
@@ -283,36 +283,36 @@
                     "name": "Halbes Hendl mit Bratensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Kn",
-                        "Mi",
                         "GlW",
-                        "GlG",
-                        "Sl"
+                        "Kn",
+                        "Gl",
+                        "Mi",
+                        "Sl",
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Spargel (g.g.A.) Finkenwerder Art mit Speck und Shrimps",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
-                        "Gl",
-                        "8",
-                        "2",
                         "GlW",
-                        "3",
                         "1",
-                        "Kr"
+                        "S",
+                        "3",
+                        "Gl",
+                        "2",
+                        "Kr",
+                        "8"
                     ]
                 },
                 {
                     "name": "Apfelstrudel mit Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Gl",
+                        "Ei",
                         "Mi",
-                        "Ei"
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
