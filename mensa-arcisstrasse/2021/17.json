@@ -14,20 +14,20 @@
                     "name": "Schweinerückensteak mit Steinpilzen in Rahm",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "GlW",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "S"
                     ]
                 },
                 {
                     "name": "Gnocchi mit Ragout von weißem (g.g.A.) und grünen Spargel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "Gl",
+                        "Ei",
                         "GlW",
+                        "Mi",
                         "Sl"
                     ]
                 },
@@ -35,8 +35,8 @@
                     "name": "Graupen-Gemüse-Pfanne",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
                         "GlG",
+                        "Sl",
                         "Kn",
                         "Gl"
                     ]
@@ -59,10 +59,10 @@
                     "name": "Spinatspätzlepfanne mit Bergkäse und abgeschmelzten Zwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
                         "GlW",
                         "Mi",
-                        "Gl"
+                        "Gl",
+                        "Ei"
                     ]
                 }
             ]
@@ -79,14 +79,14 @@
                     "name": "Maultaschen mit Frischkäsefüllung und Spargelragout (g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "5",
-                        "Mi",
-                        "99",
-                        "GlW",
                         "Sw",
-                        "Sl"
+                        "Gl",
+                        "Ei",
+                        "GlW",
+                        "Mi",
+                        "Sl",
+                        "5",
+                        "99"
                     ]
                 },
                 {
@@ -116,28 +116,28 @@
                     "name": "Kartoffel-Pilz-Auflauf mit frischem Lauch und Dip",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "Mi",
-                        "1",
-                        "GlW",
+                        "2",
                         "Sf",
+                        "Gl",
+                        "Ei",
+                        "GlW",
                         "Kn",
-                        "2"
+                        "Mi",
+                        "1"
                     ]
                 },
                 {
                     "name": "Welsfilet mit Schmorgurkengemüse und Bärlauchsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "5",
-                        "Mi",
-                        "99",
-                        "GlW",
                         "Sw",
+                        "Gl",
+                        "GlW",
+                        "Fi",
                         "Kn",
-                        "Fi"
+                        "Mi",
+                        "5",
+                        "99"
                     ]
                 }
             ]
@@ -154,25 +154,25 @@
                     "name": "Rindersteak mit Rotwein-Zwiebel-Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "5",
-                        "Mi",
-                        "99",
-                        "GlW",
                         "Sw",
-                        "GlG",
+                        "R",
+                        "Gl",
+                        "GlW",
                         "Kn",
-                        "R"
+                        "Mi",
+                        "GlG",
+                        "5",
+                        "99"
                     ]
                 },
                 {
                     "name": "Cannelloni mit Spinat-Ricotta-Füllung und weißem Spargel (g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "Mi",
                         "Gl",
+                        "Ei",
                         "GlW",
+                        "Mi",
                         "Sl"
                     ]
                 },
@@ -211,12 +211,12 @@
                     "name": "Hausgemachte Spinatlasagne",
                     "price": "N/A",
                     "ingredients": [
+                        "2",
                         "Gl",
-                        "Mi",
-                        "1",
                         "GlW",
                         "Kn",
-                        "2"
+                        "Mi",
+                        "1"
                     ]
                 },
                 {
@@ -228,12 +228,12 @@
                     "name": "Curry-Mie-Nudeln mit Asiagemüse und grünem Spargel",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
+                        "2",
+                        "So",
                         "Se",
                         "Sf",
-                        "2",
-                        "So"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -252,18 +252,18 @@
                     "name": "Schweinebraten mit Biersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
-                        "S",
-                        "Gl",
-                        "5",
-                        "Mi",
-                        "99",
-                        "1",
-                        "GlW",
                         "Sw",
+                        "S",
+                        "Ei",
+                        "Gl",
+                        "GlW",
                         "3",
+                        "Kn",
+                        "Mi",
+                        "1",
                         "GlG",
-                        "Kn"
+                        "5",
+                        "99"
                     ]
                 }
             ]
@@ -281,11 +281,11 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sc",
-                        "Mi",
                         "Gl",
                         "GlW",
+                        "Fi",
                         "ScM",
-                        "Fi"
+                        "Mi"
                     ]
                 },
                 {
@@ -315,12 +315,12 @@
                     "name": "Quiche mit grünem und weißem (g.g.A.) Spargel",
                     "price": "N/A",
                     "ingredients": [
-                        "Ei",
+                        "2",
                         "Gl",
-                        "Mi",
-                        "1",
+                        "Ei",
                         "GlW",
-                        "2"
+                        "Mi",
+                        "1"
                     ]
                 }
             ]
