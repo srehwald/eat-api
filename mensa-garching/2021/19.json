@@ -9,23 +9,23 @@
                     "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Sl",
                         "Gl",
-                        "Mi",
+                        "GlW",
                         "Ei",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
                     "name": "Kotelett vom Lamm mit Rosmarinjus",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "GlG",
                         "Gl",
+                        "GlW",
+                        "Kn",
                         "Mi",
-                        "Kn"
+                        "GlG"
                     ]
                 },
                 {
@@ -41,8 +41,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "Gl",
-                        "GlW",
                         "2",
+                        "GlW",
                         "Kn"
                     ]
                 },
@@ -55,12 +55,12 @@
                     "name": "Gefüllte Paprikaschote mit Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "Mi",
                         "GlD",
-                        "2"
+                        "GlW",
+                        "2",
+                        "Kn",
+                        "Mi"
                     ]
                 }
             ]
@@ -72,8 +72,8 @@
                     "name": "Pasta mit Gorgonzolasauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -81,41 +81,41 @@
                     "name": "Pizza Margherita mit Mozzarella",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "GlG",
                         "Gl",
+                        "GlW",
+                        "So",
                         "Mi",
-                        "So"
+                        "GlG"
                     ]
                 },
                 {
                     "name": "Phad Thai mit Spargel (g.g.A.) und Tofuwürfeln",
                     "price": "N/A",
                     "ingredients": [
+                        "Gl",
+                        "Fi",
                         "GlW",
                         "En",
-                        "Se",
-                        "Kn",
-                        "Fi",
-                        "Gl",
+                        "2",
                         "So",
-                        "2"
+                        "Kn",
+                        "Se"
                     ]
                 },
                 {
                     "name": "Getreidepfanne mit frischem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlG"
+                        "GlG",
+                        "Gl"
                     ]
                 },
                 {
                     "name": "Spargelcremesuppe (g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -123,17 +123,17 @@
                     "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "GlG",
-                        "Sf",
                         "Gl",
-                        "Mi",
-                        "Sw",
-                        "S",
-                        "3",
                         "5",
+                        "GlW",
+                        "Sw",
+                        "3",
                         "Ei",
-                        "Kn"
+                        "S",
+                        "Kn",
+                        "Mi",
+                        "GlG",
+                        "Sf"
                     ]
                 }
             ]
@@ -145,15 +145,15 @@
                     "name": "Schinkennudeln (Vorderschinken) mit Zwiebeln und Ei",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Kn",
                         "Gl",
-                        "Mi",
-                        "S",
+                        "8",
+                        "GlW",
                         "3",
-                        "Ei",
                         "2",
-                        "8"
+                        "Ei",
+                        "S",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -161,8 +161,8 @@
                     "price": "N/A",
                     "ingredients": [
                         "Mi",
-                        "Ei",
-                        "Sl"
+                        "Sl",
+                        "Ei"
                     ]
                 },
                 {
@@ -176,8 +176,8 @@
                     "name": "Buntes Gemüse in scharfer Kokosmilch",
                     "price": "N/A",
                     "ingredients": [
-                        "Sf",
                         "2",
+                        "Sf",
                         "Kn"
                     ]
                 },
@@ -190,10 +190,10 @@
                     "name": "Knöpflepfanne mit weißem (g.g.A.) und grünem Spargel und Pilzen",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Sl",
                         "Gl",
                         "GlD",
+                        "GlW",
                         "Ei"
                     ]
                 }
@@ -215,11 +215,11 @@
                     "name": "Lachsfilet auf Blattspinat",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Fi",
-                        "Mi",
                         "Gl",
-                        "Kn"
+                        "Fi",
+                        "GlW",
+                        "Kn",
+                        "Mi"
                     ]
                 },
                 {
@@ -239,8 +239,8 @@
                     "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
+                        "Gl",
                         "Ei",
                         "GlW"
                     ]
