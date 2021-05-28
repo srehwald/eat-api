@@ -9,10 +9,10 @@
                     "name": "Pasta all'arrabiata",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "GlW",
                         "Kn",
-                        "2"
+                        "2",
+                        "GlW",
+                        "Gl"
                     ]
                 },
                 {
@@ -24,18 +24,18 @@
                     "name": "Frischer Schrobenhausener Spargel (g.g.A.) mit Kerbel-Hollandaise und gebratenem Schweinefilet",
                     "price": "N/A",
                     "ingredients": [
+                        "Mi",
                         "S",
-                        "Ei",
                         "Sl",
-                        "Mi"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Vegane Kartoffel-Spargel-Tortilla mit Rucola (weißer Spargel g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
-                        "Lu"
+                        "Lu",
+                        "Kn"
                     ]
                 },
                 {
@@ -54,10 +54,10 @@
                     "name": "Spinatknödel Tiroler Art mit Bergkäse",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Gl",
-                        "Mi",
                         "Ei",
+                        "Mi",
+                        "Gl",
+                        "Sl",
                         "GlW"
                     ]
                 }
@@ -70,13 +70,13 @@
                     "name": "Penne Quattro Formaggi",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "1",
-                        "2",
-                        "Kn",
                         "Ei",
-                        "Gl"
+                        "2",
+                        "Mi",
+                        "Kn",
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
@@ -88,12 +88,12 @@
                     "name": "Roast beef mit Schmorzwiebelsauce",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Gl",
                         "Mi",
                         "Kn",
-                        "R",
-                        "GlW"
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "R"
                     ]
                 },
                 {
@@ -101,28 +101,28 @@
                     "price": "N/A",
                     "ingredients": [
                         "Sf",
-                        "GlW",
-                        "So",
                         "2",
+                        "So",
                         "Kn",
-                        "Gl"
+                        "Gl",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Indisches Linsencurry",
                     "price": "N/A",
                     "ingredients": [
-                        "Kn",
+                        "Sf",
                         "Sl",
-                        "Sf"
+                        "Kn"
                     ]
                 },
                 {
                     "name": "Spargelcremesuppe (g.g.A.) mit frischer Kresse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Mi",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -135,13 +135,13 @@
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "price": "N/A",
                     "ingredients": [
-                        "GlD",
-                        "GlW",
-                        "Mi",
                         "1",
-                        "2",
                         "Ei",
-                        "Gl"
+                        "2",
+                        "Mi",
+                        "Gl",
+                        "GlD",
+                        "GlW"
                     ]
                 }
             ]
@@ -153,10 +153,10 @@
                     "name": "Pasta Frutti di Mare",
                     "price": "N/A",
                     "ingredients": [
-                        "6",
                         "Kr",
-                        "Wt",
                         "Gl",
+                        "Wt",
+                        "6",
                         "GlW"
                     ]
                 },
@@ -181,12 +181,12 @@
                     "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sl",
-                        "Gl",
+                        "Ei",
                         "So",
                         "Mi",
                         "Kn",
-                        "Ei",
+                        "Gl",
+                        "Sl",
                         "GlW"
                     ]
                 },
@@ -194,27 +194,27 @@
                     "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "price": "N/A",
                     "ingredients": [
-                        "GlG",
-                        "Kn",
-                        "GlW",
-                        "Mi",
-                        "5",
                         "99",
+                        "Mi",
                         "Sw",
-                        "Gl"
+                        "Kn",
+                        "Gl",
+                        "5",
+                        "GlG",
+                        "GlW"
                     ]
                 },
                 {
                     "name": "Dinkelpfannkuchen mit Haselnuss-Nougat-Füllung und Vaniilesauce",
                     "price": "N/A",
                     "ingredients": [
+                        "Ei",
                         "Sc",
+                        "So",
+                        "Mi",
                         "Gl",
                         "GlD",
-                        "So",
-                        "ScH",
-                        "Ei",
-                        "Mi"
+                        "ScH"
                     ]
                 }
             ]
@@ -226,12 +226,12 @@
                     "name": "Bio-Pasta bolognese",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "Mi",
-                        "S",
                         "Kn",
-                        "R",
-                        "GlW"
+                        "Gl",
+                        "S",
+                        "GlW",
+                        "R"
                     ]
                 },
                 {
@@ -243,9 +243,9 @@
                     "name": "Currywurst mit Honig-Ingwer-Ketchup",
                     "price": "N/A",
                     "ingredients": [
-                        "S",
                         "Sf",
                         "R",
+                        "S",
                         "8"
                     ]
                 },
@@ -253,8 +253,8 @@
                     "name": "Couscous mit mediterranem Gemüse",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Kn",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -267,13 +267,13 @@
                     "name": "Blätterteigtasche gefüllt mit Spinat und Hirtenkäse mit Tomatensauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Sc",
-                        "Sl",
-                        "Gl",
-                        "Mi",
-                        "Se",
-                        "Kn",
                         "Ei",
+                        "Sc",
+                        "Se",
+                        "Mi",
+                        "Kn",
+                        "Gl",
+                        "Sl",
                         "GlW"
                     ]
                 },
@@ -281,11 +281,11 @@
                     "name": "Spargellasagne (g.g.A.)",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
-                        "Mi",
                         "1",
                         "2",
-                        "Gl"
+                        "Mi",
+                        "Gl",
+                        "GlW"
                     ]
                 }
             ]
@@ -297,10 +297,10 @@
                     "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
                         "So",
                         "Mi",
                         "Kn",
+                        "Gl",
                         "GlW"
                     ]
                 },
@@ -313,8 +313,8 @@
                     "name": "Bauerneintopf mit Bauernbrot",
                     "price": "N/A",
                     "ingredients": [
-                        "GlW",
                         "Sl",
+                        "GlW",
                         "Gl"
                     ]
                 },
@@ -328,19 +328,19 @@
                     "price": "N/A",
                     "ingredients": [
                         "Fi",
-                        "Ei",
+                        "Mi",
                         "Sl",
-                        "Mi"
+                        "Ei"
                     ]
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",
                     "price": "N/A",
                     "ingredients": [
-                        "Gl",
-                        "Mi",
-                        "3",
                         "Ei",
+                        "Mi",
+                        "Gl",
+                        "3",
                         "GlW"
                     ]
                 }
