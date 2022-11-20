@@ -1,3 +1,5 @@
+# This project has been moved to [TUM-Dev/eat-api](https://github.com/TUM-Dev/eat-api)
+
 # eat-api
 
 [![Build Status](https://travis-ci.org/srehwald/eat-api.svg?branch=master)](https://travis-ci.org/srehwald/eat-api)
